@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xmlns:extRif="http://ands.org.au/standards/rif-cs/extendedRegistryObjects" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+
+<registryObject group="AUTestingRecords3">
+    <key>http://AUT.org/au-research/grants/arc/LS06001</key>
+    <originatingSource>arc.gov.au/general/searchable_data.htm</originatingSource>
+    <activity type="grant">
+      <name type="primary">
+        <namePart>(AUTestingRecords3)New Social Policy Approaches for Sharing Risk</namePart>
+      </name>
+      <identifier type="purl">http://AUT.org/au-research/grants/arc/LS06001AUTx.Grant</identifier>
+      <identifier type="arc">LS06001AUTx.Grant</identifier>
+      <relatedObject>
+        <key>http://dx.doi.org/10.13039/AUT2.xDept</key>
+        <relation type="isFundedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://nla.gov.au/nla.party-AUT2</key>
+        <relation type="isManagedBy"/>
+      </relatedObject>
+      <description type="brief">The project is motivated by the prospect of substantially improving social policy outcomes in significant and innovative ways. In an ageing society the costs of social support are rising, and new ways of supporting age costs and of increasing the work-force base are needed. The adoption of (IRL) systems promise to help address these needs. Moreover they would do so in attractive ways by:� embedding principles of so-called �mutual obligation�. Those supported will repay when they succeed;� reducing the contributions of average taxpayers (many of whom are not privileged) in support of the advantaged;� improving the society�s capacity to decrease risks. This associated default protection will encourage higher levels of investment and other useful activities. � improving budget performance. Grant arrangements can be reformed to generate public revenue at low administrative cost.Existing research has illustrated benefits of IRL in areas such as higher education and innovation. This project explores the potential for national and community benefits from a set of social IRL applications. The areas of aged care, child care, disability support, and migrant support have been chosen as important policy areas with the potential for major policy change based on these mechanisms. Through application in these areas IRL can help mitigate the costs of demographic ageing as well as producing intrinsically desirable social outcomes for individuals in the groups identified, enabling them to better manage risk and invest in their futures.</description>
+      <description type="fundingAmount">$103,000</description>
+      <description type="fundingScheme">Linkage Learned Academies Special Projects</description>
+      <description type="researchers">Prof B Chapman</description>
+      <existenceDates>
+        <startDate dateFormat="W3CDTF">2006</startDate>
+        <endDate dateFormat="W3CDTF">2007</endDate>
+      </existenceDates>
+    </activity>
+  </registryObject>
+
+  <registryObject group="AUTestingRecords3">
+    <key>http://AUT.org/au-research/grants/arc/LP0455742</key>
+    <originatingSource>arc.gov.au/general/searchable_data.htm</originatingSource>
+    <activity type="grant">
+      <name type="primary">
+        <namePart>(AUTestingRecords3)Development of an integrated sustainability framework for best management practice of urban water systems</namePart>
+      </name>
+      <identifier type="purl">http://AUT.org/au-research/grants/arc/LP0455742AUTx.Grant</identifier>
+      <identifier type="arc">LP0455742AUTx.Grant</identifier>
+      <relatedObject>
+        <key>http://dx.doi.org/10.13039/AUT2.xDept</key>
+        <relation type="isFundedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://nla.gov.au/nla.party-AUT2</key>
+        <relation type="isManagedBy"/>
+      </relatedObject>
+      <subject type="anzsrc-for">0502</subject>
+      <subject type="local">life cycle assessment</subject>
+      <subject type="local">life cycle costing</subject>
+      <subject type="local">microbiological risk assessment</subject>
+      <subject type="local">resource management</subject>
+      <subject type="local">sustainability of urban water systems</subject>
+      <description type="brief">The aim of the project is to develop an integrated sustainability framework for Australian urban water systems. The project will aim to overcome major methodological limitations that are caused by the separate consideration of environmental impacts, health risks, economic and social aspects, by taking a holistic, inter-disciplinary and integrated approach. The outcome will be a sound, comprehensive, mostly quantitative, reproducible, transparent and reliable framework for sustainability. This new method will be trialled for developing sustainable water strategies for five major Australian cities. Its value is greatly increased by the fact that the project will be developed with strong community engagement.</description>
+      <description type="fundingAmount">$136,839</description>
+      <description type="fundingScheme">Linkage Projects</description>
+      <description type="researchers">Prof NJ Ashbolt;Dr S Lundie;</description>
+      <existenceDates>
+        <startDate dateFormat="W3CDTF">2004</startDate>
+        <endDate dateFormat="W3CDTF">2007</endDate>
+      </existenceDates>
+    </activity>
+  </registryObject>
+  
+  <registryObject group="AUTestingRecords3">
+    <key>http://AUT.org/au-research/grants/arc/DP0880074</key>
+    <originatingSource>arc.gov.au/general/searchable_data.htm</originatingSource>
+    <activity type="grant">
+      <name type="primary">
+        <namePart>(AUTestingRecords3)Latent variable modelling of discrete choice experiments</namePart>
+      </name>
+      <identifier type="purl">http://AUT.org/au-research/grants/arc/DP0880074AUTx.Grant</identifier>
+      <identifier type="arc">DP0880074AUTx.Grant</identifier>
+      <relatedObject>
+        <key>http://dx.doi.org/10.13039/AUT2.xDept</key>
+        <relation type="isFundedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://nla.gov.au/nla.party-AUT2</key>
+        <relation type="isManagedBy"/>
+      </relatedObject>
+      <subject type="anzsrc-for">1505</subject>
+      <subject type="local">choice models</subject>
+      <subject type="local">discrete choice experiments</subject>
+      <subject type="local">latent variable systems</subject>
+      <subject type="local">structural equation models</subject>
+      <subject type="local">variance components</subject>
+      <description type="brief">Discrete choice experiments and models are used to forecast consumer responses to changes in products policies and programs worldwide. Recent research suggests key model assumptions are violated because error variances covary with observed and unobserved factors. In order to address this, we will model systematic relationships between error variances and observed (eg, prices, survey length) and unobserved (eg, 'convenience', 'reputation') factors to improve model reliability and accuracy. This should lead to more accurate models/forecasts, benefitting business and government, which addresses the national priority of 'frontier technologies, promoting an innovative culture and economy'.</description>
+      <description type="fundingAmount">$250,780</description>
+      <description type="fundingScheme">Discovery Projects</description>
+      <description type="researchers">Prof JJ Louviere; Dr CM Rungie; A/Prof LV Coote</description>
+      <existenceDates>
+        <startDate dateFormat="W3CDTF">2008</startDate>
+        <endDate dateFormat="W3CDTF">2010</endDate>
+      </existenceDates>
+    </activity>
+  </registryObject>
+
+
+<registryObject group="AUTestingRecords3">
+    <key>http://AUT.org/au-research/grants/arc/DP0665938</key>
+    <originatingSource>arc.gov.au/general/searchable_data.htm</originatingSource>
+    <activity type="grant">
+      <name type="primary">
+        <namePart>(AUTestingRecords3)Heterobimetallic Coordination Complexes Containing Rare Earth and d-Block Ions</namePart>
+      </name>
+      <identifier type="purl">http://AUT.org/au-research/grants/arc/DP0665938AUTx.Grant</identifier>
+      <identifier type="arc">DP0665938AUTx.Grant</identifier>
+      <relatedObject>
+        <key>http://dx.doi.org/10.13039/AUT2.xDept</key>
+        <relation type="isFundedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://nla.gov.au/nla.party-AUT2</key>
+        <relation type="isManagedBy"/>
+      </relatedObject>
+      <subject type="anzsrc-for">0302</subject>
+      <subject type="local">advanced materials</subject>
+      <subject type="local">coordination polymers</subject>
+      <subject type="local">heterobimetallic</subject>
+      <subject type="local">molecular magnets</subject>
+      <subject type="local">rare earths</subject>
+      <subject type="local">transition metals</subject>
+      <description type="brief">Rare earth compounds have major industrial applications such as MRI contrast agents and as catalysts within the rubber and petroleum industries. The fundamental knowledge ensuing from this project has the potential to produce new and advanced magnetic materials. Nanotechnological industries are being developed in Australia and this research will provide materials with the capacity to act as optical or electrical switches, magnetic storage devices or molecular sensors. This pioneering work will ensure that Australia remains at the forefront of chemical research within the rapidly advancing field of magnetochemistry.</description>
+      <description type="fundingAmount">$272,000</description>
+      <description type="fundingScheme">Discovery Projects</description>
+      <description type="researchers">Dr DR Turner; Dr SR Batten</description>
+      <existenceDates>
+        <startDate dateFormat="W3CDTF">2006</startDate>
+        <endDate dateFormat="W3CDTF">2008</endDate>
+      </existenceDates>
+    </activity>
+  </registryObject>
+
+
+<registryObject group="AUTestingRecords3">
+    <key>http://AUT.org/au-research/grants/arc/DP0984787</key>
+    <originatingSource>arc.gov.au/general/searchable_data.htm</originatingSource>
+    <activity type="grant">
+      <name type="primary">
+        <namePart>(AUTestingRecords3)For Better or For Worse? Understanding the Revolution in Married Life in Australia.</namePart>
+      </name>
+      <identifier type="purl">http://AUT.org/au-research/grants/arc/DP0984787AUTx.Grant</identifier>
+      <identifier type="arc">DP0984787AUTx.Grant</identifier>
+      <relatedObject>
+        <key>http://dx.doi.org/10.13039/AUT2.xDept</key>
+        <relation type="isFundedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://nla.gov.au/nla.party-AUT2</key>
+        <relation type="isManagedBy"/>
+      </relatedObject>
+      <subject type="anzsrc-for">3701</subject>
+      <subject type="local">cohabitation</subject>
+      <subject type="local">family</subject>
+      <subject type="local">marriage</subject>
+      <subject type="local">sociology</subject>
+      <description type="brief">Marriage has traditionally been viewed as the bedrock institution of society. But recent evidence suggests that marriage patterns have been transformed. People are marrying less, and those who do are marrying later, separating more, and often marrying after cohabiting and having children. What are the consequences of these changes for people's experience of these relationships and for other outcomes, such as relationship quality, life satisfaction and views about marriage? This project will provide important information that will enable greater understanding of changing family patterns and provide critical data for policy-makers concerned with the social welfare of individuals and the changing role of the family in Australia today.</description>
+      <description type="fundingAmount">$560,000</description>
+      <description type="fundingScheme">Discovery Projects</description>
+      <description type="researchers">Prof JH Baxter; Dr BA Hewitt</description>
+      <existenceDates>
+        <startDate dateFormat="W3CDTF">2009</startDate>
+        <endDate dateFormat="W3CDTF">2013</endDate>
+      </existenceDates>
+    </activity>
+  </registryObject>
+  
+
+  
+  <registryObject group="AUTestingRecords3">
+    <key>http://AUT.org/au-research/grants/arc/LP100100310</key>
+    <originatingSource>arc.gov.au/general/searchable_data.htm</originatingSource>
+    <activity type="grant">
+      <name type="primary">
+        <namePart>(AUTestingRecords3)Measurement and Prevention of Membrane Fouling for Water Reuse in Biorefineries</namePart>
+      </name>
+      <identifier type="purl">http://AUT.org/au-research/grants/arc/LP100100310AUTx.Grant</identifier>
+      <identifier type="arc">LP100100310AUTx.Grant</identifier>
+      <relatedObject>
+        <key>http://dx.doi.org/10.13039/AUT2.xDept</key>
+        <relation type="isFundedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://nla.gov.au/nla.party-AUT2</key>
+        <relation type="isManagedBy"/>
+      </relatedObject>
+      <subject type="anzsrc-for">0904</subject>
+      <subject type="local">electrical impedance spectroscopy</subject>
+      <subject type="local">membrane fouling</subject>
+      <subject type="local">molasses process water</subject>
+      <subject type="local">reverse osmosis</subject>
+      <subject type="local">simulation (cfd) of membrane fouling</subject>
+      <subject type="local">water recovery and reuse</subject>
+      <description type="brief">The effluent streams from molasses based fermentation contain dark-coloured melanoidins (recalcitrant COD) which limit discharge options and make water recovery via membrane technology challenging. Understanding membrane fouling to a level where its behaviour can be reliably predicted is a vital step in gaining widespread acceptance of this technology. Advances made here have a built-in multiplier effect, as insights from yeast production (core business for our industrial partner A B Mauri) can be readily applied to large-scale fermentation producing fuel alcohol from molasses as well as the emerging use of lignocellulosics. This project will contribute significantly to sustainability by reducing industrial water consumption.</description>
+      <description type="fundingAmount">$253,000</description>
+      <description type="fundingScheme">Linkage Projects</description>
+      <description type="researchers">Coster Prof Hans G; Prof Geoffrey W Barton; Dr Daniel R Ryan; Dr Cormac O'Cleirigh; Dr John M Kavanagh</description>
+      <existenceDates>
+        <startDate dateFormat="W3CDTF">2010</startDate>
+        <endDate dateFormat="W3CDTF">2012</endDate>
+      </existenceDates>
+    </activity>
+  </registryObject>
+  
+  <registryObject group="AUTestingRecords3">
+    <key>http://AUT.org/au-research/grants/arc/LC0348317</key>
+    <originatingSource>arc.gov.au/general/searchable_data.htm</originatingSource>
+    <activity type="grant">
+      <name type="primary">
+        <namePart>(AUTestingRecords3)DROP DEFORMATION IN CONFINED MICROFLUIDIC GEOMETRIES</namePart>
+      </name>
+      <identifier type="purl">http://AUT.org/au-research/grants/arc/LC0348317AUTx.Grant</identifier>
+      <identifier type="arc">LC0348317AUTx.Grant</identifier>
+      <relatedObject>
+        <key>http://dx.doi.org/10.13039/AUT2.xDept</key>
+        <relation type="isFundedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://nla.gov.au/nla.party-AUT2</key>
+        <relation type="isManagedBy"/>
+      </relatedObject>
+      <subject type="anzsrc-for">2918</subject>
+      <subject type="local">computational fluid dynamics</subject>
+      <subject type="local">drop deformation</subject>
+      <subject type="local">microfluidic</subject>
+      <subject type="local">non-newtonian</subject>
+      <subject type="local">numerical model</subject>
+      <subject type="local">volume-of-fluid</subject>
+      <description type="brief">Increasingly, high technology applications in biotechnology and microtechnology industries need to process complex (non-Newtonian) fluids with dispersed particles/droplets in channels as small as several microns (microfluidics). A computational fluid dynamic model of non-Newtonian droplet deformation in microfluidic geometries will be developed, and validated using experimental measurements of the flow field in this project. The aim is to understand and quantify factors influencing droplet deformation. Coupling non-Newtonian characteristics with microfluidic geometries will allow the continuous manufacture of micro-particles of specified size and shape for existing and new applications, and will provide guidance for further extending the process to nano-particle manufacture.</description>
+      <description type="fundingAmount">$193,035</description>
+      <description type="fundingScheme">Linkage - Australian Postdoctoral Fellowships (CSIRO)</description>
+      <description type="researchers">A/Prof MR DavidsonDr M RudmanDr JJ Cooper-WhiteDr DJ Harvie</description>
+      <existenceDates>
+        <startDate dateFormat="W3CDTF">2003</startDate>
+        <endDate dateFormat="W3CDTF">2005</endDate>
+      </existenceDates>
+    </activity>
+  </registryObject>
+
+  <registryObject group="AUTestingRecords3">
+    <key>http://AUT.org/au-research/grants/arc/LX0664436</key>
+    <originatingSource>arc.gov.au/general/searchable_data.htm</originatingSource>
+    <activity type="grant">
+      <name type="primary">
+        <namePart>(AUTestingRecords3)Improving nitrogen use efficiency in crop plants: Functional analysis of high-affinity ammonium transport in plant lines altered in ammonium transport capacity(Q KEYWORD RELOBJT TITLE FUNDEDBY)</namePart>
+      </name>
+      <identifier type="purl">http://AUT.org/au-research/grants/arc/LX0664436AUTx.Grant</identifier>
+      <identifier type="arc">LX0664436AUTx.Grant</identifier>
+      <relatedObject>
+        <key>http://dx.doi.org/10.13039/AUT.xDept</key>
+        <relation type="isFundedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://nla.gov.au/nla.party-AUT2</key>
+        <relation type="isManagedBy"/>
+      </relatedObject>
+      <subject type="anzsrc-for">3002</subject>
+      <subject type="local">arabidopsis</subject>
+      <subject type="local">nitrogen leaching</subject>
+      <subject type="local">nitrogen transport</subject>
+      <subject type="local">nitrogen use efficiency</subject>
+      <subject type="local">reverse genetics</subject>
+      <description type="brief">Improving nitrogen fertiliser use in crop species will benefit Australia and world agriculture by reducing nitrogen-linked environmental pollution. Nitrogen fertilisers can be leached from soils and result in the pollution of ground water, rivers, estuaries and oceans. Using model plant systems we are dissecting the genes and their encoded proteins responsible for ammonium nitrogen uptake into plants. Identifying the in planta function of these genes will allow new breeding approaches to specifically target genes that will improve the efficiency of ammonium uptake and lessen the reliance on the supply of nitrogen fertilizers in modern agricultural crop production.</description>
+      <description type="fundingAmount">$10,000</description>
+      <description type="fundingScheme">Linkage International</description>
+      <description type="researchers">Dr BN Kaiser; Prof A Glass</description>
+      <existenceDates>
+        <startDate dateFormat="W3CDTF">2006</startDate>
+        <endDate dateFormat="W3CDTF">2006</endDate>
+      </existenceDates>
+    </activity>
+  </registryObject>
+
+<registryObject group="AUTestingRecords3">
+    <key>http://AUT.org/au-research/grants/arc/LP0560640</key>
+    <originatingSource>arc.gov.au/general/searchable_data.htm</originatingSource>
+    <activity type="grant">
+      <name type="primary">
+        <namePart>(AUTestingRecords3)HOMES FOR THE PEOPLE: A STUDY OF THE PETER LALOR HOUSING CO-OPERATIVE, 1947-2004</namePart>
+      </name>
+      <identifier type="purl">http://AUT.org/au-research/grants/arc/LP0560640AUTx.Grant</identifier>
+      <identifier type="arc">LP0560640AUTx.Grant</identifier>
+      <relatedObject>
+        <key>http://dx.doi.org/10.13039/AUT2.xDept</key>
+        <relation type="isFundedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://nla.gov.au/nla.party-AUT2</key>
+        <relation type="isManagedBy"/>
+      </relatedObject>
+      <subject type="anzsrc-for">2103</subject>
+      <subject type="local">australian history</subject>
+      <subject type="local">housing</subject>
+      <subject type="local">labour history</subject>
+      <subject type="local">urban history</subject>
+      <subject type="local">veterans</subject>
+      <description type="brief">A better understanding of Australia's past, in particular the forgotten or unusual aspects of our history, is intrinsically valuable and important for the health of the nation. Recovering the history of an innovative and successful partnership between government and the community has the added value of offering numerous policy signposts for future community housing developments.</description>
+      <description type="fundingAmount">$84,858</description>
+      <description type="fundingScheme">Linkage Projects</description>
+      <description type="researchers">Dr PA Pickering</description>
+      <existenceDates>
+        <startDate dateFormat="W3CDTF">2005</startDate>
+        <endDate dateFormat="W3CDTF">2007</endDate>
+      </existenceDates>
+    </activity>
+  </registryObject>
+
+
+<registryObject group="AUTestingRecords3">
+    <key>http://AUT.org/au-research/grants/arc/LP0219428</key>
+    <originatingSource>arc.gov.au/general/searchable_data.htm</originatingSource>
+    <activity type="grant">
+      <name type="primary">
+        <namePart>(AUTestingRecords3)Polymetallic phytoextraction applied to mine waste</namePart>
+      </name>
+      <identifier type="purl">http://AUT.org/au-research/grants/arc/LP0219428AUTx.Grant</identifier>
+      <identifier type="arc">LP0219428AUTx.Grant</identifier>
+      <relatedObject>
+        <key>http://dx.doi.org/10.13039/AUT2.xDept</key>
+        <relation type="isFundedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://nla.gov.au/nla.party-AUT2</key>
+        <relation type="isManagedBy"/>
+      </relatedObject>
+      <subject type="anzsrc-for">0402</subject>
+      <subject type="local">bioremediation</subject>
+      <subject type="local">environmental land management</subject>
+      <subject type="local">heavy metals</subject>
+      <subject type="local">mine rehabilitation</subject>
+      <subject type="local">phytomining</subject>
+      <subject type="local">phytoremediation</subject>
+      <description type="brief">Phytoextraction involves the use of hyperaccumulator plants to grow and concentrate a metal. Subsequently, the crop is harvested and the metal extracted. The aim of this research is to investigate the uptake and chemically induced uptake of heavy metals (Ni, Co, Au, Ag, Cu, Pb, Zn, Pt, Pd, Cr) by plants grown on mine tailings and mine waste materials. Outcomes will include practical methods of metal extraction that are cheap to employ where metal concentrations are subeconomic and of potential environmental impact during mining and after mine closure.</description>
+      <description type="fundingAmount">$67,635</description>
+      <description type="fundingScheme">Linkage Projects</description>
+      <description type="researchers">Dr BG Lottermoser</description>
+      <existenceDates>
+        <startDate dateFormat="W3CDTF">2002</startDate>
+        <endDate dateFormat="W3CDTF">2004</endDate>
+      </existenceDates>
+    </activity>
+  </registryObject>
+
+
+<registryObject group="AUTestingRecords3">
+    <key>http://AUT.org/au-research/grants/arc/LP0669725</key>
+    <originatingSource>arc.gov.au/general/searchable_data.htm</originatingSource>
+    <activity type="grant">
+      <name type="primary">
+        <namePart>(AUTestingRecords3)Mercury emissions from direct iron smelting technology</namePart>
+      </name>
+      <identifier type="purl">http://AUT.org/au-research/grants/arc/LP0669725AUTx.Grant</identifier>
+      <identifier type="arc">LP0669725AUTx.Grant</identifier>
+      <relatedObject>
+        <key>http://dx.doi.org/10.13039/AUT2.xDept</key>
+        <relation type="isFundedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://nla.gov.au/nla.party-AUT2</key>
+        <relation type="isManagedBy"/>
+      </relatedObject>
+      <subject type="anzsrc-for">0907</subject>
+      <subject type="local">coal</subject>
+      <subject type="local">emissions</subject>
+      <subject type="local">hismelt</subject>
+      <subject type="local">ironmaking</subject>
+      <subject type="local">mercury</subject>
+      <subject type="local">smelting</subject>
+      <description type="brief">The proposed research will enhance the environmental performance of the first Australian direct ironmaking industry. This industry will maintain the commitment to environmental responsibility offering cleaner technologies and production. The project will enhance the social acceptability of this metallurgical operation within the regional and global communities. Optimisation of emission reduction technologies will ensure improved environmental standards and awareness of the industry's commitment to improved environmental performance among the local communities. The proposed work will also ensure Australia remains at the forefront of energy and ore utilisation technology, ensuring sustainable resource and environmental management control.</description>
+      <description type="fundingAmount">$270,000</description>
+      <description type="fundingScheme">Linkage Projects</description>
+      <description type="researchers">Dr V Strezov; Prof PF Nelson; Dr TJ Evans</description>
+      <existenceDates>
+        <startDate dateFormat="W3CDTF">2006</startDate>
+        <endDate dateFormat="W3CDTF">2009</endDate>
+      </existenceDates>
+    </activity>
+  </registryObject>
+  
+  <registryObject group="AUTestingRecords3">
+    <key>http://AUT.org/au-research/grants/arc/LP0989663</key>
+    <originatingSource>arc.gov.au/general/searchable_data.htm</originatingSource>
+    <activity type="grant">
+      <name type="primary">
+        <namePart>(AUTestingRecords3)Skilling Indigenous Australia: Effective numeracy learning for employment by regional and remote Indigenous students in vocational education and training courses</namePart>
+      </name>
+      <identifier type="purl">http://AUT.org/au-research/grants/arc/LP0989663AUTx.Grant</identifier>
+      <identifier type="arc">LP0989663AUTx.Grant</identifier>
+      <relatedObject>
+        <key>http://dx.doi.org/10.13039/AUT2.xDept</key>
+        <relation type="isFundedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://nla.gov.au/nla.party-AUT2</key>
+        <relation type="isManagedBy"/>
+      </relatedObject>
+      <subject type="anzsrc-for">3302</subject>
+      <subject type="local">indigenous</subject>
+      <subject type="local">indigenous empowerment</subject>
+      <subject type="local">mathematics</subject>
+      <subject type="local">numeracy</subject>
+      <subject type="local">postsecondary education</subject>
+      <subject type="local">vocational education and training</subject>
+      <description type="brief">Increasing levels of Indigenous VET certification will enable Indigenous inclusion in local labour markets, which are currently experiencing skills shortages in education, health, construction and mining. This will reduce welfare dependence and the need for intervention programs, in turn improving Australia's economic activity. This project is a significant collaboration between schools, TAFEs and Industry representatives that service remote areas, which aims to develop a theory about effective numeracy instruction. This theoretical framework will provide strategies for VET teachers and supervisors to facilitate Indigenous student's numeracy learning in a manner that is culturally empowering, builds pride and sustains community linkages.</description>
+      <description type="fundingAmount">$837,000</description>
+      <description type="fundingScheme">Linkage Projects</description>
+      <description type="researchers">Prof TJ Cooper; Dr AR Baturo; Dr CJ Matthews; Mr RN Weatherall; Mr MJ McCarthy; Ms WA Lang; Ms SA Armstrong</description>
+      <existenceDates>
+        <startDate dateFormat="W3CDTF">2009</startDate>
+        <endDate dateFormat="W3CDTF">2012</endDate>
+      </existenceDates>
+	  	        <relatedInfo type="party">
+        <identifier type="url">http://nla.gov.au/nla.party-AUT2</identifier>
+        <relation type="isManagedBy"/>
+        <title>Managing Inst Title</title>
+      </relatedInfo>
+    </activity>
+  </registryObject>
+
+
+<registryObject group="AUTestingRecords3">
+    <key>http://AUT.org/au-research/grants/arc/LP0211548</key>
+    <originatingSource>arc.gov.au/general/searchable_data.htm</originatingSource>
+    <activity type="grant">
+      <name type="primary">
+        <namePart>(AUTestingRecords3)Design and Implementation of a Clinical Services Performance Management Model</namePart>
+      </name>
+      <identifier type="purl">http://AUT.org/au-research/grants/arc/LP0211548AUTx.Grant</identifier>
+      <identifier type="arc">LP0211548AUTx.Grant</identifier>
+      <relatedObject>
+        <key>http://dx.doi.org/10.13039/AUT2.xDept</key>
+        <relation type="isFundedBy"/>
+      </relatedObject>
+      <subject type="anzsrc-for">1501</subject>
+      <subject type="local">balanced scorecard</subject>
+      <subject type="local">field experiment</subject>
+      <subject type="local">hospital resource management</subject>
+      <subject type="local">management control systems</subject>
+      <subject type="local">performance management</subject>
+      <description type="brief">This project aims to develop and test the efficacy of a balanced scorecard-based performance management model in a large public hospital. The project seeks to address significant performance management issues in the health care sector associated with the need to balance clinical care quality and resource management in an environment where conventional performance measurement systems are inadequate. The outcome will be a performance management model developed in collaboration with clinicians, field tested experimentally in a range of clinical settings and evaluated for effectiveness. The outcomes of the project will make a substantive contribution to the development of 'best practice' management protocols in the health care sector as well as a significant and innovative contribution to the management control literature.</description>
+      <description type="fundingAmount">$191,000</description>
+      <description type="fundingScheme">Linkage Projects</description>
+      <description type="researchers">Prof MA Abernethy Prof MK Horne Prof FH Selto Dr AM Lillis</description>
+      <existenceDates>
+        <startDate dateFormat="W3CDTF">2002</startDate>
+        <endDate dateFormat="W3CDTF">2004</endDate>
+      </existenceDates>
+	        <relatedInfo type="party">
+        <identifier type="url">http://nla.gov.au/nla.party-AUT2</identifier>
+        <relation type="isManagedBy"/>
+      </relatedInfo>
+    </activity>
+  </registryObject>
+  
+</registryObjects>

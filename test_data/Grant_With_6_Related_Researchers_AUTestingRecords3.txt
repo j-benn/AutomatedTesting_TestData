@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xmlns:extRif="http://ands.org.au/standards/rif-cs/extendedRegistryObjects" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+<registryObject group="AUTestingRecords3">
+    <key>w2lqsztY80hgTtXZrNXv4ah9jQ1uJuH6mSmEiFtgsdfa5cNSxI</key>
+    <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart>Researcher 1</namePart>
+      </name>
+      <relatedObject>
+        <key>http://AUT.org/au-research/grants/arc/DP34d0665938</key>
+        <relation type="isParticipantIn"/>
+      </relatedObject>
+    </party>
+  </registryObject>
+
+<registryObject group="AUTestingRecords3">
+    <key>w2lqsztY80hgTtXZrNXv4ah9jQ1uJuH6mSmEiFtgwBnfUa5cNSxI</key>
+    <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart>Researcher 2</namePart>
+      </name>
+      <relatedObject>
+        <key>http://AUT.org/au-research/grants/arc/DP34d0665938</key>
+        <relation type="isParticipantIn"/>
+      </relatedObject>
+    </party>
+  </registryObject>
+
+
+<registryObject group="AUTestingRecords3">
+    <key>w2lqsztY80hgTtXZrNXv4ah9jQhhg4JuH6mSmEiFtgwBnfUa5cNSxI</key>
+    <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart>Researcher 3</namePart>
+      </name>
+      <relatedObject>
+        <key>http://AUT.org/au-research/grants/arc/DP34d0665938</key>
+        <relation type="isParticipantIn"/>
+      </relatedObject>
+    </party>
+  </registryObject>
+
+
+<registryObject group="AUTestingRecords3">
+    <key>w2lqsztY80hgTtXZrNXv4ah9h664eJuH6mSmEiFtgwBnfUa5cNSxI</key>
+    <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart>Researcher 4</namePart>
+      </name>
+      <relatedObject>
+        <key>http://AUT.org/au-research/grants/arc/DP34d0665938</key>
+        <relation type="isParticipantIn"/>
+      </relatedObject>
+    </party>
+  </registryObject>
+
+
+<registryObject group="AUTestingRecords3">
+    <key>w2lqsztY80hgTtXZrNXv4ah9jQ1uJudsfdsf232SmEiFtgwBnfUa5cNSxI</key>
+    <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart>Researcher 5</namePart>
+      </name>
+      <relatedObject>
+        <key>http://AUT.org/au-research/grants/arc/DP34d0665938</key>
+        <relation type="isParticipantIn"/>
+      </relatedObject>
+    </party>
+  </registryObject>
+
+<registryObject group="AUTestingRecords3">
+    <key>w2lqsztY80hgTtXZrNXv4ah9jQ1dfdssmSmEiFtgwBnfUa5cNSxI</key>
+    <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart>Researcher 6</namePart>
+      </name>
+      <relatedObject>
+        <key>http://AUT.org/au-research/grants/arc/DP34d0665938</key>
+        <relation type="isParticipantIn"/>
+      </relatedObject>
+    </party>
+  </registryObject>
+
+<registryObject group="AUTestingRecords3">
+    <key>w2lqsztY80hgTtXZrNXv4ahfff9jQ1dfdssmSmEiFtgwBnfUa5cNSxI</key>
+    <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart>Researcher 7</namePart>
+      </name>
+      <relatedObject>
+        <key>http://AUT.org/au-research/grants/arc/DP34d0665938</key>
+        <relation type="isParticipantIn"/>
+      </relatedObject>
+    </party>
+  </registryObject>
+  
+  <registryObject group="AUTestingRecords3">
+    <key>http://AUT.org/au-research/grants/arc/DP34d0665938</key>
+    <originatingSource type="">arc.gov.au/general/searchable_data.htm</originatingSource>
+    <activity type="grant">
+      <name type="primary">
+        <namePart>(AUTestingRecords3)Grant with 6 related researchers to test view all link. Heterobimetallic Coordination Complexes Containing Rare Earth and d-Block Ions</namePart>
+      </name>
+      <description type="brief">&lt;p&gt;Rare earth compounds have major industrial applications such as MRI contrast agents and as catalysts within the rubber and petroleum industries. The fundamental knowledge ensuing from this project has the potential to produce new and advanced magnetic materials. Nanotechnological industries are being developed in Australia and this research will provide materials with the capacity to act as optical or electrical switches, magnetic storage devices or molecular sensors. This pioneering work will ensure that Australia remains at the forefront of chemical research within the rapidly advancing field of magnetochemistry.&lt;/p&gt;</description>
+      <description type="fundingAmount">&lt;p&gt;$272,000&lt;/p&gt;</description>
+      <description type="fundingScheme">&lt;p&gt;Discovery Projects&lt;/p&gt;</description>
+      <description type="researchers">&lt;p&gt;Dr DR Turner; Dr SR Batten, JOOOOOEY&lt;/p&gt;</description>
+      <identifier type="purl">http://AUT.org/au-research/grants/arc/DP34d0665938AUTdd334x.Grant</identifier>
+      <identifier type="arc">DP0665938AUTx.Grant</identifier>
+      <relatedObject>
+        <key>http://dx.doi.org/10.13039/AUT2.xDept</key>
+        <relation type="isFundedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://nla.gov.au/nla.party-AUT2</key>
+        <relation type="isManagedBy"/>
+      </relatedObject>
+      <subject type="anzsrc-for">0302</subject>
+      <subject type="local">advanced materials</subject>
+      <subject type="local">coordination polymers</subject>
+      <subject type="local">heterobimetallic</subject>
+      <subject type="local">molecular magnets</subject>
+      <subject type="local">rare earths</subject>
+      <subject type="local">transition metals</subject>
+      <existenceDates>
+        <startDate dateFormat="W3CDTF">2006</startDate>
+        <endDate dateFormat="W3CDTF">2008</endDate>
+      </existenceDates>
+    </activity>
+  </registryObject>
+</registryObjects>
