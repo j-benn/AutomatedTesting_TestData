@@ -40,6 +40,20 @@
           <electronic type="email">
             <value>Aalbersberg@usp.ac.fj</value>
           </electronic>
+          <physical type="postalAddress">
+            <addressPart type="addressLine">UNSW Built Environment</addressPart>
+            <addressPart type="addressLine">Sydney NSW 2052</addressPart>
+            <addressPart type="addressLine">Australia</addressPart>
+          </physical>
+          <physical type="streetAddress">
+            <addressPart type="addressLine">Level 3, West Wing</addressPart>
+            <addressPart type="addressLine">Red Centre Building</addressPart>
+            <addressPart type="addressLine">Kensington Campus</addressPart>
+            <addressPart type="addressLine">Sydney, Australia</addressPart>
+          </physical>
+          <physical type="">
+            <addressPart type="addressLine">my address line</addressPart>
+          </physical>
         </address>
       </location>
     </party>
@@ -203,6 +217,38 @@
         <title>UTAS RDDS profile</title>
         <identifier type="uri">http://vivo.utas.edu.au/vivo/individual/n481534223</identifier>
       </relatedInfo>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://eresearch.uts.edu.au/</value>
+          </electronic>
+        </address>
+        <address>
+          <electronic type="email">
+            <value>eResearch-IT@uts.edu.au</value>
+          </electronic>
+          <physical type="streetAddress">
+            <addressPart type="fullName">fullName</addressPart>
+            <addressPart type="organizationName">organizationName</addressPart>
+            <addressPart type="flatOrUnitNumber">flatOrUnitNumber</addressPart>
+            <addressPart type="floorOrLevelNumber">floorOrLevelNumber</addressPart>
+            <addressPart type="LotNumber">LotNumber</addressPart>
+            <addressPart type="streetName">streetName</addressPart>
+            <addressPart type="postalDeliveryNumberValue">postalDeliveryNumberValue</addressPart>
+            <addressPart type="postalDeliveryNumberSuffix">postalDeliveryNumberSuffix</addressPart>
+            <addressPart type="suburbOrPlaceOrLocality">suburbOrPlaceOrLocality</addressPart>
+            <addressPart type="stateOrTerritory">stateOrTerritory</addressPart>
+            <addressPart type="country">country</addressPart>
+            <addressPart type="locationDescriptor">locationDescriptor</addressPart>
+            <addressPart type="deliveryPointIdentifier">deliveryPointIdentifier</addressPart>
+            <addressPart type="buildingOrPropertyName">buildingOrPropertyName</addressPart>
+            <addressPart type="postCode">postCode</addressPart>
+            <addressPart type="postalDeliveryNumberPrefix">postalDeliveryNumberPrefix</addressPart>
+            <addressPart type="houseNumber">houseNumber</addressPart>
+            <addressPart type="addressLine">addressLine</addressPart>
+          </physical>
+        </address>
+      </location>
       <subject type="anzsrc-for">139999</subject>
       <subject type="anzsrc-for">130309</subject>
       <subject type="anzsrc-for">160809</subject>
