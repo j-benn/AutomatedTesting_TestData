@@ -1033,6 +1033,26 @@
                                 http://imosmest.aodn.org.au:80/geonetwork/srv/en/metadata.show?uuid=86ec0cee-0620-3724-963a-d0432dds
                             </value>
                         </electronic>
+                        <physical type="streetAddress">
+                            <addressPart type="fullName">fullName</addressPart>
+                            <addressPart type="organizationName">organizationName</addressPart>
+                            <addressPart type="flatOrUnitNumber">flatOrUnitNumber</addressPart>
+                            <addressPart type="floorOrLevelNumber">floorOrLevelNumber</addressPart>
+                            <addressPart type="LotNumber">LotNumber</addressPart>
+                            <addressPart type="streetName">streetName</addressPart>
+                            <addressPart type="postalDeliveryNumberValue">postalDeliveryNumberValue</addressPart>
+                            <addressPart type="postalDeliveryNumberSuffix">postalDeliveryNumberSuffix</addressPart>
+                            <addressPart type="suburbOrPlaceOrLocality">suburbOrPlaceOrLocality</addressPart>
+                            <addressPart type="stateOrTerritory">stateOrTerritory</addressPart>
+                            <addressPart type="country">country</addressPart>
+                            <addressPart type="locationDescriptor">locationDescriptor</addressPart>
+                            <addressPart type="deliveryPointIdentifier">deliveryPointIdentifier</addressPart>
+                            <addressPart type="buildingOrPropertyName">buildingOrPropertyName</addressPart>
+                            <addressPart type="postCode">postCode</addressPart>
+                            <addressPart type="postalDeliveryNumberPrefix">postalDeliveryNumberPrefix</addressPart>
+                            <addressPart type="houseNumber">houseNumber</addressPart>
+                            <addressPart type="addressLine">addressLine</addressPart>
+                        </physical>
                     </address>
                 </location>
                 <relatedObject>
@@ -2360,6 +2380,9 @@
                         <electronic type="url">
                             <value>https://cityfutures.be.unsw.edu.au/</value>
                         </electronic>
+                        <electronic type="email">
+                            <value>info@info.com</value>
+                        </electronic>
                         <physical type="postalAddress">
                             <addressPart type="addressLine">UNSW Built Environment</addressPart>
                             <addressPart type="addressLine">Sydney NSW 2052</addressPart>
@@ -2370,9 +2393,6 @@
                             <addressPart type="addressLine">Red Centre Building</addressPart>
                             <addressPart type="addressLine">Kensington Campus</addressPart>
                             <addressPart type="addressLine">Sydney, Australia</addressPart>
-                        </physical>
-                        <physical type="">
-                            <addressPart type="addressLine">my address line</addressPart>
                         </physical>
                     </address>
                 </location>
