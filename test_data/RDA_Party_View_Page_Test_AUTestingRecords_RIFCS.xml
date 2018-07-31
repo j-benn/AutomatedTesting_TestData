@@ -20,9 +20,60 @@
       <name type="primary" xml:lang="en">
         <namePart type="superior">(AUTestingRecords) Party with only a superior name - Superior Division of Information Technology, Engineering and the Environment</namePart>
       </name>
+      <location>
+        <address>
+          <electronic type="email">
+            <value>Relics@Advisory.org</value>
+          </electronic>
+          <electronic type="email">
+            <value>info@Advisory.org</value>
+          </electronic>
+          <physical type="streetAddress">
+            <addressPart type="telephoneNumber">02 6525 0000</addressPart>
+            <addressPart type="text">A text address goes here 2001</addressPart>
+          </physical>
+        </address>
+      </location>
       <description type="brief" xml:lang="en">School of Natural and Built Environments</description>
     </party>
   </registryObject>
+
+    <registryObject group="AUTestingRecords">
+      <key>AADC/ACKLEY,STEPHENAUT</key>
+      <originatingSource>Australian Antarctic Data Centre</originatingSource>
+      <party type="person">
+        <name type="primary">
+          <namePart>ACKLEY, STEPHEN</namePart>
+        </name>
+        <location>
+          <address>
+            <physical type="streetAddress">
+              <addressPart type="addressLine">ACKLEY, STEPHEN</addressPart>
+              <addressPart type="addressLine">118 W Castle Ln</addressPart>
+              <addressPart type="suburbOrPlaceLocality">San Antonio</addressPart>
+              <addressPart type="stateOrTerritory">Texas</addressPart>
+              <addressPart type="postCode">78213</addressPart>
+              <addressPart type="country">USA</addressPart>
+            </physical>
+          </address>
+        </location>
+        <location>
+          <address>
+            <physical type="streetAddress">
+              <addressPart type="telephoneNumber">+1 1 210 341 6556</addressPart>
+            </physical>
+          </address>
+        </location>
+        <location>
+          <address>
+            <electronic type="email">
+              <value>sackley@pol.net, Stephen.ackley@utsa.edu</value>
+            </electronic>
+          </address>
+        </location>
+      </party>
+    </registryObject>
+
   
   <registryObject group="AUTestingRecords">
     <key>AODN/Aalbersberg,BillAUT3</key>
@@ -205,7 +256,7 @@
     </party>
   </registryObject>
   
-  <registryObject group="University of Tasmania, Australia">
+  <registryObject group="AUTestingRecords">
     <key>UTAS/Abbott-Chapman, JoanAUT5a</key>
     <originatingSource>http://vivo.utas.edu.au/vivo/</originatingSource>
     <party type="person">
