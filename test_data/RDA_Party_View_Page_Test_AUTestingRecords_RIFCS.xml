@@ -109,6 +109,73 @@
       </location>
     </party>
   </registryObject>
+
+  <registryObject group="AUTestingRecords">
+    <key>AODN/Aalbersberg,BillAUT3aa</key>
+    <originatingSource>http://catalogue.aodn.org.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart>Aalbersberg, Bill</namePart>
+      </name>
+      <relatedObject>
+        <key>AODdN/InstituteofAppliedScience(IAS),TheUniversityoftheSouthPacific(USP)</key>
+        <relation type="isMemberOf"/>
+      </relatedObject>
+      <location>
+        <address>
+          <electronic type="email">
+            <value>Aalbersberg@usp.ac.fj</value>
+          </electronic>
+          <physical type="postalAddress">
+            <addressPart type="addressLine">UNSW Built Environment</addressPart>
+            <addressPart type="addressLine">Sydney NSW 2052</addressPart>
+            <addressPart type="addressLine">Australia</addressPart>
+          </physical>
+          <physical type="streetAddress">
+            <addressPart type="addressLine">Level 3, West Wing</addressPart>
+            <addressPart type="addressLine">Red Centre Building</addressPart>
+            <addressPart type="addressLine">Kensington Campus</addressPart>
+            <addressPart type="addressLine">Sydney, Australia</addressPart>
+          </physical>
+          <physical type="">
+            <addressPart type="telephoneNumber">123 456</addressPart>
+            <addressPart type="faxNumber">789 101112</addressPart>
+            <addressPart type="text">my address text element</addressPart>
+            <addressPart type="addressLine">my address line</addressPart>
+          </physical>
+        </address>
+      </location>
+    </party>
+  </registryObject>
+
+  <registryObject group="AUTestingRecords">
+    <key>AODN/Aalbersberg,BillAUT3aab</key>
+    <originatingSource>http://catalogue.aodn.org.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart>Aalbersberg, Bill</namePart>
+      </name>
+      <relatedObject>
+        <key>AODdN/InstituteofAppliedScience(IAS),TheUniversityoftheSouthPacific(USP)</key>
+        <relation type="isMemberOf"/>
+      </relatedObject>
+      <location>
+        <address>
+          <electronic type="email">
+            <value>Aalbersberg@usp.ac.fj</value>
+          </electronic>
+          <electronic type="url">
+            <value>http://www.cc.fj</value>
+          </electronic>
+          <physical type="streetAddress">
+            <addressPart type="telephoneNumber">123 456</addressPart>
+            <addressPart type="faxNumber">789 101112</addressPart>
+            <addressPart type="text">my address text element , 123 example st Syd Australia</addressPart>
+          </physical>
+        </address>
+      </location>
+    </party>
+  </registryObject>
   
   <registryObject group="AUTestingRecords">
     <key>http://nla.gov.au/nla.party-512931AUT3</key>

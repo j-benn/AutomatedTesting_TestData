@@ -1033,6 +1033,11 @@
                                 http://imosmest.aodn.org.au:80/geonetwork/srv/en/metadata.show?uuid=86ec0cee-0620-3724-963a-d0432dds
                             </value>
                         </electronic>
+                        <electronic type="email">
+                            <value>
+                                example@example.com
+                            </value>
+                        </electronic>
                         <physical type="streetAddress">
                             <addressPart type="fullName">fullName</addressPart>
                             <addressPart type="organizationName">organizationName</addressPart>
@@ -1052,6 +1057,7 @@
                             <addressPart type="postalDeliveryNumberPrefix">postalDeliveryNumberPrefix</addressPart>
                             <addressPart type="houseNumber">houseNumber</addressPart>
                             <addressPart type="addressLine">addressLine</addressPart>
+                            <addressPart type="somelocaladdresspartType">addressLine</addressPart>
                         </physical>
                     </address>
                 </location>
@@ -1349,8 +1355,7 @@
         </registryObject>
 
         <registryObject group="AUTestingRecords">
-            <key>AUTestingRecordse-environment-research-dataset-31
-            </key>
+            <key>AUTestingRecordse-environment-research-dataset-31</key>
             <originatingSource>www.sydney.edu.au</originatingSource>
             <collection type="dataset">
                 <identifier type="local">dataset-31AUT</identifier>
@@ -1367,6 +1372,7 @@
                             <addressPart type="stateOrTerritory">NSW</addressPart>
                             <addressPart type="postCode">1430</addressPart>
                             <addressPart type="country">AUSTRALIA</addressPart>
+                            <addressPart type="telephoneNumber">6589 4598</addressPart>
                         </physical>
                     </address>
                 </location>
