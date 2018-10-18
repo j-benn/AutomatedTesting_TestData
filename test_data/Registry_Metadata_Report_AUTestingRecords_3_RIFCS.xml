@@ -1,0 +1,1737 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xmlns:extRif="http://ands.org.au/standards/rif-cs/extendedRegistryObjects" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+
+
+    <!-- ____RECORDS TO RELATE TO____ !-->
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPROV12sdfdf866</key>
+        <originatingSource type="">http://www.prov.vic.gov.au</originatingSource>
+        <collection type="collection" dateModified="2015-12-13 23:49:08">
+            <name type="primary">
+                <namePart>(AUTestingRecords)Council Minutes</namePart>
+            </name>
+            <description type="full">&amp;lt;p&amp;gt;Minutes of council meetings were created in accordance with section 145 of the Municipal Institutions Act 1863 (27 Vic., No.184) and with subsequent legislation relating to local government including the Local Government Act 1958 (No.6299). Many local government bodies in existence prior to 1863 maintained records of their meetings in the form of minutes.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;These acts have required that for each meeting of council, minutes of all proceedings are recorded together with the names of all councillors present and all who vote for and against motions. The &amp;quot;master set&amp;quot; of minutes is also required to be signed by the mayor or chairman of the meeting once the minutes have been confirmed at the following council meeting. The minutes relate to the wide range of activities for which the council is responsible, including building, community services, collection of rates, property valuation and town planning. &amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;The committee system is employed by most Victorian councils. The Local Government Act 1903 (No.1893) removed the requirement that separate committee minutes be kept and introduced the requirement that committees' reports to council be included in the council minutes. In some cases, the minutes of committees are recorded in the council minute books, either in lieu of or in addition to committee reports. Where committee minutes were maintained in separate volumes they constitute a separate series from the council minutes.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;/p&amp;gt;</description>
+            <description type="logo">&amp;lt;p&amp;gt;&amp;lt;img src=&amp;quot;http://metadata.prov.vic.gov.au/image/LOGO_BLACK.jpg&amp;quot; alt=&amp;quot;logo&amp;quot; /&amp;gt;&amp;lt;/p&amp;gt;</description>
+            <rights>
+                <rightsStatement rightsUri="http://prov.vic.gov.au/provguide-25">Records held by Public Record Office Victoria (PROV) are covered by copyright. For information on reusing material from the collection see PROVguide 25</rightsStatement>
+                <accessRights>Open</accessRights>
+            </rights>
+            <identifier type="local">VPRS 128sdfdf66AUT</identifier>
+            <dates type="dc.created">
+                <date type="dateFrom" dateFormat="W3CDTF">1894</date>
+                <date type="dateTo" dateFormat="W3CDTF">1994</date>
+            </dates>
+            <location>
+                <address>
+          <electronic type="url">
+            <value>http://www.access.prov.vic.gov.au/public/component/daPublicBaseContainer?component=daViewSeries&amp;breadcrumbPath=Home/Access%20the%20Collection/Browse%20The%20Collection/Series%20Details&amp;entityId=12866</value>
+          </electronic>
+          <physical type="">
+            <addressPart type="text">&amp;lt;p&amp;gt;&amp;lt;a title=&amp;quot;Public Record Office Victoria&amp;quot; href=&amp;quot;http://prov.vic.gov.au&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Victorian Archives Centre&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;99 Shiel St North Melbourne VIC 3051, Australia&amp;lt;br /&amp;gt;Ph: +61 3 9348 5600&amp;lt;/p&amp;gt;</addressPart>
+          </physical>
+        </address>
+            </location>
+            <coverage>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">1894</date>
+                    <date type="dateTo" dateFormat="W3CDTF">1994</date>
+                </temporal>
+                <spatial type="kmlPolyCoords">141.000000,-34.000000 142.919336,-34.145604 144.582129,-35.659230 147.742627,-35.873175 150.024219,-37.529041 150.200000,-39.200000 141.000000,-39.200000 141.000000,-34.000000 141.000000,-34.000000</spatial>
+            </coverage>
+            <relatedObject>
+                <key>AUTestingRecordsRelationshipsCollection3</key>
+                <relation type="isPartOf"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsCollectionToTestInternalExternalSettings</key>
+                <relation type="isDerivedFrom"/>
+            </relatedObject>
+            <subject type="ANZSRC">2103 HISTORICAL STUDIES</subject>
+            <citationInfo>
+                <fullCitation>PROV VPRS 12866 Council Minutes</fullCitation>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>GA/Davidson,R.J.AUT</key>
+        <originatingSource>Commonwealth of Australia (Geoscience Australia)</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart>Davidson, R.J.</namePart>
+            </name>
+            <identifier type="orcid">4534-1234-1258-1525</identifier>
+            <relatedObject>
+                 <key>P8tL4cOV5hNbQXWBCws8wPZmfdsaRqtslw66reKtVxfm0BEYAey</key>
+                <relation type="isCollectorOf"/>
+            </relatedObject>
+                                    <relatedObject>
+                <key>AUTestingRecorsdfsdfsdf</key>
+                <relation type="IsManagerOf"/>
+            </relatedObject>
+        </party>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>Gorg.AUT</key>
+        <originatingSource>Commonwealth of Australia (Geoscience Australia)</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart>Commonwealth Org Example</namePart>
+            </name>
+            <identifier type="AU-ANL:PEAU">nla.w4fgds</identifier>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTdT3estingRecordsVC/0008</key>
+        <originatingSource>http://services.ands.org.au/home/orca/register_my_data</originatingSource>
+        <service type="search-http">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords3) Service Type (search-http) The Australian Cooperative Digitisation Project Website</namePart>
+            </name>
+            <identifier type="handle">100.22/nla.w4fgds</identifier>
+            <description type="brief">&amp;lt;p&amp;gt;
+	The Australian Cooperative Digitisation Project website supports a pilot digitisation project coordinated by the National Library of Australia.&amp;nbsp; The Australian Cooperative Digitisation Project undertook the development of a digital library of Australian journals, newspapers and novels published in the period 1840-1845.&amp;nbsp; The University of Sydney Australian Cooperative Digitisation Project website hosts the four novels included within The Australian Cooperative Digitisation Project.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;
+	The Australian Cooperative Digitisation Project website is part of the Australian Digital Collections website, which is hosted and managed by the University of Sydney Library.&amp;lt;/p&amp;gt;
+</description>
+            <rights>
+                <rightsStatement rightsUri="http://adc.library.usyd.edu.au/index.jsp?database=acdp&amp;content=collections/ozlit/text/about.html">The University of Sydney Library reserves copyright of the electronic publications within this collection.  The University of Sydney Library has made every effort to ensure the print publications upon which the digitised files are based are free of copyright.</rightsStatement>
+                <accessRights rightsUri="http://adc.library.usyd.edu.au/index.jsp?database=acdp&amp;content=collections/ozlit/text/about.html">The electronic publications are available to the public through this website for the purposes of private study and research. Texts and images may not be used for any commercial purpose without persmission from the University of Sydney Library.  Texts are not to be mounted on another server for public or commercial access without permission.  Links may be made to this site from another site, subject to the conditions of use.</accessRights>
+            </rights>
+            <location>
+                <address>
+          <electronic type="url">
+            <value>http://adc.library.usyd.edu.au/index.jsp?database=acdp&amp;page=home#</value>
+          </electronic>
+        </address>
+            </location>
+                        <relatedInfo type="collection">
+                <title>Rrelated Info Collection</title>
+                <identifier type="ean13">ean13_92345992aa</identifier>
+<relation type="supports"/>
+            </relatedInfo>
+                        <relatedInfo type="activity">
+                <title>A Related Info Activity</title>
+                <identifier type="purl">http://purl.org/au-research/grants/dsfdsa33aa</identifier>
+                <relation type="supports"/>
+            </relatedInfo>
+                        <relatedInfo type="service">
+                <title>A Related Info Service</title>
+                <identifier type="uri">http://med.data.edu.ausdfAUTaa</identifier>
+            </relatedInfo>
+        </service>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>http://AUT.org/au-research/grants/arc/DP34dsdfdsf5938</key>
+        <originatingSource type="">arc.gov.au/general/searchable_data.htm</originatingSource>
+        <activity type="grant">
+            <name type="primary">
+                <namePart>(AUTestingRecords3)Grant with 6 related researchers to test view all link. Heterobimetallic Coordination Complexes Containing Rare Earth and d-Block Ions</namePart>
+            </name>
+            <description type="brief">&lt;p&gt;Rare earth compounds have major industrial applications such as MRI contrast agents and as catalysts within the rubber and petroleum industries. The fundamental knowledge ensuing from this project has the potential to produce new and advanced magnetic materials. Nanotechnological industries are being developed in Australia and this research will provide materials with the capacity to act as optical or electrical switches, magnetic storage devices or molecular sensors. This pioneering work will ensure that Australia remains at the forefront of chemical research within the rapidly advancing field of magnetochemistry.&lt;/p&gt;</description>
+            <description type="fundingAmount">&lt;p&gt;$272,000&lt;/p&gt;</description>
+            <description type="fundingScheme">&lt;p&gt;Discovery Projects&lt;/p&gt;</description>
+            <description type="researchers">&lt;p&gt;Dr DR Turner; Dr SR Batten, JOOOOOEY&lt;/p&gt;</description>
+            <identifier type="purl">http://AUT.org/au-research/grants/arc/DP34d0665938AUTdd334x.Grant</identifier>
+            <identifier type="arc">DP0665938AUTx.Grant</identifier>
+            <relatedObject>
+                <key>http://dx.doi.org/10.13039/AUT2.xDeptd</key>
+                <relation type="isFundedBy"/>
+            </relatedObject>
+            <relatedObject>
+                <key>http://nla.gov.au/nla.party-AUT2s</key>
+                <relation type="isManagedBy"/>
+            </relatedObject>
+                        <relatedInfo type="collection">
+                <title>Rrelated Info Collection</title>
+                <identifier type="ean13">ean13_92345992aa</identifier>
+                <relation type="hasOutput"/>
+            </relatedInfo>
+            <subject type="anzsrc-for">0302</subject>
+            <subject type="local">advanced materials</subject>
+            <subject type="local">coordination polymers</subject>
+            <subject type="local">heterobimetallic</subject>
+            <subject type="local">molecular magnets</subject>
+            <subject type="local">rare earths</subject>
+            <subject type="local">transition metals</subject>
+            <existenceDates>
+                <startDate dateFormat="W3CDTF">2006</startDate>
+                <endDate dateFormat="W3CDTF">2008</endDate>
+            </existenceDates>
+        </activity>
+    </registryObject>
+
+    <!-- ____COLLECTIONS____ !-->
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P8tL4cOV5hNbQXWBCws8wPZmfdsaRqtslw66reKtVxfm0BEYY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets all Metadata Report checks. RelInfo Service and Activity. RelOb Party</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <rights>
+                <rightsStatement>Some Rights</rightsStatement>
+            </rights>
+            <identifier type="ean13">ean13_92345992</identifier>
+            <location>
+                <address>
+          <electronic type="url" target="directDownload">
+            <value>http://somelocation.com</value>
+          </electronic>
+        </address>
+            </location>
+            <coverage>
+                <spatial type="text">Australia</spatial>
+            </coverage>
+            <relatedObject>
+                <key>(AUTestingRecords3)RelatedPartyGroup23423/s/s2</key>
+                <relation type="isOwnedBy"/>
+            </relatedObject>
+            <relatedObject>
+                <key>GA/Davidson,R.J.</key>
+                <relation type="hasCollector"/>
+            </relatedObject>
+            <subject type="local">LocalKeyword</subject>
+            <relatedInfo type="website">
+                <title>Rrelated Info Website.com</title>
+                <identifier type="uri">http://relatedInfoWebsite.com</identifier>
+            </relatedInfo>
+            <relatedInfo type="service">
+                <title>A Related Info Service</title>
+                <identifier type="local">localIdentifier234k_D</identifier>
+                <relation type="isOutputOf"/>
+            </relatedInfo>
+            <relatedInfo type="activity">
+                <title>A Related Info Activity</title>
+                <identifier type="arc">activityid2343</identifier>
+            </relatedInfo>
+            <citationInfo>
+                <fullCitation style="APA">APA Full Citation Goes here</fullCitation>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P8tL4cOV5hNbQXWBCws8wPZmfdsaRqtslw66reKtVxfm0BEYAey</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets all Metadata Report checks. Reverse RelInfo Service and Activity. Reverse RelOb Party</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <rights>
+                <rightsStatement>Some Rights</rightsStatement>
+            </rights>
+            <identifier type="ean13">ean13_92345992aa</identifier>
+            <location>
+                <address>
+          <electronic type="url" target="directDownload">
+            <value>http://somelocation.com</value>
+          </electronic>
+        </address>
+            </location>
+            <coverage>
+                <spatial type="text">Australia</spatial>
+            </coverage>
+            <subject type="local">LocalKeyword</subject>
+            <relatedInfo type="website">
+                <title>Rrelated Info Website.com</title>
+                <identifier type="uri">http://relatedInfoWebsite.com</identifier>
+            </relatedInfo>
+            <citationInfo>
+                <fullCitation style="APA">APA Full Citation Goes here</fullCitation>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P8tL4cOV5hNbQXWBCws8wPZm8pwbdfgfdgreasdfsdaf0BEYY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets only location. Physical Address</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <location>
+                <address>
+                    <physical>
+            <addressPart type="text">
+&amp;lt;p&amp;gt;&amp;lt;a title=&amp;quot;Public Record Office Victoria&amp;quot; href=&amp;quot;http://prov.vic.gov.au&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Victorian Archives Centre&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;99 Shiel St North Melbourne VIC 3051, Australia&amp;lt;br /&amp;gt;Ph: +61 3 9348 5600&amp;lt;/p&amp;gt;
+</addressPart>
+          </physical>
+        </address>
+            </location>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P8tL4cOdfgPZm8sdfwbbsaRqtsasdf342daf0BEYY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets only location. Electronic Address</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <location>
+                <address>
+          <electronic type="url" target="directDownload">
+            <value>http://somelocation.com</value>
+          </electronic>
+        </address>
+            </location>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P8tL4cOV5hadsfws8wPZm8pwbbsaRqtslw66reKtVxfm0BEYY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which only meets Identifier (ean13) Metadata Report checks.</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <identifier type="ean13">ean13_923dfgdfgfdg45992</identifier>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P8tL4casdfdsadfse3bsaRqtslw66reKtVxfm0BEYY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which only meets Identifier (x2 local and handle) Metadata Report checks.</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <identifier type="local">ean13_9asdfdsf23dfgdfgfdg45992</identifier>
+            <identifier type="hanle">101.25/545646.45</identifier>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P8tL4asdfdsdsfd53533_bbsaRqtslw66reKtVxfm0BEYY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets only CitationInfo Metadata Report checks. FullCitation</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <citationInfo>
+                <fullCitation style="APA">APA Full Citation Goes here</fullCitation>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P8tL4as2345sfdsf_bbsaRqsdf3lw66reKtVxfm0BEYY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets only CitationInfo Metadata Report checks. Citation Metadata</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <citationInfo>
+                <citationMetadata>
+                    <title>
+Office of Environment and Heritage, New South Wales - NP_HEATH Vegetation Survey (null)
+</title>
+                    <contributor>
+                        <namePart>Example contributor 3 (entered as single string no seq)</namePart>
+                    </contributor>
+                    <contributor>
+                        <namePart>Example contributor 1 (entered as single string no seq)</namePart>
+                    </contributor>
+                    <contributor>
+                        <namePart>Example contributor 2 (entered as single string no seq)</namePart>
+                    </contributor>
+                    <identifier type="doi">103dsf30345545</identifier>
+                    <date type="publicationDate">2001</date>
+                    <date type="issued">2000</date>
+                    <date type="created">1999</date>
+                    <publisher>
+ÆKOS Data Portal, rights owned by State of New South Wales (Office of Environment and Heritage http://www.environment.nsw.gov.au/)
+</publisher>
+                    <url> http://aekos.org.au/collection/nsw.gov.au/nsw_atlas/vis_flora_module/NP_HEATH </url>
+                    <version>11/2013</version>
+                    <context>citation Context goes here.</context>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P8tL4cOdsf258dssdf_EYY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets only Rights Metadata Report checks. RighsStatement</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <rights>
+                <rightsStatement>Some Rights</rightsStatement>
+            </rights>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P8tL4cOV258dsdsdf_EYY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets only Rights Metadata Report checks. RighsStatement URL only</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <rights>
+                <rightsStatement rightsUri="http://rightsStatement.org"/>
+            </rights>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P8tL4cOsdejf34__dssdf_EYY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets only Rights Metadata Report checks. RighsStatement value only</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <rights>
+                <rightsStatement>Rights statement value</rightsStatement>
+            </rights>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P8tL4jfgdsf34__dssdf_EYY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets only Rights Metadata Report checks. RighsStatement value and URL</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <rights>
+                <rightsStatement rightsUri="http://rightsStatement.org">Rights statement value</rightsStatement>
+            </rights>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P8tL4cOV..2nyjjdssdf_EYY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets only Rights Metadata Report checks. Licence rightsUri only</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <rights>
+                <licence rightsUri="http://rightsLicence.org"/>
+            </rights>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P8tL4cOddsf34__dssdfdffwf_EYY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets only Rights Metadata Report checks. Licence value only</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <rights>
+                <licence>Licence statement value</licence>
+            </rights>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P8tLdfsa5sdfsf34__dssdfdffwf_EYY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets only Rights Metadata Report checks. Licence value and rights uri</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <rights>
+                <licence rightsUri="http://rightsLicence.org">Licence statement value</licence>
+            </rights>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P3sdodslsdfsf34__dssdfdffwf_EYY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets only Rights Metadata Report checks. Licence value, type and rights uri</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <rights>
+                <licence type="cc-by" rightsUri="http://rightsLicence.org">Licence statement value</licence>
+            </rights>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P8tj5rty7dssdf_EYY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets only Rights Metadata Report checks. AccessRights rightsUri only</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <rights>
+                <accessRights rightsUri="http://rightsAccess.org"/>
+            </rights>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P8tL4cOdsf34__d2148fdfgfwf_EYY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets only Rights Metadata Report checks. Access Rights value only</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <rights>
+                <accessRights>Access rights statement value</accessRights>
+            </rights>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P3sdodsfdssdf_4dfdffwf_EYY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets only Rights Metadata Report checks. Access rights value, type and rights uri</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <rights>
+                <accessRights type="local" rightsUri="http://rightsAccess.org">Access statement value</accessRights>
+            </rights>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P3sdodsdfssdf_4dfdffwf_EYY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets only Rights Metadata Report checks. All Rights types and values</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <rights>
+                <accessRights type="local" rightsUri="http://rightsAccess.org">Access statement value</accessRights>
+                <licence type="cc-by" rightsUri="http://rightsLicence.org">Licence statement value</licence>
+                <rightsStatement rightsUri="http://rightsStatement.org">Rights statement value</rightsStatement>
+            </rights>
+        </collection>
+    </registryObject>
+
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P8V5hNbQXWdfg.bsaRqtslw66reKtVxfm0BEYY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets only Related Outputs. RelInfo dataQualityInformation</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <relatedInfo type="dataQualityInformation">
+                <title>A Related Info dataQualityInformation</title>
+                <identifier type="arc">activityid2sdfddfs343</identifier>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P8V5hNbQXWdfg.bssdfVxfm0BEYY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets only Related Outputs. RelInfo metadata</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <relatedInfo type="metadata">
+                <title>A Related Info metadata</title>
+                <identifier type="local">asdfds334</identifier>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P8V5hNbQXWdfg.b_d0ddYY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets only Related Outputs. RelInfo publication</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <relatedInfo type="publication">
+                <title>A Related Info publication</title>
+                <identifier type="doi">10.13658dsf/sdf</identifier>
+                <relation type="isCitedBy"/>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P8V5hNbQ4XWdfg.bssfsdfdsdfEYY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets only Related Outputs. RelInfo provenance</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <relatedInfo type="provenance">
+                <title>A Related Info provenance</title>
+                <identifier type="uri">http://someprov.url</identifier>
+                <notes>A few prov notes</notes>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P8V5hNbQXWdfg.bs355d5_fm0BEYY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets only Related Outputs. RelInfo reuseInformation</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <relatedInfo type="reuseInformation">
+                <title>A Related Info reuseInformation</title>
+                <identifier type="local">asdfdfs4</identifier>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P8V5hNdsfdf_0BEYY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets only Related Outputs. RelInfo website</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <relatedInfo type="website">
+                <title>A Related Info website</title>
+                <identifier type="uri">http://www.google.com</identifier>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P8dftL_.YY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets related People/Org Metadata Report checks.RelOb Party Person</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <relatedObject>
+                <key>GA/Davidson,R.J.AUT</key>
+                <relation type="hasCollector"/>
+            </relatedObject>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P834_.Ysdfg245Y</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets related People/Org Metadata Report checks.RelOb Party Org</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <relatedObject>
+                <key>Gorg.AUT</key>
+                <relation type="isOwnedBy"/>
+            </relatedObject>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P8tL4cdfgOV5hNbQXW__EYY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets related People/Org Metadata Report checks.RelatedInfo Party Person</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <relatedInfo type="party">
+                <title>A Related Info party Davidson,R.J.</title>
+                <identifier type="orcid">4534-1234-1258-1525</identifier>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P345dsftL_.YY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets related Activity Metadata Report checks.RelOb Activity</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <relatedObject>
+                <key>http://AUT.org/au-research/grants/arc/DP34dsdfdsf5938</key>
+                <relation type="isOutputOf"/>
+            </relatedObject>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>PdsggftL_.YY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets related Activity Metadata Report checks.RelatedInfo Activity</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <relatedInfo type="activity">
+                <title>A Related Info Activity</title>
+                <identifier type="arc">DP0665938AUTx.Grant</identifier>
+                <relation type="isOutputOf"/>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>mhfdfgtL_.YY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets related Service Metadata Report checks.RelOb Service</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <relatedObject>
+                <key>AUTdT3estingRecordsVC/0008</key>
+                <relation type="isSupportedBy"/>
+            </relatedObject>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>mhdftL_.YY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets related Service Metadata Report checks.RelatedInfo Service</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <relatedInfo type="service">
+                <title>A Related Info Service</title>
+                <identifier type="handle">100.22/nla.w4fgds</identifier>
+                <relation type="isSupportedBy"/>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P8tL4cOV523345wbbsaRqtslw66reKtVxfm0BEYY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets Subject Metadata Report checks. ANZSRCFOR subject</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <subject type="anzsrc-for">04</subject>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P8tL4csfhhhdfdfswbbsaRqtslw66reKtVxfm0BEYY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets Subject Metadata Report checks. Local subject</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <subject type="local">LocalKeyword</subject>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P8tL4cO__d0BsdfYY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets coverage Metadata Report checks. Temporal text</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <coverage>
+                <temporal>
+                    <text>Australia</text>
+                </temporal>
+            </coverage>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>sd.m0sdfBEYY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>(AUTestingRecords3) Collection which meets coverage Metadata Report checks. Spatial text</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <coverage>
+                <spatial type="text">Australia</spatial>
+            </coverage>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>sd.mdsfsdfEYY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>(AUTestingRecords3) Collection which meets coverage Metadata Report checks. Spatial kmlPoly</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <coverage>
+                <spatial type="kmlPolyCoords">141.000000,-34.000000 142.919336,-34.145604 144.582129,-35.659230 147.742627,-35.873175 150.024219,-37.529041 150.200000,-39.200000 141.000000,-39.200000 141.000000,-34.000000 141.000000,-34.000000</spatial>
+            </coverage>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P8tL4cO__d0BsdfEYY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets coverage Metadata Report checks. Temporal dates</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <coverage>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">1894</date>
+                    <date type="dateTo" dateFormat="W3CDTF">1994</date>
+                </temporal>
+            </coverage>
+        </collection>
+    </registryObject>
+
+    <registryObject group="(AUTestingRecords3)">
+        <key>P8tL4cO__dsfdsfYY</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="repository">
+            <name type="primary">
+                <namePart>((AUTestingRecords3) Collection which meets coverage Metadata Report checks. Temporal dates and Spatial kml</namePart>
+            </name>
+            <description type="note">&lt;p&gt;asdfasdf asdfasd fasdfasdf&lt;/p&gt;</description>
+            <coverage>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">1894</date>
+                    <date type="dateTo" dateFormat="W3CDTF">1994</date>
+                </temporal>
+                <spatial type="kmlPolyCoords">141.000000,-34.000000 142.919336,-34.145604 144.582129,-35.659230 147.742627,-35.873175 150.024219,-37.529041 150.200000,-39.200000 141.000000,-39.200000 141.000000,-34.000000 141.000000,-34.000000</spatial>
+            </coverage>
+        </collection>
+    </registryObject>
+
+        <registryObject group="AUTestingRecords3">
+        <key>AUTestingRecordsCollectiondsafsdfsdfInfo</key>
+        <originatingSource>http://catalogue.aodn.org.au/geonetwork/srv/en</originatingSource>
+        <collection type="dataset">
+            <identifier type="local">AODN:b6f9e382-3765-4728-be6a-7f6sdfdfadf2AUT</identifier>
+            <name type="primary">
+                <namePart type="full">(AUTestingRecords3) Collection which meets the following Metadata Report checks. Identifier, Location, Coverage and Subject</namePart>
+            </name>
+            <location>
+                <address>
+          <electronic type="url">
+            <value>
+http://catalogue.aodn.org.au/geonetwork/srv/en/metadata.show?uuid=b6f9e382-3765-4728-be6a-7f6311a42b62
+</value>
+          </electronic>
+        </address>
+            </location>
+            <coverage>
+                <spatial type="iso19139dcmiBox">
+northlimit=-29; southlimit=-30; westlimit=147; eastLimit=162; projection=WGS84
+</spatial>
+            </coverage>
+            <subject type="local">Tasmania</subject>
+            <subject type="local">MARINE-Meteorology</subject>
+            <subject type="local">MARINE-Coasts</subject>
+            <subject type="local">OCEANOGRAPHY</subject>
+            <subject type="local">WATER-Salinity</subject>
+            <subject type="anzsrc-for">0104</subject>
+            <subject type="anzsrc-for">0105</subject>
+            <subject type="anzsrc-for">0103</subject>
+            <subject type="anzsrc-for">04</subject>
+            <subject type="anzsrc-for">9699</subject>
+            <description type="brief">
+The data is from the voyage ss2013_v02 with PI Prof Colin Woodroffe
+</description>
+            <description type="brief">
+The data were accumulated from the underway sensors deployed on the Marine National Facility vessel RV Southern Surveyor. The data are transmitted to shore from the ship at 3 hourly intervals. The data are checked for max-min value of each sensors and the unavailable data is published as -999.9
+</description>
+            <relatedInfo type="collection">
+                <identifier type="doi">10.66666-12221</identifier>
+                <relation type="hasDerivedCollection"/>
+                <notes>An invalid doi</notes>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <!-- ____ACTIVITIES____ !-->
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTestingRecorsdfsdfsdf</key>
+        <originatingSource>Scraped from the Web</originatingSource>
+        <activity type="program">
+            <name type="primary">
+                <namePart>(AUTestingRecords3) Activity which meets All Metadata Report checks.</namePart>
+            </name>
+            <identifier type="purl">http://purl.org/au-research/grants/dsfdsa33</identifier>
+            <location>
+                <address>
+          <electronic type="url">
+            <value>http://somelocation.com</value>
+          </electronic>
+        </address>
+            </location>
+            <relatedObject>
+                <key>GA/Davidson,R.J.AUT</key>
+                <relation type="isManagedBy"/>
+            </relatedObject>
+            <description type="brief">The Hub 2 is a collaborative partnership supported with funding from the Australian Government administered by the Department of the Environmen's National Environmental Research Programme.
+The Marine Biodiversity Hub will research Australian oceans and marine environments, including temperate coastal water quality and marine species.It is administered by the University of Tasmania, and led by Professor Nic Bax.
+</description>
+            <subject type="local">LocalKeyword</subject>
+            <relatedInfo type="service">
+                <title>A Related Info Service</title>
+                <identifier type="handle">100.22/nla.w4fgds</identifier>
+                <relation type="isSupportedBy"/>
+            </relatedInfo>
+            <existenceDates>
+                <startDate dateFormat="W3CDTF">2011</startDate>
+                <endDate dateFormat="W3CDTF">2014</endDate>
+            </existenceDates>
+        </activity>
+    </registryObject>
+
+        <registryObject group="AUTestingRecords3">
+        <key>AUTestingRecorsdfsdfsdf</key>
+        <originatingSource>Scraped from the Web</originatingSource>
+        <activity type="program">
+            <name type="primary">
+                <namePart>(AUTestingRecords3) Activity which meets All Metadata Report checks. Reverse RelatedObject Party and RelatedInfo Service</namePart>
+            </name>
+            <identifier type="purl">http://purl.org/au-research/grants/dsfdsa33aa</identifier>
+            <location>
+                <address>
+          <electronic type="url">
+            <value>http://somelocation.com</value>
+          </electronic>
+        </address>
+            </location>
+            <description type="brief">The Hub 2 is a collaborative partnership supported with funding from the Australian Government administered by the Department of the Environmen's National Environmental Research Programme.
+The Marine Biodiversity Hub will research Australian oceans and marine environments, including temperate coastal water quality and marine species.It is administered by the University of Tasmania, and led by Professor Nic Bax.
+</description>
+            <subject type="local">LocalKeyword</subject>
+            <existenceDates>
+                <startDate dateFormat="W3CDTF">2011</startDate>
+                <endDate dateFormat="W3CDTF">2014</endDate>
+            </existenceDates>
+        </activity>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTestingRecorsdfsd_DFfsdf</key>
+        <originatingSource>Scraped from the Web</originatingSource>
+        <activity type="program">
+            <name type="primary">
+                <namePart>(AUTestingRecords3) Activity which meets identifier Metadata Report checks. Identifier purl</namePart>
+            </name>
+            <identifier type="purl">http://purl.org/au-research/grants/dsfdsa33aa</identifier>
+        </activity>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUT_.ds8sdf</key>
+        <originatingSource>Scraped from the Web</originatingSource>
+        <activity type="program">
+            <name type="primary">
+                <namePart>(AUTestingRecords3) Activity which meets Location Address Metadata Report check. Location electronic</namePart>
+            </name>
+            <location>
+                <address>
+          <electronic type="url">
+            <value>http://somelocation.com</value>
+          </electronic>
+        </address>
+            </location>
+        </activity>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUT_.dsdsf8sdf</key>
+        <originatingSource>Scraped from the Web</originatingSource>
+        <activity type="program">
+            <name type="primary">
+                <namePart>(AUTestingRecords3) Activity which meets Location Address Metadata Report check. Location physical</namePart>
+            </name>
+            <location>
+                <address>
+          <electronic type="email" target="landingPage">
+            <value>c.gervasoni@federation.edu.au</value>
+          </electronic>
+          <physical type="streetAddress">
+            <addressPart type="addressLine">&lt;p&gt; Geoffrey Blainey Research Centre&lt;/p&gt;&lt;p&gt; Federation University Australia Mt Helen Campus&lt;/p&gt;&lt;p&gt; E. J. Barker Library&lt;p&gt;&lt;p&gt; Mt Helen Vic 3350&lt;/p&gt; PO Box 663 Ballarat 3353 Vic</addressPart>
+          </physical>
+        </address>
+            </location>
+        </activity>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTestingR_sdfffd33fsdf</key>
+        <originatingSource>Scraped from the Web</originatingSource>
+        <activity type="program">
+            <name type="primary">
+                <namePart>(AUTestingRecords3) Activity which meets Related peopld Metadata Report check. RelatedObject party person</namePart>
+            </name>
+            <relatedObject>
+                <key>GA/Davidson,R.J.AUT</key>
+                <relation type="isManagedBy"/>
+            </relatedObject>
+        </activity>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTestingR_sdfffsdfdd33fsdf</key>
+        <originatingSource>Scraped from the Web</originatingSource>
+        <activity type="program">
+            <name type="primary">
+                <namePart>(AUTestingRecords3) Activity which meets Related peopld Metadata Report check. RelatedInfo party</namePart>
+            </name>
+            <relatedInfo type="party">
+                <title>A Related Info party Davidson,R.J.</title>
+                <identifier type="orcid">4534-1234-1258-1525</identifier>
+            </relatedInfo>
+        </activity>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTestingR_sdfffddfsddf333fsdf</key>
+        <originatingSource>Scraped from the Web</originatingSource>
+        <activity type="grant">
+            <name type="primary">
+                <namePart>(AUTestingRecords3) Activity which meets Related collection or service Metadata Report check. RelatedObject collection</namePart>
+            </name>
+            <relatedObject>
+                <key>AUTestingRecordsPROV12sdfdf866</key>
+                <relation type="hasOutput"/>
+            </relatedObject>
+        </activity>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTestingR_sdwjssdfsdf</key>
+        <originatingSource>Scraped from the Web</originatingSource>
+        <activity type="grant">
+            <name type="primary">
+                <namePart>(AUTestingRecords3) Activity which meets Related collection or service Metadata Report check. RelatedInfo collection</namePart>
+            </name>
+            <relatedInfo type="collection">
+                <title>A Related Info party Davidson,R.J.</title>
+                <identifier type="local">VPRS 128sdfdf66AUT</identifier>
+                <relation type="hasOutput"/>
+            </relatedInfo>
+        </activity>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTestingR_sdfffddf3dsffdsersdf</key>
+        <originatingSource>Scraped from the Web</originatingSource>
+        <activity type="grant">
+            <name type="primary">
+                <namePart>(AUTestingRecords3) Activity which meets Related collection or service Metadata Report check. RelatedObject service</namePart>
+            </name>
+            <relatedObject>
+                <key>AUTdT3estingRecordsVC/0008</key>
+                <relation type="hasOutput"/>
+            </relatedObject>
+        </activity>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AsdfUTestingR_sdwjsfddsfssdf</key>
+        <originatingSource>Scraped from the Web</originatingSource>
+        <activity type="grant">
+            <name type="primary">
+                <namePart>(AUTestingRecords3) Activity which meets Related collection or service Metadata Report check. RelatedInfo service</namePart>
+            </name>
+            <relatedInfo type="service">
+                <title>A Related Info party Davidson,R.J.</title>
+                <identifier type="handle">100.22/nla.w4fgds</identifier>
+                <relation type="hasOutput"/>
+            </relatedInfo>
+        </activity>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTestingadsfi899sfsdfdfsdfsdf</key>
+        <originatingSource>Scraped from the Web</originatingSource>
+        <activity type="program">
+            <name type="primary">
+                <namePart>(AUTestingRecords3) Activity which meets Subject Metadata Report checks. Local subject</namePart>
+            </name>
+            <subject type="local">LocalKeyword</subject>
+        </activity>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTestingadsfi89ddfgsf3sdf</key>
+        <originatingSource>Scraped from the Web</originatingSource>
+        <activity type="program">
+            <name type="primary">
+                <namePart>(AUTestingRecords3) Activity which meets Subject Metadata Report checks. ANZSRCFOR</namePart>
+            </name>
+            <subject type="anzsrc-for">0502</subject>
+        </activity>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTestingRecorasddsf324345df</key>
+        <originatingSource>Scraped from the Web</originatingSource>
+        <activity type="program">
+            <name type="primary">
+                <namePart>(AUTestingRecords3) Activity which meets Description Metadata Report check. Brief description</namePart>
+            </name>
+            <description type="brief">The Hub 2 is a collaborative partnership supported with funding from the Australian Government administered by the Department of the Environmen's National Environmental Research Programme.
+The Marine Biodiversity Hub will research Australian oceans and marine environments, including temperate coastal water quality and marine species.It is administered by the University of Tasmania, and led by Professor Nic Bax.
+</description>
+        </activity>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTeasdfssdfdfddfgsdf</key>
+        <originatingSource>Scraped from the Web</originatingSource>
+        <activity type="program">
+            <name type="primary">
+                <namePart>(AUTestingRecords3) Activity which meets Existence dates Metadata Report checks.</namePart>
+            </name>
+            <existenceDates>
+                <startDate dateFormat="W3CDTF">2011</startDate>
+                <endDate dateFormat="W3CDTF">2014</endDate>
+            </existenceDates>
+        </activity>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTestingRecords3:Funasdsfdsf_..df</key>
+        <originatingSource>arc.gov.au/general/searchable_data.htm</originatingSource>
+        <activity type="grant">
+            <name type="primary">
+                <namePart>(AUTestingRecords3) Activity which meets the following Metadata Report checks. Identifier, Description, Subject, RelatedObject Collection, RelatedInfo Party </namePart>
+            </name>
+            <identifier type="purl">AUTestingRecords3:Funder/Program12/Hub1/GrantLPdfdfgdfgUTx.Grant</identifier>
+            <identifier type="arc">LP02111dfgdgTx.Grant</identifier>
+            <relatedObject>
+                <key>AUTestingRecordsPROV12sdfdf866</key>
+                <relation type="hasOutput"/>
+            </relatedObject>
+            <subject type="anzsrc-for">1701</subject>
+            <subject type="local">alternative harvesting systems</subject>
+            <subject type="local">environmental attitudes</subject>
+            <subject type="local">environmental perception</subject>
+            <subject type="local">forestry</subject>
+            <subject type="local">social acceptability</subject>
+            <subject type="local">virtual environments</subject>
+            <description type="brief">Fierce public debate over forest management has prompted forest agencies to develop and test alternative harvesting systems. This project will examine community response to these harvesting and regeneration options. It will avoid the biases of existing research by developing an interactive simulation of the forest environment that will allow participants to view visual, ecological and economic outcomes of harvest options, as well as changes over time as forest regenerates. Public judgements of the acceptability of harvesting options will be integrated with the outcomes of related biophysical studies to identify socially and ecologically sustainable management options for Australian native forests.</description>
+            <description type="fundingAmount">$110,000</description>
+            <description type="fundingScheme">Linkage Projects</description>
+            <description type="researchers">Dr KJ Williams A/Prof ID Bishop A/Prof JW Cary Dr TJ Webb Dr MJ Brown Mr JE Hickey</description>
+            <relatedInfo type="party">
+                <title>A Related Info party Davidson,R.J.</title>
+                <identifier type="orcid">4534-1234-1258-1525</identifier>
+                <relation type="isFundedBy"></relation>
+            </relatedInfo>
+        </activity>
+    </registryObject>
+
+    <!-- ____SERVICES____ !-->
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUsdf_vK3xQc5yZlPFnbs</key>
+        <originatingSource type="">
+https://researchdata.ands.org.au/registry//orca/register_my_data
+</originatingSource>
+        <service type="assemble">
+            <name type="primary">
+                <namePart>(AUTestingRecords3)Service which meets all the Metadata Report checks.</namePart>
+            </name>
+            <description type="logo">
+&amp;lt;p&amp;gt;&amp;lt;img src=&amp;quot;http://med.data.edu.au/wp-content/uploads/2015/04/logo_main.jpg&amp;quot; alt=&amp;quot;med.data.edu.au logo&amp;quot; width=&amp;quot;303&amp;quot; height=&amp;quot;140&amp;quot; /&amp;gt;&amp;lt;/p&amp;gt;
+</description>
+            <identifier type="uri">http://med.data.edu.ausdfAUT</identifier>
+            <location>
+                <address>
+          <electronic type="url">
+            <value>http://med.data.edu.au</value>
+          </electronic>
+        </address>
+            </location>
+            <rights>
+                <licence rightsUri="http://creativecommons.org/licences/by/4.0/deed.en" type="CC-BY">Creative Commons Attribution 4.0 International</licence>
+                <accessRights>These data can be freely downloaded via the Australian Ecological Knowledge and Observation System (ÆKOS) Data Portal and used subject to the null licence. Attribution and citation is required as described under Licence and Citation. We ask you to send citations of publications arising from work that use these data to datacited@aekos.org.au and citation and copies of publications to DEWNRBioDataRequests@sa.gov.au.</accessRights>
+            </rights>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.example1.com </identifier>
+                <relation type="hasAssociationWith"/>
+                <title> Example Website For Large Number Relations1 </title>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>A Related Info party Davidson,R.J.</title>
+                <identifier type="orcid">4534-1234-1258-1525</identifier>
+            </relatedInfo>
+            <relatedObject>
+                <key>AUTestingRecordsPROV12sdfdf866</key>
+                <relation type="hasOutput"/>
+            </relatedObject>
+            <subject type="anzsrc-for">11</subject>
+        </service>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUsdf_vK3xQc5yZlPFnbsAey</key>
+        <originatingSource type="">
+https://researchdata.ands.org.au/registry//orca/register_my_data
+</originatingSource>
+        <service type="assemble">
+            <name type="primary">
+                <namePart>(AUTestingRecords3)Service which meets all the Metadata Report checks. Reverse RelatedInfo party</namePart>
+            </name>
+            <description type="logo">
+&amp;lt;p&amp;gt;&amp;lt;img src=&amp;quot;http://med.data.edu.au/wp-content/uploads/2015/04/logo_main.jpg&amp;quot; alt=&amp;quot;med.data.edu.au logo&amp;quot; width=&amp;quot;303&amp;quot; height=&amp;quot;140&amp;quot; /&amp;gt;&amp;lt;/p&amp;gt;
+</description>
+            <identifier type="uri">http://med.data.edu.ausdfAUTaa</identifier>
+            <location>
+                <address>
+          <electronic type="url">
+            <value>http://med.data.edu.au</value>
+          </electronic>
+        </address>
+            </location>
+            <rights>
+                <licence rightsUri="http://creativecommons.org/licences/by/4.0/deed.en" type="CC-BY">Creative Commons Attribution 4.0 International</licence>
+                <accessRights>These data can be freely downloaded via the Australian Ecological Knowledge and Observation System (ÆKOS) Data Portal and used subject to the null licence. Attribution and citation is required as described under Licence and Citation. We ask you to send citations of publications arising from work that use these data to datacited@aekos.org.au and citation and copies of publications to DEWNRBioDataRequests@sa.gov.au.</accessRights>
+            </rights>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.example1.com </identifier>
+                <relation type="hasAssociationWith"/>
+                <title> Example Website For Large Number Relations1 </title>
+            </relatedInfo>
+            <relatedObject>
+                <key>AUTestingRecordsPROV12sdfdf866</key>
+                <relation type="hasOutput"/>
+            </relatedObject>
+            <subject type="anzsrc-for">11</subject>
+        </service>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUsdf_vK3xQc5ysdfdZlPFnbs</key>
+        <originatingSource type="">
+https://researchdata.ands.org.au/registry//orca/register_my_data
+</originatingSource>
+        <service type="assemble">
+            <name type="primary">
+                <namePart>(AUTestingRecords3)Service which meets identifier Metadata Report checks. Handle</namePart>
+            </name>
+            <identifier type="handle">100.1.data.edu.ausdfAUT</identifier>
+        </service>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUsdf_vK3x_.d09nbs</key>
+        <originatingSource type="">
+https://researchdata.ands.org.au/registry//orca/register_my_data
+</originatingSource>
+        <service type="assemble">
+            <name type="primary">
+                <namePart>(AUTestingRecords3)Service which meets location Metadata Report checks. Electronic address.</namePart>
+            </name>
+            <location>
+                <address>
+          <electronic type="url">
+            <value>http://med.data.edu.au</value>
+          </electronic>
+        </address>
+            </location>
+        </service>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUsdf_vK3x_.sdfeeebs</key>
+        <originatingSource type="">
+https://researchdata.ands.org.au/registry//orca/register_my_data
+</originatingSource>
+        <service type="assemble">
+            <name type="primary">
+                <namePart>(AUTestingRecords3)Service which meets location Metadata Report checks. Physical address.</namePart>
+            </name>
+            <location>
+                <address>
+          <physical type="streetAddress">
+            <addressPart type="addressLine">
+Biomolecular Frontiers Research Centre Department of Chemistry and Biomolecular Science Faculty of Science Macquarie University NSW 2109 Australia
+</addressPart>
+          </physical>
+        </address>
+            </location>
+        </service>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>ALdUsdf_vK3xQc5yZlPFdnbs</key>
+        <originatingSource type="">
+https://researchdata.ands.org.au/registry//orca/register_my_data
+</originatingSource>
+        <service type="assemble">
+            <name type="primary">
+                <namePart>(AUTestingRecords3)Service which meets description Metadata Report checks. Note</namePart>
+            </name>
+            <description type="note">
+&amp;lt;p&amp;gt;&amp;lt;img src=&amp;quot;http://med.data.edu.au/wp-content/uploads/2015/04/logo_main.jpg&amp;quot; alt=&amp;quot;med.data.edu.au logo&amp;quot; width=&amp;quot;303&amp;quot; height=&amp;quot;140&amp;quot; /&amp;gt;&amp;lt;/p&amp;gt;
+</description>
+        </service>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUsdf_vK3xQdsfdsfc5myZlPFnbs</key>
+        <originatingSource type="">
+https://researchdata.ands.org.au/registry//orca/register_my_data
+</originatingSource>
+        <service type="assemble">
+            <name type="primary">
+                <namePart>(AUTestingRecords3)Service which meets rights the Metadata Report checks. Licence value</namePart>
+            </name>
+            <rights>
+                <licence>Creative Commons Attribution 4.0 International</licence>
+
+            </rights>
+        </service>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUsdf_vK3xQdsfdsfsdfdsfdsdfsdffdsc5myZlPFnbs</key>
+        <originatingSource type="">
+https://researchdata.ands.org.au/registry//orca/register_my_data
+</originatingSource>
+        <service type="assemble">
+            <name type="primary">
+                <namePart>(AUTestingRecords3)Service which meets rights the Metadata Report checks. AccessRights value</namePart>
+            </name>
+            <rights>
+                <accessRights>These data can be freely downloaded via the Australian Ecological Knowledge and Observation System (ÆKOS) Data Portal and used subject to the null licence. Attribution and citation is required as described under Licence and Citation. We ask you to send citations of publications arising from work that use these data to datacited@aekos.org.au and citation and copies of publications to DEWNRBioDataRequests@sa.gov.au.</accessRights>
+            </rights>
+        </service>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUsdf_vK3xQdsfd..9dFdfdsdfs33f3nbs</key>
+        <originatingSource type="">
+https://researchdata.ands.org.au/registry//orca/register_my_data
+</originatingSource>
+        <service type="assemble">
+            <name type="primary">
+                <namePart>(AUTestingRecords3)Service which meets rights the Metadata Report checks. RightsStatement value</namePart>
+            </name>
+            <rights>
+                <rightsStatement>These data can be freely downloaded via the Australian Ecological Knowledge and Observation System (ÆKOS) Data Portal and used subject to the null licence. Attribution and citation is required as described under Licence and Citation. We ask you to send citations of publications arising from work that use these data to datacited@aekos.org.au and citation and copies of publications to DEWNRBioDataRequests@sa.gov.au.</rightsStatement>
+            </rights>
+        </service>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUsdf_vK3xQdsfdsvsdvfsdfdsfdsdfsdffdsc5myZlPFnbs</key>
+        <originatingSource type="">
+https://researchdata.ands.org.au/registry//orca/register_my_data
+</originatingSource>
+        <service type="assemble">
+            <name type="primary">
+                <namePart>(AUTestingRecords3)Service which meets rights the Metadata Report checks. AccessRights rightsUri value</namePart>
+            </name>
+            <rights>
+                <accessRights rightsUri="http://somerightsUri"/>
+            </rights>
+        </service>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AU3sdf_vK3xfggdvasdfPFnbs</key>
+        <originatingSource type="">
+https://researchdata.ands.org.au/registry//orca/register_my_data
+</originatingSource>
+        <service type="assemble">
+            <name type="primary">
+                <namePart>(AUTestingRecords3)Service which meets related information the Metadata Report checks. RelatedInfo Website</namePart>
+            </name>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.examdfgfdgple1.com </identifier>
+                <relation type="hasAssociationWith"/>
+                <title> Example Website For Large Number Relations1 </title>
+            </relatedInfo>
+        </service>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>DAU3sdf_vK3xasdadsfdfPFnbs</key>
+        <originatingSource type="">
+https://researchdata.ands.org.au/registry//orca/register_my_data
+</originatingSource>
+        <service type="assemble">
+            <name type="primary">
+                <namePart>(AUTestingRecords3)Service which meets related information the Metadata Report checks. RelatedInfo ReuseInfo</namePart>
+            </name>
+            <relatedInfo type="reuseInformation">
+                <identifier type="uri">http://www.exampldfge1.com </identifier>
+                <title> Example reuse info </title>
+            </relatedInfo>
+        </service>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>DAU3sdf_vK3xasdfffPFnbs</key>
+        <originatingSource type="">
+https://researchdata.ands.org.au/registry//orca/register_my_data
+</originatingSource>
+        <service type="assemble">
+            <name type="primary">
+                <namePart>(AUTestingRecords3)Service which meets related information the Metadata Report checks. RelatedInfo Provenance</namePart>
+            </name>
+            <relatedInfo type="provenance">
+                <identifier type="uri">http://www.examdfsple1.com </identifier>
+                <title> Example prov info </title>
+            </relatedInfo>
+        </service>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUsdf_vK3xaaQcdsfdsf5yZlPFnbs</key>
+        <originatingSource type="">https://researchdata.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <service type="assemble">
+            <name type="primary">
+                <namePart>(AUTestingRecords3)Service which meets related party the Metadata Report checks. RelatedInfo party</namePart>
+            </name>
+            <relatedInfo type="party">
+                <title>A Related Info party Davidson,R.J.</title>
+                <identifier type="orcid">4534-1234-1258-1525</identifier>
+            </relatedInfo>
+        </service>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUsdf_vK3xQcdsfsdfdasdfsdflPFnbs</key>
+        <originatingSource type="">https://researchdata.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <service type="assemble">
+            <name type="primary">
+                <namePart>(AUTestingRecords3)Service which meets related party the Metadata Report checks. RelatedObj party</namePart>
+            </name>
+            <relatedObject>
+                <key>GA/Davidson,R.J.AUT</key>
+                <relation type="isManagedBy"/>
+            </relatedObject>
+        </service>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUadfsdf_vK3xQcko9lPFnbs</key>
+        <originatingSource type="">https://researchdata.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <service type="assemble">
+            <name type="primary">
+                <namePart>(AUTestingRecords3)Service which meets related Collection the Metadata Report checks. RelatedInfo Collection</namePart>
+            </name>
+            <relatedInfo type="collection">
+                <title>A Related Info party Davidson,R.J.</title>
+                <identifier type="local">VPRS 128sdfdf66AUT</identifier>
+                <relation type="hasOutput"/>
+            </relatedInfo>
+        </service>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUsdf_vK3xQcsdfdf46sdf585</key>
+        <originatingSource type="">https://researchdata.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <service type="assemble">
+            <name type="primary">
+                <namePart>(AUTestingRecords3)Service which meets related Collection the Metadata Report checks. RelatedObj Collection</namePart>
+            </name>
+            <relatedObject>
+                <key>AUTestingRecordsPROV12sdfdf866</key>
+                <relation type="supports"/>
+            </relatedObject>
+        </service>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUsdf_tttt5lPsdfFnbs</key>
+        <originatingSource type="">
+https://researchdata.ands.org.au/registry//orca/register_my_data
+</originatingSource>
+        <service type="assemble">
+            <name type="primary">
+                <namePart>(AUTestingRecords3)Service which meets Subject Metadata Report checks. ANSZSRFOR subject</namePart>
+            </name>
+            <subject type="anzsrc-for">11</subject>
+        </service>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUddsdf_tjjjdPFnbs</key>
+        <originatingSource type="">
+https://researchdata.ands.org.au/registry//orca/register_my_data
+</originatingSource>
+        <service type="assemble">
+            <name type="primary">
+                <namePart>(AUTestingRecords3)Service which meets Subject Metadata Report checks. GCMD subject</namePart>
+            </name>
+            <subject type="GCMD">Air Quality</subject>
+        </service>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTestingRdsfsfrc-ms-1</key>
+        <originatingSource>
+http://services.ands.org.au/sandbox/orca/register_my_data
+</originatingSource>
+        <service type="create" dateModified="2011-09-27T00:00:00Z">
+            <name type="primary">
+                <namePart>(AUTestingRecords3)Service which meets the following Metadata Report checks. Location, Description, relatedInfo and subject</namePart>
+            </name>
+            <location>
+                <address>
+          <physical type="streetAddress">
+            <addressPart type="addressLine">
+Biomolecular Frontiers Research Centre Department of Chemistry and Biomolecular Science Faculty of Science Macquarie University NSW 2109 Australia
+</addressPart>
+          </physical>
+        </address>
+            </location>
+            <subject type="anzsrc-for">250402</subject>
+            <subject type="anzsrc-for">250401</subject>
+            <subject type="anzsrc-for">270101</subject>
+            <description type="brief">
+The 6300 Series Ion Trap Liquid Chromatography Mass Spectrometry (LC/MS) systems are sensitive ion traps, with innovations like the electron transfer dissociation (ETD) for improved analysis of proteins with post-translational modifications.
+</description>
+            <description type="deliverymethod">offlineService</description>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.bmfrc.mq.edu.au/facilities/AUT</identifier>
+            </relatedInfo>
+        </service>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTestingasdfdsfsdfdiversity</key>
+        <originatingSource>
+http://researchdata.ands.org.au/registry/orca/register_my_data
+</originatingSource>
+        <service dateModified="2013-03-01T05:32:12Z" type="assemble">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords3)Service which meets the following Metadata Report checks. Rights, Description Identifier, Location, Related Collection and Subject</namePart>
+            </name>
+            <description type="full">&amp;lt;p&amp;gt; Currently there is a general lack of engagement and knowledge transfer between professional researchers and end-users of research (general public, conservation managers, decision-makers, etc.). This is reflected in a general lack of acceptance and acknowledgement by the public and stakeholders of the potential impacts of climate change, particularly on biodiversity.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt; Recently, researchers have begun to endeavour to make the results of their research public, however there are currently very few channels through which to communicate projected impacts on biodiversity.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt; The CliMAS Biodiversity site provides a tool that reuses data available with Atlas of Living Australia (ALA) and the Tropical Data Hub to allow a broad range of end-users to explore the potential impacts of climate change on biodiversity of terrestrial vertebrate species in Australia.&amp;lt;/p&amp;gt; &amp;lt;strong&amp;gt;Process&amp;lt;/strong&amp;gt; &amp;lt;p&amp;gt; The project produces both current and future species richness maps for to the level of genus, family and class for each of birds, mammals, reptiles, and amphibians. Users visiting the project website can browse maps of biodiversity and download data from the site or from the Tropical Data Hub. A second tool allows users to generate their own species richness maps to view overlaps between taxa.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt; The data is built from a set of current and future climate suitability maps for each species, generated for the CliMAS Biodiversity site. These use the occurrence records cleaned by experts and the MaxEnt algorithm to calculate climatological sensitivities for the species, then use those sensitivities to map climate/species suitability across Australia. Future climate data is projected using climate change scenarios described by the IPCC AR5 report and consolidated across a number of climate models, such that a climate suitability map is available for each intersection of a climate scenario and year modelled.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt; All species distribution models within a genus, family, or class are summed to generate maps that display the gradient of species richness within that taxa.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt; The datasets represent species distributions based on occurrence records from ALA prior to November 2012.&amp;lt;/p&amp;gt;</description>
+            <description type="brief">The CliMAS Biodiversity site provides users with access to projected species richness maps for Australian terrestrial vertebrate species under various climate change scenarios.</description>
+            <rights>
+                <licence type="Unknown/Other" rightsUri="http://tropicaldatahub.org/apps/resources/bsd-license">BSD 3-Clause License</licence>
+            </rights>
+            <identifier type="local">jcu.edu.au/tdh/service/climas-biodiversityAUT</identifier>
+            <location dateFrom="2012-12-14T00:00:00Z">
+                <address>
+          <electronic type="url">
+            <value>http://tropicaldatahub.org/goto/climas-biodiversity</value>
+          </electronic>
+        </address>
+            </location>
+            <relatedObject>
+                <key>AUTestingRecordsPROV12sdfdf866</key>
+                <relation type="supports"/>
+            </relatedObject>
+            <subject type="anzsrc-for">050101</subject>
+            <subject type="anzsrc-seo">960307</subject>
+            <subject type="anzsrc-for">050202</subject>
+            <existenceDates>
+                <startDate dateFormat="W3CDTF">2012-10-01T00:00:00Z</startDate>
+            </existenceDates>
+        </service>
+    </registryObject>
+
+    <!-- ____PARTIES____ !-->
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTesdsfdf3a.gov.au_Bollan</key>
+        <originatingSource>http://www.ga.gov.au</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart>(AUTestingRecords3)Party which meets All Metadata Report checks.</namePart>
+            </name>
+            <identifier type="orcid">0125-9875-6523-3365</identifier>
+            <location>
+                <address>
+          <physical type="streetAddress">
+            <addressPart type="addressLine">Biomolecular Frontiers Research Centre Department of Chemistry and Biomolecular Science Faculty of Science Macquarie University NSW 2109 Australia</addressPart>
+          </physical>
+        </address>
+            </location>
+            <relatedObject>
+                <key>AUTestingRecordsPROV12sdfdf866</key>
+                <relation type="supports"/>
+            </relatedObject>
+            <relatedInfo type="activity">
+                <title>A Related Info Activity</title>
+                <identifier type="arc">DP0665938AUTx.Grant</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+        </party>
+    </registryObject>
+
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTesdsfdf3a.gdfgfsddppdglan</key>
+        <originatingSource>http://www.ga.gov.au</originatingSource>
+        <party type="organisation">
+            <name type="primary">
+                <namePart>(AUTestingRecords3)Party which meets Location Metadata Report checks. Location physical</namePart>
+            </name>
+            <location>
+                <address>
+          <physical type="postalAddress">
+            <addressPart type="addressLine">Biomolecular Frontiers Research Centre Department of Chemistry and Biomolecular Science Faculty of Science Macquarie University NSW 2109 Australia</addressPart>
+          </physical>
+        </address>
+            </location>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTdsgfgesdsfdf3dsdddlan</key>
+        <originatingSource>http://www.ga.gov.au</originatingSource>
+        <party type="organisation">
+            <name type="primary">
+                <namePart>(AUTestingRecords3)Party which meets Location Metadata Report checks. Location electronic email</namePart>
+            </name>
+            <location>
+                <address>
+          <electronic type="email"><value>joeExample@dd.com</value></electronic>
+        </address>
+            </location>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>FF345_oldfgfdglan</key>
+        <originatingSource>http://www.ga.gov.au</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart>(AUTestingRecords3)Party which meets related activity Metadata Report checks. Relatedinfo activity</namePart>
+            </name>
+            <relatedInfo type="activity">
+                <title>A Related Info Activity</title>
+                <identifier type="arc">DP0665938AUTx.Grant</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>FF345s_olldfgfgan</key>
+        <originatingSource>http://www.ga.gov.au</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart>(AUTestingRecords3)Party which meets related activity Metadata Report checks. RelatedObject activity</namePart>
+            </name>
+            <relatedObject>
+                <key>http://AUT.org/au-research/grants/arc/DP34dsdfdsf5938</key>
+                <relation type="isParticipantIn"/>
+            </relatedObject>
+        </party>
+    </registryObject>
+
+
+    <registryObject group="AUTestingRecords3">
+        <key>FF345_olsddfgfdgflan</key>
+        <originatingSource>http://www.ga.gov.au</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart>(AUTestingRecords3)Party which meets related collection Metadata Report checks. Relatedinfo collection</namePart>
+            </name>
+            <relatedInfo type="collection">
+                <title>A Related Info party Davidson,R.J.</title>
+                <identifier type="local">VPRS 128sdfdf66AUT</identifier>
+                <relation type="isManagerOf"/>
+            </relatedInfo>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>FF345s_olladfgdfean</key>
+        <originatingSource>http://www.ga.gov.au</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart>(AUTestingRecords3)Party which meets related collection Metadata Report checks. RelatedObject collection</namePart>
+            </name>
+            <relatedObject>
+                <key>AUTestingRecordsPROV12sdfdf866</key>
+                <relation type="isOwnerOf"/>
+            </relatedObject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTestingRecoasfsdf</key>
+        <originatingSource type="">
+            https://researchdata.ands.org.au/registry//orca/register_my_data
+        </originatingSource>
+        <party type="group" dateModified="2013-07-24T03:52:04Z">
+            <name type="primary">
+                <namePart>(AUTestingRecords3)Service which meets the following Metadata Report checks. Identifier, Location and RelatedObject Collection Rights</namePart>
+            </name>
+            <description type="brief">
+                &amp;lt;p&amp;gt;Public Record Office Victoria (PROV) holds the archives of the State Government of Victoria and is located within the Victorian Archives Centre. Since it was established 40 years ago, this unique collection has grown to almost 100 kms of records spanning the mid 1830s to today. The collection is a treasure trove of memories, events and decisions that have shaped the Colony and State of Victoria:&amp;lt;/p&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;Records of immigration, settlement, land use and ownership, education, courts, prisons, hospitals, asylums and many other significant events and places in the lives of Victorians. These records are included in the archive alongside those documenting the decisions, business and activities of government.&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Photographs, plans, sketches and drawings portray the state’s environment and institutions, and the collection includes an extensive collection of images, captured for decades, by the large state utility companies.&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;A significant amount of digitised material is available online. Physical records generally require pre-ordering and can be accessed through our main reading room in North Melbourne and smaller reading rooms in Ballarat, Bendigo, Beechworth and Geelong.&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;p&amp;gt;Online resources and physical exhibitions are regularly used in collaboration with the cultural/education sectors and contribute to Victorian educational curricula and objectives, research goals, and public service outreach.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;&amp;lt;img src="http://metadata.prov.vic.gov.au/image/PROV-outside.jpg" alt="VAC image" width="659" height="133" /&amp;gt;&amp;lt;/p&amp;gt;
+            </description>
+            <description type="researchAreas">
+                &amp;lt;p&amp;gt;Public Record Office Victoria attracts researchers spanning the humanities, physical sciences, performing arts, legal studies and journalism, as well as individuals or group specifically interested in how Victoria has been shaped by interactions between the public and the government since the mid 1830s. It also offers researchers insights into the evidentiary value of primary records and how those records have been managed over time by successive agencies.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;Collections exposed through RDA, cover a broad range of subject areas including: Aboriginal Victorians, Adoptions &amp; Wardship, Buildings &amp; Land, Cemeteries, Court Cases, Divorce, Education &amp; Teachers, Family History, Historical Images, Inquests, Mental Health, Prisoners &amp; Convicts, Ships &amp; Shipping, Trams &amp; Railways, and Wills &amp; Probate.&amp;lt;/p&amp;gt;
+            </description>
+            <description type="logo">
+                &amp;lt;p&amp;gt;&amp;lt;img src="http://metadata.prov.vic.gov.au/image/PROV_VIC%20logo.GIF" alt="PROV_VIC" width="355" height="116" /&amp;gt;&amp;lt;/p&amp;gt;
+            </description>
+            <relatedObject>
+                <key>AUTestingRecordsPROV12sdfdf866</key>
+                <relation type="isOwnerOf"/>
+            </relatedObject>
+            <rights>
+                <accessRights type="" rightsUri="">Records may be OPEN, CLOSED, or PART OPEN</accessRights>
+            </rights>
+            <identifier type="local">PROVAUTaa</identifier>
+            <location>
+                <address>
+          <physical type="streetAddress">
+            <addressPart type="addressLine">Victorian Archive Centre</addressPart>
+            <addressPart type="addressLine">99 Shiel Street</addressPart>
+            <addressPart type="addressLine">North Melbourne, 3051</addressPart>
+            <addressPart type="addressLine">Victoria, Australia</addressPart>
+          </physical>
+        </address>
+            </location>
+            <coverage>
+                <spatial type="kmlPolyCoords">
+                    141.000000,-34.000000 142.919336,-34.145604 144.582129,-35.659230 147.742627,-35.873175 150.024219,-37.529041 150.200000,-39.200000 141.000000,-39.200000 141.000000,-34.000000 141.000000,-34.000000
+                </spatial>
+            </coverage>
+        </party>
+    </registryObject>
+
+</registryObjects>
