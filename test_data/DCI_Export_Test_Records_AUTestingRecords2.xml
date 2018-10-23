@@ -37,7 +37,7 @@
             </location>
             <coverage>
                 <temporal>
-                    <date type="dateFrom" dateFormat="W3C">T00:00:00Z</date>
+                    <date type="dateFrom" dateFormat="W3C">2006-05-01T00:00:00Z</date>
                     <date type="dateTo" dateFormat="W3C">2006-05-02T00:00:00Z</date>
                 </temporal>
                 <spatial type="iso19139dcmiBox">northlimit=-23.5; southlimit=-29; westlimit=113; eastLimit=115;
@@ -444,10 +444,6 @@
                 <spatial type="iso19139dcmiBox">
                     northlimit=-9.68; southlimit=-28.99; westlimit=111.61; eastLimit=129.99; projection=WGS84
                 </spatial>
-                <temporal>
-                    <date type="dateFrom" dateFormat="W3C">T00:00:00Z</date>
-                    <date type="dateTo" dateFormat="W3C">T00:00:00Z</date>
-                </temporal>
             </coverage>
             <subject type="local">Biosphere | Aquatic Habitat | Benthic Habitat</subject>
             <subject type="local">Land Surface | Landscape | Landscape Ecology</subject>
