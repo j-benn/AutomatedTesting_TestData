@@ -501,10 +501,6 @@
                 <spatial type="iso19139dcmiBox">
                     northlimit=-9.68; southlimit=-28.99; westlimit=111.61; eastLimit=129.99; projection=WGS84
                 </spatial>
-                <temporal>
-                    <date type="dateFrom" dateFormat="W3C">T00:00:00Z</date>
-                    <date type="dateTo" dateFormat="W3C">T00:00:00Z</date>
-                </temporal>
             </coverage>
             <subject type="local">Biosphere | Aquatic Habitat | Benthic Habitat</subject>
             <subject type="local">Land Surface | Landscape | Landscape Ecology</subject>
@@ -561,10 +557,6 @@
                 <spatial type="iso19139dcmiBox">
                     northlimit=-9.68; southlimit=-28.99; westlimit=111.61; eastLimit=129.99; projection=WGS84
                 </spatial>
-                <temporal>
-                    <date type="dateFrom" dateFormat="W3C">T00:00:00Z</date>
-                    <date type="dateTo" dateFormat="W3C">T00:00:00Z</date>
-                </temporal>
             </coverage>
             <subject type="local">Biosphere | Aquatic Habitat | Benthic Habitat</subject>
             <subject type="local">Land Surface | Landscape | Landscape Ecology</subject>
@@ -623,10 +615,6 @@
                 <spatial type="iso19139dcmiBox">
                     northlimit=-9.68; southlimit=-28.99; westlimit=111.61; eastLimit=129.99; projection=WGS84
                 </spatial>
-                <temporal>
-                    <date type="dateFrom" dateFormat="W3C">T00:00:00Z</date>
-                    <date type="dateTo" dateFormat="W3C">T00:00:00Z</date>
-                </temporal>
             </coverage>
             <subject type="local">MyLocalSubject</subject>
             <subject type="local">Biosphere | Aquatic Habitat | Benthic Habitat</subject>
