@@ -628,6 +628,7 @@
                     <date type="dateTo" dateFormat="W3C">T00:00:00Z</date>
                 </temporal>
             </coverage>
+            <subject type="local">MyLocalSubject</subject>
             <subject type="local">Biosphere | Aquatic Habitat | Benthic Habitat</subject>
             <subject type="local">Land Surface | Landscape | Landscape Ecology</subject>
             <subject type="local">Oceans | Marine Biology | Marine Habitat</subject>
@@ -829,7 +830,7 @@
         <originatingSource type="">http://researchdata.ands.org.au/registry/orca/register_my_data</originatingSource>
         <collection type="collection" dateModified="2013-02-04T01:52:49Z" dateAccessioned="2013-01-17T00:00:00Z">
             <name type="primary">
-                <namePart>(AUTestingRecords)DCI Collection(collection) with multiple citation contributors and relatedObject parent collection</namePart>
+                <namePart>(AUTestingRecords)DCI Collection(collection) with Dates(created) and relatedObject parent collection</namePart>
             </name>
             <name type="alternative">
                 <namePart>(AUTestingRecords)Yarra Range Information Communication Technology survey, 2011</namePart>
@@ -907,28 +908,6 @@
                     http://www.yarraranges.vic.gov.au/files/84ebcaa3-7783-4ee6-a848-a0380124be7a/YRC_Broadband_report_311011_Final.pdfAUTba1
                 </identifier>
             </relatedInfo>
-            <citationInfo>
-                <citationMetadata>
-                    <identifier type="handle">
-                        http://researchonline.ballarat.edu.au:8080/vital/access/HandleResolver/1959.17/34094AUTba1
-                    </identifier>
-                    <title>Yarra Ranges ICT survey, 2011</title>
-                    <version/>
-                    <placePublished>Federation University Australia</placePublished>
-                    <publisher>Centre for eCommerce &amp; Communications (CeCC)</publisher>
-                    <url>http://yarraranges.cecc.com.au/</url>
-                    <context/>
-                    <contributor seq="1">
-                        <namePart type="family">Thompson</namePart>
-                        <namePart type="given">Helen</namePart>
-                    </contributor>
-                    <contributor seq="2">
-                        <namePart type="family">Fong</namePart>
-                        <namePart type="given">George</namePart>
-                    </contributor>
-                    <date type="created">2011</date>
-                </citationMetadata>
-            </citationInfo>
         </collection>
     </registryObject>
 
