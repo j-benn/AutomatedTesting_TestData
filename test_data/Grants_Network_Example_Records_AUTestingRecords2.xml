@@ -198,6 +198,19 @@ key = AUTestingRecords2ala.org.au/dr931 has child collection (key = AUTestingRec
                     is the child of a collection which is linked to grants network.
                 </namePart>
             </name>
+            <description type="full">
+                This dataset contains temperature, salinity and pressure data for all profiles of the Argo float 1900812
+                managed by the Atlantic Oceanographic and Meteorological Laboratory (AOML). Argo is a major
+                international collaborative project to observe the world's oceans and help scientists understand ocean
+                processes and the ocean's roles in climate. The data collected also improves our ability to forecast
+                climate and ocean conditions. The float drift at depth of between 1 and 2 km. Every ten days each float
+                ascends to the surface, measuring temperature and salinity as it rises. This data is transmitted to
+                satellites along with the float's position. The float then dives and starts a new cycle. The Argo float,
+                WMO 1900812 was first deployed on the 2008-11-25T14:00:00 at launch location (Latitude :
+                -43.68600082397461 ; Longitude : 70.98100280761719). The variables available for this Argo float are :
+                Temperature, Practical Salinity and Pressure. The last location of the Argo float was transmitted on the
+                2014-08-28T14:37:01 at the following location (Latitude : -48.588 ; Longitude : -129.169).
+            </description>
             <location>
                 <address>
                     <electronic>
