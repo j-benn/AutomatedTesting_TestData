@@ -44,7 +44,7 @@
         </party>
     </registryObject>
 
-    <registryObject group="AUTestingRecords3">
+        <registryObject group="AUTestingRecords3">
         <key>AUTestingRecords3ScholixPartyRecords3</key>
         <originatingSource>AUTestingRecords3</originatingSource>
         <party type="person">
