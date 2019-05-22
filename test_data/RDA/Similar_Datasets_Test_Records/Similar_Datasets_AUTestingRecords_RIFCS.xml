@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xmlns:extRif="http://ands.org.au/standards/rif-cs/extendedRegistryObjects" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsCollection1</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="publication">
+            <name type="primary">
+                <namePart>Samsung Sony Dell tablets</namePart>
+            </name>
+            <description type="brief">&lt;p&gt;Asus joins Samsung, Sony, and Dell in bundling Microsoft apps on Android&lt;/p&gt;</description>
+            <description type="full">&lt;p&gt;The cross-licensing agreement covers Asus' use of Microsoft intellectual property in Android devices, though Microsoft also gets the benefit of Asus' patent portfolio in delivering its own software, devices, and services. Samsung, the biggest Android manufacturer in the world, was among the first to start bundling Microsoft's apps on Android, beginning with the Galaxy S6 smartphone and a number of its Galaxy tablets earlier this year. Sony and LG then did the same, and Dell has also joined in on preinstalled Microsoft Office apps on its Android devices including tablets.&lt;/p&gt;</description>
+            <identifier type="uri">http://www.theverge.com/2015/10/2/9438597/microsoft-office-apps-asus-android-patent-licensing</identifier>
+            <dates type="dc.issued">
+                <date type="dateFrom" dateFormat="W3CDTF">2015-10-05</date>
+            </dates>
+            <location>
+                <address>
+          <electronic type="url" target="landingPage">
+            <value>http://www.theverge.com/2015/10/2/9438597/microsoft-office-apps-asus-android-patent-licensing</value>
+          </electronic>
+        </address>
+            </location>
+            <coverage>
+                <spatial type="kmlPolyCoords">150.706054,-32.145851 153.430664,-32.294563 150.486328,-36.675469 147.673828,-35.324538 150.706054,-32.145851</spatial>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">2006-01-01T00:00:00Z</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2010-12-31T00:00:00Z</date>
+                </temporal>
+            </coverage>
+            <subject type="anzsrc-for">1006</subject>
+            <subject type="local">Andriod Applications</subject>
+            <subject type="local">Sony Tablets</subject>
+            <relatedInfo type="publication">
+                <title>Samsung bundles Microsoft apps on its new Galaxy S6</title>
+                <identifier type="uri">http://www.theverge.com/2015/3/1/8129439/samsung-galaxy-s6-microsoft-apps</identifier>
+            </relatedInfo>
+            <relatedInfo type="service">
+                <title>Related Info Title</title>
+                <identifier type="local">RelatedService213434.343.sdd_de3ddded</identifier>
+                <relation type="isAvailableThrough"/>
+            </relatedInfo>
+            <relatedInfo type="service">
+                <title>Related Info Title</title>
+                <identifier type="local">RelatedSdsfd34333ded13434.343.sdd_de3ddd_345</identifier>
+                <relation type="hasValueAddedBy"/>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.ssdfdffsd34</identifier>
+                <relation type="author"/>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.ssdfdddffdfed34</identifier>
+                <relation type="isOwnedBy"/>
+            </relatedInfo>
+            <relatedObject>
+                <key>AUTestingRecordsSimilarDatasetsService4</key>
+                <relation type="isOperatedOnBy"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsSimilarDatasetsParty5</key>
+                <relation type="coInvestigator"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsSimilarDatasetsParty2</key>
+                <relation type="hasPrincipalInvestigator"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsSimilarDatasetsActivity1</key>
+                <relation type="isOutputOf"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsSimilarDatasetsParty3</key>
+                <relation type="principalInvestigator"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsSimilarDatasetsParty7</key>
+                <relation type="isManagedBy"/>
+            </relatedObject>
+            <relatedInfo type="service">
+                <title>Related Info Title</title>
+                <identifier type="url">http://www.wordy.com.au</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="uri">http://www.theverge.com/2015/10/2/9438597/microsoft-office-apps-asus-android-patent-licensing</identifier>
+                    <title>Samsung Sony Dell</title>
+                    <version/>
+                    <placePublished/>
+                    <publisher>The Verge</publisher>
+                    <url/>
+                    <context/>
+                    <contributor seq="1">
+                        <namePart type="">Vlad Savov</namePart>
+                    </contributor>
+                    <date type="issued">2015-10-04</date>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsCollection2</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="publication">
+            <name type="primary">
+                <namePart>Sony and LG Android tablets</namePart>
+            </name>
+            <description type="brief">&lt;p&gt;Microsoft Office and Skype will come preinstalled on new Sony, Asus and LG Android tablets&lt;/p&gt;</description>
+            <description type="full">&lt;p&gt;In addition to Sony and LG, Microsoft is also announcing 18 other partners today, including Haier and a number of smaller manufacturers, bringing its total partner count up to 31. Microsoft previously made deals with Samsung, Dell, and Pegatron to have these apps preinstalled on tablets. A number of apps also come preinstalled on the Galaxy S6.&lt;/p&gt;</description>
+            <identifier type="uri">http://www.theverge.com/2015/5/26/8661983/microsoft-apps-preinstalled-sony-lg-tablets</identifier>
+            <dates type="dc.issued">
+                <date type="dateFrom" dateFormat="W3CDTF">2015-05-26</date>
+            </dates>
+            <location>
+                <address>
+          <electronic type="url" target="landingPage">
+            <value>http://www.theverge.com/2015/5/26/8661983/microsoft-apps-preinstalled-sony-lg-tablets</value>
+          </electronic>
+        </address>
+            </location>
+            <coverage>
+                <spatial type="kmlPolyCoords">150.549980,-34.411045</spatial>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">2007-11-01T11:45:11Z</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2009-02-03T00:00:00Z</date>
+                </temporal>
+            </coverage>
+            <subject type="anzsrc-for">1006</subject>
+            <subject type="local">Andriod Applications</subject>
+            <relatedInfo type="publication">
+                <title>Samsung bundles Microsoft apps on its new Galaxy S6</title>
+                <identifier type="uri">http://www.theverge.com/2015/3/1/8129439/samsung-galaxy-s6-microsoft-apps</identifier>
+            </relatedInfo>
+            <relatedObject>
+                <key>AUTestingRecordsSimilarDatasetsService5</key>
+                <relation type="isPresentedBy"/>
+            </relatedObject>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="uri">http://www.theverge.com/2015/5/26/8661983/microsoft-apps-preinstalled-sony-lg-tablets</identifier>
+                    <title>Sony and LG Android tablets</title>
+                    <version/>
+                    <placePublished/>
+                    <publisher>The Verge</publisher>
+                    <url/>
+                    <context/>
+                    <contributor seq="1">
+                        <namePart type="">Jacob Kastrenakes</namePart>
+                    </contributor>
+                    <date type="issued">2015-05-26</date>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsCollection3</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="dataset">
+            <name type="primary">
+                <namePart>GZZID</namePart>
+            </name>
+            <description type="local">GZZID SMM Microsoft apps generated by single move.</description>
+            <subject type="anzsrc-for">1006</subject>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsCollection9</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="dataset">
+            <name type="primary">
+                <namePart>TYID Sony</namePart>
+            </name>
+            <description type="brief">TYID</description>
+            <subject type="anzsrc-for">1006</subject>
+            <subject type="local">Andriod Applications</subject>
+            <subject type="local">Sony Tablets</subject>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsCollection10</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="dataset">
+            <name type="primary">
+                <namePart>TYID SSS Galaxy</namePart>
+            </name>
+            <name type="alternative">
+                <namePart>Sony</namePart>
+            </name>
+            <description type="brief">TYID SSS</description>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsCollection11</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="dataset">
+            <name type="primary">
+                <namePart>Samsung Asus Glass</namePart>
+            </name>
+            <description type="brief">Glass</description>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsCollection12</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="dataset">
+            <name type="primary">
+                <namePart>Looking Back</namePart>
+            </name>
+            <description type="brief">Glass</description>
+            <coverage>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">2008-04-11T05:29:00Z</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2014-06-11T05:29:00Z</date>
+                </temporal>
+            </coverage>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsCollection4</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="publication">
+            <name type="primary">
+                <namePart>Investigation Samsung Sony Dell Android tablets exploding</namePart>
+            </name>
+            <description type="brief">NO_WORDS</description>
+            <description type="full">NO_WORDS</description>
+            <identifier type="uri">http://www.theverge.com/2015/5/26/8661983/microsoft-apps-preinstalled-sony-lg-tablets-exploding</identifier>
+            <dates type="dc.issued">
+                <date type="dateFrom" dateFormat="W3CDTF">2015-05-29</date>
+            </dates>
+            <location>
+                <address>
+          <electronic type="url" target="landingPage">
+            <value>http://www.theverge.com/2015/5/26/8661983/microsoft-apps-preinstalled-sony-lg-tablets-exploding</value>
+          </electronic>
+        </address>
+            </location>
+            <coverage>
+                <spatial type="kmlPolyCoords">124.523436,-25.292383</spatial>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">1995-08-11T12:29:00Z</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2008-04-11T05:29:00Z</date>
+                </temporal>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">1995-08-11T12:29:00Z</date>
+                    <date type="dateTo" dateFormat="W3CDTF">1996-04-11T05:29:00Z</date>
+                </temporal>
+            </coverage>
+            <subject type="anzsrc-for">1007</subject>
+            <subject type="local">Andriod Explosions</subject>
+            <relatedInfo type="publication">
+                <title>Samsung bundles Microsoft apps on its new Galaxy S6</title>
+                <identifier type="uri">http://www.theverge.com/2015/3/1/8129439/samsung-galaxy-s6-microsoft-apps</identifier>
+            </relatedInfo>
+            <relatedObject>
+                <key>AUTestingRecordsSimilarDatasetsParty9</key>
+                <relation type="hasAssociationWith"/>
+            </relatedObject>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="uri">http://www.theverge.com/2015/5/26/8661983/microsoft-apps-preinstalled-sony-lg-tablets-exploding</identifier>
+                    <title>Sony and LG Android tablets</title>
+                    <version/>
+                    <placePublished/>
+                    <publisher>The Verge</publisher>
+                    <url/>
+                    <context/>
+                    <contributor seq="1">
+                        <namePart type="">Jacob Kastrenakes</namePart>
+                    </contributor>
+                    <date type="issued">2015-05-29</date>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsCollection5</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="publication">
+            <name type="primary">
+                <namePart>Investigation into Sony and LG Android tablets bursting into flames and exploding</namePart>
+            </name>
+            <description type="full">&lt;p&gt;This description has nothing in common with the other collections.&lt;/p&gt;</description>
+            <identifier type="uri">http://www.theverge.com/2015/5/26/8661983/bursting</identifier>
+            <dates type="dc.issued">
+                <date type="dateFrom" dateFormat="W3CDTF">2015-05-29</date>
+            </dates>
+            <location>
+                <address>
+          <electronic type="url" target="landingPage">
+            <value>http://www.theverge.com/2015/5/26/8661983/bursting</value>
+          </electronic>
+        </address>
+            </location>
+            <coverage>
+                <spatial type="kmlPolyCoords">150.547955,-34.408468 150.559628,-34.409176 150.553448,-34.414557 150.541775,-34.416540 150.534908,-34.406343 150.547955,-34.408468</spatial>
+            </coverage>
+            <relatedInfo type="publication">
+                <title>Samsung bundles Microsoft apps on its new Galaxy S6</title>
+                <identifier type="uri">http://www.theverge.com/2015/3/1/8129439/samsung-galaxy-s6-microsoft-apps</identifier>
+            </relatedInfo>
+            <relatedObject>
+                <key>AUTestingRecordsSimilarDatasetsParty10</key>
+                <relation type="someLocalRelation"/>
+            </relatedObject>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="uri">http://www.theverge.com/2015/5/26/8661983/bursting</identifier>
+                    <title>Sony and LG Android tablets</title>
+                    <version/>
+                    <placePublished/>
+                    <publisher>The Verge</publisher>
+                    <url/>
+                    <context/>
+                    <contributor seq="1">
+                        <namePart type="">Jacob Kastrenakes</namePart>
+                    </contributor>
+                    <date type="issued">2015-05-29</date>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsParty1</key>
+        <originatingSource>nhmrc.gov.au</originatingSource>
+        <party type="administrativePosition">
+            <identifier type="uri">http://www.someidentifierforapartyll_l</identifier>
+            <name type="primary">
+                <namePart>Similar Datasets Data custodian</namePart>
+            </name>
+            <relatedObject>
+                <key>AUTestingRecordsSimilarDatasetsCollection1</key>
+                <relation type="isPrincipalInvestigatorOf"/>
+            </relatedObject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsCollection6</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="publication">
+            <name type="primary">
+                <namePart>Collection directly related (relatedObject) to a party that is related to Similar Datasets test collection key AUTestingRecordsSimilarDatasetsCollection1</namePart>
+            </name>
+            <identifier type="uri">http://www.theverge.com/2asdfdf333</identifier>
+            <relatedObject>
+                <key>AUTestingRecordsSimilarDatasetsParty1</key>
+                <relation type="isOwnedBy"/>
+            </relatedObject>
+            <coverage>
+                <spatial type="kmlPolyCoords">151.366333,-34.575334 149.828247,-34.475769 151.459717,-34.448595 151.531128,-34.139998 151.498169,-34.990404 151.366333,-34.575334</spatial>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">1999-09-20T09:29:00Z</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2006-01-01T00:00:00Z</date>
+                </temporal>
+            </coverage>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsParty2</key>
+        <originatingSource>nhmrc.gov.au</originatingSource>
+        <party type="person">
+            <identifier type="uri">http://www.someidentifierforapartyll_ddl</identifier>
+            <name type="primary">
+                <namePart>Similar Datasets Data Manager</namePart>
+            </name>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsCollection16</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="publication">
+            <name type="primary">
+                <namePart>Collection directly related (relatedObject) to a party that is related to Similar Datasets test collection key AUTestingRecordsSimilarDatasetsCollection11</namePart>
+            </name>
+            <identifier type="uri">http://www.theverge.com/2015/5/26/8661983/microsoft-apps-preinstalled-soasdfdsfds</identifier>
+            <relatedObject>
+                <key>AUTestingRecordsSimilarDatasetsParty2</key>
+                <relation type="isManageBy"/>
+            </relatedObject>
+            <coverage>
+                <spatial type="kmlPolyCoords">142.655273,-37.041148 146.346680,-37.041148 146.346680,-38.500033 142.655273,-38.500033 142.655273,-37.041148</spatial>
+                <temporal>
+                    <date type="dateTo" dateFormat="W3CDTF">2018-03-11T05:29:00Z</date>
+                </temporal>
+            </coverage>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsParty3</key>
+        <originatingSource>nhmrc.gov.au</originatingSource>
+        <party type="person">
+            <identifier type="uri">http://www.someidentiffwfsd34</identifier>
+            <name type="primary">
+                <namePart>Similar Datasets Data Person</namePart>
+            </name>
+            <relatedObject>
+                <key>AUTestingRecordsSimilarDatasetsCollection17</key>
+                <relation type="hasAssociationWith"/>
+            </relatedObject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsCollection17</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="publication">
+            <name type="primary">
+                <namePart>Collection reverse related (relatedObject) to a party that is related to Similar Datasets test collection key AUTestingRecordsSimilarDatasetsCollection1</namePart>
+            </name>
+            <identifier type="uri">http://www.theverge.com/2015/5/26/8661983/micwhatsu-dfdfdffdsfds</identifier>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsParty4</key>
+        <originatingSource>nhmrc.gov.au</originatingSource>
+        <party type="person">
+            <identifier type="uri">http://www.ssdfdffsd34</identifier>
+            <name type="primary">
+                <namePart>Similar Datasets Data Employee</namePart>
+            </name>
+            <relatedObject>
+                <key>AUTestingRecordsSimilarDatasetsCollection18</key>
+                <relation type="hasAssociationWith"/>
+            </relatedObject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsCollection18</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="publication">
+            <name type="primary">
+                <namePart>Collection reverse related (relatedObject) to a party that is related to Similar Datasets test collection key AUTestingRecordsSimilarDatasetsCollection1</namePart>
+            </name>
+            <identifier type="uri">http://www.theverge.com/2015/5/26/8661983/micwhatsu-soas4545</identifier>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsParty5</key>
+        <originatingSource>nhmrc.gov.au</originatingSource>
+        <party type="group">
+            <identifier type="uri">http://www.ssdfdffsd34</identifier>
+            <name type="primary">
+                <namePart>Similar Datasets Data Organisation</namePart>
+            </name>
+            <relatedInfo type="collection">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.theverge.com/20444_99343dsfds</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsCollection19</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="publication">
+            <name type="primary">
+                <namePart>Collection reverse related (relatedInfo) to a party that is related to Similar Datasets test collection key AUTestingRecordsSimilarDatasetsCollection1</namePart>
+            </name>
+            <identifier type="uri">http://www.theverge.com/20444_99343dsfds</identifier>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsParty6</key>
+        <originatingSource>nhmrc.gov.au</originatingSource>
+        <party type="group">
+            <identifier type="uri">http://www.ssdfdddffdfed34</identifier>
+            <name type="primary">
+                <namePart>Similar Datasets Party Organisation</namePart>
+            </name>
+            <relatedInfo type="collection">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.thevsdfe3_343dsfds</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsCollection20</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="publication">
+            <name type="primary">
+                <namePart>Collection reverse related (relatedInfo) to a party that is related to Similar Datasets test collection key AUTestingRecordsSimilarDatasetsCollection1</namePart>
+            </name>
+            <identifier type="uri">http://www.thevsdfe3_343dsfds</identifier>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsParty7</key>
+        <originatingSource>nhmrc.gov.au</originatingSource>
+        <party type="person">
+            <identifier type="handle">10.5355.5650656</identifier>
+            <name type="primary">
+                <namePart>Similar Datasets Seeker</namePart>
+            </name>
+            <relatedObject>
+                <key>AUTestingRecordsSimilarDatasetsCollection21</key>
+                <relation type="hasAssociationWith"/>
+            </relatedObject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsCollection21</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="publication">
+            <name type="primary">
+                <namePart>Collection reverse related (relatedObject) to a party that is related to Similar Datasets test collection key AUTestingRecordsSimilarDatasetsCollection1</namePart>
+            </name>
+            <identifier type="uri">http://www.theverge.com/2015/5/26/8661983/micwhatsu-soasdfdsfds</identifier>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsParty8</key>
+        <originatingSource>nhmrc.gov.au</originatingSource>
+        <party type="person">
+            <identifier type="handle">10.5ddd3.5650656</identifier>
+            <name type="primary">
+                <namePart>Similar Datasets Investor</namePart>
+            </name>
+            <relatedInfo type="Collection">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.theverge.com/2015/5/26/8661983/microsoft-apps-preinstalled-sony-lg-tablets</identifier>
+                <relation type="isOwnerOf"/>
+            </relatedInfo>
+            <relatedInfo type="Collection">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.theverge.com/2015/10/2/9438597/microsoft-office-apps-asus-android-patent-licensing</identifier>
+                <relation type="enriches"/>
+            </relatedInfo>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsParty9</key>
+        <originatingSource>nhmrc.gov.au</originatingSource>
+        <party type="person">
+            <identifier type="handle">10.5ddd3.254780656</identifier>
+            <name type="primary">
+                <namePart>Similar Datasets Investor</namePart>
+            </name>
+            <relatedObject>
+                <key>AUTestingRecordsSimilarDatasetsCollection1</key>
+                <relation type="hasAssociationWith"/>
+            </relatedObject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsParty10</key>
+        <originatingSource>nhmrc.gov.au</originatingSource>
+        <party type="person">
+            <identifier type="handle">10.14.34330656</identifier>
+            <name type="primary">
+                <namePart>Similar Datasets Trainer</namePart>
+            </name>
+            <relatedObject>
+                <key>AUTestingRecordsSimilarDatasetsCollection1</key>
+                <relation type="someLocalRelation"/>
+            </relatedObject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsService1</key>
+        <originatingSource>http://www.ga.gov.au</originatingSource>
+        <service type="software">
+            <identifier type="local">RelatedService213434.343.sdd_de3</identifier>
+            <name type="primary">
+                <namePart>Service to test similar datasets related object pool</namePart>
+            </name>
+            <location>
+                <address>
+          <electronic type="url" target="landingPage">
+            <value>
+http://www.ga.gov.au/metadata-gateway/metadata/record/8329ss2/
+</value>
+          </electronic>
+        </address>
+            </location>
+            <subject type="local">Web Service</subject>
+            <subject type="local">marine</subject>
+            <subject type="anzsrc-for">04</subject>
+            <description type="brief"> This map service contains the extents of the multibeam bathymetry as well as some data in international waters. </description>
+            <relatedObject>
+                <key>AUTestingRecordsSimilarDatasetsCollection1</key>
+                <relation type="produces"/>
+            </relatedObject>
+            <rights>
+                <rightsStatement> © Commonwealth of Australia (Geoscience Australia) Multibeam_50m_Bathymetry_20122012publication83292 </rightsStatement>
+            </rights>
+            <rights>
+                <licence rightsUri="http://creativecommons.org/licenses/by/4.0" type="CC-BY"> Creative Commons Attribution 4.0 International Licence </licence>
+            </rights>
+        </service>
+    </registryObject>
+
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsCollection7</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="publication">
+            <name type="primary">
+                <namePart>Collection directly related (relatedObject) to a service that is related to Similar Datasets test collection key AUTestingRecordsSimilarDatasetsCollection1</namePart>
+            </name>
+            <identifier type="uri">http://www.theverge.com/2015/5/26/8661983/microsoft-apps-preinstalled-sony-lg-tablets-explodingsdfdsf</identifier>
+            <relatedObject>
+                <key>AUTestingRecordsSimilarDatasetsService1</key>
+                <relation type="isPresentedBy"/>
+            </relatedObject>
+
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsService2</key>
+        <originatingSource>http://www.ga.gov.au</originatingSource>
+        <service type="software">
+            <identifier type="local">RelatedService213434.343.sdd_de3ddded</identifier>
+            <name type="primary">
+                <namePart>Service to test similar datasets related object pool</namePart>
+            </name>
+            <location>
+                <address>
+          <electronic type="url" target="landingPage">
+            <value>
+http://www.ga.gov.au/metadata-gateway/metadata/record/8329ss2/
+</value>
+          </electronic>
+        </address>
+            </location>
+            <subject type="local">Web Service</subject>
+            <subject type="local">marine</subject>
+            <subject type="anzsrc-for">04</subject>
+            <description type="brief"> This map service contains the extents of the multibeam bathymetry as well as some data in international waters. </description>
+            <rights>
+                <rightsStatement> © Commonwealth of Australia (Geoscience Australia) Multibeam_50m_Bathymetry_20122012publication83292 </rightsStatement>
+            </rights>
+            <rights>
+                <licence rightsUri="http://creativecommons.org/licenses/by/4.0" type="CC-BY"> Creative Commons Attribution 4.0 International Licence </licence>
+            </rights>
+        </service>
+    </registryObject>
+
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsCollection8</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="publication">
+            <name type="primary">
+                <namePart>Collection directly related (relatedObject) to a service that is related to Similar Datasets test collection key AUTestingRecordsSimilarDatasetsCollection1</namePart>
+            </name>
+            <identifier type="uri">http://www.theverge.com/2015/5/26/8661983/microsoft-apps-preinstalled-soasdfdsfds</identifier>
+            <relatedObject>
+                <key>AUTestingRecordsSimilarDatasetsService2</key>
+                <relation type="isPresentedBy"/>
+            </relatedObject>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsService3</key>
+        <originatingSource>http://www.ga.gov.au</originatingSource>
+        <service type="software">
+            <identifier type="url">http://www.wordy.com.au</identifier>
+            <name type="primary">
+                <namePart>Service to test similar datasets related object pool</namePart>
+            </name>
+            <location>
+                <address>
+          <electronic type="url" target="landingPage">
+            <value>
+            http://www.ga.gov.au/metadata-gateway/metadata/record/8329ss2/
+            </value>
+          </electronic>
+        </address>
+            </location>
+            <subject type="local">Web Service</subject>
+            <subject type="local">marine</subject>
+            <subject type="anzsrc-for">04</subject>
+            <relatedObject>
+                <key>AUTestingRecordsSimilarDatasetsCollection14</key>
+                <relation type="presents"/>
+            </relatedObject>
+            <description type="brief"> This map service contains the extents of the multibeam bathymetry as well as some data in international waters. </description>
+            <rights>
+                <rightsStatement> © Commonwealth of Australia (Geoscience Australia) Multibeam_50m_Bathymetry_20122012publication83292 </rightsStatement>
+            </rights>
+            <rights>
+                <licence rightsUri="http://creativecommons.org/licenses/by/4.0" type="CC-BY"> Creative Commons Attribution 4.0 International Licence </licence>
+            </rights>
+        </service>
+    </registryObject>
+
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsCollection13</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="publication">
+            <name type="primary">
+                <namePart>Collection directly related (relatedObject) to a service that is related to Similar Datasets test collection key AUTestingRecordsSimilarDatasetsCollection1</namePart>
+            </name>
+            <identifier type="uri">http://www.theverge.com/2015/5/26/866fd456ggf-preinstalled-soasdfdsfds</identifier>
+            <relatedObject>
+                <key>AUTestingRecordsSimilarDatasetsService3</key>
+                <relation type="isPresentedBy"/>
+            </relatedObject>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsCollection14</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="publication">
+            <name type="primary">
+                <namePart>Collection reverse related (relatedObject) to a service that is related to Similar Datasets test collection key AUTestingRecordsSimilarDatasetsCollection1</namePart>
+            </name>
+            <identifier type="uri">http://www.theverge.com/2015/5/26/8661983/microsdfsgdfgfdg</identifier>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsService4</key>
+        <originatingSource>http://www.ga.gov.au</originatingSource>
+        <service type="software">
+            <identifier type="url">http://www.woddde.com.au</identifier>
+            <name type="primary">
+                <namePart>Service to test similar datasets related object pool</namePart>
+            </name>
+            <location>
+                <address>
+          <electronic type="url" target="landingPage">
+            <value>
+            http://www.ga.gov.au/metadata-gateway/metadata/record/8329ss2/
+            </value>
+          </electronic>
+        </address>
+            </location>
+            <subject type="local">Web Service</subject>
+            <subject type="local">marine</subject>
+            <subject type="anzsrc-for">04</subject>
+            <description type="brief"> This map service contains the extents of the multibeam bathymetry as well as some data in international waters. </description>
+            <rights>
+                <rightsStatement> © Commonwealth of Australia (Geoscience Australia) Multibeam_50m_Bathymetry_20122012publication83292 </rightsStatement>
+            </rights>
+            <rights>
+                <licence rightsUri="http://creativecommons.org/licenses/by/4.0" type="CC-BY"> Creative Commons Attribution 4.0 International Licence </licence>
+            </rights>
+            <relatedInfo type="collection">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.theverge.com/2015/5/26/866fdasdfdsfeee333s</identifier>
+                <relation type="presents"/>
+            </relatedInfo>
+        </service>
+    </registryObject>
+
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsCollection15</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="publication">
+            <name type="primary">
+                <namePart>Collection directly related (relatedObject) to a service that is related to Similar Datasets test collection key AUTestingRecordsSimilarDatasetsCollection1</namePart>
+            </name>
+            <identifier type="uri">http://www.theverge.com/2015/5/26/866fdasdfdsfeee333s</identifier>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsService5</key>
+        <originatingSource>http://www.ga.gov.au</originatingSource>
+        <service type="software">
+            <identifier type="local">RelatedSdsfd34333ded13434.343.sdd_de3ddd_345</identifier>
+            <name type="primary">
+                <namePart>Service to test similar datasets related object pool</namePart>
+            </name>
+            <location>
+                <address>
+          <electronic type="url" target="landingPage">
+            <value>
+            http://www.ga.gov.au/metadata-gateway/metadata/record/8329ss2/
+            </value>
+          </electronic>
+        </address>
+            </location>
+            <subject type="local">Web Service</subject>
+            <subject type="local">marine</subject>
+            <subject type="anzsrc-for">04</subject>
+            <description type="brief"> This map service contains the extents of the multibeam bathymetry as well as some data in international waters. </description>
+            <rights>
+                <rightsStatement> © Commonwealth of Australia (Geoscience Australia) Multibeam_50m_Bathymetry_20122012publication83292 </rightsStatement>
+            </rights>
+            <rights>
+                <licence rightsUri="http://creativecommons.org/licenses/by/4.0" type="CC-BY"> Creative Commons Attribution 4.0 International Licence </licence>
+            </rights>
+        </service>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsActivity1</key>
+        <originatingSource>monash.edu</originatingSource>
+        <activity type="program">
+            <name type="primary" xml:lang="en">
+                <namePart>Activity 1 to test similar datasets related object pool </namePart>
+            </name>
+            <description type="brief" xml:lang="en"> Awarded by: Australian research Council Grant No.: DP0772981 Grant Description: ARC Discovery project Grant title: Patterns and processes of carbon and water budgets across northern Australian landscapes: From point to region Summary: Quantifying carbon sources and sinks and understanding the underlying processes are pre-requisites to informed policy decisions, especially as nations seek to develop strategies to manage carbon emissions and sequestration. Australia is unique because of its poor soils and high climate variability and is likely to have patterns and process of carbon that are globally different. We focus on Australia's Top-End region, but will develop tools/methods that can be applied to other important Australian hot-spots. This project will support the existing National Carbon Accounting System by providing new information on processes and spatial variability and regional budgets of carbon and water budgets that underpin our international commitments. </description>
+            <relatedObject>
+                <key>AUTestingRecordsSimilarDatasetsCollection22</key>
+                <relation type="hasOutput"/>
+            </relatedObject>
+        </activity>
+    </registryObject>
+
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsCollection22</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="publication">
+            <name type="primary">
+                <namePart>Collection reverse related (relatedObject) to an activity that is related to Similar Datasets test collection key AUTestingRecordsSimilarDatasetsCollection1</namePart>
+            </name>
+            <identifier type="uri">http://www.theverge.com/2015/5/26/8622_cc</identifier>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsActivity2</key>
+        <originatingSource>monash.edu</originatingSource>
+        <activity type="program">
+            <name type="primary" xml:lang="en">
+                <namePart>Activity 1 to test similar datasets related object pool </namePart>
+            </name>
+            <description type="brief" xml:lang="en"> Awarded by: Australian research Council Grant No.: DP0772981 Grant Description: ARC Discovery project Grant title: Patterns and processes of carbon and water budgets across northern Australian landscapes: From point to region Summary: Quantifying carbon sources and sinks and understanding the underlying processes are pre-requisites to informed policy decisions, especially as nations seek to develop strategies to manage carbon emissions and sequestration. Australia is unique because of its poor soils and high climate variability and is likely to have patterns and process of carbon that are globally different. We focus on Australia's Top-End region, but will develop tools/methods that can be applied to other important Australian hot-spots. This project will support the existing National Carbon Accounting System by providing new information on processes and spatial variability and regional budgets of carbon and water budgets that underpin our international commitments. </description>
+            <relatedObject>
+                <key>AUTestingRecordsSimilarDatasetsCollection22</key>
+                <relation type="hasOutput"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsSimilarDatasetsCollection1</key>
+                <relation type="hasOutput"/>
+            </relatedObject>
+        </activity>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsCollection23</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="publication">
+            <name type="primary">
+                <namePart>Collection reverse related (relatedObject) to an activity that is related to Similar Datasets test collection key AUTestingRecordsSimilarDatasetsCollection1</namePart>
+            </name>
+            <identifier type="uri">http://www.theverge.com/2015/5/26/8623_cc</identifier>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsActivity3</key>
+        <originatingSource>monash.edu</originatingSource>
+        <activity type="program">
+            <name type="primary" xml:lang="en">
+                <namePart>Activity 1 to test similar datasets related object pool </namePart>
+            </name>
+            <description type="brief" xml:lang="en"> Awarded by: Australian research Council Grant No.: DP0772981 Grant Description: ARC Discovery project Grant title: Patterns and processes of carbon and water budgets across northern Australian landscapes: From point to region Summary: Quantifying carbon sources and sinks and understanding the underlying processes are pre-requisites to informed policy decisions, especially as nations seek to develop strategies to manage carbon emissions and sequestration. Australia is unique because of its poor soils and high climate variability and is likely to have patterns and process of carbon that are globally different. We focus on Australia's Top-End region, but will develop tools/methods that can be applied to other important Australian hot-spots. This project will support the existing National Carbon Accounting System by providing new information on processes and spatial variability and regional budgets of carbon and water budgets that underpin our international commitments. </description>
+            <relatedObject>
+                <key>AUTestingRecordsSimilarDatasetsCollection1</key>
+                <relation type="hasAssociationWith"/>
+            </relatedObject>
+        </activity>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSimilarDatasetsCollection24</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="publication">
+            <name type="primary">
+                <namePart>Collection directly related (relatedObject) to an activity that is related to Similar Datasets test collection key AUTestingRecordsSimilarDatasetsCollection1</namePart>
+            </name>
+            <identifier type="uri">http://www.theverge.com/2015/5/26/86224_cd</identifier>
+            <relatedObject>
+                <key>AUTestingRecordsSimilarDatasetsActivity3</key>
+                <relation type="isOutputOf"/>
+            </relatedObject>
+            <coverage>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">1999-04-11T05:29:00Z</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2014-06-11T05:29:00Z</date>
+                </temporal>
+            </coverage>
+        </collection>
+    </registryObject>
+
+</registryObjects>
+katherine.tattersall@ands.org.au

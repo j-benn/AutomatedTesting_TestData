@@ -1,0 +1,256 @@
+<?xml version="1.0"?>
+<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+    <registryObject group="The Australian National University">
+        <key>au.edu.anu.dspace.ANUDSpace</key>
+        <originatingSource>http://dspace.anu.edu.au</originatingSource>
+
+        <collection type="repository">
+            <identifier type="local">dspace.anu.edu.au</identifier>
+            <name type="primary">
+                <namePart>Demetrius at The Australian National University</namePart>
+            </name>
+            <location>
+                <address><electronic type="url"><value>http://dspace.anu.edu.au</value></electronic></address>
+            </location>
+            <relatedObject>
+                <key>au.edu.anu.dspace.oaipmh2.0</key>
+                <relation type="supports"> </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>au.edu.anu.dspace.RSS1.0</key>
+                <relation type="supports">
+                    <url>http://dspace.anu.edu.au/feed/rss_1.0/site</url>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>au.edu.anu.dspace.RSS2.0</key>
+                <relation type="supports">
+                    <url>http://dspace.anu.edu.au/feed/rss_2.0/site</url>
+                </relation>
+            </relatedObject>
+        </collection>
+    </registryObject>
+    <registryObject group="The Australian National University">
+        <key>au.edu.anu.dspace.1885/42756</key>
+        <originatingSource>http://dspace.anu.edu.au</originatingSource>
+
+        <collection type="collection">
+            <identifier type="handle">hdl:1885/42756</identifier>
+            <name type="primary">
+                <namePart>Aboriginal Population Profiles for Development Planning in the Northern East Kimberley</namePart>
+            </name>
+            <location>
+                <address>
+<electronic type="url">
+<value>http://dspace.anu.edu.au/handle/1885/42756</value>
+
+</electronic>
+</address>
+            </location>
+            <relatedObject>
+                <key>au.edu.anu.dspace.RSS1.0</key>
+                <relation type="supports">
+                    <url>http://dspace.anu.edu.au/feed/rss_1.0/1885/42756</url>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>au.edu.anu.dspace.RSS2.0</key>
+                <relation type="supports">
+                    <url>http://dspace.anu.edu.au/feed/rss_2.0/1885/42756</url>
+
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>au.edu.anu.dspace.browse</key>
+                <relation type="supports">
+                    <url>http://dspace.anu.edu.au/handle/1885/42756/browse-title</url>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>au.edu.anu.dspace.e83</key>
+                <relation type="isManagedBy"> </relation>
+            </relatedObject>
+        </collection>
+
+    </registryObject>
+    <registryObject group="The Australian Partnership for Sustainable Repositories">
+        <key>au.edu.apsr.a1</key>
+        <originatingSource>http://devl.ands.org.au/deployment/cosi/orca/register_my_data</originatingSource>
+        <activity type="program">
+            <name type="abbreviated">
+                <namePart>APSR</namePart>
+
+            </name>
+            <name type="primary">
+                <namePart>The Australian Partnership for Sustainable Repositories</namePart>
+            </name>
+            <location>
+                <address>
+          <electronic type="url">
+            <value>http://www.apsr.edu.au</value>
+
+          </electronic>
+        </address>
+            </location>
+            <relatedObject>
+                <key>au.edu.apsr.a2</key>
+                <relation type="funds"/>
+            </relatedObject>
+            <description type="brief">The APSR Project aims to establish a centre of excellence for the management of scholarly assets in digital format. Online collections of scholarly materials are bringing about a quiet revolution in the way researchers work. Researchers have faster easier ways of finding and analyzing research materials. New modes of research and new research methodologies are all now possible. APSR is a partnership that aims to promote excellence in building and managing these collections of digital research objects.</description>
+        </activity>
+    </registryObject>
+    <registryObject group="The Australian Partnership for Sustainable Repositories">
+        <key>au.edu.apsr.a2</key>
+        <originatingSource>http://devl.ands.org.au/deployment/cosi/orca/register_my_data</originatingSource>
+        <activity type="project">
+            <name type="abbreviated">
+                <namePart>ORCA</namePart>
+            </name>
+            <name type="primary">
+                <namePart>Online Research Collections Australia</namePart>
+            </name>
+            <location>
+                <address><electronic type="url"><value>http://services.ands.org.au/home/orca</value></electronic><physical><addressPart type="telephoneNumber">123456789</addressPart></physical></address>
+            </location>
+            <relatedObject>
+                <key>au.edu.apsr.a1</key>
+                <relation type="isFundedBy"/>
+            </relatedObject>
+            <description type="brief">The ORCA Registry project has been established to improve the capacity of institutional repositories, archives and data centres to create and share collection-level information and resources. Its aims are to develop a discovery portal for collections information (that is, information about research collections) and a services registry that can facilitate machine-to-machine services related to managing collections within a network of federated repositories.
+        
+        The main priority addressed by the ORCA Registry is to provide a better discovery environment for data collections produced by the wide range of individuals and institutions involved in the Australian innovation system. This includes all Australian higher education institutions; Government-funded research organisations (such as CSIRO); and commercial and not-for-profit organisations in sectors with research interests (such as archives, museums and libraries). It is planned to collaborate with similar registry services overseas at a later stage.
+        
+        Members of the project reference group are participating in a pilot collection registry evaluating the software in a pre-production mode.</description>
+            <existenceDates>
+                <startDate dateFormat="W3CDTF">2007-06-01T00:00:00Z</startDate>
+            </existenceDates>
+            <relatedInfo type="website">
+                <identifier type="uri">http://services.ands.org.au/home/orca/rda/index.php</identifier>
+            </relatedInfo>
+        </activity>
+    </registryObject>
+
+    <registryObject group="The Australian National University">
+        <key>au.edu.anu.dspace.p1</key>
+        <originatingSource>http://dspace.anu.edu.au</originatingSource>
+
+        <party type="group">
+            <name type="primary">
+                <namePart>The Australian National University</namePart>
+            </name>
+            <location>
+                <address><electronic type="url"><value>http://www.anu.edu.au</value></electronic><physical><addressPart type="addressLine">The Australian National University</addressPart><addressPart type="addressLine">Canberra ACT 0200</addressPart><addressPart type="addressLine">Australia</addressPart></physical></address>
+            </location>
+        </party>
+    </registryObject>
+
+    <registryObject group="The Australian National University">
+        <key>au.edu.anu.dspace.e1</key>
+        <originatingSource>http://dspace.anu.edu.au</originatingSource>
+
+        <party type="person">
+            <name type="primary">
+                <namePart type="family">Yeadon</namePart>
+                <namePart type="given">Scott</namePart>
+            </name>
+            <relatedObject>
+                <key>au.edu.anu.dspace.1885/43286</key>
+                <relation type="isManagerOf"> </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>au.edu.anu.dspace.1885/43285</key>
+                <relation type="isManagerOf"> </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>au.edu.anu.dspace.1885/43288</key>
+                <relation type="isManagerOf"> </relation>
+            </relatedObject>
+            <existenceDates>
+                <startDate dateFormat="W3CDTF">1954-06-01T00:00:00Z</startDate>
+                <endDate dateFormat="W3CDTF">2007-05-01T00:00:00Z</endDate>
+            </existenceDates>
+        </party>
+    </registryObject>
+
+    <registryObject group="The Australian Partnership for Sustainable Repositories">
+        <key>au.edu.apsr.c1</key>
+        <originatingSource>http://www.apsr.edu.au</originatingSource>
+
+        <collection type="registry">
+            <name type="primary">
+                <namePart>Online Research Collections Australia</namePart>
+            </name>
+            <name type="abbreviated">
+                <namePart>ORCA</namePart>
+            </name>
+            <location>
+                <address><electronic type="url"><value>http://pilot.apsr.edu.au/cosi</value></electronic></address>
+            </location>
+            <relatedObject>
+                <key>au.edu.apsr.a1</key>
+                <relation type="isOutputOf">
+                    <description>Deliverable of APSR program</description>
+                </relation>
+            </relatedObject>
+        </collection>
+    </registryObject>
+    <registryObject group="The Australian Partnership for Sustainable Repositories">
+        <key>au.edu.apsr.a1</key>
+        <originatingSource>http://www.nla.gov.au</originatingSource>
+        <activity type="program">
+            <name type="primary">
+                <namePart>The Australian Partnership for Sustainable Repositories</namePart>
+            </name>
+            <name type="abbreviated">
+                <namePart>APSR</namePart>
+            </name>
+            <location>
+                <address><electronic type="url"><value>http://www.apsr.edu.au</value></electronic></address>
+            </location>
+        </activity>
+    </registryObject>
+    <registryObject group="The National Library of Australia">
+        <key>nla.gov.au.arrow.c1</key>
+        <originatingSource>http://www.nla.gov.au</originatingSource>
+
+        <collection type="indexOrDatabase">
+            <identifier type="local">arrow.c1</identifier>
+            <name type="primary">
+                <namePart>ARROW Discovery Service</namePart>
+            </name>
+            <location>
+                <address><electronic type="url"><value>http://search.arrow.edu.au/</value></electronic><physical><addressPart type="text">National Library of Australia, Canberra, ACT, 2601</addressPart></physical></address>
+            </location>
+            <relatedObject>
+                <key>nla.gov.au.arrow.oaipmh</key>
+                <relation type="supports">
+                    <description>Both OAI PMH Version 1.0 and 2.0 Support</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>nla.gov.au.arrow.z39.50</key>
+                <relation type="supports">
+                    <description>Full z39.50 Bath Profile Support</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>nla.gov.au.arrow.sru</key>
+                <relation type="supports">
+                    <description>SRU Level 2 Support</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>nla.gov.au.arrow.opensearch</key>
+                <relation type="supports">
+                    <description>OpenSearch 1.1 Support</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>nla.gov.au.arrow</key>
+                <relation type="isManagedBy"> </relation>
+            </relatedObject>
+        </collection>
+    </registryObject>
+
+
+</registryObjects>

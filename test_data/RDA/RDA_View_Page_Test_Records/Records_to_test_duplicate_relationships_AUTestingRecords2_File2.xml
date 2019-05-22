@@ -1,0 +1,67 @@
+<registryObjects>
+ <registryObject group="AUTestingRecords2">
+    <key>AUTestingRecord2shttp://handle.uws.edu.au:8081/1959.7/532024</key>
+    <originatingSource>Parties_People</originatingSource>
+    <party type="person">
+      <identifier type="uri">http://handle.uws.edu.au:8081/1959.7/532024AUT</identifier>
+      <identifier type="AU-ANL:PEAU">http://nla.gov.au/nla.party-1693662AUT</identifier>
+      <name type="primary">
+        <namePart type="given">Jeffrey</namePart>
+        <namePart type="family">Powell</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="email">
+            <value>jeff.powell@westernsydney.edu.au</value>
+          </electronic>
+        </address>
+      </location>
+      <subject type="anzsrc-for">0602</subject>
+      <subject type="anzsrc-for">0503</subject>
+      <description type="full">Full description</description>
+      <relatedObject>
+        <key>AUTestingRecordshttp://handle.westernsydney.edu.au:8081/1959.7/hiev_135</key>
+        <relation type="isCollectorOf"/>
+      </relatedObject>
+    </party>
+  </registryObject>
+  
+  <registryObject group="AUTestingRecords2">
+    <key>AUTestingRecords2http://handle.uws.edu.au:8081/1959.7/512167</key>
+    <originatingSource type="">http://research-data.uws.edu.au:9001/mint/Parties_Groups</originatingSource>
+    <party type="group">
+      <name type="primary">
+        <namePart type="superior">Hawkesbury Institute for the Environment (HIE)</namePart>
+      </name>
+      <description type="full">&lt;p&gt;At Western Sydney University the Hawkesbury Institute for the Environment's diverse portfolio of research brings excellence to decision-making in natural and managed land-based ecosystems.&lt;/p&gt;
+&lt;p&gt;The Institute’s team of over 50 scientists conducts innovative, world-class research the full spectrum of life from genetic level to ecosystem level to answer the most pressing scientific issues such as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What will rising CO2 levels mean for forestry, soils and our agricultural industries?&lt;/li&gt;
+&lt;li&gt;How closely do CO2 prediction models match real-world changes in plant and ecosystem function?&lt;/li&gt;
+&lt;li&gt;What practical measures can we readily implement to capitalise on rapid CO2 increases?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The Institute’s integrated research portfolio is aligned around three broad themes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Soil Biology and Genomics&lt;/li&gt;
+&lt;li&gt;Plants, Animals and Interactions&lt;/li&gt;
+&lt;li&gt;Ecosystem Function and Integration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The Institute’s highly-integrated research themes lead to worldwide collaborations and partnerships with industry and research organisations to jointly tackle the largest environmental and scientific challenges of our time.&lt;/p&gt;</description>
+      <identifier type="uri">http://handle.uws.edu.au:8081/1959.7/512167AUT</identifier>
+      <location>
+        <address>
+          <electronic type="email">
+            <value>hieinfo@westernsydney.edu.au</value>
+          </electronic>
+          <physical type="">
+            <addressPart type="telephoneNumber">61 2 4570 1125</addressPart>
+          </physical>
+        </address>
+      </location>
+      <relatedInfo type="website">
+        <title>Hawkesbury Institute for the Environment</title>
+        <identifier type="uri">hhttp://www.westernsydney.edu.au/hie</identifier>
+      </relatedInfo>
+    </party>
+  </registryObject>
+  </registryObjects>

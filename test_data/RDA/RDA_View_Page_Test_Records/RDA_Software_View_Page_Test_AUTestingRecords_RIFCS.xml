@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects"
+                 xmlns:extRif="http://ands.org.au/standards/rif-cs/extendedRegistryObjects"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsGA/a05f7892-f953-7506-e044-00144fdd4fa6</key>
+        <originatingSource>Commonwealth of Australia (Geoscience Australia)</originatingSource>
+        <collection type="software" dateAccessioned="2010-09-02T00:00:00">
+            <identifier type="local">70939AUT</identifier>
+            <identifier type="global">a05f7892-f953-7506-e044-00144fdd4fa6AUT</identifier>
+            <identifier type="purl">http://pid.geoscience.gov.au/dataset/ga/70939AUT</identifier>
+            <location>
+                <address>
+                    <electronic type="url" target="landingPage">
+                        <value>http://pid.geoscience.gov.au/dataset/ga/70939</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="lineage">Unknown</description>
+            <name type="primary">
+                <namePart>Calculating Moonrise and Moonset Times</namePart>
+            </name>
+            <relatedObject>
+                <key>GA/CommonwealthofAustralia(GeoscienceAustralia)</key>
+                <relation type="pointOfContact"/>
+                <relation type="distributor"/>
+            </relatedObject>
+            <relatedObject>
+                <key>GA/GeoscienceAustralia</key>
+                <relation type="author"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedwww.ballarat.edu.au/sdfsdcoll/12</key>
+                <relation type="hasAssociationWith">
+                    <description>hasAssociationWith</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedwww.ballarat.edu.au/coll/7asdf</key>
+                <relation type="operatesOn">
+                    <description>operatesOn</description>
+                </relation>
+            </relatedObject>
+            <subject type="local">geoscientificInformation</subject>
+            <subject type="local">Application</subject>
+            <subject type="anzsrc-for">Earth Sciences</subject>
+            <subject type="local">Published_External</subject>
+            <description type="brief">Compute Moonrise and Moonset Times
+                To use this facility you need to know the latitude and longitude of the location you want to calculate
+                rise and set times for. There are several ways you can determine this:
+            </description>
+            <rights>
+                <licence rightsUri="http://creativecommons.org/licenses/by/4.0" type="CC-BY">Creative Commons
+                    Attribution 4.0 International Licence
+                </licence>
+            </rights>
+            <rights>
+                <accessRights type="open"/>
+            </rights>
+            <dates type="issued">
+                <date type="dateFrom" dateFormat="W3CDTF">20100101T00:00:00</date>
+            </dates>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="uri">http://pid.geoscience.gov.au/dataset/ga/70939AUT</identifier>
+                    <title>Calculating Moonrise and Moonset Times</title>
+                    <date type="publicationDate">2010</date>
+                    <contributor>
+                        <namePart>Geoscience Australia</namePart>
+                    </contributor>
+                    <publisher>Commonwealth of Australia (Geoscience Australia)</publisher>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsGA/671a269f-f615-43b5-b6d3-76c6df58f61b</key>
+        <originatingSource>CSEMD</originatingSource>
+        <collection type="software" dateAccessioned="2018-07-02T01:27:19">
+            <identifier type="global">671a269f-f615-43b5-b6d3-76c6df58f61bAUT</identifier>
+            <identifier type="purl">http://pid.geoscience.gov.au/dataset/ga/121774AUT</identifier>
+            <location>
+                <address>
+                    <electronic type="url" target="landingPage">
+                        <value>http://pid.geoscience.gov.au/dataset/ga/121774</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="lineage">The Earthquakes@GA application has been developed and is operated by Geoscience
+                Australia.
+            </description>
+            <name type="primary">
+                <namePart>Earthquakes@GA</namePart>
+            </name>
+            <relatedObject>
+                <key>GA/Bathgate,J.B.</key>
+                <relation type="custodian"/>
+            </relatedObject>
+            <relatedObject>
+                <key>GA/CSEMD</key>
+                <relation type="resourceProvider"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedwww.ballarat.edu.au/coll/7asdf</key>
+                <relation type="makesAvailable">
+                    <description>makesAvailable</description>
+                </relation>
+            </relatedObject>
+            <subject type="local">geoscientificInformation</subject>
+            <subject type="local">Earthquakes</subject>
+            <subject type="local">Earthquakes@GA</subject>
+            <subject type="local">Published_External</subject>
+            <description type="brief">The Earthquakes@GA application can be used to find information on recent
+                earthquakes as monitored by Geoscience Australia, search the earthquake catalogue, submit a report about
+                an earthquake users have felt, and subscribe to notifications about earthquakes Geoscience Australia has
+                analysed.
+            </description>
+            <coverage>
+                <spatial type="iso19139dcmiBox">northlimit=-9; southlimit=-44; westlimit=112; eastLimit=154;
+                    projection=GDA94
+                </spatial>
+                <spatial type="text">northlimit=-9; southlimit=-44; westlimit=112; eastLimit=154; projection=GDA94
+                </spatial>
+            </coverage>
+            <rights>
+                <licence rightsUri="http://creativecommons.org/licenses/by/4.0" type="CC-BY">Creative Commons
+                    Attribution 4.0 International Licence
+                </licence>
+            </rights>
+            <rights>
+                <accessRights type="open"/>
+            </rights>
+            <dates type="issued">
+                <date type="dateFrom" dateFormat="W3CDTF">20180702T05:36:06</date>
+            </dates>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecords14991013299111100101329711010032100971169711510111</key>
+        <originatingSource>University of Adelaide Figshare</originatingSource>
+        <collection type="software" dateModified="2018-01-12">
+            <identifier type="doi">http://doi.org/10.4225/55/5a57f969d82e0AUT</identifier>
+            <location>
+                <address>
+                    <electronic type="url" target="landingPage">
+                        <value>http://doi.org/10.4225/55/5a57f969d82e0</value>
+                    </electronic>
+                </address>
+            </location>
+            <name type="primary">
+                <namePart>Drones count wildlife more accurately and precisely than humans: semi-automated aerial image
+                    counting approach - archived source code and dataset
+                </namePart>
+            </name>
+            <relatedInfo type="party">
+                <identifier type="orcid">http://orcid.org/0000-0003-0481-7360AUT</identifier>
+                <title>Jarrod Hodgson</title>
+                <relation type="hasCollector"/>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <identifier type="uri">https://figshare.com/authors/_/4203271AUT</identifier>
+                <title>Trung Pham</title>
+                <relation type="hasCollector"/>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <identifier type="uri">https://figshare.com/authors/__/4196452AUT</identifier>
+                <title>Lian Pin Koh</title>
+                <relation type="hasCollector"/>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <identifier type="uri">https://figshare.com/authors/_/4209016AUT</identifier>
+                <title>Ian Reid</title>
+                <relation type="hasCollector"/>
+            </relatedInfo>
+            <subject type="local">bird</subject>
+            <subject type="local">drones</subject>
+            <subject type="local">wildlife</subject>
+            <subject type="local">population monitoring</subject>
+            <subject type="local">surveys</subject>
+            <subject type="local">RPA</subject>
+            <subject type="local">RPAS</subject>
+            <subject type="local">UAV</subject>
+            <subject type="local">UAS</subject>
+            <subject type="local">ecology</subject>
+            <rights>
+                <licence type="CC-BY">CC-BY-4.0</licence>
+            </rights>
+            <subject type="local"/>
+            <description type="full">This is an archived copy of the &lt;b&gt;source code&lt;/b&gt; and &lt;b&gt;dataset&lt;/b&gt;
+                used for the semi-automated aerial image counting approach within Hodgson et al 2018 ('Drones count
+                wildlife more accurately and precisely than humans' &lt;i&gt;Methods in Ecology and Evolution&lt;/i&gt;).
+                &lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The current version is available via &lt;i&gt;Bitbucket&lt;/i&gt;
+                (https://bitbucket.org/trungtpham/bird-detection). &lt;/div&gt;
+            </description>
+            <dates type="issued">
+                <date type="dateFrom" dateFormat="W3CDTF">2018-01-11</date>
+            </dates>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecords11010332731103245328383866980321121141111061019911</key>
+        <originatingSource>Monash University Figshare</originatingSource>
+        <collection type="software" dateModified="2018-01-29">
+            <identifier type="doi">http://doi.org/10.4225/03/5a6e763dd9c8cAUT</identifier>
+            <location>
+                <address>
+                    <electronic type="url" target="landingPage">
+                        <value>http://doi.org/10.4225/03/5a6e763dd9c8c</value>
+                    </electronic>
+                </address>
+            </location>
+            <name type="primary">
+                <namePart>Perceptual Filling In - SSVEP project</namePart>
+            </name>
+            <relatedInfo type="party">
+                <identifier type="uri">https://figshare.com/authors/_/4802718AUT</identifier>
+                <title>Matthew Davidson</title>
+                <relation type="hasCollector"/>
+            </relatedInfo>
+            <subject type="local">EEG</subject>
+            <subject type="local">Attention</subject>
+            <subject type="local">Perception</subject>
+            <subject type="local">Perceptual filling in</subject>
+            <subject type="local">psychophysics</subject>
+            <subject type="local">neuroscience</subject>
+            <subject type="local">psychology</subject>
+            <rights>
+                <licence type="CC-BY-NC-ND"/>
+            </rights>
+            <subject type="local"/>
+            <description type="full">Analysis pipeline and support files</description>
+            <dates type="issued">
+                <date type="dateFrom" dateFormat="W3CDTF">2018-01-29</date>
+            </dates>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecords51051153211110232801011161011143266971081089711410</key>
+        <originatingSource>University of Adelaide Figshare</originatingSource>
+        <collection type="software" dateModified="2018-04-28">
+            <identifier type="doi">http://doi.org/10.4225/55/5ae3c14503d04AUT</identifier>
+            <location>
+                <address>
+                    <electronic type="url" target="landingPage">
+                        <value>http://doi.org/10.4225/55/5ae3c14503d04</value>
+                    </electronic>
+                </address>
+            </location>
+            <name type="primary">
+                <namePart>Software files for PhD thesis of Peter Ballard</namePart>
+            </name>
+            <relatedInfo type="party">
+                <identifier type="uri">https://figshare.com/authors/_/4211416AUT</identifier>
+                <title>Peter Ballard</title>
+                <relation type="hasCollector"/>
+            </relatedInfo>
+            <subject type="local">Stochastic Epidemics</subject>
+            <subject type="local">mathematical biology</subject>
+            <subject type="local">mathematical epidemiology</subject>
+            <subject type="local">Python scripting language</subject>
+            <subject type="local">Julia language</subject>
+            <subject type="local">cython language</subject>
+            <subject type="local">epidemic fade-out</subject>
+            <rights>
+                <licence type="CC-BY">CC-BY-4.0</licence>
+            </rights>
+            <subject type="local"/>
+            <subject type="local"/>
+            <subject type="local"/>
+            <description type="full">Source files describing the algorithms used in 3 papers authored by Peter Ballard
+                as part of his PhD. Two of these are published: "The probability of epidemic fade-out is non-monotonic
+                in transmission rate for the Markovian SIR model with demography" (doi:10.1016/j.jtbi.2016.01.012) and
+                "Intervention to maximise the probability of epidemic fade-out" (doi:10.1016/j.mbs.2017.08.003). These
+                are associated with calculating the probability of epidemic fade-out, or maximising the probability of
+                epidemic fade-out. The code is Cython, Python and Julia.
+            </description>
+            <dates type="issued">
+                <date type="dateFrom" dateFormat="W3CDTF">2018-04-28</date>
+            </dates>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsGA/a7ec0456-d47a-49a0-e044-00144fdd4fa6</key>
+        <originatingSource>Commonwealth of Australia (Geoscience Australia)</originatingSource>
+        <collection type="software" dateAccessioned="2011-07-13T00:00:00">
+            <identifier type="local">72650AUT</identifier>
+            <identifier type="global">a7ec0456-d47a-49a0-e044-00144fdd4fa6AUT</identifier>
+            <identifier type="purl">http://pid.geoscience.gov.au/dataset/ga/72650AUT</identifier>
+            <location>
+                <address>
+                    <electronic type="url" target="landingPage">
+                        <value>http://pid.geoscience.gov.au/dataset/ga/72650</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="lineage">Unknown</description>
+            <name type="primary">
+                <namePart>Rapid Inventory Collection System - open source software release - User Manual</namePart>
+            </name>
+            <relatedObject>
+                <key>GA/Habili,N.</key>
+                <relation type="author"/>
+            </relatedObject>
+            <relatedObject>
+                <key>GA/CommonwealthofAustralia(GeoscienceAustralia)</key>
+                <relation type="pointOfContact"/>
+                <relation type="distributor"/>
+            </relatedObject>
+            <subject type="local">geoscientificInformation</subject>
+            <subject type="local">Software</subject>
+            <subject type="local">data</subject>
+            <subject type="anzsrc-for">Computet Software</subject>
+            <subject type="local">Published_External</subject>
+            <description type="brief">RICS (Rapid Inventory Collection System) is a vehicular data collection system. It
+                collects geo-tagged imagery and user added property damage-level information. The system consists of
+                Ethernet cameras, tripods, circuitry and the RICS software that runs on a laptop. It was successfully
+                deployed following the 2009 Victorian Bushfires, the 2010 Kalgoorlie and Christchurch Earthquakes, the
+                2011 Brisbane floods and TC Yassi.
+            </description>
+            <rights>
+                <licence rightsUri="http://creativecommons.org/licenses/by/4.0" type="CC-BY">Creative Commons
+                    Attribution 4.0 International Licence
+                </licence>
+            </rights>
+            <rights>
+                <accessRights type="open"/>
+            </rights>
+            <dates type="issued">
+                <date type="dateFrom" dateFormat="W3CDTF">20110101T00:00:00</date>
+            </dates>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="uri">http://pid.geoscience.gov.au/dataset/ga/72650AUT</identifier>
+                    <title>Rapid Inventory Collection System - open source software release - User Manual</title>
+                    <date type="publicationDate">2011</date>
+                    <contributor>
+                        <namePart>Habili, N.</namePart>
+                    </contributor>
+                    <publisher>Commonwealth of Australia (Geoscience Australia)</publisher>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecords9910410545115104971121013299111100101</key>
+        <originatingSource>Monash University Figshare</originatingSource>
+        <collection type="software" dateModified="2017-05-23">
+            <identifier type="doi">http://doi.org/10.4225/03/592405e710efcAUT</identifier>
+            <location>
+                <address>
+                    <electronic type="url" target="landingPage">
+                        <value>http://doi.org/10.4225/03/592405e710efc</value>
+                    </electronic>
+                </address>
+            </location>
+            <name type="primary">
+                <namePart>chi-shape code</namePart>
+            </name>
+            <relatedInfo type="party">
+                <identifier type="uri">https://figshare.com/authors/_/3637819AUT</identifier>
+                <title>Jonathan Keith</title>
+                <relation type="hasCollector"/>
+            </relatedInfo>
+            <subject type="local">ecology studies</subject>
+            <rights>
+                <rightsStatement>MIT</rightsStatement>
+            </rights>
+            <subject type="local"/>
+            <subject type="local"/>
+            <description type="full">Code for constructing chi-shapes representing species range boundaries&lt;br&gt;
+            </description>
+            <dates type="issued">
+                <date type="dateFrom" dateFormat="W3CDTF">2017-05-23</date>
+            </dates>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecords711011101111161211121011144682</key>
+        <originatingSource>Monash University Figshare</originatingSource>
+        <collection type="software" dateModified="2017-06-29">
+            <identifier type="doi">http://doi.org/10.4225/03/5954f738ee5aaAUT</identifier>
+            <location>
+                <address>
+                    <electronic type="url" target="landingPage">
+                        <value>http://doi.org/10.4225/03/5954f738ee5aa</value>
+                    </electronic>
+                </address>
+            </location>
+            <name type="primary">
+                <namePart>Genotyper.R</namePart>
+            </name>
+            <relatedInfo type="party">
+                <identifier type="uri">https://figshare.com/authors/_/3759379AUT</identifier>
+                <title>Ashley Murphy</title>
+                <relation type="hasCollector"/>
+            </relatedInfo>
+            <subject type="local">script</subject>
+            <subject type="local">sequence formatting</subject>
+            <subject type="local">genetics</subject>
+            <rights>
+                <rightsStatement>MIT</rightsStatement>
+            </rights>
+            <subject type="local"/>
+            <description type="full">This is a custom R script used to count the number of Haplotypic Alleles in a SNP
+                table (in this case derived from sequence data in FASTAs) and combine them into locus-based genotypes.
+                &lt;br&gt;&lt;br&gt;Written by Bertrand Gauffre and Ashley Murphy.&lt;br&gt;
+            </description>
+            <dates type="issued">
+                <date type="dateFrom" dateFormat="W3CDTF">2017-06-29</date>
+            </dates>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsn4qXGOtAAvOfscf0jeCUO3wUdn5ZMACYvSM1w5rXr63J89zhe11SV</key>
+        <originatingSource type="">https://demo.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="software">
+            <name type="primary">
+                <namePart>National Archives Anzacs API</namePart>
+            </name>
+            <description type="full">&lt;p&gt;As part of the Anzac centenary commemorations, the National Archives of
+                Australia has developed an API which allows search queries for detailed information from our online
+                catalogue relating to World War 1 service records. &lt;/p&gt;
+                &lt;p&gt;The data available links to our&lt;a href=&quot;http://discoveringanzacs.naa.gov.au/&quot;
+                target=&quot;_blank&quot;&gt; Discovering Anzacs&lt;/a&gt; Website.&lt;/p&gt;
+                &lt;p&gt;The service personnel dossiers of men and women who served during World War 1 are held in
+                series B2455 (&lt;a href=&quot;http://discoveringanzacs.naa.gov.au/series-info/b2455/&quot;&gt;First
+                Australian Imperial Forces Personnel Dossiers&lt;/a&gt;).&lt;/p&gt;
+                &lt;p&gt;We encurage cultural institutions and researchers to &lt;a href=&quot;https://api.naa.gov.au/Apply&quot;
+                target=&quot;_blank&quot;&gt;apply for an API key&lt;/a&gt; using the reqest form, and incorporate in
+                their own Anzac centenary projects links back to search results for individual person and profiles on
+                the Discovering Anzacs website.&lt;/p&gt;
+                &lt;p&gt;The Archives may approve or reject an application at its absolute discretion. All information
+                in the application must be true, correct and complete and made in your own name ( as a Nominated User
+                and representative of your organisation). If the application is made on behalf of a cultural
+                institution, you must have the authority to represent that cultural institution.&lt;/p&gt;
+            </description>
+            <rights>
+                <accessRights type="conditional" rightsUri="https://api.naa.gov.au/Apply/Terms">Terms and Conditions
+                </accessRights>
+            </rights>
+            <location>
+                <address>
+                    <electronic type="url" target="landingPage">
+                        <value>https://api.naa.gov.au/</value>
+                        <title>Request for API access</title>
+                    </electronic>
+                </address>
+            </location>
+            <subject type="anzsrc-for">21</subject>
+            <subject type="anzsrc-for">2102</subject>
+            <subject type="anzsrc-for">2103</subject>
+            <subject type="anzsrc-for">210303</subject>
+            <subject type="local">ANZACS</subject>
+            <subject type="local">War</subject>
+            <subject type="local">Galiipoli</subject>
+            <relatedInfo>
+                <title>API Documentation</title>
+                <identifier type="uri">https://api.naa.gov.au/HelpAUT</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsNestedwww.ballarat.edu.au/sdfsdcoll/12</key>
+        <originatingSource type="">http://researchdata.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="dataset" dateModified="2015-05-18T06:43:04Z" dateAccessioned="2013-02-01T00:00:00Z">
+            <name type="primary">
+                <namePart>(AUTestingRecords)(LVL 2) City of Ballarat and Golden Plains Shire GIS survey, 2011</namePart>
+            </name>
+            <name type="alternative">
+                <namePart>(AUTestingRecords)City of Ballarat and Golden Plains Geographic Information System survey,
+                    2011
+                </namePart>
+            </name>
+            <description type="brief">&amp;lt;p&amp;gt;The University of Ballarat through its Centre for eCommerce and
+                Communications (CeCC) was engaged by the Golden Plains Shire and the City of Ballarat to review the
+                extent to which key objectives of past Geographic Information System (GIS) strategies have been achieved
+                and also to gather information which can assist with future planning during.&amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt;This dataset contains interviews to gauge current usage of online GIS systems and to
+                obtain feedback to ascertain priorities which were conducted online and face-to-face in January 2011.&amp;lt;/p&amp;gt;
+            </description>
+            <rights>
+                <rightsStatement>All rights reserved, except by negotiation with Centre for eCommerce and Communications
+                    University of Ballarat Copyright 2010 Centre for e-Commerce and Communications University of
+                    Ballarat
+                </rightsStatement>
+                <accessRights>Contact Helen Thompson h.thompson@federation.edu.au</accessRights>
+            </rights>
+            <identifier type="uri">
+                http://researchonlifdne.federation.edu.au:8080/vital/access/HandleResolver/1959.17/67358AUTba1
+            </identifier>
+            <dates type="dc.created">
+                <date type="dateFrom" dateFormat="W3CDTF">2011-01-11T00:00:00Z</date>
+            </dates>
+            <location>
+                <address>
+                    <physical type="streetAddress">
+                        <addressPart type="text">Suite 15, Greenhill Enterprise Centre Federation University Australia
+                            Technology Park University Drive, Mt Helen
+                        </addressPart>
+                        <addressPart type="telephoneNumber">+61 3 5327 9315</addressPart>
+                    </physical>
+                </address>
+            </location>
+            <coverage>
+                <temporal>
+                    <date type="dateTo" dateFormat="W3CDTF">2011-01-01T00:00:00Z</date>
+                    <date type="dateFrom" dateFormat="W3CDTF">2011-01-01T00:00:00Z</date>
+                </temporal>
+                <spatial type="kmlPolyCoords">143.851528,-37.929306</spatial>
+            </coverage>
+            <relatedObject>
+                <key>AUTestingRecordsNestedwww.ballarat.edu.au/coll/15</key>
+                <relation type="isPartOf">
+                    <description>Principal Researcher</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedwww.cecc.com</key>
+                <relation type="hasPrincipalInvestigator"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedwww.ballarat.edu.au/act/3</key>
+                <relation type="isOutputOf"/>
+            </relatedObject>
+            <subject type="anzsrc-for">090903</subject>
+            <subject type="anzsrc-for">120205</subject>
+            <subject type="local">GIS</subject>
+        </collection>
+    </registryObject>
+
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsNestedwww.ballarat.edu.au/colsdfl/13</key>
+        <originatingSource type="">http://researchdata.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="dataset" dateModified="2013-02-22T05:43:03Z" dateAccessioned="2013-01-30T00:00:00Z">
+            <name type="primary">
+                <namePart>(AUTestingRecords)(LVL 2) Gippsland regional GIS survey 2010</namePart>
+            </name>
+            <name type="alternative">
+                <namePart>(AUTestingRecords)Gippsland regional Geographical Information Systems survey 2010</namePart>
+            </name>
+            <description type="brief">&amp;lt;p&amp;gt;Federation University Australia ’s Centre for eCommerce and
+                Communications were engaged by&amp;lt;br /&amp;gt; DIIRD to assist in researching the business case for
+                a GIS application as part of the GippsLink Project, 2010.&amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt;The project stakeholders across six LGAs -Bass Coast Shire; Baw Baw Shire; East
+                Gippsland Shire; Latrobe City; South Gippsland Shire, Wellington Shire participated in an online survey
+                to gauge current usage of online GIS systems and to obtain feedback to ascertain priorities. The results
+                of that survey form this dataset which is stored using Lime survey software. 23 responses were obtained.&amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt; &amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt; &amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt; &amp;lt;/p&amp;gt;
+            </description>
+            <rights>
+                <rightsStatement>All rights reserved, except by negotiation with Centre for eCommerce and Communications
+                    Federation University Australia Copyright 2010 Centre for e-Commerce and Communications Federation
+                    University Australia
+                </rightsStatement>
+                <accessRights>Contact Helen Thompson h.thompson@federation.edu.au for possible access to the dataset
+                </accessRights>
+            </rights>
+            <identifier type="uri">
+                http://researchosdfnline.federation.edu.au:8080/vital/access/HandleResolver/1959.17/58563AUTba1
+            </identifier>
+            <dates type="dc.created">
+                <date type="dateFrom" dateFormat="W3CDTF">2010-01-01T00:00:00Z</date>
+            </dates>
+            <dates type="dc.created">
+                <date type="dateTo" dateFormat="W3CDTF">2010-03-01T00:00:00Z</date>
+            </dates>
+            <location>
+                <address>
+                    <physical type="streetAddress">
+                        <addressPart type="text">Centre for eCommerce and Communications Suite 15, Greenhill Enterprise
+                            Centre, Ballarat Technology Park University Drive, Mt Helen
+                        </addressPart>
+                        <addressPart type="telephoneNumber">61 3 5327 9315</addressPart>
+                    </physical>
+                </address>
+            </location>
+            <coverage>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">2010-03-31T00:00:00Z</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2010-03-31T00:00:00Z</date>
+                </temporal>
+                <spatial type="kmlPolyCoords">147.691886,-37.341957 145.610077,-37.341957 145.610077,-39.039526
+                    147.691886,-39.039526 147.691886,-37.341957
+                </spatial>
+            </coverage>
+            <relatedObject>
+                <key>AUTestingRecordsNestedwww.ballarat.edu.au/coll/15</key>
+                <relation type="isPartOf"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedwww.cecc.com</key>
+                <relation type="isManagedBy"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedwww.ballarat.edu.au/staff/hethompson</key>
+                <relation type="hasAssociationWith">
+                    <description>Principal Researcher</description>
+                </relation>
+            </relatedObject>
+            <subject type="anzsrc-for">090905</subject>
+            <subject type="anzsrc-for">120505</subject>
+        </collection>
+    </registryObject>
+
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsNestedwww.ballarat.edu.au/coll/1asdf4</key>
+        <originatingSource type="">http://researchdata.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="dataset" dateModified="2013-02-22T05:43:07Z" dateAccessioned="2013-01-21T00:00:00Z">
+            <name type="primary">
+                <namePart>(AUTestingRecords)(LVL 2)Great South Coast ICT survey, 2011</namePart>
+            </name>
+            <name type="alternative">
+                <namePart>(AUTestingRecords)Great South Coast Information Communication and Technology Survey, 2011
+                </namePart>
+            </name>
+            <description type="full">&amp;lt;p&amp;gt;A combination of qualitative and quantitative research methods
+                were utilised to collect information from across the Great South Coast(GSC) region Victoria which
+                included (5 municipalities:- Warrnambool City and the Shires of Corangamite, Glenelg, Moyne and Southern
+                Grampians) and were aimed at information regarding telecommunications and broadband access and services,
+                barriers and usage at local levels. Data collection methods included key stakeholder interviews, the
+                online survey, case studies and spatial mapping of the responses and feedback garnered mainly from the
+                surveys. Anticipated NBN access infrastructure has also been mapped.The adopted consultation and
+                research methodology was designed to assess demand and support from business operators, local residents
+                and other stakeholders for next generation broadband for the GSC region. The online survey was a major
+                instrument for gathering data in the period to July 2011.&amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt;The largest contributions to the 598 valid responses came from Warrnambool (n=166),
+                Hamilton (n=94), Camperdown (n=29) and Portland (n=23).&amp;lt;/p&amp;gt;
+            </description>
+            <rights>
+                <rightsStatement>All rights reserved, except by negotiation with Centre for eCommerce and Communications
+                    Federation University Australia Copyright 2010.
+                </rightsStatement>
+                <accessRights>Summary available online. Qualitative data may be available by contacting CeCC.
+                </accessRights>
+            </rights>
+            <identifier type="uri">
+                http://researsdchonline.federation.edu.au:8080/vital/access/HandleResolver/1959.17/62893AUTba1
+            </identifier>
+            <dates type="dc.created">
+                <date type="dateFrom" dateFormat="W3CDTF">2011-01-10T00:00:00Z</date>
+            </dates>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.cecc.com.au/maps/gsc_map.php</value>
+                    </electronic>
+                    <physical type="streetAddress">
+                        <addressPart type="text">Suite 15, Greenhill Enterprise Centre, Ballarat Technology Park,
+                            University Drive, Mt Helen
+                        </addressPart>
+                        <addressPart type="telephoneNumber">61 353279315</addressPart>
+                    </physical>
+                </address>
+            </location>
+            <coverage>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">2011-03-24T00:00:00Z</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2011-07-24T00:00:00Z</date>
+                </temporal>
+                <spatial type="kmlPolyCoords">141.679688,-37.857507</spatial>
+            </coverage>
+            <relatedObject>
+                <key>AUTestingRecordsNestedwww.ballarat.edu.au/coll/15</key>
+                <relation type="isPartOf"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedlateralplains.com/gfong</key>
+                <relation type="hasAssociationWith"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedlateralplains.com</key>
+                <relation type="hasAssociationWith"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedwww.cecc.com</key>
+                <relation type="hasAssociationWith"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedwww.ballarat.edu.au/act/2</key>
+                <relation type="isOutputOf"/>
+            </relatedObject>
+            <subject type="anzsrc-for">0806</subject>
+            <subject type="anzsrc-for">0805</subject>
+            <subject type="anzsrc">Information Technology</subject>
+            <subject type="local">Telecommunications</subject>
+            <subject type="local">Internet access</subject>
+            <subject type="local">Mobile Phone Coverage</subject>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.cecc.com.au/cb_pages/gsc_home.phpAUTba1</identifier>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsNestedwww.ballarat.edu.au/coll/7asdf</key>
+        <originatingSource type="">http://researchdata.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2015-05-18T04:46:27Z" dateAccessioned="2013-02-11T00:00:00Z">
+            <name type="primary">
+                <namePart>(AUTestingRecords)(LVL 2) Federation University Australia Historical Collection</namePart>
+            </name>
+            <description type="full">&amp;lt;p&amp;gt;The Federation University Australia Historical Collection is an
+                extensive collection of historical material dating from 1851. The collection covers material from the
+                University of Ballarat's predecessors including the Ballarat School of Mines, Ballarat Teachers'
+                College, State College of Victoria, Ballarat; the Ballarat Institute of Advanced Education, Ballarat
+                College of Advanced Education, Ballarat University College and Wimmera Institute of TAFE.&amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt;The types of materials in this collection include object, books, papers, documents,
+                photographs, sketches there are over 13,000 items. This collection is currently being added to the
+                Victorian Collections website.&amp;lt;/p&amp;gt;
+            </description>
+            <rights>
+                <accessRights>Access via Geoffrey Blainey Research Centre during opening hours or by appointment.Some
+                    items may require permission to be viewed.Some items are available online.
+                </accessRights>
+            </rights>
+            <identifier type="uri">
+                http://researchonline.federation.edu.au:8080/vital/access/HandleResolver/1959.17/38260AUTba1
+            </identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>
+                            http://victoriancollections.net.au/organisations/university-of-ballarat-art-and-historical-collections
+                        </value>
+                    </electronic>
+                    <physical type="streetAddress">
+                        <addressPart type="text">Federation University Australia Mt Helen Campus Geoffrey Blainey
+                            Research Centre, E.J. Barker Library (PO Box 663, Ballarat, VIC, 3353) Mt Helen 3350
+                        </addressPart>
+                    </physical>
+                </address>
+            </location>
+            <coverage>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">1851</date>
+                </temporal>
+                <spatial type="text">Ballarat, Victoria, Australia</spatial>
+            </coverage>
+            <relatedObject>
+                <key>AUTestingRecordsNestedwww.ballarat.edu.au/coll/15</key>
+                <relation type="isPartOf"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedwww.ballarat.edu.au/act/4</key>
+                <relation type="hasAssociationWith"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecords14991013299111100101329711010032100971169711510111</key>
+                <relation type="isProducedBy">
+                    <description>isProducedBy</description>
+                </relation>
+            </relatedObject>
+            <subject type="anzsrc-for">2103</subject>
+            <subject type="local">History</subject>
+            <subject type="local">Ballarat</subject>
+            <subject type="local">Antiquities</subject>
+        </collection>
+    </registryObject>
+</registryObjects>

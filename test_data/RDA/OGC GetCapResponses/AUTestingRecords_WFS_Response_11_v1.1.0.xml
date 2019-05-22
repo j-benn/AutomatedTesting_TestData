@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wfs:WFS_Capabilities version="1.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.opengis.net/wfs" xmlns:wfs="http://www.opengis.net/wfs" xmlns:ows="http://www.opengis.net/ows" xmlns:gml="http://www.opengis.net/gml" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.opengis.net/wfs http://www.mrt.tas.gov.au:80/web-services/schemas/wfs/1.1.0/wfs.xsd" xmlns:it.geosolutions="http://www.geo-solutions.it" xmlns:mrtwfs="http://www.mrt.tas.gov.au" xmlns:mo="http://xmlns.geoscience.gov.au/minoccml/1.0" xmlns:mt="http://xmlns.geoscience.gov.au/mineraltenementml/1.0" xmlns:topp="http://www.openplans.org/topp" xmlns:nvcl="http://www.auscope.org/nvcl" xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0" xmlns:gsmlp="http://xmlns.geosciml.org/geosciml-portrayal/4.0" xmlns:sa="http://www.opengis.net/sampling/1.0" xmlns:om="http://www.opengis.net/om/1.0" xmlns:er="urn:cgi:xmlns:GGIC:EarthResource:1.1" updateSequence="1089">
+    <ows:ServiceIdentification>
+        <ows:Title>AUTestingRecords #11 Mineral Resources Tasmania (MRT) Web Feature Service</ows:Title>
+        <ows:Abstract>WFS 1.0.0 and WFS 1.1.0</ows:Abstract>
+        <ows:Keywords>
+            <ows:Keyword>WFS</ows:Keyword>
+            <ows:Keyword>WMS</ows:Keyword>
+            <ows:Keyword>GEOSERVER</ows:Keyword>
+        </ows:Keywords>
+        <ows:ServiceType>WFS</ows:ServiceType>
+        <ows:ServiceTypeVersion>1.1.0</ows:ServiceTypeVersion>
+        <ows:Fees>NONE</ows:Fees>
+        <ows:AccessConstraints>NONE</ows:AccessConstraints>
+    </ows:ServiceIdentification>
+    <ows:ServiceProvider>
+        <ows:ProviderName>Mineral Resources Tasmania</ows:ProviderName>
+        <ows:ServiceContact>
+            <ows:IndividualName>Web Enquiries</ows:IndividualName>
+            <ows:PositionName>Spatial Services</ows:PositionName>
+            <ows:ContactInfo>
+                <ows:Phone>
+                    <ows:Voice>+61 3 616 54800</ows:Voice>
+                    <ows:Facsimile>+61 3 62 338338</ows:Facsimile>
+                </ows:Phone>
+                <ows:Address>
+                    <ows:DeliveryPoint/>
+                    <ows:City>AUTesting Records Rosny</ows:City>
+                    <ows:AdministrativeArea>Tasmania</ows:AdministrativeArea>
+                    <ows:PostalCode>7018</ows:PostalCode>
+                    <ows:Country>Australia</ows:Country>
+                    <ows:ElectronicMailAddress/>
+                </ows:Address>
+            </ows:ContactInfo>
+        </ows:ServiceContact>
+    </ows:ServiceProvider>
+    <ows:OperationsMetadata>
+        <ows:Operation name="GetCapabilities">
+            <ows:DCP>
+                <ows:HTTP>
+                    <ows:Get xlink:href="http://www.mrt.tas.gov.au:80/web-services/wfs"/>
+                    <ows:Post xlink:href="http://www.mrt.tas.gov.au:80/web-services/wfs"/>
+                </ows:HTTP>
+            </ows:DCP>
+            <ows:Parameter name="AcceptVersions">
+                <ows:Value>1.0.0</ows:Value>
+                <ows:Value>1.1.0</ows:Value>
+            </ows:Parameter>
+            <ows:Parameter name="AcceptFormats">
+                <ows:Value>text/xml</ows:Value>
+            </ows:Parameter>
+        </ows:Operation>
+        <ows:Operation name="DescribeFeatureType">
+            <ows:DCP>
+                <ows:HTTP>
+                    <ows:Get xlink:href="http://www.mrt.tas.gov.au:80/web-services/wfs"/>
+                    <ows:Post xlink:href="http://www.mrt.tas.gov.au:80/web-services/wfs"/>
+                </ows:HTTP>
+            </ows:DCP>
+            <ows:Parameter name="outputFormat">
+                <ows:Value>text/xml; subtype=gml/3.1.1</ows:Value>
+            </ows:Parameter>
+        </ows:Operation>
+        <ows:Operation name="GetFeature">
+            <ows:DCP>
+                <ows:HTTP>
+                    <ows:Get xlink:href="http://www.mrt.tas.gov.au:80/web-services/wfs"/>
+                    <ows:Post xlink:href="http://www.mrt.tas.gov.au:80/web-services/wfs"/>
+                </ows:HTTP>
+            </ows:DCP>
+            <ows:Parameter name="resultType">
+                <ows:Value>results</ows:Value>
+                <ows:Value>hits</ows:Value>
+            </ows:Parameter>
+            <ows:Parameter name="outputFormat">
+                <ows:Value>text/xml; subtype=gml/3.1.1</ows:Value>
+                <ows:Value>GML2</ows:Value>
+                <ows:Value>KML</ows:Value>
+                <ows:Value>SHAPE-ZIP</ows:Value>
+                <ows:Value>application/gml+xml; version=3.2</ows:Value>
+                <ows:Value>application/json</ows:Value>
+                <ows:Value>application/vnd.google-earth.kml xml</ows:Value>
+                <ows:Value>application/vnd.google-earth.kml+xml</ows:Value>
+                <ows:Value>csv</ows:Value>
+                <ows:Value>gml3</ows:Value>
+                <ows:Value>gml32</ows:Value>
+                <ows:Value>json</ows:Value>
+                <ows:Value>text/xml; subtype=gml/2.1.2</ows:Value>
+                <ows:Value>text/xml; subtype=gml/3.2</ows:Value>
+            </ows:Parameter>
+            <ows:Constraint name="LocalTraverseXLinkScope">
+                <ows:Value>2</ows:Value>
+            </ows:Constraint>
+        </ows:Operation>
+        <ows:Operation name="GetGmlObject">
+            <ows:DCP>
+                <ows:HTTP>
+                    <ows:Get xlink:href="http://www.mrt.tas.gov.au:80/web-services/wfs"/>
+                    <ows:Post xlink:href="http://www.mrt.tas.gov.au:80/web-services/wfs"/>
+                </ows:HTTP>
+            </ows:DCP>
+        </ows:Operation>
+        <ows:Operation name="LockFeature">
+            <ows:DCP>
+                <ows:HTTP>
+                    <ows:Get xlink:href="http://www.mrt.tas.gov.au:80/web-services/wfs"/>
+                    <ows:Post xlink:href="http://www.mrt.tas.gov.au:80/web-services/wfs"/>
+                </ows:HTTP>
+            </ows:DCP>
+            <ows:Parameter name="releaseAction">
+                <ows:Value>ALL</ows:Value>
+                <ows:Value>SOME</ows:Value>
+            </ows:Parameter>
+        </ows:Operation>
+        <ows:Operation name="GetFeatureWithLock">
+            <ows:DCP>
+                <ows:HTTP>
+                    <ows:Get xlink:href="http://www.mrt.tas.gov.au:80/web-services/wfs"/>
+                    <ows:Post xlink:href="http://www.mrt.tas.gov.au:80/web-services/wfs"/>
+                </ows:HTTP>
+            </ows:DCP>
+            <ows:Parameter name="resultType">
+                <ows:Value>results</ows:Value>
+                <ows:Value>hits</ows:Value>
+            </ows:Parameter>
+            <ows:Parameter name="outputFormat">
+                <ows:Value>text/xml; subtype=gml/3.1.1</ows:Value>
+                <ows:Value>GML2</ows:Value>
+                <ows:Value>KML</ows:Value>
+                <ows:Value>SHAPE-ZIP</ows:Value>
+                <ows:Value>application/gml+xml; version=3.2</ows:Value>
+                <ows:Value>application/json</ows:Value>
+                <ows:Value>application/vnd.google-earth.kml xml</ows:Value>
+                <ows:Value>application/vnd.google-earth.kml+xml</ows:Value>
+                <ows:Value>csv</ows:Value>
+                <ows:Value>gml3</ows:Value>
+                <ows:Value>gml32</ows:Value>
+                <ows:Value>json</ows:Value>
+                <ows:Value>text/xml; subtype=gml/2.1.2</ows:Value>
+                <ows:Value>text/xml; subtype=gml/3.2</ows:Value>
+            </ows:Parameter>
+        </ows:Operation>
+        <ows:Operation name="Transaction">
+            <ows:DCP>
+                <ows:HTTP>
+                    <ows:Get xlink:href="http://www.mrt.tas.gov.au:80/web-services/wfs"/>
+                    <ows:Post xlink:href="http://www.mrt.tas.gov.au:80/web-services/wfs"/>
+                </ows:HTTP>
+            </ows:DCP>
+            <ows:Parameter name="inputFormat">
+                <ows:Value>text/xml; subtype=gml/3.1.1</ows:Value>
+            </ows:Parameter>
+            <ows:Parameter name="idgen">
+                <ows:Value>GenerateNew</ows:Value>
+                <ows:Value>UseExisting</ows:Value>
+                <ows:Value>ReplaceDuplicate</ows:Value>
+            </ows:Parameter>
+            <ows:Parameter name="releaseAction">
+                <ows:Value>ALL</ows:Value>
+                <ows:Value>SOME</ows:Value>
+            </ows:Parameter>
+        </ows:Operation>
+    </ows:OperationsMetadata>
+    <FeatureTypeList>
+        <Operations>
+            <Operation>Query</Operation>
+            <Operation>Insert</Operation>
+            <Operation>Update</Operation>
+            <Operation>Delete</Operation>
+            <Operation>Lock</Operation>
+        </Operations>
+        <FeatureType xmlns:mrtwfs="http://www.mrt.tas.gov.au">
+            <Name>mrtwfs:AirborneSurveys</Name>
+            <Title>Airborne Geophysical Surveys of Tasmania (Mineral Resources Tasmania)</Title>
+            <Abstract>Spatial index of open file airborne geophysical surveys for which digital data is held.</Abstract>
+            <DefaultSRS>urn:x-ogc:def:crs:EPSG:4283</DefaultSRS>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>141.0 -44.5</ows:LowerCorner>
+                <ows:UpperCorner>150.0 -38.0</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+        </FeatureType>
+        <FeatureType xmlns:mrtwfs="http://www.mrt.tas.gov.au">
+            <Name>mrtwfs:Boreholes</Name>
+            <Title>Borehole Points of Tasmania (Mineral Resources Tasmania)</Title>
+            <Abstract>Borehole features across Tasmania derived from the Borehole Database, administered by Mineral Resources Tasmania.</Abstract>
+            <DefaultSRS>urn:x-ogc:def:crs:EPSG:4283</DefaultSRS>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>142.5 -44.5</ows:LowerCorner>
+                <ows:UpperCorner>150.0 -38.0</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+        </FeatureType>
+        <FeatureType xmlns:gsmlp="http://xmlns.geosciml.org/geosciml-portrayal/4.0">
+            <Name>gsmlp:BoreholeView</Name>
+            <Title>Borehole Portrayal View of Tasmania</Title>
+            <Abstract>GeoSciML Portrayal Borehole View for NVCL Borehole Mineral Resources Tasmania (MRT)</Abstract>
+            <ows:Keywords>
+                <ows:Keyword>association:http://www.mrt.tas.gov.au/resource/feature/mrt/gsmlp/borehole/</ows:Keyword>
+            </ows:Keywords>
+            <DefaultSRS>urn:x-ogc:def:crs:EPSG:4283</DefaultSRS>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>142.5 -44.5</ows:LowerCorner>
+                <ows:UpperCorner>150.0 -38.0</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+        </FeatureType>
+        <FeatureType xmlns:mrtwfs="http://www.mrt.tas.gov.au">
+            <Name>mrtwfs:BoreholeTrace</Name>
+            <Title>Borehole Traces of Tasmania (Mineral Resources Tasmania)</Title>
+            <Abstract/>
+            <DefaultSRS>urn:x-ogc:def:crs:EPSG:4283</DefaultSRS>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>142.5 -44.5</ows:LowerCorner>
+                <ows:UpperCorner>150.0 -38.0</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+        </FeatureType>
+        <FeatureType xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0">
+            <Name>gsml:Borehole</Name>
+            <Title>Boreholes of Tasmania</Title>
+            <Abstract>This feature describes the existence, location and associated metadata of drill holes contained within Tasmania.</Abstract>
+            <DefaultSRS>urn:x-ogc:def:crs:EPSG:4283</DefaultSRS>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>142.5 -44.5</ows:LowerCorner>
+                <ows:UpperCorner>150.0 -38.0</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+        </FeatureType>
+        <FeatureType xmlns:mrtwfs="http://www.mrt.tas.gov.au">
+            <Name>mrtwfs:LicenceCategory1</Name>
+            <Title>Category 1 Exploration Licence Polygons of Tasmania (Mineral Resources Tasmania)</Title>
+            <Abstract>Category 1 Exploration Licence polygons and Exploration Release Areas across Tasmania, with tenement information derived from the Tasmanian Information on Geoscience and Exploration Resources (TIGER) system; administered by Mineral Resources Tasmania (MRT), Department of State Growth. Category 1 comprises any metallic mineral or atomic substance.</Abstract>
+            <DefaultSRS>urn:x-ogc:def:crs:EPSG:4283</DefaultSRS>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>142.5 -44.5</ows:LowerCorner>
+                <ows:UpperCorner>150.0 -38.0</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+        </FeatureType>
+        <FeatureType xmlns:mrtwfs="http://www.mrt.tas.gov.au">
+            <Name>mrtwfs:LicenceCategory2</Name>
+            <Title>Category 2 Exploration Licence Polygons of Tasmania (Mineral Resources Tasmania)</Title>
+            <Abstract>Category 2 Exploration Licence polygons and Exploration Release Areas across Tasmania, with tenement information derived from the Tasmanian Information on Geoscience and Exploration Resources (TIGER) system; administered by Mineral Resources Tasmania (MRT), Department of State Growth. Category 2 comprises coal, peat, lignite, oil shale and coal seam gas.</Abstract>
+            <DefaultSRS>urn:x-ogc:def:crs:EPSG:4283</DefaultSRS>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>142.5 -44.5</ows:LowerCorner>
+                <ows:UpperCorner>150.0 -38.0</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+        </FeatureType>
+        <FeatureType xmlns:mrtwfs="http://www.mrt.tas.gov.au">
+            <Name>mrtwfs:LicenceCategory3</Name>
+            <Title>Category 3 Exploration Licence Polygons of Tasmania (Mineral Resources Tasmania)</Title>
+            <Abstract>Category 3 Exploration Licence polygons and Exploration Release Areas across Tasmania, with tenement information derived from the Tasmanian Information on Geoscience and Exploration Resources (TIGER) system; administered by Mineral Resources Tasmania (MRT), Department of State Growth. Category 3 comprises any rock, stone, gravel, sand and clay used in construction, bricks and ceramics.</Abstract>
+            <DefaultSRS>urn:x-ogc:def:crs:EPSG:4283</DefaultSRS>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>142.5 -44.5</ows:LowerCorner>
+                <ows:UpperCorner>150.0 -38.0</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+        </FeatureType>
+        <FeatureType xmlns:mrtwfs="http://www.mrt.tas.gov.au">
+            <Name>mrtwfs:LicenceCategory4</Name>
+            <Title>Category 4 Exploration Licence Polygons of Tasmania (Mineral Resources Tasmania)</Title>
+            <Abstract>Category 4 Exploration Licence polygons and Exploration Release Areas across Tasmania, with tenement information derived from the Tasmanian Information on Geoscience and Exploration Resources (TIGER) system; administered by Mineral Resources Tasmania (MRT), Department of State Growth. Category 4 comprises petroleum products except oil shale.</Abstract>
+            <DefaultSRS>urn:x-ogc:def:crs:EPSG:4283</DefaultSRS>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>142.5 -44.5</ows:LowerCorner>
+                <ows:UpperCorner>150.0 -38.0</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+        </FeatureType>
+        <FeatureType xmlns:mrtwfs="http://www.mrt.tas.gov.au">
+            <Name>mrtwfs:LicenceCategory5</Name>
+            <Title>Category 5 Exploration Licence Polygons of Tasmania (Mineral Resources Tasmania</Title>
+            <Abstract>Category 5 Exploration Licence polygons and Exploration Release Areas across Tasmania, with tenement information derived from the Tasmanian Information on Geoscience and Exploration Resources (TIGER) system; administered by Mineral Resources Tasmania (MRT), Department of State Growth. Category 5 comprises, industrial minerals, prescribed precious stones, and prescribed semi-precious stone.</Abstract>
+            <DefaultSRS>urn:x-ogc:def:crs:EPSG:4283</DefaultSRS>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>142.5 -44.5</ows:LowerCorner>
+                <ows:UpperCorner>150.0 -38.0</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+        </FeatureType>
+        <FeatureType xmlns:mrtwfs="http://www.mrt.tas.gov.au">
+            <Name>mrtwfs:LicenceCategory6</Name>
+            <Title>Category 6 Exploration Licence Polygons of Tasmania (Mineral Resources Tasmania)</Title>
+            <Abstract>Category 6 Exploration Licence polygons and Exploration Release Areas across Tasmania, with tenement information derived from the Tasmanian Information on Geoscience and Exploration Resources (TIGER) system; administered by Mineral Resources Tasmania (MRT), Department of State Growth. Category 6 is any geothermal substance.</Abstract>
+            <DefaultSRS>urn:x-ogc:def:crs:EPSG:4283</DefaultSRS>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>142.5 -44.5</ows:LowerCorner>
+                <ows:UpperCorner>150.0 -38.0</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+        </FeatureType>
+        <FeatureType xmlns:er="urn:cgi:xmlns:GGIC:EarthResource:1.1">
+            <Name>er:Commodity</Name>
+            <Title>EarthResourceML commodities of Tasmania</Title>
+            <Abstract>Commodities of Tasmania provided by Mineral Resources Tasmania (MRT).</Abstract>
+            <DefaultSRS>urn:x-ogc:def:crs:EPSG:4283</DefaultSRS>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>142.5 -44.5</ows:LowerCorner>
+                <ows:UpperCorner>150.0 -38.0</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+        </FeatureType>
+        <FeatureType xmlns:er="urn:cgi:xmlns:GGIC:EarthResource:1.1">
+            <Name>er:MineralOccurrence</Name>
+            <Title>EarthResourceML mineral occurrences of Tasmania</Title>
+            <Abstract>Mineral occurrences of Tasmania provided by Mineral Resources Tasmania (MRT).</Abstract>
+            <DefaultSRS>urn:x-ogc:def:crs:EPSG:4283</DefaultSRS>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>142.5 -44.5</ows:LowerCorner>
+                <ows:UpperCorner>150.0 -38.0</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+        </FeatureType>
+        <FeatureType xmlns:er="urn:cgi:xmlns:GGIC:EarthResource:1.1">
+            <Name>er:Mine</Name>
+            <Title>EarthResourceML mines of Tasmania</Title>
+            <Abstract>Mines of Tasmania provided by Mineral Resources Tasmania (MRT).</Abstract>
+            <DefaultSRS>urn:x-ogc:def:crs:EPSG:4283</DefaultSRS>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>142.5 -44.5</ows:LowerCorner>
+                <ows:UpperCorner>150.0 -38.0</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+        </FeatureType>
+        <FeatureType xmlns:er="urn:cgi:xmlns:GGIC:EarthResource:1.1">
+            <Name>er:MiningActivity</Name>
+            <Title>EarthResourceML mining activities of Tasmania</Title>
+            <Abstract>Mining activities of Tasmania provided by Mineral Resources Tasmania (MRT).</Abstract>
+            <DefaultSRS>urn:x-ogc:def:crs:EPSG:4283</DefaultSRS>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>142.5 -44.5</ows:LowerCorner>
+                <ows:UpperCorner>150.0 -38.0</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+        </FeatureType>
+        <FeatureType xmlns:er="urn:cgi:xmlns:GGIC:EarthResource:1.1">
+            <Name>er:MiningFeatureOccurrence</Name>
+            <Title>EarthResourceML mining feature occurrences of Tasmania</Title>
+            <Abstract>Mining feature occurrences of Tasmania provided by Mineral Resources Tasmania (MRT).</Abstract>
+            <ows:Keywords>
+                <ows:Keyword>association:http://www.mrt.tas.gov.au/resource/feature/mrt/gsml/miningfeatureoccurrence</ows:Keyword>
+            </ows:Keywords>
+            <DefaultSRS>urn:x-ogc:def:crs:EPSG:4283</DefaultSRS>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>142.5 -44.5</ows:LowerCorner>
+                <ows:UpperCorner>150.0 -38.0</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+        </FeatureType>
+        <FeatureType xmlns:gsml="urn:cgi:xmlns:CGI:GeoSciML:2.0">
+            <Name>gsml:MappedFeature</Name>
+            <Title>GeoSciML mapped features occurrences of Tasmania</Title>
+            <Abstract>GeoSciML mapped features of Tasmania provided by Mineral Resources Tasmania (MRT).</Abstract>
+            <ows:Keywords>
+                <ows:Keyword>association:http://www.mrt.tas.gov.au/resource/feature/mrt/gsml/mappedfeature</ows:Keyword>
+            </ows:Keywords>
+            <DefaultSRS>urn:x-ogc:def:crs:EPSG:4283</DefaultSRS>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>142.5 -44.5</ows:LowerCorner>
+                <ows:UpperCorner>150.0 -38.0</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+        </FeatureType>
+        <FeatureType xmlns:mrtwfs="http://www.mrt.tas.gov.au">
+            <Name>mrtwfs:GravityBaseStations</Name>
+            <Title>Gravity Base Stations of Tasmania (Mineral Resources Tasmania)</Title>
+            <Abstract>Precise locations where the absolute value of gravity is known.</Abstract>
+            <DefaultSRS>urn:x-ogc:def:crs:EPSG:4283</DefaultSRS>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>142.5 -44.5</ows:LowerCorner>
+                <ows:UpperCorner>150.0 -38.0</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+        </FeatureType>
+        <FeatureType xmlns:mrtwfs="http://www.mrt.tas.gov.au">
+            <Name>mrtwfs:GravityMeasurements</Name>
+            <Title>Gravity Measurements of Tasmania (Mineral Resources Tasmania)</Title>
+            <Abstract>Primary and derived (i.e. Bouguer anomaly) gravity observation points (stations) in Tasmania</Abstract>
+            <DefaultSRS>urn:x-ogc:def:crs:EPSG:4283</DefaultSRS>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>142.5 -44.5</ows:LowerCorner>
+                <ows:UpperCorner>150.0 -38.0</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+        </FeatureType>
+        <FeatureType xmlns:mrtwfs="http://www.mrt.tas.gov.au">
+            <Name>mrtwfs:DamagePoint</Name>
+            <Title>Landslide Damage Points of Tasmania (Mineral Resources Tasmania)</Title>
+            <Abstract>Point locations of known damage to structures or property caused by a landslide in Tasmania, with summary damage data derived from the Geohazards (Landslide) Database, administered by Mineral Resources Tasmania.</Abstract>
+            <DefaultSRS>urn:x-ogc:def:crs:EPSG:4283</DefaultSRS>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>142.5 -44.5</ows:LowerCorner>
+                <ows:UpperCorner>150.0 -38.0</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+        </FeatureType>
+        <FeatureType xmlns:mrtwfs="http://www.mrt.tas.gov.au">
+            <Name>mrtwfs:DamagePoly</Name>
+            <Title>Landslide Damage Polygons of Tasmania (Mineral Resources Tasmania)</Title>
+            <Abstract>Polygons of structures or property known to be damaged by a landslide in Tasmania, with summary damage data derived from the Geohazards (Landslide) Database, administered by Mineral Resources Tasmania.</Abstract>
+            <DefaultSRS>urn:x-ogc:def:crs:EPSG:4283</DefaultSRS>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>142.5 -44.5</ows:LowerCorner>
+                <ows:UpperCorner>150.0 -38.0</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+        </FeatureType>
+        <FeatureType xmlns:mrtwfs="http://www.mrt.tas.gov.au">
+            <Name>mrtwfs:LandSlideLine</Name>
+            <Title>Landslide Lines of Tasmania (Mineral Resources Tasmania)</Title>
+            <Abstract>Linear landslide components of landslide features mapped across Tasmania, with summary landslide data derived from the Geohazards (Landslide) Database, administered by Mineral Resources Tasmania.</Abstract>
+            <DefaultSRS>urn:x-ogc:def:crs:EPSG:4283</DefaultSRS>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>142.5 -44.5</ows:LowerCorner>
+                <ows:UpperCorner>150.0 -38.0</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+        </FeatureType>
+        <FeatureType xmlns:mrtwfs="http://www.mrt.tas.gov.au">
+            <Name>mrtwfs:LandSlidePoint</Name>
+            <Title>Landslide Points of Tasmania (Mineral Resources Tasmania)</Title>
+            <Abstract>Landslide features across Tasmania as representative points, with summary landslide data derived from the Geohazards (Landslide) Database; administered by Mineral Resources Tasmania.</Abstract>
+            <DefaultSRS>urn:x-ogc:def:crs:EPSG:4283</DefaultSRS>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>142.5 -44.5</ows:LowerCorner>
+                <ows:UpperCorner>150.0 -38.0</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+        </FeatureType>
+        <FeatureType xmlns:mrtwfs="http://www.mrt.tas.gov.au">
+            <Name>mrtwfs:LandSlidePoly</Name>
+            <Title>Landslide Polygons of Tasmania (Mineral Resources Tasmania)</Title>
+            <Abstract>Landslide component polygons of landslide features mapped across Tasmania, with summary landslide data derived from the Geohazards (Landslide) Database, administered by Mineral Resources Tasmania.</Abstract>
+            <DefaultSRS>urn:x-ogc:def:crs:EPSG:4283</DefaultSRS>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>142.5 -44.5</ows:LowerCorner>
+                <ows:UpperCorner>150.0 -38.0</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+        </FeatureType>
+        <FeatureType xmlns:mrtwfs="http://www.mrt.tas.gov.au">
+            <Name>mrtwfs:MineralOccurences</Name>
+            <Title>Mineral Occurrence Points of Tasmania (Mineral Resources Tasmania)</Title>
+            <Abstract>Mineral occurrences, including operating and abandoned mines, located in Tasmania, with summary mineral occurrence data, derived from the Mineral Occurrence Database, administered by Mineral Resources Tasmania.</Abstract>
+            <DefaultSRS>urn:x-ogc:def:crs:EPSG:4283</DefaultSRS>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>142.5 -44.5</ows:LowerCorner>
+                <ows:UpperCorner>150.0 -38.0</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+        </FeatureType>
+        <FeatureType xmlns:mo="http://xmlns.geoscience.gov.au/minoccml/1.0">
+            <Name>mo:MinOccView</Name>
+            <Title>Mineral Occurrence Portrayal View of Tasmania (1.0)</Title>
+            <Abstract>Earth Resource Mineral Occurrence Portrayal View provided by Mineral Resources Tasmania from the TIGER database.</Abstract>
+            <ows:Keywords>
+                <ows:Keyword>association:http://www.mrt.tas.gov.au/resource/feature/mrt/mo/minoccview</ows:Keyword>
+            </ows:Keywords>
+            <DefaultSRS>urn:x-ogc:def:crs:EPSG:4283</DefaultSRS>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>142.5 -44.5</ows:LowerCorner>
+                <ows:UpperCorner>150.0 -38.0</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+        </FeatureType>
+        <FeatureType xmlns:mt="http://xmlns.geoscience.gov.au/mineraltenementml/1.0">
+            <Name>mt:MineralTenement</Name>
+            <Title>Mineral Tenement of Tasmania</Title>
+            <Abstract>This is a simple web service to deliver mineral tenements (permits, licences, leases) using  MineralTenementML provided by Mineral Resources Tasmania (MRT).. More information on http://schemas.geoscience.gov.au/MineralTenementML/1.0/.</Abstract>
+            <ows:Keywords>
+                <ows:Keyword>association:http://www.mrt.tas.gov.au/resource/feature/mrt/mt/mineraltenement</ows:Keyword>
+            </ows:Keywords>
+            <DefaultSRS>urn:x-ogc:def:crs:EPSG:4283</DefaultSRS>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>142.5 -44.5</ows:LowerCorner>
+                <ows:UpperCorner>150.0 -38.0</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+        </FeatureType>
+        <FeatureType xmlns:mrtwfs="http://www.mrt.tas.gov.au">
+            <Name>mrtwfs:Leases</Name>
+            <Title>Mining Lease Polygons of Tasmania (Mineral Resources Tasmania)</Title>
+            <Abstract>Mining Lease polygons and production licence polygons for all mineral categories across Tasmania, with tenement information derived from the Tasmanian Information on Geoscience and Exploration Resources (TIGER) system; administered by Mineral Resources Tasmania (MRT), Department of State Growth.</Abstract>
+            <DefaultSRS>urn:x-ogc:def:crs:EPSG:4283</DefaultSRS>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>142.5 -44.5</ows:LowerCorner>
+                <ows:UpperCorner>150.0 -38.0</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+        </FeatureType>
+        <FeatureType xmlns:sa="http://www.opengis.net/sampling/1.0">
+            <Name>sa:SamplingFeatureCollection</Name>
+            <Title>NVCL TSA Results of Tasmania</Title>
+            <Abstract>This feature contains a series of observations and measurements made at regular intervals along a drill core or spatially associated drill chips.  The observations comprise suggested mineralogical interpretations generated with "The Spectral Assistant (TSA)" algorithm on visible and shortwave-infrared reflectance spectra and filtered by experienced analysts.  The observations are represented as mineral species and mineral group predictions by name with associated weights (proportions). Proportions are only relative to the sum of the SWIR or VNIR spectral-active minerals sensed and are NOT modal abundances.  This feature is provided as a guide only and should be validated by the user using other methods.</Abstract>
+            <DefaultSRS>urn:x-ogc:def:crs:EPSG:4283</DefaultSRS>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>142.5 -44.5</ows:LowerCorner>
+                <ows:UpperCorner>150.0 -38.0</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+        </FeatureType>
+        <FeatureType xmlns:mrtwfs="http://www.mrt.tas.gov.au">
+            <Name>mrtwfs:ProclaimedAreasPoly</Name>
+            <Title>Proclaimed Landslip Areas of Tasmania (Mineral Resources Tasmania)</Title>
+            <Abstract>Proclaimed Landslip Areas (A and B) of Tasmania, which are defined under the Mineral Resources Development Act 1995, administered by Mineral Resources Tasmania. These areas prohibit or restrict building and other activities in particular areas of unstable land, as specified under the Building Act 2000.</Abstract>
+            <DefaultSRS>urn:x-ogc:def:crs:EPSG:4283</DefaultSRS>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>142.5 -44.5</ows:LowerCorner>
+                <ows:UpperCorner>150.0 -38.0</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+        </FeatureType>
+        <FeatureType xmlns:nvcl="http://www.auscope.org/nvcl">
+            <Name>nvcl:ScannedBoreholeCollection</Name>
+            <Title>Scanned Borehole Collection of Tasmania</Title>
+            <Abstract>Scanned Borehole Collection Mineral Resources Tasmania (MRT)</Abstract>
+            <DefaultSRS>urn:x-ogc:def:crs:EPSG:4283</DefaultSRS>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>142.5 -44.5</ows:LowerCorner>
+                <ows:UpperCorner>150.0 -38.0</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+        </FeatureType>
+        <FeatureType xmlns:mrtwfs="http://www.mrt.tas.gov.au">
+            <Name>mrtwfs:StrategicProspectivityZones</Name>
+            <Title>Strategic Prospectivity Zones</Title>
+            <Abstract/>
+            <DefaultSRS>urn:x-ogc:def:crs:EPSG:4283</DefaultSRS>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>142.5 -44.5</ows:LowerCorner>
+                <ows:UpperCorner>150.0 -38.0</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
+        </FeatureType>
+    </FeatureTypeList>
+    <ogc:Filter_Capabilities>
+        <ogc:Spatial_Capabilities>
+            <ogc:GeometryOperands>
+                <ogc:GeometryOperand>gml:Envelope</ogc:GeometryOperand>
+                <ogc:GeometryOperand>gml:Point</ogc:GeometryOperand>
+                <ogc:GeometryOperand>gml:LineString</ogc:GeometryOperand>
+                <ogc:GeometryOperand>gml:Polygon</ogc:GeometryOperand>
+            </ogc:GeometryOperands>
+            <ogc:SpatialOperators>
+                <ogc:SpatialOperator name="Disjoint"/>
+                <ogc:SpatialOperator name="Equals"/>
+                <ogc:SpatialOperator name="DWithin"/>
+                <ogc:SpatialOperator name="Beyond"/>
+                <ogc:SpatialOperator name="Intersects"/>
+                <ogc:SpatialOperator name="Touches"/>
+                <ogc:SpatialOperator name="Crosses"/>
+                <ogc:SpatialOperator name="Within"/>
+                <ogc:SpatialOperator name="Contains"/>
+                <ogc:SpatialOperator name="Overlaps"/>
+                <ogc:SpatialOperator name="BBOX"/>
+            </ogc:SpatialOperators>
+        </ogc:Spatial_Capabilities>
+        <ogc:Scalar_Capabilities>
+            <ogc:LogicalOperators/>
+            <ogc:ComparisonOperators>
+                <ogc:ComparisonOperator>LessThan</ogc:ComparisonOperator>
+                <ogc:ComparisonOperator>GreaterThan</ogc:ComparisonOperator>
+                <ogc:ComparisonOperator>LessThanEqualTo</ogc:ComparisonOperator>
+                <ogc:ComparisonOperator>GreaterThanEqualTo</ogc:ComparisonOperator>
+                <ogc:ComparisonOperator>EqualTo</ogc:ComparisonOperator>
+                <ogc:ComparisonOperator>NotEqualTo</ogc:ComparisonOperator>
+                <ogc:ComparisonOperator>Like</ogc:ComparisonOperator>
+                <ogc:ComparisonOperator>Between</ogc:ComparisonOperator>
+                <ogc:ComparisonOperator>NullCheck</ogc:ComparisonOperator>
+            </ogc:ComparisonOperators>
+            <ogc:ArithmeticOperators>
+                <ogc:SimpleArithmetic/>
+                <ogc:Functions>
+                    <ogc:FunctionNames>
+                        <ogc:FunctionName nArgs="1">abs</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">abs_2</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">abs_3</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">abs_4</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">acos</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">AddCoverages</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-1">Affine</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-2">Aggregate</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">Area</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">area2</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="3">AreaGrid</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">asin</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">asMultiGeometry</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">atan</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">atan2</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-1">BandMerge</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-2">BandSelect</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-6">BarnesSurface</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="3">between</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">boundary</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">boundaryDimension</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">Bounds</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">buffer</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-2">BufferFeatureCollection</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="3">bufferWithSegments</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="7">Categorize</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">ceil</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">Centroid</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">classify</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-2">Clip</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">CollectGeometries</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">Collection_Average</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">Collection_Bounds</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="0">Collection_Count</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">Collection_Max</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">Collection_Median</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">Collection_Min</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">Collection_Nearest</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">Collection_Sum</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">Collection_Unique</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-2">Concatenate</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">contains</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-1">Contour</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">convert</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">convexHull</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">cos</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">Count</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">CropCoverage</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">crosses</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">dateFormat</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">dateParse</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">difference</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">dimension</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">disjoint</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">disjoint3D</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">distance</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">distance3D</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">double2bool</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">endAngle</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">endPoint</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">env</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">envelope</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">EqualInterval</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">equalsExact</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="3">equalsExactTolerance</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">equalTo</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">exp</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">exteriorRing</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="3">Feature</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">floor</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="3">FormatDateTimezone</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="0">geometry</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">geometryType</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">geomFromWKT</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">geomLength</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">getGeometryN</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="0">getID</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">getX</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">getY</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">getz</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">greaterEqualThan</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">greaterThan</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-3">Grid</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-5">Heatmap</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="0">id</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">IEEEremainder</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="3">if_then_else</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-2">in</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="11">in10</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="3">in2</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="4">in3</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="5">in4</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="6">in5</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="7">in6</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="8">in7</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="9">in8</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="10">in9</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">InclusionFeatureCollection</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">int2bbool</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">int2ddouble</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">interiorPoint</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">interiorRingN</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-5">Interpolate</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">intersection</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-2">IntersectionFeatureCollection</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">intersects</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">intersects3D</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">isClosed</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="0">isCoverage</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">isEmpty</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">isInstanceOf</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">isLike</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">isNull</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">isometric</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">isRing</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">isSimple</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">isValid</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="3">isWithinDistance</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="3">isWithinDistance3D</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">Jenks</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">length</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">lessEqualThan</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">lessThan</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-1">list</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">log</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="4">LRSGeocode</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-4">LRSMeasure</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="5">LRSSegment</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">max</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">max_2</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">max_3</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">max_4</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">min</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">min_2</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">min_3</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">min_4</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">mincircle</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">minimumdiameter</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">minrectangle</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">modulo</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">MultiplyCoverages</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-2">Nearest</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">not</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">notEqualTo</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">numberFormat</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="5">numberFormat2</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">numGeometries</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">numInteriorRing</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">numPoints</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">octagonalenvelope</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="3">offset</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">overlaps</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-1">parameter</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">parseBoolean</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">parseDouble</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">parseInt</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">parseLong</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="0">pi</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-1">PointBuffers</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">pointN</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-6">PointStacker</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-1">PolygonExtraction</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">pow</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">property</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">PropertyExists</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">Quantile</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-1">Query</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="0">random</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-1">RangeLookup</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-1">RasterAsPointCollection</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-2">RasterZonalStatistics</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-6">RasterZonalStatistics2</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="5">Recode</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-2">RectangularClip</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">relate</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="3">relatePattern</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-1">Reproject</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-3">rescaleToPixels</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">rint</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">round</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">round_2</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">roundDouble</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-5">ScaleCoverage</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-2">sdo_nn</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">setCRS</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="3">Simplify</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">sin</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-2">Snap</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">sqrt</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">StandardDeviation</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">startAngle</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">startPoint</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">strCapitalize</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">strConcat</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">strEndsWith</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">strEqualsIgnoreCase</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">strIndexOf</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="4">stringTemplate</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">strLastIndexOf</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">strLength</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">strMatches</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="3">strPosition</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="4">strReplace</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">strStartsWith</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="3">strSubstring</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">strSubstringStart</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">strToLowerCase</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">strToUpperCase</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">strTrim</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="3">strTrim2</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">StyleCoverage</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">symDifference</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">tan</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">toDegrees</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-1">toDirectPosition</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-2">ToEnvelope</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-3">toLineString</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-2">toPoint</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">toRadians</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">touches</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">toWKT</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">toXlinkHref</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">Transform</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">union</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">UnionFeatureCollection</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">Unique</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">UniqueInterval</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="-4">VectorToRaster</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="3">VectorZonalStatistics</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="1">vertices</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">Vocab</ogc:FunctionName>
+                        <ogc:FunctionName nArgs="2">within</ogc:FunctionName>
+                    </ogc:FunctionNames>
+                </ogc:Functions>
+            </ogc:ArithmeticOperators>
+        </ogc:Scalar_Capabilities>
+        <ogc:Id_Capabilities>
+            <ogc:FID/>
+            <ogc:EID/>
+        </ogc:Id_Capabilities>
+    </ogc:Filter_Capabilities>
+</wfs:WFS_Capabilities>

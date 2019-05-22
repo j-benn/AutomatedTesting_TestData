@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<work:work
+    xmlns:common="http://www.orcid.org/ns/common" xmlns:work="http://www.orcid.org/ns/work"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.orcid.org/ns/work/work-2.0.xsd ">	
+    <work:title>
+        <common:title>(AUTestingRecords) ORCID Export Test Collection 3 - University of Ballarat Spatial landslide database</common:title>
+    </work:title>
+    <work:short-description>&lt;p&gt;The UB Spatial landslide database is part of an interoperable web-GIS maintained by the University of Ballarat.  It records data on the spatial distribution of landslide points, lines and polygons that have been mapped for landslide research projects undertaken by the University. The UB Spatial website was initially developed with funding support from the Corangamite Catchment Management Authority and contained four environmental datasets: groundwater bores, salinity, erosion and landslides, covering the Corangamite region.  Subsequent funding was received from the Australian Government National Disaster Mitigation Program sourced through the Colac Otway Shire to enhance the data.&lt;/p&gt;
+        &lt;p&gt;The UB Spatial landslide database contains information on the spatial locations, landslide extents, landslide types, data sources, data capture methods and assessment date, landscape parameters and dates and styles of movements in south west Victoria. A.S. Miner Geotechnical (Geelong-based consulting geotechnical engineers) has significantly contributed to the data coverage.  The University of Wollongong and Mineral Resources Tasmania both contributed to the database schema. The UB spatial landslide database is updated as landslide research projects are completed.&lt;/p&gt;
+        &lt;p&gt;Much of this work has been documented for the Corangamite Soil Health Strategy and background reports relating to the research can be accessed at the Corangamite Soil Health Strategy website.&lt;/p&gt;
+        &lt;p&gt; &lt;/p&gt;</work:short-description>
+    <work:type>journal-article</work:type>
+    <common:publication-date>
+        <common:year>2004</common:year>
+        <common:month>05</common:month>
+        <common:day>16</common:day>
+    </common:publication-date>
+    <common:external-ids>
+        <common:external-id>
+            <common:external-id-type>handle</common:external-id-type>
+            <common:external-id-value>10.1002.64364AUTOrc3</common:external-id-value>			
+            <common:external-id-url>https://hdl.handle.net/10.1002.64364AUTOrc3</common:external-id-url>
+            <common:external-id-relationship>self</common:external-id-relationship>
+        </common:external-id>
+    </common:external-ids>
+    <work:url>http://maps.ubspatial.com.au/landslide_erosion_map3.php?show_terms=true</work:url>
+    <work:contributors>
+        <work:contributor>
+            <common:contributor-orcid>
+                <common:path>orcid.AUTParty6</common:path>
+                <common:host>orcid.org</common:host>
+            </common:contributor-orcid>
+            <work:credit-name>Related Party 6</work:credit-name>
+            <work:contributor-attributes>
+                <work:contributor-role>principal-investigator</work:contributor-role>
+            </work:contributor-attributes>
+        </work:contributor>
+        <work:contributor>
+            <work:credit-name>(AUTestingRecords) Party to related to ORCID Work Author</work:credit-name>
+            <work:contributor-attributes>
+                <work:contributor-role>author</work:contributor-role>
+            </work:contributor-attributes>
+        </work:contributor>
+    </work:contributors>
+</work:work>

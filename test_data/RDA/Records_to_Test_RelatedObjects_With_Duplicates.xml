@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xmlns:extRif="http://ands.org.au/standards/rif-cs/extendedRegistryObjects" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+<registryObject group="National Health and Medical Research Council">
+    <key>http://purl.org/au-research/grants/nhmrc/1089698</key>
+    <originatingSource>www.nhmrc.gov.au/grants/research-funding-statistics-and-data</originatingSource>
+    <activity type="grant">
+      <identifier type="purl">http://purl.org/au-research/grants/nhmrc/1089698</identifier>
+      <identifier type="nhmrc">1089698</identifier>
+      <name type="primary">
+        <namePart>Vascular risk factors for incident dementia and brain ageing</namePart>
+      </name>
+      <relatedObject>
+        <key>http://dx.doi.org/10.13039/501100000925</key>
+        <relation type="isFundedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://nla.gov.au/nla.party-482768</key>
+        <relation type="isManagedBy"/>
+      </relatedObject>
+      <subject type="anzsrc-for">110904</subject>
+      <subject type="local">dementia</subject>
+      <subject type="local">cerebrovascular disease</subject>
+      <subject type="local">brain ageing</subject>
+      <subject type="local">cardiovascular health</subject>
+      <subject type="local">arterial stiffness</subject>
+      <description type="brief">Dementia is a debilitating disease associated with the progressive loss of brain volume, cognitive ability and independence. The proposed study aims to define vascular factors associated with the risk of dementia in a large cohort of adults from the Framingham Heart Study, USA. As vascular risk factors can be lowered with already available interventions, it is hoped that results may lead to improved primary prevention guidelines, ultimately reducing the global burden of dementia.</description>
+      <description type="fundingAmount">$AUD 389,102.76</description>
+      <description type="fundingScheme">Early Career Fellowships</description>
+      <description type="notes">Sidney Sax Public Health ECF</description>
+      <existenceDates>
+        <startDate dateFormat="W3CDTF">2015</startDate>
+        <endDate dateFormat="W3CDTF">2018</endDate>
+      </existenceDates>
+    </activity>
+  </registryObject>
+  
+  
+  <registryObject group="Swinburne University of Technology">
+    <key>swinburne.edu.au</key>
+    <originatingSource>http://services.ands.org.au/sandbox/orca/register_my_data</originatingSource>
+    <party type="group" dateModified="2011-09-16T00:00:00Z">
+      <identifier type="AU-ANL:PEAU">http://nla.gov.au/nla.party-482768</identifier>
+      <identifier type="uri">swinburne.edu.au/</identifier>
+      <name type="primary">
+        <namePart>Swinburne University of Technology</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.swinburne.edu.au/</value>
+          </electronic>
+        </address>
+      </location>
+      <relatedObject>
+        <key>hdl.handle.net/1959.3/190256</key>
+        <relation type="isManagerOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>hdl.handle.net/1959.3/190177</key>
+        <relation type="isManagerOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>hdl.handle.net/1959.3/189973</key>
+        <relation type="isManagerOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://purl.org/au-research/grants/arc/DP0665574</key>
+        <relation type="isParticipantIn"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://purl.org/au-research/grants/arc/DP0877642</key>
+        <relation type="isParticipantIn"/>
+      </relatedObject>
+      <relatedObject>
+        <key>hdl.handle.net/1959.3/190191</key>
+        <relation type="isManagerOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>hdl.handle.net/1959.3/194837</key>
+        <relation type="isManagerOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>hdl.handle.net/1959.3/190266</key>
+        <relation type="isManagerOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>swinburne.edu.au/ncs/Innovation/climate_change_background.html</key>
+        <relation type="isManagerOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://purl.org/au-research/grants/arc/DP1093349</key>
+        <relation type="isParticipantIn"/>
+      </relatedObject>
+      <relatedObject>
+        <key>hdl.handle.net/1959.3/190311</key>
+        <relation type="isManagerOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>hdl.handle.net/1959.3/190328</key>
+        <relation type="isManagerOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://purl.org/au-research/grants/arc/LP0882422</key>
+        <relation type="isParticipantIn"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://purl.org/au-research/grants/arc/DP1093517</key>
+        <relation type="isParticipantIn"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://purl.org/au-research/grants/arc/DP0774469</key>
+        <relation type="isFundedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>hdl.handle.net/1959.3/190155</key>
+        <relation type="isManagerOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>hdl.handle.net/1959.3/190170</key>
+        <relation type="isManagerOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://purl.org/au-research/grants/arc/LP0883888</key>
+        <relation type="isParticipantIn"/>
+      </relatedObject>
+      <subject type="anzsrc-for">0201</subject>
+      <subject type="anzsrc-for">12</subject>
+      <subject type="anzsrc-for">13</subject>
+      <subject type="anzsrc-for">1002</subject>
+      <subject type="anzsrc-for">16</subject>
+      <subject type="anzsrc-for">17</subject>
+      <subject type="anzsrc-for">1007</subject>
+      <subject type="anzsrc-for">1503</subject>
+      <subject type="anzsrc-for">02</subject>
+      <subject type="anzsrc-for">0803</subject>
+      <subject type="anzsrc-for">08</subject>
+      <subject type="anzsrc-for">09</subject>
+      <description type="full">Swinburne University of Technology was established as a technical college in 1908 and achieved university status in 1992. Swinburne is a dual sector university with 5 campuses in Melbourne and one in Sarawak, Malaysia. Swinburne is committed to quality research focused on our core strengths. For more information, see Swinburne's website: http://www.swinburne.edu.au/</description>
+    </party>
+  </registryObject>
+  
+  <registryObject group="Trove - People and Organisations">
+    <key>http://nla.gov.au/nla.party-482768</key>
+    <originatingSource>nla.gov.au</originatingSource>
+    <party type="group">
+      <identifier type="AU-ANL:PEAU">http://nla.gov.au/nla.party-482768</identifier>
+      <name type="primary">
+        <namePart>Swinburne University of Technology</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.swinburne.edu.au/</value>
+          </electronic>
+        </address>
+      </location>
+    </party>
+  </registryObject>
+  <registryObject group="Australian Research Institutions">
+    <key>ands.org.au-institution-0147</key>
+    <originatingSource>ands.org.au</originatingSource>
+    <party type="group">
+      <identifier type="AU-ANL:PEAU">http://nla.gov.au/nla.party-482768</identifier>
+      <name type="primary">
+        <namePart>Swinburne University of Technology</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.swinburne.edu.au/</value>
+          </electronic>
+        </address>
+      </location>
+    </party>
+  </registryObject>
+  
+  
+  <registryObject group="Monash University">
+    <key>MON:1959.1/695609</key>
+    <originatingSource type="authoritative">http://www.monash.edu</originatingSource>
+    <collection type="collection">
+      <name type="primary">
+        <namePart>Monash University Art Collection</namePart>
+      </name>
+      <description type="full">&lt;p&gt;The Monash University Collection, developed and managed by Monash University Museum of Art (MUMA), is a leading representation of contemporary Australian art from the 1960s to the present. It includes a diverse range of media from painting, sculpture and photography to video, installation and new media. The collection encompasses more than 1800 works, which chart a period of dynamic change from the medium-specific perceptual and formal experiments of late modernism to an expanded field of cultural reference inaugurated by pop, minimal, conceptual and performance art. Works are regularly lent to museums and galleries nationally and internationally, and are also on public display across Monash University’s Victorian campuses. MUMA’s rich exhibition program also draws actively on the collection. The collection continues to represent new artistic tendencies as they develop with a sustained commitment to the support of innovation and excellence in contemporary Australian art.&lt;/p&gt;</description>
+      <description type="note">&lt;p&gt;Comprises more than 1800 works of art in various mediums&lt;/p&gt;</description>
+      <description type="significanceStatement">&lt;p&gt;The collection demonstrates Monash University's ongoing commitment to the patronage and advancement of the visual arts in Australia. Through it, MUMA aims to foster appreciation and understanding of the visual arts both at the university and among the wider community. With a steadfast focus upon innovative and experimental art, the collection also supports and reflects exemplary research into contemporary art and curatorial practices, while offering a significant opportunity to explore the dynamic development of contemporary art since the 1960s.&lt;/p&gt;</description>
+      <rights>
+        <rightsStatement>For further information, please contact Monash University Museum of Art</rightsStatement>
+        <accessRights type="restricted"/>
+      </rights>
+      <identifier type="handle">1959.1/695609</identifier>
+      <dates type="dc.created">
+        <date type="dateFrom" dateFormat="W3CDTF">1961</date>
+      </dates>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.monash.edu.au/muma/collections</value>
+          </electronic>
+          <physical type="">
+            <addressPart type="text">Ground Floor, Building F, Monash University, Caulfield Campus, 900 Dandenong Rd, Caulfield East, Vic 3145</addressPart>
+          </physical>
+          <physical type="">
+            <addressPart type="telephoneNumber">+61 3 9905 4217</addressPart>
+          </physical>
+          <electronic type="email">
+            <value>muma@monash.edu</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <temporal>
+          <date type="dateFrom" dateFormat="W3CDTF">1961</date>
+        </temporal>
+        <spatial type="iso31661">AU</spatial>
+      </coverage>
+      <relatedObject>
+        <key>MON:1959.1/1183567</key>
+        <relation type="isManagedBy">
+          <description>Collection manager</description>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>MON:1959.1/9209782</key>
+        <relation type="isOutputOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>Contributor:Monash University</key>
+        <relation type="hasAssociationWith"/>
+      </relatedObject>
+      <subject type="anzsrc-for">190502</subject>
+      <subject type="anzsrc-for">190504</subject>
+      <subject type="anzsrc-for">190104</subject>
+      <subject type="local">20th century art</subject>
+      <subject type="local">21st century art</subject>
+      <subject type="local">Art</subject>
+      <subject type="local">Art galleries</subject>
+      <subject type="local">Art museums</subject>
+      <subject type="local">Artists</subject>
+      <subject type="local">Australian art</subject>
+      <subject type="local">Conceptual art</subject>
+      <subject type="local">Contemporary art</subject>
+      <subject type="local">Curatorial practice</subject>
+      <subject type="local">Installation art</subject>
+      <subject type="local">Minimal art</subject>
+      <subject type="local">Modernism</subject>
+      <subject type="local">New media</subject>
+      <subject type="local">Painting</subject>
+      <subject type="local">Performance art</subject>
+      <subject type="local">Photography</subject>
+      <subject type="local">Sculpture</subject>
+      <subject type="local">Video art</subject>
+      <citationInfo>
+        <fullCitation>Monash University Museum of Art (1961) Monash University Collection Handle: 1959.1/695609</fullCitation>
+      </citationInfo>
+    </collection>
+  </registryObject>
+  
+  
+  <registryObject group="National Library of Australia">
+    <key>http://nla.gov.au/nla.party-1472838</key>
+    <originatingSource type="authoritative">http://trove.nla.gov.au/people</originatingSource>
+    <party dateModified="2011-05-20T09:23:31Z" type="group">
+      <identifier type="AU-ANL:PEAU">http://nla.gov.au/nla.party-1472838</identifier>
+      <identifier type="AU-AuCNLKIN">http://nla.gov.au/anbd.aut-an46174119</identifier>
+      <identifier type="AU-lcnaf">no2005116381</identifier>
+      <name type="primary">
+        <namePart>Monash University</namePart>
+        <namePart type="subordinate">Museum of Art</namePart>
+      </name>
+	        <relatedObject>
+        <key>AUTestingRecordsDuplicateRelationRecords1a</key>
+        <relation type="isManagerOf"/>
+      </relatedObject> 
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://nla.gov.au/nla.party-1472838</value>
+          </electronic>
+        </address>
+      </location>
+    </party>
+  </registryObject>
+  
+  
+  <registryObject group="Monash University">
+    <key>MON:1959.1/1183567</key>
+    <originatingSource type="authoritative">http://www.monash.edu</originatingSource>
+    <party type="group">
+      <name type="primary">
+        <namePart type="superior">Monash University Museum of Art</namePart>
+      </name>
+      <name type="abbreviated">
+        <namePart type="superior">MUMA</namePart>
+      </name>
+      <description type="brief">&lt;p&gt;Monash University Museum of Art (MUMA) is committed to innovative, experimental and research-based contemporary art and curatorial practice. With a focus upon contemporary art since the 1960s, MUMA seeks to establish the museum as a dynamic site for cultural production, pedagogy and participation through exhibitions, collection development, curatorial research, publishing, and academic and community engagement. MUMA presents a dynamic program of exhibitions focusing on contemporary Australian and international art since the 1960s. Exhibitions range from newly commissioned projects to surveys of significant artists, thematic group exhibitions, research-based projects and explorations of the Monash University Collection. As a key public art museum within Australia’s largest tertiary institution, MUMA links the university, the art world and the wider community. Operating from award-winning facilities in the art, design and architecture precinct on Monash’s Caulfield campus, MUMA makes a valued contribution to the cultural and intellectual life of the university and the community.&lt;/p&gt;</description>
+      <identifier type="handle">1959.1/1183567</identifier>
+      <identifier type="AU-ANL:PEAU">http://nla.gov.au/nla.party-1472838</identifier>
+      <location>
+        <address>
+          <electronic type="email">
+            <value>muma@monash.edu</value>
+          </electronic>
+          <electronic type="url">
+            <value>http://www.monash.edu.au/muma/</value>
+          </electronic>
+          <physical type="text">
+            <addressPart type="text">Ground Floor, Building F Monash University, Caulfield campus 900 Dandenong Road Caulfield East, VIC 3145</addressPart>
+            <addressPart type="telephoneNumber">03 9905 4217</addressPart>
+          </physical>
+        </address>
+      </location>
+      <relatedObject>
+        <key>MON:1959.1/9209782</key>
+        <relation type="isOutputOf"/>
+      </relatedObject>
+      <subject type="anzsrc-for">190502</subject>
+      <subject type="anzsrc-for">190504</subject>
+      <subject type="anzsrc-for">190104</subject>
+      <subject type="local">20th century art</subject>
+      <subject type="local">21st century art</subject>
+      <subject type="local">Australian art</subject>
+      <subject type="local">Contemporary art</subject>
+      <existenceDates>
+        <startDate dateFormat="W3CDTF">1975</startDate>
+      </existenceDates>
+    </party>
+  </registryObject>
+  
+    <registryObject group="Monash University">
+    <key>MON:1959.1/1183567aa</key>
+    <originatingSource type="authoritative">anothersource</originatingSource>
+    <party type="group">
+      <name type="primary">
+        <namePart type="superior">Monash University Museum of Art</namePart>
+      </name>
+      <name type="abbreviated">
+        <namePart type="superior">MUMA</namePart>
+      </name>
+      <description type="brief">&lt;p&gt;Monash University Museum of Art (MUMA) is committed to innovative, experimental and research-based contemporary art and curatorial practice. With a focus upon contemporary art since the 1960s, MUMA seeks to establish the museum as a dynamic site for cultural production, pedagogy and participation through exhibitions, collection development, curatorial research, publishing, and academic and community engagement. MUMA presents a dynamic program of exhibitions focusing on contemporary Australian and international art since the 1960s. Exhibitions range from newly commissioned projects to surveys of significant artists, thematic group exhibitions, research-based projects and explorations of the Monash University Collection. As a key public art museum within Australia’s largest tertiary institution, MUMA links the university, the art world and the wider community. Operating from award-winning facilities in the art, design and architecture precinct on Monash’s Caulfield campus, MUMA makes a valued contribution to the cultural and intellectual life of the university and the community.&lt;/p&gt;</description>
+      <identifier type="handle">1959.1/1183567</identifier>
+      <identifier type="AU-ANL:PEAU">http://nla.gov.au/nla.party-1472838</identifier>
+      <location>
+        <address>
+          <electronic type="email">
+            <value>muma@monash.edu</value>
+          </electronic>
+          <electronic type="url">
+            <value>http://www.monash.edu.au/muma/</value>
+          </electronic>
+          <physical type="text">
+            <addressPart type="text">Ground Floor, Building F Monash University, Caulfield campus 900 Dandenong Road Caulfield East, VIC 3145</addressPart>
+            <addressPart type="telephoneNumber">03 9905 4217</addressPart>
+          </physical>
+        </address>
+      </location>
+      <relatedObject>
+        <key>MON:1959.1/9209782</key>
+        <relation type="isOutputOf"/>
+      </relatedObject>
+      <subject type="anzsrc-for">190502</subject>
+      <subject type="anzsrc-for">190504</subject>
+      <subject type="anzsrc-for">190104</subject>
+      <subject type="local">20th century art</subject>
+      <subject type="local">21st century art</subject>
+      <subject type="local">Australian art</subject>
+      <subject type="local">Contemporary art</subject>
+      <existenceDates>
+        <startDate dateFormat="W3CDTF">1975</startDate>
+      </existenceDates>
+    </party>
+  </registryObject>
+  
+  <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsDuplicateRelationRecords1</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="publication" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/wowowowo33</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection type publication With a Single Identifier, CitationMetadata with multiple contributors and Single RelatedInfo Publication.</namePart>
+            </name>
+            <description type="full">Some example description
+            </description>
+            <relatedObject>
+                <key>MON:1959.1/695609</key>
+                <relation type="reviews"/>
+            </relatedObject>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.1234/00/wowowowo33</identifier>
+                    <title>
+                        (citation/title) CitationMetadata with multiple contributors and Single RelatedInfo Publication.
+                    </title>
+                    <date type="publicationDate">2001</date>
+                    <contributor>
+                        <namePart>Example contributor single string</namePart>
+                    </contributor>
+                    <contributor>
+                        <namePart>2nd Example contributor single string</namePart>
+                    </contributor>
+                    <publisher>AUTestingRecords2 Citation Publisher</publisher>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+	
+	  <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsDuplicateRelationRecords1a</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="publication" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/wowowowo33</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection type publication With a Single Identifier, CitationMetadata with multiple contributors and Single RelatedInfo Publication. 1a. Not to be linked.</namePart>
+            </name>
+            <description type="full">Some example description
+            </description>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.1234/00/wowowowo33</identifier>
+                    <title>
+                        (citation/title) CitationMetadata with multiple contributors and Single RelatedInfo Publication.
+                    </title>
+                    <date type="publicationDate">2001</date>
+                    <contributor>
+                        <namePart>Example contributor single string</namePart>
+                    </contributor>
+                    <contributor>
+                        <namePart>2nd Example contributor single string</namePart>
+                    </contributor>
+                    <publisher>AUTestingRecords2 Citation Publisher</publisher>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+	
+	<registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsDuplicateRelationRecords2</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="dataset" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/wosdfdsfdwo33</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection type dataset which has a duplicate and both are linked to the same collection.</namePart>
+            </name>
+            <description type="full">Some example description
+            </description>
+            <relatedObject>
+                <key>MON:1959.1/695609</key>
+                <relation type="reviews"/>
+            </relatedObject>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.1234/00/wosdfdsfdwo33</identifier>
+                    <title>
+                        (citation/title) CitationMetadata with multiple contributors and Single RelatedInfo Publication.
+                    </title>
+                    <date type="publicationDate">2001</date>
+                    <contributor>
+                        <namePart>Example contributor single string</namePart>
+                    </contributor>
+                    <contributor>
+                        <namePart>2nd Example contributor single string</namePart>
+                    </contributor>
+                    <publisher>AUTestingRecords2 Citation Publisher</publisher>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+	
+	  <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsDuplicateRelationRecords2a</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="dataset" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/wosdfdsfdwo33</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection type dataset which has a duplicate and both are linked to the same collection. 2a</namePart>
+            </name>
+            <description type="full">Some example description
+            </description>
+			<relatedObject>
+                <key>MON:1959.1/695609</key>
+                <relation type="reviews"/>
+            </relatedObject>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.1234/00/wosdfdsfdwo33</identifier>
+                    <title>
+                        (citation/title) CitationMetadata with multiple contributors and Single RelatedInfo Publication.
+                    </title>
+                    <date type="publicationDate">2001</date>
+                    <contributor>
+                        <namePart>Example contributor single string</namePart>
+                    </contributor>
+                    <contributor>
+                        <namePart>2nd Example contributor single string</namePart>
+                    </contributor>
+                    <publisher>AUTestingRecords2 Citation Publisher</publisher>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+</registryObjects>

@@ -1,0 +1,2783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects"
+                 xmlns:extRif="http://ands.org.au/standards/rif-cs/extendedRegistryObjects"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPriAbrAltName5584d12</key>
+        <originatingSource>Indian National Centre for Ocean Information Services (INCOIS)</originatingSource>
+        <collection type="dataset">
+            <identifier type="uri">http://imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUTbx112</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords) Record with all Name Types Primary, Alternative and Abbreviated</namePart>
+            </name>
+            <name type="alternative">
+                <namePart>(AUTestingRecords) Alternative Name</namePart>
+            </name>
+            <name type="abbreviated">
+                <namePart>(AUTestingRecords) Abbreviated Name</namePart>
+            </name>
+            <dates type="created">
+                <date type="dateFrom" dateFormat="W3CDTF">2014-09-09T06:10:16</date>
+            </dates>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>
+                            http://imosmest.aodn.org.au:80/geonetwork/srv/en/metadata.show?uuid=86ec0cee-0620-3724-963a-d0432ddaa
+                        </value>
+                    </electronic>
+                </address>
+            </location>
+            <subject type="local">oceans</subject>
+            <subject type="local">Oceans | Ocean Temperature | Water Temperature</subject>
+            <subject type="local">Oceans | Salinity/density | Salinity</subject>
+            <subject type="local">Oceans | Ocean Pressure | Water Pressure</subject>
+            <subject type="local">Profiling Float | Autonomous Profiling Float</subject>
+            <description type="full">This dataset contains temperature, salinity and pressure data for all profiles of
+                the Argo float 2901092 managed by the Indian National Centre for Ocean Information Services
+                (INCOIS).Argo is a major international collaborative project to observe the world's oceans and help
+                scientists understand ocean processes and the ocean's roles in climate. The data collected also improves
+                our ability to forecast climate and ocean conditions. The float drift at depth of between 1 and 2 km.
+                Every ten days each float ascends to the surface, measuring temperature and salinity as it rises. This
+                data is transmitted to satellites along with the float's position. The float then dives and starts a new
+                cycle. The Argo float, WMO 2901092 was first deployed on the 2008-08-24T18:00:00 at launch location
+                (Latitude : -1.0 ; Longitude : 81.53). The variables available for this Argo float are : Temperature,
+                Practical Salinity and Pressure. The last location of the Argo float was transmitted on the
+                2013-12-08T14:23:56 at the following location (Latitude : -5.073 ; Longitude : 102.708).
+            </description>
+            <coverage>
+                <spatial type="iso19139dcmiBox">northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                    projection=WGS84
+                </spatial>
+                <spatial type="text">northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                    projection=WGS84
+                </spatial>
+            </coverage>
+            <coverage>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">2008-08-26T00:23:32</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2013-12-08T14:23:56</date>
+                </temporal>
+            </coverage>
+            <relatedInfo type="website">
+                <identifier type="uri">http://thredds.aodn.org.au/thddddac/incois/2901092/catalog.html AUTbx1
+                </identifier>
+                <relation type="hasAssociationWith"/>
+                <title>Data available via the IMOS OPeNDAP server</title>
+            </relatedInfo>
+            <rights>
+                <rightsStatement>Argo Data (Temperature and Salinity profiles) are freely available without any
+                    restriction, via the internet Global Data Centres (GDACs) and the GTS of WMO. Please support Argo by
+                    acknowledging your use of Argo data with the following words: "These data where collected and made
+                    freely available by the International Argo project and the national initiatives that contribute to
+                    it. (http://www.argo.net). Argo is a pilot programme of the Global Ocean Observing System."
+                </rightsStatement>
+            </rights>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="uri">http://imosmeddn.org.au:80/gddetadata.shosdfsdfsdfsAUTbx1</identifier>
+                    <title>INCOIS - Argo float, WMO 2901092</title>
+                    <date type="created">2014</date>
+                    <contributor>
+                        <namePart>Indian National Centre for Ocean Information Services (INCOIS)</namePart>
+                    </contributor>
+                    <publisher>Integrated Marine Observing System (IMOS)</publisher>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPrimaryName24-963a-d0432495584d12</key>
+        <originatingSource>Indian National Centre for Ocean Information Services (INCOIS)</originatingSource>
+        <collection type="dataset">
+            <identifier type="uri">http://imosmest.aodn.org.au:80/geonetwork/srv/en/metadsdfsfd84d_AUTbx112</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords) Record with only a Primary Name</namePart>
+            </name>
+            <dates type="created">
+                <date type="dateFrom" dateFormat="W3CDTF">2014-09-09T06:10:16</date>
+            </dates>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>
+                            http://imosmest.aodn.org.au:80/geonetwork/srv/en/metadata.show?uuid=86ec0cee-0620-3724-963a-d0432495584da
+                        </value>
+                    </electronic>
+                </address>
+            </location>
+            <subject type="local">oceans</subject>
+            <subject type="local">Oceans | Ocean Temperature | Water Temperature</subject>
+            <subject type="local">Oceans | Salinity/density | Salinity</subject>
+            <subject type="local">Oceans | Ocean Pressure | Water Pressure</subject>
+            <subject type="local">Profiling Float | Autonomous Profiling Float</subject>
+            <description type="full">This dataset contains temperature, salinity and pressure data for all profiles of
+                the Argo float 2901092 managed by the Indian National Centre for Ocean Information Services
+                (INCOIS).Argo is a major international collaborative project to observe the world's oceans and help
+                scientists understand ocean processes and the ocean's roles in climate. The data collected also improves
+                our ability to forecast climate and ocean conditions. The float drift at depth of between 1 and 2 km.
+                Every ten days each float ascends to the surface, measuring temperature and salinity as it rises. This
+                data is transmitted to satellites along with the float's position. The float then dives and starts a new
+                cycle. The Argo float, WMO 2901092 was first deployed on the 2008-08-24T18:00:00 at launch location
+                (Latitude : -1.0 ; Longitude : 81.53). The variables available for this Argo float are : Temperature,
+                Practical Salinity and Pressure. The last location of the Argo float was transmitted on the
+                2013-12-08T14:23:56 at the following location (Latitude : -5.073 ; Longitude : 102.708).
+            </description>
+            <coverage>
+                <spatial type="iso19139dcmiBox">northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                    projection=WGS84
+                </spatial>
+                <spatial type="text">northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                    projection=WGS84
+                </spatial>
+            </coverage>
+            <coverage>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">2008-08-26T00:23:32</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2013-12-08T14:23:56</date>
+                </temporal>
+            </coverage>
+            <relatedInfo type="website">
+                <identifier type="uri">
+                    http://thredds.aodn.org.au/thredds/catalog/IMOS/Argo/dac/incois/2901092/catalog.html AUTbx1
+                </identifier>
+                <relation type="hasAssociationWith"/>
+                <title>Data available via the IMOS OPeNDAP server</title>
+            </relatedInfo>
+            <rights>
+                <rightsStatement>Argo Data (Temperature and Salinity profiles) are freely available without any
+                    restriction, via the internet Global Data Centres (GDACs) and the GTS of WMO. Please support Argo by
+                    acknowledging your use of Argo data with the following words: "These data where collected and made
+                    freely available by the International Argo project and the national initiatives that contribute to
+                    it. (http://www.argo.net). Argo is a pilot programme of the Global Ocean Observing System."
+                </rightsStatement>
+            </rights>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="uri">
+                        http://imosmest.aodn.org.au:80/geonetwork/srv/en/metadata.shosdfsdfsdfsAUTbx1
+                    </identifier>
+                    <title>INCOIS - Argo float, WMO 2901092</title>
+                    <date type="created">2014</date>
+                    <contributor>
+                        <namePart>Indian National Centre for Ocean Information Services (INCOIS)</namePart>
+                    </contributor>
+                    <publisher>Integrated Marine Observing System (IMOS)</publisher>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+            <key>AUTestingRecords5parties12323488</key>
+            <originatingSource>Indian National Centre for Ocean Information Services (INCOIS)</originatingSource>
+            <collection type="dataset">
+                <identifier type="uri">http://imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efewsd
+                </identifier>
+                <name type="primary">
+                    <namePart>(AUTestingRecords) Collection related to 10 related person parties using related object
+                        and info
+                    </namePart>
+                </name>
+                <name type="abbreviated">
+                    <namePart>(AUTestingRecords) Abbreviated Name</namePart>
+                </name>
+                <dates type="created">
+                    <date type="dateFrom" dateFormat="W3CDTF">2014-09-09T06:10:16</date>
+                </dates>
+                <location>
+                    <address>
+                        <electronic type="url">
+                            <value>
+                                http://imosmest.aodn.org.au:80/geonetwork/srv/en/metadata.show?uuid=86ec0cee-0620-3724-963a-d0432dd
+                            </value>
+                        </electronic>
+                    </address>
+                </location>
+                <relatedObject>
+                    <key>AUTestingRecordsnhmrc.gov.au/person/Ddfdsf0716</key>
+                    <relation type="hasCollector"/>
+                </relatedObject>
+                <relatedObject>
+                    <key>AUTestingRecordsnhmrc.gov.au/person/Ddfdsf0717</key>
+                    <relation type="isManagedBy"/>
+                </relatedObject>
+                <relatedObject>
+                    <key>AUTestingRecordsnhmrc.gov.au/person/Ddfdsf0718</key>
+                    <relation type="isOwnedBy"/>
+                </relatedObject>
+                <relatedObject>
+                    <key>AUTestingRecordsnhmrc.gov.au/person/Ddfdsf07162</key>
+                    <relation type="hasCollector"/>
+                </relatedObject>
+                <relatedObject>
+                    <key>AUTestingRecordsnhmrc.gov.au/person/Ddfdsf07172</key>
+                    <relation type="isManagedBy"/>
+                </relatedObject>
+                <relatedObject>
+                    <key>AUTestingRecordsnhmrc.gov.au/person/Ddfdsf07182</key>
+                    <relation type="isOwnedBy"/>
+                </relatedObject>
+                <subject type="local">oceans</subject>
+                <subject type="local">Oceans | Ocean Temperature | Water Temperature</subject>
+                <subject type="local">Oceans | Salinity/density | Salinity</subject>
+                <subject type="local">Oceans | Ocean Pressure | Water Pressure</subject>
+                <subject type="local">Profiling Float | Autonomous Profiling Float</subject>
+                <description type="full">This dataset contains temperature, salinity and pressure data for all profiles
+                    of the Argo float 2901092 managed by the Indian National Centre for Ocean Information Services
+                    (INCOIS).Argo is a major international collaborative project to observe the world's oceans and help
+                    scientists understand ocean processes and the ocean's roles in climate. The data collected also
+                    improves our ability to forecast climate and ocean conditions. The float drift at depth of between 1
+                    and 2 km. Every ten days each float ascends to the surface, measuring temperature and salinity as it
+                    rises. This data is transmitted to satellites along with the float's position. The float then dives
+                    and starts a new cycle. The Argo float, WMO 2901092 was first deployed on the 2008-08-24T18:00:00 at
+                    launch location (Latitude : -1.0 ; Longitude : 81.53). The variables available for this Argo float
+                    are : Temperature, Practical Salinity and Pressure. The last location of the Argo float was
+                    transmitted on the 2013-12-08T14:23:56 at the following location (Latitude : -5.073 ; Longitude :
+                    102.708).
+                </description>
+                <coverage>
+                    <spatial type="iso19139dcmiBox">northlimit=0.856; southlimit=-6.3; westlimit=80.355;
+                        eastLimit=104.202; projection=WGS84
+                    </spatial>
+                    <spatial type="text">northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                        projection=WGS84
+                    </spatial>
+                </coverage>
+                <coverage>
+                    <temporal>
+                        <date type="dateFrom" dateFormat="W3CDTF">2008-08-26T00:23:32</date>
+                        <date type="dateTo" dateFormat="W3CDTF">2013-12-08T14:23:56</date>
+                    </temporal>
+                </coverage>
+                <relatedInfo type="party">
+                    <identifier type="uri">http://www.someidentifierforaparty1</identifier>
+                    <relation type="hasPrincipalInvestigator"/>
+                    <title>(AUTestingRecords) Party to relate to</title>
+                </relatedInfo>
+                <relatedInfo type="party">
+                    <identifier type="uri">http://www.someidentifierforaparty2</identifier>
+                    <relation type="isEnrichedBy"/>
+                    <title>(AUTestingRecords) Party to relate to</title>
+                </relatedInfo>
+                <relatedInfo type="party">
+                    <identifier type="uri">http://www.someidentifierforaparty12</identifier>
+                    <relation type="hasPrincipalInvestigator"/>
+                    <title>(AUTestingRecords) Party to relate to</title>
+                </relatedInfo>
+                <relatedInfo type="party">
+                    <identifier type="uri">http://www.someidentifierforaparty22</identifier>
+                    <relation type="isEnrichedBy"/>
+                    <title>(AUTestingRecords) Party to relate to</title>
+                </relatedInfo>
+                <rights>
+                    <rightsStatement>Argo Data (Temperature and Salinity profiles) are freely available without any
+                        restriction, via the internet Global Data Centres (GDACs) and the GTS of WMO. Please support
+                        Argo by acknowledging your use of Argo data with the following words: "These data where
+                        collected and made freely available by the International Argo project and the national
+                        initiatives that contribute to it. (http://www.argo.net). Argo is a pilot programme of the
+                        Global Ocean Observing System."
+                    </rightsStatement>
+                </rights>
+                <citationInfo>
+                    <citationMetadata>
+                        <identifier type="uri">http://imosmeddn.org.au:80/gddetadata.shosdfsdfsdfsAUTbx1</identifier>
+                        <title>INCOIS - Argo float, WMO 2901092</title>
+                        <date type="created">2014</date>
+                        <contributor>
+                            <namePart>Indian National Centre for Ocean Information Services (INCOIS)</namePart>
+                        </contributor>
+                        <publisher>Integrated Marine Observing System (IMOS)</publisher>
+                    </citationMetadata>
+                </citationInfo>
+            </collection>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsnhmrc.gov.au/person/Ddfdsf0717</key>
+            <originatingSource>nhmrc.gov.au</originatingSource>
+            <party type="person">
+                <name type="primary">
+                    <namePart type="family">Christoph</namePart>
+                    <namePart type="given">(AUTestingRecords) Party to relate to 13</namePart>
+                </name>
+            </party>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsnhmrc.gov.au/person/Ddfdsf07182</key>
+            <originatingSource>nhmrc.gov.au</originatingSource>
+            <party type="person">
+                <name type="primary">
+                    <namePart type="family">James</namePart>
+                    <namePart type="given">(AUTestingRecords) Party to relate to 14</namePart>
+                </name>
+            </party>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsnhmrc.gov.au/person/Ddfdsf0718</key>
+            <originatingSource>nhmrc.gov.au</originatingSource>
+            <party type="person">
+                <name type="primary">
+                    <namePart type="family">Jenny</namePart>
+                    <namePart type="given">(AUTestingRecords) Party to relate to 14</namePart>
+                </name>
+            </party>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsnhmrc.gov.au/person/Ddfdsf07172</key>
+            <originatingSource>nhmrc.gov.au</originatingSource>
+            <party type="person">
+                <name type="primary">
+                    <namePart type="family">Farad</namePart>
+                    <namePart type="given">(AUTestingRecords) Party to relate to 13</namePart>
+                </name>
+            </party>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsnhmrc.gosddfeson/Ddfdsf0716</key>
+            <originatingSource>nhmrc.gov.au</originatingSource>
+            <party type="person">
+                <identifier type="uri">http://www.someidentifierforaparty1</identifier>
+                <name type="primary">
+                    <namePart type="family">Peter</namePart>
+                    <namePart type="given">(AUTestingRecords) Party to relate to 15</namePart>
+                </name>
+            </party>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsnhmrc.gov.sdfdsfds/Ddfdsf0716</key>
+            <originatingSource>nhmrc.gov.au</originatingSource>
+            <party type="person">
+                <identifier type="uri">http://www.someidentifierforaparty2</identifier>
+                <name type="primary">
+                    <namePart type="family">Daniel</namePart>
+                    <namePart type="given">(AUTestingRecords) Party to relate to 16</namePart>
+                </name>
+            </party>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsnhmrc.gosddfeson/DdfdsfGroup1</key>
+            <originatingSource>nhmrc.gov.au</originatingSource>
+            <party type="group">
+                <identifier type="uri">http://www.someidentifierforaparty12</identifier>
+                <name type="primary">
+                    <namePart>(AUTestingRecords) Borlli Technologies</namePart>
+                </name>
+            </party>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTCollection1</key>
+            <originatingSource type="">http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+            <collection type="collection" dateModified="2013-04-10T23:51:55Z">
+                <name type="abbreviated">
+                    <namePart>abbreviatedName</namePart>
+                </name>
+                <name type="alternative">
+                    <namePart>alternativeName</namePart>
+                </name>
+                <name type="primary">
+                    <namePart>Collection with all RIF v1.6 elements (primaryName)</namePart>
+                </name>
+                <description type="significanceStatement">&amp;lt;p&amp;gt;significanceStatement significanceStatement&amp;lt;/p&amp;gt;</description>
+                <description type="researchSupport">&amp;lt;p&amp;gt;researchSupport researchSupport researchSupport
+                    researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport
+                    researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport
+                    researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport
+                    researchSupport&amp;lt;/p&amp;gt;
+                </description>
+                <description type="researchDataProflie">&amp;lt;p&amp;gt;researchDataProflieresea rchDataProflie
+                    researchDataP roflieresearchDataProflie researchDataProflie researchDataProflie researchDataProflie
+                    researchDataProflie&amp;lt;/p&amp;gt;
+                </description>
+                <description type="researchAreas">&amp;lt;p&amp;gt;researchAreas researchAreas researchAreas
+                    researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas
+                    researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas
+                    researchAreas researchAreas researchAreas researchAreas researchAreas&amp;lt;/p&amp;gt;
+                </description>
+                <description type="note">&amp;lt;p&amp;gt;note note note note note note note note note note note note
+                    note note note note note note note note note note&amp;lt;/p&amp;gt;
+                </description>
+                <description type="logo">&amp;lt;p&amp;gt;https://dl.dropbox.com/u/49073372/LOGO.jpg&amp;lt;/p&amp;gt;
+                </description>
+                <description type="full">&amp;lt;p&amp;gt;full full full full full full full full full full full full
+                    full full full full full full&amp;lt;/p&amp;gt;
+                </description>
+                <description type="deliverymethod">&amp;lt;p&amp;gt;deliverymethod deliverymethod deliverymethod
+                    deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod
+                    deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod&amp;lt;/p&amp;gt;
+                </description>
+                <description type="brief">&amp;lt;p&amp;gt;brief brief brief brief brief brief brief brief brief brief
+                    brief brief brief brief brief brief&amp;lt;/p&amp;gt;
+                </description>
+                <description type="lineage">&amp;lt;p&amp;gt;This is the lineage statement for the collection&amp;lt;/p&amp;gt;</description>
+                <description type="local">&amp;lt;p&amp;gt;This is a local statement for the colleciton&amp;lt;/p&amp;gt;</description>
+                <rights>
+                    <rightsStatement rightsUri="http://www.rightsuri.com">Rights Statement Rights Statement
+                    </rightsStatement>
+                    <licence type="AusGOALRestrictive" rightsUri="http://www.rightsuri.com">LicenceLicenceLicence
+                    </licence>
+                    <accessRights rightsUri="http://www.rightsuri.com">Access Rights</accessRights>
+                </rights>
+                <rights>
+                    <licence type="CC-BY">CC-BY</licence>
+                    <accessRights type="open">My Access Rights details are listed here and my data is open
+                    </accessRights>
+                </rights>
+                <identifier type="AU-ANL:PEAU">nla.AUTCollection1</identifier>
+                <identifier type="AU-ANL:PEAU">nla.part.12345a</identifier>
+                <dates type="dc.available">
+                    <date type="dateFrom" dateFormat="W3CDTF">2013-02-07T00:00:00Z</date>
+                </dates>
+                <dates type="dc.issued">
+                    <date type="dateFrom" dateFormat="W3CDTF">2022-03-03T00:00:00Z</date>
+                </dates>
+                <location dateFrom="2013-02-14T00:00:00Z" dateTo="2013-03-02T00:00:00Z">
+                    <address>
+                        <electronic type="url" target="landingPage">
+                            <value>https://demo.ands.org.au</value>
+                            <title>My Landing Page for the data</title>
+                        </electronic>
+                        <physical type="postalAddress">
+                            <addressPart type="addressLine">&amp;lt;p&amp;gt; 123 Example St&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;
+                                Canberra ACT 2131&amp;lt;/p&amp;gt;
+                            </addressPart>
+                        </physical>
+                        <electronic type="url" target="directDownload">
+                            <value>https://dl.dropboxusercontent.com/u/49073372/RIF16WithError.xml</value>
+                            <title>My Direct Download link</title>
+                            <mediaType>XML</mediaType>
+                            <byteSize>3KB</byteSize>
+                        </electronic>
+                    </address>
+                    <spatial type="kmlPolyCoords">119.707031,-20.468189 152.753906,-32.101190 119.707031,-20.468189
+                    </spatial>
+                </location>
+                <coverage>
+                    <temporal>
+                        <date type="dateFrom" dateFormat="W3CDTF">2013-01-30T00:00:00Z</date>
+                        <date type="dateTo" dateFormat="W3CDTF">2017-03-03T00:00:00Z</date>
+                    </temporal>
+                    <spatial type="kmlPolyCoords">143.085938,-22.917923</spatial>
+                    <spatial type="kmlPolyCoords">121.640625,-35.173808 150.644531,-20.961440 117.246094,-14.093957
+                        110.390625,-26.273714 127.441406,-20.961440 128.847656,-27.527758 121.640625,-35.173808
+                    </spatial>
+                </coverage>
+                <coverage>
+                    <spatial type="text">Some place in Australia</spatial>
+                </coverage>
+                <relatedObject>
+                    <key>AUTParty1</key>
+                    <relation type="isManagedBy">
+                        <description>relationshipdescription</description>
+                    </relation>
+                </relatedObject>
+                <relatedObject>
+                    <key>AUTParty2</key>
+                    <relation type="isOwnedBy">
+                        <description>relationshipdescription</description>
+                    </relation>
+                </relatedObject>
+                <relatedObject>
+                    <key>AUTParty3</key>
+                    <relation type="hasPrincipalInvestigator">
+                        <description>relationshipdescription</description>
+                    </relation>
+                </relatedObject>
+                <relatedObject>
+                    <key>AUTParty4</key>
+                    <relation type="hasPrincipalInvestigator">
+                        <description>relationshipdescription</description>
+                    </relation>
+                </relatedObject>
+                <relatedObject>
+                    <key>AUTParty5</key>
+                    <relation type="hasCollector">
+                        <description>relationshipdescription</description>
+                    </relation>
+                </relatedObject>
+                <subject type="local">localSubject</subject>
+                <subject type="anzsrc-seo">830201</subject>
+                <subject type="anzsrc-for">0303</subject>
+                <relatedInfo type="metadata">
+                    <title>Related Info Title</title>
+                    <identifier type="doi">10.1234567882484</identifier>
+                    <format>
+                        <identifier type="mediaType">formatidentifier</identifier>
+                    </format>
+                    <notes>related info notes</notes>
+                </relatedInfo>
+                <relatedInfo type="dataQualityInformation">
+                    <title>relatedinfo Title</title>
+                    <identifier type="infouri">infouri.12345</identifier>
+                    <notes>Related Info Notes</notes>
+                </relatedInfo>
+                <relatedInfo type="publication">
+                    <title>Related Info Title</title>
+                    <identifier type="doi">10.123123123</identifier>
+                    <relation type="hasPart"/>
+                </relatedInfo>
+                <relatedInfo type="website">
+                    <title>Stuff</title>
+                    <identifier type="uri">http://www.smithy.com</identifier>
+                    <relation type="hasAssociationWith">
+                        <description>A website relationship</description>
+                    </relation>
+                </relatedInfo>
+                <relatedInfo type="party">
+                    <title>AUTParty6</title>
+                    <identifier type="orcid">orcid.AUTParty6</identifier>
+                    <relation type="hasCollector"/>
+                </relatedInfo>
+                <relatedInfo type="reuseInformation">
+                    <title>Example Reuse Information</title>
+                    <identifier type="uri">http://exampleofreuse.com</identifier>
+                    <notes>To reuse this data following the steps outlined at the URL</notes>
+                </relatedInfo>
+                <relatedInfo type="publication">
+                    <title>Another Publication Example</title>
+                    <identifier type="issn">789879.3.34.ISSN</identifier>
+                </relatedInfo>
+                <citationInfo>
+                    <citationMetadata>
+                        <identifier type="doi">10.123123123</identifier>
+                        <title>Citation Title</title>
+                        <version>V0.2</version>
+                        <placePublished>Australia</placePublished>
+                        <publisher>Some Example Publisher</publisher>
+                        <url>http://www.exapmle.com</url>
+                        <context>Context</context>
+                        <contributor seq="1">
+                            <namePart type="given">Joe Blogs</namePart>
+                        </contributor>
+                        <date type="created">12-12-2001</date>
+                    </citationMetadata>
+                </citationInfo>
+            </collection>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTParty1</key>
+            <originatingSource>http://103.6.252.71/registry//orca/register_my_data</originatingSource>
+            <party type="person">
+                <name type="primary">
+                    <namePart>Related Party 1</namePart>
+                </name>
+            </party>
+        </registryObject>
+
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTParty2</key>
+            <originatingSource>http://103.6.252.71/registry//orca/register_my_data</originatingSource>
+            <party type="person">
+                <name type="primary">
+                    <namePart>Related Party 2</namePart>
+                </name>
+            </party>
+        </registryObject>
+
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTParty3</key>
+            <originatingSource>http://103.6.252.71/registry//orca/register_my_data</originatingSource>
+            <party type="person">
+                <name type="primary">
+                    <namePart>Related Party 3</namePart>
+                </name>
+            </party>
+        </registryObject>
+
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTParty4</key>
+            <originatingSource>http://103.6.252.71/registry//orca/register_my_data</originatingSource>
+            <party type="person">
+                <name type="primary">
+                    <namePart>Related Party 4</namePart>
+                </name>
+            </party>
+        </registryObject>
+
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTParty5</key>
+            <originatingSource>http://103.6.252.71/registry//orca/register_my_data</originatingSource>
+            <party type="person">
+                <name type="primary">
+                    <namePart>Related Party 5</namePart>
+                </name>
+            </party>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTParty6</key>
+            <originatingSource>http://103.6.252.71/registry//orca/register_my_data</originatingSource>
+            <party type="person">
+                <name type="primary">
+                    <namePart>Related Party 6</namePart>
+                </name>
+                <identifier type="orcid">orcid.AUTParty6</identifier>
+            </party>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsISO31662AUWA</key>
+            <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+            <collection type="software">
+                <name type="primary">
+                    <namePart>(AUTestingRecords)Collection with location spatial ISO31662 AU-WA</namePart>
+                </name>
+                <location>
+                    <spatial type="iso31662">AU-WA</spatial>
+                </location>
+                <relatedObject>
+                    <key>AUTestingRecords3agencies/3846</key>
+                    <relation type="hasAssociationWith"/>
+                </relatedObject>
+                <relatedObject>
+                    <key>AUTestingRecords3PartyadministrativePosition1</key>
+                    <relation type="isManagedBy"/>
+                </relatedObject>
+            </collection>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecords3PartyadministrativePosition1</key>
+            <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+            <party type="administrativePosition">
+                <name type="primary">
+                    <namePart>(AUTestingRecords) Party of Type administrativePosition</namePart>
+                </name>
+                <description type="brief">&amp;lt;p&amp;gt;A brief description for the party of type &amp;lt;strong&amp;gt;administrativePosition&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;</description>
+            </party>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecords5parties123234</key>
+            <originatingSource>Indian National Centre for Ocean Information Services (INCOIS)</originatingSource>
+            <collection type="dataset">
+                <identifier type="uri">http://imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd
+                </identifier>
+                <name type="primary">
+                    <namePart>(AUTestingRecords) Collection related to 5 related person parties using related object and
+                        info
+                    </namePart>
+                </name>
+                <name type="abbreviated">
+                    <namePart>(AUTestingRecords) Abbreviated Name</namePart>
+                </name>
+                <dates type="created">
+                    <date type="dateFrom" dateFormat="W3CDTF">2014-09-09T06:10:16</date>
+                </dates>
+                <location>
+                    <address>
+                        <electronic type="url">
+                            <value>
+                                http://imosmest.aodn.org.au:80/geonetwork/srv/en/metadata.show?uuid=86ec0cee-0620-3724-963a-d0432dddd
+                            </value>
+                        </electronic>
+                    </address>
+                </location>
+                <relatedObject>
+                    <key>AUTestingRecordsnhmrc.gov.au/person/Ddfdsf0716</key>
+                    <relation type="hasCollector"/>
+                </relatedObject>
+                <relatedObject>
+                    <key>AUTestingRecordsnhmrc.gov.au/person/Ddfdsf0717</key>
+                    <relation type="isManagedBy"/>
+                </relatedObject>
+                <relatedObject>
+                    <key>AUTestingRecordsnhmrc.gov.au/person/Ddfdsf0718</key>
+                    <relation type="isOwnedBy"/>
+                </relatedObject>
+                <subject type="local">oceans</subject>
+                <subject type="local">Oceans | Ocean Temperature | Water Temperature</subject>
+                <subject type="local">Oceans | Salinity/density | Salinity</subject>
+                <subject type="local">Oceans | Ocean Pressure | Water Pressure</subject>
+                <subject type="local">Profiling Float | Autonomous Profiling Float</subject>
+                <description type="full">This dataset contains temperature, salinity and pressure data for all profiles
+                    of the Argo float 2901092 managed by the Indian National Centre for Ocean Information Services
+                    (INCOIS).Argo is a major international collaborative project to observe the world's oceans and help
+                    scientists understand ocean processes and the ocean's roles in climate. The data collected also
+                    improves our ability to forecast climate and ocean conditions. The float drift at depth of between 1
+                    and 2 km. Every ten days each float ascends to the surface, measuring temperature and salinity as it
+                    rises. This data is transmitted to satellites along with the float's position. The float then dives
+                    and starts a new cycle. The Argo float, WMO 2901092 was first deployed on the 2008-08-24T18:00:00 at
+                    launch location (Latitude : -1.0 ; Longitude : 81.53). The variables available for this Argo float
+                    are : Temperature, Practical Salinity and Pressure. The last location of the Argo float was
+                    transmitted on the 2013-12-08T14:23:56 at the following location (Latitude : -5.073 ; Longitude :
+                    102.708).
+                </description>
+                <coverage>
+                    <spatial type="iso19139dcmiBox">northlimit=0.856; southlimit=-6.3; westlimit=80.355;
+                        eastLimit=104.202; projection=WGS84
+                    </spatial>
+                    <spatial type="text">northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                        projection=WGS84
+                    </spatial>
+                </coverage>
+                <coverage>
+                    <temporal>
+                        <date type="dateFrom" dateFormat="W3CDTF">2008-08-26T00:23:32</date>
+                        <date type="dateTo" dateFormat="W3CDTF">2013-12-08T14:23:56</date>
+                    </temporal>
+                </coverage>
+                <relatedInfo type="party">
+                    <identifier type="uri">http://www.someidentifierforaparty1</identifier>
+                    <relation type="hasPrincipalInvestigator"/>
+                    <title>(AUTestingRecords) Party to relate to</title>
+                </relatedInfo>
+                <relatedInfo type="party">
+                    <identifier type="uri">http://www.someidentifierforaparty2</identifier>
+                    <relation type="isEnrichedBy"/>
+                    <title>(AUTestingRecords) Party to relate to</title>
+                </relatedInfo>
+                <rights>
+                    <rightsStatement>Argo Data (Temperature and Salinity profiles) are freely available without any
+                        restriction, via the internet Global Data Centres (GDACs) and the GTS of WMO. Please support
+                        Argo by acknowledging your use of Argo data with the following words: "These data where
+                        collected and made freely available by the International Argo project and the national
+                        initiatives that contribute to it. (http://www.argo.net). Argo is a pilot programme of the
+                        Global Ocean Observing System."
+                    </rightsStatement>
+                </rights>
+                <citationInfo>
+                    <citationMetadata>
+                        <identifier type="uri">http://imosmeddn.org.au:80/gddetadata.shosdfsdfsdfsAUTbx1</identifier>
+                        <title>INCOIS - Argo float, WMO 2901092</title>
+                        <date type="created">2014</date>
+                        <contributor>
+                            <namePart>Indian National Centre for Ocean Information Services (INCOIS)</namePart>
+                        </contributor>
+                        <publisher>Integrated Marine Observing System (IMOS)</publisher>
+                    </citationMetadata>
+                </citationInfo>
+            </collection>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsnhmrc.gov.au/person/Ddfdsf07162</key>
+            <originatingSource>nhmrc.gov.au</originatingSource>
+            <party type="person">
+                <name type="primary">
+                    <namePart type="family">Simpson</namePart>
+                    <namePart type="given">(AUTestingRecords) Party to relate to 12</namePart>
+                </name>
+            </party>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsnhmrc.gov.sdfdsfds/DdfdGroup2</key>
+            <originatingSource>nhmrc.gov.au</originatingSource>
+            <party type="group">
+                <identifier type="uri">http://www.someidentifierforaparty22</identifier>
+                <name type="primary">
+                    <namePart>(AUTestingRecords) Terry Institute</namePart>
+                </name>
+            </party>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsnhmrc.gov.au/person/Ddfdsf0716</key>
+            <originatingSource>nhmrc.gov.au</originatingSource>
+            <party type="person">
+                <name type="primary">
+                    <namePart type="family">Sarah</namePart>
+                    <namePart type="given">(AUTestingRecords) Party to relate to 12</namePart>
+                </name>
+            </party>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecords5parties123235</key>
+            <originatingSource>Indian National Centre for Ocean Information Services (INCOIS)</originatingSource>
+            <collection type="dataset">
+                <identifier type="uri">http://imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554e3fewsd
+                </identifier>
+                <name type="primary">
+                    <namePart>(AUTestingRecords) Collection related to 1 related person party using related object local
+                        relationship
+                    </namePart>
+                </name>
+                <name type="abbreviated">
+                    <namePart>(AUTestingRecords) Abbreviated Name</namePart>
+                </name>
+                <dates type="created">
+                    <date type="dateFrom" dateFormat="W3CDTF">2014-09-09T06:10:16</date>
+                </dates>
+                <location>
+                    <address>
+                        <electronic type="url">
+                            <value>
+                                http://imosmest.aodn.org.au:80/geonetwork/srv/en/metadata.show?uuid=86ec0cee-0620-3724-963a-d0432dd
+                            </value>
+                        </electronic>
+                    </address>
+                </location>
+                <relatedObject>
+                    <key>AUTestingRecordsnhmrc.gov.au/person/Ddfdsf0716</key>
+                    <relation type="myLocalRelationship"/>
+                </relatedObject>
+                <subject type="local">oceans</subject>
+                <subject type="local">Oceans | Ocean Temperature | Water Temperature</subject>
+                <subject type="local">Oceans | Salinity/density | Salinity</subject>
+                <subject type="local">Oceans | Ocean Pressure | Water Pressure</subject>
+                <subject type="local">Profiling Float | Autonomous Profiling Float</subject>
+                <description type="full">This dataset contains temperature, salinity and pressure data for all profiles
+                    of the Argo float 2901092 managed by the Indian National Centre for Ocean Information Services
+                    (INCOIS).Argo is a major international collaborative project to observe the world's oceans and help
+                    scientists understand ocean processes and the ocean's roles in climate. The data collected also
+                    improves our ability to forecast climate and ocean conditions. The float drift at depth of between 1
+                    and 2 km. Every ten days each float ascends to the surface, measuring temperature and salinity as it
+                    rises. This data is transmitted to satellites along with the float's position. The float then dives
+                    and starts a new cycle. The Argo float, WMO 2901092 was first deployed on the 2008-08-24T18:00:00 at
+                    launch location (Latitude : -1.0 ; Longitude : 81.53). The variables available for this Argo float
+                    are : Temperature, Practical Salinity and Pressure. The last location of the Argo float was
+                    transmitted on the 2013-12-08T14:23:56 at the following location (Latitude : -5.073 ; Longitude :
+                    102.708).
+                </description>
+                <coverage>
+                    <spatial type="iso19139dcmiBox">northlimit=0.856; southlimit=-6.3; westlimit=80.355;
+                        eastLimit=104.202; projection=WGS84
+                    </spatial>
+                    <spatial type="text">northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                        projection=WGS84
+                    </spatial>
+                </coverage>
+                <coverage>
+                    <temporal>
+                        <date type="dateFrom" dateFormat="W3CDTF">2008-08-26T00:23:32</date>
+                        <date type="dateTo" dateFormat="W3CDTF">2013-12-08T14:23:56</date>
+                    </temporal>
+                </coverage>
+                <rights>
+                    <rightsStatement>Argo Data (Temperature and Salinity profiles) are freely available without any
+                        restriction, via the internet Global Data Centres (GDACs) and the GTS of WMO. Please support
+                        Argo by acknowledging your use of Argo data with the following words: "These data where
+                        collected and made freely available by the International Argo project and the national
+                        initiatives that contribute to it. (http://www.argo.net). Argo is a pilot programme of the
+                        Global Ocean Observing System."
+                    </rightsStatement>
+                </rights>
+                <citationInfo>
+                    <citationMetadata>
+                        <identifier type="uri">http://imosmeddn.org.au:80/gddetadata.shosdfsdfsdfsAUTbx1</identifier>
+                        <title>INCOIS - Argo float, WMO 2901092</title>
+                        <date type="created">2014</date>
+                        <contributor>
+                            <namePart>Indian National Centre for Ocean Information Services (INCOIS)</namePart>
+                        </contributor>
+                        <publisher>Integrated Marine Observing System (IMOS)</publisher>
+                    </citationMetadata>
+                </citationInfo>
+            </collection>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecords5parties12323489</key>
+            <originatingSource>Indian National Centre for Ocean Information Services (INCOIS)</originatingSource>
+            <collection type="dataset">
+                <identifier type="uri">http://imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efewsd34
+                </identifier>
+                <name type="primary">
+                    <namePart>(AUTestingRecords) Collection related to 4 related person parties using related object and
+                        info, 2 group relatedObject and 1 adminPos relatedObject
+                    </namePart>
+                </name>
+                <name type="abbreviated">
+                    <namePart>(AUTestingRecords) Abbreviated Name</namePart>
+                </name>
+                <dates type="created">
+                    <date type="dateFrom" dateFormat="W3CDTF">2014-09-09T06:10:16</date>
+                </dates>
+                <location>
+                    <address>
+                        <electronic type="url">
+                            <value>
+                                http://imosmest.aodn.org.au:80/geonetwork/srv/en/metadata.show?uuid=86ec0cee-0620-3724-963a-d0432dd23
+                            </value>
+                        </electronic>
+                    </address>
+                </location>
+                <relatedObject>
+                    <key>AUTestingRecordsnhmrc.gov.au/person/Ddfdsf0716</key>
+                    <relation type="hasCollector"/>
+                </relatedObject>
+                <relatedObject>
+                    <key>AUTestingRecordsnhmrc.gov.au/person/Ddfdsf0717</key>
+                    <relation type="isManagedBy"/>
+                </relatedObject>
+                <relatedObject>
+                    <key>AUTestingRecordsnhmrc.gov.sdfdsfds/DdfdsAdmin1</key>
+                    <relation type="isManagedBy"/>
+                </relatedObject>
+                <relatedObject>
+                    <key>AUTestingRecordsnhmrc.gosddfeson/DdfdsfGroup1</key>
+                    <relation type="isOwnedBy"/>
+                </relatedObject>
+                <relatedObject>
+                    <key>AUTestingRecordsnhmrc.gov.sdfdsfds/DdfdGroup2</key>
+                    <relation type="isAssociatedWith"/>
+                </relatedObject>
+                <subject type="local">oceans</subject>
+                <subject type="local">Oceans | Ocean Temperature | Water Temperature</subject>
+                <subject type="local">Oceans | Salinity/density | Salinity</subject>
+                <subject type="local">Oceans | Ocean Pressure | Water Pressure</subject>
+                <subject type="local">Profiling Float | Autonomous Profiling Float</subject>
+                <description type="full">This dataset contains temperature, salinity and pressure data for all profiles
+                    of the Argo float 2901092 managed by the Indian National Centre for Ocean Information Services
+                    (INCOIS).Argo is a major international collaborative project to observe the world's oceans and help
+                    scientists understand ocean processes and the ocean's roles in climate. The data collected also
+                    improves our ability to forecast climate and ocean conditions. The float drift at depth of between 1
+                    and 2 km. Every ten days each float ascends to the surface, measuring temperature and salinity as it
+                    rises. This data is transmitted to satellites along with the float's position. The float then dives
+                    and starts a new cycle. The Argo float, WMO 2901092 was first deployed on the 2008-08-24T18:00:00 at
+                    launch location (Latitude : -1.0 ; Longitude : 81.53). The variables available for this Argo float
+                    are : Temperature, Practical Salinity and Pressure. The last location of the Argo float was
+                    transmitted on the 2013-12-08T14:23:56 at the following location (Latitude : -5.073 ; Longitude :
+                    102.708).
+                </description>
+                <coverage>
+                    <spatial type="iso19139dcmiBox">northlimit=0.856; southlimit=-6.3; westlimit=80.355;
+                        eastLimit=104.202; projection=WGS84
+                    </spatial>
+                    <spatial type="text">northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                        projection=WGS84
+                    </spatial>
+                </coverage>
+                <coverage>
+                    <temporal>
+                        <date type="dateFrom" dateFormat="W3CDTF">2008-08-26T00:23:32</date>
+                        <date type="dateTo" dateFormat="W3CDTF">2013-12-08T14:23:56</date>
+                    </temporal>
+                </coverage>
+                <relatedInfo type="party">
+                    <identifier type="uri">http://www.someidentifierforaparty1</identifier>
+                    <relation type="hasPrincipalInvestigator"/>
+                    <title>(AUTestingRecords) Party to relate to</title>
+                </relatedInfo>
+                <relatedInfo type="party">
+                    <identifier type="uri">http://www.someidentifierforaparty2</identifier>
+                    <relation type="isEnrichedBy"/>
+                    <title>(AUTestingRecords) Party to relate to</title>
+                </relatedInfo>
+                <rights>
+                    <rightsStatement>Argo Data (Temperature and Salinity profiles) are freely available without any
+                        restriction, via the internet Global Data Centres (GDACs) and the GTS of WMO. Please support
+                        Argo by acknowledging your use of Argo data with the following words: "These data where
+                        collected and made freely available by the International Argo project and the national
+                        initiatives that contribute to it. (http://www.argo.net). Argo is a pilot programme of the
+                        Global Ocean Observing System."
+                    </rightsStatement>
+                </rights>
+                <citationInfo>
+                    <citationMetadata>
+                        <identifier type="uri">http://imosmeddn.org.au:80/gddetadata.shosdfsdfsdfsAUTbx1</identifier>
+                        <title>INCOIS - Argo float, WMO 2901092</title>
+                        <date type="created">2014</date>
+                        <contributor>
+                            <namePart>Indian National Centre for Ocean Information Services (INCOIS)</namePart>
+                        </contributor>
+                        <publisher>Integrated Marine Observing System (IMOS)</publisher>
+                    </citationMetadata>
+                </citationInfo>
+            </collection>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsnhmrc.gov.sdfdsfds/DdfdsAdmin1</key>
+            <originatingSource>nhmrc.gov.au</originatingSource>
+            <party type="administrativePosition">
+                <identifier type="uri">http://www.someidentifierforaparty22a</identifier>
+                <name type="primary">
+                    <namePart>(AUTestingRecords) Data custodian</namePart>
+                </name>
+                <relatedObject>
+                    <key>AUTestingRecordsnhmrc.gov.sdfdsfds/Ddfdsdfdsd2</key>
+                    <relation type="isManagerOf"/>
+                </relatedObject>
+            </party>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecords5parties123234810</key>
+            <originatingSource>Indian National Centre for Ocean Information Services (INCOIS)</originatingSource>
+            <collection type="dataset">
+                <identifier type="uri">http://imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efewsdqw
+                </identifier>
+                <name type="primary">
+                    <namePart>(AUTestingRecords) Collection related to 2 party records of type group using related
+                        object
+                    </namePart>
+                </name>
+                <name type="abbreviated">
+                    <namePart>(AUTestingRecords) Abbreviated Name</namePart>
+                </name>
+                <dates type="created">
+                    <date type="dateFrom" dateFormat="W3CDTF">2014-09-09T06:10:16</date>
+                </dates>
+                <location>
+                    <address>
+                        <electronic type="url">
+                            <value>
+                                http://imosmest.aodn.org.au:80/geonetwork/srv/en/metadata.show?uuid=86ec0cee-0620-3724-963a-d0432dds
+                            </value>
+                        </electronic>
+                        <electronic type="email">
+                            <value>
+                                example@example.com
+                            </value>
+                        </electronic>
+                        <physical type="streetAddress">
+                            <addressPart type="fullName">fullName</addressPart>
+                            <addressPart type="organizationName">organizationName</addressPart>
+                            <addressPart type="flatOrUnitNumber">flatOrUnitNumber</addressPart>
+                            <addressPart type="floorOrLevelNumber">floorOrLevelNumber</addressPart>
+                            <addressPart type="LotNumber">LotNumber</addressPart>
+                            <addressPart type="streetName">streetName</addressPart>
+                            <addressPart type="postalDeliveryNumberValue">postalDeliveryNumberValue</addressPart>
+                            <addressPart type="postalDeliveryNumberSuffix">postalDeliveryNumberSuffix</addressPart>
+                            <addressPart type="suburbOrPlaceOrLocality">suburbOrPlaceOrLocality</addressPart>
+                            <addressPart type="stateOrTerritory">stateOrTerritory</addressPart>
+                            <addressPart type="country">country</addressPart>
+                            <addressPart type="locationDescriptor">locationDescriptor</addressPart>
+                            <addressPart type="deliveryPointIdentifier">deliveryPointIdentifier</addressPart>
+                            <addressPart type="buildingOrPropertyName">buildingOrPropertyName</addressPart>
+                            <addressPart type="postCode">postCode</addressPart>
+                            <addressPart type="postalDeliveryNumberPrefix">postalDeliveryNumberPrefix</addressPart>
+                            <addressPart type="houseNumber">houseNumber</addressPart>
+                            <addressPart type="addressLine">addressLine</addressPart>
+                            <addressPart type="somelocaladdresspartType">addressLine</addressPart>
+                        </physical>
+                    </address>
+                </location>
+                <relatedObject>
+                    <key>AUTestingRecordsnhmrc.gosddfeson/DdfdsfGroup1</key>
+                    <relation type="isOwnedBy"/>
+                </relatedObject>
+                <relatedObject>
+                    <key>AUTestingRecordsnhmrc.gov.sdfdsfds/DdfdGroup2</key>
+                    <relation type="hasAssociationWith"/>
+                </relatedObject>
+                <subject type="local">oceans</subject>
+                <subject type="local">Oceans | Ocean Temperature | Water Temperature</subject>
+                <subject type="local">Oceans | Salinity/density | Salinity</subject>
+                <subject type="local">Oceans | Ocean Pressure | Water Pressure</subject>
+                <subject type="local">Profiling Float | Autonomous Profiling Float</subject>
+                <description type="full">This dataset contains temperature, salinity and pressure data for all profiles
+                    of the Argo float 2901092 managed by the Indian National Centre for Ocean Information Services
+                    (INCOIS).Argo is a major international collaborative project to observe the world's oceans and help
+                    scientists understand ocean processes and the ocean's roles in climate. The data collected also
+                    improves our ability to forecast climate and ocean conditions. The float drift at depth of between 1
+                    and 2 km. Every ten days each float ascends to the surface, measuring temperature and salinity as it
+                    rises. This data is transmitted to satellites along with the float's position. The float then dives
+                    and starts a new cycle. The Argo float, WMO 2901092 was first deployed on the 2008-08-24T18:00:00 at
+                    launch location (Latitude : -1.0 ; Longitude : 81.53). The variables available for this Argo float
+                    are : Temperature, Practical Salinity and Pressure. The last location of the Argo float was
+                    transmitted on the 2013-12-08T14:23:56 at the following location (Latitude : -5.073 ; Longitude :
+                    102.708).
+                </description>
+                <coverage>
+                    <spatial type="iso19139dcmiBox">northlimit=0.856; southlimit=-6.3; westlimit=80.355;
+                        eastLimit=104.202; projection=WGS84
+                    </spatial>
+                    <spatial type="text">northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                        projection=WGS84
+                    </spatial>
+                </coverage>
+                <coverage>
+                    <temporal>
+                        <date type="dateFrom" dateFormat="W3CDTF">2008-08-26T00:23:32</date>
+                        <date type="dateTo" dateFormat="W3CDTF">2013-12-08T14:23:56</date>
+                    </temporal>
+                </coverage>
+                <rights>
+                    <rightsStatement>Argo Data (Temperature and Salinity profiles) are freely available without any
+                        restriction, via the internet Global Data Centres (GDACs) and the GTS of WMO. Please support
+                        Argo by acknowledging your use of Argo data with the following words: "These data where
+                        collected and made freely available by the International Argo project and the national
+                        initiatives that contribute to it. (http://www.argo.net). Argo is a pilot programme of the
+                        Global Ocean Observing System."
+                    </rightsStatement>
+                </rights>
+                <citationInfo>
+                    <citationMetadata>
+                        <identifier type="uri">http://imosmeddn.org.au:80/gddetadata.shosdfsdfsdfsAUTbx1</identifier>
+                        <title>INCOIS - Argo float, WMO 2901092</title>
+                        <date type="created">2014</date>
+                        <contributor>
+                            <namePart>Indian National Centre for Ocean Information Services (INCOIS)</namePart>
+                        </contributor>
+                        <publisher>Integrated Marine Observing System (IMOS)</publisher>
+                    </citationMetadata>
+                </citationInfo>
+            </collection>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordscu.edu.au/collart-001x12</key>
+            <originatingSource>
+                http://researchdata.ands.org.au/registry/orca/register_my_data
+            </originatingSource>
+            <collection dateAccessioned="2013-02-19T00:00:00Z" dateModified="2013-02-19T00:00:00Z" type="collection">
+                <name type="primary">
+                    <namePart type="">(AUTestingRecords) Collection related to relatedInfo parties with no title. 1
+                        exists in registry one does not.
+                    </namePart>
+                </name>
+                <description type="full">
+                    &amp;lt;p&amp;gt; A Visual Representation of Music &amp; Aural Representation of Image:&amp;lt;/p&amp;gt;
+                    &amp;lt;p&amp;gt; The&amp;nbsp;&amp;lt;em&amp;gt;Intermedia Frottage&amp;nbsp;&amp;lt;/em&amp;gt;collection
+                    documents the development of compositional method for using graphic synthesis techniques to create
+                    sounds from images, and images from sounds. The products of these processes are then layered and
+                    arranged in cohesive, meaningful combinations. Moving back-and-forth between the two mediums in this
+                    dynamic interaction, a narrative interplay develops, connecting the materials created. Together with
+                    the sound compositions, the canvases and artists&amp;rsquo; scorebooks tell this story.&amp;nbsp;&amp;lt;/p&amp;gt;
+                    &amp;lt;p&amp;gt; The collection consists of:&amp;lt;/p&amp;gt; &amp;lt;ol&amp;gt; &amp;lt;li&amp;gt;
+                    200pp. exegesis, text with 48 coloured figures,&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; 14-track CD
+                    sound recording,&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; Exhibition collection of 6 artists books and
+                    10 giclee (digital print) canvases,&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; DVD of images exhibition
+                    canvases and artists books,&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; Exhibition copies of 14-track
+                    audio CD.&amp;lt;/li&amp;gt; &amp;lt;/ol&amp;gt; &amp;lt;p&amp;gt; The collection represents the
+                    complete body of work submitted by Melissa Cary to complete her PhD. The collection was exhibited at
+                    the Southern Cross University, NEXT Gallery as an installation of visual artworks accompanied by
+                    headphone listening stations with copies of the audio CD.&amp;lt;/p&amp;gt;
+                </description>
+                <rights>
+                    <rightsStatement>
+                        Data associated with this collection remain the property of Melissa Carey. This data is only
+                        available for analysis and/or publication with the permission of the owner.
+                    </rightsStatement>
+                    <accessRights>
+                        For permission to access this collection please contact Melissa Carey.
+                    </accessRights>
+                </rights>
+                <identifier type="local">scu.edu.au/art-001AUTdl34ddd</identifier>
+                <location>
+                    <address>
+                        <electronic type="email">
+                            <value>mcarey@scu.edu.au</value>
+                        </electronic>
+                        <physical type="postalAddress">
+                            <addressPart type="text">
+                                R Block, Division of Research, Southern Cross University Military Road East Lismore New
+                                South Wales Australia 2480
+                            </addressPart>
+                        </physical>
+                    </address>
+                </location>
+                <relatedObject>
+                    <key>AUTestingRecordscac2ce3c84eec2d46bd4b6ff8</key>
+                    <relation type="isOwnedBy"/>
+                </relatedObject>
+                <relatedObject>
+                    <key>AUTestingRecordsnhmrc.gov.au/person/Ddfdsf0716</key>
+                    <relation type="hasCollector"/>
+                </relatedObject>
+                <subject type="anzsrc-for">1904</subject>
+                <subject type="anzsrc-for">1905</subject>
+                <coverage>
+                    <temporal>
+                        <date type="dateFrom" dateFormat="W3CDTF">2003-01-21T00:00:00Z</date>
+                        <date type="dateTo" dateFormat="W3CDTF">2007-02-21T00:00:00Z</date>
+                    </temporal>
+                    <temporal>
+                        <date type="dateFrom" dateFormat="W3CDTF">2008-01-11T00:00:00Z</date>
+                        <date type="dateTo" dateFormat="W3CDTF">2009-02-11T00:00:00Z</date>
+                    </temporal>
+                </coverage>
+                <citationInfo>
+                    <fullCitation style="Harvard">
+                        Carey, M. 2007 "Intermedia Frottage - An Arual representation of images".
+                    </fullCitation>
+                </citationInfo>
+                <relatedInfo type="publication">
+                    <title>Related Info Title</title>
+                    <identifier type="doi">10.123123123</identifier>
+                    <relation type="hasPart"/>
+                </relatedInfo>
+                <relatedInfo type="website">
+                    <title>Stuff</title>
+                    <identifier type="uri">http://www.smithy.com</identifier>
+                    <relation type="hasAssociationWith">
+                        <description>A website relationship</description>
+                    </relation>
+                </relatedInfo>
+                <relatedInfo type="party">
+                    <identifier type="AU-ANL:PEAU">nla/3dss4.dsfsdsf</identifier>
+                    <notes>A valid party ID with no title</notes>
+                </relatedInfo>
+                <relatedInfo type="party">
+                    <identifier type="local">employeeID2qas21343</identifier>
+                    <notes>An invalid nla ID with no title</notes>
+                    <relation type="hasAssociationWith"/>
+                </relatedInfo>
+                <dates type="dc.available">
+                    <date type="dateFrom" dateFormat="W3CDTF">2003-04-17T00:00:00Z</date>
+                </dates>
+                <dates type="dc.dateSubmitted">
+                    <date type="dateFrom" dateFormat="W3CDTF">2003-05-21T00:00:00Z</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2007-02-21T00:00:00Z</date>
+                </dates>
+            </collection>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsnhmrc.gov.sdfdsfds/Ddfdsdfdsd2</key>
+            <originatingSource>nhmrc.gov.au</originatingSource>
+            <party type="person">
+                <identifier type="AU-ANL:PEAU">nla/3dss4.dsfsdsf</identifier>
+                <name type="primary">
+                    <namePart type="family">Torche</namePart>
+                    <namePart type="given">(AUTestingRecords) Mildred</namePart>
+                </name>
+            </party>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordscac2ce3c84eec2d46bd4b6ff8</key>
+            <originatingSource>
+                https://mint.research.uts.edu.au/mint/Parties_Groups
+            </originatingSource>
+            <party type="group">
+                <identifier type="local">
+                    https://mint.research.uts.edu.au/mint/published/detail/287a7bfcac2ce3c84eec2d46bd4b6ffdd8AUT
+                </identifier>
+                <name type="primary">
+                    <namePart type="superior">(AUTestingRecords)Reverse Relationships Internal Related Object
+                        "isCollectorOf"
+                    </namePart>
+                    <namePart type="subordinate">UTS:eResearch IT Services Group</namePart>
+                </name>
+                <location>
+                    <address>
+                        <electronic type="url">
+                            <value>http://eresearch.uts.edu.au/</value>
+                        </electronic>
+                    </address>
+                    <address>
+                        <electronic type="email">
+                            <value>eResearch-IT@uts.edu.au</value>
+                        </electronic>
+                        <physical type="streetAddress">
+                            <addressPart type="fullName">fullName</addressPart>
+                            <addressPart type="organizationName">organizationName</addressPart>
+                            <addressPart type="flatOrUnitNumber">flatOrUnitNumber</addressPart>
+                            <addressPart type="floorOrLevelNumber">floorOrLevelNumber</addressPart>
+                            <addressPart type="LotNumber">LotNumber</addressPart>
+                            <addressPart type="streetName">streetName</addressPart>
+                            <addressPart type="postalDeliveryNumberValue">postalDeliveryNumberValue</addressPart>
+                            <addressPart type="postalDeliveryNumberSuffix">postalDeliveryNumberSuffix</addressPart>
+                            <addressPart type="suburbOrPlaceOrLocality">suburbOrPlaceOrLocality</addressPart>
+                            <addressPart type="stateOrTerritory">stateOrTerritory</addressPart>
+                            <addressPart type="country">country</addressPart>
+                            <addressPart type="locationDescriptor">locationDescriptor</addressPart>
+                            <addressPart type="deliveryPointIdentifier">deliveryPointIdentifier</addressPart>
+                            <addressPart type="buildingOrPropertyName">buildingOrPropertyName</addressPart>
+                            <addressPart type="postCode">postCode</addressPart>
+                            <addressPart type="postalDeliveryNumberPrefix">postalDeliveryNumberPrefix</addressPart>
+                            <addressPart type="houseNumber">houseNumber</addressPart>
+                            <addressPart type="addressLine">addressLine</addressPart>
+                        </physical>
+                    </address>
+                </location>
+                <subject type="anzsrc-for">080300</subject>
+                <subject type="anzsrc-for">080600</subject>
+                <description type="full">
+                    The UTS:eResearch IT Services Group provides specialised IT infrastructure and services dedicated to
+                    research, as well as policies and procedures to manage research IT requirements and access to IT
+                    services outside the University.
+                </description>
+                <relatedObject>
+                    <key>AUTestingRecordsReverseRelationshipsCollection1</key>
+                    <relation type="isCollectorOf"/>
+                </relatedObject>
+            </party>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsReverseRelationshipsCollection1</key>
+            <originatingSource type="">http://aihw.gov.au/ANDS/AIWH_RIF-CS_extract.xml</originatingSource>
+            <collection type="collection" dateAccessioned="2012-05-22T10:12:40.1995381+10:00">
+                <name type="primary">
+                    <namePart>(AUTestingRecords) Reverse Relationships Collection 1</namePart>
+                </name>
+                <description type="rights">&amp;lt;p&amp;gt;Publications&amp;lt;br /&amp;gt;Summary tables published in
+                    electronic form.&amp;lt;br /&amp;gt;Client specified tables on request which may be subject to data
+                    provider approval (charges apply)&amp;lt;br /&amp;gt;Restricted unit record access subject to Ethics
+                    Committee approval and/or the agreement of all relevant data custodians in all states and
+                    territories (charges may apply).&amp;lt;/p&amp;gt;
+                </description>
+                <description type="brief">&amp;lt;p&amp;gt;Collection of resources, expenditure and services data for
+                    all public and repatriation hospitals in Australia.&amp;lt;/p&amp;gt;
+                </description>
+                <description type="note">&amp;lt;p&amp;gt;Collection Methodology: Official Data&amp;lt;/p&amp;gt;
+                </description>
+                <identifier type="local">WEB.DATAHOUND.HOLDING.DHID=7320dd</identifier>
+                <identifier type="local">AUTestingRecordsReverseRelationshipsCollection1</identifier>
+                <location>
+                    <address>
+                        <electronic type="url">
+                            <value>http://www.aihw.gov.au/datacat/index.cfm/action/showall/id/7320dd</value>
+                        </electronic>
+                    </address>
+                </location>
+                <coverage>
+                    <temporal>
+                        <date type="dateFrom" dateFormat="W3CDTF">1993-07-01</date>
+                        <date type="dateTo" dateFormat="W3CDTF">2005-06-30</date>
+                    </temporal>
+                    <spatial type="text">National</spatial>
+                    <spatial type="kmlPolyCoords">159.105459,-9.221084 112.921454,-9.221084 112.921454,-54.777218
+                        159.105459,-54.777218 159.105459,-9.221084
+                    </spatial>
+                </coverage>
+                <subject type="local">ESTABLISHMENTS</subject>
+                <subject type="local">EXPENDITURE</subject>
+                <subject type="local">HOSPITAL</subject>
+                <subject type="local">HOSPITAL STATISTICS</subject>
+                <subject type="local">STATE AND TERRITORY</subject>
+                <relatedInfo type="website">
+                    <title>The National Public Hospital Establishments Database (NPHED)</title>
+                    <identifier type="uri">http://www.aihw.gov.au/hospitals/nphe_database.cfm</identifier>
+                </relatedInfo>
+            </collection>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordse-environment-research-dataset-31</key>
+            <originatingSource>www.sydney.edu.au</originatingSource>
+            <collection type="dataset">
+                <identifier type="local">dataset-31AUT</identifier>
+                <name type="primary">
+                    <namePart>(AUTestingRecords)Reverse Relationships Internal Related Info "hasAssociationWith"
+                    </namePart>
+                </name>
+                <location>
+                    <address>
+                        <physical type="streetAddress">
+                            <addressPart type="addressLine">ATP - The Biomedical Building</addressPart>
+                            <addressPart type="addressLine">1 Central Ave, ATP, Eveleigh</addressPart>
+                            <addressPart type="suburbOrPlaceOrLocality">EVELEIGH</addressPart>
+                            <addressPart type="stateOrTerritory">NSW</addressPart>
+                            <addressPart type="postCode">1430</addressPart>
+                            <addressPart type="country">AUSTRALIA</addressPart>
+                            <addressPart type="telephoneNumber">6589 4598</addressPart>
+                        </physical>
+                    </address>
+                </location>
+                <subject type="anzsrc-for">040603</subject>
+                <subject type="anzsrc-for">040607</subject>
+                <subject type="anzsrc-for">070100</subject>
+                <description type="brief">
+                    This dataset contains water level well data for the Thunderdome (GW075072) well site. This site is
+                    located within the Glenmore Park cluster of well sites. The dataset geospatial location is:
+                    Latitude: -33.793570459 Longitude: 150.6849502, with an elevation of 57m (AHD). The well has a
+                    drilled depth of 6.5 metres below ground level. Data was collected using Solinst Junior levellogger
+                    data loggers and YSI 6600 data sonde. High Performance Liquid Chromatography (HPLC), Inductively
+                    Coupled Plasma Atomic Emission Spectroscopy (ICP-AES), and Picarro Cavity Ring-Down Spectroscopy
+                    (CRDS) was used for chemical and isotope analysis. This data was collected between July 2011 and
+                    July 2013 to study and develop a conceptual model of shallow groundwater in Western Sydney which
+                    explains the observed geochemistry, the source of the groundwater, and the recharge and discharge of
+                    the groundwater. This dataset and associated research was funded by the New South Wales Department
+                    of Primary Industry.
+                </description>
+                <description type="rights">
+                    Make research data accessible to individuals upon specific agreement with the researcher supplying
+                    the data
+                </description>
+                <relatedInfo type="collection">
+                    <identifier type="local">AUTestingRecordsReverseRelationshipsCollection1</identifier>
+                    <relation type="hasAssociationWith"/>
+                    <title>(AUTestingRecords) Reverse Relationships Collection 1</title>
+                </relatedInfo>
+            </collection>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsrch-dataset-33
+            </key>
+            <originatingSource>www.sydney.edu.au</originatingSource>
+            <collection type="dataset">
+                <identifier type="local">dataset-33AUT</identifier>
+                <name type="primary">
+                    <namePart>(AUTestingRecords)Reverse Relationships Internal Related Info "isDescribedBy"</namePart>
+                </name>
+                <location>
+                    <address>
+                        <physical type="streetAddress">
+                            <addressPart type="addressLine">ATP - The Biomedical Building</addressPart>
+                            <addressPart type="addressLine">1 Central Ave, ATP, Eveleigh</addressPart>
+                            <addressPart type="suburbOrPlaceOrLocality">EVELEIGH</addressPart>
+                            <addressPart type="stateOrTerritory">NSW</addressPart>
+                            <addressPart type="postCode">1430</addressPart>
+                            <addressPart type="country">AUSTRALIA</addressPart>
+                        </physical>
+                    </address>
+                </location>
+                <subject type="anzsrc-for">040105</subject>
+                <subject type="anzsrc-for">040607</subject>
+                <subject type="anzsrc-for">070100</subject>
+                <description type="brief">
+                    This dataset contains water level well data for the Lakeside (GW075073) well site. This site is
+                    located within the Glenmore Park cluster of well sites. The geospatial location fo this dataset is:
+                    Latitude: -33.79664258 Longitude: 150.688183, with an elevation of 64m(AHD). The well has a drilled
+                    depth of 6.5 metres below ground level. Data was collected using Solinst Junior levellogger data
+                    loggers and YSI 6600 data sonde. High Performance Liquid Chromatography (HPLC), Inductively Coupled
+                    Plasma Atomic Emission Spectroscopy (ICP-AES), and Picarro Cavity Ring-Down Spectroscopy (CRDS) was
+                    used for chemical and isotope analysis. This data was collected between July 2011 and July 2013 to
+                    study and develop a conceptual model of shallow groundwater in Western Sydney which explains the
+                    observed geochemistry, the source of the groundwater, and the recharge and discharge of the
+                    groundwater. This dataset and associated research was funded by the New South Wales Department of
+                    Primary Industry.
+                </description>
+                <description type="rights">
+                    Make research data accessible to individuals upon specific agreement with the researcher supplying
+                    the data
+                </description>
+                <relatedInfo type="collection">
+                    <identifier type="local">AUTestingRecordsReverseRelationshipsCollection1</identifier>
+                    <relation type="isDescribedBy"/>
+                    <title>(AUTestingRecords) Reverse Relationships Collection 1</title>
+                </relatedInfo>
+            </collection>
+        </registryObject>
+
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordse0e46fbe765934518ca3ab
+            </key>
+            <originatingSource>
+                https://mint.research.uts.edu.au/mint/Parties_Groups
+            </originatingSource>
+            <party type="group">
+                <identifier type="local">
+                    https://mint.research.uts.edu.au/mint/published/detail/a345f5ca73e0e46fbe765934518ca3abAUT
+                </identifier>
+                <name type="primary">
+                    <namePart type="superior">(AUTestingRecords)Reverse Relationships Internal Related Object
+                        "enriches"
+                    </namePart>
+                    <namePart type="subordinate">Faculty of Arts and Social Sciences</namePart>
+                </name>
+                <location/>
+                <description type="full">Faculty of Arts and Social Sciences</description>
+                <relatedObject>
+                    <key>AUTestingRecordsReverseRelationshipsCollection1</key>
+                    <relation type="enriches"/>
+                </relatedObject>
+            </party>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsITDeRes</key>
+            <originatingSource>
+                https://mint.research.uts.edu.au/mint/Parties_Groups
+            </originatingSource>
+            <party type="group">
+                <identifier type="local">au.edu.uts/parties/group/ITDeResAUT</identifier>
+                <name type="primary">
+                    <namePart type="superior">(AUTestingRecords)Reverse Relationships Internal Related Info
+                        "isManagerOf"
+                    </namePart>
+                    <namePart type="subordinate">UTS:eResearch IT Services Group</namePart>
+                </name>
+                <location>
+                    <address>
+                        <electronic type="url">
+                            <value>http://eresearch.uts.edu.au/</value>
+                        </electronic>
+                    </address>
+                    <address>
+                        <electronic type="email">
+                            <value>eResearch-IT@uts.edu.au</value>
+                        </electronic>
+                    </address>
+                </location>
+                <subject type="anzsrc-for">080300</subject>
+                <subject type="anzsrc-for">080600</subject>
+                <description type="full">
+                    The UTS:eResearch IT Services Group provides specialised IT infrastructure and services dedicated to
+                    research, as well as policies and procedures to manage research IT requirements and access to IT
+                    services outside the University.
+                </description>
+                <relatedInfo type="collection">
+                    <identifier type="local">AUTestingRecordsReverseRelationshipsCollection1</identifier>
+                    <relation type="isManagerOf"/>
+                    <title>(AUTestingRecords) Reverse Relationships Collection 1</title>
+                </relatedInfo>
+            </party>
+        </registryObject>
+
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsnhmrc/640318</key>
+            <originatingSource>
+                www.nhmrc.gov.au/grants/research-funding-statistics-and-data
+            </originatingSource>
+            <activity type="grant">
+                <identifier type="purl">http://purl.org/au-research/grants/nhmrc/640318AUT</identifier>
+                <identifier type="nhmrc">640318AUT</identifier>
+                <name type="primary">
+                    <namePart>(AUTestingRecords)Reverse Relationships Internal Related Object "hasOutput"</namePart>
+                </name>
+                <relatedObject>
+                    <key>http://dx.doi.org/10.13039/501100000925AUT</key>
+                    <relation type="isFundedBy"/>
+                </relatedObject>
+                <relatedObject>
+                    <key>AUTestingRecordsReverseRelationshipsCollection1</key>
+                    <relation type="hasOutput"/>
+                </relatedObject>
+                <subject type="anzsrc-for">11</subject>
+                <subject type="local">Equipment Grant</subject>
+                <description type="fundingAmount">$AUD 98,454.00</description>
+                <description type="fundingScheme">NHMRC Infrastructure Grants</description>
+                <description type="notes">Equipment Grant</description>
+                <existenceDates>
+                    <startDate dateFormat="W3CDTF">2009</startDate>
+                    <endDate dateFormat="W3CDTF">2009</endDate>
+                </existenceDates>
+            </activity>
+        </registryObject>
+
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordscab989babbb073ac9cd7</key>
+            <originatingSource>http://portal.auscope.org</originatingSource>
+            <service type="search-http">
+                <name type="primary">
+                    <namePart>(AUTestingRecords)Reverse Relationships Internal Related Object "isSupportedBy"</namePart>
+                </name>
+                <location>
+                    <address>
+                        <electronic type="url">
+                            <value>
+                                http://www.ga.gov.au/gis/services/earth_science/GA_Onshore_Seismic_Surveys/MapServer/WMSServer
+                            </value>
+                        </electronic>
+                        <electronic type="other">
+                            <value>WMS</value>
+                            <arg type="string" required="true" use="keyValue">service</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>1.3.0</value>
+                            <arg type="string" required="true" use="keyValue">version</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>GetCapabilities</value>
+                            <arg type="string" required="true" use="keyValue">request</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>GetMap</value>
+                            <arg type="string" required="true" use="keyValue">request</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>GetFeatureInfo</value>
+                            <arg type="string" required="true" use="keyValue">request</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>esri_wms:GetStyles</value>
+                            <arg type="string" required="true" use="keyValue">request</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>OnshoreSeismicSurveyLines</value>
+                            <arg type="string" required="true" use="keyValue">layers</arg>
+                        </electronic>
+                    </address>
+                </location>
+                <coverage>
+                    <spatial type="iso19139dcmiBox">
+                        northlimit=-16.1024022919999; southlimit=-42.4299973519999; westlimit=114.383912127;
+                        eastLimit=153.339989998; projection=WGS84
+                    </spatial>
+                </coverage>
+                <relatedObject>
+                    <key>Tristan Kemp</key>
+                    <relation type="pointOfContact"/>
+                </relatedObject>
+                <subject type="local">Geosciences</subject>
+                <subject type="local">Geophysics</subject>
+                <subject type="local">Seismic Lines</subject>
+                <subject type="local">Seismic Traverses</subject>
+                <subject type="local">Seismic Reflection</subject>
+                <subject type="local">Seismic Refraction</subject>
+                <subject type="local">Mineral Exploration</subject>
+                <subject type="local">Petroleum Exploration</subject>
+                <description type="brief">
+                    The Onshore Seismic Data of Australia is a collection of all land seismic traverses cross the
+                    Australian continent and its margins. The data includes raw and processed data in SEGY format. The
+                    metadata includes acquisition reports, processing reports, processed images, logs, and so on. The
+                    data acquisition was carried out in Australia from 1949-2012 by Geoscience Australia and various
+                    partners. The set of reflection and refraction data comprises over 12,000 km of coverage, and
+                    provides an insight into the variations in crustal architecture in the varied geological domains.
+                    The complete processed dataset was first available for public access in Oct 2013
+                    (http://www.ga.gov.au/minerals/projects/current-projects/seismic-acquisition-processing.html ). The
+                    location of seismic traverses is shown by the Gallery link on the webpage. The new survey data will
+                    be updated on the webpage by the official data release date. The attribute structure of the dataset
+                    has also been revised to be more compatible with the GeoSciML data standard, published by the IUGS
+                    Commission for Geoscience Information. The onshore seismic data were collected with partner
+                    organizations: Australian Geodynamics Cooperative Research Centre, National Research Facility for
+                    Earth Sounding, Australian Nuclear Science and Technology Organisation, Cooperative Research Centre
+                    for Greenhouse Gas Technologies, Curtin University of Technology, Geological Survey of New South
+                    Wales, NSW Department of Mineral Resources, NSW Department of Primary Industries Mineral Resources,
+                    An organisation for a National Earth Science Infrastructure Program, Geological Survey Western
+                    Australia, Northern Territory Geological Survey, Primary Industries and Resources South Australia,
+                    Predictive Mineral Discovery Cooperative Research Centre, Queensland Geological Survey, GeoScience
+                    Victoria Department of Primary Industries, Tasmania Development and Resources, University of Western
+                    Australia.
+                </description>
+                <relatedObject>
+                    <key>AUTestingRecordsReverseRelationshipsCollection1</key>
+                    <relation type="isSupportedBy"/>
+                </relatedObject>
+                <rights>
+                    <accessRights>
+                        There are no access rights associated with this service.
+                    </accessRights>
+                </rights>
+            </service>
+        </registryObject>
+
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecords59b0ed43c0148</key>
+            <originatingSource>http://portal.auscope.org</originatingSource>
+            <service type="search-http">
+                <name type="primary">
+                    <namePart>
+                        (AUTestingRecords)Reverse Relationships Internal Related Object, "makesAvailable"
+                    </namePart>
+                </name>
+                <location>
+                    <address>
+                        <electronic type="url">
+                            <value>http://www.mrt.tas.gov.au:80/web-services/wfs</value>
+                        </electronic>
+                        <electronic type="other">
+                            <value>WFS</value>
+                            <arg type="string" required="true" use="keyValue">service</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>1.1.0</value>
+                            <arg type="string" required="true" use="keyValue">version</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>GetCapabilities</value>
+                            <arg type="string" required="true" use="keyValue">request</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>DescribeFeatureType</value>
+                            <arg type="string" required="true" use="keyValue">request</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>GetFeature</value>
+                            <arg type="string" required="true" use="keyValue">request</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>GetGmlObject</value>
+                            <arg type="string" required="true" use="keyValue">request</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>LockFeature</value>
+                            <arg type="string" required="true" use="keyValue">request</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>GetFeatureWithLock</value>
+                            <arg type="string" required="true" use="keyValue">request</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>Transaction</value>
+                            <arg type="string" required="true" use="keyValue">request</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>Other</value>
+                            <arg type="string" required="true" use="keyValue">typeName</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>nvcl:ScannedBoreholeCollection</value>
+                            <arg type="string" required="true" use="keyValue">typeName</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>sa:SamplingFeatureCollection</value>
+                            <arg type="string" required="true" use="keyValue">typeName</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>mt:MineralTenement</value>
+                            <arg type="string" required="true" use="keyValue">typeName</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>mo:MinOccView</value>
+                            <arg type="string" required="true" use="keyValue">typeName</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>gsml:MappedFeature</value>
+                            <arg type="string" required="true" use="keyValue">typeName</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>er:MiningFeatureOccurrence</value>
+                            <arg type="string" required="true" use="keyValue">typeName</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>er:MiningActivity</value>
+                            <arg type="string" required="true" use="keyValue">typeName</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>er:Mine</value>
+                            <arg type="string" required="true" use="keyValue">typeName</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>er:MineralOccurrence</value>
+                            <arg type="string" required="true" use="keyValue">typeName</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>er:Commodity</value>
+                            <arg type="string" required="true" use="keyValue">typeName</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>gsml:Borehole</value>
+                            <arg type="string" required="true" use="keyValue">typeName</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>gsmlp:BoreholeView</value>
+                            <arg type="string" required="true" use="keyValue">typeName</arg>
+                        </electronic>
+                    </address>
+                </location>
+                <relatedInfo type="reuseInformation">
+                    <identifier type="uri">http://www.opengeospatial.org/standards/wfs</identifier>
+                </relatedInfo>
+                <coverage>
+                    <spatial type="iso19139dcmiBox">
+                        northlimit=0; southlimit=-44.76578882158265; westlimit=-1; eastLimit=150; projection=WGS84
+                    </spatial>
+                </coverage>
+                <relatedObject>
+                    <key>Web Enquiries</key>
+                    <relation type="pointOfContact"/>
+                </relatedObject>
+                <subject type="local">WFS</subject>
+                <subject type="local">WMS</subject>
+                <subject type="local">GEOSERVER</subject>
+                <description type="brief">WFS 1.0.0 and WFS 1.1.0</description>
+                <relatedObject>
+                    <key>AUTestingRecordsReverseRelationshipsCollection1</key>
+                    <relation type="makesAvailable"/>
+                </relatedObject>
+                <rights>
+                    <accessRights>
+                        There are no access rights associated with this service.
+                    </accessRights>
+                </rights>
+            </service>
+        </registryObject>
+
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsf1a853690d9fa8</key>
+            <originatingSource>http://portal.auscope.org</originatingSource>
+            <service type="search-http">
+                <name type="primary">
+                    <namePart>(AUTestingRecords)Reverse Relationships Internal Related Info "produces"</namePart>
+                </name>
+                <location>
+                    <address>
+                        <electronic type="url">
+                            <value>
+                                https://sarigdata.pir.sa.gov.au/nvcl/geoserver/wms?SERVICE=WMS&amp;
+                                https://sarigdata.pir.sa.gov.au/nvcl/geoserver/wms?SERVICE=WMS&amp;
+                            </value>
+                        </electronic>
+                        <electronic type="other">
+                            <value>WMS</value>
+                            <arg type="string" required="true" use="keyValue">service</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>1.1.1</value>
+                            <arg type="string" required="true" use="keyValue">version</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>GetCapabilities</value>
+                            <arg type="string" required="true" use="keyValue">request</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>GetMap</value>
+                            <arg type="string" required="true" use="keyValue">request</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>GetFeatureInfo</value>
+                            <arg type="string" required="true" use="keyValue">request</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>DescribeLayer</value>
+                            <arg type="string" required="true" use="keyValue">request</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>GetLegendGraphic</value>
+                            <arg type="string" required="true" use="keyValue">request</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>GetStyles</value>
+                            <arg type="string" required="true" use="keyValue">request</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>er:MiningFeatureOccurrence</value>
+                            <arg type="string" required="true" use="keyValue">layers</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>mt:MineralTenement</value>
+                            <arg type="string" required="true" use="keyValue">layers</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>mo:MinOccView</value>
+                            <arg type="string" required="true" use="keyValue">layers</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>gsml:MappedFeature</value>
+                            <arg type="string" required="true" use="keyValue">layers</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>gsmlp:BoreholeView</value>
+                            <arg type="string" required="true" use="keyValue">layers</arg>
+                        </electronic>
+                        <electronic type="other">
+                            <value>gsml:Borehole</value>
+                            <arg type="string" required="true" use="keyValue">layers</arg>
+                        </electronic>
+                    </address>
+                </location>
+                <relatedInfo type="reuseInformation">
+                    <identifier type="uri">http://www.opengeospatial.org/standards/wms</identifier>
+                </relatedInfo>
+                <coverage>
+                    <spatial type="iso19139dcmiBox">
+                        northlimit=0; southlimit=-38.5; westlimit=-1; eastLimit=142.390600065995; projection=WGS84
+                    </spatial>
+                </coverage>
+                <relatedObject>
+                    <key>ContactPerson</key>
+                    <relation type="pointOfContact"/>
+                </relatedObject>
+                <subject type="local">WFS</subject>
+                <subject type="local">WMS</subject>
+                <subject type="local">GEOSERVER</subject>
+                <description type="brief">This is a description of your Web Map Server.</description>
+                <rights>
+                    <accessRights>
+                        There are no access rights associated with this service.
+                    </accessRights>
+                </rights>
+                <relatedInfo type="collection">
+                    <identifier type="local">AUTestingRecordsReverseRelationshipsCollection1</identifier>
+                    <relation type="produces"/>
+                    <title>(AUTestingRecords) Reverse Relationships Collection 1</title>
+                </relatedInfo>
+            </service>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordswww.sydney.edu.au-agriculture-environment-research-dataset-28
+            </key>
+            <originatingSource>www.sydney.edu.au</originatingSource>
+            <collection type="dataset">
+                <identifier type="local">dataset-28AUT</identifier>
+                <name type="primary">
+                    <namePart>(AUTestingRecords)Reverse Relationships Internal Related Object "hasPart"</namePart>
+                </name>
+                <location>
+                    <address>
+                        <physical type="streetAddress">
+                            <addressPart type="addressLine">ATP - The Biomedical Building</addressPart>
+                            <addressPart type="addressLine">1 Central Ave, ATP, Eveleigh</addressPart>
+                            <addressPart type="suburbOrPlaceOrLocality">EVELEIGH</addressPart>
+                            <addressPart type="stateOrTerritory">NSW</addressPart>
+                            <addressPart type="postCode">1430</addressPart>
+                            <addressPart type="country">AUSTRALIA</addressPart>
+                        </physical>
+                    </address>
+                </location>
+                <relatedObject>
+                    <key>AUTestingRecordsReverseRelationshipsCollection1</key>
+                    <relation type="hasPart"/>
+                </relatedObject>
+                <subject type="anzsrc-for">040603</subject>
+                <subject type="anzsrc-for">040607</subject>
+                <subject type="anzsrc-for">070100</subject>
+                <description type="brief">
+                    This dataset contains water level well data for the Englewood (GW075071) well site. This site is
+                    located within the Glenmore Park cluster of well sites. The geospatial location of this dataset is:
+                    Latitude: -33.7886347 Longitude: 150.6857095. The well has a drilled depth of 7.20 metres below
+                    ground level (m/bgl). Data was collected using Solinst Junior levellogger data loggers and YSI 6600
+                    data sonde. High Performance Liquid Chromatography (HPLC), Inductively Coupled Plasma Atomic
+                    Emission Spectroscopy (ICP-AES), and Picarro Cavity Ring-Down Spectroscopy (CRDS) was used for
+                    chemical and isotope analysis. This data was collected between July 2011 and July 2013 to study and
+                    develop a conceptual model of shallow groundwater in Western Sydney which explains the observed
+                    geochemistry, the source of the groundwater, and the recharge and discharge of the groundwater. This
+                    dataset and associated research was funded by the New South Wales Department of Primary Industry.
+                </description>
+                <description type="rights">
+                    Make research data accessible to individuals upon specific agreement with the researcher supplying
+                    the data
+                </description>
+            </collection>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsearch-dataset-25</key>
+            <originatingSource type="">www.sydney.edu.au</originatingSource>
+            <collection type="dataset">
+                <name type="primary">
+                    <namePart>(AUTestingRecords) Reverse Relationships Internal Related Object "describes"</namePart>
+                </name>
+                <description type="brief">
+                    &amp;lt;p&amp;gt;This dataset contains water level well data for the Glenmore Park, New South Wales,
+                    Australia. Data is collected from the following sites - Englewood (GW075071) - Thunderdome
+                    (GW075072) - Lakeside (GW075073) - Glengarry (GW075074) - Blue Hills Oval (GW075075) - Wetlands 2
+                    (GW075084) - Wetlands 3 (GW075085) - Nada (GW075087) Data was collected using Solinst Junior
+                    levellogger data loggers and YSI 6600 data sonde. High Performance Liquid Chromatography (HPLC),
+                    Inductively Coupled Plasma Atomic Emission Spectroscopy (ICP-AES), and Picarro Cavity Ring-Down
+                    Spectroscopy (CRDS) was used for chemical and isotope analysis. This data was collected between July
+                    2011 and July 2013 to study and develop a conceptual model of shallow groundwater in Western Sydney
+                    which explains the observed geochemistry, the source of the groundwater, and the recharge and
+                    discharge of the groundwater. This dataset and associated research was funded by the New South Wales
+                    Department of Primary Industry&amp;lt;/p&amp;gt;
+                </description>
+                <description type="rights">
+                    &amp;lt;p&amp;gt;Make research data accessible to individuals upon specific agreement with the
+                    researcher supplying the data&amp;lt;/p&amp;gt;
+                </description>
+                <identifier type="local">dataset-25AUT</identifier>
+                <location>
+                    <address>
+                        <physical type="streetAddress">
+                            <addressPart type="addressLine">ATP - The Biomedical Building</addressPart>
+                            <addressPart type="addressLine">1 Central Ave, ATP, Eveleigh</addressPart>
+                            <addressPart type="suburbOrPlaceOrLocality">EVELEIGH</addressPart>
+                            <addressPart type="stateOrTerritory">NSW</addressPart>
+                            <addressPart type="postCode">1430</addressPart>
+                            <addressPart type="country">AUSTRALIA</addressPart>
+                        </physical>
+                    </address>
+                </location>
+                <relatedObject>
+                    <key>AUTestingRecordsReverseRelationshipsCollection1</key>
+                    <relation type="describes"/>
+                </relatedObject>
+                <subject type="anzsrc-for">040603</subject>
+                <subject type="anzsrc-for">040607</subject>
+                <subject type="anzsrc-for">070100</subject>
+            </collection>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordscu.edu.asdfd33d3</key>
+            <originatingSource>
+                http://researchdata.ands.org.au/registry/orca/register_my_data
+            </originatingSource>
+            <collection dateAccessioned="2013-02-19T00:00:00Z" dateModified="2013-02-19T00:00:00Z" type="collection">
+                <name type="primary">
+                    <namePart type="">(AUTestingRecords) Collection directly linked to 1 person, linked reverse to 2
+                        persons in the same data source and 3 from an external data source.
+                    </namePart>
+                </name>
+                <description type="full">
+                    &amp;lt;p&amp;gt; A Visual Representation of Music &amp; Aural Representation of Image:&amp;lt;/p&amp;gt;
+                    &amp;lt;p&amp;gt; The&amp;nbsp;&amp;lt;em&amp;gt;Intermedia Frottage&amp;nbsp;&amp;lt;/em&amp;gt;collection
+                    documents the development of compositional method for using graphic synthesis techniques to create
+                    sounds from images, and images from sounds. The products of these processes are then layered and
+                    arranged in cohesive, meaningful combinations. Moving back-and-forth between the two mediums in this
+                    dynamic interaction, a narrative interplay develops, connecting the materials created. Together with
+                    the sound compositions, the canvases and artists&amp;rsquo; scorebooks tell this story.&amp;nbsp;&amp;lt;/p&amp;gt;
+                    &amp;lt;p&amp;gt; The collection consists of:&amp;lt;/p&amp;gt; &amp;lt;ol&amp;gt; &amp;lt;li&amp;gt;
+                    200pp. exegesis, text with 48 coloured figures,&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; 14-track CD
+                    sound recording,&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; Exhibition collection of 6 artists books and
+                    10 giclee (digital print) canvases,&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; DVD of images exhibition
+                    canvases and artists books,&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; Exhibition copies of 14-track
+                    audio CD.&amp;lt;/li&amp;gt; &amp;lt;/ol&amp;gt; &amp;lt;p&amp;gt; The collection represents the
+                    complete body of work submitted by Melissa Cary to complete her PhD. The collection was exhibited at
+                    the Southern Cross University, NEXT Gallery as an installation of visual artworks accompanied by
+                    headphone listening stations with copies of the audio CD.&amp;lt;/p&amp;gt;
+                </description>
+                <rights>
+                    <rightsStatement>
+                        Data associated with this collection remain the property of Melissa Carey. This data is only
+                        available for analysis and/or publication with the permission of the owner.
+                    </rightsStatement>
+                    <accessRights>
+                        For permission to access this collection please contact Melissa Carey.
+                    </accessRights>
+                </rights>
+                <identifier type="local">scu.edu.au/art-001AUTdl34bbb</identifier>
+                <location>
+                    <address>
+                        <electronic type="email">
+                            <value>mcarey@scu.edu.au</value>
+                        </electronic>
+                        <physical type="postalAddress">
+                            <addressPart type="text">
+                                R Block, Division of Research, Southern Cross University Military Road East Lismore New
+                                South Wales Australia 2480
+                            </addressPart>
+                        </physical>
+                    </address>
+                </location>
+                <relatedObject>
+                    <key>AUTestingRecordsnhmrc.gov.au/person/Ddfdsf0716</key>
+                    <relation type="hasCollector"/>
+                </relatedObject>
+                <subject type="anzsrc-for">1904</subject>
+                <subject type="anzsrc-for">1905</subject>
+                <coverage>
+                    <temporal>
+                        <date type="dateFrom" dateFormat="W3CDTF">2003-01-21T00:00:00Z</date>
+                        <date type="dateTo" dateFormat="W3CDTF">2007-02-21T00:00:00Z</date>
+                    </temporal>
+                    <temporal>
+                        <date type="dateFrom" dateFormat="W3CDTF">2008-01-11T00:00:00Z</date>
+                        <date type="dateTo" dateFormat="W3CDTF">2009-02-11T00:00:00Z</date>
+                    </temporal>
+                </coverage>
+                <citationInfo>
+                    <fullCitation style="Harvard">
+                        Carey, M. 2007 "Intermedia Frottage - An Arual representation of images".
+                    </fullCitation>
+                </citationInfo>
+                <relatedInfo type="publication">
+                    <title>Related Info Title</title>
+                    <identifier type="doi">10.123123123</identifier>
+                    <relation type="hasPart"/>
+                </relatedInfo>
+                <relatedInfo type="website">
+                    <title>Stuff</title>
+                    <identifier type="uri">http://www.smithy.com</identifier>
+                    <relation type="hasAssociationWith">
+                        <description>A website relationship</description>
+                    </relation>
+                </relatedInfo>
+                <dates type="dc.available">
+                    <date type="dateFrom" dateFormat="W3CDTF">2003-04-17T00:00:00Z</date>
+                </dates>
+                <dates type="dc.dateSubmitted">
+                    <date type="dateFrom" dateFormat="W3CDTF">2003-05-21T00:00:00Z</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2007-02-21T00:00:00Z</date>
+                </dates>
+            </collection>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsnhmrc.gov.au/person/DW0007881</key>
+            <originatingSource type="">nhmrc.gov.au</originatingSource>
+            <party type="person">
+                <name type="primary">
+                    <namePart type="title">A/Pr</namePart>
+                    <namePart type="family">Hime</namePart>
+                    <namePart type="given">Gary</namePart>
+                    <namePart type="given">R</namePart>
+                </name>
+                <identifier type="AU-ANL:PEAU">nla.Gary.R2343</identifier>
+                <relatedObject>
+                    <key>AUTestingRecordsRelationshipsCollection3</key>
+                    <relation type="isOwnerOf"/>
+                </relatedObject>
+                <relatedObject>
+                    <key>AUTestingRecordscu.edu.asdfd33d3</key>
+                    <relation type="isOwnerOf"/>
+                </relatedObject>
+            </party>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsnhmrc.gov.au/person/DW0007878</key>
+            <originatingSource type="">nhmrc.gov.au</originatingSource>
+            <party type="person">
+                <name type="primary">
+                    <namePart type="title">Prof</namePart>
+                    <namePart type="family">Hillis</namePart>
+                    <namePart type="given">Graham</namePart>
+                    <namePart type="given">S</namePart>
+                </name>
+                <location>
+                    <address>
+                        <physical type="streetAddress">
+                            <addressPart type="addressLine">235 Example Street</addressPart>
+                            <addressPart type="addressLine">Example City Example Postcode 23143</addressPart>
+                        </physical>
+                        <electronic type="email">
+                            <value>example@email.com</value>
+                        </electronic>
+                    </address>
+                </location>
+                <relatedObject>
+                    <key>AUTestingRecordsRelationshipsCollection3</key>
+                    <relation type="hasAssociationWith"/>
+                </relatedObject>
+                <relatedObject>
+                    <key>AUTestingRecordscu.edu.asdfd33d3</key>
+                    <relation type="isManagerOf"/>
+                </relatedObject>
+            </party>
+        </registryObject>
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsSubjectsResolutionCollectionISO6391Auto</key>
+            <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+            <collection type="registry">
+                <name type="primary">
+                    <namePart>(AUTestingRecords) Collection To Test ISO639-3 Subject Resolution Where Value is Notation
+                        Only type=iso639-3 value=aag aah aai aau aaw abk abm abs abt abz
+                    </namePart>
+                </name>
+                <description type="brief">Expected subject values:
+                    aag = Ambrak language
+                    aah = Arapesh, Abu'
+                    aai = Arifama-Miniafia
+                    aau = Abau language
+                    aaw = Solong
+                    abk = Abkhaz language
+                    abm = Abanyom language
+                    abs = Malay, Ambonese
+                    abt = Abelam language
+                    abz = Abui language
+                </description>
+                <subject type="iso639-3">aag</subject>
+                <subject type="iso639-3">aah</subject>
+                <subject type="iso639-3">aai</subject>
+                <subject type="iso639-3">aau</subject>
+                <subject type="iso639-3">aaw</subject>
+                <subject type="iso639-3">abk</subject>
+                <subject type="iso639-3">abm</subject>
+                <subject type="iso639-3">abs</subject>
+                <subject type="iso639-3">abt</subject>
+                <subject type="iso639-3">abz</subject>
+            </collection>
+        </registryObject>
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsSubjectsResolutionCollectionISO6494Auto</key>
+            <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+            <collection type="registry">
+                <name type="primary">
+                    <namePart>(AUTestingRecords) Collection To Test ISO639-3 Subject Resolution Where Value is Notation
+                        Only type=iso639-3 value=zlm zmc zsm zsu zul zxx
+                    </namePart>
+                </name>
+                <description type="brief">Expected subject values:
+                    zlm = Malay (individual language)
+                    zmc = Margany
+                    zsm = Malay, Standard
+                    zsu = Sukurum
+                    zul = Zulu language
+                    zxx = No linguistic content
+                    zxz = zxz (should not be able to resolve)
+                </description>
+                <subject type="iso639-3">zlm</subject>
+                <subject type="iso639-3">zmc</subject>
+                <subject type="iso639-3">zsm</subject>
+                <subject type="iso639-3">zsu</subject>
+                <subject type="iso639-3">zul</subject>
+                <subject type="iso639-3">zxx</subject>
+                <subject type="iso639-3">zxz</subject>
+            </collection>
+        </registryObject>
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsSubjectsResolutionCollectionISO6495Auto</key>
+            <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+            <collection type="registry">
+                <name type="primary">
+                    <namePart>(AUTestingRecords) Collection To Test ISO639-3 Subject Resolution Where Value is Notation
+                        Only type=local value=zlm zmc xps
+                    </namePart>
+                </name>
+                <description type="brief">Expected subject values:
+                    zlm = zlm
+                    zmc = zmc
+                    xps = xps
+
+                </description>
+                <subject type="local">zlm</subject>
+                <subject type="local">zmc</subject>
+                <subject type="local">xps</subject>
+            </collection>
+        </registryObject>
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsSubjectsResolutionCollectionNotaion1</key>
+            <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+            <collection type="registry">
+                <name type="primary">
+                    <namePart>(AUTestingRecords) Collection To Test ANZSRC Subject Resolution Where Value is Notation
+                        Only type=anzsrc value=01
+                    </namePart>
+                </name>
+                <description type="brief">Expected subject values:
+                    01 = MATHEMATICAL SCIENCES
+                </description>
+                <subject type="anzsrc">01</subject>
+            </collection>
+        </registryObject>
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsSubjectsResolutionCollectionNotaion2Auto</key>
+            <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+            <collection type="registry">
+                <name type="primary">
+                    <namePart>(AUTestingRecords) Collection To Test ANZSRC Subject Resolution Where Value is Notation
+                        Only type=anzsrc value=05, 010201,010206
+                    </namePart>
+                </name>
+                <description type="brief">Expected subject values:
+                    05 = ENVIRONMENTAL SCIENCES
+                    010201 = Approximation Theory and Asymptotic Methods
+                    010206 = Operations Research
+                    0102 = APPLIED MATHEMATICS
+                    01 = MATHEMATICAL SCIENCES
+                </description>
+                <subject type="anzsrc">05</subject>
+                <subject type="anzsrc">010201</subject>
+                <subject type="anzsrc">010206</subject>
+            </collection>
+        </registryObject>
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsSubjectsResolutionCollectionNotaion2aAuto</key>
+            <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+            <collection type="registry">
+                <name type="primary">
+                    <namePart>(AUTestingRecords) Collection To Test ANZSRC Subject Resolution Where Value is Notation
+                        Only type=anzsrc-for value=05, 010201,010206, 11 000000
+                    </namePart>
+                </name>
+                <description type="brief">Expected subject values:
+                    05 = ENVIRONMENTAL SCIENCES
+                    010201 = Approximation Theory and Asymptotic Methods
+                    010206 = Operations Research
+                    0102 = APPLIED MATHEMATICS
+                    01 = MATHEMATICAL SCIENCES
+                    11 000000 = 11 000000
+                </description>
+                <subject type="anzsrc-for">05</subject>
+                <subject type="anzsrc-for">010201</subject>
+                <subject type="anzsrc-for">010206</subject>
+                <subject type="anzsrc-for">11 000000</subject>
+            </collection>
+        </registryObject>
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsSubjectsResolutionCollectionNotaion25Auto</key>
+            <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+            <collection type="registry">
+                <name type="primary">
+                    <namePart>(AUTestingRecords) Collection To Test ANZSRC SEO Subject Resolution Where Value is
+                        Notation Only type=local value=8201,960304
+                    </namePart>
+                </name>
+                <description type="brief">Expected subject values:
+                    8201 = FORESTRY
+                    82 = PLANT PRODUCTION AND PLANT PRIMARY PRODUCTS
+                    960304 = Climate Variability (excl. Social Impacts)
+                    9603 = CLIMATE AND CLIMATE CHANGE
+                    96 = ENVIRONMENT
+                </description>
+                <subject type="anzsrc-seo">8201</subject>
+                <subject type="anzsrc-seo">960304</subject>
+            </collection>
+        </registryObject>
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsSubjectsResolutionCollectionNotaion27</key>
+            <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+            <collection type="registry">
+                <name type="primary">
+                    <namePart>(AUTestingRecords) Collection To Test ANZSRC Subject Resolution Where Value is Notation
+                        Only type=local value=(1, 03,0502,9401,11 000000, 1901
+                    </namePart>
+                </name>
+                <description type="brief">Expected subject values:
+                    (1 = (1
+                    03 = 03
+                    0502 = 0502
+                    9401 = 9401
+                    11 000000 = 11 000000
+                    1901 = 1901
+                </description>
+                <subject type="local">(1</subject>
+                <subject type="local">03</subject>
+                <subject type="local">0502</subject>
+                <subject type="local">9401</subject>
+                <subject type="local">1901</subject>
+                <subject type="local">11 000000</subject>
+            </collection>
+        </registryObject>
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsSubjectsResolutionCollection3Auto</key>
+            <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+            <collection type="registry">
+                <name type="primary">
+                    <namePart>(AUTestingRecords) Collection To Test ANZSRC Subject Resolution Where Value is Both
+                        Notation and Label type=anzsrc value=0806 Information Services, 0105 mathematical physics,
+                        210201 Archival, Repository and Related Studies, 8602 Dairy products, 21 ARCHAEOLOGY, 1901 to
+                        2006
+                    </namePart>
+                </name>
+                <description type="brief">Expected subject values:
+                    0806 Information Services = 0806 Information Services
+                    0105 mathematical physics = MATHEMATICAL PHYSICS
+                    01 = MATHEMATICAL SCIENCES
+                    210201 Archival, Repository and Related Studies = Archival, Repository and Related Studies
+                    2102 = CURATORIAL AND RELATED STUDIES
+                    21 = HISTORY AND ARCHAEOLOGY
+                    8602 Dairy products = DAIRY PRODUCTS
+                    86 = MANUFACTURING
+                    21 ARCHAEOLOGY = 21 ARCHAEOLOGY
+                    1901 to 2006 = 1901 to 2006
+                </description>
+                <subject type="anzsrc">0806 Information Services</subject>
+                <subject type="anzsrc">0105 mathematical physics</subject>
+                <subject type="anzsrc">210201 Archival, Repository and Related Studies</subject>
+                <subject type="anzsrc">8602 Dairy products</subject>
+                <subject type="anzsrc">21 ARCHAEOLOGY</subject>
+                <subject type="anzsrc">1901 to 2006</subject>
+            </collection>
+        </registryObject>
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsSubjectsResolutionCollection3aAuto</key>
+            <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+            <collection type="registry">
+                <name type="primary">
+                    <namePart>(AUTestingRecords) Collection To Test ANZSRC Subject Resolution Where Value is Both
+                        Notation and Label type=local value=0806 Information Services, 0105 mathematical physics, 210201
+                        Archival, Repository and Related Studies, 8602 Dairy products, 21 ARCHAEOLOGY, 1901 to 2006
+                    </namePart>
+                </name>
+                <description type="brief">Expected subject values:
+                    0806 Information Services = 0806 Information Services
+                    0105 mathematical physics = MATHEMATICAL PHYSICS
+                    01 = MATHEMATICAL SCIENCES
+                    210201 Archival, Repository and Related Studies = Archival, Repository and Related Studies
+                    2102 = CURATORIAL AND RELATED STUDIES
+                    21 = HISTORY AND ARCHAEOLOGY
+                    8602 Dairy products = DAIRY PRODUCTS
+                    86 = MANUFACTURING
+                    21 ARCHAEOLOGY = 21 ARCHAEOLOGY
+                    1901 to 2006 = 1901 to 2006
+                </description>
+                <subject type="local">0806 Information Services</subject>
+                <subject type="local">0105 mathematical physics</subject>
+                <subject type="local">210201 Archival, Repository and Related Studies</subject>
+                <subject type="local">8602 Dairy products</subject>
+                <subject type="local">21 ARCHAEOLOGY</subject>
+                <subject type="local">1901 to 2006</subject>
+            </collection>
+        </registryObject>
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsSubjectsResolutionGCMDCollection397Auto</key>
+            <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+            <collection type="registry">
+                <name type="primary">
+                    <namePart>(AUTestingRecords) Collection To Test GCMD Subject Resolution type=gcmd Multiple subjects
+                        where values are &gt; delimited
+                    </namePart>
+                </name>
+                <location>
+                    <address>
+                        <electronic type="url">
+                            <value>https://cityfutures.be.unsw.edu.au/</value>
+                        </electronic>
+                        <electronic type="email">
+                            <value>info@info.com</value>
+                        </electronic>
+                        <physical type="postalAddress">
+                            <addressPart type="addressLine">UNSW Built Environment</addressPart>
+                            <addressPart type="addressLine">Sydney NSW 2052</addressPart>
+                            <addressPart type="addressLine">Australia</addressPart>
+                        </physical>
+                        <physical type="streetAddress">
+                            <addressPart type="addressLine">Level 3, West Wing</addressPart>
+                            <addressPart type="addressLine">Red Centre Building</addressPart>
+                            <addressPart type="addressLine">Kensington Campus</addressPart>
+                            <addressPart type="addressLine">Sydney, Australia</addressPart>
+                        </physical>
+                    </address>
+                </location>
+                <description type="brief">Expected subject values:
+                    EARTH SCIENCE
+                    ATMOSPHERE
+                    ATMOSPHERIC RADIATION
+                    ATMOSPHERIC EMITTED RADIATION
+                    Biosphere
+                    Ecological Dynamics
+                    Fire Ecology
+                    CAML &gt; CENSUS OF ANTARCTIC MARINE LIFE
+                    CONTINENT &gt; ANTARCTICA &gt; Brattstrand Bluff
+                    EARTH SCIENCE &gt; ATMOSPHERE &gt; AEROSOLS &gt; EMISSIONS
+                    AIR QUALITY
+                    EMISSIONS
+                </description>
+                <subject type="gcmd">EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; ATMOSPHERIC EMITTED
+                    RADIATION
+                </subject>
+                <subject type="gcmd">Biosphere &gt; Ecological Dynamics &gt; Fire Ecology</subject>
+                <subject type="gcmd">CAML &gt; CENSUS OF ANTARCTIC MARINE LIFE</subject>
+                <subject type="gcmd">CONTINENT &gt; ANTARCTICA &gt; Brattstrand Bluff</subject>
+                <subject type="gcmd">EARTH SCIENCE &gt; ATMOSPHERE &gt; AEROSOLS &gt; EMISSIONS</subject>
+            </collection>
+        </registryObject>
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsSubjectsResolutionGCMDCollection397aAuto</key>
+            <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+            <collection type="registry">
+                <name type="primary">
+                    <namePart>(AUTestingRecords) Collection To Test GCMD Subject Resolution type=local Multiple subjects
+                        where values are &gt; delimited
+                    </namePart>
+                </name>
+                <description type="brief">Expected subject values:
+                    EARTH SCIENCE
+                    ATMOSPHERE
+                    ATMOSPHERIC RADIATION
+                    ATMOSPHERIC EMITTED RADIATION
+                    Biosphere
+                    Ecological Dynamics
+                    Fire Ecology
+                    CAML &gt; CENSUS OF ANTARCTIC MARINE LIFE
+                    CONTINENT &gt; ANTARCTICA &gt; Brattstrand Bluff
+                    EARTH SCIENCE &gt; ATMOSPHERE &gt; AEROSOLS &gt; EMISSIONS
+                    AIR QUALITY
+                    EMISSIONS
+                </description>
+                <subject type="local">EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; ATMOSPHERIC EMITTED
+                    RADIATION
+                </subject>
+                <subject type="local">Biosphere &gt; Ecological Dynamics &gt; Fire Ecology</subject>
+                <subject type="local">CAML &gt; CENSUS OF ANTARCTIC MARINE LIFE</subject>
+                <subject type="local">CONTINENT &gt; ANTARCTICA &gt; Brattstrand Bluff</subject>
+                <subject type="local">EARTH SCIENCE &gt; ATMOSPHERE &gt; AEROSOLS &gt; EMISSIONS</subject>
+            </collection>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsSubjectsResolutionGCMDCollection1550Auto</key>
+            <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+            <collection type="registry">
+                <name type="primary">
+                    <namePart>(AUTestingRecords) Collection To Test GCMD Subject Resolution type=gcmd Multiple subjects
+                        where values are | delimited
+                    </namePart>
+                </name>
+                <description type="brief">Expected subject values:
+                    Earth Science | Land Surface | Land Temperature | Skin Temperature
+                    Earth Science
+                    Human Dimensions
+                    Habitat Conversion/Fragmentation
+                    Desertification
+                    Oceans
+                    Ocean Chemistry
+                    Carbon
+                    Oceans | Salty
+                    Isotopes
+                </description>
+                <subject type="gcmd">Earth Science | Land Surface | Land Temperature | Skin Temperature</subject>
+                <subject type="gcmd">Earth Science | Human Dimensions | Habitat Conversion/Fragmentation |
+                    Desertification
+                </subject>
+                <subject type="gcmd">Ocean Chemistry | Carbon</subject>
+                <subject type="gcmd">Oceans | Salty</subject>
+                <subject type="gcmd">Earth Science | Climate Indicators | Land Records | Isotopes</subject>
+            </collection>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsSubjectsResolutionGCMDCollection1550aAuto</key>
+            <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+            <collection type="registry">
+                <name type="primary">
+                    <namePart>(AUTestingRecords) Collection To Test GCMD Subject Resolution type=local Multiple subjects
+                        where values are | delimited
+                    </namePart>
+                </name>
+                <description type="brief">Expected subject values:
+                    Earth Science | Land Surface | Land Temperature | Skin Temperature
+                    Earth Science
+                    Human Dimensions
+                    Habitat Conversion/Fragmentation
+                    Desertification
+                    Oceans
+                    Ocean Chemistry
+                    Carbon
+                    Oceans | Salty
+                </description>
+                <subject type="local">Earth Science | Land Surface | Land Temperature | Skin Temperature</subject>
+                <subject type="local">Earth Science | Human Dimensions | Habitat Conversion/Fragmentation |
+                    Desertification
+                </subject>
+                <subject type="local">Ocean Chemistry | Carbon</subject>
+                <subject type="local">Oceans | Salty</subject>
+            </collection>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsSubjectsResolutionGCMDCollection4447</key>
+            <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+            <collection type="registry">
+                <name type="primary">
+                    <namePart>(AUTestingRecords) Collection To Test GCMD Subject Resolution type=gcmd value=TRACE
+                        ELEMENTS, Water Pressure, Dairy Product
+                    </namePart>
+                </name>
+                <description type="brief">Expected subject values:
+                    TRACE ELEMENTS
+                    ELEMENTS
+                    OCEAN CHEMISTRY
+                    OCEANS
+                    EARTH SCIENCE
+                    Water Pressure
+                    Ocean Pressure
+                    Dairy Product
+                </description>
+                <subject type="gcmd">TRACE ELEMENTS</subject>
+                <subject type="gcmd">Water Pressure</subject>
+                <subject type="gcmd">Dairy Product</subject>
+            </collection>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsSubjectsResolutionGCMDCollection4447a</key>
+            <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+            <collection type="registry">
+                <name type="primary">
+                    <namePart>(AUTestingRecords) Collection To Test GCMD Subject Resolution type=local value=TRACE
+                        ELEMENTS, Water Pressure, Dairy Product
+                    </namePart>
+                </name>
+                <description type="brief">Expected subject values:
+                    TRACE ELEMENTS
+                    Water Pressure
+                    Dairy Product
+                </description>
+                <subject type="local">TRACE ELEMENTS</subject>
+                <subject type="local">Water Pressure</subject>
+                <subject type="local">Dairy Product</subject>
+            </collection>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsSubjectsResolutionCollection4478</key>
+            <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+            <collection type="registry">
+                <name type="primary">
+                    <namePart>(AUTestingRecords) Collection To Test Subject Display With Special Chars</namePart>
+                </name>
+                <description type="brief">Expected subject values:
+                    Early Childhood Education (excl. Māori)
+                    EDUCATION SYSTEMS
+                    EDUCATION
+                    Taonga (Māori Artefacts)
+                    HERITAGE
+                    CULTURAL UNDERSTANDING
+                    % of students
+                    fötter
+                </description>
+                <subject type="anzsrc-for">130102</subject>
+                <subject type="anzsrc-seo">950309</subject>
+                <subject type="local">% of students</subject>
+                <subject type="local">fötter</subject>
+            </collection>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsSubjectsResolutionCollection4479</key>
+            <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+            <collection type="registry">
+                <name type="primary">
+                    <namePart>(AUTestingRecords) Collection To Test ANZSRC Subject Resolution Where Value Label only
+                    </namePart>
+                </name>
+                <description type="brief">Expected subject values:
+                    ceramics = ceramics
+                    111714 = mental health
+                    1117 = PUBLIC HEALTH AND HEALTH SERVICES
+                    11 = MEDICAL AND HEALTH SCIENCES
+                    9610 = NATURAL HAZARDS
+                    96 = ENVIRONMENT
+                </description>
+                <subject type="anzsrc">ceramics</subject>
+                <subject type="anzsrc-for">mental health</subject>
+                <subject type="anzsrc-seo">NATURAL HAZARDS</subject>
+            </collection>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsAltNameSS84d1a</key>
+            <originatingSource>Indian National Centre for Ocean Information Services (INCOIS)</originatingSource>
+            <collection type="dataset">
+                <identifier type="uri">http://imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d SS84d1a</identifier>
+                <name type="primary">
+                    <namePart>(AUTestingRecords) Aleksandra I︠U︡rʹevna</namePart>
+                </name>
+                <name type="alternative">
+                    <namePart>Aikhenvald</namePart>
+                    <namePart>Alexandra</namePart>
+                    <namePart>Y</namePart>
+                </name>
+                <name type="alternative">
+                    <namePart type="family">Aikhenvald</namePart>
+                    <namePart>Alex</namePart>
+                </name>
+                <name type="alternative">
+                    <namePart type="family">Aikhenvald</namePart>
+                    <namePart>Lex Yurievna</namePart>
+                </name>
+                <dates type="created">
+                    <date type="dateFrom" dateFormat="W3CDTF">2014-09-09T06:10:16</date>
+                </dates>
+
+                <subject type="local">oceans</subject>
+                <subject type="local">Oceans | Ocean Temperature | Water Temperature</subject>
+                <subject type="local">Oceans | Salinity/density | Salinity</subject>
+                <subject type="local">Oceans | Ocean Pressure | Water Pressure</subject>
+                <subject type="local">Profiling Float | Autonomous Profiling Float</subject>
+                <description type="full">This dataset contains temperature, salinity and pressure data for all profiles
+                    of the Argo float 2901092 managed by the Indian National Centre for Ocean Information Services
+                    (INCOIS).Argo is a major international collaborative project to observe the world's oceans and help
+                    scientists understand ocean processes and the ocean's roles in climate. The data collected also
+                    improves our ability to forecast climate and ocean conditions. The float drift at depth of between 1
+                    and 2 km. Every ten days each float ascends to the surface, measuring temperature and salinity as it
+                    rises. This data is transmitted to satellites along with the float's position. The float then dives
+                    and starts a new cycle. The Argo float, WMO 2901092 was first deployed on the 2008-08-24T18:00:00 at
+                    launch location (Latitude : -1.0 ; Longitude : 81.53). The variables available for this Argo float
+                    are : Temperature, Practical Salinity and Pressure. The last location of the Argo float was
+                    transmitted on the 2013-12-08T14:23:56 at the following location (Latitude : -5.073 ; Longitude :
+                    102.708).
+                </description>
+                <coverage>
+                    <spatial type="iso19139dcmiBox">northlimit=0.856; southlimit=-6.3; westlimit=80.355;
+                        eastLimit=104.202; projection=WGS84
+                    </spatial>
+                    <spatial type="text">northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                        projection=WGS84
+                    </spatial>
+                </coverage>
+                <coverage>
+                    <temporal>
+                        <date type="dateFrom" dateFormat="W3CDTF">2008-08-26T00:23:32</date>
+                        <date type="dateTo" dateFormat="W3CDTF">2013-12-08T14:23:56</date>
+                    </temporal>
+                </coverage>
+                <relatedInfo type="website">
+                    <identifier type="uri">http://thredds.aodn.org.au/thddddac/incois/2901092/catalog.html AUTbx1
+                    </identifier>
+                    <relation type="hasAssociationWith"/>
+                    <title>Data available via the IMOS OPeNDAP server</title>
+                </relatedInfo>
+                <rights>
+                    <rightsStatement>Argo Data (Temperature and Salinity profiles) are freely available without any
+                        restriction, via the internet Global Data Centres (GDACs) and the GTS of WMO. Please support
+                        Argo by acknowledging your use of Argo data with the following words: "These data where
+                        collected and made freely available by the International Argo project and the national
+                        initiatives that contribute to it. (http://www.argo.net). Argo is a pilot programme of the
+                        Global Ocean Observing System."
+                    </rightsStatement>
+                </rights>
+                <citationInfo>
+                    <citationMetadata>
+                        <identifier type="uri">http://imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d SS84d1a
+                        </identifier>
+                        <title>INCOIS - Argo float, WMO 2901092</title>
+                        <date type="created">2014</date>
+                        <contributor>
+                            <namePart>Indian National Centre for Ocean Information Services (INCOIS)</namePart>
+                        </contributor>
+                        <publisher>Integrated Marine Observing System (IMOS)</publisher>
+                    </citationMetadata>
+                </citationInfo>
+            </collection>
+        </registryObject>
+
+        <registryObject group="AUTestingRecords">
+            <key>AUTestingRecordsAbrAltName5584d12</key>
+            <originatingSource>Indian National Centre for Ocean Information Services (INCOIS)</originatingSource>
+            <collection type="dataset">
+                <identifier type="uri">http://imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d AUTbx112</identifier>
+                <name type="alternative">
+                    <namePart>(AUTestingRecords) Alternative Name</namePart>
+                </name>
+                <name type="abbreviated">
+                    <namePart>(AUTestingRecords) Abbreviated Name</namePart>
+                </name>
+                <dates type="created">
+                    <date type="dateFrom" dateFormat="W3CDTF">2014-09-09T06:10:16</date>
+                </dates>
+                <location>
+                    <address>
+                        <electronic type="url">
+                            <value>
+                                http://imosmest.aodn.org.au:80/geonetwork/srv/en/metadata.show?uuid=86ec0cee-0620-3724-963a-d0432dd
+                            </value>
+                        </electronic>
+                    </address>
+                </location>
+                <subject type="local">oceans</subject>
+                <subject type="local">Oceans | Ocean Temperature | Water Temperature</subject>
+                <subject type="local">Oceans | Salinity/density | Salinity</subject>
+                <subject type="local">Oceans | Ocean Pressure | Water Pressure</subject>
+                <subject type="local">Profiling Float | Autonomous Profiling Float</subject>
+                <description type="full">This dataset contains temperature, salinity and pressure data for all profiles
+                    of the Argo float 2901092 managed by the Indian National Centre for Ocean Information Services
+                    (INCOIS).Argo is a major international collaborative project to observe the world's oceans and help
+                    scientists understand ocean processes and the ocean's roles in climate. The data collected also
+                    improves our ability to forecast climate and ocean conditions. The float drift at depth of between 1
+                    and 2 km. Every ten days each float ascends to the surface, measuring temperature and salinity as it
+                    rises. This data is transmitted to satellites along with the float's position. The float then dives
+                    and starts a new cycle. The Argo float, WMO 2901092 was first deployed on the 2008-08-24T18:00:00 at
+                    launch location (Latitude : -1.0 ; Longitude : 81.53). The variables available for this Argo float
+                    are : Temperature, Practical Salinity and Pressure. The last location of the Argo float was
+                    transmitted on the 2013-12-08T14:23:56 at the following location (Latitude : -5.073 ; Longitude :
+                    102.708).
+                </description>
+                <coverage>
+                    <spatial type="iso19139dcmiBox">northlimit=0.856; southlimit=-6.3; westlimit=80.355;
+                        eastLimit=104.202; projection=WGS84
+                    </spatial>
+                    <spatial type="text">northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                        projection=WGS84
+                    </spatial>
+                </coverage>
+                <coverage>
+                    <temporal>
+                        <date type="dateFrom" dateFormat="W3CDTF">2008-08-26T00:23:32</date>
+                        <date type="dateTo" dateFormat="W3CDTF">2013-12-08T14:23:56</date>
+                    </temporal>
+                </coverage>
+                <relatedInfo type="website">
+                    <identifier type="uri">http://thredds.aodn.org.au/thddddac/incois/2901092/catalog.html AUTbx1
+                    </identifier>
+                    <relation type="hasAssociationWith"/>
+                    <title>Data available via the IMOS OPeNDAP server</title>
+                </relatedInfo>
+                <rights>
+                    <rightsStatement>Argo Data (Temperature and Salinity profiles) are freely available without any
+                        restriction, via the internet Global Data Centres (GDACs) and the GTS of WMO. Please support
+                        Argo by acknowledging your use of Argo data with the following words: "These data where
+                        collected and made freely available by the International Argo project and the national
+                        initiatives that contribute to it. (http://www.argo.net). Argo is a pilot programme of the
+                        Global Ocean Observing System."
+                    </rightsStatement>
+                </rights>
+                <citationInfo>
+                    <citationMetadata>
+                        <identifier type="uri">http://imosmeddn.org.au:80/gddetadata.shosdfsdfsdfsAUTbx1</identifier>
+                        <title>INCOIS - Argo float, WMO 2901092</title>
+                        <date type="created">2014</date>
+                        <contributor>
+                            <namePart>Indian National Centre for Ocean Information Services (INCOIS)</namePart>
+                        </contributor>
+                        <publisher>Integrated Marine Observing System (IMOS)</publisher>
+                    </citationMetadata>
+                </citationInfo>
+            </collection>
+        </registryObject>
+
+    </registryObjects>

@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects"
+                 xmlns:extRif="http://ands.org.au/standards/rif-cs/extendedRegistryObjects"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTestingRecords3DCIPartyRecords1</key>
+        <originatingSource>AUTestingRecords3</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="title">Mr</namePart>
+                <namePart type="family">DCI</namePart>
+                <namePart type="given">Party</namePart>
+                <namePart type="given">Principal Investigator</namePart>
+            </name>
+            <identifier type="uri">http://scholixParties.com/DCIPartyRecords1</identifier>
+            <relatedObject>
+                <key>AUTestingRecords2DCIRecords14</key>
+                <relation type="isPrincipalInvestigatorOf"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecords2DCIRecords46</key>
+                <relation type="isPrincipalInvestigatorOf"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecords2DCIRecords10</key>
+                <relation type="isCollectorOf"/>
+            </relatedObject>
+        </party>
+    </registryObject>
+
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTestingRecords3DCIPartyRecords2</key>
+        <originatingSource>AUTestingRecords3</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart>Mrs DCI Party Author</namePart>
+            </name>
+            <identifier type="uri">http://dciParties.com/DCIPartyRecords2</identifier>
+            <relatedObject>
+                <key>AUTestingRecords2DCIRecords20</key>
+                <relation type="author"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecords2DCIRecords25</key>
+                <relation type="author"/>
+            </relatedObject>
+            <relatedInfo type="collection">
+                <identifier type="local">AODN:a439fbc6-9150-470b-a8db-1a8fd4DCIadsfdasdf336d2AUT</identifier>
+                <relation type="ownerOf"/>
+            </relatedInfo>
+            <relatedObject>
+                <key>AUTestingRecords2DCIRecords10</key>
+                <relation type="isCollectorOf"/>
+            </relatedObject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTestingRecords3DCIPartyRecords3</key>
+        <originatingSource>AUTestingRecords3</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart>Mrs DCI Party co Investigator</namePart>
+            </name>
+            <identifier type="uri">http://scholixParties.com/DCIPartyRecords3</identifier>
+            <relatedInfo type="collection">
+                <title>(AUTestingRecords2) DCI Source Collection</title>
+                <identifier type="doi">10.1234/00/DCI5622</identifier>
+                <relation type="coInvestigator"/>
+            </relatedInfo>
+            <relatedInfo type="collection">
+                <title>(AUTestingRecords2) DCI Source Collection</title>
+                <identifier type="doi">10.1234/00/DCI5646</identifier>
+                <relation type="coInvestigator"/>
+            </relatedInfo>
+            <relatedObject>
+                <key>AUTestingRecords2DCIRecords45</key>
+                <relation type="coInvestigator"/>
+            </relatedObject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTestingRecords3DCIPartyRecords4</key>
+        <originatingSource>AUTestingRecords3</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="title">Mr</namePart>
+                <namePart type="family">DCI</namePart>
+                <namePart type="given">Party</namePart>
+                <namePart type="given">Owner</namePart>
+            </name>
+            <identifier type="uri">http://scholixParties.com/DCIPartyRecords4</identifier>
+            <relatedInfo type="collection">
+                <title>(AUTestingRecords2) DCI Source Collection</title>
+                <identifier type="doi">10.1234/00/DCI5620</identifier>
+                <relation type="isOwnerOf"/>
+            </relatedInfo>
+            <relatedInfo type="collection">
+                <title>(AUTestingRecords2) DCI Source Collection</title>
+                <identifier type="doi">10.1234/00/DCI5644</identifier>
+                <relation type="isOwnerOf"/>
+            </relatedInfo>
+            <relatedInfo type="collection">
+                <title>(AUTestingRecords2) DCI Source Collection</title>
+                <identifier type="uri">http://ands.scholix.org.au/5625</identifier>
+                <relation type="isOwnerOf"/>
+            </relatedInfo>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTestingRecordsNestedwww.ballarat.edu.au/coll/15a</key>
+        <originatingSource type="">http://researchdata.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="dataset" dateModified="2013-02-04T01:52:49Z" dateAccessioned="2013-01-17T00:00:00Z">
+            <name type="primary">
+                <namePart>(AUTestingRecords3)Darra Ranges ICT survey, 2011</namePart>
+            </name>
+            <name type="alternative">
+                <namePart>(AUTestingRecords)Yarra Range Information Communication Technology survey, 2011</namePart>
+            </name>
+            <description type="brief">&lt;p&gt;Lateral Plains and the University of Ballarat’s Centre for eCommerce and Communications were commissioned by Yarra Ranges Council to undertake research to extend understanding of how better information communication technology (ICT) infrastructure and its use can lead to greater levels of innovation across the municipality.&lt;/p&gt;
+                &lt;p&gt;The online survey  was completed between the period- March, 2011- April, 2011.  275 valid responses were received.&lt;/p&gt;
+                &lt;p&gt;An ICT survey in online and hardcopy formats was used to gather an evidence base to support ICT. This dataset is spatially representing the results of the survey.&lt;/p&gt;</description>
+            <rights>
+                <rightsStatement>Except as set out otherwise in these terms and conditions, you are provided with access to this application only for your personal use and you may not without our written permission on-sell or rebadge information obtained from this web site, or in any way represent that the information is from any source other than Federation University Australia.</rightsStatement>
+                <accessRights>Summary available online. Qualitatitve data may be available by contacting CeCC</accessRights>
+            </rights>
+            <identifier type="uri">     http://researchonline.federation.edu.au:8080/vital/access/HandleResolver/1959.17/420dsfdsf06AUTba1</identifier>
+            <dates type="dc.created">
+                <date type="dateFrom" dateFormat="W3CDTF">2011-04-22T00:00:00Z</date>
+            </dates>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://yarraranges.cecc.com.au/yarra_map.php</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>h.thompson@federation.edu.au</value>
+                    </electronic>
+                </address>
+            </location>
+            <coverage>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">2011-03-18T00:00:00Z</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2011-08-18T00:00:00Z</date>
+                </temporal>
+                <spatial type="kmlPolyCoords">145.690417,-37.735972</spatial>
+            </coverage>
+            <relatedObject>
+                <key>AUTestingRecordsNestedlateralplains.com/gfong</key>
+                <relation type="hasAssociationWith"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedwww.ballarat.edu.au/staff/hethompson</key>
+                <relation type="hasPrincipalInvestigator"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedlateralplains.com</key>
+                <relation type="hasAssociationWith"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedwww.cecc.com</key>
+                <relation type="isManagedBy"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedwww.ballarat.edu.au/act/5</key>
+                <relation type="isOutputOf"/>
+            </relatedObject>
+            <subject type="local">Mobile Phone Coverage</subject>
+            <subject type="local">Internet access</subject>
+            <subject type="local">Telecommunications</subject>
+            <subject type="local">Information Technology</subject>
+            <subject type="anzsrc-for">0805</subject>
+            <subject type="anzsrc-for">0806</subject>
+            <relatedInfo type="publication">
+                <title>Broadband economy Report, 2011</title>
+                <identifier type="uri">http://www.yarraranges.vic.gov.au/files/84ebcaa3-7783-4ee6-a848-a0380124be7a/YRC_Broadband_report_311011_Final.pdfAUTba1</identifier>
+            </relatedInfo>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="handle">http://researchonline.ballarat.edu.au:8080/vital/access/HandleResolver/1959.17/34094AUTba1</identifier>
+                    <title>Yarra Ranges ICT survey, 2011</title>
+                    <version/>
+                    <placePublished>Federation University Australia</placePublished>
+                    <publisher>Centre for eCommerce &amp; Communications (CeCC)</publisher>
+                    <url>http://yarraranges.cecc.com.au/</url>
+                    <context/>
+                    <contributor seq="1">
+                        <namePart type="family">Thompson</namePart>
+                        <namePart type="given">Helen</namePart>
+                    </contributor>
+                    <contributor seq="2">
+                        <namePart type="family">Fong</namePart>
+                        <namePart type="given">George</namePart>
+                    </contributor>
+                    <date type="created">2011</date>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTestingRecords3DCIPartyRecords5</key>
+        <originatingSource>AUTestingRecords3</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="title">Mr</namePart>
+                <namePart type="family">DCI</namePart>
+                <namePart type="given">Party</namePart>
+                <namePart type="given">Collector</namePart>
+            </name>
+            <identifier type="uri">http://scholixParties.com/DCIPartyRecords5</identifier>
+            <relatedInfo type="collection">
+                <title>(AUTestingRecords2) DCI Source Collection</title>
+                <identifier type="doi">10.1234/00/DCI5613</identifier>
+                <relation type="isCollectorOf"/>
+            </relatedInfo>
+            <relatedInfo type="collection">
+                <title>(AUTestingRecords2) DCI Source Collection</title>
+                <identifier type="doi">10.1234/00/DCI5646</identifier>
+                <relation type="isCollectorOf"/>
+            </relatedInfo>
+            <relatedInfo type="collection">
+                <title>(AUTestingRecords2) DCI Source Collection</title>
+                <identifier type="doi">10.1234/00/DCI5643</identifier>
+                <relation type="isCollectorOf"/>
+            </relatedInfo>
+            <relatedInfo type="collection">
+                <title>(AUTestingRecords2) DCI Source Collection</title>
+                <identifier type="doi">10.1234/00/DCI5618</identifier>
+                <relation type="isCollectorOf"/>
+            </relatedInfo>
+            <relatedInfo type="collection">
+                <title>(AUTestingRecords2) DCI Source Collection</title>
+                <identifier type="doi">10.1234/00/DCI5620</identifier>
+                <relation type="isCollectorOf"/>
+            </relatedInfo>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTestingRecords3DCIPublicationRecords6</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="publication" dateModified="2016-04-10T23:51:40Z" dateAccessioned="2016-04-10T23:51:40Z">
+            <name type="primary">
+                <namePart>(AUTestingRecords2) DCI Source Collection type publication With NO Identifier.</namePart>
+            </name>
+            <description type="full">Some example description
+            </description>
+            <relatedObject>
+                <key>AUTestingRecords2DCIRecords39</key>
+                <relation type="references"/>
+            </relatedObject>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTestingRecords3DCIPublicationRecords7</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="publication" dateModified="2016-04-10T23:51:40Z" dateAccessioned="2016-04-10T23:51:40Z">
+            <identifier type="local">somePubId7</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) DCI Source Collection type publication With local id.</namePart>
+            </name>
+            <description type="full">Some example description
+            </description>
+            <relatedObject>
+                <key>AUTestingRecords2DCIRecords58</key>
+                <relation type="supplements"/>
+            </relatedObject>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTestingRecords3DCIPublicationRecords8</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="publication" dateModified="2016-04-10T23:51:40Z" dateAccessioned="2016-04-10T23:51:40Z">
+            <name type="primary">
+                <namePart>(AUTestingRecords2) DCI Source Collection type publication With NO Identifier and an
+                    electronic/address url.
+                </namePart>
+            </name>
+            <description type="full">Some example description
+            </description>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http:\\www.exampleUrlDCIPub8.com</value>
+                    </electronic>
+                </address>
+            </location>
+            <relatedObject>
+                <key>AUTestingRecords2DCIRecords39</key>
+                <relation type="references"/>
+            </relatedObject>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTestingRecords3:Funder/Program12/Hub1/GrantLP0211170</key>
+        <originatingSource>arc.gov.au/general/searchable_data.htm</originatingSource>
+        <activity type="grant">
+            <name type="primary">
+                <namePart>(AUTestingRecords3) AUTestingRecords3:Funder/Program12/Hub1/GrantLP0211170</namePart>
+            </name>
+            <identifier type="purl">AUTestingRecords3:Funder/Program12/Hub1/GrantLP0211170AUTx.GrantDCI</identifier>
+            <identifier type="arc">LP0211170AUTx.GrantDCI</identifier>
+            <relatedObject>
+                <key>AUTestingRecords3:FunderDCI</key>
+                <relation type="isFundedBy"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecords3:Funder/Program12/Hub1</key>
+                <relation type="isPartOf"/>
+            </relatedObject>
+            <relatedObject>
+                <key>http://nla.gov.au/nla.party-AUT3</key>
+                <relation type="isManagedBy"/>
+            </relatedObject>
+            <subject type="anzsrc-for">1701</subject>
+            <subject type="local">alternative harvesting systems</subject>
+            <subject type="local">environmental attitudes</subject>
+            <subject type="local">environmental perception</subject>
+            <subject type="local">forestry</subject>
+            <subject type="local">social acceptability</subject>
+            <subject type="local">virtual environments</subject>
+            <description type="brief">Fierce public debate over forest management has prompted forest agencies to
+                develop and test alternative harvesting systems. This project will examine community response to these
+                harvesting and regeneration options. It will avoid the biases of existing research by developing an
+                interactive simulation of the forest environment that will allow participants to view visual, ecological
+                and economic outcomes of harvest options, as well as changes over time as forest regenerates. Public
+                judgements of the acceptability of harvesting options will be integrated with the outcomes of related
+                biophysical studies to identify socially and ecologically sustainable management options for Australian
+                native forests.
+            </description>
+            <description type="fundingAmount">$110,000</description>
+            <description type="fundingScheme">Linkage Projects</description>
+            <description type="researchers">Dr KJ Williams A/Prof ID Bishop A/Prof JW Cary Dr TJ Webb Dr MJ Brown Mr JE
+                Hickey
+            </description>
+            <existenceDates>
+                <startDate dateFormat="W3CDTF">2002</startDate>
+                <endDate dateFormat="W3CDTF">2004</endDate>
+            </existenceDates>
+            <relatedInfo type="collection">
+                <title>(AUTestingRecords2) DCI Source Collection</title>
+                <identifier type="uri">http://researchodfesolver/1959.17/53983AUTba1</identifier>
+                <relation type="hasOutput"/>
+            </relatedInfo>
+        </activity>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTestingRecords3:FunderDCI</key>
+        <originatingSource type="">http://api.crossref.org/funders?filter=location:Australia</originatingSource>
+        <party type="group">
+            <name type="primary">
+                <namePart>(AUTestingRecords3) AUTestingRecords3:Funder</namePart>
+            </name>
+            <description type="brief">&amp;lt;p&amp;gt;The Department of the AUTestingRecords3 designs and implements
+                the Australian Government’s policies and programmes to protect and conserve the environment, water and
+                heritage and promote climate action. The environmental framework is being delivered under four pillars:&amp;lt;/p&amp;gt;
+                &amp;lt;ul&amp;gt;
+                &amp;lt;li&amp;gt;Clean Water&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;Clean Air&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;Clean Land&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;National heritage&amp;lt;/li&amp;gt;
+                &amp;lt;/ul&amp;gt;
+                &amp;lt;p&amp;gt;Throughout Australia, environment and heritage issues are also managed by other levels
+                of government.&amp;lt;/p&amp;gt;
+                &amp;lt;ul&amp;gt;
+                &amp;lt;li class=&amp;quot;arrow&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;http://www.australia.gov.au&amp;quot;&amp;gt;Government
+                in Australia&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li class=&amp;quot;arrow&amp;quot;&amp;gt;&amp;lt;a class=&amp;quot;ext&amp;quot; href=&amp;quot;http://australia.gov.au/directories/state-territory-and-local-government-directories/states-territories-and-local-government&amp;quot;&amp;gt;States,
+                territories and local government&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;/ul&amp;gt;
+                &amp;lt;div class=&amp;quot;boxtwocols&amp;quot;&amp;gt; &amp;lt;/div&amp;gt;
+            </description>
+            <identifier type="doi">AUTestingRecords3:FunderDCI</identifier>
+            <identifier type="fundref">50110000AUT3.xDCI</identifier>
+            <identifier type="AU-ANL:PEAU">http://nla.gov.au/nla.party-AUT55.433DCI</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.environment.gov.au/webform/website-feedback</value>
+                    </electronic>
+                </address>
+                <spatial type="iso31661">AU</spatial>
+            </location>
+            <relatedInfo type="website">
+                <title>Web Site</title>
+                <identifier type="uri">http://www.environment.gov.au</identifier>
+            </relatedInfo>
+            <existenceDates>
+                <startDate dateFormat="W3CDTF">2013-09-18</startDate>
+            </existenceDates>
+        </party>
+    </registryObject>
+
+</registryObjects>

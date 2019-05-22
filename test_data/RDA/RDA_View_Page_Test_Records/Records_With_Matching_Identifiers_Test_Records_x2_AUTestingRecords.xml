@@ -1,0 +1,116 @@
+<registryObjects>
+<registryObject group="AUTestingRecords">
+    <key>CollectionADuplicateIdentifiers</key>
+    <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+    <collection type="dataset">
+      <name type="primary">
+        <namePart>(AUTestingRecords)Collection A Duplicate Identifiers</namePart>
+      </name>
+      <description type="brief">&amp;lt;p&amp;gt;A brief description for the collection.&amp;lt;/p&amp;gt;</description>
+      <identifier type="doi">10.AUTestingRecords/123</identifier>
+      <relatedObject>
+        <key>AUTestingRecordsRelatedCollectionDataSetRelObj1</key>
+        <relation type="isDerivedFrom"/>
+      </relatedObject>
+      <relatedObject>
+        <key>AUTestingRecordsRelatedCollectionCollectionRelObj2</key>
+        <relation type="hasDerivedCollection"/>
+      </relatedObject>
+      <relatedObject>
+        <key>AUTestingRecordsRelatedPartyGroupRelObj1</key>
+        <relation type="isOwnedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>AUTestingRecordsRelatedPartyGroupRelObj2</key>
+        <relation type="isManagedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>AUTestingRecordsRelatedActivityProgramRelObj1</key>
+        <relation type="hasAssociationWith"/>
+      </relatedObject>
+      <relatedObject>
+        <key>AUTestingRecordsRelatedActivityProgramRelObj2</key>
+        <relation type="isOutputOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>AUTestingRecordsRelatedActivityGrantRelObj1</key>
+        <relation type="isOutputOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>AUTestingRecordsRelatedServiceCreateRelObj1</key>
+        <relation type="isAvailableThrough"/>
+      </relatedObject>
+      <relatedObject>
+        <key>AUTestingRecordsRelatedServiceReportRelObj2</key>
+        <relation type="isPresentedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>AUTestingRecordsRelatedServiceAnnotateRelObj3</key>
+        <relation type="isProducedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>AUTestingRecordsRelatedServiceTransformRelObj2</key>
+        <relation type="hasAssociationWith"/>
+      </relatedObject>
+      <relatedInfo type="publication">
+        <title>Duplicate Semantics</title>
+        <identifier type="doi">10.1007/springerreference_64835 </identifier>
+        <relation type="isCitedBy"/>
+      </relatedInfo>
+      <relatedInfo type="publication">
+        <title>duplicate key value</title>
+        <identifier type="doi">10.1007/springerreference_13103 </identifier>
+        <relation type="isReferencedBy"/>
+      </relatedInfo>
+      <relatedInfo type="website">
+        <title>News</title>
+        <identifier type="uri">http://www.news.com.au</identifier>
+      </relatedInfo>
+      <relatedInfo type="website">
+        <title>Australian National Data Source</title>
+        <identifier type="uri">http://ands.org.au</identifier>
+      </relatedInfo>
+    </collection>
+  </registryObject>
+  <registryObject group="AUTestingRecords">
+    <key>AUTestingRecordsRelatedPartyGroupRelObj2</key>
+    <originatingSource type="authoritative">http://trove.nla.gov.au/people</originatingSource>
+    <party dateModified="2015-11-17T02:05:18Z" type="group">
+      <identifier type="AU-ANL:PEAU">http://nla.gov.au/nla.party-522456</identifier>
+      <identifier type="AU-AuCNLKIN">http://nla.gov.au/anbd.aut-an35466632</identifier>
+      <identifier type="AU-VU:EOAS">http://www.eoas.info/biogs/A000154b.htm</identifier>
+      <identifier type="AU-VPRO">http://access.prov.vic.gov.au/public/component/daPublicBaseContainer?component=daViewAgency&amp;entityId=1046</identifier>
+      <identifier type="AU-VPRO">VA 1046</identifier>
+      <identifier type="AU-AuCNLKIN">abv00395620</identifier>
+      <identifier type="AU-VPRO">PROV VA 1046</identifier>
+      <name type="primary">
+        <namePart>(AUTestingRecords)Related Party Group RelObj 2</namePart>
+      </name>
+      <name type="alternative">
+        <namePart>(AUTestingRecords)RMIT</namePart>
+      </name>
+      <name type="alternative">
+        <namePart>(AUTestingRecords)RMIT Victoria University of Technology</namePart>
+      </name>
+      <name type="alternative">
+        <namePart>(AUTestingRecords)Royal Melbourne Institute of Technology (Australia)</namePart>
+      </name>
+      <name type="primary">
+        <namePart>(AUTestingRecords)Royal Melbourne Institute of Technology (RMIT)</namePart>
+      </name>
+      <name type="alternative">
+        <namePart>(AUTestingRecords)Royal Melbourne Institute of Technology (previously known as Working Men's College 1887-1934; Melbourne Technical College 1934-1954; Royal Melbourne Technical College 1954-1960)</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://nla.gov.au/nla.party-522456</value>
+          </electronic>
+        </address>
+      </location>
+      <description type="brief">It was agreed that the institution that is now RMIT University would undergo yet another name change in March 1960. The Royal Melbourne Technical College became the Royal Melbourne Institute of Technology. It was decided that the word "institute" was more appropriate than "university" for the title as it indicated the presence of higher education in addition to the trade and industrial streams offered.</description>
+      <description type="full">The Working Men's College was established in 1887. In 1934 its name was changed to Melbourne Technical College. On September 14, 1954, its name was changed to Royal Melbourne Technical College. On December 21, 1960, its name was changed to Royal Melbourne Institute of Technology. Works by these bodies are found under the name used at the time of publication.</description>
+      <description type="full">Establishment as the Working Men's College&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;The Royal Melbourne Institute of Technology was established in 1887 as the Working Men's College. The first Council, consisting of representatives of the Government, Trades Hall, the University of Melbourne, the Public Library, subscribers and the founder, the Hon. Francis Ormond, had been established in 1882.&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;Initially the Working Men's College was autonomous and the College Council was responsible for its administration. Revenue was derived from government subsidy, student fees and subscriptions. The College provided technical and general courses for men and women.&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;Development of a Junior Technical School&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;During the 1890's a programme of preparatory classes for younger students was developed. By 1902 the first junior technical school had been established in the College. In 1912 this section of the College became the nucleus of the first Education Department Technical School at West Melbourne. This development was probably a consequence of the passing of the Education Act 1910 and the recommendations of the Royal Commission into Technical Education (1899-1901). In 1919 the College re-established a junior school and in 1933 it was combined with the West Melbourne Junior Technical School under the control of the College. In 1938 the school was closed to permit the erection of the Foods Trade School.&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;Liaison with the Education Department (VA 714)&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;During the 1890's depression, Government funding for Council controlled Schools of Mines, Art and Design and Technical Colleges such as the Working Men's College was severely restricted. In 1892 the Government introduced new funding arrangements which effectively undermined the autonomy of the colleges. Payments to colleges were to be based on attendances and examination results and only approved courses were to be funded. The colleges were opposed to the new arrangements and the Working Men's College remained closed for the first quarter of 1893. In 1896 the system of fixed annual grants was restored.&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;In 1904 the College was incorporated under the Companies Act as a limited liability company.&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;Following proclamation of the Education Act 1910, particularly Part 3, Division 3, sections 37, 38 and 39, the Education Department (VA 714) sought to establish direct control over the College. The College Council remained autonomous but agreed to abide by departmental regulations. By 1905, the regulations dealt with conditions under which government grants for maintenance, buildings or apparatus, might be claimed; the subjects of instruction prescribed and the methods of holding examinations; diplomas and certificates awarded and the mode of keeping rolls and the presentation of balance sheets. Instructors were appointed by the Council but the Education Department reserved a right of veto.&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;Courses&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;The College began as an evening institute offering classes in technical and general subjects leading to the award of several different levels of certificate. By 1899 the College offered full time day courses in engineering and applied science leading to the award of "Associate" Diplomas. Various teaching departments were established in engineering, chemistry, metallurgy and mining, fitting and turning etc. The College continued to offer instruction in a wide range of trades. In 1919 the College became a centre for the vocational training of returned soldiers.&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;Establishment of Melbourne Technical College&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;In 1934, the Working Men's College became the Melbourne Technical College. The College continued to derive its revenue from students' fees supplemented by government grants. It remained under the management of its own Council but many of its courses and examinations were governed by Education Department regulations.&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;Courses and other functions 1935 to 1955&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;The College provided full time day and evening professional courses in the various branches of engineering, mining, metallurgy, architecture, applied chemistry, applied physics, agriculture, art and applied art and commercial work. Full time and part time day and evening trade courses were also provided in trades connected with the electrical and mechanical engineering, motor, building, furniture, printing, bootmaking, clothing and food industries.&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;During the 1939-1945 war, Melbourne Technical College played a major role in the training of the defence forces. Classes were established for the training of R.A.A.F. technical units, Army Signal Corps trainees and trainee fitters and turners and tool makers. An aeronautical school was added to the College. During this period some 20,000 servicemen were enrolled and some 2,000 trainees were prepared for munitions production.&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;In the post-war period the College took in many thousands of ex-service personnel for training under the Commonwealth Reconstruction Scheme. This led to an expansion of the full time and part time Diploma courses available. These were usually one year longer than the standard associateship Diploma.&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;During the 1950's the College developed new courses in areas such as communications technology, particularly television and was one of the first colleges to train television engineers, technicians and mechanics. Other new areas developed included food technology, transport studies, accountancy, real estate and advertising.&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;The College offered Professional Diploma Courses. Tuition for Diploma Courses was aimed at students achieving at least the minimum standard required for entry to professional institutions such as the Australian Society of Accountants, the Royal Australian Institute of Architects and the Institution of Engineers. Students who completed an additional year of study were granted the Fellowship Diploma which was regarded as being three years post matriculation. The College also offered Technician Courses which were regarded as being intermediate between the professional and trade courses. The Apprenticeship Commission prescribed the details of the courses offered in various trades. These were of four to five years duration and accompanied by a period of practical apprenticeship. Post apprenticeship courses were also available.&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;Correspondence Courses which had developed rapidly during the 1939-45 war continued. The Correspondence School provided professional, technician and trade courses for people unable to attend the College. Courses were also available to defence personnel posted abroad and to students in South East Asia who could undertake the first year through the Division of External Studies. This enabled the Government to assess their capabilities before granting them assistance.&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;By this time the College was also providing a variety of services to industry and the government departments and authorities. These included teaching, professional advice and technological testing and research of products, equipment and systems.&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;Establishment of the Royal Melbourne Technical College&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;In 1954 by order of the Executive Council and pursuant to the provisions of the Companies Act, the Melbourne Technical College became the Royal Melbourne Technical College and was authorised to include the royal cypher on College Diplomas. It continued to be controlled by its own Council which included representatives of government, commerce, industry, unions and the University of Melbourne.&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;The College continued to offer a wide range of diploma, technician and trade courses and began to develop many specialist short courses in subjects such as plastics technology and shop inspection. Many subjects in the formal courses continued to be examined externally by the Education Department but as the College expanded its programmes and introduced courses in new fields of technology, the proportion of internally assessed courses increased significantly.&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;Establishment of Royal Melbourne Institute of Technology&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;On 26 December 1960, the Registrar of Companies issued a Certificate of Incorporation and change of name to the Royal Melbourne Institute of Technology (R.M.I.T.). The change of name was in accord with the plans of the Council to elevate the status of the College to that of a College or University of Advanced Technology.&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;From this time there was a rapid expansion in the courses offered at diploma, certificate and apprenticeship level and in the services provided by the Institute. The Institute also began to offer courses in areas which had previously been the province of Universities and other tertiary institutions. For example in 1962, the University of Melbourne imposed a quota on the number of first year law students. The Council of Legal Education (C.L.E.) which was responsible for all academic and practical legal training initiated a course for articled clerks to be administered by R.M.I.T., although the lecturers, tutors and examiners were appointed by the C.L.E..&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;Administrative Change following Implementation of Commonwealth Funding&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;Arising from the Ramsay Report 1963 and the Martin Report 1965, the Commonwealth Government introduced matching financial grants to Colleges of Advanced Education.&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;The Victoria Institute of Colleges (V.I.C.) was established in June 1965 to co-ordinate tertiary education. R.M.I.T. became an affiliated college under the V.I.C. in 1965. In December 1967, this Institute became responsible for controlling college staff establishments, recommending staff salary scales, the approval of major financial and building programmes and for improving the academic standards in colleges. R.M.I.T. continued to award diplomas but students who completed approved courses could be awarded degrees under the V.I.C..&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;Since the Commonwealth was initially only prepared to fund tertiary level study, it became necessary for R.M.I.T. to distinguish between its tertiary and non-tertiary courses. By 1969 the Institute effectively had two separate branches: the Professional Courses Branch and the Industrial Courses Branch. In time these came to be referred to as the Advanced College and the Technical College.&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;The Education Department had relinquished its direct control over the Advanced College's courses and examinations when the V.I.C. was established, but it maintained its influence, together with that of the Apprenticeship Commission, on many of the courses at the Technical College.&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;Although it had been intended that two administratively separate institutions would be established, in 1977 R.M.I.T. Council determined that both sections would remain under one Principal and Council. While they are academically separate and their sources of funding are largely separate, the two Colleges share a central management and support services.&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;Establishment of Victorian Post Secondary Education Commission&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;Under the provisions of the Post Secondary Education Act 1978, the Victorian Government established the Victorian Post Secondary Education Commission (V.P.S.E.C.) to advise the Government on all aspects of the development, operation, co-ordination and funding of post secondary education. V.P.S.E.C. was initially responsible for the approval and accreditation of courses and for establishing conditions for the award of Diplomas and Degrees.&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;In May 1981, R.M.I.T. awarded its own degrees for the first time and in 1983 it achieved 'declared status' which means that once V.P.S.E.C. has approved the establishment of a course in principle, R.M.I.T. is responsible for the development and accreditation of the course.&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;Technical and Further Education (T.A.F.E.)&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;In July 1980... truncated</description>
+    </party>
+  </registryObject>
+  </registryObjects>

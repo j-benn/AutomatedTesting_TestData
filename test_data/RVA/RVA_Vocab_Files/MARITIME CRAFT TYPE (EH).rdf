@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:base="http://stellar/">
+	<skos:ConceptScheme rdf:about="http://purl.org/heritagedata/schemes/eh_tmc">
+		<dcterms:identifier>http://purl.org/heritagedata/schemes/eh_tmc</dcterms:identifier>
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0" />
+		<cc:attributionURL rdf:resource="http://www.english-heritage.org.uk" />
+		<cc:attributionName xml:lang="en">English Heritage</cc:attributionName>
+		<dcterms:title xml:lang="en">MARITIME CRAFT TYPE (EH)</dcterms:title>
+		<rdfs:label xml:lang="en">MARITIME CRAFT TYPE (EH)</rdfs:label>
+		<dcterms:description xml:lang="en">A thesaurus of craft types which survive as wrecks in English Heritage�s maritime record</dcterms:description>
+		<dcterms:coverage rdf:resource="http://data.ordnancesurvey.co.uk/id/country/england" />
+		<dcterms:publisher rdf:resource="http://www.english-heritage.org.uk" />
+		<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-17T09:01:42</dcterms:issued>
+		<skos:hasTopConcept>
+			<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/eh_tmc/concepts/100394">
+				<skos:topConceptOf rdf:resource="http://purl.org/heritagedata/schemes/eh_tmc" />
+				<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/eh_tmc" />
+				<dcterms:identifier>http://purl.org/heritagedata/schemes/eh_tmc/concepts/100394</dcterms:identifier>
+				<skos:prefLabel xml:lang="en">MARITIME CRAFT</skos:prefLabel>
+				<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-17T09:01:43</dcterms:issued>
+			    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/eh_tmc/concepts/159232" />
+				<skos:narrower>
+					<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/eh_tmc/concepts/162933">
+						<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/eh_tmc" />
+						<dcterms:identifier>http://purl.org/heritagedata/schemes/eh_tmc/concepts/162933</dcterms:identifier>
+						<skos:prefLabel xml:lang="en">AMPHIBIOUS VEHICLE</skos:prefLabel>
+						<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-17T09:01:43</dcterms:issued>
+						<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/eh_tmc/concepts/100394" />
+						<skos:scopeNote xml:lang="en">Vehicle either adapted, or purpose-built, to operate on both land and sea, for example a tank or DUKW.</skos:scopeNote>
+						<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0" />
+						<cc:attributionURL rdf:resource="http://www.english-heritage.org.uk" />
+						<cc:attributionName xml:lang="en">English Heritage</cc:attributionName>
+						<dcterms:publisher rdf:resource="http://www.english-heritage.org.uk" />
+					</skos:Concept>
+				</skos:narrower>
+				<skos:scopeNote xml:lang="en">The class term, use more specific terms.</skos:scopeNote>
+				<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0" />
+				<cc:attributionURL rdf:resource="http://www.english-heritage.org.uk" />
+				<cc:attributionName xml:lang="en">English Heritage</cc:attributionName>
+				<dcterms:publisher rdf:resource="http://www.english-heritage.org.uk" />
+			</skos:Concept>
+		</skos:hasTopConcept>
+	</skos:ConceptScheme>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/eh_tmc/concepts/159232">
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/eh_tmc" />
+		<dcterms:identifier>http://purl.org/heritagedata/schemes/eh_tmc/concepts/159232</dcterms:identifier>
+		<skos:prefLabel xml:lang="en">SCREW STEAMER</skos:prefLabel>
+		<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-17T09:01:43</dcterms:issued>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/eh_tmc/concepts/100394" />
+		<skos:related rdf:resource="http://purl.org/heritagedata/schemes/eh_tmc/concepts/100418" />
+		<skos:scopeNote xml:lang="en">A steam vessel propelled by rotating propellers called screws.</skos:scopeNote>
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0" />
+		<cc:attributionURL rdf:resource="http://www.english-heritage.org.uk" />
+		<cc:attributionName xml:lang="en">English Heritage</cc:attributionName>
+		<dcterms:publisher rdf:resource="http://www.english-heritage.org.uk" />
+	</skos:Concept>
+</rdf:RDF>

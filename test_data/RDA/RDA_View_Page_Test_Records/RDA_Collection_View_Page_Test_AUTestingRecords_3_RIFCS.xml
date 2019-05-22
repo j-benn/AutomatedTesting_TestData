@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xmlns:extRif="http://ands.org.au/standards/rif-cs/extendedRegistryObjects" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTestingRecords3agencies/3846</key>
+        <originatingSource>http://www.records.nsw.gov.au</originatingSource>
+        <party dateModified="" type="group">
+            <identifier type="uri">http://search.records.nsw.gov.au/agencies/3846AUT</identifier>
+            <name type="primary">
+                <namePart type="full">(AUTestingRecords3)Aboriginal Relics Advisory Committee [National Parks and Wildlife Service]</namePart>
+            </name>
+            <subject type="anzsrc-for">2103 HISTORICAL STUDIES</subject>
+            <description type="full">The Aboriginal Relics Advisory Committee was established by the National Parks and Wildlife (Amendment) Act, 1969 (Act No 78, 1969) The Committee replaced a non-statutory committee - the Advisory Committee on Aboriginal Relics that had identified the need for a legislative basis for the committee, and drafted the sections of the Act that dealt with its constitution.  
+                The Aboriginal Relics Advisory Committee consisted of eight members appointed by the minister for a maximum term if five years.  Of these members: &amp;lt;br&amp;gt;
+                (i)  one was an archaeologist or anthropologist employed by a university operating in New South Wales;  &amp;lt;br&amp;gt;
+                (ii)  one was an archaeologist or anthropologist employed by the Australian Museum; &amp;lt;br&amp;gt;
+                (iii)  one was a member of the Anthropological Society of New South Wales nominated by the Society; &amp;lt;br&amp;gt;
+                (iv)  one was a nominee of the National Trust of Australia (New South Wales);  &amp;lt;br&amp;gt;
+                (v)  one was an officer of the Department of Mines; and &amp;lt;br&amp;gt;
+                (vi)  one was an officer of the National Parks and Wildlife Service.  (1) 
+                The Minister could appoint replacement members of the Committee when vacancies arose and acting members to cover long absences of Committee members.  (2) 
+                The members set procedures for convening the meetings and the conduct of business subject only to regulations under the Act.  (3) They were entitled to expenses in relation to the work of the Committee, and those who were not public sector employees were entitled to other fees determined by the Minister.  (4)   
+                The role of the Committee was to advise the Minister and the Director on any matter relating to the preservation, control of excavation, removal and custody of relics.  (5)  
+                However, the Committee was only advisory and the Minister, Director, and the agency were responsible for: &amp;lt;br&amp;gt; 
+                recommending areas for dedication as aboriginal areas and for the care, control and management of Aboriginal areas; &amp;lt;br&amp;gt;  
+                carrying  out works for the preservation, protection or prevention of damage to relics in an Aboriginal area; &amp;lt;br&amp;gt;
+                the protection of Aboriginal Relics situated in national parks, state parks, historic sites, nature reserves, or Aboriginal areas; &amp;lt;br&amp;gt;
+                declaring some aboriginal relics Crown property; &amp;lt;br&amp;gt;
+                granting permits for persons to take possession of or remove relics, or to erect structure for the storage or exhibition of relics; &amp;lt;br&amp;gt;
+                authorising the Australian Museum to hold certain aboriginal relics; and &amp;lt;br&amp;gt;
+                declaring protected archaeological areas.  
+                The agency was also enabled to prosecute persons for the destruction of relics or for failure to notify the agency of the existence of relics on Crown Land.   (6) 
+                The Committee met for the first time on 19 January 1970  (7)
+                The Minister could seek advice from the Committee in relation to any of these activities. 
+                In 1973 the Advisory Committee was successful in receiving grants from the Australian Institute for Aboriginal Studies for identifying the location of Aboriginal relics in the Murray River Valley and for a survey of Sacred Sites covering the whole of new South Wales.  (8)     The Committee was continued by the National Parks and Wildlife Act,  1974 (Act No 80,  1974)  (9)  The Advisory Committee recommended the granting of permits to excavate resulting in important discoveries including relics 38,000 years old at Lake Mungo in south western New South Wales.  (10)  
+                The Committee went was 'recessed'  sometime between 27 August and 8 December 1980. (12)  It is unclear whether the Committee ever reconvened after this date.  A number of the members sat on the Interim Aboriginal Sites Committee that held its inaugural meeting on 8 December, 1980. (13)  
+                The Committee was formally replaced in 1992 by The Aboriginal Cultural Heritage (Interim) Advisory Committee  (14)   This section commenced on 24 August, 1992 (15)
+                
+                Endnotes: &amp;lt;br&amp;gt;
+                (1)  National Parks and Wildlife (Amendment) Act 1969 s. 33A (1) &amp;lt;br&amp;gt;
+                (2)  Ibid. s. 33A (6) – (7) &amp;lt;br&amp;gt;
+                (3)  Ibid. s 33A (8) &amp;lt;br&amp;gt;
+                (4)  Ibid. s. 33A (9) &amp;lt;br&amp;gt;
+                (5)  Ibid. s. 33A (10) &amp;lt;br&amp;gt;
+                (6)  Ibid. s. 33B – 33L &amp;lt;br&amp;gt;
+                (7)  Minutes of the Aboriginal Relics Advisory Committee 12/12271.2
+                (8)  National Parks and Wildlife Service Annual Report, 1973 p. 7 in NSW Parliamentary Papers 1973-1974 Vol 3 p. 7  &amp;lt;br&amp;gt;
+                (9)  National Parks and Wildlife Act,  1974.  Schedule 9
+                (10)  National Parks and Wildlife Service of New South Wales  Report for the year ended 30 June 1974 p. 23 in NSW Parliamentary Papers 1974-75 Vol 4 p.  677 &amp;lt;br&amp;gt;
+                (11)  Statute Law (Miscellaneous Provisions) Act, 1992 -  National Parks and Wildlife Act 1974 (sic)  No 80.  Item (14)  &amp;lt;br&amp;gt;
+                (12)  Minutes of the Aboriginal Relics Advisory Committee 27 August, 1980 12/12271.2
+                (13)  Minutes of the Interim Aboriginal Sites Committee 8 December 1980 12/12271.3
+                (14)  State Law (Miscellaneous Provisions) Act 1992  Schedule 1 National Parks and Wildlife Act 1974 (sic) NO 80 
+                (15)  NSW Government Gazette 21 August 1992 p. 5964</description>
+            <existenceDates>
+                <startDate dateFormat="W3CDTF">1970-01-19T00:00:00+1000</startDate>
+                <endDate dateFormat="W3CDTF">1992-08-24T00:00:00+1000</endDate>
+            </existenceDates>
+            <relatedInfo>
+                <identifier type="website">http://search.records.nsw.gov.au/agencies/3846</identifier>
+            </relatedInfo>
+        </party>
+    </registryObject>
+</registryObjects>

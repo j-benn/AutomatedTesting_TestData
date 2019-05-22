@@ -1,0 +1,1462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xmlns:extRif="http://ands.org.au/standards/rif-cs/extendedRegistryObjects" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+    <registryObject group="Tasmanian Partnership for Advanced Computing">
+        <key>dl.tpac.org.au/ds/246AUT</key>
+        <originatingSource>http://dl.tpac.org.au</originatingSource>
+        <collection type="dataset">
+            <identifier type="local">dl.tpac.org.au/ds/246AUT</identifier>
+            <name type="primary">
+                <namePart>(AutestingRecords)Electronic addresss url WMS Service Climate Futures for Tasmania: geographical information system layers generated for the Land Information System Tasmania (theLIST)</namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://geology.data.nt.gov.au/geoserver/wms?request=getCapabilities&amp;service=wms</value>
+                    </electronic>
+                </address>
+            </location>
+            <coverage>
+                <temporal>
+                    <date dateFormat="UTC" type="dateFrom">1960-12-31T23:00:00Z</date>
+                    <date dateFormat="UTC" type="dateTo">2100-12-31T00:00:00Z</date>
+                </temporal>
+                <spatial type="iso19139dcmiBox">northlimit=149; southlimit=143.5; westlimit=-44; eastLimit=-39; projection=WGS84</spatial>
+            </coverage>
+            <relatedObject>
+                <key>dl.tpac.org.au/party/individual/14AUT</key>
+                <relation type="hasCollector"/>
+            </relatedObject>
+            <relatedObject>
+                <key>dl.tpac.org.au/party/organisation/1AUT</key>
+                <relation type="isOwnedBy"/>
+            </relatedObject>
+            <relatedObject>
+                <key>dl.tpac.org.au/party/individual/17AUT</key>
+                <relation type="hasCollector"/>
+            </relatedObject>
+            <relatedObject>
+                <key>dl.tpac.org.au/party/individual/14AUT</key>
+                <relation type="isManagedBy"/>
+            </relatedObject>
+            <relatedObject>
+                <key>dl.tpac.org.au/party/organisation/17AUT</key>
+                <relation type="supports"/>
+            </relatedObject>
+            <subject type="anzsrc-for">040104</subject>
+            <subject type="anzsrc-for">040608</subject>
+            <subject type="anzsrc-for">040107</subject>
+            <description type="brief">The ‘central estimate’ (the average of all simulations) generated from the Climate Futures for Tasmania modelling outputs for the Land Information System Tasmania (theLIST). The data is the netcdf version of Geographical Information System (GIS) layers stored in theLIST. The variables represented are: Annual Growing Degree Days (GDD), annual number of frost risk days, annual events of low Standardised Precipitation Index (SPI), annual count of Summer Days (SU), change in mean seasonal rainfall and change in runoff.</description>
+            <description type="accessRights">The intellectual property rights in the climate simulations belong to the Antarctic Climate &amp;amp; Ecosystems Cooperative Research Centre. The Antarctic Climate &amp;amp; Ecosystems Cooperative Research Centre grants to every person a permanent, irrevocable, free, Australia wide, non-exclusive licence (including a right of sub-licence) to use, reproduce, adapt and exploit the Intellectual Property Rights in the projections for any purpose, including a commercial purpose.</description>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.thelist.tas.gov.au/AUT</identifier>
+                <title>theLIST website</title>
+                <notes/>
+            </relatedInfo>
+            <citationInfo>
+                <fullCitation style="Harvard">Corney, S. P., J. J. Katzfey, J. L. McGregor, M. R. Grose, J. C. Bennett, C. J. White, G. K. Holz, S. Gaynor, and N. L. Bindoff, 2010: Climate Futures for Tasmania: climate modelling. Antarctic Climate and Ecosystems Cooperative Research Centre, Hobart, Tasmania.</fullCitation>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="University of Southern Queensland">
+        <key>USQ-DataColl-0002AUT</key>
+        <originatingSource>http://researchdata.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords) Samples and data from the: disturbance and resilience in riparian woodlands on the highly modified Upper Condamine floodplain project</namePart>
+            </name>
+            <description type="full">&amp;lt;p&amp;gt;
+    Remnant ecosystems in agricultural landscapes are poorly understood in terms of their diversity, function and dynamics under altered disturbance regimes, and of how these influence resilience to future disturbance. Understanding native ecosystem responses to novel and multiple disturbances is a crucial foundation for adaptive management to maintain and enhance biodiversity and critical ecosystem services in production landscapes. This is particularly significant where environmental change drives irreversible threshold responses and ecosystem transitions to less functional, or less preferred, alternative ecological states. This research was conducted in remnant riparian woodland ecosystems along a regulated section of the Condamine River, southern Queensland, an ephemeral dryland river system draining an intensively farmed landscape in eastern Australia. Riparian woodland remnants on the Upper Condamine floodplain are subject to significant changes in hydrological regimes and land use intensity. They also exhibit dieback and limited recruitment of canopy species, as well as widespread invasion by the introduced perennial herb Phyla canescens (lippia); however, efforts to address these issues have largely failed to curb ongoing degradation, potentially due to a lack of understanding of the key drivers of ecological change operating in this complex socio-ecological landscape. This research addressed questions about the drivers of floristic composition, functional diversity and woodland condition in fragmented riparian woodland communities associated with a regulated dryland river system, and embedded in a production landscape. In particular, it investigated ecological responses to the range of disturbances (including altered hydrology, land use intensity, resource availability, and key species interactions) prevalent in this highly modified landscape. Two of the four studies presented test the hypothesis that the composition and condition of riparian woodland remnants on the Upper Condamine floodplain are associated with current levels of longitudinal and lateral hydrological connectivity. These studies used a stratified sampling design which partitioned the study area into river sections, and also considered the influence of lateral overbank and overland flood flows, and grazing within ecosystem fragments (remnants). Full floristic sampling and condition assessments of mature Eucalyptus camaldulensis/E. tereticornis trees were conducted at a total of 24 sites in 2004/05. Significant patterns in floristic composition, functional diversity and woodland condition were explained by differences in hydrological variability; however, the confounding influence of land use and interaction between within-remnant land use (specifically grazing) and hydrological factors for some measures, indicated response to a complexity of drivers. A third study investigated the influence of local and landscape-scale hydrological and land use variables. It used a Bayesian model averaging (BMA) approach to identify informative model sets of explanatory variables, and key environmental predictors of floristic composition, community structure and ecological condition. A novel method was developed to examine dynamic transitions in species richness and abundance between reciprocal pairs of functional groups; this method used the ratio of species richness (or total abundance) in corresponding pairs of functional trait groups (e.g. C3:C4 species) as a community response variable reflecting the relative importance of each group along the environmental gradients tested. Groundwater decline was the primary predictor of ecosystem response, with lower floristic and functional diversity and more severe dieback associated with increasing depth to groundwater; this result suggests an overarching reliance on shallow groundwater resources for maintenance of ecosystem resilience not previously reported for this ecosystem type in Australia. Lippia abundance and dominant tree condition were also important biotic drivers of ecosystem condition in these communities, and key predictors of floristic composition and functional group richness and abundance transitions. Poor tree condition and loss of hydraulic function was associated with secondary impacts on less well adapted &amp;amp;#39;terrestrial&amp;amp;#39; groundcover species, while the subdominant species Acacia stenophylla responded positively to competitive release due to poor tree function and reduced tree density. Lippia cover was also strongly associated with the density (positively) and mortality (negatively) of mature trees. Small scale species interactions were investigated in a study which tested differences in groundcover vegetation composition and lippia cover, reproductive condition and growth habit between &amp;amp;#39;distance from tree&amp;amp;#39; and topographic position treatments in a riparian woodland on the Upper Condamine floodplain. Sampling was conducted along twelve transects extending from the base of mature Eucalyptus camaldulensis/E. tereticornis trees into canopy gaps. Results indicated that scattered trees play a significant role in facilitating the abundance and condition of lippia in this landscape, with evidence of high lippia abundance, reproductive effort and consolidated clonal growth under trees canopies (described as a &amp;amp;#39;halo&amp;amp;#39; effect). This interaction is likely to play a significant role in the persistence of this mesic, though highly adaptive, species in this drought prone landscape. Lippia cover greater than approximately 20% was also found to have a significant impact on the abundance and diversity of non-lippia species in these grassy woodlands. Results of this research are synthesised in a conceptual resilience-based state and transition &amp;amp;#39;riparian woodland response&amp;amp;#39; model identifying three critical transitions for riparian ecosystem condition and function related to effectively irreversible changes in the landscape: (i) transformation to a lippia-invaded landscape with the introduction, establishment and spread of lippia on the floodplain; (ii) transformation from riparian communities which are well buffered against drought, due to connection with shallow groundwater, to communities reliant on and susceptible to stochastic climatic variability; and (iii) population failure in the dominant functional canopy species complex, Eucalyptus camaldulensis/E. tereticornis, and transformation to non-eucalypt-dominant floodplain ecosystem types such as Acacia stenophylla-dominant woodlands, floodplain grasslands or lippia-dominant herblands with significantly reduced capacity to provide essential ecosystems services in riparian contexts. In conclusion, this research indicates that observed condition in riparian woodlands on the Upper Condamine floodplain is an integrated response to a range of disturbances, but that certain changes (in particular, groundwater decline due to overextraction in combination with extended drought) may be critical to the long-term persistence and function of these remnants. This study indicates the importance of systems-based empirical research to developing better understanding of the function and dynamics of remnant ecosystems in highly modified landscapes subject to both natural and anthropogenic disturbance regimes. The resilience-based approach also focuses attention on the key drivers of stability and critical transitions in these complex socio-ecological systems. Such research is vital to evaluating and predicting changes in remnant native ecosystems and the provision of important ecosystem services, and as a basis for adaptive management in multi-use production landscapes.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;
+    &amp;amp;nbsp;&amp;lt;/p&amp;gt;
+</description>
+            <description type="note">&amp;lt;p&amp;gt;
+    Files&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;
+    &amp;amp;nbsp;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;
+    &amp;amp;nbsp;&amp;lt;/p&amp;gt;
+&amp;lt;table border="1" cellpadding="0" cellspacing="0"&amp;gt;
+    &amp;lt;tbody&amp;gt;
+        &amp;lt;tr&amp;gt;
+            &amp;lt;td style="width:155px;"&amp;gt;
+                &amp;lt;p&amp;gt;
+                    Field notes&amp;lt;/p&amp;gt;
+            &amp;lt;/td&amp;gt;
+            &amp;lt;td style="width:132px;"&amp;gt;
+                &amp;lt;p&amp;gt;
+                    Hard copy (1)&amp;lt;/p&amp;gt;
+            &amp;lt;/td&amp;gt;
+            &amp;lt;td style="width:167px;"&amp;gt;
+                &amp;lt;p&amp;gt;
+                    Field notebook, lockable filing cabinet (TA225)&amp;lt;/p&amp;gt;
+            &amp;lt;/td&amp;gt;
+            &amp;lt;td&amp;gt;
+                &amp;lt;p&amp;gt;
+                    -&amp;lt;/p&amp;gt;
+            &amp;lt;/td&amp;gt;
+        &amp;lt;/tr&amp;gt;
+        &amp;lt;tr&amp;gt;
+            &amp;lt;td style="width:155px;"&amp;gt;
+                &amp;lt;p&amp;gt;
+                    Field studies survey data&amp;lt;/p&amp;gt;
+            &amp;lt;/td&amp;gt;
+            &amp;lt;td style="width:132px;"&amp;gt;
+                &amp;lt;p&amp;gt;
+                    Hard copy (many)&amp;lt;/p&amp;gt;
+            &amp;lt;/td&amp;gt;
+            &amp;lt;td style="width:167px;"&amp;gt;
+                &amp;lt;p&amp;gt;
+                    Project folder, lockable filing cabinet (TA225)&amp;lt;/p&amp;gt;
+            &amp;lt;/td&amp;gt;
+            &amp;lt;td&amp;gt;
+                &amp;lt;p&amp;gt;
+                    -&amp;lt;/p&amp;gt;
+            &amp;lt;/td&amp;gt;
+        &amp;lt;/tr&amp;gt;
+        &amp;lt;tr&amp;gt;
+            &amp;lt;td style="width:155px;"&amp;gt;
+                &amp;lt;p&amp;gt;
+                    Field studies survey data set (collated)&amp;lt;/p&amp;gt;
+            &amp;lt;/td&amp;gt;
+            &amp;lt;td style="width:132px;"&amp;gt;
+                &amp;lt;p&amp;gt;
+                    XLS (one per study)&amp;lt;/p&amp;gt;
+            &amp;lt;/td&amp;gt;
+            &amp;lt;td style="width:167px;"&amp;gt;
+                &amp;lt;p&amp;gt;
+                    Password protected H drive; external hard drive; personal (home) computer&amp;lt;/p&amp;gt;
+            &amp;lt;/td&amp;gt;
+            &amp;lt;td&amp;gt;
+                &amp;lt;p&amp;gt;
+                    MS Office Excel 97-2003&amp;lt;/p&amp;gt;
+            &amp;lt;/td&amp;gt;
+        &amp;lt;/tr&amp;gt;
+    &amp;lt;/tbody&amp;gt;
+&amp;lt;/table&amp;gt;
+&amp;lt;p&amp;gt;
+    &amp;amp;nbsp;&amp;lt;/p&amp;gt;
+</description>
+            <rights>
+                <accessRights>Negotiated access
+Contact Dr Kate Reardon-Smith
+by email: kathryn.reardon-smith@usq.edu.au </accessRights>
+            </rights>
+            <identifier type="local">USQ-DataColl-0002AUT</identifier>
+            <location>
+                <address>
+                    <electronic type="email">
+                        <value>Kathryn.Reardon-Smith@usq.edu.au</value>
+                    </electronic>
+ <electronic type="url"><value>
+http://geology.data.nt.gov.au/geoserver/wms</value>
+                    </electronic>
+                    
+                    <physical type="streetAddress">
+                        <addressPart type="text">Australian Centre for Sustainable Catchments (ACSC) University of Southern Queensland Toowoomba Qld 4350 Australia</addressPart>
+                    </physical>
+                </address>
+            </location>
+            <relatedObject>
+                <key>USQ-Party-559AUT</key>
+                <relation type="hasCollector"/>
+            </relatedObject>
+            <subject type="anzsrc-for">060208</subject>
+            <subject type="anzsrc-for">050104</subject>
+            <coverage>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">2004-02-01T00:00:00Z</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2011-11-30T00:00:00Z</date>
+                </temporal>
+                <spatial type="kmlPolyCoords">152.1,-27.2 151.3,-27.2 151.3,-28.2 152.1,-28.2 152.1,-27.2</spatial>
+            </coverage>
+            <relatedInfo type="publication">
+                <identifier type="purl">http://eprints.usq.edu.au/21345/AUT</identifier>
+                <title>Disturbance and resilience in riparian woodlands on the highly modified Upper Condamine floodplain. </title>
+            </relatedInfo>
+            <dates type="dc.available">
+                <date type="dateFrom" dateFormat="W3CDTF">2013-01-01T00:00:00Z</date>
+            </dates>
+        </collection>
+    </registryObject>
+
+
+    <registryObject group="QFAB">
+        <key>www.qfab.org/collection-1003AUT</key>
+        <originatingSource>http://services.ands.org.au/sandbox/orca/register_my_data</originatingSource>
+        <collection type="collection">
+            <identifier type="local">www.qfab.org/collection-1003AUT</identifier>
+            <name type="primary">
+                <namePart>(AutestingRecords)Electronic addresss url WMS Service  Australian Nucleotide (DNA/RNA) and Protein sequences from  the Australian research institution,The Flinders University of South Australia</namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://services.ga.gov.au/gis/services/Geophysical_Grids/MapServer/WMSServer</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="note">The contents of this collection is dynamic and will change over time as more data is deposited into the European Nucleotide Archive (ENA) and Universal Protein Resource (UniProt).
+
+The set of nucleotide (DNA/RNA) and protein sequences in this collection is not necessarily comprehensive. It contains only nucleotide (DNA/RNA) and protein sequences that have been published in the European Nucleotide Archive (ENA) and Universal Protein Resource (UniProt). The results have been returned using the exact search term The Flinders University of South Australia. The current version of the system does not allow for typographical errors or synonyms.</description>
+            <description type="full">This data collection contains all currently published nucleotide (DNA/RNA) and protein sequences from  the Australian research institution,The Flinders University of South Australia.The nucleotide (DNA/RNA) and protein sequences have been sourced through the European Nucleotide Archive (ENA) and Universal Protein Resource (UniProt), databases that contains comprehensive sets of nucleotide (DNA/RNA) and protein sequences from all organisms that have been published by the International Research Community.
+
+</description>
+            <description type="accessRights">This data is freely available to any individual for any purpose. For more information see http:www.ebi.ac.uk/Information/termsofuse.html</description>
+            <subject type="anzsrc-for">060407</subject>
+            <subject type="anzsrc-for">060102</subject>
+            <subject type="anzsrc-for">060411</subject>
+            <relatedObject>
+                <key>www.qfab.org/collection-844AUT</key>
+                <relation type="isPartOf"/>
+            </relatedObject>
+            <relatedObject>
+                <key>www.qfab.org/party-1AUT</key>
+                <relation type="hasCollector"/>
+            </relatedObject>
+            <relatedObject>
+                <key>http://nla.gov.au/nla.party-593299AUT</key>
+                <relation type="hasAssociationWith"/>
+            </relatedObject>
+            <relatedInfo>
+                <identifier type="uri">http://www.ebi.ac.uk/enaAUT</identifier>
+                <title>ENA (European Nucleotide Archive)</title>
+            </relatedInfo>
+            <relatedInfo>
+                <identifier type="uri">http://www.uniprot.orgAUT</identifier>
+                <title>Uniprot (Universal Protein Resource)</title>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="QFAB">
+        <key>www.qfab.org/collection-1001AUT</key>
+        <originatingSource>http://services.ands.org.au/sandbox/orca/register_my_data</originatingSource>
+        <collection type="collection">
+            <identifier type="local">www.qfab.org/collection-1001AUT</identifier>
+            <name type="primary">
+                <namePart>(AutestingRecords)Australian Nucleotide (DNA/RNA) and Protein sequences from  the Australian research institution,The Children's Hospital at Westmead</namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://rda.ebi.edu.au/default.jsp?collectionId=1001&amp;view=preview</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="note">The contents of this collection is dynamic and will change over time as more data is deposited into the European Nucleotide Archive (ENA) and Universal Protein Resource (UniProt).
+
+The set of nucleotide (DNA/RNA) and protein sequences in this collection is not necessarily comprehensive. It contains only nucleotide (DNA/RNA) and protein sequences that have been published in the European Nucleotide Archive (ENA) and Universal Protein Resource (UniProt). The results have been returned using the exact search term The Children's Hospital at Westmead. The current version of the system does not allow for typographical errors or synonyms.</description>
+            <description type="full">This data collection contains all currently published nucleotide (DNA/RNA) and protein sequences from  the Australian research institution,The Children's Hospital at Westmead.The nucleotide (DNA/RNA) and protein sequences have been sourced through the European Nucleotide Archive (ENA) and Universal Protein Resource (UniProt), databases that contains comprehensive sets of nucleotide (DNA/RNA) and protein sequences from all organisms that have been published by the International Research Community.
+
+</description>
+            <description type="accessRights">This data is freely available to any individual for any purpose. For more information see http:www.ebi.ac.uk/Information/termsofuse.html</description>
+            <subject type="anzsrc-for">060407</subject>
+            <subject type="anzsrc-for">060102</subject>
+            <subject type="anzsrc-for">060411</subject>
+            <relatedObject>
+                <key>www.qfab.org/collection-842AUT</key>
+                <relation type="isPartOf"/>
+            </relatedObject>
+            <relatedObject>
+                <key>www.qfab.org/party-1AUT</key>
+                <relation type="hasCollector"/>
+            </relatedObject>
+            <relatedObject>
+                <key>http://nla.gov.au/nla.party-640660AUT</key>
+                <relation type="hasAssociationWith"/>
+            </relatedObject>
+            <relatedInfo>
+                <identifier type="uri">http://www.ebi.ac.uk/enaAUT</identifier>
+                <title>ENA (European Nucleotide Archive)</title>
+            </relatedInfo>
+            <relatedInfo>
+                <identifier type="uri">http://www.uniprot.orgAUT</identifier>
+                <title>Uniprot (Universal Protein Resource)</title>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="State Records Authority of New South Wales">
+        <key>http://search.records.nsw.gov.au/series/353AUT</key>
+        <originatingSource>http://www.records.nsw.gov.au</originatingSource>
+        <collection dateModified="" type="collection">
+            <identifier type="uri">http://search.records.nsw.gov.au/series/353AUT</identifier>
+            <dates type="dc.created">
+                <date dateFormat="W3CDTF" type="dateFrom">1963-11-01</date>
+                <date dateFormat="W3CDTF" type="dateTo">1963-11-30</date>
+            </dates>
+            <name>
+                <namePart type="full">(AUTestingRecords) RelatedInfo Service(isSupportedBy) with WMS service relation URL Sir Guy Powles, "The Citizen's Rights Against the Modern State, and its Responsibilities to Him"</namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://search.records.nsw.gov.au/series/353</value>
+                    </electronic>
+                    <physical type="streetAddress">
+                        <addressPart type="text">Western Sydney Records Centre 
+143 O'Connell Street KINGSWOOD NSW</addressPart>
+                    </physical>
+                </address>
+            </location>
+            <relatedObject>
+                <key>http://search.records.nsw.gov.au/agencies/11AUT</key>
+                <relation type="hasCreator">
+                    <description>Department of Attorney General and of Justice (1901-1984) Attorney-General's Department [I] (1984-1991)</description>
+                </relation>
+            </relatedObject>
+            <subject type="anzsrc-for">2103 HISTORICAL STUDIES</subject>
+            <description type="full">This volume comprises the text of a talk given by Sir Guy Powles K.B.E., C.M.G., E.D., CC.B., Parliamentary Commissioner (Ombudsman) for New Zealand, at the Conference of the Australian Regional Groups of the Royal Institute of Public Administration, held in Canberra on 13-15 November 1963. The talk was reprinted in November 1963, by the Committee for Postgraduate Studies in the Department of Law, University of Sydney. This particular copy is annotated: "Submitted for the information of the Attorney General" 28 July 1964. (7/5847). 1 vol. Note: This description is extracted from Concise Guide to the State Archives of New South Wales, 3rd Edition 2000.</description>
+            <coverage>
+                <temporal>
+                    <date dateFormat="W3CDTF" type="dateFrom">1963-11-01T00:00:00+10:00</date>
+                    <date dateFormat="W3CDTF" type="dateTo">1963-11-30T00:00:00+10:00</date>
+                </temporal>
+            </coverage>
+            <rights>
+                <accessRights rightsUri="http://www.records.nsw.gov.au/state-archives/register-of-access-directions">The State Records Act 1998 (NSW) provides a general entitlement of public access to State records that are at least 30 years old. For a record to be available under the Act it must be subject to an 'open to public access' direction. Some records containing sensitive information may be closed for longer than 30 years under a ‘closed to public access’ direction. View access directions at: http://www.records.nsw.gov.au/state-archives/register-of-access-directions</accessRights>
+                <rightsStatement rightsUri="http://www.records.nsw.gov.au/state-archives/guides-and-finding-aids/archives-in-brief/archives-in-brief-74"> Records held by the State Records Authority of New South Wales are covered by copyright. For information on reusing material from the collection see Archives in Brief 74 – Research and Copyright.</rightsStatement>
+            </rights>
+            <relatedInfo type="service">
+                <title>WMS Service</title>
+                <identifier type="url">http://services.ga.gov.au/gis/services/Geophysical_Grids/MapServer/WMSServer</identifier>
+                <relation type="isSupportedBy">
+                    <url>http://services.ga.gov.au/gis/services/Geophysical_Grids/MapServer/WMSServer</url></relation>
+            </relatedInfo>
+            <citationInfo>
+                <fullCitation>SRNSW: NRS 353</fullCitation>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+
+    <registryObject group="Macquarie University">
+        <key>bmfrc-paper-9118998AUT</key>
+        <originatingSource>http://services.ands.org.au/home/orca/register_my_data</originatingSource>
+        <collection type="collection">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords) Multiple electronic addresses one with WMS url. Glycosylation analysis and protein structure determination of murine fetal antigen 1 (mFA1)--the circulating gene product of the delta-like protein (dlk), preadipocyte factor 1 (Pref-1) and stromal-cell-derived protein 1 (SCP-1) cDNAs.</namePart>
+            </name>
+            <description type="brief">GlycoSuiteDB is a curated database of carbohydrate (glycan) structures sourced from published material. This entry corresponds to a catologue of structures reported in the publication - Glycosylation analysis and protein structure determination of murine fetal antigen 1 (mFA1)--the circulating gene product of the delta-like protein (dlk), preadipocyte factor 1 (Pref-1) and stromal-cell-derived protein 1 (SCP-1) cDNAs.</description>
+            <description type="rights">Copyright. Macquarie University (Biomolecular Frontiers Research Centre), Australia; Proteome Informatics Group (Swiss Institute for Bioinformatics)</description>
+            <description type="note">The results obtained in the context of research activities will be immediately made available to the scientific community through the portal, taking due precautions for protecting the potential for exploiting the results and will be be disseminated and exploited at the other research initiatives in the network as soon as feasible.</description>
+            <description type="accessRights">UniCarb-DB is open source platform and an open access resource. The resources published via the platform need to be referenced when used. For example: UniCarb-DB, http://www.unicarb-db.org last accessed: dd/mm/yyyy. with citation</description>
+            <identifier type="url">http://glycosuitedb.expasy.org/glycosuite/results?selected+results.x=31&amp;amp;selected+results.y=9&amp;amp;results_index=reference&amp;amp;index_order=PUB_YEAR____AUTHORS____TITLE____JOURNAL____VOLUME____PAGES&amp;amp;index=1997____Krogh+T,+Bachmann+E,+Teisner+B,+Skjdt+K,+Hjrup+P____Glycosylation+analysis+and+protein+structure+determination+of+murine+fetal+antigen+1+(mFA1)--the+circulating+gene+product+of+the+delta-like+protein+(dlk),+preadipocyte+factor+1+(Pref-1)+and+stromal-cell-derived+protein+1+(SCP-1)+cDNAs.AUT</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://glycosuitedb.expasy.org/glycosuite/results?selected+results.x=31&amp;amp;selected+results.y=9&amp;amp;results_index=reference&amp;amp;index_order=PUB_YEAR____AUTHORS____TITLE____JOURNAL____VOLUME____PAGES&amp;amp;index=1997____Krogh+T,+Bachmann+E,+Teisner+B,+Skjdt+K,+Hjrup+P____Glycosylation+analysis+and+protein+structure+determination+of+murine+fetal+antigen+1+(mFA1)--the+circulating+gene+product+of+the+delta-like+protein+(dlk),+preadipocyte+factor+1+(Pref-1)+and+stromal-cell-derived+protein+1+(SCP-1)+cDNAs.</value>
+                    </electronic>
+                </address>
+            </location>
+
+                        <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://services.ga.gov.au/geoserver/hydrochem_analyses/wms</value>
+                    </electronic>
+                </address>
+            </location>
+
+            
+            <relatedObject>
+                <key>bmfrc-database-1AUT</key>
+                <relation type="hasPart">
+                    <description>The results (meta-data and glycan structures) from this paper have been curated by GlycoSuiteDB.</description>
+                    <url/>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>http://www.chem.mq.edu.au/academics/npacker.htmlAUT</key>
+                <relation type="isManagedBy">
+                    <url/>
+                </relation>
+            </relatedObject>
+            <subject type="local" xml:lang="en">O-linked</subject>
+            <subject type="anzsrc-for" xml:lang="en">060101</subject>
+            <subject type="anzsrc-for" xml:lang="en">0601</subject>
+            <subject type="anzsrc-for" xml:lang="en">060102</subject>
+            <subject type="local" xml:lang="en">Carbohydrate Sequence</subject>
+            <relatedInfo type="publication">
+                <identifier type="uri">http://www.ncbi.nlm.nih.gov/pubmed/9118998AUT</identifier>
+                <title>Krogh T, Bachmann E, Teisner B, Skjdt K, Hjrup P "EUROPEAN JOURNAL OF BIOCHEMISTRY" 1997</title>
+                <notes/>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.isb-sib.chAUT</identifier>
+                <title>Swiss Institute for Bioinformatics</title>
+                <notes/>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+
+    <registryObject group="Macquarie University">
+        <key>bmfrc-paper-1502687AUT</key>
+        <originatingSource>http://glycosuitedb.expasy.org</originatingSource>
+        <collection type="collection">
+            <identifier type="url">http://glycosuitedb.expasy.org/glycosuite/results?selected+results.x=31&amp;amp;selected+results.y=9&amp;amp;results_index=reference&amp;amp;index_order=PUB_YEAR____AUTHORS____TITLE____JOURNAL____VOLUME____PAGES&amp;amp;index=1992____Nakamura+Y%2C+Takahashi+Y%2C+Yamaguchi+S%2C+Omiya+S%2C+Orii+T%2C+Yara+A%2C+Gushiken+M____Severe+infantile+sialidosis--the+characteristics+of+oligosaccharides+isolated+from+the+urine+and+the+abdominal+ascites.AUT</identifier>
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)Electronic address with Bogus WMS service URL which returns a 404. Severe infantile sialidosis--the characteristics of oligosaccharides isolated from the urine and the abdominal ascites.</namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://glycosuitedb.expasy.org/glycosuite/results?selected+results.x=31&amp;amp;selected+results.y=9&amp;amp;results_index=reference&amp;amp;index_order=PUB_YEAR____AUTHORS____TITLE____JOURNAL____VOLUME____PAGES&amp;amp;index=1992____Nakamura+Y%2C+Takahashi+Y%2C+Yamaguchi+S%2C+Omiya+S%2C+Orii+T%2C+Yara+A%2C+Gushiken+M____Severe+infantile+sialidosis--the+characteristics+of+oligosaccharides+isolated+from+the+urine+and+the+abdominal+ascites.</value>
+                    </electronic>
+                </address>
+            </location>
+            <relatedObject>
+                <key>bmfrc-database-1AUT</key>
+                <relation type="hasPart">
+                    <description>The results (meta-data and glycan structures) from this paper have been curated by GlycoSuiteDB.</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>http://www.chem.mq.edu.au/academics/npacker.htmlAUT</key>
+                <relation type="isManagedBy"/>
+            </relatedObject>
+            <description type="brief">GlycoSuiteDB is a curated database of carbohydrate (glycan) structures sourced from published material. This entry corresponds to a catologue of structures reported in the publication - Severe infantile sialidosis--the characteristics of oligosaccharides isolated from the urine and the abdominal ascites.</description>
+            <description type="rights">Copyright. Macquarie University (Biomolecular Frontiers Research Centre), Australia; Proteome Informatics Group (Swiss Institute for Bioinformatics)</description>
+            <description type="note">The results obtained in the context of research activities will be immediately made available to the scientific community through the portal, taking due precautions for protecting the potential for exploiting the results and will be be disseminated and exploited at the other research initiatives in the network as soon as feasible.</description>
+            <description type="accessRights">UniCarb-DB is open source platform and an open access resource. The resources published via the platform need to be referenced when used. For example: UniCarb-DB, http://www.unicarb-db.org last accessed: dd/mm/yyyy. with citation</description>
+            <relatedInfo type="publication">
+                <identifier type="uri">http://www.ncbi.nlm.nih.gov/pubmed/1502687AUT</identifier>
+                <title>Nakamura Y, Takahashi Y, Yamaguchi S, Omiya S, Orii T, Yara A, Gushiken M "TOHOKU JOURNAL OF EXPERIMENTAL MEDICINE" 1992</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.isb-sib.chAUT</identifier>
+                <title>Swiss Institute for Bioinformatics</title>
+            </relatedInfo>
+            <subject type="local" xml:lang="en">O-linked</subject>
+            <subject type="anzsrc-for" xml:lang="en">060101</subject>
+            <subject type="anzsrc-for" xml:lang="en">0601</subject>
+            <subject type="anzsrc-for" xml:lang="en">060102</subject>
+            <subject type="local" xml:lang="en">Carbohydrate Sequence</subject>
+        </collection>
+    </registryObject>
+
+    <registryObject group="QFAB">
+        <key>www.qfab.org/collection-1005AUT</key>
+        <originatingSource>http://services.ands.org.au/sandbox/orca/register_my_data</originatingSource>
+        <collection type="collection">
+            <identifier type="local">www.qfab.org/collection-1005AUT</identifier>
+            <name type="primary">
+                <namePart>(AutestingRecords) elatedInfo Service(isOperatedOnBy) with WMS service relation URL Australian Nucleotide (DNA/RNA) and Protein sequences from  the Australian research institution,The Queen Elizabeth Hospital</namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://rda.ebi.edu.au/default.jsp?collectionId=1005&amp;view=preview</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="note">The contents of this collection is dynamic and will change over time as more data is deposited into the European Nucleotide Archive (ENA) and Universal Protein Resource (UniProt).
+
+The set of nucleotide (DNA/RNA) and protein sequences in this collection is not necessarily comprehensive. It contains only nucleotide (DNA/RNA) and protein sequences that have been published in the European Nucleotide Archive (ENA) and Universal Protein Resource (UniProt). The results have been returned using the exact search term The Queen Elizabeth Hospital. The current version of the system does not allow for typographical errors or synonyms.</description>
+            <description type="full">This data collection contains all currently published nucleotide (DNA/RNA) and protein sequences from  the Australian research institution,The Queen Elizabeth Hospital.The nucleotide (DNA/RNA) and protein sequences have been sourced through the European Nucleotide Archive (ENA) and Universal Protein Resource (UniProt), databases that contains comprehensive sets of nucleotide (DNA/RNA) and protein sequences from all organisms that have been published by the International Research Community.
+
+</description>
+            <description type="accessRights">This data is freely available to any individual for any purpose. For more information see http:www.ebi.ac.uk/Information/termsofuse.html</description>
+            <subject type="anzsrc-for">060407</subject>
+            <subject type="anzsrc-for">060102</subject>
+            <subject type="anzsrc-for">060411</subject>
+            <relatedObject>
+                <key>www.qfab.org/collection-844AUT</key>
+                <relation type="isPartOf"/>
+            </relatedObject>
+            <relatedObject>
+                <key>www.qfab.org/party-1AUT</key>
+                <relation type="hasCollector"/>
+            </relatedObject>
+            <relatedObject>
+                <key>http://nla.gov.au/nla.party-482962AUT</key>
+                <relation type="hasAssociationWith"/>
+            </relatedObject>
+            <relatedInfo>
+                <identifier type="uri">http://www.ebi.ac.uk/enaAUT</identifier>
+                <title>ENA (European Nucleotide Archive)</title>
+            </relatedInfo>
+            <relatedInfo>
+                <identifier type="uri">http://www.uniprot.orgAUT</identifier>
+                <title>Uniprot (Universal Protein Resource)</title>
+            </relatedInfo>
+                        <relatedInfo type="service">
+                <title>WMS Service</title>
+                <identifier type="url">http://services.ga.gov.au/gis/services/Geophysical_Grids/MapServer/WMSServer</identifier>
+                <relation type="isOperatedOnBy">
+                    <url>http://meiproc.earthsci.unimelb.edu.au/geoserver/wms</url></relation>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="State Records Authority of New South Wales">
+        <key>http://search.records.nsw.gov.au/series/15569AUT</key>
+        <originatingSource>http://www.records.nsw.gov.au</originatingSource>
+        <collection dateModified="" type="collection">
+            <identifier type="uri">http://search.records.nsw.gov.au/series/15569AUT</identifier>
+            <dates type="dc.created">
+                <date dateFormat="W3CDTF" type="dateFrom">1924-01-01</date>
+                <date dateFormat="W3CDTF" type="dateTo">1931-12-30</date>
+            </dates>
+            <name>
+                <namePart type="full">"(AUTestingRecords) RelatedObject Service (isAvailableThrough) with relation URL pointing to WMS....The Staff" railway magazine</namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://search.records.nsw.gov.au/series/15569</value>
+                    </electronic>
+                    <physical type="streetAddress">
+                        <addressPart type="text">Western Sydney Records Centre 143 O'Connell Street KINGSWOOD NSW</addressPart>
+                    </physical>
+                </address>
+            </location>
+            <relatedObject>
+                <key>AODN/1d15d754-3219-60b4-e053-12a3070a93bfAUT</key>
+                <relation type="isAvailableThrough">
+                    <description>Office of the Chief Commissioner of Railways and Tramways </description>
+                    <url>http://www.ga.gov.au/gis/services/topography/Dept_of_Environment_Protected_Areas/MapServer/WMSServer?request=GetCapabilities&amp;service=WMS</url>
+                </relation>
+            </relatedObject>
+            <subject type="anzsrc-for">2103 HISTORICAL STUDIES</subject>
+            <description type="full">This monthly magazine replaced "The Railway and Tramway Magazine" and incorporated into it "The Commissioners’ Monthly Bulletin" and the "Safety First Pamphlet". The aim of the magazine was to promote efficiency, safety, economy, and contentment within the service. It provided readers with the latest information regarding their duties and these service notes covered official, personal, sporting, and social topics. Also included were articles from experts on all phases of railway and tramway operation. The publication was used by the railway Administration to make announcements affecting all employees, and as the official record of Staff appointments. The magazine was also used to record awards to staff for suggestions and inventions. Staff members were able to contribute articles, drawings, photographs, and items of news. Special features such as photographic competitions, a "garden notes" section, and a "Where-to-spend-your-Holiday" were also included. The Railway Commissioners decided to discontinue publication of The Staff after December 1930 of financial constraints. Custody History From 1955 until 2000 the State Rail Authority of New South Wales maintained an ‘in house archives’ consisting of the archival records of the Authority, its predecessor agencies and the private railway companies taken over by the government. The date ranges of the records were from 1849 until 2000. When the decision was made to close the ‘State Rail Archives’ the parts of the collection that were required as State archives were transferred to the State Records Authority of NSW. Those record series were incorporated into the State Records series system of archives control and were re-numbered. This series was formerly part of the State Rail Archives collection where it was identified as series R67 "In-house publications". It may have been viewed in the State Rail Archives as series R67 and could have been previously cited as such in notes by researchers at State Rail Archives or in publications or unpublished works. State Rail series R67 was separated into 14 individual series.</description>
+            <coverage>
+                <temporal>
+                    <date dateFormat="W3CDTF" type="dateFrom">1924-01-01T00:00:00+10:00</date>
+                    <date dateFormat="W3CDTF" type="dateTo">1930-12-30T00:00:00+10:00</date>
+                </temporal>
+            </coverage>
+            <rights>
+                <accessRights rightsUri="http://www.records.nsw.gov.au/state-archives/register-of-access-directions">The State Records Act 1998 (NSW) provides a general entitlement of public access to State records that are at least 30 years old. For a record to be available under the Act it must be subject to an 'open to public access' direction. Some records containing sensitive information may be closed for longer than 30 years under a ‘closed to public access’ direction. View access directions at: http://www.records.nsw.gov.au/state-archives/register-of-access-directions</accessRights>
+                <rightsStatement rightsUri="http://www.records.nsw.gov.au/state-archives/guides-and-finding-aids/archives-in-brief/archives-in-brief-74"> Records held by the State Records Authority of New South Wales are covered by copyright. For information on reusing material from the collection see Archives in Brief 74 – Research and Copyright.</rightsStatement>
+            </rights>
+            <relatedInfo>
+                <identifier type="website">http://search.records.nsw.gov.au/series/15569AUT</identifier>
+            </relatedInfo>
+            <citationInfo>
+                <fullCitation>SRNSW: NRS 15569</fullCitation>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+<registryObject group="Australian Ocean Data Network">
+    <key>AODN/1d15d754-3219-60b4-e053-12a3070a93bfAUT</key>
+    <originatingSource>Commonwealth of Australia (Department of the Environment)</originatingSource>
+    <service type="report">
+      <identifier type="global">1d15d754-3219-60b4-e053-12a3070a93bf</identifier>
+      <relatedInfo type="relatedInformation">
+        <identifier type="uri">http://www.ga.gov.au/gis/services/topography/Dept_of_Environment_Protected_Areas/MapServer/WMSServerAUT</identifier>
+        <relation type="isAssociatedWith"/>
+        <title>Dept_of_Environment_Protected_Areas WMS</title>
+        <notes>Dept_of_Environment_Protected_Areas WMS</notes>
+      </relatedInfo>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://catalogue.aodn.org.au/geonetwork/srv/eng/metadata.show?uuid=1d15d754-3219-60b4-e053-12a3070a93bf</value>
+          </electronic>
+        </address>
+      </location>
+      <description type="lineage">This Web Map Service contains three protected areas data layers sourced from the Australian Commonwealth Department of Environment: World Heritage Areas (2007), and the Collaborative Australian Protected Areas Database (CAPAD, 2014, terrestrial and marine regions).</description>
+      <name type="primary">
+        <namePart>Department of Environment Protected Areas WMS</namePart>
+      </name>
+      <relatedObject>
+        <key>AODN/GeoscienceAustralia</key>
+        <relation type="pointOfContact"/>
+        <relation type="publisher"/>
+      </relatedObject>
+      <relatedObject>
+        <key>AODN/CommonwealthofAustralia(DepartmentoftheEnvironment)</key>
+        <relation type="owner"/>
+      </relatedObject>
+      <relatedObject>
+        <key>AODN/CommonwealthofAustralia(GeoscienceAustralia)</key>
+        <relation type="custodian"/>
+      </relatedObject>
+      <subject type="local">Web Service</subject>
+      <subject type="local">Web Service</subject>
+      <subject type="local">heritage</subject>
+      <subject type="local">WMS</subject>
+      <subject type="local">marine</subject>
+      <subject type="local">land</subject>
+      <subject type="local">boundaries</subject>
+      <subject type="local">Earth Sciences</subject>
+      <description type="full">This Web Map Service contains three protected areas data layers sourced from the Australian Commonwealth Department of Environment: World Heritage Areas (2007), and the Collaborative Australian Protected Areas Database (CAPAD, 2014, terrestrial and marine regions). The web service is hosted by Geoscience Australia.</description>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-10.5; southlimit=-55.3; westlimit=72.2; eastLimit=159.3</spatial>
+        <spatial type="text">northlimit=-10.5; southlimit=-55.3; westlimit=72.2; eastLimit=159.3</spatial>
+      </coverage>
+      <rights>
+        <licence>license</licence>
+      </rights>
+      <rights>
+        <licence>Creative Commons Attribution 4.0 International Licence</licence>
+      </rights>
+    </service>
+  </registryObject>
+
+    <registryObject group="State Records Authority of New South Wales">
+        <key>http://search.records.nsw.gov.au/series/15604AUT</key>
+        <originatingSource>http://www.records.nsw.gov.au</originatingSource>
+        <collection dateModified="" type="collection">
+            <identifier type="uri">http://search.records.nsw.gov.au/series/15604AUT</identifier>
+            <dates type="dc.created">
+                <date dateFormat="W3CDTF" type="dateFrom">1995-01-01</date>
+                <date dateFormat="W3CDTF" type="dateTo">1996-09-30</date>
+            </dates>
+            <name>
+                <namePart type="full">(AUTestingRecords) Electronic url WFS. "the way to go" staff newsletter</namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://services.ga.gov.au/geoserver/borehole_samples/wfs</value>
+                    </electronic>
+                    <physical type="streetAddress">
+                        <addressPart type="text">Western Sydney Records Centre 
+143 O'Connell Street KINGSWOOD NSW</addressPart>
+                    </physical>
+                </address>
+            </location>
+            <relatedObject>
+                <key>http://search.records.nsw.gov.au/agencies/1635AUT</key>
+                <relation type="hasCreator">
+                    <description>CityRail  </description>
+                </relation>
+            </relatedObject>
+            <subject type="anzsrc-for">2103 HISTORICAL STUDIES</subject>
+            <description type="full">This newsletter was produced to convey news of CityRail’s activities to all staff. Included are articles outlining work being carried out by CityRail in the provision of railway services, the construction and maintenance of railway lines and the purchase and management of trains. The newsletter also contains short articles on the educational achievements of staff, and on community events involving CityRail staff such as fundraisers. Volumes one and two of "the way to go" were not dated but it appears the newsletter was issued quarterly from the beginning of 1995. The only issue with a date is a short "extra" issue for March 1996. Custody History From 1955 until 2000 the State Rail Authority of New South Wales maintained an ‘in house archives’ consisting of the archival records of the Authority, its predecessor agencies and the private railway companies taken over by the government. The date ranges of the records were from 1849 until 2000. When the decision was made to close the ‘State Rail Archives’ the parts of the collection that were required as State archives were transferred to the State Records Authority of NSW. Those record series were incorporated into the State Records series system of archives control and were re-numbered. This series was formerly part of the State Rail Archives collection where it was identified as series R67 "In-house publications". It may have been viewed in the State Rail Archives as series R67 and could have been previously cited as such in notes by researchers at State Rail Archives or in publications or unpublished works. State Rail series R67 was separated into 14 individual series.</description>
+            <coverage>
+                <temporal>
+                    <date dateFormat="W3CDTF" type="dateFrom">1995-01-01T00:00:00+11:00</date>
+                    <date dateFormat="W3CDTF" type="dateTo">1996-09-30T00:00:00+10:00</date>
+                </temporal>
+            </coverage>
+            <rights>
+                <accessRights rightsUri="http://www.records.nsw.gov.au/state-archives/register-of-access-directions">The State Records Act 1998 (NSW) provides a general entitlement of public access to State records that are at least 30 years old. For a record to be available under the Act it must be subject to an 'open to public access' direction. Some records containing sensitive information may be closed for longer than 30 years under a ‘closed to public access’ direction. View access directions at: http://www.records.nsw.gov.au/state-archives/register-of-access-directions</accessRights>
+                <rightsStatement rightsUri="http://www.records.nsw.gov.au/state-archives/guides-and-finding-aids/archives-in-brief/archives-in-brief-74"> Records held by the State Records Authority of New South Wales are covered by copyright. For information on reusing material from the collection see Archives in Brief 74 – Research and Copyright.</rightsStatement>
+            </rights>
+            <relatedInfo>
+                <identifier type="website">http://search.records.nsw.gov.au/series/15604AUT</identifier>
+            </relatedInfo>
+            <citationInfo>
+                <fullCitation>SRNSW: NRS 15604</fullCitation>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="State Records Authority of New South Wales">
+        <key>http://search.records.nsw.gov.au/series/15467AUT</key>
+        <originatingSource>http://www.records.nsw.gov.au</originatingSource>
+        <collection dateModified="2011-09-21" type="collection">
+            <identifier type="uri">http://search.records.nsw.gov.au/series/15467AUT</identifier>
+            <dates type="dc.created">
+                <date dateFormat="W3CDTF" type="dateFrom">1917-10-17</date>
+                <date dateFormat="W3CDTF" type="dateTo">1917-10-17</date>
+            </dates>
+            <name>
+                <namePart type="full">(AUTestingRecords) Electronic WFS url. Same service URL as collection with key http://search.records.nsw.gov.au/series/15604AUT but contains params.'The Transit Problems of Greater Sydney'  [a paper by J.J.C. Bradfield]</namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://services.ga.gov.au/geoserver/borehole_samples/wfs?request=getCapabilities&amp;version=2.0.0</value>
+                    </electronic>
+                    <physical type="streetAddress">
+                        <addressPart type="text">Western Sydney Records Centre 
+143 O'Connell Street KINGSWOOD NSW</addressPart>
+                    </physical>
+                </address>
+            </location>
+            <relatedObject>
+                <key>http://search.records.nsw.gov.au/agencies/1897AUT</key>
+                <relation type="hasCreator">
+                    <description>Sydney Harbour and City Transit Branch  (1912-1913)  Metropolitan Railway Construction Branch (1913-1916) </description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>http://search.records.nsw.gov.au/persons/141AUT</key>
+                <relation type="hasCreator">
+                    <description>John Job Crew Bradfield </description>
+                </relation>
+            </relatedObject>
+            <subject type="anzsrc-for">2103 HISTORICAL STUDIES</subject>
+            <description type="full">This volume is consists of a paper entitled "The Transit Problems of Greater Sydney", presented by J.J.C. Bradfield to the Australian Town Planning Conference and Exhibition, held in Adelaide from 17-24 October 1917. Bradfield advocated a transit scheme to improve transport in Sydney which included the electrification of railway lines and the construction of a bridge between Sydney and North Sydney. The volume also contains copies of photographs, maps, plans and other illustrative material which Bradfield used in his presentation. There are 12 appendices related to population growth and distribution used to support his theory. [At the time of the presentation, J.J.C. Bradfield was Chief Engineer, Metropolitan Railway Construction, NSW Government Railways and Tramways.] Custody History This record series was handed to the Archives Authority of NSW on 11 June 1968 by the Bradfield family. It was apparently an archival estray.</description>
+            <coverage>
+                <temporal>
+                    <date dateFormat="W3CDTF" type="dateFrom">1917-10-17T00:00:00+10:00</date>
+                    <date dateFormat="W3CDTF" type="dateTo">1917-10-17T00:00:00+10:00</date>
+                </temporal>
+            </coverage>
+            <rights>
+                <accessRights rightsUri="http://www.records.nsw.gov.au/state-archives/register-of-access-directions">The State Records Act 1998 (NSW) provides a general entitlement of public access to State records that are at least 30 years old. For a record to be available under the Act it must be subject to an 'open to public access' direction. Some records containing sensitive information may be closed for longer than 30 years under a ‘closed to public access’ direction. View access directions at: http://www.records.nsw.gov.au/state-archives/register-of-access-directions</accessRights>
+                <rightsStatement rightsUri="http://www.records.nsw.gov.au/state-archives/guides-and-finding-aids/archives-in-brief/archives-in-brief-74"> Records held by the State Records Authority of New South Wales are covered by copyright. For information on reusing material from the collection see Archives in Brief 74 – Research and Copyright.</rightsStatement>
+            </rights>
+            <relatedInfo>
+                <identifier type="website">http://search.records.nsw.gov.au/series/15467AUT</identifier>
+            </relatedInfo>
+            <citationInfo>
+                <fullCitation>SRNSW: NRS 15467</fullCitation>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="Public Record Office Victoria">
+        <key>PROV VA 2928AUT</key>
+        <originatingSource>http://www.prov.vic.gov.au</originatingSource>
+        <party type="group" dateModified="2018-10-14 23:50:47">
+            <identifier type="local">VA 2928AUT</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords) Party with wfs electronic url. Royal Commission into Off-The-Course Betting</namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>hhttps://sentinel.ga.gov.au/geoserver/wfs</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">The Letters Patent setting out the terms of reference of the Royal Commission into Off-The-Course Betting and appointing the Honorable Fred Russell Beaucamp Martin (F.R.B) as Royal Commissioner were issued by the Governor of Victoria (General Sir Reginald Alexander Dallas Brooks) on 30 September 1958.  The establishment of the Commission had been announced by his Excellency&amp;#039;s Command Mr Henry E. Bolte (Premier of Victoria).&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;The Commissioner was to inquire into, report upon, and make recommendations concerning off-the-course betting with particular reference to- &amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;1.(a) What social evil or evils are associated with illegal off-the-course betting as now conducted in Victoria?&amp;lt;BR /&amp;gt;   &amp;lt;BR /&amp;gt;(b) What is the financial extent of such betting annually?&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;(c) What net amount of revenue would be likely to accrue to the State annually if-such betting was subjected to the State revenue laws now applicable to betting on licensed racecourses?&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;(d) What measures, legislative or otherwise, are now provided to suppress such betting, to what extent are they effective, and what action, if any, can be taken to make any and which of such measures more effective?&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;2. If off-the-course betting were made lawful in Victoria-&amp;lt;BR /&amp;gt;    &amp;lt;BR /&amp;gt;(a) Would any and which of the evils associated with unlawful off-the- course betting be likely to be mitigated to any and what extent?&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;(b) Would any and what new social evils not now existing in connexion with unlawful off-the-course betting be likely to be created?  If so, would such evils be&amp;lt;BR /&amp;gt;                     &amp;lt;BR /&amp;gt;(i) more; or&amp;lt;BR /&amp;gt;(ii)less-&amp;lt;BR /&amp;gt;detrimental to the general public interest than those now existing?&amp;lt;BR /&amp;gt; &amp;lt;BR /&amp;gt;(c) What additional net annual revenue would be likely to accrue to the State if such betting was subjected to the State revenue laws now applicable to betting on licensed racecourses?&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;3. What method or methods of off-the-course betting could be adopted to institute a lawful system of such betting in Victoria, what are the  advantages and disadvantages of each of such methods, and which method is best suited for adoption in Victoria?&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;4.(a) What advantage of advantages would be likely to accrue to the general public interest from making off-the-course betting lawful in Victoria?&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;(b) What disadvantage or disadvantages would be likely to be suffered by the general public interest from making off-the-course betting lawful  in Victoria?&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;5. Is it desirable in the general public interest of Victoria that off-the-course betting  &amp;lt;BR /&amp;gt;should be made lawful and, if so, what are the principal considerations that make such action desirable?&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;For the purposes of these terms of reference, off-the-course betting means betting by way of wagering- elsewhere than on a licensed racecourse during the holding thereon of a race-meeting within the meaning of the Racing Act 1957- on the results of horse or trotting races run at such a race-meeting.&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;The Royal Commission report was tabled in Parliament on 27 February 1959. The &amp;#039;Report of the Royal Commisioner Appointed to Inquire into Off-The-Course Betting together with Minutes of Evidence&amp;#039; was published in the Papers Presented to Parliament 1958/59,  Vol. 2,  No 30. pp.853-907.&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;</description>
+            <coverage>
+                <spatial type="kmlPolyCoords">141.000000,-34.000000 142.919336,-34.145604 144.582129,-35.659230 147.742627,-35.873175 150.024219,-37.529041 150.200000,-39.200000 141.000000,-39.200000 141.000000,-34.000000 141.000000,-34.000000</spatial>
+            </coverage>
+            <existenceDates>
+                <startDate dateFormat="W3CDTF">1958</startDate>
+                <endDate dateFormat="W3CDTF">1959</endDate>
+            </existenceDates>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.access.prov.vic.gov.au/public/component/daPublicBaseContainer?component=daViewAgency&amp;breadcrumbPath=Home/Access%20the%20Collection/Browse%20The%20Collection/Agency%20Details&amp;entityId=2928</identifier>
+            </relatedInfo>
+        </party>
+    </registryObject>
+
+
+    <registryObject group="State Records Authority of New South Wales">
+        <key>http://search.records.nsw.gov.au/series/15438AUT</key>
+        <originatingSource>http://www.records.nsw.gov.au</originatingSource>
+        <collection dateModified="2011-09-21" type="collection">
+            <identifier type="uri">http://search.records.nsw.gov.au/series/15438AUT</identifier>
+            <dates type="dc.created">
+                <date dateFormat="W3CDTF" type="dateFrom">1921-10-31</date>
+                <date dateFormat="W3CDTF" type="dateTo">1921-10-31</date>
+            </dates>
+            <name>
+                <namePart type="full">(AUTestingRecords) Elecronic URL WFSServer. Target direct download'The Sydney Harbour Bridge' [paper by J.J.C. Bradfield]</namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="url" target="directDownload">
+                        <value>http://services.ga.gov.au/gis/services/Dam_Walls/MapServer/WFSServer</value>
+                    </electronic>
+                    <physical type="streetAddress">
+                        <addressPart type="text">Western Sydney Records Centre 
+143 O'Connell Street KINGSWOOD NSW</addressPart>
+                    </physical>
+                </address>
+            </location>
+            <relatedObject>
+                <key>http://search.records.nsw.gov.au/agencies/1898AUT</key>
+                <relation type="hasCreator">
+                    <description>Sydney Harbour Bridge Branch [Department of Public Works]</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>http://search.records.nsw.gov.au/persons/141AUT</key>
+                <relation type="hasCreator">
+                    <description>John Job Crew Bradfield </description>
+                </relation>
+            </relatedObject>
+            <subject type="anzsrc-for">2103 HISTORICAL STUDIES</subject>
+            <description type="full">This volume contains a paper presented by J.J.C Bradfield, Chief Engineer Sydney Harbour Bridge. In the paper he presents a brief history of the proposal for a bridge across Sydney Harbour. The paper outlines the design and capacities of the bridge to be built, as well as the construction of the bridge and estimated cost. The paper also deals with the electrification of the city and suburban rail lines. The volumes also contains photographs of the slides used in the presentation of the paper. Custody History This record series was handed to the Archives Authority of NSW on 11 June 1968 by the Bradfield family. It was apparently an archival estray.</description>
+            <coverage>
+                <temporal>
+                    <date dateFormat="W3CDTF" type="dateFrom">1921-10-31T00:00:00+10:00</date>
+                    <date dateFormat="W3CDTF" type="dateTo">1921-10-31T00:00:00+10:00</date>
+                </temporal>
+            </coverage>
+            <rights>
+                <accessRights rightsUri="http://www.records.nsw.gov.au/state-archives/register-of-access-directions">The State Records Act 1998 (NSW) provides a general entitlement of public access to State records that are at least 30 years old. For a record to be available under the Act it must be subject to an 'open to public access' direction. Some records containing sensitive information may be closed for longer than 30 years under a ‘closed to public access’ direction. View access directions at: http://www.records.nsw.gov.au/state-archives/register-of-access-directions</accessRights>
+                <rightsStatement rightsUri="http://www.records.nsw.gov.au/state-archives/guides-and-finding-aids/archives-in-brief/archives-in-brief-74"> Records held by the State Records Authority of New South Wales are covered by copyright. For information on reusing material from the collection see Archives in Brief 74 – Research and Copyright.</rightsStatement>
+            </rights>
+            <relatedInfo>
+                <identifier type="website">http://search.records.nsw.gov.au/series/15438AUT</identifier>
+            </relatedInfo>
+            <citationInfo>
+                <fullCitation>SRNSW: NRS 15438</fullCitation>
+            </citationInfo>
+        </collection>
+    </registryObject>
+    <registryObject group="State Records Authority of New South Wales">
+        <key>http://search.records.nsw.gov.au/series/17232AUT</key>
+        <originatingSource>http://www.records.nsw.gov.au</originatingSource>
+        <collection dateModified="" type="collection">
+            <identifier type="uri">http://search.records.nsw.gov.au/series/17232AUT</identifier>
+            <dates type="dc.created">
+                <date dateFormat="W3CDTF" type="dateFrom">1946-01-01</date>
+                <date dateFormat="W3CDTF" type="dateTo">1973-04-03</date>
+            </dates>
+            <name>
+                <namePart type="full">Photographs and Centenary Booklet [The Junction Public School]</namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://search.records.nsw.gov.au/series/17232</value>
+                    </electronic>
+                    <physical type="streetAddress">
+                        <addressPart type="text"/>
+                    </physical>
+                </address>
+            </location>
+            <relatedObject>
+                <key>http://search.records.nsw.gov.au/agencies/3945AUT</key>
+                <relation type="hasCreator">
+                    <description>Newcastle South Public School (1872 - 1919) NewCastle South Public School + (1920 – 1926) The Junction (3) Public School + (1926 – 1930) The Junction (3) Public School (1930 -     ) </description>
+                </relation>
+            </relatedObject>
+            <subject type="anzsrc-for">2103 HISTORICAL STUDIES</subject>
+            <description type="full">This series consists of one box-file of materials on the history of the school. This file contains: The Junction School Centenary 1860-1960. Knight Bros. Printery, Mayfield, for The Junction Public School, 1960. (16pp, booklet) Sixty-six black and white photographs (including duplicates), some marked for cropping for newspaper use. Attached to one is a “With Compliments” slip from the Chief of Staff of the Newcastle “Sun” newspaper. These photographs are listed below. A. Dated photographs – 1. 3A Boys class photograph, 1946 2. Retirement of Roy Davis, Deputy Headmaster, 1953 (group photograph: Don Robinson, ??, ??, Len Hindmarsh, Joe Delaney, Roy Davis, Gordon Humphries, Les Maguire [Headmaster], ??, Wal Young) 3. Visit of H.E. the Governor, Sir John Northcott, May, 1955 (children: Lee Jensen, Ian Savage, Francis Walls). 4. School Centenary Celebrations, 1960 – a. Staff and official guests (Mrs McDougall, Miss McDonald, Miss Inspector O’Donnell, Staff Inspector J.R. McQualter, Mrs Watt, Inspector B.G. Watt, Mr Frank Purdue). b. Mrs M.E. Quinn (teacher), Mrs L. Brown (President, school canteen) and pupils with Centenary Cake prior to ceremonies. (Some pupil identifications on back). c. Two oldest pupils, Mrs Lund (89) and Mr Ben Randall (87), cut the cake (2 copies). d. Former pupil Sir Frederick and Lady Stewart with Mr L. Maguire, Headmaster. e. Gymnastics display (4 photographs inc. 1 duplicate) f. Folkdancing display (?) g. Children in formation, making shape of school badge (2 photographs) h. Children singing (3 photographs inc. 1 duplicate) j. Girls’ Highland Dancing display. k. Presentation of sports pennant (swimming?) (this photograph apparently dates to 1960 but may have been taken on another occasion during the year). Includes Mr L. Maguire, Headmaster. 5. Musical performance in City Hall, 1963 – a. School choir; Miss Gay Martin conducting, Mrs Scott as accompanist on piano. b. School recorder group; Miss Gay Martin conducting, Mrs Scott as accompanist on piano. 6. Walhallow visit, 03/04/1973 – two girls’ dept. pupils posing with apple. B. Undated photographs with accompanying information – 1. Percussion lesson: Mr C. Neil conducts to a record played by Mrs Neil. 2. Rosalie Osland (1st) of The Junction and David Wilson (2nd) of Merewether Public School, winners in the Rotary Club Road Safety Committee Poster awards, with Sub-committee Chairman W. Penfold and Rotary Club President E. Armstrong. 3. “Schoolboys Make Recordings,” pupils with recording equipment, two photographs marked for newspaper use – a. Terry Charlton (11) of 6A recording his voice b. Terry Charlton (11) and Julian Croft (10) of 6A listening to recorded voices. 4. Group photograph: (l. to r.) Harry Bennet, Principal after Les Maguire; Les Maguire, Principal; ??; Bill Gelfius, Area Director. 5. Girls’ Department pupils gathering flowers in Rowlands Park (nine photographs, inc. 3 duplicates) – includes pupils Renae Crook and Nicole Andrews. 6. Mr Young, former pupil and local identity, with current pupils and a volume of the school records (possibly NRS 17231 [B8640], Girls’ Dept. Observation Book) (2 photographs). C. Photographs without identification – 1. Informal group of four Girls’ Department pupils dressed for Highland Dancing. 2. Twenty-six small photographs (most approx. 6cm by 6cm), interior and exterior views of the school, dates probably c.1945 – c.1965.</description>
+            <coverage>
+                <temporal>
+                    <date dateFormat="W3CDTF" type="dateFrom">1946-01-01T00:00:00+10:00</date>
+                    <date dateFormat="W3CDTF" type="dateTo">1973-04-03T00:00:00+10:00</date>
+                </temporal>
+            </coverage>
+            <rights>
+                <accessRights rightsUri="http://www.records.nsw.gov.au/state-archives/register-of-access-directions">The State Records Act 1998 (NSW) provides a general entitlement of public access to State records that are at least 30 years old. For a record to be available under the Act it must be subject to an 'open to public access' direction. Some records containing sensitive information may be closed for longer than 30 years under a ‘closed to public access’ direction. View access directions at: http://www.records.nsw.gov.au/state-archives/register-of-access-directions</accessRights>
+                <rightsStatement rightsUri="http://www.records.nsw.gov.au/state-archives/guides-and-finding-aids/archives-in-brief/archives-in-brief-74"> Records held by the State Records Authority of New South Wales are covered by copyright. For information on reusing material from the collection see Archives in Brief 74 – Research and Copyright.</rightsStatement>
+            </rights>
+            <relatedInfo>
+                <identifier type="website">http://search.records.nsw.gov.au/series/17232AUT</identifier>
+            </relatedInfo>
+            <citationInfo>
+                <fullCitation>SRNSW: NRS 17232</fullCitation>
+            </citationInfo>
+        </collection>
+    </registryObject>
+    <registryObject group="State Records Authority of New South Wales">
+        <key>http://search.records.nsw.gov.au/series/17231AUT</key>
+        <originatingSource>http://www.records.nsw.gov.au</originatingSource>
+        <collection dateModified="" type="collection">
+            <identifier type="uri">http://search.records.nsw.gov.au/series/17231AUT</identifier>
+            <dates type="dc.created">
+                <date dateFormat="W3CDTF" type="dateFrom">1872-05-01</date>
+                <date dateFormat="W3CDTF" type="dateTo"/>
+            </dates>
+            <name>
+                <namePart type="full">Observation Books [The Junction Public School]</namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://search.records.nsw.gov.au/series/17231</value>
+                    </electronic>
+                    <physical type="streetAddress">
+                        <addressPart type="text"/>
+                    </physical>
+                </address>
+            </location>
+            <relatedObject>
+                <key>http://search.records.nsw.gov.au/agencies/3945AUT</key>
+                <relation type="hasCreator">
+                    <description>Newcastle South Public School (1872 - 1919) NewCastle South Public School + (1920 – 1926) The Junction (3) Public School + (1926 – 1930) The Junction (3) Public School (1930 -     ) </description>
+                </relation>
+            </relatedObject>
+            <subject type="anzsrc-for">2103 HISTORICAL STUDIES</subject>
+            <description type="full">The purpose of the observation book was for the Inspector to record general remarks about the management of the school, the relationships and discipline within it and the range and effectiveness of the teaching. The Regulations under the Public Schools Act, 1866 noted “The Inspector’s remarks upon the state of the school visited by him, will be entered in the “Observation Book” of the school, which, as a School Record, should be carefully preserved. Entries therein are not to be erased or altered.” (Regulations adopted by the Council of Education on 27 February 1867, s. 83) Prior to 1939, these volumes were written up by hand, and are printed in an appropriate format. Four pages are allowed for each report, which is headed by the name of the school and the date of inspection. The report is then divided into four main areas: attendance, organisation, discipline and instruction. From 1939, the majority of entries made in these volumes are entered on a specifically designed form, which is then pasted into the observation book. The form details the school and the inspection date, which was normally once a year until the later 1940’s, and biennially thereafter. The form is divided into three main areas: organisation, government and instruction. ‘Attendance’ is a brief section in which the number present on the day of inspection, the total enrolment at the school and the name of the teacher are recorded. The ‘organisation’ section pertains to the school’s equipment, beautification programs, staff direction, records, educational agencies, smoothness and effectiveness of general management, and the standing of the school in relation to the general community. ‘Discipline’ covers observations on the pupils’ behaviour, manners, and standards of neatness in both their work and their persons. Remarks on physical training may also be included here. ‘Government’ comments on relations between staff and students, effectiveness of discipline in fostering ideals of conduct and stimulating independent thought and activity, and the socialising influence of the school on its pupils. ‘Instruction’, or general survey evaluates the co-ordination of lesson courses, preparation, general speech-training, teaching methods and their effectiveness in promoting intellectual growth and development, and an appreciation of the higher cultural values. From 1939 until 1942 the form also includes a section headed Physical Training, which may also appear in reports for 1943 where old stocks of the forms have been used. The series from the Junction Public School is divided into separate sequences of volumes for the Girls’ and Boys’ Departments of the school, and is currently represented by three volumes from the Girls’ Department sequence. The earliest of these volumes contains annual Inspectors' reports for the years from 1936 until 1941, biennial Inspectors' reports from 1943 until 1947 and 1948 until 1956, Needlework reports for the years 1939-1941, both Needlework and Physical Education reports for 1943, 1945, 1947, 1950, 1952 and 1954, and an Art Work report for 1943. This volume also contains the Annual Reports delivered by the Mistress of the Girls’ Department to meetings of the school Parents &amp;amp; Citizens Association from 1949 until 1951, with copies of the reports for 1953 and 1954 inserted loose. The second volume contains a single needlework report for 1956, and the third, a needlework report for 1958 and the regular Inspector’s Report for 1959. The greater part of each of these last two volumes remains unused.</description>
+            <coverage>
+                <temporal>
+                    <date dateFormat="W3CDTF" type="dateFrom">1872-05-01T00:00:00+10:00</date>
+                </temporal>
+            </coverage>
+            <rights>
+                <accessRights rightsUri="http://www.records.nsw.gov.au/state-archives/register-of-access-directions">The State Records Act 1998 (NSW) provides a general entitlement of public access to State records that are at least 30 years old. For a record to be available under the Act it must be subject to an 'open to public access' direction. Some records containing sensitive information may be closed for longer than 30 years under a ‘closed to public access’ direction. View access directions at: http://www.records.nsw.gov.au/state-archives/register-of-access-directions</accessRights>
+                <rightsStatement rightsUri="http://www.records.nsw.gov.au/state-archives/guides-and-finding-aids/archives-in-brief/archives-in-brief-74"> Records held by the State Records Authority of New South Wales are covered by copyright. For information on reusing material from the collection see Archives in Brief 74 – Research and Copyright.</rightsStatement>
+            </rights>
+            <relatedInfo>
+                <identifier type="website">http://search.records.nsw.gov.au/series/17231AUT</identifier>
+            </relatedInfo>
+            <citationInfo>
+                <fullCitation>SRNSW: NRS 17231</fullCitation>
+            </citationInfo>
+        </collection>
+    </registryObject>
+    <registryObject group="State Records Authority of New South Wales">
+        <key>http://search.records.nsw.gov.au/series/17237AUT</key>
+        <originatingSource>http://www.records.nsw.gov.au</originatingSource>
+        <collection dateModified="" type="collection">
+            <identifier type="uri">http://search.records.nsw.gov.au/series/17237AUT</identifier>
+            <dates type="dc.created">
+                <date dateFormat="W3CDTF" type="dateFrom">1872-05-01</date>
+                <date dateFormat="W3CDTF" type="dateTo"/>
+            </dates>
+            <name>
+                <namePart type="full">Visitors' Books [The Junction Public School]</namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://search.records.nsw.gov.au/series/17237</value>
+                    </electronic>
+                    <physical type="streetAddress">
+                        <addressPart type="text"/>
+                    </physical>
+                </address>
+            </location>
+            <relatedObject>
+                <key>http://search.records.nsw.gov.au/agencies/3945AUT</key>
+                <relation type="hasCreator">
+                    <description>Newcastle South Public School (1872 - 1919) NewCastle South Public School + (1920 – 1926) The Junction (3) Public School + (1926 – 1930) The Junction (3) Public School (1930 -     ) </description>
+                </relation>
+            </relatedObject>
+            <subject type="anzsrc-for">2103 HISTORICAL STUDIES</subject>
+            <description type="full">The Public Instruction Act, 1866 authorised special religious instruction by visiting clergymen and their delegates (Public Schools Act, 1866, s. 19), and regulations under the Act authorised members of the public to visit schools during ‘the hours of secular instruction’ to observe teaching methods, teaching material and equipment (Regulations adopted by the Council of Education on 27 February 1867, s. 84-85). The regulations required every teacher to keep a visitors’ book ‘in which visitors may enter their names and if they think proper any remarks. Such remarks the Teachers are by no means to erase or alter.’ (Regulations … s. 86). The purpose of the visitors’ book was to create a record of the persons other than pupils or teachers who attended the school during business hours. Visitors’ books were divided into three columns – date, name and remarks. The remarks usually recorded the purpose of the visit which included religious instruction (by far the most usual purpose for visiting a school), school inspection, medical inspection, departmental officers visiting on business e.g. to inspect the buildings or equipment, and guest speakers. Occasionally visitors (particularly Inspectors) remarked briefly on the conduct or the ambience of the school. The series from The Junction Public School consisted of separate volumes for the Girls’ and Boys’ Departments. The overwhelming majority of entries in both of the Girls’ Department volumes, and in the first of the Boys’ Department ones, are the signatures of clergy and church-workers visiting the school in order to provide religious instruction to the pupils. After March, 1961, however, clergy signatures in the later Boys’ Department volume cease, making it seem likely that this division of the school may have maintained a separate Visiting Clergy Book after this time. An addition to the later Boys’ Department volume, at the end of the section covering 1958, is a letter of appreciation to the visiting clergy from the Headmaster, stapled to the last page of entries for that year. Of the small number of non-clerical visitors who appear in these volumes, the most frequent are Police Lecturers. Inspectors of Schools, though doubtless visiting the school on a regular basis, have signed only thrice, each time being accompanied by another visitor. Physical Education instructors visited the Boys’ Department on two recorded occasions, in 1943 and 1957, although, once more, it is likely that there were other, unrecorded visits. Health and Temperance Instructors visited the Boy’s Department in 1945 and the Girls’ Department in 1946, and an officer of the Aborigines Welfare Board was at the Girls’ Department in December, 1950. Other visitors to the school, of a non-official nature, included two sergeants of the Royal Marines in July, 1945, the captain of the Australian Olympic team in April, 1961, and a party from the Australian-Soviet Friendship Society in December of the same year. In October, 1960 the school observed its centenary, and some of the old pupils who attended on that occasion have added their names and, in two cases, the year of their attendance. There is also a record of visiting teachers from Tonga (June, 1941) and the Philippines (August, 1960). The signatures of all these have been entered in the Boys’ Department volumes.</description>
+            <coverage>
+                <temporal>
+                    <date dateFormat="W3CDTF" type="dateFrom">1872-05-01T00:00:00+10:00</date>
+                </temporal>
+            </coverage>
+            <rights>
+                <accessRights rightsUri="http://www.records.nsw.gov.au/state-archives/register-of-access-directions">The State Records Act 1998 (NSW) provides a general entitlement of public access to State records that are at least 30 years old. For a record to be available under the Act it must be subject to an 'open to public access' direction. Some records containing sensitive information may be closed for longer than 30 years under a ‘closed to public access’ direction. View access directions at: http://www.records.nsw.gov.au/state-archives/register-of-access-directions</accessRights>
+                <rightsStatement rightsUri="http://www.records.nsw.gov.au/state-archives/guides-and-finding-aids/archives-in-brief/archives-in-brief-74"> Records held by the State Records Authority of New South Wales are covered by copyright. For information on reusing material from the collection see Archives in Brief 74 – Research and Copyright.</rightsStatement>
+            </rights>
+            <relatedInfo>
+                <identifier type="website">http://search.records.nsw.gov.au/series/17237AUT</identifier>
+            </relatedInfo>
+            <citationInfo>
+                <fullCitation>SRNSW: NRS 17237</fullCitation>
+            </citationInfo>
+        </collection>
+    </registryObject>
+    <registryObject group="State Records Authority of New South Wales">
+        <key>http://search.records.nsw.gov.au/series/17230AUT</key>
+        <originatingSource>http://www.records.nsw.gov.au</originatingSource>
+        <collection dateModified="" type="collection">
+            <identifier type="uri">http://search.records.nsw.gov.au/series/17230AUT</identifier>
+            <dates type="dc.created">
+                <date dateFormat="W3CDTF" type="dateFrom">1872-05-01</date>
+                <date dateFormat="W3CDTF" type="dateTo"/>
+            </dates>
+            <name>
+                <namePart type="full">Examination Books [The Junction Public School]</namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://search.records.nsw.gov.au/series/17230</value>
+                    </electronic>
+                    <physical type="streetAddress">
+                        <addressPart type="text"/>
+                    </physical>
+                </address>
+            </location>
+            <relatedObject>
+                <key>http://search.records.nsw.gov.au/agencies/3945AUT</key>
+                <relation type="hasCreator">
+                    <description>Newcastle South Public School (1872 - 1919) NewCastle South Public School + (1920 – 1926) The Junction (3) Public School + (1926 – 1930) The Junction (3) Public School (1930 -     ) </description>
+                </relation>
+            </relatedObject>
+            <subject type="anzsrc-for">2103 HISTORICAL STUDIES</subject>
+            <description type="full">The nature and function of the School Examination Book is indicated by the following passage, which, with variations, is printed on the inside front cover of each volume: Half-yearly Examination of Pupils 1. All classes must be examined half-yearly by the head of the Department or the First Assistant, the examinations to be completed by the end of June and November. 2. The nature of each test, and, as far as possible, the actual questions set, should be indicated. 3. Pupils’ names should be, as far as practicable, arranged in alphabetical order. 4. Absentees from the regular class examination should be tested as opportunity offers. 5. The record for each class should be signed both by the Examiner and the class teacher. 6. The results of the class teacher’s tests may be taken into account, or, in some cases, may be entirely accepted for the purposes of the half-yearly examination when the Head of Department has satisfied himself as to the character and usefulness of the tests. By examination of pupils’ written work, more, perhaps, than by any other single procedure, the nature of the tests given by the teacher, the character of the work attempted, and the effectiveness of the teaching will be disclosed. The neatness of the written work and the standard of the writing are strong indications of the tone of the class and of the teacher’s control. 7. This record is of great importance both to teacher and inspector. The teacher will learn from it the general result of his teaching and the development of individual pupils. The inspector will take it into account in estimating the general management of the school and the work of the class teacher. It is also an essential factor in determining the fitness of candidates for the “Permit to Enrol.” At an earlier period examinations were held quarterly, and a similar notice appeared in the front of books printed to record the results of examinations conducted in March, June, September and December. Each volume of the Examination Book typically contains copies of examination papers, normally pasted in but occasionally handwritten, with a record of the marks achieved by individual pupils in each subject, their overall results, and, if deemed appropriate, the teacher’s comments. The pre-printed format of the volumes provides for results to be recorded in Reading, Writing, Spelling, Composition, Arithmetic and two or three other subjects (with variations over time), and for the results of the June and November examinations, or of the March, June, September and December quarterly examinations, to be recorded alongside each other. Normally one volume will be used to record the performance of pupils in the same grade during successive years, but occasionally the record may instead follow the progression of a particular class through the several grades. In the case of smaller schools, one volume may suffice for all grades of the school. The series is currently represented by a single volume, in which are recorded results for all classes in the March and June quarterly examinations held in 1925. There are no results given for the second half of the year, and the greater part of the volume remains unused.</description>
+            <coverage>
+                <temporal>
+                    <date dateFormat="W3CDTF" type="dateFrom">1872-05-01T00:00:00+10:00</date>
+                </temporal>
+            </coverage>
+            <rights>
+                <accessRights rightsUri="http://www.records.nsw.gov.au/state-archives/register-of-access-directions">The State Records Act 1998 (NSW) provides a general entitlement of public access to State records that are at least 30 years old. For a record to be available under the Act it must be subject to an 'open to public access' direction. Some records containing sensitive information may be closed for longer than 30 years under a ‘closed to public access’ direction. View access directions at: http://www.records.nsw.gov.au/state-archives/register-of-access-directions</accessRights>
+                <rightsStatement rightsUri="http://www.records.nsw.gov.au/state-archives/guides-and-finding-aids/archives-in-brief/archives-in-brief-74"> Records held by the State Records Authority of New South Wales are covered by copyright. For information on reusing material from the collection see Archives in Brief 74 – Research and Copyright.</rightsStatement>
+            </rights>
+            <relatedInfo>
+                <identifier type="website">http://search.records.nsw.gov.au/series/17230AUT</identifier>
+            </relatedInfo>
+            <citationInfo>
+                <fullCitation>SRNSW: NRS 17230</fullCitation>
+            </citationInfo>
+        </collection>
+    </registryObject>
+    <registryObject group="State Records Authority of New South Wales">
+        <key>http://search.records.nsw.gov.au/series/17233AUT</key>
+        <originatingSource>http://www.records.nsw.gov.au</originatingSource>
+        <collection dateModified="" type="collection">
+            <identifier type="uri">http://search.records.nsw.gov.au/series/17233AUT</identifier>
+            <dates type="dc.created">
+                <date dateFormat="W3CDTF" type="dateFrom">1872-05-01</date>
+                <date dateFormat="W3CDTF" type="dateTo"/>
+            </dates>
+            <name>
+                <namePart type="full">Punishment Books [The Junction Public School]</namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://search.records.nsw.gov.au/series/17233</value>
+                    </electronic>
+                    <physical type="streetAddress">
+                        <addressPart type="text"/>
+                    </physical>
+                </address>
+            </location>
+            <relatedObject>
+                <key>http://search.records.nsw.gov.au/agencies/3945AUT</key>
+                <relation type="hasCreator">
+                    <description>Newcastle South Public School (1872 - 1919) NewCastle South Public School + (1920 – 1926) The Junction (3) Public School + (1926 – 1930) The Junction (3) Public School (1930 -     ) </description>
+                </relation>
+            </relatedObject>
+            <subject type="anzsrc-for">2103 HISTORICAL STUDIES</subject>
+            <description type="full">Regulations under the Public Schools Act of 1866, adopted by the Council [of Education] 27 February 1867 regulated the punishment of children in schools by stipulating: “In the government of the pupils, all degrading and injurious punishments are to be avoided. The Teacher’s discipline must be mild but firm, his manner kindly, his demeanour cheerful and calculated to gain the confidence of his pupils, and his language marked by strict propriety. While he should overlook no offence, his aim should be to prevent the necessity for punishment by the improvement of the offender.” In relation to corporal punishment the regulations continue: “Corporal punishment should be inflicted in extreme cases only, and then as a last resource; and the teacher must keep a record of the time and place at which pupils were corporally chastised, the amount of such punishment and the nature of the offence.” Uniform stationery soon evolved to enable compliance with these regulations. These punishment books are registers of all cases in which corporal punishment was given to pupils. The information they detail includes: the pupil’s name; age; nature of offence; amount of punishment (i.e. number of strokes); by whom sent; the date of the punishment; and by whom the punishment was inflicted.</description>
+            <coverage>
+                <temporal>
+                    <date dateFormat="W3CDTF" type="dateFrom">1872-05-01T00:00:00+10:00</date>
+                </temporal>
+            </coverage>
+            <rights>
+                <accessRights rightsUri="http://www.records.nsw.gov.au/state-archives/register-of-access-directions">The State Records Act 1998 (NSW) provides a general entitlement of public access to State records that are at least 30 years old. For a record to be available under the Act it must be subject to an 'open to public access' direction. Some records containing sensitive information may be closed for longer than 30 years under a ‘closed to public access’ direction. View access directions at: http://www.records.nsw.gov.au/state-archives/register-of-access-directions</accessRights>
+                <rightsStatement rightsUri="http://www.records.nsw.gov.au/state-archives/guides-and-finding-aids/archives-in-brief/archives-in-brief-74"> Records held by the State Records Authority of New South Wales are covered by copyright. For information on reusing material from the collection see Archives in Brief 74 – Research and Copyright.</rightsStatement>
+            </rights>
+            <relatedInfo>
+                <identifier type="website">http://search.records.nsw.gov.au/series/17233AUT</identifier>
+            </relatedInfo>
+            <citationInfo>
+                <fullCitation>SRNSW: NRS 17233</fullCitation>
+            </citationInfo>
+        </collection>
+    </registryObject>
+    <registryObject group="State Records Authority of New South Wales">
+        <key>http://search.records.nsw.gov.au/series/17236AUT</key>
+        <originatingSource>http://www.records.nsw.gov.au</originatingSource>
+        <collection dateModified="" type="collection">
+            <identifier type="uri">http://search.records.nsw.gov.au/series/17236AUT</identifier>
+            <dates type="dc.created">
+                <date dateFormat="W3CDTF" type="dateFrom">1872-05-01</date>
+                <date dateFormat="W3CDTF" type="dateTo"/>
+            </dates>
+            <name>
+                <namePart type="full">Stock Books [The Junction Public School]</namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://search.records.nsw.gov.au/series/17236</value>
+                    </electronic>
+                    <physical type="streetAddress">
+                        <addressPart type="text"/>
+                    </physical>
+                </address>
+            </location>
+            <relatedObject>
+                <key>http://search.records.nsw.gov.au/agencies/3945AUT</key>
+                <relation type="hasCreator">
+                    <description>Newcastle South Public School (1872 - 1919) NewCastle South Public School + (1920 – 1926) The Junction (3) Public School + (1926 – 1930) The Junction (3) Public School (1930 -     ) </description>
+                </relation>
+            </relatedObject>
+            <subject type="anzsrc-for">2103 HISTORICAL STUDIES</subject>
+            <description type="full">The purpose of the Stock Book was to keep a record of materials supplied to the school by the Department of Education, and of their expenditure and replenishment from year to year. Maintenance of the record was the responsibility of the Principal. The volume is divided into columns, six to an opening, of which the first is pre-printed with a list of the various items ordinarily supplied to the school, and the other five record the changes in quantity over five years, at one column to a year. Each yearly column is further subdivided to record the quantity of each item on hand at the beginning of the year, additions to stock during the course of the year (with date of receipt and invoice number), and any quantity written off as unusable before the end of the year. Items listed fall under the following categories: Items for Record Purposes, Blackboard Accessories, Items for Teacher’s Use, General School Materials, Mathematical Instruments, Cleaning Material, Art Supplies, First Aid Materials, Writing Books, Supplementary Readers and Music. Some space is allowed for additional items to be listed by hand.</description>
+            <coverage>
+                <temporal>
+                    <date dateFormat="W3CDTF" type="dateFrom">1872-05-01T00:00:00+10:00</date>
+                </temporal>
+            </coverage>
+            <rights>
+                <accessRights rightsUri="http://www.records.nsw.gov.au/state-archives/register-of-access-directions">The State Records Act 1998 (NSW) provides a general entitlement of public access to State records that are at least 30 years old. For a record to be available under the Act it must be subject to an 'open to public access' direction. Some records containing sensitive information may be closed for longer than 30 years under a ‘closed to public access’ direction. View access directions at: http://www.records.nsw.gov.au/state-archives/register-of-access-directions</accessRights>
+                <rightsStatement rightsUri="http://www.records.nsw.gov.au/state-archives/guides-and-finding-aids/archives-in-brief/archives-in-brief-74"> Records held by the State Records Authority of New South Wales are covered by copyright. For information on reusing material from the collection see Archives in Brief 74 – Research and Copyright.</rightsStatement>
+            </rights>
+            <relatedInfo>
+                <identifier type="website">http://search.records.nsw.gov.au/series/17236AUT</identifier>
+            </relatedInfo>
+            <citationInfo>
+                <fullCitation>SRNSW: NRS 17236</fullCitation>
+            </citationInfo>
+        </collection>
+    </registryObject>
+    <registryObject group="Commonwealth Scientific and Industrial Research Organisation">
+        <key>102.100.100/7513AUT</key>
+        <originatingSource>http://data.csiro.au/dap/</originatingSource>
+        <collection dateAccessioned="2016-04-11T14:16:31.927+10:00" type="dataset">
+            <identifier type="local">102.100.100/7513AUT</identifier>
+            <name type="primary">
+                <namePart>(AutestingRecords)&amp;quot;The Insects of Australia&amp;quot; full-colour plates 1 to 8</namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://hdl.handle.net/102.100.100/7513?index=1</value>
+                    </electronic>
+                </address>
+            </location>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="local">csiro:4781AUT</identifier>
+                    <title>&amp;quot;The Insects of Australia&amp;quot; full-colour plates 1 to 8</title>
+                    <version>v2</version>
+                    <publisher>Commonwealth Scientific and Industrial Research Organisation (CSIRO)</publisher>
+                    <contributor seq="1">
+                        <namePart type="family">Mantle</namePart>
+                        <namePart type="given">Beth</namePart>
+                    </contributor>
+                    <contributor seq="2">
+                        <namePart type="family">Mantle</namePart>
+                        <namePart type="given">Beth</namePart>
+                    </contributor>
+                    <date type="publicationDate">2012-03-02</date>
+                </citationMetadata>
+            </citationInfo>
+            <relatedObject>
+                <key>csiro:1f9457c6-fb6c-4eff-8e60-ed1c074d2e56AUT</key>
+                <relation type="isManagedBy"/>
+            </relatedObject>
+            <relatedObject>
+                <key>csiro:PartyGroupAUT</key>
+                <relation type="isManagedBy"/>
+            </relatedObject>
+            <subject type="local">insects</subject>
+            <subject type="local">taxonomy</subject>
+            <subject type="local">entomology</subject>
+            <subject type="local">biology</subject>
+            <subject type="local">fauna</subject>
+            <subject type="local">morphology</subject>
+            <subject type="local">anatomy</subject>
+            <subject type="anzsrc-for">060808</subject>
+            <description type="brief">This collection is comprised of high-resolution scans from the eight full-colour plates in the CSIRO publication &amp;quot;The Insects of Australia - a textbook for students and research workers, Volumes I and II, 2nd Edition&amp;quot;.
+Plate 1: Odonata (dragonflies)
+Plate 2: Mantodea (mantids), Blattodea (cockroaches), Dermaptera (earwigs), Orthoptera (grasshoppers, crickets and katydids).
+Plate 3: Hemiptera (bugs)
+Plate 4: Coleoptera (beetles)
+Plate 5: Coleoptera (beetles), Diptera (flies), Hymenoptera (bees, ants and wasps).
+Plate 6: Batesian Mimicry.
+Plate 7: Lepidoptera (butterflies and moths)
+Plate 8: Lepidoptera (butterflies and moths)
+A ninth plate, depicting termite heads, has been included in this collection but was not published in the final volumes.</description>
+            <rights>
+                <rightsStatement>All rights (including copyright) CSIRO Australia 2012.</rightsStatement>
+                <licence rightsUri="https://creativecommons.org/licenses/by-nc-nd/3.0/" type="CC-BY-NC-ND">Creative Commons Attribution-NonCommercial-No Derivatives</licence>
+                <accessRights type="open">Data is accessible online and may be reused in accordance with licence conditions</accessRights>
+            </rights>
+        </collection>
+    </registryObject>
+    <registryObject group="Public Record Office Victoria">
+        <key>PROV VPRS 10112AUT</key>
+        <originatingSource>http://www.prov.vic.gov.au</originatingSource>
+        <collection type="collection" dateModified="2018-10-14 23:50:47">
+            <identifier type="local">VPRS 10112AUT</identifier>
+            <dates type="dc.created">
+                <date type="dateFrom" dateFormat="W3CDTF">1909</date>
+                <date type="dateTo" dateFormat="W3CDTF">1923</date>
+            </dates>
+            <name type="primary">
+                <namePart>(AutestingRecords)District Register Of Old Age Pension Claims (the Invalid and Old Age Pensions Act 1908-1912 )</namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.access.prov.vic.gov.au/public/component/daPublicBaseContainer?component=daViewSeries&amp;breadcrumbPath=Home/Access%20the%20Collection/Browse%20The%20Collection/Series%20Details&amp;entityId=10112</value>
+                    </electronic>
+                    <physical>
+                        <addressPart type="text">&amp;lt;p&amp;gt;&amp;lt;a title=&amp;quot;Public Record Office Victoria&amp;quot; href=&amp;quot;http://prov.vic.gov.au&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Victorian Archives Centre&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;99 Shiel St  North Melbourne VIC 3051, Australia&amp;lt;br /&amp;gt;Ph: +61 3 9348 5600&amp;lt;/p&amp;gt;</addressPart>
+                    </physical>
+                </address>
+            </location>
+            <relatedObject>
+                <key>PROV VA 2313AUT</key>
+                <relation type="hasCreator">
+                    <description>1909 - 1923</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>PROV VA 3085AUT</key>
+                <relation type="isOwnedBy">
+                    <description>1992 - continuing</description>
+                </relation>
+            </relatedObject>
+            <subject type="anzsrc-for">2103</subject>
+            <description type="full">&amp;lt;BR /&amp;gt;Clerks of Courts could be appointed under the Commonwealth Invalid and Old Age Pensions Act  to act as a Registrar of Pensions with the duties of receiving pension claims, investigating these claims  and keeping appropriate records (S 11).  Claims, once investigated, were then to be referred to a Magistrate able to investigate further  and eventually make a recommendation regarding the acceptability of the claim (S 30  31).  The Registrar then had the duty of transmitting that recommendation with the Magistrates endorsement, to the Deputy Commissioner of Pensions.  This Register records the carrying out of these delegated obligations by the Mortlake Courts.  The details in this volume provide a summary of pension claims for the Mortlake district for this time.&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;Details were entered under the headings of: Date of Receipt of Claim;  Surname;  Christian Name;  Occupation;  Date when finally dealt with by Magistrate;  Nature of Magistrates Recommendation;  Date when Claim and Magistrates Recommendation sent to Deputy Commissioner (of Pensions for each State);  Short Particulars of Income and Property as Accepted by the Magistrate and Remarks.</description>
+            <description type="logo">&amp;lt;p&amp;gt;&amp;lt;img src="http://metadata.prov.vic.gov.au/image/LOGO_BLACK.jpg" alt="logo" /&amp;gt;&amp;lt;/p&amp;gt;</description>
+            <coverage>
+                <spatial type="kmlPolyCoords">141.000000,-34.000000 142.919336,-34.145604 144.582129,-35.659230 147.742627,-35.873175 150.024219,-37.529041 150.200000,-39.200000 141.000000,-39.200000 141.000000,-34.000000 141.000000,-34.000000</spatial>
+                <temporal>
+                    <text>Series date range : 1909 - 1923</text>
+                    <text>Series in custody date range : No Date - No Date</text>
+                    <text>Contents in custody date range : No Date - No Date</text>
+                </temporal>
+            </coverage>
+            <rights>
+                <rightsStatement rightsUri="http://prov.vic.gov.au/provguide-25">Records held by Public Record Office Victoria (PROV) are covered by copyright. For information on reusing material from the collection see PROVguide 25</rightsStatement>
+                <accessRights>Open</accessRights>
+            </rights>
+            <citationInfo>
+                <fullCitation>PROV VPRS 10112 District Register Of Old Age Pension Claims (the Invalid and Old Age Pensions Act 1908-1912 ) </fullCitation>
+            </citationInfo>
+        </collection>
+    </registryObject>
+    <registryObject group="State Records Authority of New South Wales">
+        <key>http://search.records.nsw.gov.au/series/693AUT</key>
+        <originatingSource>http://www.records.nsw.gov.au</originatingSource>
+        <collection dateModified="" type="collection">
+            <identifier type="uri">http://search.records.nsw.gov.au/series/693AUT</identifier>
+            <dates type="dc.created">
+                <date dateFormat="W3CDTF" type="dateFrom">1886-01-01</date>
+                <date dateFormat="W3CDTF" type="dateTo">1955-12-31</date>
+            </dates>
+            <name>
+                <namePart type="full">"Official Year Book of New South Wales", previously "The Wealth and Progress of New South Wales" (bound edition)</namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://search.records.nsw.gov.au/series/693</value>
+                    </electronic>
+                    <physical type="streetAddress">
+                        <addressPart type="text">Western Sydney Records Centre 
+143 O'Connell Street KINGSWOOD NSW</addressPart>
+                    </physical>
+                </address>
+            </location>
+            <relatedObject>
+                <key>http://search.records.nsw.gov.au/agencies/1734AUT</key>
+                <relation type="hasCreator">
+                    <description>Bureau of Statistics</description>
+                </relation>
+            </relatedObject>
+            <subject type="anzsrc-for">2103 HISTORICAL STUDIES</subject>
+            <description type="full">This publication was known from the first edition in 1886 until 1904 as "The Wealth and Progress of New South Wales". In this publication the statistics of the State are explained and analysed, and information is given about the legislative and administrative background. It gives a comprehensive survey of the social, demographic and economic structure and growth of New South Wales. The bound edition is in a collective form with a general index. Some of the individual parts were first published and issued separately. More detailed statistics can be obtained by referring to the "Statistical Register of New South Wales" and more recent statistics appear in the "Monthly Summary of Business Statistics" and the "Statistical Bulletin". The "Official Year Book of New South Wales" has not always been published each year. 1886-1955 (incomplete) (6/5592-5600, 19/19646-76). 40 vols. Note: This description is extracted from Concise Guide to the State Archives of New South Wales, 3rd Edition 2000.</description>
+            <coverage>
+                <temporal>
+                    <date dateFormat="W3CDTF" type="dateFrom">1886-01-01T00:00:00+10:00</date>
+                    <date dateFormat="W3CDTF" type="dateTo">1955-12-31T00:00:00+10:00</date>
+                </temporal>
+            </coverage>
+            <rights>
+                <accessRights rightsUri="http://www.records.nsw.gov.au/state-archives/register-of-access-directions">The State Records Act 1998 (NSW) provides a general entitlement of public access to State records that are at least 30 years old. For a record to be available under the Act it must be subject to an 'open to public access' direction. Some records containing sensitive information may be closed for longer than 30 years under a ‘closed to public access’ direction. View access directions at: http://www.records.nsw.gov.au/state-archives/register-of-access-directions</accessRights>
+                <rightsStatement rightsUri="http://www.records.nsw.gov.au/state-archives/guides-and-finding-aids/archives-in-brief/archives-in-brief-74"> Records held by the State Records Authority of New South Wales are covered by copyright. For information on reusing material from the collection see Archives in Brief 74 – Research and Copyright.</rightsStatement>
+            </rights>
+            <relatedInfo>
+                <identifier type="website">http://search.records.nsw.gov.au/series/693AUT</identifier>
+            </relatedInfo>
+            <citationInfo>
+                <fullCitation>SRNSW: NRS 693</fullCitation>
+            </citationInfo>
+        </collection>
+    </registryObject>
+    <registryObject group="State Records Authority of New South Wales">
+        <key>http://search.records.nsw.gov.au/series/696AUT</key>
+        <originatingSource>http://www.records.nsw.gov.au</originatingSource>
+        <collection dateModified="" type="collection">
+            <identifier type="uri">http://search.records.nsw.gov.au/series/696AUT</identifier>
+            <dates type="dc.created">
+                <date dateFormat="W3CDTF" type="dateFrom">1890-01-01</date>
+                <date dateFormat="W3CDTF" type="dateTo">1903-12-31</date>
+            </dates>
+            <name>
+                <namePart type="full">"The Seven Colonies of Australasia", also called "A Statistical Account of Seven Colonies of Australasia"</namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://search.records.nsw.gov.au/series/696</value>
+                    </electronic>
+                    <physical type="streetAddress">
+                        <addressPart type="text">Western Sydney Records Centre 
+143 O'Connell Street KINGSWOOD NSW</addressPart>
+                    </physical>
+                </address>
+            </location>
+            <relatedObject>
+                <key>http://search.records.nsw.gov.au/agencies/1734AUT</key>
+                <relation type="hasCreator">
+                    <description>Bureau of Statistics</description>
+                </relation>
+            </relatedObject>
+            <subject type="anzsrc-for">2103 HISTORICAL STUDIES</subject>
+            <description type="full">This publication gives information on economic, social and demographic matters relating to New South Wales, Victoria, Queensland, South Australia, Western Australia, Tasmania and New Zealand. Details are given about such matters as: political divisions; areas and boundaries; population; climate; shipping; railways; defence; agriculture; commerce; manufacturing; education; religion; social conditions; employment; finance; land and settlement; and local government. The volume covering 1901-1902 gives additional information on the Commonwealth, the constitutions of the States, and more detailed histories of the States and New Zealand. From 1902 onwards this publication was known as "A Statistical Account of Australia and New Zealand". 1890-1896, 1901-1902 (6/5601 part-5602 part). 2 boxes (part). Note: This description is extracted from Concise Guide to the State Archives of New South Wales, 3rd Edition 2000.</description>
+            <coverage>
+                <temporal>
+                    <date dateFormat="W3CDTF" type="dateFrom">1890-01-01T00:00:00+10:00</date>
+                    <date dateFormat="W3CDTF" type="dateTo">1902-12-31T00:00:00+10:00</date>
+                </temporal>
+            </coverage>
+            <rights>
+                <accessRights rightsUri="http://www.records.nsw.gov.au/state-archives/register-of-access-directions">The State Records Act 1998 (NSW) provides a general entitlement of public access to State records that are at least 30 years old. For a record to be available under the Act it must be subject to an 'open to public access' direction. Some records containing sensitive information may be closed for longer than 30 years under a ‘closed to public access’ direction. View access directions at: http://www.records.nsw.gov.au/state-archives/register-of-access-directions</accessRights>
+                <rightsStatement rightsUri="http://www.records.nsw.gov.au/state-archives/guides-and-finding-aids/archives-in-brief/archives-in-brief-74"> Records held by the State Records Authority of New South Wales are covered by copyright. For information on reusing material from the collection see Archives in Brief 74 – Research and Copyright.</rightsStatement>
+            </rights>
+            <relatedInfo>
+                <identifier type="website">http://search.records.nsw.gov.au/series/696AUT</identifier>
+            </relatedInfo>
+            <citationInfo>
+                <fullCitation>SRNSW: NRS 696</fullCitation>
+            </citationInfo>
+        </collection>
+    </registryObject>
+    <registryObject group="Public Record Office Victoria">
+        <key>PROV VPRS 10647AUT</key>
+        <originatingSource>http://www.prov.vic.gov.au</originatingSource>
+        <collection type="collection" dateModified="2018-10-14 23:50:47">
+            <identifier type="local">VPRS 10647AUT</identifier>
+            <dates type="dc.created">
+                <date type="dateFrom" dateFormat="W3CDTF">1934</date>
+                <date type="dateTo" dateFormat="W3CDTF">1958</date>
+            </dates>
+            <name type="primary">
+                <namePart>(AutestingRecords)Register Of Pension Claims (the Invalid and Old Age Pensions Act 1908-1928)</namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.access.prov.vic.gov.au/public/component/daPublicBaseContainer?component=daViewSeries&amp;breadcrumbPath=Home/Access%20the%20Collection/Browse%20The%20Collection/Series%20Details&amp;entityId=10647</value>
+                    </electronic>
+                    <physical>
+                        <addressPart type="text">&amp;lt;p&amp;gt;&amp;lt;a title=&amp;quot;Public Record Office Victoria&amp;quot; href=&amp;quot;http://prov.vic.gov.au&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Victorian Archives Centre&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;99 Shiel St  North Melbourne VIC 3051, Australia&amp;lt;br /&amp;gt;Ph: +61 3 9348 5600&amp;lt;/p&amp;gt;</addressPart>
+                    </physical>
+                </address>
+            </location>
+            <relatedObject>
+                <key>PROV VA 2293AUT</key>
+                <relation type="hasCreator">
+                    <description>1934 - 1958</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>PROV VA 3085AUT</key>
+                <relation type="isOwnedBy">
+                    <description>1992 - continuing</description>
+                </relation>
+            </relatedObject>
+            <subject type="anzsrc-for">2103</subject>
+            <description type="full">&amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;Clerks of Courts could be appointed under the Commonwealth Invalid and Old Age Pensions Act  to act as a Registrar of Pensions with the duties of receiving pension claims, investigating these claims  and keeping appropriate records (S 11).  Claims, once investigated, were then to be referred to a Magistrate able to investigate further  and eventually make a recommendation regarding the acceptability of the claim (S 30  31).  The Registrar then had the duty of transmitting that recommendation with the Magistrates endorsement, to the Deputy Commissioner of Pensions.  &amp;lt;BR /&amp;gt;&amp;lt;BR /&amp;gt;Details were entered under the headings of: Date of Receipt of Claim;  Surname;  Christian Name;  Occupation;  Date when finally dealt with by Magistrate;  Nature of Magistrates Recommendation;  Date when Claim and Magistrates Recommendation sent to Deputy Commissioner (of Pensions for each State);  Short Particulars of Income and Property as Accepted by the Magistrate and Remarks.</description>
+            <description type="logo">&amp;lt;p&amp;gt;&amp;lt;img src="http://metadata.prov.vic.gov.au/image/LOGO_BLACK.jpg" alt="logo" /&amp;gt;&amp;lt;/p&amp;gt;</description>
+            <coverage>
+                <spatial type="kmlPolyCoords">141.000000,-34.000000 142.919336,-34.145604 144.582129,-35.659230 147.742627,-35.873175 150.024219,-37.529041 150.200000,-39.200000 141.000000,-39.200000 141.000000,-34.000000 141.000000,-34.000000</spatial>
+                <temporal>
+                    <text>Series date range : 1934 - 1958</text>
+                    <text>Series in custody date range : No Date - No Date</text>
+                    <text>Contents in custody date range : No Date - No Date</text>
+                </temporal>
+            </coverage>
+            <rights>
+                <rightsStatement rightsUri="http://prov.vic.gov.au/provguide-25">Records held by Public Record Office Victoria (PROV) are covered by copyright. For information on reusing material from the collection see PROVguide 25</rightsStatement>
+                <accessRights>Open</accessRights>
+            </rights>
+            <citationInfo>
+                <fullCitation>PROV VPRS 10647 Register Of Pension Claims (the Invalid and Old Age Pensions Act 1908-1928) </fullCitation>
+            </citationInfo>
+        </collection>
+    </registryObject>
+    <registryObject group="State Records Authority of New South Wales">
+        <key>http://search.records.nsw.gov.au/series/5604AUT</key>
+        <originatingSource>http://www.records.nsw.gov.au</originatingSource>
+        <collection dateModified="2009-03-02" type="collection">
+            <identifier type="uri">http://search.records.nsw.gov.au/series/5604AUT</identifier>
+            <dates type="dc.created">
+                <date dateFormat="W3CDTF" type="dateFrom">1802-03-06</date>
+                <date dateFormat="W3CDTF" type="dateTo">1824-05-15</date>
+            </dates>
+            <name>
+                <namePart type="full">Registers of Assignments and Other Legal Instruments (the 'Old Register')</namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://search.records.nsw.gov.au/series/5604</value>
+                    </electronic>
+                    <physical type="streetAddress">
+                        <addressPart type="text">Western Sydney Records Centre 
+143 O'Connell Street KINGSWOOD NSW</addressPart>
+                    </physical>
+                </address>
+            </location>
+            <relatedObject>
+                <key>http://search.records.nsw.gov.au/agencies/1046AUT</key>
+                <relation type="hasCreator">
+                    <description>Judge Advocate of New South Wales</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>http://search.records.nsw.gov.au/series/12983AUT</key>
+                <relation type="hasAssociationWith">
+                    <description>Photocopies of Deed register No. 5</description>
+                </relation>
+            </relatedObject>
+            <subject type="anzsrc-for">2103 HISTORICAL STUDIES</subject>
+            <description type="full">These registers are officially known as the Registers of Assignments and Other Legal Instruments. The register was proclaimed in 1802 but allowed people to register assignments and other legal instruments which dated back to 1794. The nine registers record land and other transactions from 22 January 1794 to 15 May 1824. These registers show registration number, names of parties and nature of agreement. From Register 5 more complete details of agreements are given (many in full).  These volumes became known as the 'Old Register'. The original volumes remain under the control of the Department of Lands, pending transfer as State archives. On 20 October 2008 the NSW Department of Lands with State Records NSW released digital copies of all the volumes in this series in DVD format titled 'Old Register One to Nine'. The DVD also includes an index compiled by Lois Sabine. Note: This description, as amended,  is extracted from Concise Guide to the State Archives of New South Wales, 3rd Edition 2000.</description>
+            <coverage>
+                <temporal>
+                    <date dateFormat="W3CDTF" type="dateFrom">1802-03-06T00:00:00+10:00</date>
+                    <date dateFormat="W3CDTF" type="dateTo">1824-05-15T00:00:00+10:00</date>
+                </temporal>
+            </coverage>
+            <rights>
+                <accessRights rightsUri="http://www.records.nsw.gov.au/state-archives/register-of-access-directions">The State Records Act 1998 (NSW) provides a general entitlement of public access to State records that are at least 30 years old. For a record to be available under the Act it must be subject to an 'open to public access' direction. Some records containing sensitive information may be closed for longer than 30 years under a ‘closed to public access’ direction. View access directions at: http://www.records.nsw.gov.au/state-archives/register-of-access-directions</accessRights>
+                <rightsStatement rightsUri="http://www.records.nsw.gov.au/state-archives/guides-and-finding-aids/archives-in-brief/archives-in-brief-74"> Records held by the State Records Authority of New South Wales are covered by copyright. For information on reusing material from the collection see Archives in Brief 74 – Research and Copyright.</rightsStatement>
+            </rights>
+            <relatedInfo>
+                <identifier type="website">http://search.records.nsw.gov.au/series/5604AUT</identifier>
+            </relatedInfo>
+            <citationInfo>
+                <fullCitation>SRNSW: NRS 5604</fullCitation>
+            </citationInfo>
+        </collection>
+    </registryObject>
+    <registryObject group="State Records Authority of New South Wales">
+        <key>http://search.records.nsw.gov.au/series/5605AUT</key>
+        <originatingSource>http://www.records.nsw.gov.au</originatingSource>
+        <collection dateModified="2009-03-02" type="collection">
+            <identifier type="uri">http://search.records.nsw.gov.au/series/5605AUT</identifier>
+            <dates type="dc.created">
+                <date dateFormat="W3CDTF" type="dateFrom">1794-01-22</date>
+                <date dateFormat="W3CDTF" type="dateTo">1824-05-15</date>
+            </dates>
+            <name>
+                <namePart type="full">Index to Registers of Assignments and Other Legal Instruments (the 'Old Register')</namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://search.records.nsw.gov.au/series/5605</value>
+                    </electronic>
+                    <physical type="streetAddress">
+                        <addressPart type="text">Western Sydney Records Centre 
+143 O'Connell Street KINGSWOOD NSW</addressPart>
+                    </physical>
+                </address>
+            </location>
+            <relatedObject>
+                <key>http://search.records.nsw.gov.au/agencies/1046AUT</key>
+                <relation type="hasCreator">
+                    <description>Judge Advocate of New South Wales</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>http://search.records.nsw.gov.au/series/5604AUT</key>
+                <relation type="isPartOf">
+                    <description>Registers of Assignments and Other Legal Instruments (the 'Old Register')</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>http://search.records.nsw.gov.au/series/5605AUT</key>
+                <relation type="hasPart">
+                    <description>Index to Registers of Assignments and Other Legal Instruments (the 'Old Register')</description>
+                </relation>
+            </relatedObject>
+            <subject type="anzsrc-for">2103 HISTORICAL STUDIES</subject>
+            <description type="full">Contains: (1) Photostat of index to 1st parties; and (2) Copy of index to other parties (compiled by T.D. Mutch, 1950). For each entry names of parties, number and page of register, and registration number are shown. The Index is incomplete and should be used with caution. A complete index published in 2008 is available on the 'Old Register One to Nine' DVD. (Photocopy Mitchell Library, State Library of New South Wales ML A3620; microfilm copy Mitchell Library FM4/9196). 1 vol. Note: This description, as amended, is extracted from Concise Guide to the State Archives of New South Wales, 3rd Edition 2000.</description>
+            <coverage>
+                <temporal>
+                    <date dateFormat="W3CDTF" type="dateFrom">1794-01-22T00:00:00+10:00</date>
+                    <date dateFormat="W3CDTF" type="dateTo">1824-05-15T00:00:00+10:00</date>
+                </temporal>
+            </coverage>
+            <rights>
+                <accessRights rightsUri="http://www.records.nsw.gov.au/state-archives/register-of-access-directions">The State Records Act 1998 (NSW) provides a general entitlement of public access to State records that are at least 30 years old. For a record to be available under the Act it must be subject to an 'open to public access' direction. Some records containing sensitive information may be closed for longer than 30 years under a ‘closed to public access’ direction. View access directions at: http://www.records.nsw.gov.au/state-archives/register-of-access-directions</accessRights>
+                <rightsStatement rightsUri="http://www.records.nsw.gov.au/state-archives/guides-and-finding-aids/archives-in-brief/archives-in-brief-74"> Records held by the State Records Authority of New South Wales are covered by copyright. For information on reusing material from the collection see Archives in Brief 74 – Research and Copyright.</rightsStatement>
+            </rights>
+            <relatedInfo>
+                <identifier type="website">http://search.records.nsw.gov.au/series/5605AUT</identifier>
+            </relatedInfo>
+            <citationInfo>
+                <fullCitation>SRNSW: NRS 5605</fullCitation>
+            </citationInfo>
+        </collection>
+    </registryObject>
+</registryObjects>

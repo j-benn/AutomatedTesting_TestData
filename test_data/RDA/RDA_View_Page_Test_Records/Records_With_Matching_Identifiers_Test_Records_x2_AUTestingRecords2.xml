@@ -1,0 +1,75 @@
+<registryObjects>
+<registryObject group="AUTestingRecords2">
+    <key>AUTestingRecords2CollectionBDuplicateIdentifiers</key>
+    <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+    <collection type="collection">
+      <name type="primary">
+        <namePart>(AUTestingRecords2) Collection B Duplicate Identifiers</namePart>
+      </name>
+      <identifier type="doi">10.AUTestingRecords/123</identifier>
+      <identifier type="doi">10.AUTestingRecords2/345</identifier>
+      <relatedObject>
+        <key>AUTestingRecords2RelatedPartyGroupRelObj2</key>
+        <relation type="hasAssociationWith"/>
+      </relatedObject>
+      <relatedObject>
+        <key>AUTestingRecords2RelatedPartyGroupRelObj1</key>
+        <relation type="isOwnedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>AUTestingRecordsRelatedPartyGroupRelObj1</key>
+        <relation type="hasAssociationWith"/>
+      </relatedObject>
+      <relatedObject>
+        <key>AUTestingRecords2RelatedCollectionDatasetRelObj3</key>
+        <relation type="hasDerivedCollection"/>
+      </relatedObject>
+      <relatedInfo type="publication">
+        <title>Part 1</title>
+        <identifier type="doi">10.4324/9780203004203_chapter_1 </identifier>
+        <relation type="isReferencedBy"/>
+      </relatedInfo>
+      <relatedInfo type="website">
+        <title>Yahoo</title>
+        <identifier type="uri">http://www.yahoo2.com</identifier>
+      </relatedInfo>
+    </collection>
+  </registryObject>
+  <registryObject group="AUTestingRecords2">
+    <key>AUTestingRecords2RelatedCollectionDatasetRelObj3</key>
+    <originatingSource type="">Kangawalla Pastoral Co Pty Ltd</originatingSource>
+    <collection type="dataset">
+      <name type="primary">
+        <namePart>(AUTestingRecords2)Kangawalla Bird Sightings</namePart>
+      </name>
+      <description type="brief">&amp;lt;p&amp;gt;Bird Sightings at Kangawalla, 20kms East of Glen Innes&amp;lt;/p&amp;gt;</description>
+      <rights>
+        <rightsStatement>A copy of final article paper, book, etc to be forwarded to data provider.</rightsStatement>
+        <licence type="CC BY-SA"/>
+      </rights>
+      <identifier type="local">(AUTestingRecords2)ala.org.au/dr355</identifier>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://biocache.ala.org.au/occurrences/search?q=data_resource_uid:dr355</value>
+          </electronic>
+        </address>
+      </location>
+      <relatedObject>
+        <key>ala.org.au/dp26</key>
+        <relation type="isManagedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>Contributor:Atlas of Living Australia</key>
+        <relation type="hasCollector"/>
+      </relatedObject>
+      <relatedInfo type="website">
+        <identifier type="uri">http://www2.ala.org.au/datasets/occurrence/dr355/Kangawalla DwC.zip</identifier>
+      </relatedInfo>
+      <citationInfo>
+        <fullCitation>Gary Fisher - Kangawalla Pastoral Co Pty Ltd</fullCitation>
+      </citationInfo>
+    </collection>
+  </registryObject>
+  
+  </registryObjects>

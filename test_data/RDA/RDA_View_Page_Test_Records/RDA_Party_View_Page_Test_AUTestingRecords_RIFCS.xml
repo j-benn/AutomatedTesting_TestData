@@ -1,0 +1,375 @@
+<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xmlns:extRif="http://ands.org.au/standards/rif-cs/extendedRegistryObjects" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+<registryObject group="AUTestingRecords">
+    <key>http://research.unisa.edu.au/organisation/82AUT1</key>
+    <originatingSource>University of South Australia</originatingSource>
+    <party type="group" dateModified="2017-05-09T12:42:17Z">
+      <identifier type="local">http://research.unisa.edu.au/organisation/82AUT1</identifier>
+      <name type="primary" xml:lang="en">
+        <namePart type="superior">(AUTestingRecords) Party with superior and subordinate names - Superior Division of Information Technology, Engineering and the Environment</namePart>
+        <namePart type="subordinate">Subordinate School of Natural and Built Environments</namePart>
+      </name>
+      <description type="brief" xml:lang="en">School of Natural and Built Environments</description>
+    </party>
+  </registryObject>
+  
+  <registryObject group="AUTestingRecords">
+    <key>http://research.unisa.edu.au/organisation/82AUT2</key>
+    <originatingSource>University of South Australia</originatingSource>
+    <party type="group" dateModified="2017-05-09T12:42:17Z">
+      <identifier type="local">http://research.unisa.edu.au/organisation/82AUT1</identifier>
+      <name type="primary" xml:lang="en">
+        <namePart type="superior">(AUTestingRecords) Party with only a superior name - Superior Division of Information Technology, Engineering and the Environment</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="email">
+            <value>Relics@Advisory.org</value>
+          </electronic>
+          <electronic type="email">
+            <value>info@Advisory.org</value>
+          </electronic>
+          <physical type="streetAddress">
+            <addressPart type="telephoneNumber">02 6525 0000</addressPart>
+            <addressPart type="text">A text address goes here 2001</addressPart>
+          </physical>
+        </address>
+      </location>
+      <description type="brief" xml:lang="en">School of Natural and Built Environments</description>
+    </party>
+  </registryObject>
+
+    <registryObject group="AUTestingRecords">
+      <key>AADC/ACKLEY,STEPHENAUT</key>
+      <originatingSource>Australian Antarctic Data Centre</originatingSource>
+      <party type="person">
+        <name type="primary">
+          <namePart>ACKLEY, STEPHEN</namePart>
+        </name>
+        <location>
+          <address>
+            <physical type="streetAddress">
+              <addressPart type="addressLine">ACKLEY, STEPHEN</addressPart>
+              <addressPart type="addressLine">118 W Castle Ln</addressPart>
+              <addressPart type="suburbOrPlaceLocality">San Antonio</addressPart>
+              <addressPart type="stateOrTerritory">Texas</addressPart>
+              <addressPart type="postCode">78213</addressPart>
+              <addressPart type="country">USA</addressPart>
+            </physical>
+          </address>
+        </location>
+        <location>
+          <address>
+            <physical type="streetAddress">
+              <addressPart type="telephoneNumber">+1 1 210 341 6556</addressPart>
+            </physical>
+          </address>
+        </location>
+        <location>
+          <address>
+            <electronic type="email">
+              <value>sackley@pol.net, Stephen.ackley@utsa.edu</value>
+            </electronic>
+          </address>
+        </location>
+      </party>
+    </registryObject>
+
+  
+  <registryObject group="AUTestingRecords">
+    <key>AODN/Aalbersberg,BillAUT3</key>
+    <originatingSource>http://catalogue.aodn.org.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart>Aalbersberg, Bill</namePart>
+      </name>
+      <relatedObject>
+        <key>AODN/InstituteofAppliedScience(IAS),TheUniversityoftheSouthPacific(USP)</key>
+        <relation type="isMemberOf"/>
+      </relatedObject>
+      <location>
+        <address>
+          <electronic type="email">
+            <value>Aalbersberg@usp.ac.fj</value>
+          </electronic>
+          <physical type="postalAddress">
+            <addressPart type="addressLine">UNSW Built Environment</addressPart>
+            <addressPart type="addressLine">Sydney NSW 2052</addressPart>
+            <addressPart type="addressLine">Australia</addressPart>
+          </physical>
+          <physical type="streetAddress">
+            <addressPart type="addressLine">Level 3, West Wing</addressPart>
+            <addressPart type="addressLine">Red Centre Building</addressPart>
+            <addressPart type="addressLine">Kensington Campus</addressPart>
+            <addressPart type="addressLine">Sydney, Australia</addressPart>
+          </physical>
+          <physical type="">
+            <addressPart type="addressLine">my address line</addressPart>
+          </physical>
+        </address>
+      </location>
+    </party>
+  </registryObject>
+
+  <registryObject group="AUTestingRecords">
+    <key>AODN/Aalbersberg,BillAUT3aa</key>
+    <originatingSource>http://catalogue.aodn.org.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart>Aalbersberg, Bill</namePart>
+      </name>
+      <relatedObject>
+        <key>AODdN/InstituteofAppliedScience(IAS),TheUniversityoftheSouthPacific(USP)</key>
+        <relation type="isMemberOf"/>
+      </relatedObject>
+      <location>
+        <address>
+          <electronic type="email">
+            <value>Aalbersberg@usp.ac.fj</value>
+          </electronic>
+          <physical type="postalAddress">
+            <addressPart type="addressLine">UNSW Built Environment</addressPart>
+            <addressPart type="addressLine">Sydney NSW 2052</addressPart>
+            <addressPart type="addressLine">Australia</addressPart>
+          </physical>
+          <physical type="streetAddress">
+            <addressPart type="addressLine">Level 3, West Wing</addressPart>
+            <addressPart type="addressLine">Red Centre Building</addressPart>
+            <addressPart type="addressLine">Kensington Campus</addressPart>
+            <addressPart type="addressLine">Sydney, Australia</addressPart>
+          </physical>
+          <physical type="">
+            <addressPart type="telephoneNumber">123 456</addressPart>
+            <addressPart type="faxNumber">789 101112</addressPart>
+            <addressPart type="text">my address text element</addressPart>
+            <addressPart type="addressLine">my address line</addressPart>
+          </physical>
+        </address>
+      </location>
+    </party>
+  </registryObject>
+
+  <registryObject group="AUTestingRecords">
+    <key>AODN/Aalbersberg,BillAUT3aab</key>
+    <originatingSource>http://catalogue.aodn.org.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart>Aalbersberg, Bill</namePart>
+      </name>
+      <relatedObject>
+        <key>AODdN/InstituteofAppliedScience(IAS),TheUniversityoftheSouthPacific(USP)</key>
+        <relation type="isMemberOf"/>
+      </relatedObject>
+      <location>
+        <address>
+          <electronic type="email">
+            <value>Aalbersberg@usp.ac.fj</value>
+          </electronic>
+          <electronic type="url">
+            <value>http://www.cc.fj</value>
+          </electronic>
+          <physical type="streetAddress">
+            <addressPart type="telephoneNumber">123 456</addressPart>
+            <addressPart type="faxNumber">789 101112</addressPart>
+            <addressPart type="text">my address text element , 123 example st Syd Australia</addressPart>
+          </physical>
+        </address>
+      </location>
+    </party>
+  </registryObject>
+  
+  <registryObject group="AUTestingRecords">
+    <key>http://nla.gov.au/nla.party-512931AUT3</key>
+    <originatingSource type="authoritative">http://trove.nla.gov.au/people</originatingSource>
+    <party dateModified="2013-08-27T20:09:57Z" type="person">
+      <identifier type="AU-ANL:PEAU">http://nla.gov.au/nla.party-512931AUT3</identifier>
+      <identifier type="AU-AuCNLKIN">http://nla.gov.au/anbd.aut-an35399988AUT3</identifier>
+      <identifier type="AU-VU:EOAS">http://www.eoas.info/biogs/P000685b.htmAUT3</identifier>
+      <identifier type="AU-AuCNLKIN">abv00346328</identifier>
+      <name type="primary">
+        <namePart type="family">Öpik</namePart>
+        <namePart type="given">Armin Alexander</namePart>
+        <namePart type="title">Mr</namePart>
+		<namePart type="suffix">PhD</namePart>
+      </name>
+      <name type="alternative">
+        <namePart type="family">Öpik</namePart>
+        <namePart type="given">Alexander</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://nla.gov.au/nla.party-512931</value>
+          </electronic>
+        </address>
+      </location>
+      <description type="brief">Armin Öpik was Professor of Geology and Palaeontology, Estonian State University at Tartu 1930-1944. He and his family emigrated to Australia in 1948 and was employed as geologist at the Bureau of Mineral Resources, Canberra until his retirement in 1964. His major work in Australia was on the Cambrian and Early Ordovician stratigraphy and palaeontology of northern Australia.</description>
+      <description type="full">Born Lontova, Estonia, 24 June 1898. Died Canberra, 15 January 1983. Educated Estonian State University, Tartu (Magister Mineralogiae 1926, Doctor Philosophiae Naturalis 1928, Privatdozent 1929). Lecturer in geology and mineralogy, Estonian State University at Tartu 1926-29, Professor of Geology and Palaeontology and Director of the Geological Museum and Institute 1930-44; compiling a regional geology of the north-eastern part of Europe, Geotectonic Institute, German Academy of Science, Berlin 1944; teacher of geology, 'Baltic University', Pinneberg, near Hamburg 1945-48; Bureau of Mineral Resources, Melbourne 1948-49; Bureau of Mineral Resources, Canberra 1949-63, with special contract arrangements to continue his work on documenting the Cambrian collections until it was completed. Correspondent, Geological Society of Finland 1926; Corresponding Member, Palaeontological Society of America 1928; Honorary Member, Geological society of London 1938; Fellow, Australian Academy of Science 1962; Charles Doolittle Walcott Medal, Smithsonian Institution 1962; Honorary Member, Geological Society of Australia 1965; Clarke Memorial Lecturer, Royal Society of New South Wales 1965; Award of Merit, Professional Officers' Association 1966. In Estonia he edited the journal "Eesti Loodus" and was president of the Naturalists' Society of the University of Tartu.</description>
+    </party>
+  </registryObject>
+  
+    <registryObject group="AUTestingRecords">
+    <key>http://nla.gov.au/nla.party-512931AUT3a</key>
+    <originatingSource type="authoritative">http://trove.nla.gov.au/people</originatingSource>
+    <party dateModified="2013-08-27T20:09:57Z" type="person">
+      <identifier type="AU-ANL:PEAU">http://nla.gov.au/nla.party-512931AUT3a</identifier>
+      <identifier type="AU-AuCNLKIN">http://nla.gov.au/anbd.aut-an35399988AUT3a</identifier>
+      <identifier type="AU-VU:EOAS">http://www.eoas.info/biogs/P000685b.htmAUT3a</identifier>
+      <identifier type="AU-AuCNLKIN">abv00346328</identifier>
+      <name>
+        <namePart type="family">Öpik</namePart>
+        <namePart type="given">Armin Alexander</namePart>
+        <namePart type="title">Mr</namePart>
+		<namePart type="suffix">PhD</namePart>
+      </name>
+      <name type="alternative">
+        <namePart type="family">Öpik</namePart>
+        <namePart type="given">Alexander</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://nla.gov.au/nla.party-512931</value>
+          </electronic>
+        </address>
+      </location>
+      <description type="brief">Armin Öpik was Professor of Geology and Palaeontology, Estonian State University at Tartu 1930-1944. He and his family emigrated to Australia in 1948 and was employed as geologist at the Bureau of Mineral Resources, Canberra until his retirement in 1964. His major work in Australia was on the Cambrian and Early Ordovician stratigraphy and palaeontology of northern Australia.</description>
+      <description type="full">Born Lontova, Estonia, 24 June 1898. Died Canberra, 15 January 1983. Educated Estonian State University, Tartu (Magister Mineralogiae 1926, Doctor Philosophiae Naturalis 1928, Privatdozent 1929). Lecturer in geology and mineralogy, Estonian State University at Tartu 1926-29, Professor of Geology and Palaeontology and Director of the Geological Museum and Institute 1930-44; compiling a regional geology of the north-eastern part of Europe, Geotectonic Institute, German Academy of Science, Berlin 1944; teacher of geology, 'Baltic University', Pinneberg, near Hamburg 1945-48; Bureau of Mineral Resources, Melbourne 1948-49; Bureau of Mineral Resources, Canberra 1949-63, with special contract arrangements to continue his work on documenting the Cambrian collections until it was completed. Correspondent, Geological Society of Finland 1926; Corresponding Member, Palaeontological Society of America 1928; Honorary Member, Geological society of London 1938; Fellow, Australian Academy of Science 1962; Charles Doolittle Walcott Medal, Smithsonian Institution 1962; Honorary Member, Geological Society of Australia 1965; Clarke Memorial Lecturer, Royal Society of New South Wales 1965; Award of Merit, Professional Officers' Association 1966. In Estonia he edited the journal "Eesti Loodus" and was president of the Naturalists' Society of the University of Tartu.</description>
+    </party>
+  </registryObject>
+  
+  <registryObject group="AUTestingRecords">
+    <key>http://nla.gov.au/nla.party-1507179AUT4</key>
+    <originatingSource type="authoritative">http://trove.nla.gov.au/people</originatingSource>
+    <party dateModified="2017-03-27T18:00:09Z" type="person">
+      <identifier type="AU-ANL:PEAU">http://nla.gov.au/nla.party-1507179AUT4</identifier>
+      <identifier type="AU-QJCU">http://jcu.me/eid/CD505A6E48C59B19BB94D5CB35EFCFC0AUT4</identifier>
+      <name>
+        <namePart type="family">Davis</namePart>
+        <namePart type="given">Aaron Marshall</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://nla.gov.au/nla.party-1507179</value>
+          </electronic>
+        </address>
+      </location>
+      <description type="brief">Mr Aaron Davis</description>
+    </party>
+  </registryObject>
+  
+    <registryObject group="AUTestingRecords">
+    <key>http://nla.gov.au/nla.party-1507179AUT4a</key>
+    <originatingSource type="authoritative">http://trove.nla.gov.au/people</originatingSource>
+    <party dateModified="2017-03-27T18:00:09Z" type="person">
+      <identifier type="AU-ANL:PEAU">http://nla.gov.au/nla.party-1507179AUT4a</identifier>
+      <identifier type="AU-QJCU">http://jcu.me/eid/CD505A6E48C59B19BB94D5CB35EFCFC0AUT4a</identifier>
+      <name>
+        <namePart type="family">Davis</namePart>
+        <namePart type="given">Aaron Marshall </namePart>
+		<namePart type="suffix">OBE</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://nla.gov.au/nla.party-1507179</value>
+          </electronic>
+        </address>
+      </location>
+      <description type="brief">Mr Aaron Davis</description>
+    </party>
+  </registryObject>
+  
+      <registryObject group="AUTestingRecords">
+    <key>http://nla.gov.au/nla.party-1507179AUT4b</key>
+    <originatingSource type="authoritative">http://trove.nla.gov.au/people</originatingSource>
+    <party dateModified="2017-03-27T18:00:09Z" type="person">
+      <identifier type="AU-ANL:PEAU">http://nla.gov.au/nla.party-1507179AUT4b</identifier>
+      <identifier type="AU-QJCU">http://jcu.me/eid/CD505A6E48C59B19BB94D5CB35EFCFC0AUT4b</identifier>
+      <name>
+        <namePart type="family">Davis</namePart>
+        <namePart type="given">Aaron Marshall </namePart>
+		<namePart type="suffix">OBE</namePart>
+		<namePart type="title">Mr</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://nla.gov.au/nla.party-1507179</value>
+          </electronic>
+        </address>
+      </location>
+      <description type="brief">Mr Aaron Davis</description>
+    </party>
+  </registryObject>
+  
+  <registryObject group="AUTestingRecords">
+    <key>UTAS/Abbott-Chapman, JoanAUT5</key>
+    <originatingSource>http://vivo.utas.edu.au/vivo/</originatingSource>
+    <party type="person">
+      <identifier type="uri">http://vivo.utas.edu.au/vivo/individual/n481534223AUT5</identifier>
+      <name type="primary">
+        <namePart type="extension">-Chapman</namePart>
+		<namePart type="given">Aaron </namePart>
+		<namePart type="family">Abbott</namePart>
+      </name>
+      <relatedInfo type="website">
+        <title>UTAS RDDS profile</title>
+        <identifier type="uri">http://vivo.utas.edu.au/vivo/individual/n481534223</identifier>
+      </relatedInfo>
+      <subject type="anzsrc-for">139999</subject>
+      <subject type="anzsrc-for">130309</subject>
+      <subject type="anzsrc-for">160809</subject>
+    </party>
+  </registryObject>
+  
+  <registryObject group="AUTestingRecords">
+    <key>UTAS/Abbott-Chapman, JoanAUT5a</key>
+    <originatingSource>http://vivo.utas.edu.au/vivo/</originatingSource>
+    <party type="person">
+      <identifier type="uri">http://vivo.utas.edu.au/vivo/individual/n4815342235a</identifier>
+      <name type="primary">
+        <namePart type="fullName">Abbott-Chapman, Joan</namePart>
+      </name>
+      <relatedInfo type="website">
+        <title>UTAS RDDS profile</title>
+        <identifier type="uri">http://vivo.utas.edu.au/vivo/individual/n481534223</identifier>
+      </relatedInfo>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://eresearch.uts.edu.au/</value>
+          </electronic>
+        </address>
+        <address>
+          <electronic type="email">
+            <value>eResearch-IT@uts.edu.au</value>
+          </electronic>
+          <physical type="streetAddress">
+            <addressPart type="fullName">fullName</addressPart>
+            <addressPart type="organizationName">organizationName</addressPart>
+            <addressPart type="flatOrUnitNumber">flatOrUnitNumber</addressPart>
+            <addressPart type="floorOrLevelNumber">floorOrLevelNumber</addressPart>
+            <addressPart type="LotNumber">LotNumber</addressPart>
+            <addressPart type="streetName">streetName</addressPart>
+            <addressPart type="postalDeliveryNumberValue">postalDeliveryNumberValue</addressPart>
+            <addressPart type="postalDeliveryNumberSuffix">postalDeliveryNumberSuffix</addressPart>
+            <addressPart type="suburbOrPlaceOrLocality">suburbOrPlaceOrLocality</addressPart>
+            <addressPart type="stateOrTerritory">stateOrTerritory</addressPart>
+            <addressPart type="country">country</addressPart>
+            <addressPart type="locationDescriptor">locationDescriptor</addressPart>
+            <addressPart type="deliveryPointIdentifier">deliveryPointIdentifier</addressPart>
+            <addressPart type="buildingOrPropertyName">buildingOrPropertyName</addressPart>
+            <addressPart type="postCode">postCode</addressPart>
+            <addressPart type="postalDeliveryNumberPrefix">postalDeliveryNumberPrefix</addressPart>
+            <addressPart type="houseNumber">houseNumber</addressPart>
+            <addressPart type="addressLine">addressLine</addressPart>
+          </physical>
+        </address>
+      </location>
+      <subject type="anzsrc-for">139999</subject>
+      <subject type="anzsrc-for">130309</subject>
+      <subject type="anzsrc-for">160809</subject>
+    </party>
+  </registryObject>
+</registryObjects>

@@ -1,0 +1,1197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<csw:GetRecordsResponse xmlns:csw="http://www.opengis.net/cat/csw/2.0.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/cat/csw/2.0.2 http://schemas.opengis.net/csw/2.0.2/CSW-discovery.xsd">
+    <csw:SearchStatus timestamp="2017-08-10T10:50:07" />
+    <csw:SearchResults numberOfRecordsMatched="141" numberOfRecordsReturned="15" elementSet="full" nextRecord="16">
+        <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml" xmlns:wms="http://www.opengis.net/wms" xmlns:geonet="http://www.fao.org/geonetwork">
+            <gmd:fileIdentifier>
+                <gco:CharacterString>2b54eb3696b82aa9237d6ec014987e4fb0efd34cAUT2</gco:CharacterString>
+            </gmd:fileIdentifier>
+            <gmd:language>
+                <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" />
+            </gmd:language>
+            <gmd:characterSet>
+                <gmd:MD_CharacterSetCode codeList="./resources/codeList.xml#MD_CharacterSetCode" codeListValue="utf8" />
+            </gmd:characterSet>
+            <gmd:hierarchyLevel>
+                <gmd:MD_ScopeCode codeList="./resources/codeList.xml#MD_ScopeCode" codeListValue="service" />
+            </gmd:hierarchyLevel>
+            <gmd:contact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString>AUTestingRecords2 Party Person</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString>AUTestingRecords2 Organisation</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                        <gco:CharacterString>Team Leader - Magnetics and Gravity</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:phone>
+                                <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                        <gco:CharacterString>1300 363 400</gco:CharacterString>
+                                    </gmd:voice>
+                                    <gmd:facsimile>
+                                        <gco:CharacterString />
+                                    </gmd:facsimile>
+                                </gmd:CI_Telephone>
+                            </gmd:phone>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                        <gco:CharacterString />
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                        <gco:CharacterString>Sydney</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                        <gco:CharacterString />
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                        <gco:CharacterString />
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                        <gco:CharacterString>Australia</gco:CharacterString>
+                                    </gmd:country>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                            <gmd:onlineResource>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://geoserver.org</gmd:URL>
+                                    </gmd:linkage>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onlineResource>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact" />
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:contact>
+            <gmd:dateStamp>
+                <gco:DateTime>2017-07-15T07:00:02</gco:DateTime>
+            </gmd:dateStamp>
+            <gmd:metadataStandardName>
+                <gco:CharacterString>ISO 19119/2005</gco:CharacterString>
+            </gmd:metadataStandardName>
+            <gmd:metadataStandardVersion>
+                <gco:CharacterString>1.0</gco:CharacterString>
+            </gmd:metadataStandardVersion>
+            <gmd:identificationInfo>
+                <srv:SV_ServiceIdentification>
+                    <gmd:citation>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>CSIRO Remanent Anomaly Map Service</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                        <gco:DateTime>2017-07-15T07:00:02</gco:DateTime>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                        <gmd:CI_DateTypeCode codeList="./resources/codeList.xml#CI_DateTypeCode" codeListValue="revision" />
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                        </gmd:CI_Citation>
+                    </gmd:citation>
+                    <gmd:abstract>
+                        <gco:CharacterString>CSIRO Remanent Anomaly Map Service</gco:CharacterString>
+                    </gmd:abstract>
+                    <gmd:status>
+                        <gmd:MD_ProgressCode codeList="./resources/codeList.xml#MD_ProgressCode" codeListValue="completed" />
+                    </gmd:status>
+                    <gmd:pointOfContact>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName>
+                                <gco:CharacterString>AUTestingRecords2 Party Person</gco:CharacterString>
+                            </gmd:individualName>
+                            <gmd:organisationName>
+                                <gco:CharacterString>AUTestingRecords2 Organisation</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName>
+                                <gco:CharacterString>Team Leader - Magnetics and Gravity</gco:CharacterString>
+                            </gmd:positionName>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:phone>
+                                        <gmd:CI_Telephone>
+                                            <gmd:voice>
+                                                <gco:CharacterString>1300 363 400</gco:CharacterString>
+                                            </gmd:voice>
+                                            <gmd:facsimile>
+                                                <gco:CharacterString />
+                                            </gmd:facsimile>
+                                        </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                        <gmd:CI_Address>
+                                            <gmd:deliveryPoint>
+                                                <gco:CharacterString />
+                                            </gmd:deliveryPoint>
+                                            <gmd:city>
+                                                <gco:CharacterString>Sydney</gco:CharacterString>
+                                            </gmd:city>
+                                            <gmd:administrativeArea>
+                                                <gco:CharacterString />
+                                            </gmd:administrativeArea>
+                                            <gmd:postalCode>
+                                                <gco:CharacterString />
+                                            </gmd:postalCode>
+                                            <gmd:country>
+                                                <gco:CharacterString>Australia</gco:CharacterString>
+                                            </gmd:country>
+                                        </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                        <gmd:CI_OnlineResource>
+                                            <gmd:linkage>
+                                                <gmd:URL>http://geoserver.org</gmd:URL>
+                                            </gmd:linkage>
+                                        </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact" />
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:pointOfContact>
+                    <gmd:descriptiveKeywords>
+                        <gmd:MD_Keywords>
+                            <gmd:keyword>
+                                <gco:CharacterString>WFS</gco:CharacterString>
+                            </gmd:keyword>
+                            <gmd:keyword>
+                                <gco:CharacterString>WMS</gco:CharacterString>
+                            </gmd:keyword>
+                            <gmd:keyword>
+                                <gco:CharacterString>GEOSERVER</gco:CharacterString>
+                            </gmd:keyword>
+                        </gmd:MD_Keywords>
+                    </gmd:descriptiveKeywords>
+                    <srv:serviceType>
+                        <gco:LocalName codeSpace="www.w3c.org">OGC:WMS</gco:LocalName>
+                    </srv:serviceType>
+                    <srv:serviceTypeVersion>
+                        <gco:CharacterString>1.1.1</gco:CharacterString>
+                    </srv:serviceTypeVersion>
+                    <srv:accessProperties>
+                        <gmd:MD_StandardOrderProcess>
+                            <gmd:fees>
+                                <gco:CharacterString>NONE</gco:CharacterString>
+                            </gmd:fees>
+                        </gmd:MD_StandardOrderProcess>
+                    </srv:accessProperties>
+                    <srv:extent>
+                        <gmd:EX_Extent>
+                            <gmd:geographicElement>
+                                <gmd:EX_GeographicBoundingBox>
+                                    <gmd:westBoundLongitude>
+                                        <gco:Decimal>-1</gco:Decimal>
+                                    </gmd:westBoundLongitude>
+                                    <gmd:eastBoundLongitude>
+                                        <gco:Decimal>160</gco:Decimal>
+                                    </gmd:eastBoundLongitude>
+                                    <gmd:southBoundLatitude>
+                                        <gco:Decimal>-45</gco:Decimal>
+                                    </gmd:southBoundLatitude>
+                                    <gmd:northBoundLatitude>
+                                        <gco:Decimal>0</gco:Decimal>
+                                    </gmd:northBoundLatitude>
+                                </gmd:EX_GeographicBoundingBox>
+                            </gmd:geographicElement>
+                        </gmd:EX_Extent>
+                    </srv:extent>
+                    <srv:coupledResource>
+                        <srv:SV_CoupledResource>
+                            <srv:operationName>
+                                <gco:CharacterString>GetMap</gco:CharacterString>
+                            </srv:operationName>
+                            <srv:identifier>
+                                <gco:CharacterString>8ce7f2b26dd6b0cf80a548f4c607da77366f0298</gco:CharacterString>
+                            </srv:identifier>
+                            <gco:ScopedName>mag:australia_tmihires2a</gco:ScopedName>
+                        </srv:SV_CoupledResource>
+                    </srv:coupledResource>
+                    <srv:coupledResource>
+                        <srv:SV_CoupledResource>
+                            <srv:operationName>
+                                <gco:CharacterString>GetMap</gco:CharacterString>
+                            </srv:operationName>
+                            <srv:identifier>
+                                <gco:CharacterString>1ecaf932f57eb4964194ccb75a1cb8fab5d58c62</gco:CharacterString>
+                            </srv:identifier>
+                            <gco:ScopedName>RemAnomAutoSearch:AutoSearchAnomalies</gco:ScopedName>
+                        </srv:SV_CoupledResource>
+                    </srv:coupledResource>
+                    <srv:coupledResource>
+                        <srv:SV_CoupledResource>
+                            <srv:operationName>
+                                <gco:CharacterString>GetMap</gco:CharacterString>
+                            </srv:operationName>
+                            <srv:identifier>
+                                <gco:CharacterString>d69c9e2c32ea5671495654804888054b2d4f96cc</gco:CharacterString>
+                            </srv:identifier>
+                            <gco:ScopedName>RemAnom:AnomalyView</gco:ScopedName>
+                        </srv:SV_CoupledResource>
+                    </srv:coupledResource>
+                    <srv:coupledResource>
+                        <srv:SV_CoupledResource>
+                            <srv:operationName>
+                                <gco:CharacterString>GetMap</gco:CharacterString>
+                            </srv:operationName>
+                            <srv:identifier>
+                                <gco:CharacterString>ce55726c0bb1fec532f2d63bf1bf42d67bdcdb0a</gco:CharacterString>
+                            </srv:identifier>
+                            <gco:ScopedName>RemAnom:Anomaly</gco:ScopedName>
+                        </srv:SV_CoupledResource>
+                    </srv:coupledResource>
+                    <srv:coupledResource>
+                        <srv:SV_CoupledResource>
+                            <srv:operationName>
+                                <gco:CharacterString>GetMap</gco:CharacterString>
+                            </srv:operationName>
+                            <srv:identifier>
+                                <gco:CharacterString>ebe88586e6f6b1da2d27ea570be6a9a174787b84</gco:CharacterString>
+                            </srv:identifier>
+                            <gco:ScopedName>mag:AUS5 - Total Magnetic Intensity</gco:ScopedName>
+                        </srv:SV_CoupledResource>
+                    </srv:coupledResource>
+                    <srv:couplingType>
+                        <srv:SV_CouplingType codeList="./resources/codeList.xml#SV_CouplingType" codeListValue="tight">tight</srv:SV_CouplingType>
+                    </srv:couplingType>
+                    <srv:containsOperations>
+                        <srv:SV_OperationMetadata>
+                            <srv:operationName>
+                                <gco:CharacterString>GetCapabilities</gco:CharacterString>
+                            </srv:operationName>
+                            <srv:DCP>
+                                <srv:DCPList codeList="./resources/codeList.xml#DCPList" codeListValue="HTTP-GET" />
+                            </srv:DCP>
+                            <srv:DCP>
+                                <srv:DCPList codeList="./resources/codeList.xml#DCPList" codeListValue="HTTP-POST" />
+                            </srv:DCP>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>application/vnd.ogc.wms_xml</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : application/vnd.ogc.wms_xml</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>text/xml</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : text/xml</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                        </srv:SV_OperationMetadata>
+                    </srv:containsOperations>
+                    <srv:containsOperations>
+                        <srv:SV_OperationMetadata>
+                            <srv:operationName>
+                                <gco:CharacterString>GetMap</gco:CharacterString>
+                            </srv:operationName>
+                            <srv:DCP>
+                                <srv:DCPList codeList="./resources/codeList.xml#DCPList" codeListValue="HTTP-GET" />
+                            </srv:DCP>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>image/png</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : image/png</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>application/atom xml</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : application/atom xml</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>application/atom+xml</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : application/atom+xml</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>application/json;type=utfgrid</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : application/json;type=utfgrid</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>application/openlayers</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : application/openlayers</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>application/pdf</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : application/pdf</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>application/rss xml</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : application/rss xml</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>application/rss+xml</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : application/rss+xml</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>application/vnd.google-earth.kml</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : application/vnd.google-earth.kml</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>application/vnd.google-earth.kml xml</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : application/vnd.google-earth.kml xml</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>application/vnd.google-earth.kml+xml</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : application/vnd.google-earth.kml+xml</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>application/vnd.google-earth.kml+xml;mode=networklink</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : application/vnd.google-earth.kml+xml;mode=networklink</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>application/vnd.google-earth.kmz</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : application/vnd.google-earth.kmz</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>application/vnd.google-earth.kmz xml</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : application/vnd.google-earth.kmz xml</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>application/vnd.google-earth.kmz+xml</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : application/vnd.google-earth.kmz+xml</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>application/vnd.google-earth.kmz;mode=networklink</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : application/vnd.google-earth.kmz;mode=networklink</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>atom</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : atom</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>image/geotiff</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : image/geotiff</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>image/geotiff8</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : image/geotiff8</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>image/gif</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : image/gif</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>image/gif;subtype=animated</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : image/gif;subtype=animated</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>image/jpeg</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : image/jpeg</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>image/png8</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : image/png8</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>image/png; mode=8bit</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : image/png; mode=8bit</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>image/svg</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : image/svg</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>image/svg xml</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : image/svg xml</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>image/svg+xml</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : image/svg+xml</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>image/tiff</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : image/tiff</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>image/tiff8</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : image/tiff8</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>image/vnd.jpeg-png</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : image/vnd.jpeg-png</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>kml</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : kml</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>kmz</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : kmz</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>openlayers</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : openlayers</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>rss</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : rss</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>text/html; subtype=openlayers</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : text/html; subtype=openlayers</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>utfgrid</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : utfgrid</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                        </srv:SV_OperationMetadata>
+                    </srv:containsOperations>
+                    <srv:containsOperations>
+                        <srv:SV_OperationMetadata>
+                            <srv:operationName>
+                                <gco:CharacterString>GetFeatureInfo</gco:CharacterString>
+                            </srv:operationName>
+                            <srv:DCP>
+                                <srv:DCPList codeList="./resources/codeList.xml#DCPList" codeListValue="HTTP-GET" />
+                            </srv:DCP>
+                            <srv:DCP>
+                                <srv:DCPList codeList="./resources/codeList.xml#DCPList" codeListValue="HTTP-POST" />
+                            </srv:DCP>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>text/plain</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : text/plain</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>application/vnd.ogc.gml</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : application/vnd.ogc.gml</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>text/xml</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : text/xml</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>application/vnd.ogc.gml/3.1.1</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : application/vnd.ogc.gml/3.1.1</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>text/xml; subtype=gml/3.1.1</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : text/xml; subtype=gml/3.1.1</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>text/html</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : text/html</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>application/json</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : application/json</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                        </srv:SV_OperationMetadata>
+                    </srv:containsOperations>
+                    <srv:containsOperations>
+                        <srv:SV_OperationMetadata>
+                            <srv:operationName>
+                                <gco:CharacterString>DescribeLayer</gco:CharacterString>
+                            </srv:operationName>
+                            <srv:DCP>
+                                <srv:DCPList codeList="./resources/codeList.xml#DCPList" codeListValue="HTTP-GET" />
+                            </srv:DCP>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>application/vnd.ogc.wms_xml</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : application/vnd.ogc.wms_xml</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                        </srv:SV_OperationMetadata>
+                    </srv:containsOperations>
+                    <srv:containsOperations>
+                        <srv:SV_OperationMetadata>
+                            <srv:operationName>
+                                <gco:CharacterString>GetLegendGraphic</gco:CharacterString>
+                            </srv:operationName>
+                            <srv:DCP>
+                                <srv:DCPList codeList="./resources/codeList.xml#DCPList" codeListValue="HTTP-GET" />
+                            </srv:DCP>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>image/png</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : image/png</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>image/jpeg</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : image/jpeg</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>image/gif</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : image/gif</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                        </srv:SV_OperationMetadata>
+                    </srv:containsOperations>
+                    <srv:containsOperations>
+                        <srv:SV_OperationMetadata>
+                            <srv:operationName>
+                                <gco:CharacterString>GetStyles</gco:CharacterString>
+                            </srv:operationName>
+                            <srv:DCP>
+                                <srv:DCPList codeList="./resources/codeList.xml#DCPList" codeListValue="HTTP-GET" />
+                            </srv:DCP>
+                            <srv:connectPoint>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>application/vnd.ogc.sld+xml</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Format : application/vnd.ogc.sld+xml</gco:CharacterString>
+                                    </gmd:description>
+                                    <gmd:function>
+                                        <gmd:CI_OnLineFunctionCode codeList="./resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information" />
+                                    </gmd:function>
+                                </gmd:CI_OnlineResource>
+                            </srv:connectPoint>
+                        </srv:SV_OperationMetadata>
+                    </srv:containsOperations>
+                    <srv:operatesOn uuidref="ebe88586e6f6b1da2d27ea570be6a9a174787b84" xlink:href="http://portal.auscope.org/geonetwork/srv/en/xml.metadata.get?uuid=ebe88586e6f6b1da2d27ea570be6a9a174787b84" />
+                    <srv:operatesOn uuidref="ce55726c0bb1fec532f2d63bf1bf42d67bdcdb0a" xlink:href="http://portal.auscope.org/geonetwork/srv/en/xml.metadata.get?uuid=ce55726c0bb1fec532f2d63bf1bf42d67bdcdb0a" />
+                    <srv:operatesOn uuidref="d69c9e2c32ea5671495654804888054b2d4f96cc" xlink:href="http://portal.auscope.org/geonetwork/srv/en/xml.metadata.get?uuid=d69c9e2c32ea5671495654804888054b2d4f96cc" />
+                    <srv:operatesOn uuidref="1ecaf932f57eb4964194ccb75a1cb8fab5d58c62" xlink:href="http://portal.auscope.org/geonetwork/srv/en/xml.metadata.get?uuid=1ecaf932f57eb4964194ccb75a1cb8fab5d58c62" />
+                    <srv:operatesOn uuidref="8ce7f2b26dd6b0cf80a548f4c607da77366f0298" xlink:href="http://portal.auscope.org/geonetwork/srv/en/xml.metadata.get?uuid=8ce7f2b26dd6b0cf80a548f4c607da77366f0298" />
+                </srv:SV_ServiceIdentification>
+            </gmd:identificationInfo>
+            <gmd:distributionInfo>
+                <gmd:MD_Distribution>
+                    <gmd:distributionFormat>
+                        <gmd:MD_Format>
+                            <gmd:name gco:nilReason="missing">
+                                <gco:CharacterString />
+                            </gmd:name>
+                            <gmd:version gco:nilReason="missing">
+                                <gco:CharacterString />
+                            </gmd:version>
+                        </gmd:MD_Format>
+                    </gmd:distributionFormat>
+                    <gmd:transferOptions>
+                        <gmd:MD_DigitalTransferOptions>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>application/vnd.ogc.wms_xml</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp; http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</gco:CharacterString>
+                                    </gmd:description>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                        </gmd:MD_DigitalTransferOptions>
+                    </gmd:transferOptions>
+                </gmd:MD_Distribution>
+            </gmd:distributionInfo>
+            <gmd:dataQualityInfo>
+                <gmd:DQ_DataQuality>
+                    <gmd:scope>
+                        <gmd:DQ_Scope>
+                            <gmd:level>
+                                <gmd:MD_ScopeCode codeListValue="service" codeList="./resources/codeList.xml#MD_ScopeCode" />
+                            </gmd:level>
+                            <gmd:levelDescription>
+                                <gmd:MD_ScopeDescription>
+                                    <gmd:attributes />
+                                </gmd:MD_ScopeDescription>
+                            </gmd:levelDescription>
+                        </gmd:DQ_Scope>
+                    </gmd:scope>
+                    <gmd:lineage>
+                        <gmd:LI_Lineage>
+                            <gmd:statement gco:nilReason="missing">
+                                <gco:CharacterString />
+                            </gmd:statement>
+                        </gmd:LI_Lineage>
+                    </gmd:lineage>
+                </gmd:DQ_DataQuality>
+            </gmd:dataQualityInfo>
+        </gmd:MD_Metadata>
+		    </csw:SearchResults>
+</csw:GetRecordsResponse>

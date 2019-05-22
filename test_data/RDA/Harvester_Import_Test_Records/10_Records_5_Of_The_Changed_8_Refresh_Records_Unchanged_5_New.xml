@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xmlns:extRif="http://ands.org.au/standards/rif-cs/extendedRegistryObjects" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+    
+    <registryObject group="Australian Institute of Health and Welfare">
+        <key>refreshaihw.gov.au/fa7fafe5-b577-4c1e-91e7-6ed24afae70c</key>
+        <originatingSource>http://aihw.gov.au/ANDS/AIWH_RIF-CS_extract.xml</originatingSource>
+        <collection type="catalogueOrIndex" dateAccessioned="2012-05-22T10:12:12.6574649+10:00">
+            <name type="primary">
+                <namePart>AIHW Publications</namePart>
+            </name>
+            <location>
+                <address>
+          <electronic type="url">
+            <value>http://www.aihw.gov.au/publications/</value>
+          </electronic>
+        </address>
+            </location>
+            <relatedObject>
+                <key>refreshaihw.gov.au/4bebcfff-7172-47b0-962a-45077052ee5b</key>
+                <relation type="isManagedBy"/>
+            </relatedObject>
+            <description type="brief">Catalogue of all AIHW publications</description>
+            <description type="accessRights">All AIHW publications are available as free downloads from AIHW website. Some AIHW publications are also available in hardcopy for purchase. The materials on the website are published under a Creative Commons (CC) BY 3.0 licence. Under the terms of this licence, you are required to attribute the AIHW in a form specified by this policy. However, you may not attribute the AIHW in a way that would create an impression that the AIHW endorses your organisation or your work.</description>
+        </collection>
+    </registryObject>
+
+
+    <registryObject group="Australian Institute of Health and Welfare">
+        <key>refreshaihw.gov.au/3e0163d1-7939-43bd-83e3-bc94b931d175</key>
+        <originatingSource>http://aihw.gov.au/ANDS/AIWH_RIF-CS_extract.xml</originatingSource>
+        <collection type="collection" dateAccessioned="2012-05-22T10:12:12.7766101+10:00">
+            <identifier type="local">WEB.DATAHOUND.HOLDING.DHID=8284</identifier>
+            <name type="primary">
+                <namePart>ALCOHOL AND OTHER DRUG TREATMENT SERVICES (NATIONAL MINIMUM DATA SET)</namePart>
+            </name>
+            <location>
+                <address>
+          <electronic type="url">
+            <value>http://www.aihw.gov.au/datacat/index.cfm/action/showall/id/8284</value>
+          </electronic>
+        </address>
+            </location>
+            <coverage>
+                <spatial type="text">National</spatial>
+                <spatial type="kmlPolyCoords">159.105459,-9.221084 112.921454,-9.221084 112.921454,-54.777218 159.105459,-54.777218 159.105459,-9.221084</spatial>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">2000-07-01</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2010-06-30</date>
+                </temporal>
+            </coverage>
+            <relatedObject>
+                <key>refreshaihw.gov.au/4bebcfff-7172-47b0-962a-45077052ee5b</key>
+                <relation type="isOwnedBy"/>
+            </relatedObject>
+            <relatedObject>
+                <key>refreshaihw.gov.au/4232a7a2-f2ed-4227-975a-9b4b8ccdd5c7</key>
+                <relation type="isDescribedBy"/>
+            </relatedObject>
+            <subject type="local">ALCOHOL</subject>
+            <subject type="local">AODTS</subject>
+            <subject type="local">DRUG</subject>
+            <subject type="local">TOBACCO</subject>
+            <description type="rights">Publications&amp;lt;br&amp;gt;Summary tables published in electronic form.&amp;lt;br&amp;gt;Online interactive Data Cubes.&amp;lt;br&amp;gt;Client specified tables on request which may be subject to data provider approval (charges apply)&amp;lt;br&amp;gt;Restricted unit record access subject to Ethics Committee approval and/or the agreement of all relevant data custodians in all states and territories (charges may apply).</description>
+            <description type="brief">The Alcohol and Other Drug Treatment Services National Minimum Data Set (AODTS NMDS) emanated from the national forum 'treatment and research - where to from here?' held in 1995 by the Alcohol and Other Drugs Council of Australia. In December 1999 the Commonwealth and state and territory governments through the then National Health Information Management Group endorsed a version of the AODTS NMDS for collection to commence on 1 July 2000. The first data were collected for 2000-01; this was considered a pilot year. The data from 2001-02 onwards contain information about alcohol and other drug treatment services; the clients who use these services; the types of drug problems for which treatment is sought and the types of treatment provided.</description>
+            <description type="accessRights">AODTS Working Group approval required for unreleased state/territory data. AIHW Ethics Committee approval required for access to unit record level data.</description>
+            <description type="note">Collection Methodology: Official Data</description>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/drugs/index.cfm</identifier>
+                <title>Alcohol and other Drugs Web Portal</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publication-detail/?id=10737419494</identifier>
+                <title>Collection and access guidelines 2011-12</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publication-detail/?id=6442475563</identifier>
+                <title>Alcohol and other drug treatment services in Western Australia 2008-09: findings from the National Minimum Data Set (NMDS)</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publication-detail/?id=6442475583</identifier>
+                <title>Alcohol and other drug treatment services in Victoria 2008-09: findings from the National Minimum Data Set (NMDS)</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publication-detail/?id=6442475588</identifier>
+                <title>Alcohol and other drug treatment services in the Northern Territory 2008-09: findings from the National Minimum Data Set (NMDS)</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publication-detail/?id=6442475593</identifier>
+                <title>Alcohol and other drug treatment services in the Australian Capital Territory 2008-09: findings from the National Minimum Data Set (NMDS)</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publication-detail/?id=6442475597</identifier>
+                <title>Alcohol and other drug treatment services in Tasmania 2008-09: findings from the National Minimum Data Set (NMDS)</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publication-detail/?id=6442475602</identifier>
+                <title>Alcohol and other drug treatment services in South Australia 2008-09: findings from the National Minimum Data Set (NMDS)</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publication-detail/?id=6442475606</identifier>
+                <title>Alcohol and other drug treatment services in Queensland 2008-09: findings from the National Minimum Data Set (NMDS)</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publication-detail/?id=6442475607</identifier>
+                <title>Alcohol and other drug treatment services in New South Wales 2008-09: findings from the National Minimum Data Set (NMDS)</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publication-detail/?id=6442472422</identifier>
+                <title>Alcohol and other drug treatment services in Australia 2008-09: report on the National Minimum Data Set</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publication-detail/?id=10737419119</identifier>
+                <title>Report profile: Alcohol and other drug treatment services in Australia 2008-09: report on the National Minimum Data Set</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/interactive-alcohol-and-other-drug-treatment-services-data-cubes/</identifier>
+                <title>Interactive alcohol and other drugs (AODT-NMDS) data cubes</title>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+
+    <registryObject group="Australian Institute of Health and Welfare">
+        <key>refreshaihw.gov.au/f7b4b297-07c4-45bd-8b79-96a6e8c95429</key>
+        <originatingSource>http://aihw.gov.au/ANDS/AIWH_RIF-CS_extract.xml</originatingSource>
+        <collection type="collection" dateAccessioned="2012-05-22T10:12:40.1858657+10:00">
+            <identifier type="local">WEB.DATAHOUND.HOLDING.DHID=8571</identifier>
+            <name type="primary">
+                <namePart>NATIONAL DRUG STRATEGY HOUSEHOLD SURVEYS</namePart>
+            </name>
+            <location>
+                <address>
+          <electronic type="url">
+            <value>http://www.aihw.gov.au/datacat/index.cfm/action/showall/id/8571</value>
+          </electronic>
+        </address>
+            </location>
+            <coverage>
+                <spatial type="text">National and State</spatial>
+                <spatial type="kmlPolyCoords">159.105459,-9.221084 112.921454,-9.221084 112.921454,-54.777218 159.105459,-54.777218 159.105459,-9.221084</spatial>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">1998-06-30</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2010-06-30</date>
+                </temporal>
+            </coverage>
+            <relatedObject>
+                <key>refreshaihw.gov.au/4bebcfff-7172-47b0-962a-45077052ee5b</key>
+                <relation type="isOwnedBy"/>
+            </relatedObject>
+            <relatedObject>
+                <key>refreshaihw.gov.au/4232a7a2-f2ed-4227-975a-9b4b8ccdd5c7</key>
+                <relation type="isDescribedBy"/>
+            </relatedObject>
+            <subject type="local">ALCOHOL</subject>
+            <subject type="local">DRUG</subject>
+            <subject type="local">ILLICIT DRUGS</subject>
+            <subject type="local">KNOWLEDGE AND BELIEFS</subject>
+            <subject type="local">PERCEPTIONS</subject>
+            <subject type="local">POLICY SUPPORT</subject>
+            <subject type="local">TOBACCO</subject>
+            <description type="rights">Publications&amp;lt;br&amp;gt;Summary tables published in electronic form.&amp;lt;br&amp;gt;Client specified tables on request which may be subject to data provider approval (charges apply)&amp;lt;br&amp;gt;Restricted unit record access subject to Ethics Committee approval and/or the agreement of all relevant data custodians in all states and territories (charges may apply).</description>
+            <description type="brief">A series of surveys auspiced by the National Drug Strategy (and its predecessors and successors). The 1998, 2001, 2004, 2007 and 2010 surveys were conducted by the AIHW. It is a national household survey of non-institutionalised persons aged 14 years and over (12 years and over from 2004).</description>
+            <description type="full">A confidentialised unit record file for public access is available at the Australian Social Science Data Archives at the ANU:  &amp;lt;a href="http://ssda.anu.edu.au" target = "new"&amp;gt; http://ssda.anu.edu.au &amp;lt;/a&amp;gt;. (available September 2011 for the not yet available for the 2010 NDSHS)  Public access to the master unit record data requires application to the AIHW Ethics Committee.</description>
+            <description type="accessRights">Sample is designed to be representative at national and state/territory level.</description>
+            <description type="note">Collection Methodology: Survey</description>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/6243</identifier>
+                <title>1998 National Drug Strategy Household Survey: Detailed Findings</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/5182</identifier>
+                <title>1998 National Drug Strategy Household Survey: First Results</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/5621</identifier>
+                <title>1998 National Drug Strategy Household Survey: Queensland Results</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/6247</identifier>
+                <title>1998 National Drug Strategy Household Survey: State and Territory Results</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/5660</identifier>
+                <title>1998 National Drug Strategy Household Survey: Western Australia Results</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/8227</identifier>
+                <title>2001 National Drug Strategy Household Survey: Detailed Findings</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/7553</identifier>
+                <title>2001 National Drug Strategy Household Survey: First Results</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/7821</identifier>
+                <title>2001 National Drug Strategy Household Survey: State and Territory Supplement</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/5460</identifier>
+                <title>Statistics on Drug Use in Australia 1998</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/6785</identifier>
+                <title>Statistics on Drug Use in Australia 2000</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/8390</identifier>
+                <title>Statistics on Drug Use in Australia 2002</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://assda.anu.edu.au/codebooks/d1016/d1016cbk.pdf</identifier>
+                <title>Data users' guide</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/10579</identifier>
+                <title>2007 National Drug Strategy Household Survey: first results</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/10674</identifier>
+                <title>2007 National Drug Strategy Household Survey: detailed findings</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/10670</identifier>
+                <title>2007 National Drug Strategy Household Survey: state and territory results</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/10143</identifier>
+                <title>Statistics on drug use in Australia 2004</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/10393</identifier>
+                <title>Statistics on drug use in Australia 2006</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/10122</identifier>
+                <title>2004 National Drug Strategy Household Survey: first results</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/10133</identifier>
+                <title>2004 National Drug Strategy Household Survey: state and territory results</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/10190</identifier>
+                <title>2004 National Drug Strategy Household Survey: detailed findings</title>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+
+    <registryObject group="Australian Institute of Health and Welfare">
+        <key>refreshaihw.gov.au/9fc3495c-c598-49fb-9b8b-eb5e0452b4e8</key>
+        <originatingSource>http://aihw.gov.au/ANDS/AIWH_RIF-CS_extract.xml</originatingSource>
+        <collection type="collection" dateAccessioned="2012-05-22T10:12:40.1438719+10:00">
+            <identifier type="local">WEB.DATAHOUND.HOLDING.DHID=6425</identifier>
+            <name type="primary">
+                <namePart>COMMONWEALTH STATE/TERRITORY DISABILITY AGREEMENT (CSTDA) MINIMUM DATA SET</namePart>
+            </name>
+            <location>
+                <address>
+          <electronic type="url">
+            <value>http://www.aihw.gov.au/datacat/index.cfm/action/showall/id/6425</value>
+          </electronic>
+        </address>
+            </location>
+            <coverage>
+                <spatial type="text">National</spatial>
+                <spatial type="kmlPolyCoords">159.105459,-9.221084 112.921454,-9.221084 112.921454,-54.777218 159.105459,-54.777218 159.105459,-9.221084</spatial>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">1994-08-15</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2009-06-30</date>
+                </temporal>
+            </coverage>
+            <relatedObject>
+                <key>refreshaihw.gov.au/4bebcfff-7172-47b0-962a-45077052ee5b</key>
+                <relation type="isOwnedBy"/>
+            </relatedObject>
+            <relatedObject>
+                <key>refreshaihw.gov.au/4232a7a2-f2ed-4227-975a-9b4b8ccdd5c7</key>
+                <relation type="isDescribedBy"/>
+            </relatedObject>
+            <subject type="local">AGREEMENT</subject>
+            <subject type="local">COMMONWEALTH</subject>
+            <subject type="local">CSDA</subject>
+            <subject type="local">DISABILITY</subject>
+            <subject type="local">SERVICES</subject>
+            <subject type="local">STATE</subject>
+            <subject type="local">WELFARE</subject>
+            <description type="rights">Unit records may not be available and there may be restrictions or limitations governing the availability or use of other data in this holding. For more information about availability please call the phone number below</description>
+            <description type="brief">The CSTDA national minimum data set was developed in 1993 and 1994 jointly by all states and territories, the AIHW.The first data collection was undertaken in 1995. The data contains information about services directly provided or funded by government, under the umbrella of the CSTDA. The collection has been redeveloped and, after having been a 'snaphsot' collection, produces full year data from 2002-03.</description>
+            <description type="accessRights">See annual reports and data guides on links provided.</description>
+            <description type="note">Collection Methodology: Official Data</description>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/disability/csda_public/index.cfm</identifier>
+                <title>Functioning and disability portal, CSDA collection details</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/disability/publications.cfm</identifier>
+                <title>Publications</title>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+
+    <registryObject group="Australian Institute of Health and Welfare">
+        <key>refreshaihw.gov.au/f8182791-f59c-4222-b0a3-274b93146bd2</key>
+        <originatingSource>http://aihw.gov.au/ANDS/AIWH_RIF-CS_extract.xml</originatingSource>
+        <collection type="collection" dateAccessioned="2012-05-22T10:12:40.1731699+10:00">
+            <identifier type="local">WEB.DATAHOUND.HOLDING.DHID=6520</identifier>
+            <name type="primary">
+                <namePart>NATIONAL DEATH INDEX</namePart>
+            </name>
+            <location>
+                <address>
+          <electronic type="url">
+            <value>http://www.aihw.gov.au/datacat/index.cfm/action/showall/id/6520</value>
+          </electronic>
+        </address>
+            </location>
+            <coverage>
+                <spatial type="text">National</spatial>
+                <spatial type="kmlPolyCoords">159.105459,-9.221084 112.921454,-9.221084 112.921454,-54.777218 159.105459,-54.777218 159.105459,-9.221084</spatial>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">1980-01-01</date>
+                </temporal>
+            </coverage>
+            <relatedObject>
+                <key>refreshaihw.gov.au/4bebcfff-7172-47b0-962a-45077052ee5b</key>
+                <relation type="isOwnedBy"/>
+            </relatedObject>
+            <relatedObject>
+                <key>refreshaihw.gov.au/4232a7a2-f2ed-4227-975a-9b4b8ccdd5c7</key>
+                <relation type="isDescribedBy"/>
+            </relatedObject>
+            <subject type="local">FOD</subject>
+            <subject type="local">INDEX</subject>
+            <subject type="local">NATIONAL</subject>
+            <subject type="local">NDI</subject>
+            <description type="rights">Unit records may not be available and there may be restrictions or limitations governing the availability or use of other data in this holding. For more information about availability please call the phone number below</description>
+            <description type="brief">The National Death Index (NDI) is a data base developed and maintained by the Australian Institute of Health and Welfare, in Canberra. The data base is a listing of all deaths that have occurred in Australia since 1980. It is an invaluable tool for epidemiologists and clinicians in following up research cohorts using record linkage.</description>
+            <description type="full">Linkages of research data files with the NDI are usually done using the following data items: first name, second name, surname, sex, date of birth. Last contact date, if available in the research file, is used to assist in resolving uncertain cases, as may be additional information such as country of birth and state and SLA of usual residence.</description>
+            <description type="accessRights">All proposals for linkage with the NDI must be approved by the AIHW Ethics Committee.</description>
+            <description type="note">Collection Methodology: Official Data</description>
+        </collection>
+    </registryObject>
+    
+    <registryObject group="University of New South Wales">
+    <key>refreshhdl:1959.4/004_2079</key>
+    <originatingSource type="">http://www.preru.unsw.edu.au/preruweb.nsf/page/ANZNN</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="given">Elizabeth</namePart>
+        <namePart type="family">Sullivan</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="email">
+            <value>e.sullivan@unsw.edu.au</value>
+          </electronic>
+          <electronic type="url">
+            <value>http://www.npsu.unsw.edu.au/data-collection/australian-new-zealand-neonatal-network-anznn</value>
+          </electronic>
+        </address>
+      </location>
+    </party>
+  </registryObject>
+
+
+<registryObject group="University of New South Wales">
+    <key>refreshhdl:1959.4/004_2004</key>
+    <originatingSource>http://www.preru.unsw.edu.au/preruweb.nsf/page/ANZNN</originatingSource>
+    <collection type="collection">
+      <identifier type="local">004:2004</identifier>
+      <identifier type="handle">http://hdl.handle.net/1959.4/004_2004</identifier>
+      <name type="primary">
+        <namePart>Australian and New Zealand Neonatal Network Data 2008-2009</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.npsu.unsw.edu.au/data-collection/australian-new-zealand-neonatal-network-anznn</value>
+          </electronic>
+        </address>
+        <address>
+          <physical type="streetAddress">
+            <addressPart type="text">ANZNN, Perinatal &amp;amp; Reproductive Epidemiology Research Unit (PRERU)
+School of Women's &amp;amp; Children's Health, Faculty of Medicine
+University of New South Wales</addressPart>
+          </physical>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="text">All level III neonatal intensive care units in Australia and New Zealand and eight level II units in Australia and all level II units in New Zealand</spatial>
+      </coverage>
+      <coverage>
+        <temporal>
+          <date dateFormat="W3C" type="dateFrom">2008-1-1</date>
+          <date dateFormat="W3C" type="dateTo">2009-12-31</date>
+        </temporal>
+      </coverage>
+      <relatedObject>
+        <key>refreshhdl:1959.4/004_285</key>
+        <relation type="hasAssociationWith">
+          <description>Contact organisation</description>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>refreshhdl:1959.4/004_287</key>
+        <relation type="isOutputOf"/>
+      </relatedObject>
+      <subject type="anzsrc-for">111499</subject>
+      <subject type="anzsrc-for">111003</subject>
+      <subject type="anzsrc-for">111706</subject>
+      <subject type="local">Neonatology</subject>
+      <subject type="local">Newborn infants</subject>
+      <subject type="local">Neonatal intensive care</subject>
+      <subject type="local">High-risk babies</subject>
+      <subject type="local">Morbidity</subject>
+      <subject type="local">Mortality</subject>
+      <subject type="local">Birth</subject>
+      <subject type="local">Statistics</subject>
+      <subject type="local">Australia</subject>
+      <subject type="local">New Zealand</subject>
+      <subject type="local">Australian and New Zealand Neonatal Network</subject>
+      <description type="full">The data has been collected by the Australian and New Zealand Neonatal Network (ANZNN) to improve the care of high-risk newborn infants and their families in Australian and New Zealand through collaborative audit and research. This is the fourteenth year that the ANZNN has collected data, allowing comparative reporting over time.
+Registration criteria - babies who meet one or more of the following criteria are eligible for registration with the ANZNN:
+* born at less than 32 completed weeks gestation, or
+* weighed less than 1,500 grams at birth, or
+* received assisted ventilation (mechanical ventilation) including intermittent positive pressure ventilation (IPPV) or continuous positive pressure (CPAP) for four or more consecutive hours, or died while receiving mechanical ventilation prior to four hours of age, or
+* received major surgery (surgery that involved opening a body cavity), or
+* received therapeutic hypothermia.
+Babies who were discharged home and readmitted to neonatal intensive care unit (NICU) during their neonatal period were not eligible for registration in the ANZNN. The hospital of registration was the first level III NICU in which the baby, aged less than 28 days, stayed for four or more hours. Babies who received their entire care in a level II hospital or who were not transferred to a level III NICU during the first 28 days were registered to the first level II centre that they remained in for four or more hours.
+In 2008, there were 6,787 babies from 22 level III NICUs in Australia and 1,841 babies from six level III NICUs in New Zealand registered to ANZNN. In 2008, 704 babies fulfilled the ANZNN criteria for registration to 22 level II units in Australia and New Zealand.
+In 2009, there were 7,230 babies registered to ANZNN from 22 level III NICUs in Australia and 1,756 babies from six level III NICUs in New Zealand. In 2009, 658 babies fulfilled the ANZNN criteria to 22 level II units in Australia and New Zealand.
+Data in this collection include:
+maternal characteristics (maternal age, previous antenatal history, assisted conception, presenting antenatal problem, antenatal corticosteroid use, multiple births, method of birth, place of birth, transport after birth to a level III NICU and breastfeeding at discharge) and 
+baby's characteristics (baby gender, resuscitation in delivery suite, apgar score at birth, admission temperature, indication for respiratory support, exogenous surfactant, type of assisted ventilation, ventilation in babies born at less than 32 weeks gestation, ventilation in babies born at 32 to 36 weeks gestation, ventilation in babies born at term, supplemental oxygen therapy, chronic lung disease, pulmonary air leak, neonatal sepsis, retinopathy of prematurity, intraventricular haemorrhage, late cerebral ultrasound, necrotising enterocolitis, congenital anomalies, transfer from level III NICUs to other units, length of stay until discharge home and survival of the ANZNN registrants).</description>
+      <rights>
+        <rightsStatement>Access on request</rightsStatement>
+        <accessRights>All members of the ANZNN and PRERU may apply to the ANZNN Advisory Committee to use the dataset for further analysis and research. Separate ethical approval is required for each approved project and a confidentiality agreement must be signed by the person requesting the data prior to release the data.</accessRights>
+      </rights>
+      <relatedInfo type="publication">
+        <identifier type="uri">http://handle.unsw.edu.au/1959.4/51814</identifier>
+      </relatedInfo>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="University of New South Wales">
+    <key>refreshhdl:1959.4/004_2080</key>
+    <originatingSource type="">http://www.preru.unsw.edu.au/preruweb.nsf/page/ANZNN</originatingSource>
+    <collection type="collection">
+      <name type="primary">
+        <namePart>Australian and New Zealand Neonatal Network Data 2010</namePart>
+      </name>
+      <description type="full">&amp;lt;p&amp;gt;Data have been collected by the Australian and New Zealand Neonatal Network (ANZNN) to improve the care of high-risk newborn infants and their families in Australian and New Zealand through collaborative audit and research. This is the sixteenth year that the ANZNN has collected data, allowing comparative reporting over time. Registration criteria - babies who meet one or more of the following criteria are eligible for registration with the ANZNN: * born at less than 32 weeks gestation, or * weighed less than 1,500 grams at birth, or * received assisted ventilation (mechanical ventilation) including intermittent positive pressure ventilation (IPPV) or continuous positive pressure (CPAP) or high flow for four or more consecutive hours, or died while receiving mechanical ventilation prior to four hours of age, or * received major surgery (surgery that involved opening a body cavity), or * received therapeutic hypothermia. Babies who were discharged home and readmitted to neonatal intensive care unit (NICU) during their neonatal period were not eligible for registration in the ANZNN. The hospital of registration was the first level III NICU in which the baby, aged less than 28 days, stayed for four or more hours. Babies who received their entire care in a level II hospital or who were not transferred to a level III NICU during the first 28 days were registered to the first level II centre that they remained in for four or more hours. In 2010, there were 6,350 babies from 21 level III NICUs in Australia and 1,886 babies from six level III NICUs in New Zealand registered to ANZNN. In 2010, 778 babies fulfilled the ANZNN criteria for registration to 20 level II units in Australia and New Zealand. Data in this collection include: maternal characteristics (maternal age, previous antenatal history, assisted conception, presenting antenatal problem, antenatal corticosteroid use, multiple births, method of birth, place of birth, transport after birth to a level III NICU and breastfeeding at discharge) and baby's characteristics (baby gender, resuscitation in delivery suite, apgar score at birth, admission temperature, indication for respiratory support, exogenous surfactant, type of assisted ventilation, ventilation in babies born at less than 32 weeks gestation, ventilation in babies born at 32 to 36 weeks gestation, ventilation in babies born at term, supplemental oxygen therapy, chronic lung disease, pulmonary air leak, neonatal sepsis, retinopathy of prematurity, intraventricular haemorrhage, late cerebral ultrasound, necrotising enterocolitis, congenital anomalies, transfer from level III NICUs to other units, length of stay until discharge home and survival of the ANZNN registrants).&amp;lt;/p&amp;gt;</description>
+      <rights>
+        <rightsStatement rightsUri="">Access on request</rightsStatement>
+        <accessRights type="" rightsUri="">All members of the ANZNN and PRERU may apply to the ANZNN Advisory Committee to use the dataset for further analysis and research. Separate ethical approval is required for each approved project and a confidentiality agreement must be signed by the person requesting the data prior to release the data.</accessRights>
+      </rights>
+      <identifier type="local">004:2080</identifier>
+      <identifier type="handle">http://hdl.handle.net/1959.4/004_2080</identifier>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.npsu.unsw.edu.au/data-collection/australian-new-zealand-neonatal-network-anznn</value>
+          </electronic>
+          <physical type="streetAddress">
+            <addressPart type="text">ANZNN, Perinatal &amp;amp; Reproductive Epidemiology Research Unit (PRERU)School of Women's &amp;amp; Children's Health, Faculty of MedicineUniversity of New South Wales</addressPart>
+          </physical>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="text">All level III neonatal intensive care units in Australia and New Zealand and nine level II units in Australia and all level II units in New Zealand</spatial>
+      </coverage>
+      <coverage>
+        <temporal>
+          <date type="dateFrom" dateFormat="W3C">2010-1-1</date>
+          <date type="dateTo" dateFormat="W3C">2010-12-31</date>
+        </temporal>
+      </coverage>
+      <relatedObject>
+        <key>refreshhdl:1959.4/004_2079</key>
+        <relation type="isManagedBy">
+          <description>ata custodian</description>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>refreshhdl:1959.4/004_285</key>
+        <relation type="hasAssociationWith">
+          <description>Contact organisation</description>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>refreshhdl:1959.4/004_287</key>
+        <relation type="isOutputOf"/>
+      </relatedObject>
+      <subject type="anzsrc-for">111499</subject>
+      <subject type="anzsrc-for">111003</subject>
+      <subject type="anzsrc-for">111706</subject>
+      <subject type="local">Neonatology</subject>
+      <subject type="local">Newborn infants</subject>
+      <subject type="local">Neonatal intensive care</subject>
+      <subject type="local">High-risk babies</subject>
+      <subject type="local">Morbidity</subject>
+      <subject type="local">Mortality</subject>
+      <subject type="local">Birth</subject>
+      <subject type="local">Statistics</subject>
+      <subject type="local">Australia</subject>
+      <subject type="local">New Zealand</subject>
+      <subject type="local">Australian and New Zealand Neonatal Network</subject>
+      <relatedInfo type="publication">
+        <identifier type="uri">http://handle.unsw.edu.au/1959.4/52349</identifier>
+      </relatedInfo>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="University of New South Wales">
+    <key>refreshhdl:1959.4/004_2082</key>
+    <originatingSource type="">http://www.preru.unsw.edu.au/preruweb.nsf/page/ANZNN</originatingSource>
+    <collection type="collection">
+      <name type="primary">
+        <namePart>Australian and New Zealand Neonatal Network Data 2005</namePart>
+      </name>
+      <description type="full">&amp;lt;p&amp;gt;The data has been collected by the Australian and New Zealand neonatal Network (ANZNN) to improve the care of high-risk newborn infants and their families in Australia and New Zealand through collaborative audit and research. The data were collected from all level III neonatal intensive care units in both Australia and New Zealand, all level II special care units in New Zealand and the special care unit in Tasmania. The data include information on all babies born at less than 32 weeks gestation or with a birthweight of less than 1500 grams and babies who received assisted ventilation or major surgery. In 2005, There were 6,044 babies registered to ANZNN from 22 NICUs in Australia and 1,585 babies registered at all level III NICUs in New Zealand. In level II nurseries, 411 babies fulfilled the ANZNN criteria and registered with ANZNN. Data in this collection include: maternal characteristics (maternal age, gestational age, presenting antenatal problem, antenatal corticosteroid use, method of delivery, place of birth, transfer after birth to a level III NICU, and plurality of birth ); and baby's characteristics (admission temperature, apgar score at birth, exogenous surfactant, respiratory assistance, type of assisted ventilation, chronic lung disease, air leak, retinopathy of prematurity, cerebral ultrasound and necrotising enterocolitis, neonatal surgery, neonatal infection, congenital anoamlies, breast feeding at discharge, transfer from level IIl NICUs to other nurseries and length of stay until discharge home, discharge status).&amp;lt;/p&amp;gt;</description>
+      <rights>
+        <rightsStatement rightsUri="">Access on request</rightsStatement>
+        <accessRights type="" rightsUri="">All members of the ANZNN and PRERU may apply to the ANZNN Advisory Committee to use the dataset for further analysis and research. Separate ethical approval is required for each approved project and a confidentiality agreement must be signed by the person requesting the data prior to release the data.</accessRights>
+      </rights>
+      <identifier type="local">004:2082</identifier>
+      <identifier type="handle">http://hdl.handle.net/1959.4/004_2082</identifier>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.npsu.unsw.edu.au/data-collection/australian-new-zealand-neonatal-network-anznn</value>
+          </electronic>
+          <physical type="streetAddress">
+            <addressPart type="text">ANZNN, Perinatal &amp;amp; Reproductive Epidemiology Research Unit (PRERU)School of Women's &amp;amp; Children's Health, UNSW Medicine</addressPart>
+          </physical>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="text">All 28 levle II NICUs in Australia and New Zealand and 15 level II nurseries in 2005</spatial>
+      </coverage>
+      <coverage>
+        <temporal>
+          <date type="dateFrom" dateFormat="W3C">2005-1-1</date>
+          <date type="dateTo" dateFormat="W3C">2005-12-31</date>
+        </temporal>
+      </coverage>
+      <relatedObject>
+        <key>refreshhdl:1959.4/004_285</key>
+        <relation type="hasAssociationWith">
+          <description>Contact organisation</description>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>refreshhdl:1959.4/004_287</key>
+        <relation type="isOutputOf"/>
+      </relatedObject>
+      <subject type="anzsrc-for">111706</subject>
+      <subject type="anzsrc-for">111003</subject>
+      <subject type="anzsrc-for">111499</subject>
+      <subject type="local">Australian and New Zealand Neonatal Network</subject>
+      <subject type="local">Australia</subject>
+      <subject type="local">New Zealand</subject>
+      <subject type="local">Statistics</subject>
+      <subject type="local">Birth</subject>
+      <subject type="local">Mortality</subject>
+      <subject type="local">Morbidity</subject>
+      <subject type="local">High-risk babies</subject>
+      <subject type="local">Neonatal intensive care</subject>
+      <subject type="local">Newborn infants</subject>
+      <subject type="local">Neonatology</subject>
+      <relatedInfo type="publication">
+        <identifier type="uri">http://handle.unsw.edu.au/1959.4/51755</identifier>
+      </relatedInfo>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="University of New South Wales">
+    <key>refreshhdl:1959.4/004_2084</key>
+    <originatingSource>http://www.preru.unsw.edu.au/preruweb.nsf/page/ANZNN</originatingSource>
+    <collection type="collection">
+      <identifier type="local">004:2084</identifier>
+      <identifier type="handle">http://hdl.handle.net/1959.4/004_2084</identifier>
+      <identifier type="local">http://handle.unsw.edu.au/1959.4/51754</identifier>
+      <name type="primary">
+        <namePart>Australian and New Zealand Neonatal Network Data 2004</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.npsu.unsw.edu.au/data-collection/australian-new-zealand-neonatal-network-anznn</value>
+          </electronic>
+        </address>
+        <address>
+          <physical type="streetAddress">
+            <addressPart type="text">ANZNN, Perinatal &amp;amp; Reproductive Epidemiology Research Unit (PRERU)
+School of Women's and Children's Health, Faculty of Medicine, the University of New South Wales</addressPart>
+          </physical>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="text">All level II neonatal intesive care units (NICUs) in Australia and New Zealand and 15 level II nurseries</spatial>
+      </coverage>
+      <coverage>
+        <temporal>
+          <date dateFormat="W3C" type="dateFrom">2004-1-1</date>
+          <date dateFormat="W3C" type="dateTo">2004-12-31</date>
+        </temporal>
+      </coverage>
+      <relatedObject>
+        <key>refreshhdl:1959.4/004_285</key>
+        <relation type="hasAssociationWith">
+          <description>Contact organisation</description>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>refreshhdl:1959.4/004_287</key>
+        <relation type="isOutputOf"/>
+      </relatedObject>
+      <subject type="anzsrc-for">111499</subject>
+      <subject type="anzsrc-for">111003</subject>
+      <subject type="anzsrc-for">111706</subject>
+      <subject type="local">neonatology</subject>
+      <subject type="local">newborn infants</subject>
+      <subject type="local">neonatal intensive care</subject>
+      <subject type="local">high-risk babies</subject>
+      <subject type="local">morbidity</subject>
+      <subject type="local">mortality</subject>
+      <subject type="local">birth</subject>
+      <subject type="local">statistics</subject>
+      <subject type="local">Australia</subject>
+      <subject type="local">New Zealand</subject>
+      <subject type="local">Australian and New Zealand Neonatal Network</subject>
+      <description type="full">The data has been collected by the Australian and New Zealand Neonatal Network (ANZNN) to improve the care of high-risk newborn infants and their families in Australian and New Zealand through collaborative audit and research. This is the fourteenth year that the ANZNN has collected data, allowing comparative reporting over time. Registration criteria - babies who meet one or more of the following criteria are eligible for registration with the ANZNN: * born at less than 32 completed weeks gestation, or * weighed less than 1,500 grams at birth, or * received assisted ventilation (mechanical ventilation) including intermittent positive pressure ventilation (IPPV) or continuous positive pressure (CPAP) for four or more consecutive hours, or died while receiving mechanical ventilation prior to four hours of age, or * received major surgery (surgery that involved opening a body cavity), or * received therapeutic hypothermia. Babies who were discharged home and readmitted to neonatal intensive care unit (NICU) during their neonatal period were not eligible for registration in the ANZNN. 
+Babies who were discharged home and readmitted to a NICUS during their neonatal period are not registered to ANZNN. The hospital of registration for a baby is the first level III NICU that the baby remained in for four or more hours during the first 28 days of life. Babies who received their entire care in a level II hospital or who were not transferred to a level III NICU during the first 28 days were registered to the first level II centre that they remained in for four or more hours.
+In 2004, 7,399 babies registered to ANZNN in all NICUs in Australia and New Zealand and 361 babies registered to ANZNN in 15 level II nurseries.
+Data in this collection include: maternal characteristics (maternal age, presenting antenatal problem, antenatal corticosteroid use, method of birth and place of birth) and baby's characteristics (baby gender, transfer after birth, multiple births, congenital abnormalities, apgar score at birth, exogenous surfactant, respiratory assistance, type of assisted ventilation, ventilation in babies born at less than 32 weeks gestation, ventilation in babies born at 32 to 36 weeks gestation, ventilation in babies born at term, chronic lung disease, pulmonary air leak, cerebral ultrasound, neonatal surgery, necrotising enterocolitis, neonatal infection,, transfer from level III NICUs to other units, length of stay until discharge home and survival of the ANZNN registrants).</description>
+      <rights>
+        <rightsStatement>Access on request</rightsStatement>
+        <accessRights>All members of the ANZNN and PRERU may apply to the ANZNN Advisory Committee to use the dataset for further analysis and research. Separate ethical approval is required for each approved project and a confidentiality agreement must be signed by the person requesting the data prior to release the data.</accessRights>
+      </rights>
+      <relatedInfo type="publication">
+        <identifier type="uri">http://handle.unsw.edu.au/1959.4/51754</identifier>
+      </relatedInfo>
+    </collection>
+  </registryObject>
+</registryObjects>

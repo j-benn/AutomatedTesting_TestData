@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xmlns:extRif="http://ands.org.au/standards/rif-cs/extendedRegistryObjects" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+    <registryObject group="AUTestingRecords">
+        <key>PROV VPRS 4512AUT69</key>
+        <originatingSource>http://www.prov.vic.gov.au</originatingSource>
+        <collection type="collection" dateModified="2017-07-31 23:34:27">
+            <identifier type="local">VPRS 4512AUT69</identifier>
+            <dates type="dc.created">
+                <date type="dateFrom" dateFormat="W3CDTF">1891</date>
+                <date type="dateTo" dateFormat="W3CDTF">1950</date>
+            </dates>
+            <name type="primary">
+                <namePart>(AUTestingRecords) ORCID Export Test Collection 1 - Abattoirs Committee Minute Books</namePart>
+            </name>
+            <location>
+                <address>
+              <electronic type="url">
+                <value>http://www.access.prov.vic.gov.au/public/component/daPublicBaseContainer?component=daViewSeries&amp;breadcrumbPath=Home/Access%20the%20Collection/Browse%20The%20Collection/Series%20Details&amp;entityId=4512</value>
+              </electronic>
+              <physical>
+                <addressPart type="text">&lt;p&gt;&lt;a title=&quot;Public Record Office Victoria&quot; href=&quot;http://prov.vic.gov.au&quot; target=&quot;_blank&quot;&gt;Victorian Archives Centre&lt;/a&gt;&lt;br /&gt;99 Shiel St  North Melbourne VIC 3051, Australia&lt;br /&gt;Ph: +61 3 9348 5600&lt;/p&gt;</addressPart>
+              </physical>
+            </address>
+            </location>
+            <relatedObject>
+                <key>PROV VA 871</key>
+                <relation type="hasCreator">
+                    <description>1891 - 1915</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>PROV VA 3706AUTp2</key>
+                <relation type="isOwnedBy">
+                    <description>1994 - continuing</description>
+                </relation>
+            </relatedObject>
+            <subject type="anzsrc-for">2103</subject>
+            <description type="full">&lt;BR /&gt;&lt;BR /&gt;This series may contain the minutes of a single committee or a number of committees.&lt;BR /&gt;&lt;BR /&gt;The committee system is employed by most Victorian councils. A committee may be appointed by a council for any purpose which it is felt would be better regulated and managed by such committee. A committee may be either a standing committee or an occasional committee. Standing committees (in areas such as finance, public works, health, etc.) are appointed to oversee specific matters on an ongoing basis. Such committees submit reports to the council regularly and these are included in the Council Minutes. Occasional committees are appointed for shorter terms to manage such things as arrangements for ceremonial occasions. Membership of committees is made up of some or all of the councillors of the municipality.&lt;BR /&gt;&lt;BR /&gt;The Municipal Institutions Act 1863 (No.184) introduced provisions that required councils to appoint committees and specified that committee minutes should be kept and signed by the chairman at the following meeting. The Local Government Act 1874 (No.506) included the requirement that committees report to council. (No prohibition existed against councils operating with committees prior to these acts.) The Local Government Act 1903 (No.1893) removed the requirement that minutes be kept and added the requirement that committees reports to council be included in the council minutes. Subsequent legislation including the Local Government Act 1958 (No.6299) has continued these requirements.&lt;BR /&gt;&lt;BR /&gt;The minutes generally record the names of councillors who attended the meeting, details of agenda items and decisions made. Once the minutes have been confirmed as correct at the following committee meeting, they are signed or certified by the mayor or chairman of the meeting.&lt;BR /&gt;&lt;BR /&gt;&lt;BR /&gt;</description>
+            <description type="logo">&lt;p&gt;&lt;img src="http://metadata.prov.vic.gov.au/image/LOGO_BLACK.jpg" alt="logo" /&gt;&lt;/p&gt;</description>
+            <coverage>
+                <spatial type="kmlPolyCoords">141.000000,-34.000000 142.919336,-34.145604 144.582129,-35.659230 147.742627,-35.873175 150.024219,-37.529041 150.200000,-39.200000 141.000000,-39.200000 141.000000,-34.000000 141.000000,-34.000000</spatial>
+                <temporal>
+                    <text>Series date range : 1891 - 1950</text>
+                    <text>Series in custody date range : No Date - No Date</text>
+                    <text>Contents in custody date range : No Date - No Date</text>
+                </temporal>
+            </coverage>
+            <rights>
+                <rightsStatement rightsUri="http://prov.vic.gov.au/provguide-25">Records held by Public Record Office Victoria (PROV) are covered by copyright. For information on reusing material from the collection see PROVguide 25</rightsStatement>
+                <accessRights>Closed</accessRights>
+            </rights>
+            <citationInfo>
+                <fullCitation>PROV VPRS 4512 Abattoirs Committee Minute Books</fullCitation>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>PROV VA 3706AUTp2</key>
+        <originatingSource>http://www.prov.vic.gov.au</originatingSource>
+        <party type="group" dateModified="2017-07-31 23:34:27">
+            <identifier type="local">VA 3706AUTP2</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords) Monash (City 1994-ct)</namePart>
+            </name>
+            <location>
+                <address>
+          <electronic type="url">
+            <value>http://www.access.prov.vic.gov.au/public/component/daPublicBaseContainer?component=daViewAgency&amp;breadcrumbPath=Home/Access%20the%20Collection/Browse%20The%20Collection/Agency%20Details&amp;entityId=3706</value>
+          </electronic>
+        </address>
+            </location>
+            <description type="full">Local Government Reform 1993 - 1995&lt;BR /&gt;&lt;BR /&gt;This council was constituted in 1994 as part of a statewide program of local government reform enacted between 1993 and 1995.  The reform process reduced the number of councils from 210 to 78.  This council was appointed as a successor in law for the Cities of Oakleigh (VA 871) and Waverley (VA 2532).  Any rights, assets and liabilities of the abolished council/s have been assumed by the City of Monash as its/their successor in law.&lt;BR /&gt;&lt;BR /&gt;&lt;BR /&gt;&lt;BR /&gt;</description>
+            <coverage>
+                <spatial type="kmlPolyCoords">141.000000,-34.000000 142.919336,-34.145604 144.582129,-35.659230 147.742627,-35.873175 150.024219,-37.529041 150.200000,-39.200000 141.000000,-39.200000 141.000000,-34.000000 141.000000,-34.000000</spatial>
+            </coverage>
+            <existenceDates>
+                <startDate dateFormat="W3CDTF">1994</startDate>
+            </existenceDates>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.access.prov.vic.gov.au/public/component/daPublicBaseContainer?component=daViewAgency&amp;breadcrumbPath=Home/Access%20the%20Collection/Browse%20The%20Collection/Agency%20Details&amp;entityId=3706</identifier>
+            </relatedInfo>
+        </party>
+    </registryObject>
+	
+	<registryObject group="AUTestingRecords">
+    <key>www.qfab.org/collection-192AUTOrc2</key>
+    <originatingSource>http://services.ands.org.au/sandbox/orca/register_my_data</originatingSource>
+    <collection type="software" dateModified="2016-04-10T23:51:40Z">
+      <identifier type="uri">www.qfab.org/collection-192AUTOrc2</identifier>
+      <name type="primary">
+        <namePart>(AUTestingRecords) ORCID Export Test Collection 2 -Australian Nucleotide (DNA/RNA) and Protein sequences from Australian organisms in  the family Boryaceae ()</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://rda.ebi.edu.au/default.jsp?collectionId=192&view=preview</value>
+          </electronic>
+        </address>
+      </location>
+      <description type="note">The contents of this collection is dynamic and will change over time as more data is deposited into the European Nucleotide Archive (ENA) and Universal Protein Resource (UniProt).
+</description>
+      <description type="full">This data collection contains all currently published nucleotide (DNA/RNA) and protein sequences from Australian Boryaceae. Other information about this group: 
+The nucleotide (DNA/RNA) and protein sequences have been sourced through the European Nucleotide Archive (ENA) and Universal Protein Resource (UniProt), databases that contains comprehensive sets of nucleotide (DNA/RNA) and protein sequences from all organisms that have been published by the International Research Community.
+The identification of species in Boryaceae as Australian dwelling organisms has been achieved by accessing the Australian Plant Census (APC) or Australian Faunal Directory (AFD) through the Atlas of Living Australia.</description>
+      <description type="accessRights">This data is freely available to any individual for any purpose. For more information see http:www.ebi.ac.uk/Information/termsofuse.html</description>
+      <subject type="anzsrc-for">060407</subject>
+      <subject type="anzsrc-for">060102</subject>
+      <subject type="anzsrc-for">060411</subject>
+      <relatedObject>
+        <key>www.qfab.org/collection-814</key>
+        <relation type="isPartOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>www.qfab.org/party-1</key>
+        <relation type="hasCollector"/>
+      </relatedObject>
+      <relatedInfo>
+        <identifier type="uri">http://www.ebi.ac.uk/ena</identifier>
+        <title>ENA (European Nucleotide Archive)</title>
+      </relatedInfo>
+      <relatedInfo>
+        <identifier type="uri">http://www.uniprot.org</identifier>
+        <title>Uniprot (Universal Protein Resource)</title>
+      </relatedInfo>
+      <relatedInfo>
+        <identifier type="uri">http://www.ala.org.au</identifier>
+        <title>Atlas of Living Australia</title>
+      </relatedInfo>
+      <relatedInfo>
+        <identifier type="uri">http://www.ebi.ac.uk</identifier>
+        <title>EBI (European Bioinformatics Institute)</title>
+      </relatedInfo>
+    </collection>
+  </registryObject>
+  
+<registryObject group="AUTestingRecords">
+    <key>www.ballarat.edu.au/coll/2AUTOrc3</key>
+    <originatingSource type="">http://researchdata.ands.org.au/registry/orca/register_my_data</originatingSource>
+    <collection type="publication" dateModified="2015-05-19T02:38:53Z" dateAccessioned="2013-02-15T00:00:00Z">
+      <name type="alternative">
+        <namePart>(AUTestingRecords) ORCID Export Test Collection 3 - University of Ballarat Spatial landslide database</namePart>
+      </name>
+      <name type="primary">
+        <namePart>UB Spatial landslide database</namePart>
+      </name>
+      <description type="full">&lt;p&gt;The UB Spatial landslide database is part of an interoperable web-GIS maintained by the University of Ballarat.  It records data on the spatial distribution of landslide points, lines and polygons that have been mapped for landslide research projects undertaken by the University. The UB Spatial website was initially developed with funding support from the Corangamite Catchment Management Authority and contained four environmental datasets: groundwater bores, salinity, erosion and landslides, covering the Corangamite region.  Subsequent funding was received from the Australian Government National Disaster Mitigation Program sourced through the Colac Otway Shire to enhance the data.&lt;/p&gt;
+&lt;p&gt;The UB Spatial landslide database contains information on the spatial locations, landslide extents, landslide types, data sources, data capture methods and assessment date, landscape parameters and dates and styles of movements in south west Victoria. A.S. Miner Geotechnical (Geelong-based consulting geotechnical engineers) has significantly contributed to the data coverage.  The University of Wollongong and Mineral Resources Tasmania both contributed to the database schema. The UB spatial landslide database is updated as landslide research projects are completed.&lt;/p&gt;
+&lt;p&gt;Much of this work has been documented for the Corangamite Soil Health Strategy and background reports relating to the research can be accessed at the Corangamite Soil Health Strategy website.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</description>
+      <rights>
+        <rightsStatement>You are provided with access to this application only for your personal use and you may not without our written permission on-sell or rebadge information obtained from this web site, or in any way represent that the information is from any source other than the University of Ballarat Interoperable GIS.</rightsStatement>
+        <accessRights>Open access via website</accessRights>
+      </rights>
+      <identifier type="handle">10.1002.64364AUTOrc3</identifier>
+      <location dateFrom="2006-02-15T00:00:00Z">
+        <address>
+          <electronic type="url">
+            <value>http://maps.ubspatial.com.au/landslide_erosion_map3.php?show_terms=true</value>
+          </electronic>
+        </address>
+      </location>
+	  <dates type="dc.issued">
+                <date type="dateFrom" dateFormat="W3CDTF">2004-05-16</date>
+            </dates>
+      <coverage>
+        <temporal>
+          <date type="dateFrom" dateFormat="W3CDTF">2006-02-15T00:00:00Z</date>
+        </temporal>
+        <spatial type="kmlPolyCoords">143.482083,-38.138750</spatial>
+      </coverage>
+      <relatedObject>
+        <key>AUTParty6</key>
+        <relation type="’hasPrincipalInvestigator’"/>
+      </relatedObject>
+      <relatedObject>
+        <key>www.ballarat.edu.au/party/0000017769</key>
+        <relation type="hasAssociationWith"/>
+      </relatedObject>
+      <relatedObject>
+        <key>www.ballarat.edu.au/party/0000015158</key>
+        <relation type="hasAssociationWith">
+          <description>Principal Researcher</description>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>www.cecc.com</key>
+        <relation type="isManagedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>federation.edu.au/party/001</key>
+        <relation type="isOutputOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>www.ballarat.edu.au/serv/1</key>
+        <relation type="makesAvailable"/>
+      </relatedObject>
+      <subject type="local">Geohazards</subject>
+      <subject type="local">Rock falls</subject>
+      <subject type="local">Landslides</subject>
+      <subject type="local">Corangamite</subject>
+      <subject type="anzsrc-for">0403</subject>
+      <relatedInfo>
+        <title>CCMA Landslide and Erosion Database</title>
+        <identifier type="uri">http://www.ccma.vic.gov.au/soilhealth/documents/background_reports/Landslide and Erosion Report Final.pdf</identifier>
+      </relatedInfo>
+      <relatedInfo type="website">
+        <title>Corangamite Soil Health Strategy and Background reports</title>
+        <identifier type="uri">http://www.ccma.vic.gov.au/soilhealth/reports.htm</identifier>
+      </relatedInfo>
+    </collection>
+  </registryObject>
+  
+  <registryObject group="AUTestingRecords">
+    <key>www.ballarat.edu.au/coll/2AUTOrc4</key>
+    <originatingSource type="">http://researchdata.ands.org.au/registry/orca/register_my_data</originatingSource>
+    <collection type="publication" dateModified="2015-05-19T02:38:53Z" dateAccessioned="2013-02-15T00:00:00Z">
+      <name type="alternative">
+        <namePart>(AUTestingRecords) ORCID Export Test Collection 4 - University of Ballarat Spatial landslide database</namePart>
+      </name>
+      <name type="primary">
+        <namePart>UB Spatial landslide database</namePart>
+      </name>
+      <description type="full">&lt;p&gt;The UB Spatial landslide database is part of an interoperable web-GIS maintained by the University of Ballarat.  It records data on the spatial distribution of landslide points, lines and polygons that have been mapped for landslide research projects undertaken by the University. The UB Spatial website was initially developed with funding support from the Corangamite Catchment Management Authority and contained four environmental datasets: groundwater bores, salinity, erosion and landslides, covering the Corangamite region.  Subsequent funding was received from the Australian Government National Disaster Mitigation Program sourced through the Colac Otway Shire to enhance the data.&lt;/p&gt;
+&lt;p&gt;The UB Spatial landslide database contains information on the spatial locations, landslide extents, landslide types, data sources, data capture methods and assessment date, landscape parameters and dates and styles of movements in south west Victoria. A.S. Miner Geotechnical (Geelong-based consulting geotechnical engineers) has significantly contributed to the data coverage.  The University of Wollongong and Mineral Resources Tasmania both contributed to the database schema. The UB spatial landslide database is updated as landslide research projects are completed.&lt;/p&gt;
+&lt;p&gt;Much of this work has been documented for the Corangamite Soil Health Strategy and background reports relating to the research can be accessed at the Corangamite Soil Health Strategy website.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</description>
+      <rights>
+        <rightsStatement>You are provided with access to this application only for your personal use and you may not without our written permission on-sell or rebadge information obtained from this web site, or in any way represent that the information is from any source other than the University of Ballarat Interoperable GIS.</rightsStatement>
+        <accessRights>Open access via website</accessRights>
+      </rights>
+      <identifier type="handle">10.1002.64364AUTOrc4</identifier>
+      <location dateFrom="2006-02-15T00:00:00Z">
+        <address>
+          <electronic type="url">
+            <value>http://maps.ubspatial.com.au/landslide_erosion_map3.php?show_terms=true</value>
+          </electronic>
+        </address>
+      </location>
+	  <dates type="dc.issued">
+                <date type="dateFrom" dateFormat="W3CDTF">2004-05-16</date>
+            </dates>
+      <coverage>
+        <temporal>
+          <date type="dateFrom" dateFormat="W3CDTF">2006-02-15T00:00:00Z</date>
+        </temporal>
+        <spatial type="kmlPolyCoords">143.482083,-38.138750</spatial>
+      </coverage>
+      <relatedObject>
+        <key>AUTParty6</key>
+        <relation type="hasCollector"/>
+      </relatedObject>
+      <relatedObject>
+        <key>www.ballarat.edu.au/party/0000017769</key>
+        <relation type="hasAssociationWith"/>
+      </relatedObject>
+      <relatedObject>
+        <key>www.ballarat.edu.au/party/0000015158</key>
+        <relation type="hasAssociationWith">
+          <description>Principal Researcher</description>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>www.cecc.com</key>
+        <relation type="isManagedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>federation.edu.au/party/001</key>
+        <relation type="isOutputOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>www.ballarat.edu.au/serv/1</key>
+        <relation type="makesAvailable"/>
+      </relatedObject>
+      <subject type="local">Geohazards</subject>
+      <subject type="local">Rock falls</subject>
+      <subject type="local">Landslides</subject>
+      <subject type="local">Corangamite</subject>
+      <subject type="anzsrc-for">0403</subject>
+      <relatedInfo>
+        <title>CCMA Landslide and Erosion Database</title>
+        <identifier type="uri">http://www.ccma.vic.gov.au/soilhealth/documents/background_reports/Landslide and Erosion Report Final.pdf</identifier>
+      </relatedInfo>
+      <relatedInfo type="website">
+        <title>Corangamite Soil Health Strategy and Background reports</title>
+        <identifier type="uri">http://www.ccma.vic.gov.au/soilhealth/reports.htm</identifier>
+      </relatedInfo>
+    </collection>
+  </registryObject>
+  
+  <registryObject group="AUTestingRecords">
+    <key>a05f7892-78b8-7506-e044-00144fdd4fa6AUTOrc5</key>
+    <originatingSource>http://www.ga.gov.au</originatingSource>
+    <collection type="repository" dateAccessioned="2015-09-25">
+      <identifier type="global">a05f7892-78b8-7506-e044-00144fdd4fa6AUTOrc5</identifier>
+      <identifier type="uri">http://www.ga.gov.au/metadata-gateway/metadata/record/13101/AUTOrc5</identifier>
+      <name type="primary">
+        <namePart>(AUTestingRecords) ORCID Export Test Collection 5 - Upper mantle structure from the trans-Australia seismic survey (TASS) and other seismic refraction data</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url" target="landingPage">
+            <value>http://www.ga.gov.au/metadata-gateway/metadata/record/13101/</value>
+          </electronic>
+        </address>
+      </location>
+      <relatedObject>
+        <key>http://www.ga.gov.au/Finlayson,D.M.</key>
+        <relation type="author"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://www.ga.gov.au/Cull,J.P.</key>
+        <relation type="author"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://www.ga.gov.au/Drummond,B.J.</key>
+        <relation type="author"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://www.ga.gov.au/GeoscienceAustralia</key>
+        <relation type="pointOfContact"/>
+        <relation type="distributor"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://www.ga.gov.au/BureauofMineralResources,GeologyandGeophysics</key>
+        <relation type="publisher"/>
+      </relatedObject>
+      <relatedObject>
+        <key>http://www.ga.gov.au/CommonwealthofAustralia(GeoscienceAustralia)</key>
+        <relation type="owner"/>
+        <relation type="custodian"/>
+      </relatedObject>
+      <subject type="local">geoscientificInformation</subject>
+      <subject type="local">GA Publication</subject>
+      <subject type="local">Record</subject>
+      <subject type="local">seismics</subject>
+      <subject type="local">Earth Sciences</subject>
+      <subject type="anzsrc-for">04</subject>
+      <description type="brief">Legacy product - no abstract available</description>
+      <relatedInfo type="website">
+        <identifier type="uri">https://d28rz98at9flks.cloudfront.net/13101</identifier>
+        <relation type="hasAssociationWith">
+          <description>Access via service</description>
+          <url>https://d28rz98at9flks.cloudfront.net/13101/Rec1974_061.pdf</url>
+        </relation>
+        <title>Record (pdf)</title>
+      </relatedInfo>
+      <rights>
+        <rightsStatement>© Commonwealth of Australia (Geoscience Australia) 1974</rightsStatement>
+      </rights>
+      <rights>
+        <licence rightsUri="http://creativecommons.org/licenses/by/4.0" type="CC-BY">Creative Commons Attribution 4.0 International Licence</licence>
+      </rights>
+      <citationInfo>
+        <citationMetadata>
+          <identifier type="uri">http://www.ga.gov.au/metadata-gateway/metadata/record/13101/AUTOrc5</identifier>
+          <title>Upper mantle structure from the trans-Australia seismic survey (TASS) and other seismic refraction data</title>
+          <date type="publicationDate">1974</date>
+          <contributor seq="1">
+            <namePart>Finlayson, D.M.</namePart>
+          </contributor>
+          <contributor seq="3">
+            <namePart>Cull, J.P.</namePart>
+          </contributor>
+          <contributor seq="2">
+            <namePart>Drummond, B.J.</namePart>
+          </contributor>
+          <publisher>Bureau of Mineral Resources, Geology and Geophysics</publisher>
+          <placePublished>Canberra</placePublished>
+        </citationMetadata>
+      </citationInfo>
+    </collection>
+  </registryObject>
+  
+     <registryObject group="AUTestingRecords">
+        <key>AUTParty6</key>
+        <originatingSource>http://103.6.252.71/registry//orca/register_my_data</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart>Related Party 6</namePart>
+            </name>
+            <identifier type="orcid">orcid.AUTParty6</identifier>
+        </party>
+    </registryObject>
+	
+	<registryObject group="AUTestingRecords">
+        <key>AUTPartyOrc1</key>
+        <originatingSource>http://103.6.252.71/registry//orca/register_my_data</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart>(AUTestingRecords) Party to related to ORCID Work Author</namePart>
+            </name>
+		<relatedObject>
+        <key>www.ballarat.edu.au/coll/2AUTOrc3</key>
+        <relation type="author"/>
+      </relatedObject>
+	        <relatedInfo type="collection">
+        <title>(AUTestingRecords) ORCID Export Test Collection 4</title>
+        <identifier type="handle">10.1002.64364AUTOrc4</identifier>
+		<relation type="isOwnerOf"/>
+      </relatedInfo>
+        </party>
+    </registryObject>
+</registryObjects>

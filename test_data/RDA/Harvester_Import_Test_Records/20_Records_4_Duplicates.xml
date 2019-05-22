@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xmlns:extRif="http://ands.org.au/standards/rif-cs/extendedRegistryObjects" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+
+
+    <registryObject group="Australian Catholic University">
+    <key>nonDuplicateacu.edu.au/collection/199</key>
+    <originatingSource type="">https://researchdata.ands.org.au/registry//orca/register_my_data</originatingSource>
+    <collection type="collection">
+      <name type="primary">
+        <namePart>Attitude of Chinese workers– (skilled and unskilled) – to labour standards </namePart>
+      </name>
+      <description type="full">&amp;lt;p&amp;gt;Primary socio-economic data. Collected in 2011 (unskilled workers) and late 2012 (skilled workers). The survey questions  were about occupation, training,  job security and  attitudes to labour standards.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;There were 40-50 responses. The factories were located at Hangzhau and Jinhua in Zhejiang province, which is about two hours’ from Shanghai. The data is in paper form. The questions were asked in Mandarin and the answers translated into English by the researcher.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;The data was collected as part of an Australian Catholic University Faculty of Business mini-grant received in 2011 to research a project called Trade and the Distributional Politics of International Labour Standards.&amp;lt;/p&amp;gt;</description>
+      <rights>
+        <licence type="Unknown/Other" rightsUri=""/>
+        <accessRights type="" rightsUri="">Mediated access by contacting Dr Papadimos</accessRights>
+      </rights>
+      <identifier type="local">ARK COLLECTION 199</identifier>
+      <dates type="dc.created">
+        <date type="dateFrom" dateFormat="W3CDTF">2011</date>
+        <date type="dateTo" dateFormat="W3CDTF">2012</date>
+      </dates>
+      <coverage>
+        <temporal>
+          <date type="dateFrom" dateFormat="W3CDTF">2011</date>
+          <date type="dateTo" dateFormat="W3CDTF">2012</date>
+        </temporal>
+        <spatial type="kmlPolyCoords">122.955665,31.178782 118.028279,31.178782 118.028279,27.046680 122.955665,27.046680 122.955665,31.178782</spatial>
+      </coverage>
+      <relatedObject>
+        <key>nonDuplicateacu.edu.au/party/198</key>
+        <relation type="hasCollector">
+          <description>acu.edu.au/party/198</description>
+        </relation>
+      </relatedObject>
+      <subject type="anzsrc-for">14</subject>
+      <subject type="anzsrc-for">150308</subject>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="Australian Catholic University">
+    <key>nonDuplicateacu.edu.au/party/201</key>
+    <originatingSource type="">https://researchdata.ands.org.au/registry//orca/register_my_data</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="title">Dr</namePart>
+        <namePart type="given">Anne</namePart>
+        <namePart type="family">Scott</namePart>
+      </name>
+      <description type="full">&amp;lt;p&amp;gt;&amp;lt;img style="float: right;" src="http://apps.acu.edu.au/staffdirectory/imgs/staff_35c1923dc4d640e0ce39620fc970d079.JPG" alt="" width="200" /&amp;gt;Dr Anne Scott is a senior lecturer at Australian Catholic University. She was a primary school teacher for fourteen years and held various curriculum leadership roles. Currently, she teaches undergraduate and postgraduate units as well as supervising postgraduate research students in the School of Education (Victoria). In 2009, Dr Scott won the Faculty of Education Excellence in Teaching Award and in 2010 an Australian Learning and Teaching Citation. Dr Scott continues to work closely with teachers in the areas of literacy and numeracy education. In particular, her focus of research not only identifies key similarities and differences between these disciplines but also investigates the effective uses of Information Communication Technologies (ICT) for learning them. At present Dr Scott is a member of a team investigating children⿿s uses of technology in their everyday lives to consider the changing needs of students⿿ learning in the 21st Century. She has been a Critical Friend to several research projects within the Australian Schools Innovation in Science, Technology and Mathematics (ASISTM) Project (2006-2008) and in the Family-Schools Partnerships project (2005). Since 2008, Dr Scott has worked with Professor Philip Clarkson and Dr Andrea McDonough researching teacher change linked to the Contemporary Teaching and Learning Mathematics Project (CTLM). A key feature of this activity is the partnership fostered with teachers to support and enhance professional learning as teachers capture and reflect on video snippets of their classroom practice.&amp;lt;/p&amp;gt;</description>
+      <identifier type="local">ARK PARTY 201</identifier>
+      <location>
+        <address>
+          <physical type="streetAddress">
+            <addressPart type="text">115 Victoria Parade</addressPart>
+            <addressPart type="text">Fitzroy Victoria 3065</addressPart>
+            <addressPart type="telephoneNumber">+61 03 9953 3000</addressPart>
+          </physical>
+        </address>
+      </location>
+      <relatedObject>
+        <key>nonDuplicateacu.edu.au/collection/202</key>
+        <relation type="isCollectorOf">
+          <description>acu.edu.au/collection/202</description>
+        </relation>
+      </relatedObject>
+      <subject type="anzsrc-for">1303</subject>
+      <subject type="local">Preservice Teacher Education; Service Learning; Cultural Diversity</subject>
+    </party>
+  </registryObject>
+
+
+<registryObject group="Australian Catholic University">
+    <key>nonDuplicateacu.edu.au/collection/202</key>
+    <originatingSource type="">https://researchdata.ands.org.au/registry//orca/register_my_data</originatingSource>
+    <collection type="collection">
+      <name type="primary">
+        <namePart>Preservice Teacher Perspectives of the Value of Community Engagement: 2009 Bachelor of Education Primary.</namePart>
+      </name>
+      <description type="full">&amp;lt;p&amp;gt;This collection comprises of data collected from 130 preservice teachers in their third year of a four-year Bachelor of Education Primary degree. Preservice teachers participated as tutors in a community-based homework program as part of their compulsory professional experience unit over 24 weeks.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This study of the value of community engagement in a preservice teacher education program was conducted in 2009 and 2010. Service learning experiences were integrated into the third year of a four-year Bachelor of Education (Primary) course at an Australian tertiary institution as a compulsory component of the Professional Experience Program for a total of 70 hours over the entire academic year. The 2009 participating cohort comprised of B.Ed (Primary) third year students enrolled in the community engagement (PEP) unit. The 2010 participating cohort comprised of B.Ed (Primary), B.Ed (Early Childhood) and B.Teach/B.A third year students enrolled in the community engagement (PEP) unit.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Investigators:&amp;lt;/p&amp;gt;
+&amp;lt;ol&amp;gt;
+&amp;lt;li&amp;gt;Anne Scott (Chief Investigator)&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;Adam Staples&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;Mary Campbell (Relations Coordinator, Institute for Advancing Community Engagement)&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;Geraldine Butler (Campus Life Coordinator)&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;Mary McInerney (Campus Ministry)&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;</description>
+      <rights>
+        <licence type="Unknown/Other" rightsUri=""/>
+        <accessRights type="" rightsUri="">Mediated access by contacting Dr. Scott</accessRights>
+      </rights>
+      <identifier type="local">ARK COLLECTION 202</identifier>
+      <dates type="dc.created">
+        <date type="dateFrom" dateFormat="W3CDTF">2009</date>
+        <date type="dateTo" dateFormat="W3CDTF">2010</date>
+      </dates>
+      <location>
+        <address>
+          <physical type="streetAddress">
+            <addressPart type="text">115 Victoria Parade</addressPart>
+            <addressPart type="text">Fitzroy Victoria 3065</addressPart>
+            <addressPart type="telephoneNumber">+61 03 9953 3000 </addressPart>
+          </physical>
+        </address>
+      </location>
+      <coverage>
+        <temporal>
+          <date type="dateFrom" dateFormat="W3CDTF">2009</date>
+          <date type="dateTo" dateFormat="W3CDTF">2010</date>
+        </temporal>
+        <spatial type="kmlPolyCoords">159.255528,-9.221084 112.921454,-9.221084 112.921454,-54.777219 159.255528,-54.777219 159.255528,-9.221084</spatial>
+      </coverage>
+      <relatedObject>
+        <key>nonDuplicateacu.edu.au/party/201</key>
+        <relation type="hasCollector">
+          <description>acu.edu.au/party/201</description>
+        </relation>
+      </relatedObject>
+      <subject type="anzsrc-for">1302</subject>
+      <subject type="local">Preservice Teacher Education</subject>
+      <subject type="local">Service Learning</subject>
+      <subject type="local">Cultural Diversity</subject>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="Australian Catholic University">
+    <key>nonDuplicateacu.edu.au/party/204a</key>
+    <originatingSource type="">https://researchdata.ands.org.au/registry//orca/register_my_data</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="title">A/Professor</namePart>
+        <namePart type="given">Nasir</namePart>
+        <namePart type="family">Butrous</namePart>
+      </name>
+      <description type="full">&amp;lt;p&amp;gt;&amp;lt;img style="float: right;" src="http://apps.acu.edu.au/staffdirectory/imgs/staff_19408f93913be363e3846fb9be0ab009.jpg" alt="" width="200" /&amp;gt;Management and Leadership, Organisational Behaviour, Strategic Decision-Making, Ethical Business Leadership, and Community Engagement - See more at: http://corner.acu.edu.au/research_supervision/framework/browse.php?srperid=145#sthash.cVpM8Dt7.dpuf&amp;lt;/p&amp;gt;</description>
+      <identifier type="local">ARK PARTY 204</identifier>
+      <location>
+        <address>
+          <physical type="streetAddress">
+            <addressPart type="text">115 Victoria Parade</addressPart>
+            <addressPart type="text">Fitzroy Victoria 3065 </addressPart>
+            <addressPart type="telephoneNumber">+61 03 9953 3000</addressPart>
+          </physical>
+          <electronic type="email">
+            <value>Nasir.Butrous@acu.edu.au</value>
+          </electronic>
+        </address>
+      </location>
+      <relatedObject>
+        <key>nonDuplicateacu.edu.au/collection/203</key>
+        <relation type="isCollectorOf">
+          <description>acu.edu.au/collection/203</description>
+        </relation>
+      </relatedObject>
+      <subject type="anzsrc-for">150312</subject>
+      <subject type="anzsrc-for">220102</subject>
+    </party>
+  </registryObject>
+
+
+<registryObject group="Australian Catholic University">
+    <key>nonDuplicateacu.edu.au/collection/203</key>
+    <originatingSource type="">https://researchdata.ands.org.au/registry//orca/register_my_data</originatingSource>
+    <collection type="collection">
+      <name type="primary">
+        <namePart>The Importance of values for success in future careers: Students’ perspective</namePart>
+      </name>
+      <description type="full">&amp;lt;p&amp;gt;There are two sets of data;&amp;lt;/p&amp;gt;
+&amp;lt;ol&amp;gt;
+&amp;lt;li&amp;gt;Longitudinal data from a survey of 1200 students over 4 years (2004, 2005, 2006, 2007), at one Australian university campus at the start of the second semester.&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;A 2007 snapshot from a survey of 1100 students at four different universities in one capital city in Australia.&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;
+&amp;lt;p&amp;gt;The instrument used was Michael Maccoby’s (1976) Head and Heart survey of character traits with the addition of an extra question. A three point Likert Scale was used to rate values as very important, somewhat important or not important.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;The students came from the disciplines of Arts and Sciences, Education, Management and Commerce, Health Sciences, Social and Culture and IT. The results were broken down into age, year of studies, specialisation of study, where they completed their qualifications (Australia or overseas), the qualification of the parents and number of siblings.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;The data was analysed using SPSS.&amp;lt;/p&amp;gt;</description>
+      <rights>
+        <licence type="Unknown/Other" rightsUri=""/>
+        <accessRights type="" rightsUri="">Mediated access by contacting A/Prof Butrous</accessRights>
+      </rights>
+      <identifier type="local">ARK COLLECTION 203</identifier>
+      <dates type="dc.created">
+        <date type="dateFrom" dateFormat="W3CDTF">2004</date>
+        <date type="dateTo" dateFormat="W3CDTF">2007</date>
+      </dates>
+      <location>
+        <address>
+          <physical type="streetAddress">
+            <addressPart type="text">115 Victoria Parade</addressPart>
+            <addressPart type="text">Fitzroy Victoria 3065 </addressPart>
+            <addressPart type="telephoneNumber">+61 03 9953 3000</addressPart>
+          </physical>
+          <electronic type="email">
+            <value>Nasir.Butrous@acu.edu.au</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <temporal>
+          <date type="dateFrom" dateFormat="W3CDTF">2004</date>
+          <date type="dateTo" dateFormat="W3CDTF">2007</date>
+        </temporal>
+      </coverage>
+      <relatedObject>
+        <key>nonDuplicateacu.edu.au/party/204</key>
+        <relation type="hasCollector">
+          <description>acu.edu.au/party/204</description>
+        </relation>
+      </relatedObject>
+      <subject type="anzsrc-for">150312</subject>
+      <subject type="anzsrc-for">220102</subject>
+      <relatedInfo type="publication">
+        <identifier type="uri">http://www.acu.edu.au/__data/assets/pdf_file/0010/479620/Nasir_Butrous_Importance_of_Values_for_Success_in_Future_Careers.pdf</identifier>
+        <title>Butrous, N. 2012. Importance of values for success in future careers: Students perspective. 17th Annual Values and Leadership Conference. Brisbane. </title>
+      </relatedInfo>
+      <relatedInfo>
+        <identifier type="uri">http://search.ebscohost.com/login.aspx?direct=true&amp;amp;db=ehh&amp;amp;AN=52791925&amp;amp;site=ehost-live</identifier>
+        <title>Butrous, N. 2010. Student approaches to learning. International Journal of Learning [Online], Vol.17 No. 2</title>
+      </relatedInfo>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="Australian Catholic University">
+    <key>nonDuplicateacu.edu.au/party/206</key>
+    <originatingSource type="">https://researchdata.ands.org.au/registry//orca/register_my_data</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="title">Professor</namePart>
+        <namePart type="given">Linda</namePart>
+        <namePart type="family">Worrall-Carter</namePart>
+      </name>
+      <description type="full">&amp;lt;p&amp;gt;&amp;lt;img style="float: right;" src="https://apps.acu.edu.au/staffdirectory/imgs/staff_34113.jpg" alt="" width="200" /&amp;gt;Professor Linda Worrall-Carter is the Director of the St Vincent's/ACU Centre for Nursing Research and Director of the Cardiovascular Research Centre at St Vincent's Hospital Melbourne. Prof Worrall-Carter is a nurse and clinical health researcher with over 20 years' experience in cardiovascular (CVD) health and has a distinguished academic and research background. Her major areas of expertise in CVD include risk assessment and prevention, women and CVD, as well as exploring models of care around CVD and depression.&amp;lt;/p&amp;gt;</description>
+      <identifier type="local">acu.edu.au/party/206</identifier>
+      <location>
+        <address>
+          <physical type="streetAddress">
+            <addressPart type="text">115 Victoria Parade </addressPart>
+            <addressPart type="text">Fitzroy Victoria 3065</addressPart>
+            <addressPart type="telephoneNumber">+61 03 9953 3000</addressPart>
+          </physical>
+        </address>
+      </location>
+      <relatedObject>
+        <key>nonDuplicateacu.edu.au/collection/205</key>
+        <relation type="isCollectorOf">
+          <description>acu.edu.au/collection/205</description>
+        </relation>
+      </relatedObject>
+      <subject type="anzsrc-for">111002</subject>
+      <subject type="anzsrc-for">110201</subject>
+      <subject type="anzsrc-for">111099</subject>
+      <subject type="anzsrc-for">170199</subject>
+      <subject type="anzsrc-for">111000</subject>
+      <subject type="anzsrc-for">170100</subject>
+    </party>
+  </registryObject>
+  
+  <registryObject group="Australian Catholic University">
+    <key>Duplicateacu.edu.au/party/299</key>
+    <originatingSource type="">https://researchdata.ands.org.au/registry//orca/register_my_data</originatingSource>
+    <party type="group">
+      <name type="primary">
+        <namePart>No Name/Title</namePart>
+      </name>
+      <description type=""/>
+      <identifier type=""/>
+      <location/>
+      <relatedObject>
+        <key/>
+        <relation type=""/>
+      </relatedObject>
+      <subject type=""/>
+      <relatedInfo/>
+    </party>
+  </registryObject>
+
+
+<registryObject group="Australian Catholic University">
+    <key>Duplicateacu.edu.au/party/300</key>
+    <originatingSource type="">https://researchdata.ands.org.au/registry//orca/register_my_data</originatingSource>
+    <party type="group">
+      <name type="primary">
+        <namePart type="superior">NCLS Research</namePart>
+      </name>
+      <description type="brief">&amp;lt;p&amp;gt;NCLS Research is a world leader in research focused on connecting churches and their communities. Decades of rigorous and thoughtful research has focussed on well-being, spirituality and church health. The most well known five-yearly project is called the &amp;lt;a href=&amp;quot;http://www.ncls.org.au/default.aspx?sitemapid=7086&amp;quot;&amp;gt;&amp;lt;strong&amp;gt;National Church Life Survey&amp;lt;/strong&amp;gt;&amp;lt;/a&amp;gt;, which has had millions of participants. &amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Co-operating denominations, including Catholics, Anglicans and Protestants, are a network for sharing practical resources to help churches.&amp;lt;/p&amp;gt;</description>
+      <location dateFrom="1990-05-27T23:25:56Z" dateTo="2015-05-27T23:25:44Z">
+        <address>
+          <electronic type="url">
+            <value>http://www.ncls.org.au</value>
+          </electronic>
+          <electronic type="email">
+            <value>info@ncls.org.au</value>
+          </electronic>
+          <physical type="postalAddress">
+            <addressPart type="text">PO Box 968, North Sydney NSW 2059</addressPart>
+          </physical>
+        </address>
+        <spatial type="kmlPolyCoords">151.218613,-33.828074 151.200535,-33.828074 151.200535,-33.845145 151.218613,-33.845145 151.218613,-33.828074</spatial>
+      </location>
+      <coverage>
+        <temporal>
+          <date type="dateFrom" dateFormat="W3CDTF">1990-05-27T23:31:25Z</date>
+        </temporal>
+        <spatial type="gmlKmlPolyCoords">159.287222,-9.219822 112.921454,-9.219822 112.921454,-54.777218 159.287222,-54.777218 159.287222,-9.219822</spatial>
+      </coverage>
+      <relatedObject>
+        <key>nonDuplicateacu.edu.au/party/135</key>
+        <relation type="isManagedBy"/>
+      </relatedObject>
+      <subject type="anzsrc-for">22</subject>
+      <subject type="anzsrc-for">229999</subject>
+    </party>
+  </registryObject>
+
+
+<registryObject group="Australian Catholic University">
+    <key>Duplicateacu.edu.au/collection/210</key>
+    <originatingSource type="">https://researchdata.ands.org.au/registry//orca/register_my_data</originatingSource>
+    <collection type="dataset" dateModified="2015-05-29T04:56:32Z" dateAccessioned="2015-05-29T04:56:24Z">
+      <name type="primary">
+        <namePart>2011 NCLS Attender Data Survey Types AP and AC</namePart>
+      </name>
+      <description type="full">&amp;lt;p&amp;gt;The National Church Life Survey (NCLS) is a project of NCLS Research. The primary aim of the NCLS is to provide information to Christian congregations and parishes about the health or vitality of their local church. However, it also covers a range of other research areas.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;The NCLS has collected data from several thousand congregations/parishes, hundreds of thousands of church attenders and thousands of local church leaders from approximately 20 Christian denominations across Australia every five years since 1991, coinciding with Australian Census of Population and Housing years.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This dataset is derived from the 2011 NCLS. It is a sample of 5,000 respondents from the 2011 Main Attender Survey Types AP (Protestant) and AC (Catholic). The variables cover the following areas: demographics, religiosity, church attendance background, denominational affiliation (Catholic, Mainstream Protestant, Evangelical Protestant, Pentecostal and Other Protestant), participation in the attender’s church, experience and evaluation of the attender’s church, personal leadership strengths, civic participation, and acts of service.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;The dataset is available as a SPSS file accompanied by a codebook in PDF.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;NCLS Research is a cooperative research venture of Anglicare (Diocese of Sydney), Uniting Church Synod of NSW and ACT (Uniting Mission and Education), the Australian Catholic Bishops Conference and Australian Catholic University.&amp;lt;/p&amp;gt;</description>
+      <rights>
+        <rightsStatement>. </rightsStatement>
+        <licence type="CC-BY"/>
+        <accessRights type="open">Access to data is conditional upon the user registering interest at&amp;lt;a href=&amp;quot;http://dlibrary.acu.edu.au/library/frmfdbk/nclsregistration.aspx&amp;quot;&amp;gt; http://dlibrary.acu.edu.au/library/frmfdbk/nclsregistration.aspx&amp;lt;/a&amp;gt;</accessRights>
+      </rights>
+      <identifier type="doi">10.4226/66/55e4ee6886dc1</identifier>
+      <dates type="dc.dateSubmitted">
+        <date type="dateTo" dateFormat="W3CDTF">2015-05-29T05:50:28Z</date>
+      </dates>
+      <location dateFrom="2011-01-01T05:10:14Z" dateTo="2011-12-31T05:10:43Z">
+        <address>
+          <electronic type="url" target="landingPage">
+            <value>http://dx.doi.org/10.4226/66/55e4ee6886dc1</value>
+            <title>NCLS Research</title>
+          </electronic>
+          <electronic type="email">
+            <value>info@ncls.org.au</value>
+          </electronic>
+          <physical type="postalAddress">
+            <addressPart type="text">PO Box 968, North Sydney NSW 2059</addressPart>
+          </physical>
+        </address>
+        <spatial type="kmlPolyCoords">151.218613,-33.828074 151.200535,-33.828074 151.200535,-33.845145 151.218613,-33.845145 151.218613,-33.828074</spatial>
+      </location>
+      <coverage>
+        <temporal>
+          <date type="dateFrom" dateFormat="W3CDTF">2011-01-01T06:00:27Z</date>
+          <date type="dateTo" dateFormat="W3CDTF">2011-12-31T06:00:40Z</date>
+        </temporal>
+        <spatial type="kmlPolyCoords">159.287222,-9.219822 112.921454,-9.219822 112.921454,-54.777218 159.287222,-54.777218 159.287222,-9.219822</spatial>
+      </coverage>
+      <relatedObject>
+        <key>nonDuplicateacu.edu.au/party/300</key>
+        <relation type="hasCollector"/>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicateacu.edu.au/party/135</key>
+        <relation type="hasCollector"/>
+      </relatedObject>
+      <subject type="anzsrc-for">2204</subject>
+      <subject type="anzsrc-for">2299</subject>
+      <citationInfo>
+        <citationMetadata>
+          <identifier type="doi">10.4226/66/55e4ee6886dc1</identifier>
+          <title>2011 NCLS Attender Data Survey Types AP and AC</title>
+          <version/>
+          <placePublished/>
+          <publisher>NCLS Research</publisher>
+          <url>http://www.ncls.org.au</url>
+          <context/>
+          <contributor seq="1">
+            <namePart type="subordinate">NCLS Research</namePart>
+          </contributor>
+          <date type="publicationDate">2015-09-02T06:16:30Z2011-12-31T05:21:27Z</date>
+        </citationMetadata>
+      </citationInfo>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="Australian Catholic University">
+    <key>Duplicateacu.edu.au/collection/210s</key>
+    <originatingSource type="">https://researchdata.ands.org.au/registry//orca/register_my_data</originatingSource>
+    <collection type="dataset" dateModified="2015-05-29T04:56:32Z" dateAccessioned="2015-05-29T04:56:24Z">
+      <name type="primary">
+        <namePart>2011 NCLS Attender Data Survey Types AP and AC</namePart>
+      </name>
+      <description type="full">&amp;lt;p&amp;gt;The National Church Life Survey (NCLS) is a project of NCLS Research. The primary aim of the NCLS is to provide information to Christian congregations and parishes about the health or vitality of their local church. However, it also covers a range of other research areas.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;The NCLS has collected data from several thousand congregations/parishes, hundreds of thousands of church attenders and thousands of local church leaders from approximately 20 Christian denominations across Australia every five years since 1991, coinciding with Australian Census of Population and Housing years.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This dataset is derived from the 2011 NCLS. It is a sample of 5,000 respondents from the 2011 Main Attender Survey Types AP (Protestant) and AC (Catholic). The variables cover the following areas: demographics, religiosity, church attendance background, denominational affiliation (Catholic, Mainstream Protestant, Evangelical Protestant, Pentecostal and Other Protestant), participation in the attender’s church, experience and evaluation of the attender’s church, personal leadership strengths, civic participation, and acts of service.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;The dataset is available as a SPSS file accompanied by a codebook in PDF.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;NCLS Research is a cooperative research venture of Anglicare (Diocese of Sydney), Uniting Church Synod of NSW and ACT (Uniting Mission and Education), the Australian Catholic Bishops Conference and Australian Catholic University.&amp;lt;/p&amp;gt;</description>
+      <rights>
+        <rightsStatement>. </rightsStatement>
+        <licence type="CC-BY"/>
+        <accessRights type="open">Access to data is conditional upon the user registering interest at&amp;lt;a href=&amp;quot;http://dlibrary.acu.edu.au/library/frmfdbk/nclsregistration.aspx&amp;quot;&amp;gt; http://dlibrary.acu.edu.au/library/frmfdbk/nclsregistration.aspx&amp;lt;/a&amp;gt;</accessRights>
+      </rights>
+      <identifier type="doi">10.4226/66/55e4ee6886dc1</identifier>
+      <dates type="dc.dateSubmitted">
+        <date type="dateTo" dateFormat="W3CDTF">2015-05-29T05:50:28Z</date>
+      </dates>
+      <location dateFrom="2011-01-01T05:10:14Z" dateTo="2011-12-31T05:10:43Z">
+        <address>
+          <electronic type="url" target="landingPage">
+            <value>http://dx.doi.org/10.4226/66/55e4ee6886dc1</value>
+            <title>NCLS Research</title>
+          </electronic>
+          <electronic type="email">
+            <value>info@ncls.org.au</value>
+          </electronic>
+          <physical type="postalAddress">
+            <addressPart type="text">PO Box 968, North Sydney NSW 2059</addressPart>
+          </physical>
+        </address>
+        <spatial type="kmlPolyCoords">151.218613,-33.828074 151.200535,-33.828074 151.200535,-33.845145 151.218613,-33.845145 151.218613,-33.828074</spatial>
+      </location>
+      <coverage>
+        <temporal>
+          <date type="dateFrom" dateFormat="W3CDTF">2011-01-01T06:00:27Z</date>
+          <date type="dateTo" dateFormat="W3CDTF">2011-12-31T06:00:40Z</date>
+        </temporal>
+        <spatial type="kmlPolyCoords">159.287222,-9.219822 112.921454,-9.219822 112.921454,-54.777218 159.287222,-54.777218 159.287222,-9.219822</spatial>
+      </coverage>
+      <relatedObject>
+        <key>nonDuplicateacu.edu.au/party/300</key>
+        <relation type="hasCollector"/>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicateacu.edu.au/party/135</key>
+        <relation type="hasCollector"/>
+      </relatedObject>
+      <subject type="anzsrc-for">2204</subject>
+      <subject type="anzsrc-for">2299</subject>
+      <citationInfo>
+        <citationMetadata>
+          <identifier type="doi">10.4226/66/55e4ee6886dc1</identifier>
+          <title>2011 NCLS Attender Data Survey Types AP and AC</title>
+          <version/>
+          <placePublished/>
+          <publisher>NCLS Research</publisher>
+          <url>http://www.ncls.org.au</url>
+          <context/>
+          <contributor seq="1">
+            <namePart type="subordinate">NCLS Research</namePart>
+          </contributor>
+          <date type="publicationDate">2015-09-02T06:16:30Z2011-12-31T05:21:27Z</date>
+        </citationMetadata>
+      </citationInfo>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="Australian Catholic University">
+    <key>nonDuplicateacu.edu.au/party/207</key>
+    <originatingSource type="">https://researchdata.ands.org.au/registry//orca/register_my_data</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="title">Dr</namePart>
+        <namePart type="given">Aziz</namePart>
+        <namePart type="family">Rahman</namePart>
+      </name>
+      <description type="full">&amp;lt;p style="text-align: left;"&amp;gt;&amp;lt;img style="float: right;" src="http://apps.acu.edu.au/staffdirectory/imgs/staff_041707deb118a274a4c00e7cb3e9839e.jpg" alt="" width="200" /&amp;gt;I am working as a Senior Research Fellow of SVCNR and in conjunction with Professor Linda Worrall-Carter offer leadership within the research team. I am a public health physician and have a strong background in cardiovascular disease research, epidemiology &amp;amp;amp; prevention of communicable and non-communicable diseases, with a special interest in tobacco research.  I am trained on global tobacco control from Johns Hopkins University, USA. I have worked internationally including Bangladesh, Afghanistan and Australia.  - See more at: http://corner.acu.edu.au/research_supervision/framework/browse.php?srperid=3920#sthash.cAbjcIm0.dpuf&amp;lt;/p&amp;gt;</description>
+      <identifier type="local">ARK PARTY 207</identifier>
+      <location>
+        <address>
+          <physical type="streetAddress">
+            <addressPart type="text">115 Victoria Parade</addressPart>
+            <addressPart type="text">Fitzroy Victoria 3065</addressPart>
+            <addressPart type="telephoneNumber">+61 03 9953 3000</addressPart>
+          </physical>
+          <electronic type="email">
+            <value>aziz.rahman@acu.edu.au</value>
+          </electronic>
+        </address>
+      </location>
+      <relatedObject>
+        <key>nonDuplicateacu.edu.au/collection/205</key>
+        <relation type="isCollectorOf">
+          <description>acu.edu.au/collection/205</description>
+        </relation>
+      </relatedObject>
+      <subject type="anzsrc-for">111002</subject>
+      <subject type="anzsrc-for">110201</subject>
+      <subject type="anzsrc-for">111099</subject>
+      <subject type="anzsrc-for">170199</subject>
+      <subject type="anzsrc-for">111000</subject>
+      <subject type="anzsrc-for">170100</subject>
+    </party>
+  </registryObject>
+
+
+<registryObject group="Australian Catholic University">
+    <key>nonDuplicateacu.edu.au/collection/205</key>
+    <originatingSource type="">https://researchdata.ands.org.au/registry//orca/register_my_data</originatingSource>
+    <collection type="collection">
+      <name type="primary">
+        <namePart>Improving depression and anxiety screening of patients with heart disease: implementing a multidisciplinary Clinical Pathway</namePart>
+      </name>
+      <description type="full">&amp;lt;p&amp;gt;Data collected at St Vincent’s Public Hospital (STV) (Melbourne) cardiac wards over 3 years, 2008-2010 (212 patients).&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This study was aimed at improving the screening of depression and anxiety in patients with coronary heart disease (CHD), through implementation of a model of care including examining the effectiveness of a clinical pathway in patients following admission for an acute cardiac event.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Based on a coolaboration with “&amp;lt;em&amp;gt;Beyond Blue”, &amp;lt;/em&amp;gt;Professor Patricia Davidson (Curtin University) and Dr Steve Bunker (Medibank Private)&amp;lt;/p&amp;gt;</description>
+      <rights>
+        <rightsStatement/>
+        <licence type="Unknown/Other" rightsUri=""/>
+        <accessRights type="" rightsUri="">Mediated access by contacting Professor Linda Worrall-Carter</accessRights>
+      </rights>
+      <identifier type="local">ARK COLLECTION 205</identifier>
+      <dates type="dc.created">
+        <date type="dateFrom" dateFormat="W3CDTF">2008</date>
+        <date type="dateTo" dateFormat="W3CDTF">2010</date>
+      </dates>
+      <location dateFrom="2008" dateTo="2010">
+        <address>
+          <physical type="streetAddress">
+            <addressPart type="text">St Vincent’s Centre Nursing Research (SVCNR)</addressPart>
+            <addressPart type="text">Level 4, 486 Albert Street</addressPart>
+            <addressPart type="text">East Melbourne</addressPart>
+          </physical>
+        </address>
+        <spatial type="kmlPolyCoords">144.975417,-37.817639</spatial>
+      </location>
+      <coverage>
+        <temporal>
+          <date type="dateFrom" dateFormat="W3CDTF">2008</date>
+          <date type="dateTo" dateFormat="W3CDTF">2010</date>
+        </temporal>
+        <spatial type="kmlPolyCoords">144.975139,-37.842083</spatial>
+      </coverage>
+      <relatedObject>
+        <key>nonDuplicateacu.edu.au/party/207</key>
+        <relation type="hasCollector">
+          <description>acu.edu.au/party/206</description>
+        </relation>
+        <relation type="hasCollector">
+          <description>acu.edu.au/party/207</description>
+        </relation>
+      </relatedObject>
+      <subject type="anzsrc-for">111002</subject>
+      <subject type="anzsrc-for">110201</subject>
+      <subject type="anzsrc-for">111099</subject>
+      <subject type="anzsrc-for">170199</subject>
+      <subject type="anzsrc-for">111000</subject>
+      <subject type="anzsrc-for">170100</subject>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="Australian Catholic University">
+    <key>nonDuplicateacu.edu.au/party/10</key>
+    <originatingSource type="">https://researchdata.ands.org.au/registry//orca/register_my_data</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="title">Dr</namePart>
+        <namePart type="given">Maggie</namePart>
+        <namePart type="family">Nolan</namePart>
+      </name>
+      <description type="full">&amp;lt;p&amp;gt;Dr Nolan’s research critically analyses representations of race and ethnicity in Australian cultural and literary production. Until recently, she focused on questions arising from literary hoaxes in the Australian context, including the nature of identity, authenticity and cultural authority. More recently she is exploring the cultural work of book clubs, and their relationship to the politics of reconciliation.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;She is an executive member of InASA, the International Australian Studies Association. She is also a member of The Association for the Study of Australian Literature (ASAL) and The Cultural Studies Association of Australasia (CSAA).&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Professional Memberships. She is a co-editor of &amp;lt;em&amp;gt;the Journal of Australian Studies&amp;lt;/em&amp;gt; and the author of the Australian Literature section of the Year’s Work in English Studies. She is an executive member of the International Australian Studies Association (InASA) and the Association for the Study of Australian Literature (ASAL).&amp;lt;/p&amp;gt;</description>
+      <identifier type="local">0000017245</identifier>
+      <location>
+        <address>
+          <physical type="streetAddress">
+            <addressPart type="text">1100 Nudgee Road </addressPart>
+            <addressPart type="text">Banyo, Queensland 4014</addressPart>
+            <addressPart type="telephoneNumber">+617 3623 7182</addressPart>
+          </physical>
+        </address>
+        <spatial type="kmlPolyCoords">153.081610,-27.378950</spatial>
+      </location>
+      <relatedObject>
+        <key>nonDuplicateacu.edu.au/collection/17</key>
+        <relation type="isCollectorOf"/>
+      </relatedObject>
+      <subject type="anzsrc-for">2005</subject>
+    </party>
+  </registryObject>
+
+
+<registryObject group="Australian Catholic University">
+    <key>nonDuplicateacu.edu.au/collection/17</key>
+    <originatingSource type="">https://researchdata.ands.org.au/registry//orca/register_my_data</originatingSource>
+    <collection type="collection">
+      <name type="primary">
+        <namePart>Reconciliation and reading in contemporary Australian literature</namePart>
+      </name>
+      <description type="full">&amp;lt;p&amp;gt;This qualitative research data looks at book clubs.  Focus groups were used to find out to what extent literature enhances reconciliation, if at all and whether reading makes a difference.  Focus groups were held in 2012 in Brisbane, Townsville, Hobart and Launceston.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This project is being conducted jointly with Dr Robert Clarke, University of Tasmania. The data is still being analysed.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Internal Australian Catholic University funding has been provided for the project.  This is a pilot for a larger project.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;The data consists of Word transcripts and digital recordings stored on DVD and hard drives.  There is also an “Information for Participants file”, an “interview Protocol” and a Survey form. &amp;lt;/p&amp;gt;</description>
+      <rights>
+        <licence type="Unknown/Other" rightsUri=""/>
+        <accessRights type="" rightsUri="">Mediated access by contacting Dr. Nolan</accessRights>
+      </rights>
+      <identifier type="local">ARK COLLECTION 17</identifier>
+      <dates type="dc.created">
+        <date type="dateFrom" dateFormat="W3CDTF">2012</date>
+        <date type="dateTo" dateFormat="W3CDTF">2012</date>
+      </dates>
+      <location dateFrom="2012" dateTo="2012">
+        <address>
+          <physical type="streetAddress">
+            <addressPart type="text">1100 Nudgee Road</addressPart>
+            <addressPart type="text">Banyo Queensland 4014</addressPart>
+            <addressPart type="telephoneNumber">+61 07 3623 7100</addressPart>
+          </physical>
+        </address>
+        <spatial type="kmlPolyCoords">153.028010,-27.467840</spatial>
+        <spatial type="kmlPolyCoords">146.815840,-19.262220</spatial>
+        <spatial type="kmlPolyCoords">147.323400,-42.882523</spatial>
+        <spatial type="kmlPolyCoords">147.144965,-41.441862</spatial>
+      </location>
+      <coverage>
+        <temporal>
+          <date type="dateFrom" dateFormat="W3CDTF">2012</date>
+        </temporal>
+        <spatial type="kmlPolyCoords">145.000000,-22.500000</spatial>
+      </coverage>
+      <relatedObject>
+        <key>nonDuplicateacu.edu.au/party/10</key>
+        <relation type="hasCollector">
+          <description>acu.edu.au/party/10</description>
+        </relation>
+      </relatedObject>
+      <subject type="anzsrc-for">2005</subject>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="Australian Catholic University">
+    <key>nonDuplicateacu.edu.au/party/204</key>
+    <originatingSource type="">https://researchdata.ands.org.au/registry//orca/register_my_data</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="title">A/Professor</namePart>
+        <namePart type="given">Nasir</namePart>
+        <namePart type="family">Butrous</namePart>
+      </name>
+      <description type="full">&amp;lt;p&amp;gt;&amp;lt;img style="float: right;" src="http://apps.acu.edu.au/staffdirectory/imgs/staff_19408f93913be363e3846fb9be0ab009.jpg" alt="" width="200" /&amp;gt;Management and Leadership, Organisational Behaviour, Strategic Decision-Making, Ethical Business Leadership, and Community Engagement - See more at: http://corner.acu.edu.au/research_supervision/framework/browse.php?srperid=145#sthash.cVpM8Dt7.dpuf&amp;lt;/p&amp;gt;</description>
+      <identifier type="local">ARK PARTY 204</identifier>
+      <location>
+        <address>
+          <physical type="streetAddress">
+            <addressPart type="text">115 Victoria Parade</addressPart>
+            <addressPart type="text">Fitzroy Victoria 3065 </addressPart>
+            <addressPart type="telephoneNumber">+61 03 9953 3000</addressPart>
+          </physical>
+          <electronic type="email">
+            <value>Nasir.Butrous@acu.edu.au</value>
+          </electronic>
+        </address>
+      </location>
+      <relatedObject>
+        <key>nonDuplicateacu.edu.au/collection/203</key>
+        <relation type="isCollectorOf">
+          <description>acu.edu.au/collection/203</description>
+        </relation>
+      </relatedObject>
+      <subject type="anzsrc-for">150312</subject>
+      <subject type="anzsrc-for">220102</subject>
+    </party>
+  </registryObject>
+
+
+<registryObject group="Australian Catholic University">
+    <key>nonDuplicatedqdf1kUhwCeDwtg4Cg4G2XjUCQYb4q97HccynWGJpKdM3jHwqC3j</key>
+    <originatingSource type="">https://researchdata.ands.org.au/registry//orca/register_my_data</originatingSource>
+    <collection type="dataset">
+      <name type="primary">
+        <namePart>Media reporting on persons with Albinism in Tanzania</namePart>
+      </name>
+      <description type="full">&amp;lt;p&amp;gt;&amp;lt;a class=&amp;quot;LabelBlue1&amp;quot;&amp;gt;The data set is a list of news media reports from the United Republic of Tanzania about people with albinism. The time frame for these articles is 2008 – 2014. They are in both English and Swahili languages. The news items have been accessed from the online archives of three East African media companies, namely IPPMedia Group (www.ippmedia.com), Mwananchi Communications, Majira Pty Ltd.The format of the data set is as excel spreadsheets with a list of news articles, organised with separate sheets according to years 2008 until 2014 inclusive.&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;</description>
+      <rights>
+        <licence type="CC-BY"/>
+        <accessRights type="open"/>
+      </rights>
+      <identifier type="doi">10.4226/66/5653abed3470d</identifier>
+      <dates type="dc.created">
+        <date type="dateFrom" dateFormat="W3CDTF">2008-01-01T23:02:21Z</date>
+        <date type="dateTo" dateFormat="W3CDTF">2014-12-31T23:02:54Z</date>
+      </dates>
+      <location>
+        <address>
+          <physical type="postalAddress">
+            <addressPart type="text">Locked Bag 2002Strathfield NSW 2135 Australia</addressPart>
+            <addressPart type="telephoneNumber">+61 (02) 9701 4000</addressPart>
+          </physical>
+          <electronic type="url" target="landingPage">
+            <value>http://dx.doi.org/10.4226/66/5653abed3470d</value>
+            <title>Dataset</title>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <temporal>
+          <date type="dateFrom" dateFormat="W3CDTF">2008-01-01T05:59:42Z</date>
+          <date type="dateTo" dateFormat="W3CDTF">2014-12-31T06:00:04Z</date>
+        </temporal>
+        <spatial type="gmlKmlPolyCoords">63.808594,18.021210 21.996388,18.021210 21.996388,-26.961200 63.808594,-26.961200 63.808594,18.021210</spatial>
+      </coverage>
+      <relatedObject>
+        <key>nonDuplicateacu.edu.au/party/53</key>
+        <relation type="hasCollector"/>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicateacu.edu.au/collection/54</key>
+        <relation type="isDerivedFrom"/>
+      </relatedObject>
+      <subject type="local">Albinism</subject>
+      <subject type="local">Tanzania</subject>
+      <subject type="local">Africa</subject>
+      <subject type="local">Violence</subject>
+      <citationInfo>
+        <citationMetadata>
+          <identifier type="doi">10.4226/66/5653abed3470d</identifier>
+          <title>Media reporting on persons with albinism</title>
+          <version/>
+          <placePublished/>
+          <publisher>Australian Catholic University</publisher>
+          <url>http://www.acu.edu.au</url>
+          <context/>
+          <contributor seq="1">
+            <namePart type="superior">Australian Catholic University</namePart>
+          </contributor>
+          <date type="publicationDate">2015-11-25T06:11:40Z</date>
+        </citationMetadata>
+      </citationInfo>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="Australian Catholic University">
+    <key>Duplicateacu.edu.au/party/299</key>
+    <originatingSource type="">https://researchdata.ands.org.au/registry//orca/register_my_data</originatingSource>
+    <party type="group">
+      <name type="primary">
+        <namePart>No Name/Title</namePart>
+      </name>
+      <description type=""/>
+      <identifier type=""/>
+      <location/>
+      <relatedObject>
+        <key/>
+        <relation type=""/>
+      </relatedObject>
+      <subject type=""/>
+      <relatedInfo/>
+    </party>
+  </registryObject>
+
+
+<registryObject group="Australian Catholic University">
+    <key>Duplicateacu.edu.au/party/300</key>
+    <originatingSource type="">https://researchdata.ands.org.au/registry//orca/register_my_data</originatingSource>
+    <party type="group">
+      <name type="primary">
+        <namePart type="superior">NCLS Research</namePart>
+      </name>
+      <description type="brief">&amp;lt;p&amp;gt;NCLS Research is a world leader in research focused on connecting churches and their communities. Decades of rigorous and thoughtful research has focussed on well-being, spirituality and church health. The most well known five-yearly project is called the &amp;lt;a href=&amp;quot;http://www.ncls.org.au/default.aspx?sitemapid=7086&amp;quot;&amp;gt;&amp;lt;strong&amp;gt;National Church Life Survey&amp;lt;/strong&amp;gt;&amp;lt;/a&amp;gt;, which has had millions of participants. &amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Co-operating denominations, including Catholics, Anglicans and Protestants, are a network for sharing practical resources to help churches.&amp;lt;/p&amp;gt;</description>
+      <location dateFrom="1990-05-27T23:25:56Z" dateTo="2015-05-27T23:25:44Z">
+        <address>
+          <electronic type="url">
+            <value>http://www.ncls.org.au</value>
+          </electronic>
+          <electronic type="email">
+            <value>info@ncls.org.au</value>
+          </electronic>
+          <physical type="postalAddress">
+            <addressPart type="text">PO Box 968, North Sydney NSW 2059</addressPart>
+          </physical>
+        </address>
+        <spatial type="kmlPolyCoords">151.218613,-33.828074 151.200535,-33.828074 151.200535,-33.845145 151.218613,-33.845145 151.218613,-33.828074</spatial>
+      </location>
+      <coverage>
+        <temporal>
+          <date type="dateFrom" dateFormat="W3CDTF">1990-05-27T23:31:25Z</date>
+        </temporal>
+        <spatial type="gmlKmlPolyCoords">159.287222,-9.219822 112.921454,-9.219822 112.921454,-54.777218 159.287222,-54.777218 159.287222,-9.219822</spatial>
+      </coverage>
+      <relatedObject>
+        <key>nonDuplicateacu.edu.au/party/135</key>
+        <relation type="isManagedBy"/>
+      </relatedObject>
+      <subject type="anzsrc-for">22</subject>
+      <subject type="anzsrc-for">229999</subject>
+    </party>
+  </registryObject>
+
+
+<registryObject group="Australian Catholic University">
+    <key>Duplicateacu.edu.au/collection/210</key>
+    <originatingSource type="">https://researchdata.ands.org.au/registry//orca/register_my_data</originatingSource>
+    <collection type="dataset" dateModified="2015-05-29T04:56:32Z" dateAccessioned="2015-05-29T04:56:24Z">
+      <name type="primary">
+        <namePart>2011 NCLS Attender Data Survey Types AP and AC</namePart>
+      </name>
+      <description type="full">&amp;lt;p&amp;gt;The National Church Life Survey (NCLS) is a project of NCLS Research. The primary aim of the NCLS is to provide information to Christian congregations and parishes about the health or vitality of their local church. However, it also covers a range of other research areas.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;The NCLS has collected data from several thousand congregations/parishes, hundreds of thousands of church attenders and thousands of local church leaders from approximately 20 Christian denominations across Australia every five years since 1991, coinciding with Australian Census of Population and Housing years.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This dataset is derived from the 2011 NCLS. It is a sample of 5,000 respondents from the 2011 Main Attender Survey Types AP (Protestant) and AC (Catholic). The variables cover the following areas: demographics, religiosity, church attendance background, denominational affiliation (Catholic, Mainstream Protestant, Evangelical Protestant, Pentecostal and Other Protestant), participation in the attender’s church, experience and evaluation of the attender’s church, personal leadership strengths, civic participation, and acts of service.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;The dataset is available as a SPSS file accompanied by a codebook in PDF.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;NCLS Research is a cooperative research venture of Anglicare (Diocese of Sydney), Uniting Church Synod of NSW and ACT (Uniting Mission and Education), the Australian Catholic Bishops Conference and Australian Catholic University.&amp;lt;/p&amp;gt;</description>
+      <rights>
+        <rightsStatement>. </rightsStatement>
+        <licence type="CC-BY"/>
+        <accessRights type="open">Access to data is conditional upon the user registering interest at&amp;lt;a href=&amp;quot;http://dlibrary.acu.edu.au/library/frmfdbk/nclsregistration.aspx&amp;quot;&amp;gt; http://dlibrary.acu.edu.au/library/frmfdbk/nclsregistration.aspx&amp;lt;/a&amp;gt;</accessRights>
+      </rights>
+      <identifier type="doi">10.4226/66/55e4ee6886dc1</identifier>
+      <dates type="dc.dateSubmitted">
+        <date type="dateTo" dateFormat="W3CDTF">2015-05-29T05:50:28Z</date>
+      </dates>
+      <location dateFrom="2011-01-01T05:10:14Z" dateTo="2011-12-31T05:10:43Z">
+        <address>
+          <electronic type="url" target="landingPage">
+            <value>http://dx.doi.org/10.4226/66/55e4ee6886dc1</value>
+            <title>NCLS Research</title>
+          </electronic>
+          <electronic type="email">
+            <value>info@ncls.org.au</value>
+          </electronic>
+          <physical type="postalAddress">
+            <addressPart type="text">PO Box 968, North Sydney NSW 2059</addressPart>
+          </physical>
+        </address>
+        <spatial type="kmlPolyCoords">151.218613,-33.828074 151.200535,-33.828074 151.200535,-33.845145 151.218613,-33.845145 151.218613,-33.828074</spatial>
+      </location>
+      <coverage>
+        <temporal>
+          <date type="dateFrom" dateFormat="W3CDTF">2011-01-01T06:00:27Z</date>
+          <date type="dateTo" dateFormat="W3CDTF">2011-12-31T06:00:40Z</date>
+        </temporal>
+        <spatial type="kmlPolyCoords">159.287222,-9.219822 112.921454,-9.219822 112.921454,-54.777218 159.287222,-54.777218 159.287222,-9.219822</spatial>
+      </coverage>
+      <relatedObject>
+        <key>nonDuplicateacu.edu.au/party/300</key>
+        <relation type="hasCollector"/>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicateacu.edu.au/party/135</key>
+        <relation type="hasCollector"/>
+      </relatedObject>
+      <subject type="anzsrc-for">2204</subject>
+      <subject type="anzsrc-for">2299</subject>
+      <citationInfo>
+        <citationMetadata>
+          <identifier type="doi">10.4226/66/55e4ee6886dc1</identifier>
+          <title>2011 NCLS Attender Data Survey Types AP and AC</title>
+          <version/>
+          <placePublished/>
+          <publisher>NCLS Research</publisher>
+          <url>http://www.ncls.org.au</url>
+          <context/>
+          <contributor seq="1">
+            <namePart type="subordinate">NCLS Research</namePart>
+          </contributor>
+          <date type="publicationDate">2015-09-02T06:16:30Z2011-12-31T05:21:27Z</date>
+        </citationMetadata>
+      </citationInfo>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="Australian Catholic University">
+    <key>Duplicateacu.edu.au/collection/210s</key>
+    <originatingSource type="">https://researchdata.ands.org.au/registry//orca/register_my_data</originatingSource>
+    <collection type="dataset" dateModified="2015-05-29T04:56:32Z" dateAccessioned="2015-05-29T04:56:24Z">
+      <name type="primary">
+        <namePart>2011 NCLS Attender Data Survey Types AP and AC</namePart>
+      </name>
+      <description type="full">&amp;lt;p&amp;gt;The National Church Life Survey (NCLS) is a project of NCLS Research. The primary aim of the NCLS is to provide information to Christian congregations and parishes about the health or vitality of their local church. However, it also covers a range of other research areas.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;The NCLS has collected data from several thousand congregations/parishes, hundreds of thousands of church attenders and thousands of local church leaders from approximately 20 Christian denominations across Australia every five years since 1991, coinciding with Australian Census of Population and Housing years.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This dataset is derived from the 2011 NCLS. It is a sample of 5,000 respondents from the 2011 Main Attender Survey Types AP (Protestant) and AC (Catholic). The variables cover the following areas: demographics, religiosity, church attendance background, denominational affiliation (Catholic, Mainstream Protestant, Evangelical Protestant, Pentecostal and Other Protestant), participation in the attender’s church, experience and evaluation of the attender’s church, personal leadership strengths, civic participation, and acts of service.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;The dataset is available as a SPSS file accompanied by a codebook in PDF.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;NCLS Research is a cooperative research venture of Anglicare (Diocese of Sydney), Uniting Church Synod of NSW and ACT (Uniting Mission and Education), the Australian Catholic Bishops Conference and Australian Catholic University.&amp;lt;/p&amp;gt;</description>
+      <rights>
+        <rightsStatement>. </rightsStatement>
+        <licence type="CC-BY"/>
+        <accessRights type="open">Access to data is conditional upon the user registering interest at&amp;lt;a href=&amp;quot;http://dlibrary.acu.edu.au/library/frmfdbk/nclsregistration.aspx&amp;quot;&amp;gt; http://dlibrary.acu.edu.au/library/frmfdbk/nclsregistration.aspx&amp;lt;/a&amp;gt;</accessRights>
+      </rights>
+      <identifier type="doi">10.4226/66/55e4ee6886dc1</identifier>
+      <dates type="dc.dateSubmitted">
+        <date type="dateTo" dateFormat="W3CDTF">2015-05-29T05:50:28Z</date>
+      </dates>
+      <location dateFrom="2011-01-01T05:10:14Z" dateTo="2011-12-31T05:10:43Z">
+        <address>
+          <electronic type="url" target="landingPage">
+            <value>http://dx.doi.org/10.4226/66/55e4ee6886dc1</value>
+            <title>NCLS Research</title>
+          </electronic>
+          <electronic type="email">
+            <value>info@ncls.org.au</value>
+          </electronic>
+          <physical type="postalAddress">
+            <addressPart type="text">PO Box 968, North Sydney NSW 2059</addressPart>
+          </physical>
+        </address>
+        <spatial type="kmlPolyCoords">151.218613,-33.828074 151.200535,-33.828074 151.200535,-33.845145 151.218613,-33.845145 151.218613,-33.828074</spatial>
+      </location>
+      <coverage>
+        <temporal>
+          <date type="dateFrom" dateFormat="W3CDTF">2011-01-01T06:00:27Z</date>
+          <date type="dateTo" dateFormat="W3CDTF">2011-12-31T06:00:40Z</date>
+        </temporal>
+        <spatial type="kmlPolyCoords">159.287222,-9.219822 112.921454,-9.219822 112.921454,-54.777218 159.287222,-54.777218 159.287222,-9.219822</spatial>
+      </coverage>
+      <relatedObject>
+        <key>nonDuplicateacu.edu.au/party/300</key>
+        <relation type="hasCollector"/>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicateacu.edu.au/party/135</key>
+        <relation type="hasCollector"/>
+      </relatedObject>
+      <subject type="anzsrc-for">2204</subject>
+      <subject type="anzsrc-for">2299</subject>
+      <citationInfo>
+        <citationMetadata>
+          <identifier type="doi">10.4226/66/55e4ee6886dc1</identifier>
+          <title>2011 NCLS Attender Data Survey Types AP and AC</title>
+          <version/>
+          <placePublished/>
+          <publisher>NCLS Research</publisher>
+          <url>http://www.ncls.org.au</url>
+          <context/>
+          <contributor seq="1">
+            <namePart type="subordinate">NCLS Research</namePart>
+          </contributor>
+          <date type="publicationDate">2015-09-02T06:16:30Z2011-12-31T05:21:27Z</date>
+        </citationMetadata>
+      </citationInfo>
+    </collection>
+  </registryObject>
+</registryObjects>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xmlns:extRif="http://ands.org.au/standards/rif-cs/extendedRegistryObjects" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTestingRecords3ScholixPartyRecords1</key>
+        <originatingSource>AUTestingRecords3</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="title">Mr</namePart>
+                <namePart type="family">Scholix</namePart>
+                <namePart type="given">Party</namePart>
+                <namePart type="given">Principal Investigator</namePart>
+            </name>
+            <identifier type="uri">http://scholixParties.com/ScholixPartyRecords1</identifier>
+            <relatedObject>
+                <key>AUTestingRecords2ScholixRecords14</key>
+                <relation type="isPrincipalInvestigatorOf"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecords2ScholixRecords46</key>
+                <relation type="isPrincipalInvestigatorOf"/>
+            </relatedObject>
+        </party>
+    </registryObject>
+
+
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTestingRecords3ScholixPartyRecords2</key>
+        <originatingSource>AUTestingRecords3</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart>Mrs Scholix Party Author</namePart>
+            </name>
+            <identifier type="uri">http://scholixParties.com/ScholixPartyRecords2</identifier>
+            <relatedObject>
+                <key>AUTestingRecords2ScholixRecords20</key>
+                <relation type="author"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecords2ScholixRecords25</key>
+                <relation type="author"/>
+            </relatedObject>
+        </party>
+    </registryObject>
+
+        <registryObject group="AUTestingRecords3">
+        <key>AUTestingRecords3ScholixPartyRecords3</key>
+        <originatingSource>AUTestingRecords3</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart>Mrs Scholix Party co Investigator</namePart>
+            </name>
+            <identifier type="uri">http://scholixParties.com/ScholixPartyRecords3</identifier>
+            <relatedInfo type="collection">
+                <title>(AUTestingRecords2) Scholix Source Collection</title>
+                <identifier type="doi">10.1234/00/Scholix5622</identifier>
+                <relation type="coInvestigator"/>
+            </relatedInfo>
+            <relatedInfo type="collection">
+                <title>(AUTestingRecords2) Scholix Source Collection</title>
+                <identifier type="doi">10.1234/00/Scholix5646</identifier>
+                <relation type="coInvestigator"/>
+            </relatedInfo>
+            <relatedObject>
+                <key>AUTestingRecords2ScholixRecords45</key>
+                <relation type="coInvestigator"/>
+            </relatedObject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTestingRecords3ScholixPartyRecords4</key>
+        <originatingSource>AUTestingRecords3</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="title">Mr</namePart>
+                <namePart type="family">Scholix</namePart>
+                <namePart type="given">Party</namePart>
+                <namePart type="given">Owner</namePart>
+            </name>
+            <identifier type="uri">http://scholixParties.com/ScholixPartyRecords4</identifier>
+            <relatedInfo type="collection">
+                <title>(AUTestingRecords2) Scholix Source Collection</title>
+                <identifier type="doi">10.1234/00/Scholix5620</identifier>
+                <relation type="isOwnerOf"/>
+            </relatedInfo>
+            <relatedInfo type="collection">
+                <title>(AUTestingRecords2) Scholix Source Collection</title>
+                <identifier type="doi">10.1234/00/Scholix5644</identifier>
+                <relation type="isOwnerOf"/>
+            </relatedInfo>
+			            <relatedInfo type="collection">
+                <title>(AUTestingRecords2) Scholix Source Collection</title>
+                <identifier type="uri">http://ands.scholix.org.au/5625</identifier>
+                <relation type="isOwnerOf"/>
+            </relatedInfo>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTestingRecords3ScholixPartyRecords5</key>
+        <originatingSource>AUTestingRecords3</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="title">Mr</namePart>
+                <namePart type="family">Scholix</namePart>
+                <namePart type="given">Party</namePart>
+                <namePart type="given">Collector</namePart>
+            </name>
+            <identifier type="uri">http://scholixParties.com/ScholixPartyRecords5</identifier>
+            <relatedInfo type="collection">
+                <title>(AUTestingRecords2) Scholix Source Collection</title>
+                <identifier type="doi">10.1234/00/Scholix5613</identifier>
+                <relation type="isCollectorOf"/>
+            </relatedInfo>
+            <relatedInfo type="collection">
+                <title>(AUTestingRecords2) Scholix Source Collection</title>
+                <identifier type="doi">10.1234/00/Scholix5646</identifier>
+                <relation type="isCollectorOf"/>
+            </relatedInfo>
+            <relatedInfo type="collection">
+                <title>(AUTestingRecords2) Scholix Source Collection</title>
+                <identifier type="doi">10.1234/00/Scholix5643</identifier>
+                <relation type="isCollectorOf"/>
+            </relatedInfo>
+			            <relatedInfo type="collection">
+                <title>(AUTestingRecords2) Scholix Source Collection</title>
+            <identifier type="doi">10.1234/00/Scholix5618</identifier>
+                <relation type="isCollectorOf"/>
+            </relatedInfo>
+            <relatedInfo type="collection">
+                <title>(AUTestingRecords2) Scholix Source Collection</title>
+                <identifier type="doi">10.1234/00/Scholix5620</identifier>
+                <relation type="isCollectorOf"/>
+            </relatedInfo>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTestingRecords3ScholixPublicationRecords6</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="publication" dateModified="2016-04-10T23:51:40Z" dateAccessioned="2016-04-10T23:51:40Z">
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection type publication With NO Identifier.</namePart>
+            </name>
+            <description type="full">Some example description
+            </description>
+            <relatedObject>
+                <key>AUTestingRecords2ScholixRecords39</key>
+                <relation type="references"/>
+            </relatedObject>
+        </collection>
+    </registryObject>
+	
+	    <registryObject group="AUTestingRecords3">
+        <key>AUTestingRecords3ScholixPublicationRecords7</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="publication" dateModified="2016-04-10T23:51:40Z" dateAccessioned="2016-04-10T23:51:40Z">
+		<identifier type="local">somePubId7</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection type publication With local id.</namePart>
+            </name>
+            <description type="full">Some example description
+            </description>
+			             <relatedObject>
+                <key>AUTestingRecords2ScholixRecords58</key>
+                <relation type="supplements"/>
+            </relatedObject>
+        </collection>
+    </registryObject>
+	
+	    <registryObject group="AUTestingRecords3">
+        <key>AUTestingRecords3ScholixPublicationRecords8</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="publication" dateModified="2016-04-10T23:51:40Z" dateAccessioned="2016-04-10T23:51:40Z">
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection type publication With NO Identifier and an electronic/address url.</namePart>
+            </name>
+            <description type="full">Some example description
+            </description>
+			<location>
+			        <address>
+          <electronic type="url">
+            <value>http:\\www.exampleUrlScholixPub8.com</value>
+          </electronic>
+        </address>
+      </location>
+            <relatedObject>
+                <key>AUTestingRecords2ScholixRecords39</key>
+                <relation type="references"/>
+            </relatedObject>
+        </collection>
+    </registryObject>
+
+</registryObjects>

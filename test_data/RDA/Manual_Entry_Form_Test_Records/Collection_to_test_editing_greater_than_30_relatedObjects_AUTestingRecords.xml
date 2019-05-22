@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xmlns:extRif="http://ands.org.au/standards/rif-cs/extendedRegistryObjects" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+<registryObject group="AUTestingRecords">
+        <key>AUTCollectionWithG8tr30a</key>
+        <originatingSource type="">http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2013-04-10T23:51:55Z">
+            <name type="abbreviated">
+                <namePart>abbreviatedName</namePart>
+            </name>
+            <name type="alternative">
+                <namePart>alternativeName</namePart>
+            </name>
+            <name type="primary">
+                <namePart>(AUTestingRecords)Collection to test editing greater than 30 relatedObjects</namePart>
+            </name>
+            <description type="significanceStatement">&amp;lt;p&amp;gt;significanceStatement significanceStatement&amp;lt;/p&amp;gt;</description>
+            <description type="researchSupport">&amp;lt;p&amp;gt;researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport&amp;lt;/p&amp;gt;</description>
+            <description type="researchDataProflie">&amp;lt;p&amp;gt;researchDataProflieresea rchDataProflie researchDataP roflieresearchDataProflie researchDataProflie researchDataProflie researchDataProflie researchDataProflie&amp;lt;/p&amp;gt;</description>
+            <description type="researchAreas">&amp;lt;p&amp;gt;researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas&amp;lt;/p&amp;gt;</description>
+            <description type="note">&amp;lt;p&amp;gt;note note note note note note note note note note note note note note note note note note note note note note&amp;lt;/p&amp;gt;</description>
+            <description type="logo">&amp;lt;p&amp;gt;https://dl.dropbox.com/u/49073372/LOGO.jpg&amp;lt;/p&amp;gt;</description>
+            <description type="full">&amp;lt;p&amp;gt;full full full full full full full full full full full full full full full full full full&amp;lt;/p&amp;gt;</description>
+            <description type="deliverymethod">&amp;lt;p&amp;gt;deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod&amp;lt;/p&amp;gt;</description>
+            <description type="brief">&amp;lt;p&amp;gt;brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief&amp;lt;/p&amp;gt;</description>
+            <description type="lineage">&amp;lt;p&amp;gt;This is the lineage statement for the collection&amp;lt;/p&amp;gt;</description>
+            <description type="local">&amp;lt;p&amp;gt;This is a local statement for the colleciton&amp;lt;/p&amp;gt;</description>
+            <rights>
+                <rightsStatement rightsUri="http://www.rightsuri.com">Rights Statement Rights Statement</rightsStatement>
+                <licence type="AusGOALRestrictive" rightsUri="http://www.rightsuri.com">LicenceLicenceLicence</licence>
+                <accessRights rightsUri="http://www.rightsuri.com">Access Rights</accessRights>
+            </rights>
+            <rights>
+                <licence type="CC-BY">CC-BY</licence>
+                <accessRights type="open">My Access Rights details are listed here and my data is open</accessRights>
+            </rights>
+            <identifier type="AU-ANL:PEAU">nla.AUTCollection1Gr8tr</identifier>
+            <identifier type="AU-ANL:PEAU">nla.part.123451Gr8tr</identifier>
+            <dates type="dc.available">
+                <date type="dateFrom" dateFormat="W3CDTF">2013-02-07T00:00:00Z</date>
+            </dates>
+            <dates type="dc.issued">
+                <date type="dateFrom" dateFormat="W3CDTF">2022-03-03T00:00:00Z</date>
+            </dates>
+            <location dateFrom="2013-02-14T00:00:00Z" dateTo="2013-03-02T00:00:00Z">
+                <address>
+          <electronic type="url" target="landingPage">
+            <value>https://demo.ands.org.au</value>
+            <title>My Landing Page for the data</title>
+          </electronic>
+          <physical type="postalAddress">
+            <addressPart type="addressLine">&amp;lt;p&amp;gt; 123 Example St&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt; Canberra ACT 2131&amp;lt;/p&amp;gt;</addressPart>
+          </physical>
+          <electronic type="url" target="directDownload">
+            <value>https://dl.dropboxusercontent.com/u/49073372/RIF16WithError.xml</value>
+            <title>My Direct Download link</title>
+            <mediaType>XML</mediaType>
+            <byteSize>3KB</byteSize>
+          </electronic>
+        </address>
+                <spatial type="kmlPolyCoords">119.707031,-20.468189 152.753906,-32.101190 119.707031,-20.468189</spatial>
+            </location>
+            <coverage>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">2013-01-30T00:00:00Z</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2017-03-03T00:00:00Z</date>
+                </temporal>
+                <spatial type="kmlPolyCoords">143.085938,-22.917923</spatial>
+                <spatial type="kmlPolyCoords">121.640625,-35.173808 150.644531,-20.961440 117.246094,-14.093957 110.390625,-26.273714 127.441406,-20.961440 128.847656,-27.527758 121.640625,-35.173808</spatial>
+            </coverage>
+            <coverage>
+                <spatial type="text">Some place in Australia</spatial>
+            </coverage>
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr1</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject>   
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr2</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr3</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr4</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr5</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr6</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr7</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr8</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr9</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr10</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr11</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr12</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr13</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr14</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr15</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr16</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr17</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr18</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr19</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr20</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr21</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr22</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr23</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr24</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr25</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr26</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr27</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr28</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr29</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr30</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr31</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr32</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr33</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr34</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr35</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr36</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr37</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr38</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr39</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 
+            <relatedObject>
+                <key>AUTestingRecordspersonGr8tr40</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+					<url>http://www.someexampleurl.com</url>
+                </relation>
+            </relatedObject> 			
+            <subject type="local">localSubject</subject>
+            <subject type="anzsrc-seo">830201</subject>
+            <subject type="anzsrc-for">0303</subject>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.123123123</identifier>
+                    <title>Citation Title</title>
+                    <version>V0.2</version>
+                    <placePublished>Australia</placePublished>
+                    <publisher>Some Example Publisher</publisher>
+                    <url>http://www.exapmle.com</url>
+                    <context>Context</context>
+                    <contributor seq="1">
+                        <namePart type="given">Joe Blogs</namePart>
+                    </contributor>
+                    <date type="created">12-12-2001</date>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+	
+	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr1</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 1</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr2</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 2</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr3</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 3</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr4</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 4</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr5</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 5</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr6</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 6</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr7</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 7</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr8</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 8</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr9</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 9</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr10</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 10</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr11</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 11</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr12</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 12</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr13</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 13</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr14</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 14</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr15</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 15</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr16</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 16</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr17</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 17</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr18</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 18</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr19</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 19</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr20</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 20</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr21</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 21</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr22</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 22</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr23</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 23</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr24</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 24</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr25</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 25</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr26</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 26</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr27</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 27</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr28</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 28</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr29</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 29</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr30</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 30</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr31</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 31</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr32</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 32</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr33</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 33</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr34</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 34</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr35</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 35</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr36</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 36</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr37</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 37</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr38</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 38</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr39</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 39</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+  	<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordspersonGr8tr40</key>
+    <originatingSource>nhmrc.gov.au</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart type="family"> Record 40</namePart>
+        <namePart type="given">(AUTestingRecords)Party to test editing greater than 30 records</namePart>
+      </name>
+    </party>
+  </registryObject>
+	</registryObjects>

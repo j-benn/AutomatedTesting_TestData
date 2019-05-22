@@ -1,0 +1,838 @@
+<registryObjects>
+<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordsQualityLevelsActivity7</key>
+    <originatingSource>http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+    <activity type="award" dateModified="2013-04-10T23:51:41Z">
+      <name type="primary">
+        <namePart>Quality Level 3</namePart>
+      </name>
+      <location>
+        <address>
+          <physical type="postalAddress">
+            <addressPart type="telephoneNumber">123456789</addressPart>
+          </physical>
+        </address>
+      </location>
+      <relatedObject>
+        <key>AUTestingRecordsPartyToRelateToForQualityLevelTesting</key>
+        <relation type="hasAssociationWith"/>
+      </relatedObject>
+      <relatedObject>
+        <key>AUTestingRecordsCollectionToRelateToForQualityLevelTesting</key>
+        <relation type="hasOutput"/>
+      </relatedObject>
+      <subject type="anzsrc-for">02</subject>
+      <description type="full">annoying consequences, or one who avoids a pain that produces no resultant pleasure?&amp;amp;amp;#38;amp;quot;&amp;amp;amp;#38;lt;/strong&amp;amp;amp;#38;gt;&amp;amp;amp;#38;lt;/p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;strong&amp;amp;amp;#38;gt;Section 1.10.33 of &amp;amp;amp;#38;amp;quot;de Finibus Bonorum et Malorum&amp;amp;amp;#38;amp;quot;, written by Cicero in 45 BC&amp;amp;amp;#38;lt;/strong&amp;amp;amp;#38;gt;&amp;amp;amp;#38;lt;/p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;amp;nbsp;&amp;amp;amp;#38;lt;/p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;strong&amp;amp;amp;#38;gt;&amp;amp;amp;#38;amp;quot;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est</description>
+      <description type="full">&amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;amp;amp;#38;#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &amp;amp;amp;#38;#39;Content here, content here&amp;amp;amp;#38;#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &amp;amp;amp;#38;#39;lorem ipsum&amp;amp;amp;#38;#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;</description>
+      <existenceDates>
+        <startDate dateFormat="W3CDTF">2013-02-14T00:00:00Z</startDate>
+        <endDate dateFormat="W3CDTF">2013-02-21T00:00:00Z</endDate>
+      </existenceDates>
+    </activity>
+  </registryObject>
+  
+<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordsQualityLevelsParty7</key>
+    <originatingSource>http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+    <party type="person" dateModified="2013-04-10T23:51:37Z">
+      <identifier type="handle">132.132.123.2517</identifier>
+      <name type="primary">
+        <namePart type="given">Quality Level 3</namePart>
+      </name>
+      <location>
+        <address>
+          <physical type="postalAddress">
+            <addressPart type="addressLine">&amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;	123 Example St&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;&amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;	Example NSW 0012&amp;amp;amp;#60;/p&amp;amp;amp;#62;</addressPart>
+          </physical>
+        </address>
+      </location>
+      <relatedObject>
+        <key>AUTestingRecordsCollectionToRelateToForQualityLevelTesting</key>
+        <relation type="isFunderOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>AUTestingRecordsActivityToRelateToForQualityLevelTesting</key>
+        <relation type="isParticipantIn"/>
+      </relatedObject>
+      <subject type="anzsrc-for">020101</subject>
+      <description type="full">annoying consequences, or one who avoids a pain that produces no resultant pleasure?&amp;amp;amp;#38;amp;quot;&amp;amp;amp;#38;lt;/strong&amp;amp;amp;#38;gt;&amp;amp;amp;#38;lt;/p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;strong&amp;amp;amp;#38;gt;Section 1.10.33 of &amp;amp;amp;#38;amp;quot;de Finibus Bonorum et Malorum&amp;amp;amp;#38;amp;quot;, written by Cicero in 45 BC&amp;amp;amp;#38;lt;/strong&amp;amp;amp;#38;gt;&amp;amp;amp;#38;lt;/p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;amp;nbsp;&amp;amp;amp;#38;lt;/p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;strong&amp;amp;amp;#38;gt;&amp;amp;amp;#38;amp;quot;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est</description>
+      <description type="full">&amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;amp;amp;#38;#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &amp;amp;amp;#38;#39;Content here, content here&amp;amp;amp;#38;#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &amp;amp;amp;#38;#39;lorem ipsum&amp;amp;amp;#38;#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;</description>
+      <existenceDates>
+        <startDate dateFormat="W3CDTF">2013-03-01T00:00:00Z</startDate>
+        <endDate dateFormat="W3CDTF">2013-05-30T00:00:00Z</endDate>
+      </existenceDates>
+    </party>
+  </registryObject>
+  
+  <registryObject group="AUTestingRecords">
+    <key>AUTestingRecordsQualityLevelsParty5</key>
+    <originatingSource>http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+    <party type="person" dateModified="2013-04-10T23:51:35Z">
+      <name type="primary">
+        <namePart type="given">Quality Level 1 (Missing related collection for Lvl 2)</namePart>
+      </name>
+      <description type="full">&amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;amp;amp;#38;#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &amp;amp;amp;#38;#39;Content here, content here&amp;amp;amp;#38;#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &amp;amp;amp;#38;#39;lorem ipsum&amp;amp;amp;#38;#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;</description>
+      <description type="researchSupport">researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport</description>
+      <description type="researchDataProflie">researchDataProflieresea rchDataProflie researchDataP roflieresearchDataProflie researchDataProflie researchDataProflie researchDataProflie researchDataProflie</description>
+      <description type="brief">brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief</description>
+      <description type="significanceStatement">significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement</description>
+      <description type="deliverymethod">deliverymethod</description>
+      <description type="logo">https://dl.dropbox.com/u/49073372/LOGO.jpg</description>
+      <description type="note">note note note note note note note note note note note note note note note note note note note note note note note note note note note note note note</description>
+      <description type="researchAreas">researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas</description>
+      <description type="local">local local local local local local local local local local local local local local local local local local local local</description>
+    </party>
+  </registryObject>
+
+
+<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordsQualityLevelsParty6</key>
+    <originatingSource>http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+    <party type="person" dateModified="2013-04-10T23:51:36Z">
+      <name type="primary">
+        <namePart type="given">Quality Level 2 (Missing identifier, location, related activity and existence dates for Lvl 3)</namePart>
+      </name>
+      <relatedObject>
+        <key>AUTestingRecordsCollectionToRelateToForQualityLevelTesting</key>
+        <relation type="isFunderOf"/>
+      </relatedObject>
+      <subject type="anzsrc-for">020101</subject>
+      <description type="full">&amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;amp;amp;#38;#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &amp;amp;amp;#38;#39;Content here, content here&amp;amp;amp;#38;#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &amp;amp;amp;#38;#39;lorem ipsum&amp;amp;amp;#38;#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;</description>
+    </party>
+  </registryObject>
+
+
+<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordsQualityLevelsCollection8</key>
+    <originatingSource>http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+    <collection type="collection" dateModified="2013-04-10T23:51:37Z">
+      <identifier type="doi">10.1234568</identifier>
+      <name type="primary">
+        <namePart>Quality Level 1 (Everything for Lvl 2 except Location Address)</namePart>
+      </name>
+      <relatedObject>
+        <key>AUTestingRecordsPartyToRelateToForQualityLevelTesting</key>
+        <relation type="hasPart"/>
+      </relatedObject>
+      <relatedObject>
+        <key>AUTestingRecordsActivityToRelateToForQualityLevelTesting</key>
+        <relation type="hasPrincipalInvestigator"/>
+      </relatedObject>
+      <subject type="anzsrc-for">0802</subject>
+      <description type="images">&amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;img alt=&amp;amp;amp;#34;&amp;amp;amp;#34; src=&amp;amp;amp;#34;https://dl.dropbox.com/u/49073372/colored-test-tubes-pic.1.jpg&amp;amp;amp;#34; /&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;img alt=&amp;amp;amp;#34;&amp;amp;amp;#34; src=&amp;amp;amp;#34;https://dl.dropbox.com/u/49073372/DSC_4210.jpg&amp;amp;amp;#34; /&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;</description>
+      <description type="full">&amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;amp;amp;#38;#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &amp;amp;amp;#38;#39;Content here, content here&amp;amp;amp;#38;#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &amp;amp;amp;#38;#39;lorem ipsum&amp;amp;amp;#38;#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;</description>
+      <description type="researchSupport">researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport</description>
+      <description type="researchDataProflie">researchDataProflieresea rchDataProflie researchDataP roflieresearchDataProflie researchDataProflie researchDataProflie researchDataProflie researchDataProflie</description>
+      <description type="brief">brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief</description>
+      <description type="significanceStatement">significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement</description>
+      <description type="deliverymethod">deliverymethod</description>
+      <description type="logo">https://dl.dropbox.com/u/49073372/LOGO.jpg</description>
+      <description type="note">note note note note note note note note note note note note note note note note note note note note note note note note note note note note note note</description>
+      <description type="researchAreas">researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas</description>
+      <description type="local">local local local local local local local local local local local local local local local local local local local local</description>
+      <coverage>
+        <spatial type="kmlPolyCoords">124.804688,-21.779905 149.062500,-21.616579 133.066406,-12.897489 124.804688,-21.779905</spatial>
+        <temporal>
+          <date type="dateFrom" dateFormat="W3CDTF">2013-02-09T00:00:00Z</date>
+          <date type="dateTo" dateFormat="W3CDTF">2013-02-23T00:00:00Z</date>
+        </temporal>
+      </coverage>
+      <rights>
+        <rightsStatement>Collections Rights:&amp;amp;amp;#xA;annoying consequences, or one who avoids a pain that produces no resultant pleasure?&amp;amp;amp;#38;quot;&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62; &amp;amp;amp;#60;p&amp;amp;amp;#62; &amp;amp;amp;#60;strong&amp;amp;amp;#62;Section 1.10.33 of &amp;amp;amp;#38;quot;de Finibus Bonorum et Malorum&amp;amp;amp;#38;quot;, written by Cicero in 45 BC&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62; &amp;amp;amp;#60;p&amp;amp;amp;#62; &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62; &amp;amp;amp;#60;p&amp;amp;amp;#62; &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;quot;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est</rightsStatement>
+      </rights>
+      <citationInfo>
+        <citationMetadata>
+          <identifier type="doi">10.123456</identifier>
+          <contributor seq="1">
+            <namePart type="title">Joe</namePart>
+          </contributor>
+          <title>My Citation Title</title>
+          <version>Version 0.2</version>
+          <publisher>Publisher</publisher>
+          <placePublished>Australia</placePublished>
+          <date type="created">12-12-2012</date>
+          <url>http://www.myexample.com</url>
+          <context>Context</context>
+        </citationMetadata>
+      </citationInfo>
+    </collection>
+  </registryObject>
+  
+  <registryObject group="AUTestingRecords">
+    <key>AUTestingRecordsQualityLevelsActivity6</key>
+    <originatingSource>http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+    <activity type="award" dateModified="2013-04-10T23:51:39Z">
+      <name type="primary">
+        <namePart>Quality Level 2 (Missing everything for Lvl 3)</namePart>
+      </name>
+      <relatedObject>
+        <key>AUTestingRecordsPartyToRelateToForQualityLevelTesting</key>
+        <relation type="hasAssociationWith"/>
+      </relatedObject>
+      <description type="full">annoying consequences, or one who avoids a pain that produces no resultant pleasure?&amp;amp;amp;#38;amp;quot;&amp;amp;amp;#38;lt;/strong&amp;amp;amp;#38;gt;&amp;amp;amp;#38;lt;/p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;strong&amp;amp;amp;#38;gt;Section 1.10.33 of &amp;amp;amp;#38;amp;quot;de Finibus Bonorum et Malorum&amp;amp;amp;#38;amp;quot;, written by Cicero in 45 BC&amp;amp;amp;#38;lt;/strong&amp;amp;amp;#38;gt;&amp;amp;amp;#38;lt;/p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;amp;nbsp;&amp;amp;amp;#38;lt;/p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;strong&amp;amp;amp;#38;gt;&amp;amp;amp;#38;amp;quot;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est</description>
+      <description type="full">&amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;amp;amp;#38;#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &amp;amp;amp;#38;#39;Content here, content here&amp;amp;amp;#38;#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &amp;amp;amp;#38;#39;lorem ipsum&amp;amp;amp;#38;#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;</description>
+    </activity>
+  </registryObject>
+  
+  <registryObject group="AUTestingRecords">
+    <key>AUTestingRecordsQualityLevelsCollection9</key>
+    <originatingSource>http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+    <collection type="collection" dateModified="2013-04-10T23:51:40Z">
+      <identifier type="doi">10.1234569</identifier>
+      <name type="primary">
+        <namePart>Quality Level 2 (Everything for Lvl 3 except Dates and Related Activity)</namePart>
+      </name>
+      <location>
+        <address>
+          <physical type="postalAddress">
+            <addressPart type="telephoneNumber">123456789</addressPart>
+          </physical>
+        </address>
+      </location>
+      <relatedObject>
+        <key>AUTestingRecordsPartyToRelateToForQualityLevelTesting</key>
+        <relation type="hasPart"/>
+      </relatedObject>
+      <subject type="anzsrc-for">0802</subject>
+      <description type="full">annoying consequences, or one who avoids a pain that produces no resultant pleasure?&amp;amp;amp;#38;amp;quot;&amp;amp;amp;#38;lt;/strong&amp;amp;amp;#38;gt;&amp;amp;amp;#38;lt;/p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;strong&amp;amp;amp;#38;gt;Section 1.10.33 of &amp;amp;amp;#38;amp;quot;de Finibus Bonorum et Malorum&amp;amp;amp;#38;amp;quot;, written by Cicero in 45 BC&amp;amp;amp;#38;lt;/strong&amp;amp;amp;#38;gt;&amp;amp;amp;#38;lt;/p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;amp;nbsp;&amp;amp;amp;#38;lt;/p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;strong&amp;amp;amp;#38;gt;&amp;amp;amp;#38;amp;quot;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est</description>
+      <description type="full">&amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;amp;amp;#38;#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &amp;amp;amp;#38;#39;Content here, content here&amp;amp;amp;#38;#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &amp;amp;amp;#38;#39;lorem ipsum&amp;amp;amp;#38;#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;</description>
+      <coverage>
+        <spatial type="kmlPolyCoords">124.804688,-21.779905 149.062500,-21.616579 133.066406,-12.897489 124.804688,-21.779905</spatial>
+        <temporal>
+          <date type="dateFrom" dateFormat="W3CDTF">2013-02-09T00:00:00Z</date>
+          <date type="dateTo" dateFormat="W3CDTF">2013-02-23T00:00:00Z</date>
+        </temporal>
+      </coverage>
+      <rights>
+        <rightsStatement>Collections Rights:&amp;amp;amp;#xA;annoying consequences, or one who avoids a pain that produces no resultant pleasure?&amp;amp;amp;#38;quot;&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62; &amp;amp;amp;#60;p&amp;amp;amp;#62; &amp;amp;amp;#60;strong&amp;amp;amp;#62;Section 1.10.33 of &amp;amp;amp;#38;quot;de Finibus Bonorum et Malorum&amp;amp;amp;#38;quot;, written by Cicero in 45 BC&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62; &amp;amp;amp;#60;p&amp;amp;amp;#62; &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62; &amp;amp;amp;#60;p&amp;amp;amp;#62; &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;quot;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est</rightsStatement>
+      </rights>
+      <citationInfo>
+        <citationMetadata>
+          <identifier type="doi">10.123456</identifier>
+          <contributor seq="1">
+            <namePart type="title">Joe</namePart>
+          </contributor>
+          <title>My Citation Title</title>
+          <version>Version 0.2</version>
+          <publisher>Publisher</publisher>
+          <placePublished>Australia</placePublished>
+          <date type="created">12-12-2012</date>
+          <url>http://www.myexample.com</url>
+          <context>Context</context>
+        </citationMetadata>
+      </citationInfo>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordsQualityLevelsCollection10</key>
+    <originatingSource>http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+    <collection type="collection" dateModified="2013-04-10T23:51:41Z">
+      <identifier type="doi">10.12345610</identifier>
+      <dates type="dc.available">
+        <date type="dateFrom" dateFormat="W3CDTF">2013-02-02T00:00:00Z</date>
+      </dates>
+      <name type="primary">
+        <namePart>Quality Level 3</namePart>
+      </name>
+      <location>
+        <address>
+          <physical type="postalAddress">
+            <addressPart type="telephoneNumber">123456789</addressPart>
+          </physical>
+        </address>
+      </location>
+      <relatedObject>
+        <key>AUTestingRecordsPartyToRelateToForQualityLevelTesting</key>
+        <relation type="hasPart"/>
+      </relatedObject>
+      <relatedObject>
+        <key>AUTestingRecordsActivityToRelateToForQualityLevelTesting</key>
+        <relation type="hasPrincipalInvestigator"/>
+      </relatedObject>
+      <relatedObject>
+        <key>Activity35</key>
+        <relation type="hasOutput"/>
+      </relatedObject>
+      <relatedObject>
+        <key>Activity34</key>
+        <relation type="hasOutput"/>
+      </relatedObject>
+      <relatedObject>
+        <key>Activity33</key>
+        <relation type="hasOutput"/>
+      </relatedObject>
+      <relatedObject>
+        <key>Activity32</key>
+        <relation type="hasOutput"/>
+      </relatedObject>
+      <relatedObject>
+        <key>Activity31</key>
+        <relation type="hasOutput"/>
+      </relatedObject>
+      <relatedObject>
+        <key>Activity30</key>
+        <relation type="hasOutput"/>
+      </relatedObject>
+      <subject type="anzsrc-for">0802</subject>
+      <description type="full">annoying consequences, or one who avoids a pain that produces no resultant pleasure?&amp;amp;amp;#38;amp;quot;&amp;amp;amp;#38;lt;/strong&amp;amp;amp;#38;gt;&amp;amp;amp;#38;lt;/p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;strong&amp;amp;amp;#38;gt;Section 1.10.33 of &amp;amp;amp;#38;amp;quot;de Finibus Bonorum et Malorum&amp;amp;amp;#38;amp;quot;, written by Cicero in 45 BC&amp;amp;amp;#38;lt;/strong&amp;amp;amp;#38;gt;&amp;amp;amp;#38;lt;/p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;amp;nbsp;&amp;amp;amp;#38;lt;/p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;strong&amp;amp;amp;#38;gt;&amp;amp;amp;#38;amp;quot;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est</description>
+      <description type="full">&amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;amp;amp;#38;#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &amp;amp;amp;#38;#39;Content here, content here&amp;amp;amp;#38;#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &amp;amp;amp;#38;#39;lorem ipsum&amp;amp;amp;#38;#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &amp;amp;amp;#38;quot;de Finibus Bonorum et Malorum&amp;amp;amp;#38;quot; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &amp;amp;amp;#38;quot;Lorem ipsum dolor sit amet..&amp;amp;amp;#38;quot;, comes from a line in section 1.10.32.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from &amp;amp;amp;#38;quot;de Finibus Bonorum et Malorum&amp;amp;amp;#38;quot; by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&amp;amp;amp;#38;#39;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&amp;amp;amp;#38;#39;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp; paragraphs&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp; words&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp; bytes&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp; lists&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Start with &amp;amp;amp;#38;#39;Lorem&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;ipsum dolor sit amet...&amp;amp;amp;#38;#39;&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Design Your Website&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Translations: Can you help translate this site into a foreign language ? Please email us with details if you can help.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;There are now a set of mock banners available here in three colours and in a range of standard banner sizes:&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Banners Banners Banners&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Donate: If you use this site regularly and would like to help keep the site on the Internet, please consider donating a small sum to help pay for the hosting and bandwidth bill. There is no minimum donation, any sum is appreciated - click here to donate using PayPal. Thank you for your support.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Chrome Firefox Add-on NodeJS TeX Package Java Class Python Interface GTK Lipsum Rails Groovy&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;The standard Lorem Ipsum passage, used since the 1500s&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&amp;amp;amp;#38;quot;&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Section 1.10.32 of &amp;amp;amp;#38;quot;de Finibus Bonorum et Malorum&amp;amp;amp;#38;quot;, written by Cicero in 45 BC&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;quot;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?&amp;amp;amp;#38;quot;&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;1914 translation by H. Rackham&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;quot;But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?&amp;amp;amp;#38;quot;&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Section 1.10.33 of &amp;amp;amp;#38;quot;de Finibus Bonorum et Malorum&amp;amp;amp;#38;quot;, written by Cicero in 45 BC&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;quot;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.&amp;amp;amp;#38;quot;&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;1914 translation by H. Rackham&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;quot;On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every</description>
+      <description type="researchSupport">researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport</description>
+      <description type="researchDataProflie">researchDataProflieresea rchDataProflie researchDataP roflieresearchDataProflie researchDataProflie researchDataProflie researchDataProflie researchDataProflie</description>
+      <description type="brief">brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief</description>
+      <description type="significanceStatement">significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement</description>
+      <description type="deliverymethod">deliverymethod</description>
+      <description type="logo">https://dl.dropbox.com/u/49073372/LOGO.jpg</description>
+      <description type="note">note note note note note note note note note note note note note note note note note note note note note note note note note note note note note note</description>
+      <description type="researchAreas">researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas</description>
+      <description type="local">local local local local local local local local local local local local local local local local local local local local</description>
+      <coverage>
+        <spatial type="kmlPolyCoords">143.085938,-22.917923</spatial>
+        <spatial type="kmlPolyCoords">121.640625,-35.173808 150.644531,-20.961440 117.246094,-14.093957 110.390625,-26.273714 127.441406,-20.961440 128.847656,-27.527758 121.640625,-35.173808</spatial>
+        <temporal>
+          <text>Temporal Text</text>
+          <date type="dateFrom" dateFormat="W3CDTF">2013-01-30T00:00:00Z</date>
+          <date type="dateTo" dateFormat="W3CDTF">2017-03-03T00:00:00Z</date>
+        </temporal>
+      </coverage>
+      <coverage>
+        <spatial type="kmlPolyCoords">124.804688,-21.779905 149.062500,-21.616579 133.066406,-12.897489 124.804688,-21.779905</spatial>
+        <temporal>
+          <date type="dateFrom" dateFormat="W3CDTF">2013-02-09T00:00:00Z</date>
+          <date type="dateTo" dateFormat="W3CDTF">2013-02-23T00:00:00Z</date>
+        </temporal>
+      </coverage>
+      <rights>
+        <rightsStatement>Collections Rights:&amp;amp;amp;#xA;annoying consequences, or one who avoids a pain that produces no resultant pleasure?&amp;amp;amp;#38;quot;&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62; &amp;amp;amp;#60;p&amp;amp;amp;#62; &amp;amp;amp;#60;strong&amp;amp;amp;#62;Section 1.10.33 of &amp;amp;amp;#38;quot;de Finibus Bonorum et Malorum&amp;amp;amp;#38;quot;, written by Cicero in 45 BC&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62; &amp;amp;amp;#60;p&amp;amp;amp;#62; &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62; &amp;amp;amp;#60;p&amp;amp;amp;#62; &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;quot;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est</rightsStatement>
+      </rights>
+      <citationInfo>
+        <citationMetadata>
+          <identifier type="doi">10.123123123</identifier>
+          <contributor seq="1">
+            <namePart type="given">Joe Blogs</namePart>
+          </contributor>
+          <title>Citation Title</title>
+          <version>V0.2</version>
+          <publisher>Some Example Publisher</publisher>
+          <placePublished>Australia</placePublished>
+          <date type="created">12-12-2001</date>
+          <url>http://www.exapmle.com</url>
+          <context>Context</context>
+        </citationMetadata>
+      </citationInfo>
+      <citationInfo>
+        <citationMetadata>
+          <identifier type="doi">10.123456</identifier>
+          <contributor seq="1">
+            <namePart type="title">Joe</namePart>
+          </contributor>
+          <title>My Citation Title</title>
+          <version>Version 0.2</version>
+          <publisher>Publisher</publisher>
+          <placePublished>Australia</placePublished>
+          <date type="created">12-12-2012</date>
+          <url>http://www.myexample.com</url>
+          <context>Context</context>
+        </citationMetadata>
+      </citationInfo>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordsQualityLevelsActivity5</key>
+    <originatingSource>http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+    <activity type="award" dateModified="2013-04-10T23:51:42Z">
+      <name type="primary">
+        <namePart>Quality Level 1 (Everything for Lvl 2 except a related Activity)</namePart>
+      </name>
+      <description type="images">&amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;img alt=&amp;amp;amp;#34;&amp;amp;amp;#34; src=&amp;amp;amp;#34;https://dl.dropbox.com/u/49073372/colored-test-tubes-pic.1.jpg&amp;amp;amp;#34; /&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;img alt=&amp;amp;amp;#34;&amp;amp;amp;#34; src=&amp;amp;amp;#34;https://dl.dropbox.com/u/49073372/DSC_4210.jpg&amp;amp;amp;#34; /&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;</description>
+      <description type="full">&amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;amp;amp;#38;#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &amp;amp;amp;#38;#39;Content here, content here&amp;amp;amp;#38;#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &amp;amp;amp;#38;#39;lorem ipsum&amp;amp;amp;#38;#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &amp;amp;amp;#38;quot;de Finibus Bonorum et Malorum&amp;amp;amp;#38;quot; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &amp;amp;amp;#38;quot;Lorem ipsum dolor sit amet..&amp;amp;amp;#38;quot;, comes from a line in section 1.10.32.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from &amp;amp;amp;#38;quot;de Finibus Bonorum et Malorum&amp;amp;amp;#38;quot; by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&amp;amp;amp;#38;#39;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&amp;amp;amp;#38;#39;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp; paragraphs&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp; words&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp; bytes&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp; lists&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Start with &amp;amp;amp;#38;#39;Lorem&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;ipsum dolor sit amet...&amp;amp;amp;#38;#39;&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Design Your Website&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Translations: Can you help translate this site into a foreign language ? Please email us with details if you can help.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;There are now a set of mock banners available here in three colours and in a range of standard banner sizes:&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Banners Banners Banners&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Donate: If you use this site regularly and would like to help keep the site on the Internet, please consider donating a small sum to help pay for the hosting and bandwidth bill. There is no minimum donation, any sum is appreciated - click here to donate using PayPal. Thank you for your support.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Chrome Firefox Add-on NodeJS TeX Package Java Class Python Interface GTK Lipsum Rails Groovy&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;The standard Lorem Ipsum passage, used since the 1500s&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&amp;amp;amp;#38;quot;&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Section 1.10.32 of &amp;amp;amp;#38;quot;de Finibus Bonorum et Malorum&amp;amp;amp;#38;quot;, written by Cicero in 45 BC&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;quot;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?&amp;amp;amp;#38;quot;&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;1914 translation by H. Rackham&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;quot;But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?&amp;amp;amp;#38;quot;&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Section 1.10.33 of &amp;amp;amp;#38;quot;de Finibus Bonorum et Malorum&amp;amp;amp;#38;quot;, written by Cicero in 45 BC&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;quot;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.&amp;amp;amp;#38;quot;&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;1914 translation by H. Rackham&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;quot;On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every</description>
+    </activity>
+  </registryObject>
+  
+  <registryObject group="AUTestingRecords">
+    <key>AUTestingRecordsQualityLevelsActivity7_demo</key>
+    <originatingSource>http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+    <activity type="award" dateModified="2013-04-10T23:51:41Z">
+      <name type="primary">
+        <namePart>Quality Level 3</namePart>
+      </name>
+      <location>
+        <address>
+          <physical type="postalAddress">
+            <addressPart type="telephoneNumber">123456789</addressPart>
+          </physical>
+        </address>
+      </location>
+      <relatedObject>
+        <key>AUTestingRecordsPartyToRelateToForQualityLevelTesting</key>
+        <relation type="hasAssociationWith"/>
+      </relatedObject>
+      <relatedObject>
+        <key>AUTestingRecordsCollectionToRelateToForQualityLevelTesting</key>
+        <relation type="hasOutput"/>
+      </relatedObject>
+      <subject type="anzsrc-for">02</subject>
+      <description type="full">annoying consequences, or one who avoids a pain that produces no resultant pleasure?&amp;amp;amp;#38;amp;quot;&amp;amp;amp;#38;lt;/strong&amp;amp;amp;#38;gt;&amp;amp;amp;#38;lt;/p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;strong&amp;amp;amp;#38;gt;Section 1.10.33 of &amp;amp;amp;#38;amp;quot;de Finibus Bonorum et Malorum&amp;amp;amp;#38;amp;quot;, written by Cicero in 45 BC&amp;amp;amp;#38;lt;/strong&amp;amp;amp;#38;gt;&amp;amp;amp;#38;lt;/p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;amp;nbsp;&amp;amp;amp;#38;lt;/p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;strong&amp;amp;amp;#38;gt;&amp;amp;amp;#38;amp;quot;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est</description>
+      <description type="full">&amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;amp;amp;#38;#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &amp;amp;amp;#38;#39;Content here, content here&amp;amp;amp;#38;#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &amp;amp;amp;#38;#39;lorem ipsum&amp;amp;amp;#38;#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;</description>
+      <existenceDates>
+        <startDate dateFormat="W3CDTF">2013-02-14T00:00:00Z</startDate>
+        <endDate dateFormat="W3CDTF">2013-02-21T00:00:00Z</endDate>
+      </existenceDates>
+    </activity>
+  </registryObject>
+  
+  <registryObject group="AUTestingRecords">
+    <key>AUTestingRecordsQualityLevelsParty7_demo</key>
+    <originatingSource>http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+    <party type="person" dateModified="2013-04-10T23:51:37Z">
+      <identifier type="handle">132.132.123.2517d</identifier>
+      <name type="primary">
+        <namePart type="given">Quality Level 3</namePart>
+      </name>
+      <location>
+        <address>
+          <physical type="postalAddress">
+            <addressPart type="addressLine">&amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;	123 Example St&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;&amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;	Example NSW 0012&amp;amp;amp;#60;/p&amp;amp;amp;#62;</addressPart>
+          </physical>
+        </address>
+      </location>
+      <relatedObject>
+        <key>AUTestingRecordsCollectionToRelateToForQualityLevelTesting</key>
+        <relation type="isFunderOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>AUTestingRecordsActivityToRelateToForQualityLevelTesting</key>
+        <relation type="isParticipantIn"/>
+      </relatedObject>
+      <subject type="anzsrc-for">020101</subject>
+      <description type="full">annoying consequences, or one who avoids a pain that produces no resultant pleasure?&amp;amp;amp;#38;amp;quot;&amp;amp;amp;#38;lt;/strong&amp;amp;amp;#38;gt;&amp;amp;amp;#38;lt;/p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;strong&amp;amp;amp;#38;gt;Section 1.10.33 of &amp;amp;amp;#38;amp;quot;de Finibus Bonorum et Malorum&amp;amp;amp;#38;amp;quot;, written by Cicero in 45 BC&amp;amp;amp;#38;lt;/strong&amp;amp;amp;#38;gt;&amp;amp;amp;#38;lt;/p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;amp;nbsp;&amp;amp;amp;#38;lt;/p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;strong&amp;amp;amp;#38;gt;&amp;amp;amp;#38;amp;quot;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est</description>
+      <description type="full">&amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;amp;amp;#38;#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &amp;amp;amp;#38;#39;Content here, content here&amp;amp;amp;#38;#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &amp;amp;amp;#38;#39;lorem ipsum&amp;amp;amp;#38;#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;</description>
+      <existenceDates>
+        <startDate dateFormat="W3CDTF">2013-03-01T00:00:00Z</startDate>
+        <endDate dateFormat="W3CDTF">2013-05-30T00:00:00Z</endDate>
+      </existenceDates>
+    </party>
+  </registryObject>
+  
+  <registryObject group="AUTestingRecords">
+    <key>AUTestingRecordsQualityLevelsParty5_demo</key>
+    <originatingSource>http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+    <party type="person" dateModified="2013-04-10T23:51:35Z">
+      <name type="primary">
+        <namePart type="given">Quality Level 1 (Missing Related Collection for Lvl 2)</namePart>
+      </name>
+      <description type="full">&amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;amp;amp;#38;#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &amp;amp;amp;#38;#39;Content here, content here&amp;amp;amp;#38;#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &amp;amp;amp;#38;#39;lorem ipsum&amp;amp;amp;#38;#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;</description>
+      <description type="researchSupport">researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport</description>
+      <description type="researchDataProflie">researchDataProflieresea rchDataProflie researchDataP roflieresearchDataProflie researchDataProflie researchDataProflie researchDataProflie researchDataProflie</description>
+      <description type="brief">brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief</description>
+      <description type="significanceStatement">significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement</description>
+      <description type="deliverymethod">deliverymethod</description>
+      <description type="logo">https://dl.dropbox.com/u/49073372/LOGO.jpg</description>
+      <description type="note">note note note note note note note note note note note note note note note note note note note note note note note note note note note note note note</description>
+      <description type="researchAreas">researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas</description>
+      <description type="local">local local local local local local local local local local local local local local local local local local local local</description>
+    </party>
+  </registryObject>
+
+
+<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordsQualityLevelsParty6_demo</key>
+    <originatingSource>http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+    <party type="person" dateModified="2013-04-10T23:51:36Z">
+      <name type="primary">
+        <namePart type="given">Quality Level 2 (Missing identifier, location, related activity and existence dates for Lvl 3)</namePart>
+      </name>
+      <relatedObject>
+        <key>AUTestingRecordsCollectionToRelateToForQualityLevelTesting</key>
+        <relation type="isFunderOf"/>
+      </relatedObject>
+      <subject type="anzsrc-for">020101</subject>
+      <description type="full">&amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;amp;amp;#38;#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &amp;amp;amp;#38;#39;Content here, content here&amp;amp;amp;#38;#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &amp;amp;amp;#38;#39;lorem ipsum&amp;amp;amp;#38;#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;</description>
+    </party>
+  </registryObject>
+
+
+<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordsQualityLevelsCollection8_demo</key>
+    <originatingSource>http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+    <collection type="collection" dateModified="2013-04-10T23:51:37Z">
+      <identifier type="doi">10.1234568d</identifier>
+      <name type="primary">
+        <namePart>Quality Level 1 (Missing Location Address for Lvl 2)</namePart>
+      </name>
+      <relatedObject>
+        <key>AUTestingRecordsPartyToRelateToForQualityLevelTesting</key>
+        <relation type="hasPart"/>
+      </relatedObject>
+      <relatedObject>
+        <key>AUTestingRecordsActivityToRelateToForQualityLevelTesting</key>
+        <relation type="hasPrincipalInvestigator"/>
+      </relatedObject>
+      <subject type="anzsrc-for">0802</subject>
+      <description type="images">&amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;img alt=&amp;amp;amp;#34;&amp;amp;amp;#34; src=&amp;amp;amp;#34;https://dl.dropbox.com/u/49073372/colored-test-tubes-pic.1.jpg&amp;amp;amp;#34; /&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;img alt=&amp;amp;amp;#34;&amp;amp;amp;#34; src=&amp;amp;amp;#34;https://dl.dropbox.com/u/49073372/DSC_4210.jpg&amp;amp;amp;#34; /&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;</description>
+      <description type="full">&amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;amp;amp;#38;#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &amp;amp;amp;#38;#39;Content here, content here&amp;amp;amp;#38;#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &amp;amp;amp;#38;#39;lorem ipsum&amp;amp;amp;#38;#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;</description>
+      <description type="researchSupport">researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport</description>
+      <description type="researchDataProflie">researchDataProflieresea rchDataProflie researchDataP roflieresearchDataProflie researchDataProflie researchDataProflie researchDataProflie researchDataProflie</description>
+      <description type="brief">brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief</description>
+      <description type="significanceStatement">significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement</description>
+      <description type="deliverymethod">deliverymethod</description>
+      <description type="logo">https://dl.dropbox.com/u/49073372/LOGO.jpg</description>
+      <description type="note">note note note note note note note note note note note note note note note note note note note note note note note note note note note note note note</description>
+      <description type="researchAreas">researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas</description>
+      <description type="local">local local local local local local local local local local local local local local local local local local local local</description>
+      <coverage>
+        <spatial type="kmlPolyCoords">124.804688,-21.779905 149.062500,-21.616579 133.066406,-12.897489 124.804688,-21.779905</spatial>
+        <temporal>
+          <date type="dateFrom" dateFormat="W3CDTF">2013-02-09T00:00:00Z</date>
+          <date type="dateTo" dateFormat="W3CDTF">2013-02-23T00:00:00Z</date>
+        </temporal>
+      </coverage>
+      <rights>
+        <rightsStatement>Collections Rights:&amp;amp;amp;#xA;annoying consequences, or one who avoids a pain that produces no resultant pleasure?&amp;amp;amp;#38;quot;&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62; &amp;amp;amp;#60;p&amp;amp;amp;#62; &amp;amp;amp;#60;strong&amp;amp;amp;#62;Section 1.10.33 of &amp;amp;amp;#38;quot;de Finibus Bonorum et Malorum&amp;amp;amp;#38;quot;, written by Cicero in 45 BC&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62; &amp;amp;amp;#60;p&amp;amp;amp;#62; &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62; &amp;amp;amp;#60;p&amp;amp;amp;#62; &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;quot;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est</rightsStatement>
+      </rights>
+      <citationInfo>
+        <citationMetadata>
+          <identifier type="doi">10.123456</identifier>
+          <contributor seq="1">
+            <namePart type="title">Joe</namePart>
+          </contributor>
+          <title>My Citation Title</title>
+          <version>Version 0.2</version>
+          <publisher>Publisher</publisher>
+          <placePublished>Australia</placePublished>
+          <date type="created">12-12-2012</date>
+          <url>http://www.myexample.com</url>
+          <context>Context</context>
+        </citationMetadata>
+      </citationInfo>
+    </collection>
+  </registryObject>
+  
+  <registryObject group="AUTestingRecords">
+    <key>AUTestingRecordsQualityLevelsActivity6_demo</key>
+    <originatingSource>http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+    <activity type="award" dateModified="2013-04-10T23:51:39Z">
+      <name type="primary">
+        <namePart>Quality Level 2 (Missing everything for Lvl 3)</namePart>
+      </name>
+      <relatedObject>
+        <key>AUTestingRecordsPartyToRelateToForQualityLevelTesting</key>
+        <relation type="hasAssociationWith"/>
+      </relatedObject>
+      <description type="full">annoying consequences, or one who avoids a pain that produces no resultant pleasure?&amp;amp;amp;#38;amp;quot;&amp;amp;amp;#38;lt;/strong&amp;amp;amp;#38;gt;&amp;amp;amp;#38;lt;/p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;strong&amp;amp;amp;#38;gt;Section 1.10.33 of &amp;amp;amp;#38;amp;quot;de Finibus Bonorum et Malorum&amp;amp;amp;#38;amp;quot;, written by Cicero in 45 BC&amp;amp;amp;#38;lt;/strong&amp;amp;amp;#38;gt;&amp;amp;amp;#38;lt;/p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;amp;nbsp;&amp;amp;amp;#38;lt;/p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;strong&amp;amp;amp;#38;gt;&amp;amp;amp;#38;amp;quot;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est</description>
+      <description type="full">&amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;amp;amp;#38;#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &amp;amp;amp;#38;#39;Content here, content here&amp;amp;amp;#38;#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &amp;amp;amp;#38;#39;lorem ipsum&amp;amp;amp;#38;#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;</description>
+    </activity>
+  </registryObject>
+
+
+<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordsQualityLevelsCollection9_demo</key>
+    <originatingSource>http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+    <collection type="collection" dateModified="2013-04-10T23:51:40Z">
+      <identifier type="doi">10.1234569d</identifier>
+      <name type="primary">
+        <namePart>Quality Level 2 (Has everything except dates element for Lvl3)</namePart>
+      </name>
+      <location>
+        <address>
+          <physical type="postalAddress">
+            <addressPart type="telephoneNumber">123456789</addressPart>
+          </physical>
+        </address>
+      </location>
+      <relatedObject>
+        <key>AUTestingRecordsPartyToRelateToForQualityLevelTesting</key>
+        <relation type="hasPart"/>
+      </relatedObject>
+      <subject type="anzsrc-for">0802</subject>
+      <description type="full">annoying consequences, or one who avoids a pain that produces no resultant pleasure?&amp;amp;amp;#38;amp;quot;&amp;amp;amp;#38;lt;/strong&amp;amp;amp;#38;gt;&amp;amp;amp;#38;lt;/p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;strong&amp;amp;amp;#38;gt;Section 1.10.33 of &amp;amp;amp;#38;amp;quot;de Finibus Bonorum et Malorum&amp;amp;amp;#38;amp;quot;, written by Cicero in 45 BC&amp;amp;amp;#38;lt;/strong&amp;amp;amp;#38;gt;&amp;amp;amp;#38;lt;/p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;amp;nbsp;&amp;amp;amp;#38;lt;/p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;strong&amp;amp;amp;#38;gt;&amp;amp;amp;#38;amp;quot;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est</description>
+      <description type="full">&amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;amp;amp;#38;#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &amp;amp;amp;#38;#39;Content here, content here&amp;amp;amp;#38;#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &amp;amp;amp;#38;#39;lorem ipsum&amp;amp;amp;#38;#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;</description>
+      <coverage>
+        <spatial type="kmlPolyCoords">124.804688,-21.779905 149.062500,-21.616579 133.066406,-12.897489 124.804688,-21.779905</spatial>
+        <temporal>
+          <date type="dateFrom" dateFormat="W3CDTF">2013-02-09T00:00:00Z</date>
+          <date type="dateTo" dateFormat="W3CDTF">2013-02-23T00:00:00Z</date>
+        </temporal>
+      </coverage>
+      <rights>
+        <rightsStatement>Collections Rights:&amp;amp;amp;#xA;annoying consequences, or one who avoids a pain that produces no resultant pleasure?&amp;amp;amp;#38;quot;&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62; &amp;amp;amp;#60;p&amp;amp;amp;#62; &amp;amp;amp;#60;strong&amp;amp;amp;#62;Section 1.10.33 of &amp;amp;amp;#38;quot;de Finibus Bonorum et Malorum&amp;amp;amp;#38;quot;, written by Cicero in 45 BC&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62; &amp;amp;amp;#60;p&amp;amp;amp;#62; &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62; &amp;amp;amp;#60;p&amp;amp;amp;#62; &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;quot;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est</rightsStatement>
+      </rights>
+      <citationInfo>
+        <citationMetadata>
+          <identifier type="doi">10.123456</identifier>
+          <contributor seq="1">
+            <namePart type="title">Joe</namePart>
+          </contributor>
+          <title>My Citation Title</title>
+          <version>Version 0.2</version>
+          <publisher>Publisher</publisher>
+          <placePublished>Australia</placePublished>
+          <date type="created">12-12-2012</date>
+          <url>http://www.myexample.com</url>
+          <context>Context</context>
+        </citationMetadata>
+      </citationInfo>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordsQualityLevelsCollection10_demo</key>
+    <originatingSource>http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+    <collection type="collection" dateModified="2013-04-10T23:51:41Z">
+      <identifier type="doi">10.12345610d</identifier>
+      <dates type="dc.available">
+        <date type="dateFrom" dateFormat="W3CDTF">2013-02-02T00:00:00Z</date>
+      </dates>
+      <name type="primary">
+        <namePart>Quality Level 3 (RelatedInfo Relationships)</namePart>
+      </name>
+      <location>
+        <address>
+          <physical type="postalAddress">
+            <addressPart type="telephoneNumber">123456789</addressPart>
+          </physical>
+        </address>
+      </location>
+      <subject type="anzsrc-for">0802</subject>
+      <description type="full">annoying consequences, or one who avoids a pain that produces no resultant pleasure?&amp;amp;amp;#38;amp;quot;&amp;amp;amp;#38;lt;/strong&amp;amp;amp;#38;gt;&amp;amp;amp;#38;lt;/p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;strong&amp;amp;amp;#38;gt;Section 1.10.33 of &amp;amp;amp;#38;amp;quot;de Finibus Bonorum et Malorum&amp;amp;amp;#38;amp;quot;, written by Cicero in 45 BC&amp;amp;amp;#38;lt;/strong&amp;amp;amp;#38;gt;&amp;amp;amp;#38;lt;/p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;amp;nbsp;&amp;amp;amp;#38;lt;/p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;p&amp;amp;amp;#38;gt; &amp;amp;amp;#38;lt;strong&amp;amp;amp;#38;gt;&amp;amp;amp;#38;amp;quot;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est</description>
+      <description type="full">&amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;amp;amp;#38;#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &amp;amp;amp;#38;#39;Content here, content here&amp;amp;amp;#38;#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &amp;amp;amp;#38;#39;lorem ipsum&amp;amp;amp;#38;#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &amp;amp;amp;#38;quot;de Finibus Bonorum et Malorum&amp;amp;amp;#38;quot; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &amp;amp;amp;#38;quot;Lorem ipsum dolor sit amet..&amp;amp;amp;#38;quot;, comes from a line in section 1.10.32.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from &amp;amp;amp;#38;quot;de Finibus Bonorum et Malorum&amp;amp;amp;#38;quot; by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&amp;amp;amp;#38;#39;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&amp;amp;amp;#38;#39;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp; paragraphs&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp; words&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp; bytes&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp; lists&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Start with &amp;amp;amp;#38;#39;Lorem&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;ipsum dolor sit amet...&amp;amp;amp;#38;#39;&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Design Your Website&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Translations: Can you help translate this site into a foreign language ? Please email us with details if you can help.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;There are now a set of mock banners available here in three colours and in a range of standard banner sizes:&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Banners Banners Banners&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Donate: If you use this site regularly and would like to help keep the site on the Internet, please consider donating a small sum to help pay for the hosting and bandwidth bill. There is no minimum donation, any sum is appreciated - click here to donate using PayPal. Thank you for your support.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Chrome Firefox Add-on NodeJS TeX Package Java Class Python Interface GTK Lipsum Rails Groovy&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;The standard Lorem Ipsum passage, used since the 1500s&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&amp;amp;amp;#38;quot;&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Section 1.10.32 of &amp;amp;amp;#38;quot;de Finibus Bonorum et Malorum&amp;amp;amp;#38;quot;, written by Cicero in 45 BC&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;quot;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?&amp;amp;amp;#38;quot;&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;1914 translation by H. Rackham&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;quot;But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?&amp;amp;amp;#38;quot;&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Section 1.10.33 of &amp;amp;amp;#38;quot;de Finibus Bonorum et Malorum&amp;amp;amp;#38;quot;, written by Cicero in 45 BC&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;quot;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.&amp;amp;amp;#38;quot;&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;1914 translation by H. Rackham&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;quot;On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every</description>
+      <description type="researchSupport">researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport</description>
+      <description type="researchDataProflie">researchDataProflieresea rchDataProflie researchDataP roflieresearchDataProflie researchDataProflie researchDataProflie researchDataProflie researchDataProflie</description>
+      <description type="brief">brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief</description>
+      <description type="significanceStatement">significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement significanceStatement</description>
+      <description type="deliverymethod">deliverymethod</description>
+      <description type="logo">https://dl.dropbox.com/u/49073372/LOGO.jpg</description>
+      <description type="note">note note note note note note note note note note note note note note note note note note note note note note note note note note note note note note</description>
+      <description type="researchAreas">researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas</description>
+      <description type="local">local local local local local local local local local local local local local local local local local local local local</description>
+      <coverage>
+        <spatial type="kmlPolyCoords">143.085938,-22.917923</spatial>
+        <spatial type="kmlPolyCoords">121.640625,-35.173808 150.644531,-20.961440 117.246094,-14.093957 110.390625,-26.273714 127.441406,-20.961440 128.847656,-27.527758 121.640625,-35.173808</spatial>
+        <temporal>
+          <text>Temporal Text</text>
+          <date type="dateFrom" dateFormat="W3CDTF">2013-01-30T00:00:00Z</date>
+          <date type="dateTo" dateFormat="W3CDTF">2017-03-03T00:00:00Z</date>
+        </temporal>
+      </coverage>
+      <coverage>
+        <spatial type="kmlPolyCoords">124.804688,-21.779905 149.062500,-21.616579 133.066406,-12.897489 124.804688,-21.779905</spatial>
+        <temporal>
+          <date type="dateFrom" dateFormat="W3CDTF">2013-02-09T00:00:00Z</date>
+          <date type="dateTo" dateFormat="W3CDTF">2013-02-23T00:00:00Z</date>
+        </temporal>
+      </coverage>
+      <rights>
+        <rightsStatement>Collections Rights:&amp;amp;amp;#xA;annoying consequences, or one who avoids a pain that produces no resultant pleasure?&amp;amp;amp;#38;quot;&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62; &amp;amp;amp;#60;p&amp;amp;amp;#62; &amp;amp;amp;#60;strong&amp;amp;amp;#62;Section 1.10.33 of &amp;amp;amp;#38;quot;de Finibus Bonorum et Malorum&amp;amp;amp;#38;quot;, written by Cicero in 45 BC&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62; &amp;amp;amp;#60;p&amp;amp;amp;#62; &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62; &amp;amp;amp;#60;p&amp;amp;amp;#62; &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;quot;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est</rightsStatement>
+      </rights>
+      <citationInfo>
+        <citationMetadata>
+          <identifier type="doi">10.123123123</identifier>
+          <contributor seq="1">
+            <namePart type="given">Joe Blogs</namePart>
+          </contributor>
+          <title>Citation Title</title>
+          <version>V0.2</version>
+          <publisher>Some Example Publisher</publisher>
+          <placePublished>Australia</placePublished>
+          <date type="created">12-12-2001</date>
+          <url>http://www.exapmle.com</url>
+          <context>Context</context>
+        </citationMetadata>
+      </citationInfo>
+      <citationInfo>
+        <citationMetadata>
+          <identifier type="doi">10.123456</identifier>
+          <contributor seq="1">
+            <namePart type="title">Joe</namePart>
+          </contributor>
+          <title>My Citation Title</title>
+          <version>Version 0.2</version>
+          <publisher>Publisher</publisher>
+          <placePublished>Australia</placePublished>
+          <date type="created">12-12-2012</date>
+          <url>http://www.myexample.com</url>
+          <context>Context</context>
+        </citationMetadata>
+      </citationInfo>
+	   <relatedInfo type="party">
+        <identifier type="uri">AUTestingRecordsPartyToRelateToForQualityLevelTestingIdentifier</identifier>
+        <relation type="hasPart"/>
+      </relatedInfo>
+      <relatedInfo  type="activity">
+        <identifier type="uri">AUTestingRecordsActivityToRelateToForQualityLevelTestingIdentifier</identifier>
+        <relation type="hasPrincipalInvestigator"/>
+      </relatedInfo>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordsQualityLevelsActivity5_demo</key>
+    <originatingSource>http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+    <activity type="award" dateModified="2013-04-10T23:51:42Z">
+      <name type="primary">
+        <namePart>Quality Level 1 (Missing related activity for Lvl 2)</namePart>
+      </name>
+      <description type="images">&amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;img alt=&amp;amp;amp;#34;&amp;amp;amp;#34; src=&amp;amp;amp;#34;https://dl.dropbox.com/u/49073372/colored-test-tubes-pic.1.jpg&amp;amp;amp;#34; /&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;img alt=&amp;amp;amp;#34;&amp;amp;amp;#34; src=&amp;amp;amp;#34;https://dl.dropbox.com/u/49073372/DSC_4210.jpg&amp;amp;amp;#34; /&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;</description>
+      <description type="full">&amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;amp;amp;#38;#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &amp;amp;amp;#38;#39;Content here, content here&amp;amp;amp;#38;#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &amp;amp;amp;#38;#39;lorem ipsum&amp;amp;amp;#38;#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &amp;amp;amp;#38;quot;de Finibus Bonorum et Malorum&amp;amp;amp;#38;quot; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &amp;amp;amp;#38;quot;Lorem ipsum dolor sit amet..&amp;amp;amp;#38;quot;, comes from a line in section 1.10.32.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from &amp;amp;amp;#38;quot;de Finibus Bonorum et Malorum&amp;amp;amp;#38;quot; by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&amp;amp;amp;#38;#39;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&amp;amp;amp;#38;#39;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp; paragraphs&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp; words&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp; bytes&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp; lists&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Start with &amp;amp;amp;#38;#39;Lorem&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;ipsum dolor sit amet...&amp;amp;amp;#38;#39;&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Design Your Website&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Translations: Can you help translate this site into a foreign language ? Please email us with details if you can help.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;There are now a set of mock banners available here in three colours and in a range of standard banner sizes:&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Banners Banners Banners&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Donate: If you use this site regularly and would like to help keep the site on the Internet, please consider donating a small sum to help pay for the hosting and bandwidth bill. There is no minimum donation, any sum is appreciated - click here to donate using PayPal. Thank you for your support.&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Chrome Firefox Add-on NodeJS TeX Package Java Class Python Interface GTK Lipsum Rails Groovy&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;The standard Lorem Ipsum passage, used since the 1500s&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&amp;amp;amp;#38;quot;&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Section 1.10.32 of &amp;amp;amp;#38;quot;de Finibus Bonorum et Malorum&amp;amp;amp;#38;quot;, written by Cicero in 45 BC&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;quot;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?&amp;amp;amp;#38;quot;&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;1914 translation by H. Rackham&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;quot;But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?&amp;amp;amp;#38;quot;&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;Section 1.10.33 of &amp;amp;amp;#38;quot;de Finibus Bonorum et Malorum&amp;amp;amp;#38;quot;, written by Cicero in 45 BC&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;quot;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.&amp;amp;amp;#38;quot;&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;1914 translation by H. Rackham&amp;amp;amp;#60;/strong&amp;amp;amp;#62;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#38;nbsp;&amp;amp;amp;#60;/p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;p&amp;amp;amp;#62;&amp;amp;amp;#xA;        &amp;amp;amp;#60;strong&amp;amp;amp;#62;&amp;amp;amp;#38;quot;On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every</description>
+    </activity>
+  </registryObject>
+  
+  <registryObject group="AUTestingRecords">
+    <key>AUTestingRecordsActivityToRelateToForQualityLevelTesting</key>
+    <originatingSource type="">Integrated Marine Observing System (IMOS)</originatingSource>
+    <activity type="program">
+	<identifier type="uri">AUTestingRecordsActivityToRelateToForQualityLevelTestingIdentifier</identifier>
+      <name type="primary">
+        <namePart>(AUTestingRecords)IMOS - ANMN National Reference Station (NRS) Sub-Facility</namePart>
+      </name>
+      <description type="full">&amp;lt;p&amp;gt;The IMOS National Reference Station Sub-Facility (NRS) comprises of a series of national reference stations designed to monitor particular oceanographic phenomena in Australian coastal ocean waters. The reference stations increase the number of long term time series observations available to researchers, both in terms of variables recorded, temporal distribution and geographical extent. Data is collected using moored sensors and in monthly water sampling field trips. As the project progresses NRS moorings will be fitted for telemetry and data will become available in real time from each of the NRS sites around Australia. There are 8 current NRS sites: Two in Queensland, one in the Northern Territory, two in Western Australia (it is planned to retrieve the Ningaloo mooring in August 2014 and not redeploy it), one in Tasmania, one in New South Wales and one in South Australia. There is one former site at Esperance, the mooring was retrieved in December 2013 and not redeployed. Operation of the NRS sub-facility is distributed between several operators and is coordinated nationally.&amp;lt;/p&amp;gt;</description>
+      <rights>
+        <licence type="CC-BY" rightsUri="http://creativecommons.org/licenses/by/2.5/au/">Creative Commons Attribution</licence>
+      </rights>
+      <rights>
+        <rightsStatement>The citation in a list of references is: &amp;quot;IMOS [year-of-data-download], [Title], [data-access-URL], accessed [date-of-access].&amp;quot;</rightsStatement>
+      </rights>
+      <rights>
+        <rightsStatement>Any users of IMOS data are required to clearly acknowledge the source of the material in the format: </rightsStatement>
+      </rights>
+      <rights>
+        <rightsStatement>Data, products and services from IMOS are provided &amp;quot;as is&amp;quot; without any warranty as to fitness for a particular purpose.</rightsStatement>
+      </rights>
+      <identifier type="uri">AUTestingRecordsActivityToRelateToForQualityLevelTestingIdentifier</identifier>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-9; southlimit=-44; westlimit=112; eastLimit=154</spatial>
+        <spatial type="text">northlimit=-9; southlimit=-44; westlimit=112; eastLimit=154</spatial>
+      </coverage>
+      <subject type="local">oceans</subject>
+      <subject type="local">Oceans | Salinity/density | Conductivity</subject>
+      <subject type="local">Oceans | Ocean Temperature | Water Temperature</subject>
+      <subject type="local">Oceans | Bathymetry | Water Depth</subject>
+      <subject type="local">Oceans | Ocean Optics | Fluorescence</subject>
+      <subject type="local">Oceans | Ocean Chemistry | Oxygen</subject>
+      <subject type="local">Oceans | Ocean Optics | Photosynthetically Active Radiation</subject>
+      <subject type="local">Oceans | Ocean Optics | Turbidity</subject>
+      <subject type="local">Oceans | Ocean Circulation | Ocean Currents</subject>
+      <subject type="local">Oceans | Ocean Chemistry | Nutrients</subject>
+      <subject type="local">Biosphere | Microbiota | Plankton</subject>
+      <subject type="local">Oceans | Ocean Chemistry | Carbon Dioxide</subject>
+      <subject type="local">Oceans | Ocean Chemistry | Inorganic Carbon</subject>
+      <subject type="local">Oceans | Ocean Chemistry | Alkalinity</subject>
+      <subject type="local">Buoys | Moored Buoys</subject>
+      <subject type="local">Current Meters/Profilers | Acoustic Doppler Current Profiler (ADCP)</subject>
+      <subject type="local">Fluorometers</subject>
+      <subject type="local">CTD (Conductivity-Temperature-Depth Profilers)</subject>
+      <subject type="local">IMOS Sub-Facility | ANMN-NRS | National Reference Stations</subject>
+      <relatedInfo type="website">
+        <title>Show child records [opens IMOS MEST]</title>
+        <identifier type="uri">http://imosmest.emii.org.au/geonetwork/srv/en/search.external?any=6c981d98-d7fb-4120-9ebe-347ef1188ae0AUT</identifier>
+        <relation type="hasAssociationWith"/>
+      </relatedInfo>
+      <relatedInfo type="website">
+        <title>National Reference Stations page on IMOS website</title>
+        <identifier type="uri">http://imos.org.au/anmnnrs.htmlAUT</identifier>
+        <relation type="hasAssociationWith"/>
+      </relatedInfo>
+    </activity>
+  </registryObject>
+
+<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordsPartyToRelateToForQualityLevelTesting</key>
+    <originatingSource>http://www.records.nsw.gov.au</originatingSource>
+    <party dateModified="2002-11-01" type="group">
+      <identifier type="uri">AUTestingRecordsPartyToRelateToForQualityLevelTestingIdentifier</identifier>
+      <name type="primary">
+        <namePart type="full">(AUTestingRecords)Angledool Police Station (1882-1934) / New Angledool Police Station (1934-1961)
+</namePart>
+      </name>
+      <subject type="anzsrc-for">2103 HISTORICAL STUDIES</subject>
+      <description type="full">
+Angledool Police Station was esatblished in 1882. In 1934 the Station was re- named New Angledool Policxe Station. The Station closed on 7 July 1961.
+</description>
+      <existenceDates>
+        <startDate dateFormat="W3CDTF">1882-01-01T00:00:00+1000</startDate>
+        <endDate dateFormat="W3CDTF">1961-07-07T00:00:00+1000</endDate>
+      </existenceDates>
+      <relatedInfo>
+        <identifier type="website">http://search.records.nsw.gov.au/agencies/125AUT</identifier>
+      </relatedInfo>
+    </party>
+  </registryObject>
+
+<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordsServiceToRelateToForQualityLevelTesting</key>
+    <originatingSource type="authoritative">http://www.qut.edu.au</originatingSource>
+    <service type="create">
+	      <identifier type="uri">AUTestingRecordsServiceToRelateToForQualityLevelTestingIdentifier</identifier>
+      <name type="primary">
+        <namePart type="title">Automated Greenhouse Gas Sampling System</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="email">
+            <value>clemens.scheer@qut.edu.au</value>
+          </electronic>
+        </address>
+      </location>
+      <description type="full">
+The Automated Greenhouse Gas Sampling system measured the soilatmosphere exchange of N2O with a mobile fully automated measuring system. Sampling chambers (50cm x 50cm x 15cm) were fixed on stainless steel frames. The lids of the chambers were opened and closed automatically with pneumatic devices. During the closing period air samples from each chamber were taken alternately and injected towards the analytical devices. Soil-atmosphere exchange measurements were made at 3 subplots for each treatment within the split-plot design. Changes in N2O concentration after chamber closure were measured with a gas chromatograph (Texas Instruments SRI 8610C, Torrance/USA) equipped with a 63Ni electron capture detector (ECD) for N2O analysis.
+</description>
+
+      <relatedInfo type="publication">
+        <identifier type="uri">http://eprints.qut.edu.au/37658/1/1881.pdfAUT</identifier>
+      </relatedInfo>
+      <relatedInfo type="website">
+        <identifier type="uri">
+https://www.qut.edu.au/institute-for-future-environments
+AUT</identifier>
+        <title>Institute for Future Environments</title>
+      </relatedInfo>
+    </service>
+  </registryObject>
+  
+<registryObject group="AUTestingRecords">
+    <key>AUTestingRecordsCollectionToRelateToForQualityLevelTesting</key>
+    <originatingSource type="">http://www.prov.vic.gov.au</originatingSource>
+    <collection type="collection" dateModified="2015-12-13 23:49:08">
+	<identifier type="uri">AUTestingRecordsCollectionToRelateToForQualityLevelTestingIdentifier</identifier>
+      <name type="primary">
+        <namePart>(AUTestingRecords)Outwards Letter Books, Primary Schools</namePart>
+      </name>
+      <description type="full">&amp;lt;p&amp;gt;&amp;lt;br /&amp;gt;The volumes in this series contain copies of the correspondence sent by the Board of Education and from 1873 the Education Department to primary schools under its control. Early volumes are carbon copies in letter-press books whilst later volumes have carbon copies of the correspondence pasted into books.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Correspondence is addressed mainly to the Head Teacher and to the School Committee and members of the school staff forwarded through the Head Teacher. Other correspondence is about the school, but addressed to such people as Members of Parliament corresponding with the authority on behalf of the school or other matters relating to school facilities.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Subjects of letters include replies to concerns of the School Committee, matters relating to repairs to and maintenance of the school, claims for allowances and subsidies, the dealing with and resolution of complaints from parents and members of the community, matters regarding the granting of holidays and matters regarding teacher appointments and leave.&amp;lt;/p&amp;gt;</description>
+      <description type="logo">&amp;lt;p&amp;gt;&amp;lt;img src=&amp;quot;http://metadata.prov.vic.gov.au/image/LOGO_BLACK.jpg&amp;quot; alt=&amp;quot;logo&amp;quot; /&amp;gt;&amp;lt;/p&amp;gt;</description>
+      <rights>
+        <rightsStatement rightsUri="http://prov.vic.gov.au/provguide-25">Records held by Public Record Office Victoria (PROV) are covered by copyright. For information on reusing material from the collection see PROVguide 25</rightsStatement>
+        <accessRights>Open</accessRights>
+      </rights>
+      <dates type="dc.created">
+        <date type="dateFrom" dateFormat="W3CDTF">1868</date>
+        <date type="dateTo" dateFormat="W3CDTF">1938</date>
+      </dates>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.access.prov.vic.gov.au/public/component/daPublicBaseContainer?component=daViewSeries&amp;breadcrumbPath=Home/Access%20the%20Collection/Browse%20The%20Collection/Series%20Details&amp;entityId=796</value>
+          </electronic>
+          <physical type="">
+            <addressPart type="text">&amp;lt;p&amp;gt;&amp;lt;a title=&amp;quot;Public Record Office Victoria&amp;quot; href=&amp;quot;http://prov.vic.gov.au&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Victorian Archives Centre&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;99 Shiel St North Melbourne VIC 3051, Australia&amp;lt;br /&amp;gt;Ph: +61 3 9348 5600&amp;lt;/p&amp;gt;</addressPart>
+          </physical>
+        </address>
+      </location>
+      <coverage>
+        <temporal>
+          <date type="dateFrom" dateFormat="W3CDTF">1868</date>
+          <date type="dateTo" dateFormat="W3CDTF">1938</date>
+        </temporal>
+        <spatial type="kmlPolyCoords">141.000000,-34.000000 142.919336,-34.145604 144.582129,-35.659230 147.742627,-35.873175 150.024219,-37.529041 150.200000,-39.200000 141.000000,-39.200000 141.000000,-34.000000 141.000000,-34.000000</spatial>
+      </coverage>
+       <citationInfo>
+        <fullCitation>PROV VPRS 796 Outwards Letter Books, Primary Schools
+</fullCitation>
+      </citationInfo>
+    </collection>
+  </registryObject>
+  </registryObjects>

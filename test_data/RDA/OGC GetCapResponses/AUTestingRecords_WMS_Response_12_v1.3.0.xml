@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WMS_Capabilities version="1.3.0" updateSequence="585" xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/wms http://geology.data.vic.gov.au/services/onegeology/DPI_Bedrock_and_Superficial_Geology/schemas/wms/1.3.0/capabilities_1_3_0.xsd">
+    <Service>
+        <Name>WMS</Name>
+        <Title>AUTestingRecords # 12 DPI Bedrock and Superficial Geology</Title>
+        <Abstract>Geology Web Map Service Maintained by the Victorian Department of Primary Industries - Earth Resource Development Division.&#13;
+These maps are produced by the Seamless Geology project. The data represent the surface geology, including surficial unconsolidated deposits and outcropping (or near-outcropping) bedrock, geological unit contacts, faults and shear zones. The project provides a seamless geological interpretation of the surface geology of Victoria. Geometry and attribution are reconciled at scale and across scales for 1:50 000 and 1:250 000. Geology of suitable quality collected in the pre-digital era (eg 1 to 1 mile maps) supplements the more recent data in the 50k and 250k layers. The project generalised the reconciled 50k geological mapping into the 250k.</Abstract>
+        <KeywordList>
+            <Keyword>WMS</Keyword>
+            <Keyword>OneGeology</Keyword>
+            <Keyword>Seamless</Keyword>
+            <Keyword>Geology</Keyword>
+            <Keyword>Victoria</Keyword>
+            <Keyword>Australia</Keyword>
+            <Keyword>MD_LANG@ENG</Keyword>
+            <Keyword>MD_DATE@2012-05-18</Keyword>
+        </KeywordList>
+        <OnlineResource xlink:type="simple" xlink:href="http://www.dpi.vic.gov.au/earth-resources"/>
+        <ContactInformation>
+            <ContactPersonPrimary>
+                <ContactPerson>AUTestingRecords Donald</ContactPerson>
+                <ContactOrganization>DPI Victoria - Earth Resource Development Division</ContactOrganization>
+            </ContactPersonPrimary>
+            <ContactPosition>Director, Prospectivity and Exploration</ContactPosition>
+            <ContactAddress>
+                <AddressType>Work</AddressType>
+                <Address>9/55 Collins St</Address>
+                <City>Melbourne</City>
+                <StateOrProvince>VIC</StateOrProvince>
+                <PostCode>3000</PostCode>
+                <Country>AUSTRALIA</Country>
+            </ContactAddress>
+            <ContactVoiceTelephone>+61 3 9658 4531</ContactVoiceTelephone>
+            <ContactFacsimileTelephone>+61 3 9658 4555</ContactFacsimileTelephone>
+            <ContactElectronicMailAddress>autestingrecords@ands.gov.au</ContactElectronicMailAddress>
+        </ContactInformation>
+        <Fees>NONE</Fees>
+        <AccessConstraints>Copyright © The State of Victoria, 2002 - 2012. The data is subject to Crown copyright (State of Victoria) and interested parties are required to enter into a licence agreement.</AccessConstraints>
+    </Service>
+    <Capability>
+        <Request>
+            <GetCapabilities>
+                <Format>text/xml</Format>
+                <DCPType>
+                    <HTTP>
+                        <Get>
+                            <OnlineResource xlink:type="simple" xlink:href="http://geology.data.vic.gov.au/services/onegeology/DPI_Bedrock_and_Superficial_Geology/ows?SERVICE=WMS&amp;"/>
+                        </Get>
+                        <Post>
+                            <OnlineResource xlink:type="simple" xlink:href="http://geology.data.vic.gov.au/services/onegeology/DPI_Bedrock_and_Superficial_Geology/ows?SERVICE=WMS&amp;"/>
+                        </Post>
+                    </HTTP>
+                </DCPType>
+            </GetCapabilities>
+            <GetMap>
+                <Format>image/png</Format>
+                <Format>application/atom+xml</Format>
+                <Format>application/pdf</Format>
+                <Format>application/vnd.google-earth.kml+xml</Format>
+                <Format>application/vnd.google-earth.kmz</Format>
+                <Format>image/gif</Format>
+                <Format>image/jpeg</Format>
+                <Format>image/svg+xml</Format>
+                <Format>image/tiff</Format>
+                <DCPType>
+                    <HTTP>
+                        <Get>
+                            <OnlineResource xlink:type="simple" xlink:href="http://geology.data.vic.gov.au/services/onegeology/DPI_Bedrock_and_Superficial_Geology/ows?SERVICE=WMS&amp;"/>
+                        </Get>
+                    </HTTP>
+                </DCPType>
+            </GetMap>
+            <GetFeatureInfo>
+                <Format>text/plain</Format>
+                <Format>application/vnd.ogc.gml</Format>
+                <Format>text/html</Format>
+                <DCPType>
+                    <HTTP>
+                        <Get>
+                            <OnlineResource xlink:type="simple" xlink:href="http://geology.data.vic.gov.au/services/onegeology/DPI_Bedrock_and_Superficial_Geology/ows?SERVICE=WMS&amp;"/>
+                        </Get>
+                    </HTTP>
+                </DCPType>
+            </GetFeatureInfo>
+        </Request>
+        <Exception>
+            <Format>XML</Format>
+            <Format>INIMAGE</Format>
+            <Format>BLANK</Format>
+        </Exception>
+        <Layer>
+            <Title>DPI Bedrock and Superficial Geology</Title>
+            <Abstract>Geology Web Map Service Maintained by the Victorian Department of Primary Industries - Earth Resource Development Division.&#13;
+These maps are produced by the Seamless Geology project. The data represent the surface geology, including surficial unconsolidated deposits and outcropping (or near-outcropping) bedrock, geological unit contacts, faults and shear zones. The project provides a seamless geological interpretation of the surface geology of Victoria. Geometry and attribution are reconciled at scale and across scales for 1:50 000 and 1:250 000. Geology of suitable quality collected in the pre-digital era (eg 1 to 1 mile maps) supplements the more recent data in the 50k and 250k layers. The project generalised the reconciled 50k geological mapping into the 250k.</Abstract>
+            <CRS>EPSG:4283</CRS>
+            <CRS>EPSG:4326</CRS>
+            <CRS>EPSG:900913</CRS>
+            <CRS>CRS:84</CRS>
+            <EX_GeographicBoundingBox>
+                <westBoundLongitude>140.0</westBoundLongitude>
+                <eastBoundLongitude>150.0</eastBoundLongitude>
+                <southBoundLatitude>-39.2</southBoundLatitude>
+                <northBoundLatitude>-33.9</northBoundLatitude>
+            </EX_GeographicBoundingBox>
+            <Layer queryable="1">
+                <Name>oneg:AU-VIC_DPI_250k_BA</Name>
+                <Title>AU-VIC DPI 1:250k Basement Age</Title>
+                <Abstract>This dataset contains primary geological data, namely outcropping/sub-cropping geological rock units and boundary types separating rock units. The polygon edges are constructed from the corresponding geological contacts and faults layer. Theme based on the 2010 version of the IUGS International stratigraphic chart (International Commission on Stratigraphy : http://www.stratigraphy.org/).</Abstract>
+                <KeywordList>
+                    <Keyword>OneGeology</Keyword>
+                    <Keyword>Seamless</Keyword>
+                    <Keyword>Geology</Keyword>
+                    <Keyword>Victoria</Keyword>
+                    <Keyword>Australia</Keyword>
+                    <Keyword>GeologicUnit</Keyword>
+                    <Keyword>Age</Keyword>
+                    <Keyword>continent@Oceania</Keyword>
+                    <Keyword>geographicarea@Australia</Keyword>
+                    <Keyword>subarea@Victoria</Keyword>
+                    <Keyword>dataprovider@Department of Primary Industries</Keyword>
+                    <Keyword>serviceprovider@Department of Primary Industries</Keyword>
+                    <Keyword>DS_TOPIC@geoscientificinformation</Keyword>
+                    <Keyword>DS_DATE@2011-09-30</Keyword>
+                </KeywordList>
+                <CRS>EPSG:4326</CRS>
+                <CRS>CRS:84</CRS>
+                <EX_GeographicBoundingBox>
+                    <westBoundLongitude>140.0</westBoundLongitude>
+                    <eastBoundLongitude>150.0</eastBoundLongitude>
+                    <southBoundLatitude>-39.2</southBoundLatitude>
+                    <northBoundLatitude>-33.9</northBoundLatitude>
+                </EX_GeographicBoundingBox>
+                <BoundingBox CRS="EPSG:4326" minx="-39.2" miny="140.0" maxx="-33.9" maxy="150.0"/>
+                <Attribution>
+                    <Title>Department of Primary Industries (Victoria)</Title>
+                    <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://www.dpi.vic.gov.au/earth-resources"/>
+                    <LogoURL height="50" width="300">
+                        <Format>image/gif</Format>
+                        <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://geology.data.vic.gov.au/services/onegeology/DPI_Bedrock_and_Superficial_Geology/www/dpi-earth-resources.gif"/>
+                    </LogoURL>
+                </Attribution>
+                <MetadataURL type="TC211">
+                    <Format>text/html</Format>
+                    <OnlineResource xlink:type="simple" xlink:href="http://geology.data.vic.gov.au/metadata/wms-layer/oneg/au-vic_dpi_250k_ba"/>
+                </MetadataURL>
+                <Style>
+                    <Name>geology-age</Name>
+                    <Title>AU-VIC DPI Geology - Age (Representative)</Title>
+                    <Abstract>The color and age values have been picked from the 2009/2010 version of the IUGS International stratigraphic chart  (International Commission on Stratigraphy : http://www.stratigraphy.org/). The chart is located at http://www.stratigraphy.org/ics%20chart/09_2010/StratChart2010.pdf. The RGB color has been calculated from the CMYK by using R =  (100 - C) * 2.55 - K * 2.55, G =  (100 - M) * 2.55 - K * 2.55 and B =  (100 - Y) * 2.55 - K * 2.55.  Depending of the device  (plotter versus screen), the colors might not be exactly the same.</Abstract>
+                    <LegendURL width="20" height="20">
+                        <Format>image/png</Format>
+                        <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://geology.data.vic.gov.au/services/onegeology/DPI_Bedrock_and_Superficial_Geology/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=AU-VIC_DPI_250k_BA"/>
+                    </LegendURL>
+                </Style>
+                <Style>
+                    <Name>geology-age-upper</Name>
+                    <Title>AU-VIC DPI Geology - Age - upper (Representative)</Title>
+                    <Abstract>The color and age values have been picked from the 2009/2010 version of the IUGS International stratigraphic chart  (International Commission on Stratigraphy : http://www.stratigraphy.org/). The chart is located at http://www.stratigraphy.org/ics%20chart/09_2010/StratChart2010.pdf. The RGB color has been calculated from the CMYK by using R =  (100 - C) * 2.55 - K * 2.55, G =  (100 - M) * 2.55 - K * 2.55 and B =  (100 - Y) * 2.55 - K * 2.55.  Depending of the device  (plotter versus screen), the colors might not be exactly the same.</Abstract>
+                    <LegendURL width="20" height="20">
+                        <Format>image/png</Format>
+                        <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://geology.data.vic.gov.au/services/onegeology/DPI_Bedrock_and_Superficial_Geology/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=AU-VIC_DPI_250k_BA&amp;style=geology-age-upper"/>
+                    </LegendURL>
+                </Style>
+                <Style>
+                    <Name>polygon</Name>
+                    <Title>Default Polygon</Title>
+                    <Abstract>A sample style that draws a polygon</Abstract>
+                    <LegendURL width="20" height="20">
+                        <Format>image/png</Format>
+                        <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://geology.data.vic.gov.au/services/onegeology/DPI_Bedrock_and_Superficial_Geology/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=AU-VIC_DPI_250k_BA&amp;style=polygon"/>
+                    </LegendURL>
+                </Style>
+                <Style>
+                    <Name>geology-age-lower</Name>
+                    <Title>AU-VIC DPI Geology - Age - lower (Representative)</Title>
+                    <Abstract>The color and age values have been picked from the 2009/2010 version of the IUGS International stratigraphic chart  (International Commission on Stratigraphy : http://www.stratigraphy.org/). The chart is located at http://www.stratigraphy.org/ics%20chart/09_2010/StratChart2010.pdf. The RGB color has been calculated from the CMYK by using R =  (100 - C) * 2.55 - K * 2.55, G =  (100 - M) * 2.55 - K * 2.55 and B =  (100 - Y) * 2.55 - K * 2.55.  Depending of the device  (plotter versus screen), the colors might not be exactly the same.</Abstract>
+                    <LegendURL width="20" height="20">
+                        <Format>image/png</Format>
+                        <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://geology.data.vic.gov.au/services/onegeology/DPI_Bedrock_and_Superficial_Geology/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=AU-VIC_DPI_250k_BA&amp;style=geology-age-lower"/>
+                    </LegendURL>
+                </Style>
+            </Layer>
+            <Layer queryable="1">
+                <Name>oneg:AU-VIC_DPI_250k_BLS</Name>
+                <Title>AU-VIC DPI 1:250k Basement Lithostratigraphy</Title>
+                <Abstract>This dataset contains primary geological data, namely outcropping/sub-cropping geological rock units and boundary types separating rock units. The polygon edges are constructed from the corresponding geological contacts and faults layer. Theme based on Victorian lithostratigraphy.</Abstract>
+                <KeywordList>
+                    <Keyword>OneGeology</Keyword>
+                    <Keyword>Seamless</Keyword>
+                    <Keyword>Geology</Keyword>
+                    <Keyword>Victoria</Keyword>
+                    <Keyword>Australia</Keyword>
+                    <Keyword>GeologicUnit</Keyword>
+                    <Keyword>Lithostratigraphy</Keyword>
+                    <Keyword>continent@Oceania</Keyword>
+                    <Keyword>geographicarea@Australia</Keyword>
+                    <Keyword>subarea@Victoria</Keyword>
+                    <Keyword>dataprovider@Department of Primary Industries</Keyword>
+                    <Keyword>serviceprovider@Department of Primary Industries</Keyword>
+                    <Keyword>DS_TOPIC@geoscientificinformation</Keyword>
+                    <Keyword>DS_DATE@2011-09-30</Keyword>
+                </KeywordList>
+                <CRS>EPSG:4326</CRS>
+                <CRS>CRS:84</CRS>
+                <EX_GeographicBoundingBox>
+                    <westBoundLongitude>140.0</westBoundLongitude>
+                    <eastBoundLongitude>150.0</eastBoundLongitude>
+                    <southBoundLatitude>-39.2</southBoundLatitude>
+                    <northBoundLatitude>-33.9</northBoundLatitude>
+                </EX_GeographicBoundingBox>
+                <BoundingBox CRS="EPSG:4326" minx="-39.2" miny="140.0" maxx="-33.9" maxy="150.0"/>
+                <Attribution>
+                    <Title>Department of Primary Industries (Victoria)</Title>
+                    <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://www.dpi.vic.gov.au/earth-resources"/>
+                    <LogoURL height="50" width="300">
+                        <Format>image/gif</Format>
+                        <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://geology.data.vic.gov.au/services/onegeology/DPI_Bedrock_and_Superficial_Geology/www/dpi-earth-resources.gif"/>
+                    </LogoURL>
+                </Attribution>
+                <MetadataURL type="TC211">
+                    <Format>text/html</Format>
+                    <OnlineResource xlink:type="simple" xlink:href="http://geology.data.vic.gov.au/metadata/wms-layer/oneg/au-vic_dpi_250k_bls"/>
+                </MetadataURL>
+                <Style>
+                    <Name>geology-stratigraphy</Name>
+                    <Title/>
+                    <Abstract/>
+                    <LegendURL width="20" height="20">
+                        <Format>image/png</Format>
+                        <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://geology.data.vic.gov.au/services/onegeology/DPI_Bedrock_and_Superficial_Geology/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=AU-VIC_DPI_250k_BLS"/>
+                    </LegendURL>
+                </Style>
+                <Style>
+                    <Name>polygon</Name>
+                    <Title>Default Polygon</Title>
+                    <Abstract>A sample style that draws a polygon</Abstract>
+                    <LegendURL width="20" height="20">
+                        <Format>image/png</Format>
+                        <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://geology.data.vic.gov.au/services/onegeology/DPI_Bedrock_and_Superficial_Geology/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=AU-VIC_DPI_250k_BLS&amp;style=polygon"/>
+                    </LegendURL>
+                </Style>
+            </Layer>
+            <Layer queryable="1">
+                <Name>oneg:AU-VIC_DPI_250k_BLT</Name>
+                <Title>AU-VIC DPI 1:250k Basement Lithology</Title>
+                <Abstract>This dataset contains primary geological data, namely outcropping/sub-cropping geological rock units and boundary types separating rock units. The polygon edges are constructed from the corresponding geological contacts and faults layer. Theme adapted from Moyer,Hasting and Raines, 2005 (http://pubs.usgs.gov/of/2005/1314/of2005-1314.pdf) for GeoSciML testbeds.</Abstract>
+                <KeywordList>
+                    <Keyword>OneGeology</Keyword>
+                    <Keyword>Seamless</Keyword>
+                    <Keyword>Geology</Keyword>
+                    <Keyword>Victoria</Keyword>
+                    <Keyword>Australia</Keyword>
+                    <Keyword>GeologicUnit</Keyword>
+                    <Keyword>Lithology</Keyword>
+                    <Keyword>continent@Oceania</Keyword>
+                    <Keyword>geographicarea@Australia</Keyword>
+                    <Keyword>subarea@Victoria</Keyword>
+                    <Keyword>dataprovider@Department of Primary Industries</Keyword>
+                    <Keyword>serviceprovider@Department of Primary Industries</Keyword>
+                    <Keyword>DS_TOPIC@geoscientificinformation</Keyword>
+                    <Keyword>DS_DATE@2011-09-30</Keyword>
+                </KeywordList>
+                <CRS>EPSG:4326</CRS>
+                <CRS>CRS:84</CRS>
+                <EX_GeographicBoundingBox>
+                    <westBoundLongitude>140.0</westBoundLongitude>
+                    <eastBoundLongitude>150.0</eastBoundLongitude>
+                    <southBoundLatitude>-39.2</southBoundLatitude>
+                    <northBoundLatitude>-33.9</northBoundLatitude>
+                </EX_GeographicBoundingBox>
+                <BoundingBox CRS="EPSG:4326" minx="-39.2" miny="140.0" maxx="-33.9" maxy="150.0"/>
+                <Attribution>
+                    <Title>Department of Primary Industries (Victoria)</Title>
+                    <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://www.dpi.vic.gov.au/earth-resources"/>
+                    <LogoURL height="50" width="300">
+                        <Format>image/gif</Format>
+                        <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://geology.data.vic.gov.au/services/onegeology/DPI_Bedrock_and_Superficial_Geology/www/dpi-earth-resources.gif"/>
+                    </LogoURL>
+                </Attribution>
+                <MetadataURL type="TC211">
+                    <Format>text/htm</Format>
+                    <OnlineResource xlink:type="simple" xlink:href="http://geology.data.vic.gov.au/metadata/wms-layer/oneg/au-vic_dpi_250k_blt"/>
+                </MetadataURL>
+                <Style>
+                    <Name>geology-lithology</Name>
+                    <Title>Lithology (Representative)</Title>
+                    <Abstract>The colour has been creatively adapted from Moyer,Hasting and Raines, 2005 (http://pubs.usgs.gov/of/2005/1314/of2005-1314.pdf) which provides xls spreadsheets for various color schemes. Most of the colors comes from lithclass 6.1 and 6.2 (see http://www.nadm-geo.org/dmdt/pdf/lithclass61.pdf for lithclass 6.1) plus some creative entries to fill missing entries.  The list of term is from the CGI IWG Concept Definition Task Group (http://resource.geosciml.org/classifierscheme/cgi/201012/simplelithology).
+        This SLD assumes that MappedFeature is the context node</Abstract>
+                    <LegendURL width="20" height="20">
+                        <Format>image/png</Format>
+                        <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://geology.data.vic.gov.au/services/onegeology/DPI_Bedrock_and_Superficial_Geology/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=AU-VIC_DPI_250k_BLT"/>
+                    </LegendURL>
+                </Style>
+                <Style>
+                    <Name>polygon</Name>
+                    <Title>Default Polygon</Title>
+                    <Abstract>A sample style that draws a polygon</Abstract>
+                    <LegendURL width="20" height="20">
+                        <Format>image/png</Format>
+                        <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://geology.data.vic.gov.au/services/onegeology/DPI_Bedrock_and_Superficial_Geology/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=AU-VIC_DPI_250k_BLT&amp;style=polygon"/>
+                    </LegendURL>
+                </Style>
+            </Layer>
+            <Layer queryable="1">
+                <Name>oneg:AU-VIC_DPI_250k_SF_CONTACT</Name>
+                <Title>AU-VIC DPI 1:250k Structural Feature - Contact</Title>
+                <Abstract>Geological boundaries represented as two dimensional lines. Other geological features (e.g. fault or dyke) are included where the feature forms a boundary to rock units. The polygon edges are constructed from the corresponding geological contacts and faults layer.</Abstract>
+                <KeywordList>
+                    <Keyword>OneGeology</Keyword>
+                    <Keyword>Seamless</Keyword>
+                    <Keyword>Geology</Keyword>
+                    <Keyword>Victoria</Keyword>
+                    <Keyword>Australia</Keyword>
+                    <Keyword>Contact</Keyword>
+                    <Keyword>continent@Oceania</Keyword>
+                    <Keyword>geographicarea@Australia</Keyword>
+                    <Keyword>subarea@Victoria</Keyword>
+                    <Keyword>dataprovider@Department of Primary Industries</Keyword>
+                    <Keyword>serviceprovider@Department of Primary Industries</Keyword>
+                    <Keyword>DS_TOPIC@geoscientificinformation</Keyword>
+                    <Keyword>DS_DATE@2011-09-30</Keyword>
+                </KeywordList>
+                <CRS>EPSG:4326</CRS>
+                <CRS>CRS:84</CRS>
+                <EX_GeographicBoundingBox>
+                    <westBoundLongitude>140.0</westBoundLongitude>
+                    <eastBoundLongitude>150.0</eastBoundLongitude>
+                    <southBoundLatitude>-39.2</southBoundLatitude>
+                    <northBoundLatitude>-33.9</northBoundLatitude>
+                </EX_GeographicBoundingBox>
+                <BoundingBox CRS="EPSG:4326" minx="-39.2" miny="140.0" maxx="-33.9" maxy="150.0"/>
+                <Attribution>
+                    <Title>Department of Primary Industries (Victoria)</Title>
+                    <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://www.dpi.vic.gov.au/earth-resources"/>
+                    <LogoURL height="50" width="300">
+                        <Format>image/gif</Format>
+                        <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://geology.data.vic.gov.au/services/onegeology/DPI_Bedrock_and_Superficial_Geology/www/dpi-earth-resources.gif"/>
+                    </LogoURL>
+                </Attribution>
+                <MetadataURL type="TC211">
+                    <Format>text/html</Format>
+                    <OnlineResource xlink:type="simple" xlink:href="http://geology.data.vic.gov.au/metadata/wms-layer/oneg/au-vic_dpi_250k_sf_contact"/>
+                </MetadataURL>
+                <Style>
+                    <Name>geology-contact</Name>
+                    <Title>AU-VIC DPI Geology - Structural Feature - Contact</Title>
+                    <Abstract>Geological Unit Boundary line style, 1 pixel wide black</Abstract>
+                    <LegendURL width="20" height="20">
+                        <Format>image/png</Format>
+                        <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://geology.data.vic.gov.au/services/onegeology/DPI_Bedrock_and_Superficial_Geology/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=AU-VIC_DPI_250k_SF_CONTACT"/>
+                    </LegendURL>
+                </Style>
+            </Layer>
+            <Layer queryable="1">
+                <Name>oneg:AU-VIC_DPI_250k_SF_SHEARDISPSTR</Name>
+                <Title>AU-VIC DPI 1:250k Structural Feature - Shear Disp. Structure</Title>
+                <Abstract>Shear displacement structures. Other geological features (e.g. fault or dyke) are included where the feature forms a boundary to rock units. The lines are constructed from the corresponding geological contacts and faults layer.</Abstract>
+                <KeywordList>
+                    <Keyword>OneGeology</Keyword>
+                    <Keyword>Seamless</Keyword>
+                    <Keyword>Geology</Keyword>
+                    <Keyword>Victoria</Keyword>
+                    <Keyword>Australia</Keyword>
+                    <Keyword>ShearDisplacementStructure</Keyword>
+                    <Keyword>continent@Oceania</Keyword>
+                    <Keyword>geographicarea@Australia</Keyword>
+                    <Keyword>subarea@Victoria</Keyword>
+                    <Keyword>dataprovider@Department of Primary Industries</Keyword>
+                    <Keyword>serviceprovider@Department of Primary Industries</Keyword>
+                    <Keyword>DS_TOPIC@geoscientificinformation</Keyword>
+                    <Keyword>DS_DATE@2011-09-30</Keyword>
+                </KeywordList>
+                <CRS>EPSG:4326</CRS>
+                <CRS>CRS:84</CRS>
+                <EX_GeographicBoundingBox>
+                    <westBoundLongitude>141.0</westBoundLongitude>
+                    <eastBoundLongitude>150.0</eastBoundLongitude>
+                    <southBoundLatitude>-39.2</southBoundLatitude>
+                    <northBoundLatitude>-33.9</northBoundLatitude>
+                </EX_GeographicBoundingBox>
+                <BoundingBox CRS="EPSG:4326" minx="-39.2" miny="141.0" maxx="-33.9" maxy="150.0"/>
+                <Attribution>
+                    <Title>Department of Primary Industries (Victoria)</Title>
+                    <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://www.dpi.vic.gov.au/earth-resources"/>
+                    <LogoURL height="50" width="300">
+                        <Format>image/gif</Format>
+                        <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://geology.data.vic.gov.au/services/onegeology/DPI_Bedrock_and_Superficial_Geology/www/dpi-earth-resources.gif"/>
+                    </LogoURL>
+                </Attribution>
+                <MetadataURL type="TC211">
+                    <Format>text/html</Format>
+                    <OnlineResource xlink:type="simple" xlink:href="http://geology.data.vic.gov.au/metadata/wms-layer/oneg/au-vic_dpi_250k_sf_sheardispstr"/>
+                </MetadataURL>
+                <Style>
+                    <Name>geology-fault</Name>
+                    <Title>AU-VIC DPI Geology - Structural Feature - Shear Displacement Structure</Title>
+                    <Abstract>Fault (Shear Displacement Structure) line style, 2 pixel wide black</Abstract>
+                    <LegendURL width="20" height="20">
+                        <Format>image/png</Format>
+                        <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://geology.data.vic.gov.au/services/onegeology/DPI_Bedrock_and_Superficial_Geology/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=AU-VIC_DPI_250k_SF_SHEARDISPSTR"/>
+                    </LegendURL>
+                </Style>
+            </Layer>
+        </Layer>
+    </Capability>
+</WMS_Capabilities>

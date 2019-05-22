@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<work:work
+    xmlns:common="http://www.orcid.org/ns/common" xmlns:work="http://www.orcid.org/ns/work"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.orcid.org/ns/work/work-2.0.xsd ">	
+    <work:title>
+        <common:title>(AUTestingRecords) ORCID Export Test Collection 1 - Abattoirs Committee Minute Books</common:title>
+    </work:title>
+    <work:short-description>&lt;BR /&gt;&lt;BR /&gt;This series may contain the minutes of a single committee or a number of committees.&lt;BR /&gt;&lt;BR /&gt;The committee system is employed by most Victorian councils. A committee may be appointed by a council for any purpose which it is felt would be better regulated and managed by such committee. A committee may be either a standing committee or an occasional committee. Standing committees (in areas such as finance, public works, health, etc.) are appointed to oversee specific matters on an ongoing basis. Such committees submit reports to the council regularly and these are included in the Council Minutes. Occasional committees are appointed for shorter terms to manage such things as arrangements for ceremonial occasions. Membership of committees is made up of some or all of the councillors of the municipality.&lt;BR /&gt;&lt;BR /&gt;The Municipal Institutions Act 1863 (No.184) introduced provisions that required councils to appoint committees and specified that committee minutes should be kept and signed by the chairman at the following meeting. The Local Government Act 1874 (No.506) included the requirement that committees report to council. (No prohibition existed against councils operating with committees prior to these acts.) The Local Government Act 1903 (No.1893) removed the requirement that minutes be kept and added the requirement that committees reports to council be included in the council minutes. Subsequent legislation including the Local Government Act 1958 (No.6299) has continued these requirements.&lt;BR /&gt;&lt;BR /&gt;The minutes generally record the names of councillors who attended the meeting, details of agenda items and decisions made. Once the minutes have been confirmed as correct at the following committee meeting, they are signed or certified by the mayor or chairman of the meeting.&lt;BR /&gt;&lt;BR /&gt;&lt;BR /&gt;</work:short-description>
+    <work:citation>
+        <work:citation-type>formatted-unspecified</work:citation-type>
+        <work:citation-value>PROV VPRS 4512 Abattoirs Committee Minute Books</work:citation-value>
+    </work:citation>
+    <work:type>data-set</work:type>
+    <common:publication-date>
+        <common:year>1891</common:year>
+    </common:publication-date>
+    <common:external-ids>
+        <common:external-id>
+            <common:external-id-type>local</common:external-id-type>
+            <common:external-id-value>VPRS 4512AUT69</common:external-id-value>			
+            <common:external-id-relationship>self</common:external-id-relationship>
+        </common:external-id>
+    </common:external-ids>
+    <work:url>http://www.access.prov.vic.gov.au/public/component/daPublicBaseContainer?component=daViewSeries&amp;breadcrumbPath=Home/Access%20the%20Collection/Browse%20The%20Collection/Series%20Details&amp;entityId=4512</work:url>
+    <work:contributors>
+        <work:contributor>
+            <work:credit-name>(AUTestingRecords) Monash (City 1994-ct)</work:credit-name>
+        </work:contributor>
+    </work:contributors>
+</work:work>

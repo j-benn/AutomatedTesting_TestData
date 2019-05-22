@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<work:work
+	xmlns:common="http://www.orcid.org/ns/common" xmlns:work="http://www.orcid.org/ns/work"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.orcid.org/ns/work /work-2.0.xsd ">	
+	<work:title>
+		<common:title>(AUTestingRecords) ORCID Export Test Collection 5 - Upper mantle structure from the trans-Australia seismic survey (TASS) and other seismic refraction data</common:title>
+	</work:title>
+	<work:short-description>Legacy product - no abstract available</work:short-description>
+	<work:citation>
+		<work:citation-type>bibtex</work:citation-type>
+		<work:citation-value>
+			@article {title = "Upper mantle structure from the trans-Australia seismic survey (TASS) and other seismic refraction data",
+			year = "1974",
+			author = "Finlayson, D.M. and Cull, J.P. and Drummond, B.J.",
+			publisher = "Bureau of Mineral Resources, Geology and Geophysics"
+			}</work:citation-value>
+	</work:citation>
+	<work:type>other</work:type>
+	<common:publication-date>
+		<common:year>1974</common:year>
+	</common:publication-date>
+	<common:external-ids>
+		<common:external-id>
+			<common:external-id-type>global</common:external-id-type>
+			<common:external-id-value>a05f7892-78b8-7506-e044-00144fdd4fa6AUTOrc5</common:external-id-value>			
+			<common:external-id-relationship>self</common:external-id-relationship>
+		</common:external-id>
+				<common:external-id>
+			<common:external-id-type>uri</common:external-id-type>
+			<common:external-id-value>http://www.ga.gov.au/metadata-gateway/metadata/record/13101/AUTOrc5</common:external-id-value>			
+			<common:external-id-relationship>self</common:external-id-relationship>
+		</common:external-id>
+	</common:external-ids>
+	<work:url>http://www.ga.gov.au/metadata-gateway/metadata/record/13101/</work:url>
+	<work:contributors>
+		<work:contributor>
+			<work:credit-name>Finlayson, D.M</work:credit-name>
+			<work:contributor-attributes>
+				<work:contributor-sequence>first</work:contributor-sequence>
+				<work:contributor-role>author</work:contributor-role>
+			</work:contributor-attributes>
+		</work:contributor>
+		<work:contributor>
+			<work:credit-name>Cull, J.P.</work:credit-name>
+			<work:contributor-attributes>
+				<work:contributor-sequence>additional</work:contributor-sequence>
+				<work:contributor-role>author</work:contributor-role>
+			</work:contributor-attributes>
+		</work:contributor>
+		<work:contributor>
+			<work:credit-name>Drummond, B.J.</work:credit-name>
+			<work:contributor-attributes>
+				<work:contributor-sequence>additional</work:contributor-sequence>
+				<work:contributor-role>author</work:contributor-role>
+			</work:contributor-attributes>
+		</work:contributor>
+	</work:contributors>
+</work:work>

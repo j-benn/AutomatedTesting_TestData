@@ -1,0 +1,53 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<WCS_Capabilities xmlns="http://www.opengis.net/wcs"
+ xmlns:gml="http://www.opengis.net/gml"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.opengis.net/wcs http://schemas.opengeospatial.net/wcs/1.0.0/wcsCapabilities.xsd" version="1.0.0">
+  <Service>
+    <name>AUTestingRecords #5 Sea_Level</name>
+    <label>Sea_Level</label>
+    <responsibleParty>
+      <organisationName></organisationName>
+      <contactInfo>
+        <phone>
+        </phone>
+        <address>
+        </address>
+        <onlineResource xlink:href="http://www.ga.gov.au/arcgis/services/Maps/Sea_Level/MapServer/WCSServer"/>
+      </contactInfo>
+    </responsibleParty>
+    <fees>NONE</fees>
+    <accessConstraints>NONE</accessConstraints>
+  </Service>
+  <Capability>
+    <Request>
+      <GetCapabilities>
+        <DCPType><HTTP><Get><OnlineResource xlink:type ="simple" xlink:href="http://www.ga.gov.au/arcgis/services/Maps/Sea_Level/MapServer/WCSServer?"/></Get></HTTP></DCPType>
+        <DCPType><HTTP><Post><OnlineResource xlink:type ="simple" xlink:href="http://www.ga.gov.au/arcgis/services/Maps/Sea_Level/MapServer/WCSServer?"/></Post></HTTP></DCPType>
+      </GetCapabilities>
+      <DescribeCoverage>
+        <DCPType><HTTP><Get><OnlineResource xlink:type ="simple" xlink:href="http://www.ga.gov.au/arcgis/services/Maps/Sea_Level/MapServer/WCSServer?"/></Get></HTTP></DCPType>
+        <DCPType><HTTP><Post><OnlineResource xlink:type ="simple" xlink:href="http://www.ga.gov.au/arcgis/services/Maps/Sea_Level/MapServer/WCSServer?"/></Post></HTTP></DCPType>
+      </DescribeCoverage>
+      <GetCoverage>
+        <DCPType><HTTP><Get><OnlineResource xlink:type ="simple" xlink:href="http://www.ga.gov.au/arcgis/services/Maps/Sea_Level/MapServer/WCSServer?"/></Get></HTTP></DCPType>
+        <DCPType><HTTP><Post><OnlineResource xlink:type ="simple" xlink:href="http://www.ga.gov.au/arcgis/services/Maps/Sea_Level/MapServer/WCSServer?"/></Post></HTTP></DCPType>
+      </GetCoverage>
+    </Request>
+    <Exception>
+      <Format>application/vnd.ogc.se_xml</Format>
+    </Exception>
+  </Capability>
+  <ContentMetadata>
+    <CoverageOfferingBrief>
+    <name>AUTestingRecords #5 1</name>
+    <label>AUTestingRecords #5 Sea Level_1</label>
+    <lonLatEnvelope srsName="urn:ogc:def:crs:OGC:1.3:CRS84">
+      <gml:pos dimension="2">91.997622070312502 -60.002438964834646</gml:pos>
+      <gml:pos dimension="2">171.99762207023974 -8.0024389648449912</gml:pos>
+    </lonLatEnvelope>
+    </CoverageOfferingBrief>
+  </ContentMetadata>
+</WCS_Capabilities>

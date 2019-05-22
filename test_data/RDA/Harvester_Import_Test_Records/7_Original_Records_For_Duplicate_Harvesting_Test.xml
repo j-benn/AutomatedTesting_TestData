@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xmlns:extRif="http://ands.org.au/standards/rif-cs/extendedRegistryObjects" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+
+
+<registryObject group="University of New South Wales">
+    <key>nonDuplicate:1959.4/004_2012</key>
+    <originatingSource>https://www.researchdata.unsw.edu.au/</originatingSource>
+    <party type="person">
+      <identifier type="handle">1959.4/004_2012</identifier>
+      <name type="primary">
+        <namePart type="given">Wei</namePart>
+        <namePart type="family">Jiang</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="email">
+            <value>wei.jiang@student.unsw.edu.au</value>
+          </electronic>
+          <physical type="postalAddress">
+            <addressPart type="addressLine">University of New South Wales</addressPart>
+            <addressPart type="addressLine">School of Chemistry</addressPart>
+            <addressPart type="addressLine">UNSW Australia 2052</addressPart>
+          </physical>
+        </address>
+      </location>
+      <subject type="anzsrc-for">0304</subject>
+      <subject type="anzsrc-for">030503</subject>
+      <subject type="anzsrc-for">030401</subject>
+      <subject type="anzsrc-for">090301</subject>
+      <description type="brief">PhD Candidate, University of New South Wales</description>
+    </party>
+  </registryObject>
+
+
+<registryObject group="University of New South Wales">
+    <key>nonDuplicate:1959.4/004_338</key>
+    <originatingSource>https://www.researchdata.unsw.edu.au</originatingSource>
+    <collection type="dataset">
+      <name>
+        <namePart>UV Vis Spectra of Indole Analogues</namePart>
+      </name>
+      <location>
+        <address>
+          <physical type="postalAddress">
+            <addressPart type="addressLine">The University of New South Wales</addressPart>
+            <addressPart type="addressLine">Sydney NSW 2052</addressPart>
+            <addressPart type="addressLine">Australia</addressPart>
+          </physical>
+        </address>
+      </location>
+      <coverage>
+        <temporal>
+          <date dateFormat="W3CDTF" type="dateTo">2012-03-31T00:00:00+11:00</date>
+          <date dateFormat="W3CDTF" type="dateFrom">2012-03-01T00:00:00+11:00</date>
+        </temporal>
+      </coverage>
+      <relatedObject>
+        <key>http://nla.gov.au/nla.party-593921</key>
+        <relation type="isPresentedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicate:1959.4/004_128</key>
+        <relation type="isPresentedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicate:1959.4/004_314</key>
+        <relation type="isProducedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicate:1959.4/004_63</key>
+        <relation type="hasCollector"/>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicate:1959.4/004_139</key>
+        <relation type="isOwnerOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicate:1959.4/004_137</key>
+        <relation type="hasAssociationWith">
+          <description>Supervisor</description>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicate:1959.4/004_79</key>
+        <relation type="hasAssociationWith"/>
+      </relatedObject>
+      <subject type="anzsrc-for">030101</subject>
+      <subject type="anzsrc-for">030503</subject>
+      <subject type="local">Indole</subject>
+      <description type="full">-	Several analogues of Indoles were characterised using UV-Vis spectroscopy
+				-	The UVVis spectra were acquired using Perkin Elmer Lambda Spectrometer. The samples were dissolved in methanol. Measurement parameters are contained within the data.
+				</description>
+      <rights>
+        <rightsStatement>Copyright © University of New South Wales 2012</rightsStatement>
+        <accessRights>For access to this data, please contact:
+				Samuel Kutty
+				Analytical Centre Lab 336
+				University of New South Wales, NSW Australia 2052
+				Email: samuel.kutty@unsw.edu.au
+				</accessRights>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="University of New South Wales">
+    <key>nonDuplicate:1959.4/004_354</key>
+    <originatingSource>https://www.researchdata.unsw.edu.au</originatingSource>
+    <collection type="dataset">
+      <name>
+        <namePart>NMR of Fimbrolide Sulfur-Derivatives</namePart>
+      </name>
+      <location>
+        <address>
+          <physical type="postalAddress">
+            <addressPart type="addressLine">The University of New South Wales</addressPart>
+            <addressPart type="addressLine">Sydney NSW 2052</addressPart>
+            <addressPart type="addressLine">Australia</addressPart>
+          </physical>
+        </address>
+      </location>
+      <coverage>
+        <temporal>
+          <date dateFormat="W3CDTF" type="dateTo">2011-11-30T00:00:00+11:00</date>
+          <date dateFormat="W3CDTF" type="dateFrom">2009-06-01T00:00:00+10:00</date>
+        </temporal>
+      </coverage>
+      <relatedObject>
+        <key>http://nla.gov.au/nla.party-593921</key>
+        <relation type="isPresentedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicate:1959.4/004_128</key>
+        <relation type="isPresentedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicate:1959.4/004_306</key>
+        <relation type="isProducedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicate:1959.4/004_63</key>
+        <relation type="hasCollector"/>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicate:1959.4/004_139</key>
+        <relation type="isOwnerOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicate:1959.4/004_137</key>
+        <relation type="hasAssociationWith">
+          <description>Supervisor</description>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicate:1959.4/004_79</key>
+        <relation type="hasAssociationWith"/>
+      </relatedObject>
+      <subject type="anzsrc-for">030599</subject>
+      <subject type="anzsrc-for">030101</subject>
+      <subject type="local">Fimbrolide</subject>
+      <description type="full">-	Several analogues of Fimbrolide Sulfurderivatives were characterised using NMR spectroscopy
+				-	The NMR spectra were acquired using Avance III - 300 MHz instrument Gyro, with a SampleXpress autosampler upgrade and commissioned in 2011</description>
+      <rights>
+        <rightsStatement>Copyright © University of New South Wales 2012</rightsStatement>
+        <accessRights>For access to this data, please contact:
+				Samuel Kutty
+				Analytical Centre Lab 336
+				University of New South Wales, NSW Australia 2052
+				Email: samuel.kutty@unsw.edu.au
+				</accessRights>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="University of New South Wales">
+    <key>nonDuplicate:1959.4/004_360</key>
+    <originatingSource>https://www.researchdata.unsw.edu.au</originatingSource>
+    <collection type="dataset">
+      <name>
+        <namePart>FTIR Analysis of Artificially Aged Microfiltration Membranes</namePart>
+      </name>
+      <location>
+        <address>
+          <physical type="postalAddress">
+            <addressPart type="addressLine">The University of New South Wales</addressPart>
+            <addressPart type="addressLine">Sydney NSW 2052</addressPart>
+            <addressPart type="addressLine">Australia</addressPart>
+          </physical>
+        </address>
+      </location>
+      <coverage>
+        <temporal>
+          <date dateFormat="W3CDTF" type="dateTo">2012-06-10T16:58:48+10:00</date>
+          <date dateFormat="W3CDTF" type="dateFrom">2012-04-23T14:15:07+10:00</date>
+        </temporal>
+      </coverage>
+      <relatedObject>
+        <key>http://nla.gov.au/nla.party-593921</key>
+        <relation type="isPresentedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicate:1959.4/004_128</key>
+        <relation type="isPresentedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicate:1959.4/004_319</key>
+        <relation type="isProducedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicate:1959.4/004_135</key>
+        <relation type="hasCollector"/>
+      </relatedObject>
+      <subject type="anzsrc-for">090404</subject>
+      <subject type="anzsrc-for">030101</subject>
+      <subject type="anzsrc-for">030199</subject>
+      <subject type="local">FTIR Spectroscopy</subject>
+      <subject type="local">hollow fibre</subject>
+      <subject type="local">flatsheet</subject>
+      <subject type="local">microfiltration</subject>
+      <subject type="local">sodium dodecyl sulfate</subject>
+      <description type="full">This collection contains information regarding the analysis of a range of microfiltration membranes and the influence of various chemicals on their surface chemistry. The dataset contains membranes that are made from PVDF, PP, PES in both flatsheet and hollow fibre configurations.
+				These membranes have been exposed to sodium hypochlorite, sodium dodecyl sulphate, hydrochloric acid and sodium hydroxide. (note: not all membranes have been exposed to all chemicals)
+				The FTIR analysis was conducted on a Bruker IFS66 FTIR Microscope.</description>
+      <rights>
+        <rightsStatement>Copyright © University of New South Wales 2012</rightsStatement>
+        <accessRights>Please notify Primary Investigator for permission to access this data.</accessRights>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="University of New South Wales">
+    <key>nonDuplicate:1959.4/004_334</key>
+    <originatingSource>https://www.researchdata.unsw.edu.au</originatingSource>
+    <collection type="dataset">
+      <name>
+        <namePart>FTIR Spectra Mannich products of quinolin-4-ones analogues</namePart>
+      </name>
+      <location>
+        <address>
+          <physical type="postalAddress">
+            <addressPart type="addressLine">The University of New South Wales</addressPart>
+            <addressPart type="addressLine">Sydney NSW 2052</addressPart>
+            <addressPart type="addressLine">Australia</addressPart>
+          </physical>
+        </address>
+      </location>
+      <coverage>
+        <temporal>
+          <date dateFormat="W3CDTF" type="dateTo">2012-06-04T16:23:46+10:00</date>
+          <date dateFormat="W3CDTF" type="dateFrom">2012-04-26T19:26:46+10:00</date>
+        </temporal>
+      </coverage>
+      <relatedObject>
+        <key>http://nla.gov.au/nla.party-593921</key>
+        <relation type="isPresentedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicate:1959.4/004_128</key>
+        <relation type="isPresentedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicate:1959.4/004_304</key>
+        <relation type="isProducedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicate:1959.4/004_63</key>
+        <relation type="hasCollector"/>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicate:1959.4/004_138</key>
+        <relation type="isOwnerOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicate:1959.4/004_137</key>
+        <relation type="hasAssociationWith">
+          <description>Supervisor</description>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicate:1959.4/004_79</key>
+        <relation type="hasAssociationWith"/>
+      </relatedObject>
+      <subject type="anzsrc-for">030101</subject>
+      <subject type="anzsrc-for">030503</subject>
+      <subject type="local">Mannich products of quinolin-4-ones</subject>
+      <description type="full">-	Mannich products of quinolin-4-ones  were characterised using FTIR spectroscopy
+				-	The FTIR spectra were acquired using a Perkin Elmer FTIR instrument equipped with a Universal-ATR accessory where sample are pressed on a diamond crystal. Measurement parameters are contained within the data.
+				</description>
+      <rights>
+        <rightsStatement>Copyright © University of New South Wales 2012</rightsStatement>
+        <accessRights>For access to this data, please contact:
+				Santosh Rajput
+				Analytical Centre Lab 333
+				University of New South Wales, NSW Australia 2052
+				Email: santosh8977@gmail.com
+				</accessRights>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="University of New South Wales">
+    <key>Duplicate:1959.4/004_342</key>
+    <originatingSource>https://www.researchdata.unsw.edu.au</originatingSource>
+    <collection type="dataset">
+      <name>
+        <namePart>UV-vis spectra  of 27 acidic tripeptides(Glu, Gly, His)</namePart>
+      </name>
+      <location>
+        <address>
+          <physical type="postalAddress">
+            <addressPart type="addressLine">The University of New South Wales</addressPart>
+            <addressPart type="addressLine">Sydney NSW 2052</addressPart>
+            <addressPart type="addressLine">Australia</addressPart>
+          </physical>
+        </address>
+      </location>
+      <coverage>
+        <temporal>
+          <date dateFormat="W3CDTF" type="dateTo">2010-12-31T00:00:00+11:00</date>
+          <date dateFormat="W3CDTF" type="dateFrom">2009-07-01T00:00:00+10:00</date>
+        </temporal>
+      </coverage>
+      <relatedObject>
+        <key>http://nla.gov.au/nla.party-593921</key>
+        <relation type="isPresentedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicate:1959.4/004_128</key>
+        <relation type="isPresentedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicate:1959.4/004_63</key>
+        <relation type="hasAssociationWith"/>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicate:1959.4/004_62</key>
+        <relation type="hasAssociationWith">
+          <description>Supervisor</description>
+        </relation>
+      </relatedObject>
+      <subject type="anzsrc-for">030199</subject>
+      <subject type="anzsrc-for">030299</subject>
+      <subject type="anzsrc-for">030799</subject>
+      <subject type="anzsrc-for">030107</subject>
+      <subject type="local">UV Vis spectra</subject>
+      <subject type="local">Potentiometric Alkali titration</subject>
+      <subject type="local">Tripeptide acid disccociation constants</subject>
+      <subject type="local">Copper complexation with tripeptides and formation constants</subject>
+      <subject type="local">Tripeptides Glu, Gly, His</subject>
+      <subject type="local">Copper complexes speciation</subject>
+      <description type="full">Peptides were purchased from Genosphere, Sigma Aldrich and Bachem companies. All the peptides were chemically synthesised. Aldrich and Bachem supplied the peptides as their Zwitterionic form, Genosphere synthesised the peptides as tri-fluoro acetic salt TFA salts. 
+				The peptides were of purity higher than 98% and were used without any further purification.
+				All peptides solutions were prepared at 0.001M concentration in milliQ water, Hydrochloric acid HCl 0.002M in order to have relatively the same initial pH of 2.6 value
+				Tripeptides Glu, Gly, His
+				The UV Vis Spectra Measurement Properties are:
+				Wavelength Range (nm.): 300.00 to 800.00
+				Scan Speed: Medium
+				Sampling Interval: 0.5
+				Auto Sampling Interval: Disabled
+				Scan Mode: Single
+				Instrument Properties
+				Instrument Type: UV-2400PC Series
+				Measuring Mode: Absorbance
+				Slit Width: 2.0 nm
+				Light Source Change Wavelength: 360.0 nm
+				S/R Exchange: Normal
+				</description>
+      <rights>
+        <rightsStatement>Copyright © University of New South Wales 2012</rightsStatement>
+        <accessRights>For access to this data, please contact:
+				Name of Researcher: Rima Raffoul Khoury
+				Room No. 121, Dalton Building_
+				University of New South Wales, NSW Australia 2052
+				Mobile Number: 0406456788
+				</accessRights>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="University of New South Wales">
+    <key>Duplicate:1959.4/004_356</key>
+    <originatingSource>https://www.researchdata.unsw.edu.au</originatingSource>
+    <collection type="dataset">
+      <name>
+        <namePart>NMR of Fimbrolide Analogues</namePart>
+      </name>
+      <location>
+        <address>
+          <physical type="postalAddress">
+            <addressPart type="addressLine">The University of New South Wales</addressPart>
+            <addressPart type="addressLine">Sydney NSW 2052</addressPart>
+            <addressPart type="addressLine">Australia</addressPart>
+          </physical>
+        </address>
+      </location>
+      <coverage>
+        <temporal>
+          <date dateFormat="W3CDTF" type="dateTo">2009-06-30T00:00:00+10:00</date>
+          <date dateFormat="W3CDTF" type="dateFrom">2009-05-01T00:00:00+10:00</date>
+        </temporal>
+      </coverage>
+      <relatedObject>
+        <key>http://nla.gov.au/nla.party-593921</key>
+        <relation type="isPresentedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicate:1959.4/004_128</key>
+        <relation type="isPresentedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicate:1959.4/004_306</key>
+        <relation type="isProducedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicate:1959.4/004_139</key>
+        <relation type="isOwnerOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicate:1959.4/004_63</key>
+        <relation type="hasCollector"/>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicate:1959.4/004_137</key>
+        <relation type="hasAssociationWith">
+          <description>Supervisor</description>
+        </relation>
+      </relatedObject>
+      <relatedObject>
+        <key>nonDuplicate:1959.4/004_79</key>
+        <relation type="hasAssociationWith"/>
+      </relatedObject>
+      <subject type="anzsrc-for">030599</subject>
+      <subject type="anzsrc-for">030101</subject>
+      <subject type="local">Fimbrolide</subject>
+      <description type="full">-	Several analogues of Fimbrolide were characterised using NMR spectroscopy
+				-	The NMR spectra were acquired using Avance III - 300 MHz instrument Gyro, with a SampleXpress autosampler upgrade and commissioned in 2011</description>
+      <rights>
+        <rightsStatement>Copyright © University of New South Wales 2012</rightsStatement>
+        <accessRights>For access to this data, please contact:
+				Samuel Kutty
+				Analytical Centre Lab 336
+				University of New South Wales, NSW Australia 2052
+				Email: samuel.kutty@unsw.edu.au
+				</accessRights>
+      </rights>
+    </collection>
+  </registryObject>
+</registryObjects>

@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects"
+                 xmlns:extRif="http://ands.org.au/standards/rif-cs/extendedRegistryObjects"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2DCIRecords1</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Simple DCI Source Collection(collection) with 2 identifiers, location url,
+                    temporal range, full citation, multiple brief desc and rights desc.
+                </namePart>
+            </name>
+            <description type="brief">&amp;lt;p&amp;gt;Study the patterns of habitat use by Dugongs in Shark Bay Marine
+                Park. Research to focus on the impact of Dugong and turtle grazing on the biomass, species, composition
+                and divesity of seagrass patches&amp;lt;/p&amp;gt;
+            </description>
+            <description type="brief">&amp;lt;p&amp;gt;Original record compiled for the Western Australian Marine
+                Science Institution (WAMSI), Project 3.8, 2008. Originally sourced from several databases compiled by WA
+                DEC Marine Science Branch of projects relevant to the marine parks of WA. Variable metadata information
+                was available.&amp;lt;/p&amp;gt;
+            </description>
+            <description type="rights">&amp;lt;p&amp;gt;No Restrictions&amp;lt;/p&amp;gt;</description>
+            <identifier type="local">AODN:516811d7-cc5e-207a-e0440003ba8c79ddAUT2dfg34dsAUT23ds</identifier>
+            <identifier type="doi">10.1234/00/DCI56</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>
+                            http://waodn.ivec.org:80/geonetwork/srv/en/metadata.show?uuid=516811d7-cc5e-207a-e0440003ba8c79dd
+                        </value>
+                    </electronic>
+                </address>
+            </location>
+            <coverage>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3C">2006-05-01T00:00:00Z</date>
+                    <date type="dateTo" dateFormat="W3C">2006-05-02T00:00:00Z</date>
+                </temporal>
+                <spatial type="iso19139dcmiBox">northlimit=-23.5; southlimit=-29; westlimit=113; eastLimit=115;
+                    projection=WGS84
+                </spatial>
+            </coverage>
+            <citationInfo>
+                <fullCitation style="Datacite">Donohue, Randall ; McVicar, Tim ; Roderick, Michael ; Li, Lingtao (2015):
+                    Australian 5km evaporation, radiation and related products - FAO56 crop reference. Commonwealth
+                    Scientific and Industrial Research Organisation (CSIRO). DOI :10.4225/08/54BDA1D179303
+                </fullCitation>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecords2DCIRecords2</key>
+        <originatingSource>http://www.aims.gov.au/</originatingSource>
+        <collection type="dataset">
+            <identifier type="local">AODN:516811d7-cd3a-207a-e0dda8c79ddDCIAUT234ds</identifier>
+            <name type="primary">
+                <namePart type="full">(AUTestingRecords2) DCI Source Collection(dataset) with local identifiers,
+                    location url, DCMI box, ANZSRC subjects, licence type only, 2x brief desc and desc of type rights
+                </namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>
+                            http://waodn.ivec.org:80/geonetwork/srv/en/metadata.show?uuid=516811d7-cd3a-207a-e0440003ba8c79dd
+                        </value>
+                    </electronic>
+                </address>
+            </location>
+            <coverage>
+                <spatial type="iso19139dcmiBox">
+                    northlimit=-17; southlimit=-24; westlimit=114; eastLimit=122; projection=WGS84
+                </spatial>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3C">2000-07-01T00:00:00Z</date>
+                    <date type="dateTo" dateFormat="W3C">2007-06-30T00:00:00Z</date>
+                </temporal>
+            </coverage>
+            <subject type="anzsrc-for">0104</subject>
+            <subject type="anzsrc-for">0105</subject>
+            <subject type="anzsrc-for">0103</subject>
+            <subject type="anzsrc-for">04</subject>
+            <subject type="anzsrc-for">9699</subject>
+            <rights>
+                <licence type="CC-BY"/>
+            </rights>
+            <description type="brief">
+                The region of interest for this study was Australias North West Shelf, extending from the inter-tidal
+                zone to the continental shelf break, with particular focus on data relevant to the area between North
+                West Cape and Port Hedland. The principal resource used for identification of existing data and
+                information was the bibliography assembled by Jernakoff et al. (2006). This document provides an
+                overview of the relevance of existing information to the North West Shelf Marine Environmental
+                Management Study (NWSMEMS). It identifies gaps in knowledge that are likely to be important to the
+                NWSMEMS and makes recommendations for addressing these gaps. The review presents information on the
+                marine environment, grouped into physical, chemical and biological themes. This summary at the beginning
+                of the document presents our major conclusions about the relevance of existing knowledge and about major
+                gaps in information, and our recommendations for future research.
+            </description>
+            <description type="brief">
+                Original record compiled for the Western Australian Marine Science Institution (WAMSI), Project 3.8,
+                2008.
+            </description>
+            <description type="rights">No Restrictions</description>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecords2DCIRecords3</key>
+        <originatingSource>http://www.aims.gov.au/</originatingSource>
+        <collection type="software">
+            <name type="abbreviated">
+                <namePart>abbreviatedName</namePart>
+            </name>
+            <name type="alternative">
+                <namePart>alternativeName</namePart>
+            </name>
+            <name type="primary">
+                <namePart>(AUTestingRecords) DCI Collection of type software. Should not produce DCI output.</namePart>
+            </name>
+            <description type="significanceStatement">&amp;lt;p&amp;gt;significanceStatement significanceStatement&amp;lt;/p&amp;gt;</description>
+            <description type="researchSupport">&amp;lt;p&amp;gt;researchSupport researchSupport researchSupport
+                researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport
+                researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport
+                researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport
+                researchSupport&amp;lt;/p&amp;gt;
+            </description>
+            <description type="researchDataProflie">&amp;lt;p&amp;gt;researchDataProflieresea rchDataProflie
+                researchDataP roflieresearchDataProflie researchDataProflie researchDataProflie researchDataProflie
+                researchDataProflie&amp;lt;/p&amp;gt;
+            </description>
+            <description type="researchAreas">&amp;lt;p&amp;gt;researchAreas researchAreas researchAreas researchAreas
+                researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas
+                researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas
+                researchAreas researchAreas researchAreas researchAreas&amp;lt;/p&amp;gt;
+            </description>
+            <description type="note">&amp;lt;p&amp;gt;note note note note note note note note note note note note note
+                note note note note note note note note note&amp;lt;/p&amp;gt;
+            </description>
+            <description type="logo">&amp;lt;p&amp;gt;https://dl.dropbox.com/u/49073372/LOGO.jpg&amp;lt;/p&amp;gt;
+            </description>
+            <description type="full">&amp;lt;p&amp;gt;full full full full full full full full full full full full full
+                full full full full full&amp;lt;/p&amp;gt;
+            </description>
+            <description type="deliverymethod">&amp;lt;p&amp;gt;deliverymethod deliverymethod deliverymethod
+                deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod
+                deliverymethod deliverymethod deliverymethod deliverymethod&amp;lt;/p&amp;gt;
+            </description>
+            <description type="brief">&amp;lt;p&amp;gt;brief brief brief brief brief brief brief brief brief brief brief
+                brief brief brief brief brief&amp;lt;/p&amp;gt;
+            </description>
+            <description type="significanceStatement">&amp;lt;p&amp;gt;This is the significance statement for the
+                collection&amp;lt;/p&amp;gt;
+            </description>
+            <description type="lineage">&amp;lt;p&amp;gt;This is the lineage statement for the collection&amp;lt;/p&amp;gt;</description>
+            <description type="local">&amp;lt;p&amp;gt;This is a local statement for the colleciton&amp;lt;/p&amp;gt;
+            </description>
+            <rights>
+                <rightsStatement rightsUri="http://www.rightsuri.com/">Rights Statement Rights Statement
+                </rightsStatement>
+                <licence type="AusGOALRestrictive" rightsUri="http://www.rightsuri.com">LicenceLicenceLicence</licence>
+                <accessRights rightsUri="http://www.rightsuri.com/">Access Qwubbar swarkie xoop Rights</accessRights>
+            </rights>
+            <rights>
+                <licence type="CC-BY">CC-BY</licence>
+                <accessRights type="open">My Access Rights details are listed here and my data is open</accessRights>
+            </rights>
+            <identifier type="local">abc231234342s35</identifier>
+            <identifier type="AU-ANL:PEAU">nla.part.1234535</identifier>
+            <dates type="dc.available">
+                <date type="dateFrom" dateFormat="W3CDTF">2013-02-07T00:00:00Z</date>
+            </dates>
+            <dates type="dc.issued">
+                <date type="dateFrom" dateFormat="W3CDTF">2022-03-03T00:00:00Z</date>
+            </dates>
+            <location dateFrom="2013-02-14T00:00:00Z" dateTo="2013-03-02T00:00:00Z">
+                <address>
+                    <electronic type="url" target="landingPage">
+                        <value>https://demo.ands.org.au/</value>
+                        <title>My Landing Page for the data</title>
+                    </electronic>
+                    <physical type="postalAddress">
+                        <addressPart type="addressLine">&amp;lt;p&amp;gt; 123 Example St&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;
+                            Canberra ACT 2131&amp;lt;/p&amp;gt;
+                        </addressPart>
+                    </physical>
+                    <electronic type="url" target="directDownload">
+                        <value>https://dl.dropboxusercontent.com/u/49073372/RIF16WithError.xml</value>
+                        <title>My Direct Download link</title>
+                        <mediaType>XML</mediaType>
+                        <byteSize>3KB</byteSize>
+                    </electronic>
+                </address>
+                <spatial type="text">119.707031,-20.468189 152.753906,-32.101190 119.707031,-20.468189</spatial>
+            </location>
+            <coverage>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">2013-01-30T00:00:00Z</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2017-03-03T00:00:00Z</date>
+                    <text>Temporal text goes here 1020</text>
+                </temporal>
+                <spatial type="kmlPolyCoords">143.085938,-22.917923</spatial>
+                <spatial type="kmlPolyCoords">121.640625,-35.173808 150.644531,-20.961440 117.246094,-14.093957
+                    110.390625,-26.273714 127.441406,-20.961440 128.847656,-27.527758 121.640625,-35.173808
+                </spatial>
+            </coverage>
+            <coverage>
+                <spatial type="text">Some place in Australia</spatial>
+            </coverage>
+            <subject type="local">localSubject</subject>
+            <subject type="anzsrc-seo">830201</subject>
+            <subject type="anzsrc-for">0303</subject>
+            <relatedInfo type="metadata">
+                <title>Related Info Title</title>
+                <identifier type="doi">10.1234567882484</identifier>
+                <format>
+                    <identifier type="mediaType">formatidentifier</identifier>
+                </format>
+                <notes>related info notes</notes>
+            </relatedInfo>
+            <relatedInfo type="dataQualityInformation">
+                <title>relatedinfo Title</title>
+                <identifier type="infouri">infouri.12345</identifier>
+                <notes>Related Info Notes</notes>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <title>Stuff</title>
+                <identifier type="uri">http://www.smithy.com</identifier>
+                <relation type="hasAssociationWith">
+                    <description>A website relationship</description>
+                </relation>
+                <notes>Some notes for the website</notes>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>(AUTestingRecords)Party Type Person To Related To With Search KEYWORDs</title>
+                <identifier type="local">mayer1235</identifier>
+                <relation type="hasCollector"/>
+            </relatedInfo>
+            <relatedInfo type="reuseInformation">
+                <title>Example Reuse Information</title>
+                <identifier type="uri">http://exampleofreuse.com</identifier>
+                <notes>To reuse this data following the steps outlined at the URL</notes>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Another Publication Example</title>
+                <identifier type="issn">789879.3.34.ISSN</identifier>
+            </relatedInfo>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.12312sdf3123</identifier>
+                    <title>Citation Title</title>
+                    <version>V0.2</version>
+                    <placePublished>Australia</placePublished>
+                    <publisher>Some Example Publisher</publisher>
+                    <url>http://www.exapmle.com</url>
+                    <context>Context</context>
+                    <contributor seq="1">
+                        <namePart type="given">Joe Blogs</namePart>
+                    </contributor>
+                    <date type="created">12-12-2001</date>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecords2DCIRecords4</key>
+        <originatingSource>http://www.aims.gov.au/</originatingSource>
+        <collection type="repository">
+            <name type="abbreviated">
+                <namePart>abbreviatedName</namePart>
+            </name>
+            <name type="alternative">
+                <namePart>alternativeName</namePart>
+            </name>
+            <name type="primary">
+                <namePart>(AUTestingRecords) DCI Collection of type repository with all description types. Multiple
+                    identifiers and dates.
+                </namePart>
+            </name>
+            <description type="significanceStatement">&amp;lt;p&amp;gt;significanceStatement significanceStatement&amp;lt;/p&amp;gt;</description>
+            <description type="researchSupport">&amp;lt;p&amp;gt;researchSupport researchSupport researchSupport
+                researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport
+                researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport
+                researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport
+                researchSupport&amp;lt;/p&amp;gt;
+            </description>
+            <description type="researchDataProflie">&amp;lt;p&amp;gt;researchDataProflieresea rchDataProflie
+                researchDataP roflieresearchDataProflie researchDataProflie researchDataProflie researchDataProflie
+                researchDataProflie&amp;lt;/p&amp;gt;
+            </description>
+            <description type="researchAreas">&amp;lt;p&amp;gt;researchAreas researchAreas researchAreas researchAreas
+                researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas
+                researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas
+                researchAreas researchAreas researchAreas researchAreas&amp;lt;/p&amp;gt;
+            </description>
+            <description type="note">&amp;lt;p&amp;gt;note note note note note note note note note note note note note
+                note note note note note note note note note&amp;lt;/p&amp;gt;
+            </description>
+            <description type="logo">&amp;lt;p&amp;gt;https://dl.dropbox.com/u/49073372/LOGO.jpg&amp;lt;/p&amp;gt;
+            </description>
+            <description type="full">&amp;lt;p&amp;gt;full full full full full full full full full full full full full
+                full full full full full&amp;lt;/p&amp;gt;
+            </description>
+            <description type="deliverymethod">&amp;lt;p&amp;gt;deliverymethod deliverymethod deliverymethod
+                deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod
+                deliverymethod deliverymethod deliverymethod deliverymethod&amp;lt;/p&amp;gt;
+            </description>
+            <description type="brief">&amp;lt;p&amp;gt;brief brief brief brief brief brief brief brief brief brief brief
+                brief brief brief brief brief&amp;lt;/p&amp;gt;
+            </description>
+            <description type="significanceStatement">&amp;lt;p&amp;gt;This is the significance statement for the
+                collection&amp;lt;/p&amp;gt;
+            </description>
+            <description type="lineage">&amp;lt;p&amp;gt;This is the lineage statement for the collection&amp;lt;/p&amp;gt;</description>
+            <description type="local">&amp;lt;p&amp;gt;This is a local statement for the colleciton&amp;lt;/p&amp;gt;
+            </description>
+            <rights>
+                <rightsStatement rightsUri="http://www.rightsuri.com/">Rights Statement Rights Statement
+                </rightsStatement>
+                <licence type="AusGOALRestrictive" rightsUri="http://www.rightsuri.com">LicenceLicenceLicence</licence>
+                <accessRights rightsUri="http://www.rightsuri.com/">Access Qwubbar swarkie xoop Rights</accessRights>
+            </rights>
+            <rights>
+                <licence type="CC-BY">CC-BY</licence>
+                <accessRights type="open">My Access Rights details are listed here and my data is open</accessRights>
+            </rights>
+            <identifier type="local">abc2312343sdf42s35</identifier>
+            <identifier type="AU-ANL:PEAU">nla.part.123sdfsdf4535</identifier>
+            <dates type="dc.available">
+                <date type="dateFrom" dateFormat="W3CDTF">2013-02-07T00:00:00Z</date>
+            </dates>
+            <dates type="dc.issued">
+                <date type="dateFrom" dateFormat="W3CDTF">2022-03-03T00:00:00Z</date>
+            </dates>
+            <location dateFrom="2013-02-14T00:00:00Z" dateTo="2013-03-02T00:00:00Z">
+                <address>
+                    <electronic type="url" target="landingPage">
+                        <value>https://demo.ands.org.au/</value>
+                        <title>My Landing Page for the data</title>
+                    </electronic>
+                    <physical type="postalAddress">
+                        <addressPart type="addressLine">&amp;lt;p&amp;gt; 123 Example St&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;
+                            Canberra ACT 2131&amp;lt;/p&amp;gt;
+                        </addressPart>
+                    </physical>
+                    <electronic type="url" target="directDownload">
+                        <value>https://dl.dropboxusercontent.com/u/49073372/RIF16WithError.xml</value>
+                        <title>My Direct Download link</title>
+                        <mediaType>XML</mediaType>
+                        <byteSize>3KB</byteSize>
+                    </electronic>
+                </address>
+                <spatial type="text">119.707031,-20.468189 152.753906,-32.101190 119.707031,-20.468189</spatial>
+            </location>
+            <coverage>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">2013-01-30T00:00:00Z</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2017-03-03T00:00:00Z</date>
+                    <text>Temporal text goes here 1020</text>
+                </temporal>
+                <spatial type="kmlPolyCoords">143.085938,-22.917923</spatial>
+                <spatial type="kmlPolyCoords">121.640625,-35.173808 150.644531,-20.961440 117.246094,-14.093957
+                    110.390625,-26.273714 127.441406,-20.961440 128.847656,-27.527758 121.640625,-35.173808
+                </spatial>
+            </coverage>
+            <coverage>
+                <spatial type="text">Some place in Australia</spatial>
+            </coverage>
+            <subject type="local">localSubject</subject>
+            <subject type="anzsrc-seo">830201</subject>
+            <subject type="anzsrc-for">0303</subject>
+            <relatedInfo type="metadata">
+                <title>Related Info Title</title>
+                <identifier type="doi">10.1234567882484</identifier>
+                <format>
+                    <identifier type="mediaType">formatidentifier</identifier>
+                </format>
+                <notes>related info notes</notes>
+            </relatedInfo>
+            <relatedInfo type="dataQualityInformation">
+                <title>relatedinfo Title</title>
+                <identifier type="infouri">infouri.12345</identifier>
+                <notes>Related Info Notes</notes>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <title>Stuff</title>
+                <identifier type="uri">http://www.smithy.com</identifier>
+                <relation type="hasAssociationWith">
+                    <description>A website relationship</description>
+                </relation>
+                <notes>Some notes for the website</notes>
+            </relatedInfo>
+            <relatedInfo type="reuseInformation">
+                <title>Example Reuse Information</title>
+                <identifier type="uri">http://exampleofreuse.com</identifier>
+                <notes>To reuse this data following the steps outlined at the URL</notes>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Another Publication Example</title>
+                <identifier type="issn">789879.3.34.ISSN</identifier>
+            </relatedInfo>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.12312sdf3123</identifier>
+                    <title>Citation Title</title>
+                    <version>V0.2</version>
+                    <placePublished>Australia</placePublished>
+                    <publisher>Some Example Publisher</publisher>
+                    <url>http://www.exapmle.com</url>
+                    <context>Context</context>
+                    <contributor seq="1">
+                        <namePart type="given">Joe Blogs</namePart>
+                    </contributor>
+                    <date type="created">12-12-2001</date>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecords2DCIRecords5</key>
+        <originatingSource>http://www.aims.gov.au/</originatingSource>
+        <collection type="dataset">
+            <identifier type="local">AODN:a439fbc6-9150-470b-a8db-1a8fd4DCId336d2AUT</identifier>
+            <name type="primary">
+                <namePart type="full">(AUTestingRecords) Collection(dataset) with relatedInfo party (isOWnedBy)
+                </namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>
+                            http://catalogue.aodn.org.au/geonetwork/srv/en/metadata.show?uuid=a439fbc6-9150-470b-a8db-1a8fd4d336d2
+                        </value>
+                    </electronic>
+                </address>
+            </location>
+            <coverage>
+                <spatial type="iso19139dcmiBox">
+                    northlimit=-9.68; southlimit=-28.99; westlimit=111.61; eastLimit=129.99; projection=WGS84
+                </spatial>
+            </coverage>
+            <subject type="local">Biosphere | Aquatic Habitat | Benthic Habitat</subject>
+            <subject type="local">Land Surface | Landscape | Landscape Ecology</subject>
+            <subject type="local">Oceans | Marine Biology | Marine Habitat</subject>
+            <subject type="anzsrc-for">0104</subject>
+            <subject type="anzsrc-for">0105</subject>
+            <subject type="anzsrc-for">0103</subject>
+            <subject type="anzsrc-for">04</subject>
+            <subject type="anzsrc-for">9699</subject>
+            <description type="brief">
+                This product (i.e. an Access database and csv files) contains data (longitude, latitude and physical
+                data) that explains the predicted spatial patterns of benthic habitats for demersal fish and benthic
+                invertebrates in the NWMR. Predicted patterns for habitats represent point data on a 0.01 decimal degree
+                grid covering most of the NWMR (approximately 600,000 square km). Source:
+                http://www.marine.csiro.au/marq/edd_search.Browse_Citation?txtSession=8593
+            </description>
+            <description type="brief">This is an original derivation.</description>
+            <description type="rights">
+                The data may be copied for distribution within DEWHA for their internal business operations, but may not
+                be provided to third parties. Enquiries from third parties should be directed to Nick Ellis. See contact
+                details below.
+            </description>
+            <relatedInfo type="collection">
+                <identifier type="doi">10.664586-12221</identifier>
+                <relation type="hasAssociationWith"/>
+                <notes>An invalid doi</notes>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <identifier type="uri">http://dciParties.com/DCIPartyRecords2</identifier>
+                <relation type="isOwnedBy"/>
+                <notes>An invalid doi</notes>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecords2DCIRecords6</key>
+        <originatingSource>http://www.aims.gov.au/</originatingSource>
+        <collection type="dataset">
+            <identifier type="local">AODN:a439fbc6-9150-470b-a8db-1a8fd4DCIdasdf336d2AUT</identifier>
+            <name type="primary">
+                <namePart type="full">(AUTestingRecords) Collection(dataset) with relatedInfo party (isManagedBy)
+                </namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>
+                            http://catalogue.aodn.org.au/geonetwork/srv/en/metadata.show?uuid=a439fbc6-9150-470b-a8db-1a8fd4d336d2
+                        </value>
+                    </electronic>
+                </address>
+            </location>
+            <coverage>
+                <spatial type="iso19139dcmiBox">
+                    northlimit=-9.68; southlimit=-28.99; westlimit=111.61; eastLimit=129.99; projection=WGS84
+                </spatial>
+            </coverage>
+            <subject type="local">Biosphere | Aquatic Habitat | Benthic Habitat</subject>
+            <subject type="local">Land Surface | Landscape | Landscape Ecology</subject>
+            <subject type="local">Oceans | Marine Biology | Marine Habitat</subject>
+            <subject type="anzsrc-for">0104</subject>
+            <subject type="anzsrc-for">0105</subject>
+            <subject type="anzsrc-for">0103</subject>
+            <subject type="anzsrc-for">04</subject>
+            <subject type="anzsrc-for">9699</subject>
+            <description type="brief">
+                This product (i.e. an Access database and csv files) contains data (longitude, latitude and physical
+                data) that explains the predicted spatial patterns of benthic habitats for demersal fish and benthic
+                invertebrates in the NWMR. Predicted patterns for habitats represent point data on a 0.01 decimal degree
+                grid covering most of the NWMR (approximately 600,000 square km). Source:
+                http://www.marine.csiro.au/marq/edd_search.Browse_Citation?txtSession=8593
+            </description>
+            <description type="brief">This is an original derivation.</description>
+            <description type="rights">
+                The data may be copied for distribution within DEWHA for their internal business operations, but may not
+                be provided to third parties. Enquiries from third parties should be directed to Nick Ellis. See contact
+                details below.
+            </description>
+            <relatedInfo type="collection">
+                <identifier type="doi">10.664586-12221</identifier>
+                <relation type="hasAssociationWith"/>
+                <notes>An invalid doi</notes>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <identifier type="uri">http://dciParties.com/DCIPartyRecords2</identifier>
+                <relation type="isManagedBy"/>
+                <notes>An invalid doi</notes>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecords2DCIRecords7</key>
+        <originatingSource>http://www.aims.gov.au/</originatingSource>
+        <collection type="dataset">
+            <identifier type="local">AODN:a439fbc6-9150-470b-a8db-1a8fd4DCIdasdf336d2AUT</identifier>
+            <name type="primary">
+                <namePart type="full">(AUTestingRecords) Collection(dataset) with relatedInfo party (author)</namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>
+                            http://catalogue.aodn.org.au/geonetwork/srv/en/metadata.show?uuid=a439fbc6-9150-470b-a8db-1a8fd4d336d2
+                        </value>
+                    </electronic>
+                </address>
+            </location>
+            <coverage>
+                <spatial type="iso19139dcmiBox">
+                    northlimit=-9.68; southlimit=-28.99; westlimit=111.61; eastLimit=129.99; projection=WGS84
+                </spatial>
+            </coverage>
+            <subject type="local">Biosphere | Aquatic Habitat | Benthic Habitat</subject>
+            <subject type="local">Land Surface | Landscape | Landscape Ecology</subject>
+            <subject type="local">Oceans | Marine Biology | Marine Habitat</subject>
+            <subject type="anzsrc-for">0104</subject>
+            <subject type="anzsrc-for">0105</subject>
+            <subject type="anzsrc-for">0103</subject>
+            <subject type="anzsrc-for">04</subject>
+            <subject type="anzsrc-for">9699</subject>
+            <description type="brief">
+                This product (i.e. an Access database and csv files) contains data (longitude, latitude and physical
+                data) that explains the predicted spatial patterns of benthic habitats for demersal fish and benthic
+                invertebrates in the NWMR. Predicted patterns for habitats represent point data on a 0.01 decimal degree
+                grid covering most of the NWMR (approximately 600,000 square km). Source:
+                http://www.marine.csiro.au/marq/edd_search.Browse_Citation?txtSession=8593
+            </description>
+            <description type="brief">This is an original derivation.</description>
+            <description type="rights">
+                The data may be copied for distribution within DEWHA for their internal business operations, but may not
+                be provided to third parties. Enquiries from third parties should be directed to Nick Ellis. See contact
+                details below.
+            </description>
+            <relatedInfo type="collection">
+                <identifier type="doi">10.664586-12221</identifier>
+                <relation type="hasAssociationWith"/>
+                <notes>An invalid doi</notes>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <identifier type="uri">http://dciParties.com/DCIPartyRecords2</identifier>
+                <relation type="author"/>
+                <notes>An invalid doi</notes>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecords2DCIRecords8</key>
+        <originatingSource>http://www.aims.gov.au/</originatingSource>
+        <collection type="dataset">
+            <identifier type="local">AODN:a439fbc6-9150-470b-a8db-1a8fd4DCIadsfdasdf336d2AUT</identifier>
+            <name type="primary">
+                <namePart type="full">(AUTestingRecords) Collection(dataset) with reverse relatedInfo party (OwnerOf)
+                    (party key AUTestingRecords3DCIPartyRecords2)
+                </namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>
+                            http://catalogue.aodn.org.au/geonetwork/srv/en/metadata.show?uuid=a439fbc6-9150-470b-a8db-1a8fd4d336d2
+                        </value>
+                    </electronic>
+                </address>
+            </location>
+            <coverage>
+                <spatial type="iso19139dcmiBox">
+                    northlimit=-9.68; southlimit=-28.99; westlimit=111.61; eastLimit=129.99; projection=WGS84
+                </spatial>
+            </coverage>
+            <subject type="local">MyLocalSubject</subject>
+            <subject type="local">Biosphere | Aquatic Habitat | Benthic Habitat</subject>
+            <subject type="local">Land Surface | Landscape | Landscape Ecology</subject>
+            <subject type="local">Oceans | Marine Biology | Marine Habitat</subject>
+            <subject type="anzsrc-for">0104</subject>
+            <subject type="anzsrc-for">0105</subject>
+            <subject type="anzsrc-for">0103</subject>
+            <subject type="anzsrc-for">04</subject>
+            <subject type="anzsrc-for">9699</subject>
+            <description type="brief">
+                This product (i.e. an Access database and csv files) contains data (longitude, latitude and physical
+                data) that explains the predicted spatial patterns of benthic habitats for demersal fish and benthic
+                invertebrates in the NWMR. Predicted patterns for habitats represent point data on a 0.01 decimal degree
+                grid covering most of the NWMR (approximately 600,000 square km). Source:
+                http://www.marine.csiro.au/marq/edd_search.Browse_Citation?txtSession=8593
+            </description>
+            <description type="brief">This is an original derivation.</description>
+            <description type="rights">
+                The data may be copied for distribution within DEWHA for their internal business operations, but may not
+                be provided to third parties. Enquiries from third parties should be directed to Nick Ellis. See contact
+                details below.
+            </description>
+            <relatedInfo type="collection">
+                <identifier type="doi">10.664586-12221</identifier>
+                <relation type="hasAssociationWith"/>
+                <notes>An invalid doi</notes>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecords2DCIRecords9</key>
+        <originatingSource>http://catalogue.aodn.org.au/geonetwork/srv/en</originatingSource>
+        <collection type="dataset">
+            <identifier type="local">AODN:urn:cmar.csiro.au:dataset:14006aAUTDCI</identifier>
+            <name type="primary">
+                <namePart type="full">
+                    (AUTestingRecords) DCI Collection(dataset) with relatedObject party (hasCollector)
+                </namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>
+                            http://www.cmar.csiro.au/geonetwork/srv/en/main.home?uuid=urn:cmar.csiro.au:dataset:14006
+                        </value>
+                    </electronic>
+                </address>
+            </location>
+            <coverage>
+                <spatial type="iso19139dcmiBox">
+                    northlimit=-16.5; southlimit=-35.5; westlimit=146.8; eastLimit=156.5; projection=WGS84
+                </spatial>
+            </coverage>
+            <relatedObject>
+                <key>AUTestingRecords3DCIPartyRecords2</key>
+                <relation type="hasCollector"/>
+            </relatedObject>
+            <subject type="local">Australia</subject>
+            <subject type="local">FAUNA-Vertebrates</subject>
+            <subject type="local">FISHERIES-Marine</subject>
+            <subject type="local">MARINE-Biology</subject>
+            <subject type="local">
+                Biological Classification &amp;gt; Animals/Vertebrates &amp;gt; Fish &amp;gt; Sharks/Rays/Chimaeras
+            </subject>
+            <subject type="local">
+                Biosphere &amp;gt; Aquatic Ecosystems &amp;gt; Marine Habitat
+            </subject>
+            <subject type="anzsrc-for">0104</subject>
+            <subject type="anzsrc-for">0105</subject>
+            <subject type="anzsrc-for">0103</subject>
+            <subject type="anzsrc-for">04</subject>
+            <subject type="anzsrc-for">9699</subject>
+            <description type="brief">
+                This dataset is a modelled species distribution for the fish species Chimaera obscura Didier, Last &amp;
+                White, 2008 (common name: Shortspine Chimaera, family: Chimaeridae, CAAB species code: 37 042006), as
+                held in the CMAR Bioregionalisation database as at 14 September 2012. Please note, the indicated range
+                is generalised and may not take into account fine scale local features at this time. The CSIRO Marine
+                and Atmospheric Research (CMAR) Bioregionalisation database contains expert assessed modelled
+                distribution range information for fish species in Australian waters, compiled and upgraded over the
+                period 1996-current. Ranges for individual species are computed from values representing minimum and
+                maximum depth, and linear start/end points around the 500 metre depth contour extrapolated towards and
+                away from the coast. The resulting range maps can be output as images, shape files, or OGC web services
+                (WMS and WFS).
+            </description>
+            <description type="brief">
+                The range data have been compiled from validated specimen records, literature accounts and the input of
+                a range of expert contributors via specially convened workshops, checked and extended by CMAR staff in
+                2010-2012 prior to being made available publicly via the ALA and other mechanisms. Geographic limits
+                were set with a precision of +/- 25km approx. around the 500m depth contour (isobath), and depth limits
+                to between +/- 50m and +/-5 m according to available data. These values were then used to subset a 0.1
+                degree square (10 km nominal) gridded bathymetry to generate the resulting maps and shapefiles across
+                the region of interest. Additional mechanisms were employed to infill data in shallow regions
+                (specifically Bass Strait and the Gulf of Carpentaria) not suitable for extrapolation from the 500m
+                depth contour. For additional general information regarding these files refer to
+                http://www.cmar.csiro.au/datacentre/modelled_fish_distributions.htm .
+            </description>
+            <description type="rights">
+                creative commons license "non-commercial share alike"
+            </description>
+            <description type="rights">
+                Attribution-Noncommercial-Share Alike 2.5 Australia
+            </description>
+            <relatedInfo type="collection">
+                <identifier type="handle">10.234423/dffds</identifier>
+                <relation type="isDerivedFrom"/>
+                <title>(AUTestingRecords)CMAR Modelled species distribution</title>
+                <notes>An invalid handle</notes>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecords2DCIRecords10</key>
+        <originatingSource>http://catalogue.aodn.org.au/geonetwork/srv/en</originatingSource>
+        <collection type="dataset">
+            <identifier type="local">AODN:urn:cmar.csiro.au:dataset:14006aAUTDCIa</identifier>
+            <name type="primary">
+                <namePart type="full">
+                    (AUTestingRecords) DCI Collection(dataset) with reverse 2xrelatedObject party (isCollectorOf) (Party
+                    Keys = AUTestingRecords3DCIPartyRecords2, AUTestingRecords3DCIPartyRecords1)
+                </namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>
+                            http://www.cmar.csiro.au/geonetwork/srv/en/main.home?uuid=urn:cmar.csiro.au:dataset:14006
+                        </value>
+                    </electronic>
+                </address>
+            </location>
+            <coverage>
+                <spatial type="iso19139dcmiBox">
+                    northlimit=-16.5; southlimit=-35.5; westlimit=146.8; eastLimit=156.5; projection=WGS84
+                </spatial>
+            </coverage>
+            <subject type="local">Australia</subject>
+            <subject type="local">FAUNA-Vertebrates</subject>
+            <subject type="local">FISHERIES-Marine</subject>
+            <subject type="local">MARINE-Biology</subject>
+            <subject type="local">
+                Biological Classification &amp;gt; Animals/Vertebrates &amp;gt; Fish &amp;gt; Sharks/Rays/Chimaeras
+            </subject>
+            <subject type="local">
+                Biosphere &amp;gt; Aquatic Ecosystems &amp;gt; Marine Habitat
+            </subject>
+            <subject type="anzsrc-for">0104</subject>
+            <subject type="anzsrc-for">0105</subject>
+            <subject type="anzsrc-for">0103</subject>
+            <subject type="anzsrc-for">04</subject>
+            <subject type="anzsrc-for">9699</subject>
+            <description type="brief">
+                This dataset is a modelled species distribution for the fish species Chimaera obscura Didier, Last &amp;
+                White, 2008 (common name: Shortspine Chimaera, family: Chimaeridae, CAAB species code: 37 042006), as
+                held in the CMAR Bioregionalisation database as at 14 September 2012. Please note, the indicated range
+                is generalised and may not take into account fine scale local features at this time. The CSIRO Marine
+                and Atmospheric Research (CMAR) Bioregionalisation database contains expert assessed modelled
+                distribution range information for fish species in Australian waters, compiled and upgraded over the
+                period 1996-current. Ranges for individual species are computed from values representing minimum and
+                maximum depth, and linear start/end points around the 500 metre depth contour extrapolated towards and
+                away from the coast. The resulting range maps can be output as images, shape files, or OGC web services
+                (WMS and WFS).
+            </description>
+            <description type="brief">
+                The range data have been compiled from validated specimen records, literature accounts and the input of
+                a range of expert contributors via specially convened workshops, checked and extended by CMAR staff in
+                2010-2012 prior to being made available publicly via the ALA and other mechanisms. Geographic limits
+                were set with a precision of +/- 25km approx. around the 500m depth contour (isobath), and depth limits
+                to between +/- 50m and +/-5 m according to available data. These values were then used to subset a 0.1
+                degree square (10 km nominal) gridded bathymetry to generate the resulting maps and shapefiles across
+                the region of interest. Additional mechanisms were employed to infill data in shallow regions
+                (specifically Bass Strait and the Gulf of Carpentaria) not suitable for extrapolation from the 500m
+                depth contour. For additional general information regarding these files refer to
+                http://www.cmar.csiro.au/datacentre/modelled_fish_distributions.htm .
+            </description>
+            <description type="rights">
+                creative commons license "non-commercial share alike"
+            </description>
+            <description type="rights">
+                Attribution-Noncommercial-Share Alike 2.5 Australia
+            </description>
+            <relatedInfo type="collection">
+                <identifier type="handle">10.234423/dffds</identifier>
+                <relation type="isDerivedFrom"/>
+                <title>(AUTestingRecords)CMAR Modelled species distribution</title>
+                <notes>An invalid handle</notes>
+            </relatedInfo>
+            <relatedInfo type="collection">
+                <title>DCI Collection12</title>
+                <identifier type="hasPart">
+                    http://researchonline.federation.edu.au:8080/vital/access/HandleResolver/1959.17/420DsdfCI06AUTba1
+                </identifier>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecords2DCIRecords11</key>
+        <originatingSource type="">http://researchdata.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2013-02-04T01:52:49Z" dateAccessioned="2013-01-17T00:00:00Z">
+            <name type="primary">
+                <namePart>(AUTestingRecords)DCI Collection(collection) with Dates(created) and relatedObject parent collection</namePart>
+            </name>
+            <name type="alternative">
+                <namePart>(AUTestingRecords)Yarra Range Information Communication Technology survey, 2011</namePart>
+            </name>
+            <description type="brief">&amp;lt;p&amp;gt;Lateral Plains and the University of Ballarat’s Centre for
+                eCommerce and Communications were commissioned by Yarra Ranges Council to undertake research to extend
+                understanding of how better information communication technology (ICT) infrastructure and its use can
+                lead to greater levels of innovation across the municipality.&amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt;The online survey was completed between the period- March, 2011- April, 2011. 275 valid
+                responses were received.&amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt;An ICT survey in online and hardcopy formats was used to gather an evidence base to
+                support ICT. This dataset is spatially representing the results of the survey.&amp;lt;/p&amp;gt;
+            </description>
+            <rights>
+                <rightsStatement>Except as set out otherwise in these terms and conditions, you are provided with access
+                    to this application only for your personal use and you may not without our written permission
+                    on-sell or rebadge information obtained from this web site, or in any way represent that the
+                    information is from any source other than Federation University Australia.
+                </rightsStatement>
+                <accessRights>Summary available online. Qualitatitve data may be available by contacting CeCC
+                </accessRights>
+            </rights>
+            <identifier type="uri">
+                http://researchonline.federation.edu.au:8080/vital/access/HandleResolver/1959.17/420DCI06AUTba1
+            </identifier>
+            <dates type="dc.created">
+                <date type="dateFrom" dateFormat="W3CDTF">2011-04-22T00:00:00Z</date>
+            </dates>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://yarraranges.cecc.com.au/yarra_map.php</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>h.thompson@federation.edu.au</value>
+                    </electronic>
+                </address>
+            </location>
+            <coverage>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">2011-03-18T00:00:00Z</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2011-08-18T00:00:00Z</date>
+                </temporal>
+                <spatial type="kmlPolyCoords">145.690417,-37.735972</spatial>
+            </coverage>
+            <relatedObject>
+                <key>AUTestingRecordsNestedlateralplains.com/gfong</key>
+                <relation type="hasAssociationWith"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedwww.ballarat.edu.au/staff/hethompson</key>
+                <relation type="hasPrincipalInvestigator"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedlateralplains.com</key>
+                <relation type="hasAssociationWith"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedwww.cecc.com</key>
+                <relation type="isManagedBy"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecords2DCIRecords10</key>
+                <relation type="isPartOf"/>
+            </relatedObject>
+            <subject type="local">Mobile Phone Coverage</subject>
+            <subject type="local">Internet access</subject>
+            <subject type="local">Telecommunications</subject>
+            <subject type="local">Information Technology</subject>
+            <subject type="anzsrc-for">0805</subject>
+            <subject type="anzsrc-for">0806</subject>
+            <relatedInfo type="publication">
+                <title>Broadband economy Report, 2011</title>
+                <identifier type="uri">
+                    http://www.yarraranges.vic.gov.au/files/84ebcaa3-7783-4ee6-a848-a0380124be7a/YRC_Broadband_report_311011_Final.pdfAUTba1
+                </identifier>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecords2DCIRecords12</key>
+        <originatingSource type="">http://researchdata.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2013-02-04T01:52:49Z" dateAccessioned="2013-01-17T00:00:00Z">
+            <name type="primary">
+                <namePart>(AUTestingRecords)DCI Collection(collection) with multiple citation contributors and reverse relatedInfo parent collection (key=AUTestingRecords2DCIRecords10)</namePart>
+            </name>
+            <name type="alternative">
+                <namePart>(AUTestingRecords)Yarra Range Information Communication Technology survey, 2011</namePart>
+            </name>
+            <description type="brief">&amp;lt;p&amp;gt;Lateral Plains and the University of Ballarat’s Centre for
+                eCommerce and Communications were commissioned by Yarra Ranges Council to undertake research to extend
+                understanding of how better information communication technology (ICT) infrastructure and its use can
+                lead to greater levels of innovation across the municipality.&amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt;The online survey was completed between the period- March, 2011- April, 2011. 275 valid
+                responses were received.&amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt;An ICT survey in online and hardcopy formats was used to gather an evidence base to
+                support ICT. This dataset is spatially representing the results of the survey.&amp;lt;/p&amp;gt;
+            </description>
+            <rights>
+                <rightsStatement>Except as set out otherwise in these terms and conditions, you are provided with access
+                    to this application only for your personal use and you may not without our written permission
+                    on-sell or rebadge information obtained from this web site, or in any way represent that the
+                    information is from any source other than Federation University Australia.
+                </rightsStatement>
+                <accessRights>Summary available online. Qualitatitve data may be available by contacting CeCC
+                </accessRights>
+            </rights>
+            <identifier type="uri">
+                http://researchonline.federation.edu.au:8080/vital/access/HandleResolver/1959.17/420DsdfCI06AUTba1
+            </identifier>
+             <dates type="dc.created">
+                <date type="dateFrom" dateFormat="W3CDTF">2011-04-22T00:00:00Z</date>
+            </dates>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://yarraranges.cecc.com.au/yarra_map.php</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>h.thompson@federation.edu.au</value>
+                    </electronic>
+                </address>
+            </location>
+            <coverage>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">2011-03-18T00:00:00Z</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2011-08-18T00:00:00Z</date>
+                </temporal>
+                <spatial type="kmlPolyCoords">145.690417,-37.735972</spatial>
+            </coverage>
+            <relatedObject>
+                <key>AUTestingRecordsNestedlateralplains.com/gfong</key>
+                <relation type="hasAssociationWith"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedwww.ballarat.edu.au/staff/hethompson</key>
+                <relation type="hasPrincipalInvestigator"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedlateralplains.com</key>
+                <relation type="hasAssociationWith"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedwww.cecc.com</key>
+                <relation type="isManagedBy"/>
+            </relatedObject>
+            <subject type="local">Mobile Phone Coverage</subject>
+            <subject type="local">Internet access</subject>
+            <subject type="local">Telecommunications</subject>
+            <subject type="local">Information Technology</subject>
+            <subject type="anzsrc-for">0805</subject>
+            <subject type="anzsrc-for">0806</subject>
+            <relatedInfo type="publication">
+                <title>Broadband economy Report, 2011</title>
+                <identifier type="uri">
+                    http://www.yarraranges.vic.gov.au/files/84ebcaa3-7783-4ee6-a848-a0380124be7a/YRC_Broadband_report_311011_Final.pdfAUTba1
+                </identifier>
+            </relatedInfo>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="handle">
+                        http://researchonline.ballarat.edu.au:8080/vital/access/HandleResolver/1959.17/34094AUTba1
+                    </identifier>
+                    <title>Yarra Ranges ICT survey, 2011</title>
+                    <version/>
+                    <placePublished>Federation University Australia</placePublished>
+                    <publisher>Centre for eCommerce &amp; Communications (CeCC)</publisher>
+                    <url>http://yarraranges.cecc.com.au/</url>
+                    <context/>
+                    <contributor seq="1">
+                        <namePart type="family">Thompson</namePart>
+                        <namePart type="given">Helen</namePart>
+                    </contributor>
+                    <contributor seq="2">
+                        <namePart type="family">Fong</namePart>
+                        <namePart type="given">George</namePart>
+                    </contributor>
+                    <date type="created">2011</date>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecords2DCIRecords13</key>
+        <originatingSource type="">http://researchdata.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="dataset" dateModified="2013-01-31T05:26:13Z">
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection(dataset) with relatedObject grant with funder.</namePart>
+            </name>
+            <description type="brief">&amp;lt;p&amp;gt;&amp;lt;a title=&amp;quot;Lateral Plains&amp;quot; href=&amp;quot;http://www.lateralplains.com/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Lateral Plains&amp;lt;/a&amp;gt; and the &amp;lt;a title=&amp;quot;Centre for eCommerce &amp; Communications&amp;quot; href=&amp;quot;http://www.cecc.com.au&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Centre for eCommerce and Communication&amp;lt;/a&amp;gt; were engaged by Moorabool Shire and Multimedia Victoria to review ICT in the Moorabool region.  The study was completed in the period between April 2009 and April 2010.&amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt;The responses to the survey formed an important part of the Moorabool Community Broadband and Telecommunications Strategy which will build and shape the Moorabool Shire's ICT policy for the coming years.&amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt;This dataset spatially represents the results of this survey.&amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt; &amp;lt;/p&amp;gt;</description>
+            <rights>
+                <rightsStatement>All rights reserved, except by negotiation with Centre for eCommerce and Communications University of BallaratCopyright 2010 Centre for e-Commerce and Communications Federation University Australia</rightsStatement>
+                <accessRights>Summary available online. Qualitative data may be available by contacting CeCC.</accessRights>
+            </rights>
+            <identifier type="uri">http://researchonline.federation.edu.au:8080/vital/access/HaDCndleResolver/1959.17/53983AUTba1</identifier>
+            <location dateFrom="2009-04-13T00:00:00Z" dateTo="2009-04-13T00:00:00Z">
+                <address>
+                    <electronic type="email">
+                        <value>h.thompson@federation.edu.au</value>
+                    </electronic>
+                    <electronic type="url">
+                        <value>http://www.cecc.com.au/moorabool_map.php</value>
+                    </electronic>
+                    <physical type="streetAddress">
+                        <addressPart type="text">Suite 15, Greenhill Enterprise Centre Ballarat Technology Park University Drive, Mt Helen</addressPart>
+                        <addressPart type="telephoneNumber">+61 3 5327 9315</addressPart>
+                    </physical>
+                </address>
+            </location>
+            <coverage>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">2009-04-13T00:00:00Z</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2010-04-13T00:00:00Z</date>
+                </temporal>
+                <spatial type="kmlPolyCoords">144.201806,-37.642361</spatial>
+            </coverage>
+            <relatedObject>
+                <key>AUTestingRecordsNestedwww.ballarat.edu.au/coll/15a</key>
+                <relation type="isPartOf"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedwww.cecc.com</key>
+                <relation type="hasAssociationWith"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedlateralplains.com</key>
+                <relation type="isManagedBy"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecords3:Funder/Program12/Hub1/GrantLP0211170</key>
+                <relation type="isOutputOf"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedwww.ballarat.edu.au/staff/hethompson</key>
+                <relation type="hasAssociationWith"/>
+            </relatedObject>
+            <subject type="anzsrc-for">0805</subject>
+            <subject type="local">Mobile Phone Coverage</subject>
+            <subject type="anzsrc-for">0806</subject>
+            <subject type="local">Information Technology</subject>
+            <subject type="local">Telecommunications</subject>
+            <subject type="local">Internet access</subject>
+            <subject type="anzsrc-for">0805</subject>
+            <relatedInfo type="publication">
+                <title>The Moorabool Community Broadband and Telecommunications Strategy-Report</title>
+                <identifier type="uri">http://moorabool.cecc.com.au/cb_pages/files/Moorabool ICT Strategy Final 28 June 2010.pdfAUTba1</identifier>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecords2DCIRecords13</key>
+        <originatingSource type="">http://researchdata.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="dataset" dateModified="2013-01-31T05:26:13Z">
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection(dataset) with reverse relatedInfo grant(hasOutput) with funder.</namePart>
+            </name>
+            <description type="brief">&amp;lt;p&amp;gt;&amp;lt;a title=&amp;quot;Lateral Plains&amp;quot; href=&amp;quot;http://www.lateralplains.com/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Lateral Plains&amp;lt;/a&amp;gt; and the &amp;lt;a title=&amp;quot;Centre for eCommerce &amp; Communications&amp;quot; href=&amp;quot;http://www.cecc.com.au&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Centre for eCommerce and Communication&amp;lt;/a&amp;gt; were engaged by Moorabool Shire and Multimedia Victoria to review ICT in the Moorabool region.  The study was completed in the period between April 2009 and April 2010.&amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt;The responses to the survey formed an important part of the Moorabool Community Broadband and Telecommunications Strategy which will build and shape the Moorabool Shire's ICT policy for the coming years.&amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt;This dataset spatially represents the results of this survey.&amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt; &amp;lt;/p&amp;gt;</description>
+            <rights>
+                <rightsStatement>All rights reserved, except by negotiation with Centre for eCommerce and Communications University of BallaratCopyright 2010 Centre for e-Commerce and Communications Federation University Australia</rightsStatement>
+                <accessRights>Summary available online. Qualitative data may be available by contacting CeCC.</accessRights>
+            </rights>
+            <identifier type="uri">http://researchodfesolver/1959.17/53983AUTba1</identifier>
+            <location dateFrom="2009-04-13T00:00:00Z" dateTo="2009-04-13T00:00:00Z">
+                <address>
+                    <electronic type="email">
+                        <value>h.thompson@federation.edu.au</value>
+                    </electronic>
+                    <electronic type="url">
+                        <value>http://www.cecc.com.au/moorabool_map.php</value>
+                    </electronic>
+                    <physical type="streetAddress">
+                        <addressPart type="text">Suite 15, Greenhill Enterprise Centre Ballarat Technology Park University Drive, Mt Helen</addressPart>
+                        <addressPart type="telephoneNumber">+61 3 5327 9315</addressPart>
+                    </physical>
+                </address>
+            </location>
+            <coverage>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">2009-04-13T00:00:00Z</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2010-04-13T00:00:00Z</date>
+                </temporal>
+                <spatial type="kmlPolyCoords">144.201806,-37.642361</spatial>
+            </coverage>
+            <relatedObject>
+                <key>AUTestingRecordsNestedwww.ballarat.edu.au/coll/15</key>
+                <relation type="isPartOf"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedwww.cecc.com</key>
+                <relation type="hasAssociationWith"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedlateralplains.com</key>
+                <relation type="isManagedBy"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecords3:Funder/Program12/Hub1/GrantLP0211170</key>
+                <relation type="isOutputOf"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedwww.ballarat.edu.au/staff/hethompson</key>
+                <relation type="hasAssociationWith"/>
+            </relatedObject>
+            <subject type="anzsrc-for">0805</subject>
+            <subject type="local">Mobile Phone Coverage</subject>
+            <subject type="anzsrc-for">0806</subject>
+            <subject type="local">Information Technology</subject>
+            <subject type="local">Telecommunications</subject>
+            <subject type="local">Internet access</subject>
+            <subject type="anzsrc-for">0805</subject>
+            <relatedInfo type="publication">
+                <title>The Moorabool Community Broadband and Telecommunications Strategy-Report</title>
+                <identifier type="uri">http://moorabool.cecc.com.au/cb_pages/files/Moorabool ICT Strategy Final 28 June 2010.pdfAUTba1</identifier>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2DCIGroupRecord1</key>
+        <originatingSource>AUTestingRecords3</originatingSource>
+        <party type="group">
+            <name type="primary">
+                <namePart>AUTestingRecords2</namePart>
+            </name>
+            <identifier type="uri">http://scholixParties.com/AUTestingRecords2GroupIdentifier</identifier>
+            <identifier type="AU-ANL:PEAU">nla.party_AUTestingRecords2GroupIdentifier</identifier>
+            <relatedObject>
+                <key>AUTestingRecords2DCIRecords14</key>
+                <relation type="isManagerOf"/>
+            </relatedObject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2DCIGroupRecord2</key>
+        <originatingSource>AUTestingRecords3</originatingSource>
+        <party type="group">
+            <name type="primary">
+                <namePart>NotAUTestingRecords2</namePart>
+            </name>
+            <identifier type="uri">http://scholixParties.com/AUTestingRecords2GroupIdentifier2</identifier>
+            <relatedObject>
+                <key>AUTestingRecords2DCIRecords15</key>
+                <relation type="isManagerOf"/>
+            </relatedObject>
+        </party>
+    </registryObject>
+</registryObjects>

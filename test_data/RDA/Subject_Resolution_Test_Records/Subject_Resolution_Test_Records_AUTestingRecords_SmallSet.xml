@@ -1,0 +1,335 @@
+<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects">
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSubjectsResolutionCollectionISO6391Auto</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="registry">
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection To Test ISO639-3 Subject Resolution Where Value is Notation Only type=iso639-3 value=aag aah aai aau aaw abk abm abs abt abz</namePart>
+            </name>
+            <description type="brief">Expected subject values:
+                aag = Ambrak language
+                aah = Arapesh, Abu'
+                aai = Arifama-Miniafia
+                aau = Abau language
+                aaw = Solong
+                abk  = Abkhaz language
+                abm = Abanyom language
+                abs = Malay, Ambonese
+                abt = Abelam language
+                abz = Abui language
+            </description>
+            <subject type="iso639-3">aag</subject>
+            <subject type="iso639-3">aah</subject>
+            <subject type="iso639-3">aai</subject>
+            <subject type="iso639-3">aau</subject>
+            <subject type="iso639-3">aaw</subject>
+            <subject type="iso639-3">abk</subject>
+            <subject type="iso639-3">abm</subject>
+            <subject type="iso639-3">abs</subject>
+            <subject type="iso639-3">abt</subject>
+            <subject type="iso639-3">abz</subject>
+        </collection>
+    </registryObject>
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSubjectsResolutionCollectionISO6494Auto</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="registry">
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection To Test ISO639-3 Subject Resolution Where Value is  Notation Only type=iso639-3 value=zlm zmc zsm zsu zul zxx    </namePart>
+            </name>
+            <description type="brief">Expected subject values:
+                zlm = Malay (individual language)
+                zmc = Margany
+                zsm = Malay, Standard
+                zsu = Sukurum
+                zul = Zulu language
+                zxx = No linguistic content
+                zxz = zxz (should not be able to resolve)
+            </description>
+            <subject type="iso639-3">zlm</subject>
+            <subject type="iso639-3">zmc</subject>
+            <subject type="iso639-3">zsm</subject>
+            <subject type="iso639-3">zsu</subject>
+            <subject type="iso639-3">zul</subject>
+            <subject type="iso639-3">zxx</subject>
+            <subject type="iso639-3">zxz</subject>
+        </collection>
+    </registryObject>
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSubjectsResolutionCollectionNotaion1</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="registry">
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection To Test ANZSRC Subject Resolution Where Value is Notation Only type=anzsrc value=01</namePart>
+            </name>
+            <description type="brief">Expected subject values:
+				01 = MATHEMATICAL SCIENCES
+            </description>
+            <subject type="anzsrc">01</subject>
+        </collection>
+    </registryObject>
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSubjectsResolutionCollectionNotaion2Auto</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="registry">
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection To Test ANZSRC Subject Resolution Where Value is Notation Only type=anzsrc value=05, 010201,010206 </namePart>
+            </name>
+            <description type="brief">Expected subject values:
+				05 = ENVIRONMENTAL SCIENCES
+				010201 = Approximation Theory and Asymptotic Methods
+				010206 = Operations Research
+				0102 = APPLIED MATHEMATICS
+				01 =  MATHEMATICAL SCIENCES
+            </description>
+            <subject type="anzsrc">05</subject>
+            <subject type="anzsrc">010201</subject>
+            <subject type="anzsrc">010206</subject>
+        </collection>
+    </registryObject>
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSubjectsResolutionCollectionNotaion2aAuto</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="registry">
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection To Test ANZSRC Subject Resolution Where Value is Notation Only type=anzsrc-for value=05, 010201,010206, 11 000000 </namePart>
+            </name>
+            <description type="brief">Expected subject values:
+				05 = ENVIRONMENTAL SCIENCES
+				010201 = Approximation Theory and Asymptotic Methods
+				010206 = Operations Research
+				0102 = APPLIED MATHEMATICS
+				01 =  MATHEMATICAL SCIENCES
+				11 000000 = 11 000000
+            </description>
+            <subject type="anzsrc-for">05</subject>
+            <subject type="anzsrc-for">010201</subject>
+            <subject type="anzsrc-for">010206</subject>
+            <subject type="anzsrc-for">11 000000</subject>
+        </collection>
+    </registryObject>
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSubjectsResolutionCollectionNotaion25Auto</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="registry">
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection To Test ANZSRC SEO Subject Resolution Where Value is Notation Only type=local value=8201,960304</namePart>
+            </name>
+            <description type="brief">Expected subject values:
+				8201 = FORESTRY
+				82 = PLANT PRODUCTION AND PLANT PRIMARY PRODUCTS
+				960304 = Climate Variability (excl. Social Impacts)
+				9603 = CLIMATE AND CLIMATE CHANGE
+				96 = ENVIRONMENT
+            </description>
+            <subject type="anzsrc-seo">8201</subject>
+            <subject type="anzsrc-seo">960304</subject>
+        </collection>
+    </registryObject>
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSubjectsResolutionCollectionNotaion27</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="registry">
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection To Test ANZSRC Subject Resolution Where Value is Notation Only type=local value=(1, 03,0502,9401,11 000000, 1901</namePart>
+            </name>
+            <description type="brief">Expected subject values:
+			(1 = (1
+			03 = 03
+			0502 = 0502
+			05 = ENVIRONMENTAL SCIENCES
+			9401 = 05
+			94 =  94
+			11 000000 = 11 000000
+			1901 = 1901
+			19 = 19
+            </description>
+            <subject type="local">(1</subject>
+            <subject type="local">03</subject>
+            <subject type="local">0502</subject>
+            <subject type="local">9401</subject>
+            <subject type="local">1901</subject>
+            <subject type="local">11 000000</subject>
+        </collection>
+    </registryObject>
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSubjectsResolutionCollection3Auto</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="registry">
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection To Test ANZSRC Subject Resolution Where Value is Both Notation and Label type=anzsrc value=0806 Information Services, 0105 mathematical physics, 210201 Archival, Repository and Related Studies, 8602 Dairy products, 21 ARCHAEOLOGY, 1901 to 2006</namePart>
+            </name>
+            <description type="brief">Expected subject values:
+			0806 Information Services = 0806 Information Services
+			0105 mathematical physics = MATHEMATICAL PHYSICS
+			01 = MATHEMATICAL SCIENCES
+			210201 Archival, Repository and Related Studies = Archival, Repository and Related Studies
+			2102 = CURATORIAL AND RELATED STUDIES
+			21 = HISTORY AND ARCHAEOLOGY
+			8602 Dairy products = DAIRY PRODUCTS
+			86 = MANUFACTURING
+			21 ARCHAEOLOGY = 21 ARCHAEOLOGY
+			1901 to 2006 = 1901 to 2006
+            </description>
+            <subject type="anzsrc">0806 Information Services</subject>
+            <subject type="anzsrc">0105 mathematical physics</subject>
+            <subject type="anzsrc">210201 Archival, Repository and Related Studies</subject>
+            <subject type="anzsrc">8602 Dairy products</subject>
+            <subject type="anzsrc">21 ARCHAEOLOGY</subject>
+            <subject type="anzsrc">1901 to 2006</subject>
+        </collection>
+    </registryObject>
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSubjectsResolutionCollection3aAuto</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="registry">
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection To Test ANZSRC Subject Resolution Where Value is Both Notation and Label type=local value=0806 Information Services, 0105 mathematical physics, 210201 Archival, Repository and Related Studies, 8602 Dairy products, 21 ARCHAEOLOGY, 1901 to 2006</namePart>
+            </name>
+            <description type="brief">Expected subject values:
+			0806 Information Services = 0806 Information Services
+			0105 mathematical physics = MATHEMATICAL PHYSICS
+			01 = MATHEMATICAL SCIENCES
+			210201 Archival, Repository and Related Studies = Archival, Repository and Related Studies
+			2102 = CURATORIAL AND RELATED STUDIES
+			21 = HISTORY AND ARCHAEOLOGY
+			8602 Dairy products = DAIRY PRODUCTS
+			86 = MANUFACTURING
+			21 ARCHAEOLOGY = 21 ARCHAEOLOGY
+			1901 to 2006 = 1901 to 2006
+            </description>
+            <subject type="local">0806 Information Services</subject>
+            <subject type="local">0105 mathematical physics</subject>
+            <subject type="local">210201 Archival, Repository and Related Studies</subject>
+            <subject type="local">8602 Dairy products</subject>
+            <subject type="local">21 ARCHAEOLOGY</subject>
+            <subject type="local">1901 to 2006</subject>
+        </collection>
+    </registryObject>
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSubjectsResolutionGCMDCollection397Auto</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="registry">
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection To Test GCMD Subject Resolution type=gcmd  Multiple subjects where values are &gt; delimited</namePart>
+            </name>
+            <description type="brief">Expected subject values:
+			EARTH SCIENCE 
+			ATMOSPHERE
+			ATMOSPHERIC RADIATION 
+			ATMOSPHERIC EMITTED RADIATION
+			Biosphere
+			Ecological Dynamics
+			Fire Ecology
+			CAML &gt; CENSUS OF ANTARCTIC MARINE LIFE
+			CONTINENT &gt; ANTARCTICA &gt; Brattstrand Bluff
+			EARTH SCIENCE &gt; ATMOSPHERE &gt; AEROSOLS &gt; EMISSIONS
+            </description>
+            <subject type="gcmd">EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; ATMOSPHERIC EMITTED RADIATION</subject>
+            <subject type="gcmd">Biosphere &gt; Ecological Dynamics &gt; Fire Ecology</subject>
+            <subject type="gcmd">CAML &gt; CENSUS OF ANTARCTIC MARINE LIFE</subject>
+            <subject type="gcmd">CONTINENT &gt; ANTARCTICA &gt; Brattstrand Bluff</subject>
+            <subject type="gcmd">EARTH SCIENCE &gt; ATMOSPHERE &gt; AEROSOLS &gt; EMISSIONS</subject>
+        </collection>
+    </registryObject>
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSubjectsResolutionGCMDCollection397aAuto</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="registry">
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection To Test GCMD Subject Resolution type=local  Multiple subjects where values are &gt; delimited</namePart>
+            </name>
+            <description type="brief">Expected subject values:
+			EARTH SCIENCE 
+			ATMOSPHERE
+			ATMOSPHERIC RADIATION 
+			ATMOSPHERIC EMITTED RADIATION
+			Biosphere
+			Ecological Dynamics
+			Fire Ecology
+			CAML &gt; CENSUS OF ANTARCTIC MARINE LIFE
+			CONTINENT &gt; ANTARCTICA &gt; Brattstrand Bluff
+			EARTH SCIENCE &gt; ATMOSPHERE &gt; AEROSOLS &gt; EMISSIONS
+            </description>
+            <subject type="local">EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC RADIATION &gt; ATMOSPHERIC EMITTED RADIATION</subject>
+            <subject type="local">Biosphere &gt; Ecological Dynamics &gt; Fire Ecology</subject>
+            <subject type="local">CAML &gt; CENSUS OF ANTARCTIC MARINE LIFE</subject>
+            <subject type="local">CONTINENT &gt; ANTARCTICA &gt; Brattstrand Bluff</subject>
+            <subject type="local">EARTH SCIENCE &gt; ATMOSPHERE &gt; AEROSOLS &gt; EMISSIONS</subject>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSubjectsResolutionGCMDCollection1550Auto</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="registry">
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection To Test GCMD Subject Resolution type=gcmd Multiple subjects where values are | delimited</namePart>
+            </name>
+            <description type="brief">Expected subject values:
+			Earth Science | Land Surface | Land Temperature | Skin Temperature
+			Earth Science
+			Human Dimensions
+			Habitat Conversion/Fragmentation
+			Desertification
+			Oceans
+			Ocean Chemistry
+			Carbon
+			Oceans | Salty
+            </description>
+            <subject type="gcmd">Earth Science | Land Surface | Land Temperature | Skin Temperature</subject>
+            <subject type="gcmd">Earth Science | Human Dimensions | Habitat Conversion/Fragmentation | Desertification</subject>
+            <subject type="gcmd">Ocean Chemistry | Carbon</subject>
+			<subject type="gcmd">Oceans | Salty</subject>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSubjectsResolutionGCMDCollection1550aAuto</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="registry">
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection To Test GCMD Subject Resolution type=local Multiple subjects where values are | delimited</namePart>
+            </name>
+            <description type="brief">Expected subject values:
+			Earth Science | Land Surface | Land Temperature | Skin Temperature
+			Earth Science
+			Human Dimensions
+			Habitat Conversion/Fragmentation
+			Desertification
+			Oceans
+			Ocean Chemistry
+			Carbon
+			Oceans | Salty
+            </description>
+            <subject type="local">Earth Science | Land Surface | Land Temperature | Skin Temperature</subject>
+            <subject type="local">Earth Science | Human Dimensions | Habitat Conversion/Fragmentation | Desertification</subject>
+            <subject type="local">Ocean Chemistry | Carbon</subject>
+			<subject type="gcmd">Oceans | Salty</subject>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsSubjectsResolutionGCMDCollection4447</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="registry">
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection To Test GCMD Subject Resolution type=gcmd value=TRACE ELEMENTS, Water Pressure, Dairy Product</namePart>
+            </name>
+            <description type="brief">Expected subject values:
+			TRACE ELEMENTS
+			ELEMENTS
+			OCEAN CHEMISTRY
+			OCEANS
+			EARTH SCIENCE
+			Water Pressure
+			Ocean Pressure
+			Dairy Product
+            </description>
+            <subject type="gcmd">TRACE ELEMENTS</subject>
+            <subject type="gcmd">Water Pressure</subject>
+            <subject type="gcmd">Dairy Product</subject>
+        </collection>
+    </registryObject>
+
+</registryObjects>

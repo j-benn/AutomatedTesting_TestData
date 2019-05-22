@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects"
+    xmlns:extRif="http://ands.org.au/standards/rif-cs/extendedRegistryObjects"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+    <registryObject group="AUTestingRecords">
+        <key>AUTORCIDWizCollection1</key>
+        <originatingSource type="">http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2013-04-10T23:51:55Z"
+            dateAccessioned="2015-04-10T23:51:55Z">
+            <name type="abbreviated">
+                <namePart>abbreviatedName</namePart>
+            </name>
+            <name type="alternative">
+                <namePart>alternativeName</namePart>
+            </name>
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection to test ORCID Wizard 1. CitationMetata Multiple Contributors</namePart>
+            </name>
+            <description type="significanceStatement">&lt;p&gt;significanceStatement significanceStatement&lt;/p&gt;</description>
+            <description type="researchSupport">&lt;p&gt;researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport&lt;/p&gt;</description>
+            <description type="researchDataProflie">&lt;p&gt;researchDataProflieresea rchDataProflie researchDataP roflieresearchDataProflie researchDataProflie researchDataProflie researchDataProflie researchDataProflie&lt;/p&gt;</description>
+            <description type="researchAreas">&lt;p&gt;researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas&lt;/p&gt;</description>
+            <description type="note">&lt;p&gt;note note note note note note note note note note note note note note note note note note note note note note&lt;/p&gt;</description>
+            <description type="logo">&lt;p&gt;https://dl.dropbox.com/u/49073372/LOGO.jpg&lt;/p&gt;</description>
+            <description type="full">&lt;p&gt;full full full full full full full full full full full full full full full full full full&lt;/p&gt;</description>
+            <description type="deliverymethod">&lt;p&gt;deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod&lt;/p&gt;</description>
+            <description type="brief">&lt;p&gt;brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief&lt;/p&gt;</description>
+            <description type="lineage">&lt;p&gt;This is the lineage statement for the collection&lt;/p&gt;</description>
+            <description type="local">&lt;p&gt;This is a local statement for the colleciton&lt;/p&gt;</description>
+            <rights>
+                <rightsStatement rightsUri="http://www.rightsuri.com">Rights Statement Rights Statement</rightsStatement>
+                <licence type="AusGOALRestrictive" rightsUri="http://www.rightsuri.com">LicenceLicenceLicence</licence>
+                <accessRights rightsUri="http://www.rightsuri.com">Access Rights</accessRights>
+            </rights>
+            <rights>
+                <licence type="CC-BY">CC-BY</licence>
+                <accessRights type="open">My Access Rights details are listed here and my data is open</accessRights>
+            </rights>
+            <identifier type="handle">101.101/105.588</identifier>
+            <identifier type="AU-ANL:PEAU">nla.part.12345a</identifier>
+            <dates type="dc.available">
+                <date type="dateFrom" dateFormat="W3CDTF">2011-02-07T00:00:00Z</date>
+            </dates>
+            <dates type="dc.created">
+                <date type="dateFrom" dateFormat="W3CDTF">2012-05-07T00:00:00Z</date>
+            </dates>
+            <dates type="dc.issued">
+                <date type="dateFrom" dateFormat="W3CDTF">2022-03-03T00:00:00Z</date>
+            </dates>
+            <location dateFrom="2013-02-14T00:00:00Z" dateTo="2013-03-02T00:00:00Z">
+                <address>
+              <electronic type="url" target="landingPage">
+                <value>https://demo.ands.org.au</value>
+                <title>My Landing Page for the data</title>
+              </electronic>
+              <physical type="postalAddress">
+                <addressPart type="addressLine">&lt;p&gt; 123 Example St&lt;/p&gt; &lt;p&gt; Canberra ACT 2131&lt;/p&gt;</addressPart>
+              </physical>
+              <electronic type="url" target="directDownload">
+                <value>https://dl.dropboxusercontent.com/u/49073372/RIF16WithError.xml</value>
+                <title>My Direct Download link</title>
+                <mediaType>XML</mediaType>
+                <byteSize>3KB</byteSize>
+              </electronic>
+            </address>
+                <spatial type="kmlPolyCoords">119.707031,-20.468189 152.753906,-32.101190 119.707031,-20.468189</spatial>
+            </location>
+            <coverage>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">2013-01-30T00:00:00Z</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2017-03-03T00:00:00Z</date>
+                </temporal>
+                <spatial type="kmlPolyCoords">143.085938,-22.917923</spatial>
+                <spatial type="kmlPolyCoords">121.640625,-35.173808 150.644531,-20.961440 117.246094,-14.093957 110.390625,-26.273714 127.441406,-20.961440 128.847656,-27.527758 121.640625,-35.173808</spatial>
+            </coverage>
+            <coverage>
+                <spatial type="text">Some place in Australia</spatial>
+            </coverage>
+            <relatedObject>
+                <key>AUTParty1</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTParty2</key>
+                <relation type="isOwnedBy">
+                    <description>relationshipdescription</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTParty3</key>
+                <relation type="hasPrincipalInvestigator">
+                    <description>relationshipdescription</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTParty4</key>
+                <relation type="hasPrincipalInvestigator">
+                    <description>relationshipdescription</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTParty5</key>
+                <relation type="hasCollector">
+                    <description>relationshipdescription</description>
+                </relation>
+            </relatedObject>
+            <subject type="local">localSubject</subject>
+            <subject type="anzsrc-seo">830201</subject>
+            <subject type="anzsrc-for">0303</subject>
+            <relatedInfo type="metadata">
+                <title>Related Info Title</title>
+                <identifier type="doi">10.1234567882484</identifier>
+                <format>
+                    <identifier type="mediaType">formatidentifier</identifier>
+                </format>
+                <notes>related info notes</notes>
+            </relatedInfo>
+            <relatedInfo type="dataQualityInformation">
+                <title>relatedinfo Title</title>
+                <identifier type="infouri">infouri.12345</identifier>
+                <notes>Related Info Notes</notes>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="doi">10.123123123</identifier>
+                <relation type="hasPart"/>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <title>Stuff</title>
+                <identifier type="uri">http://www.smithy.com</identifier>
+                <relation type="hasAssociationWith">
+                    <description>A website relationship</description>
+                </relation>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>AUTParty6</title>
+                <identifier type="orcid">orcid.AUTParty6</identifier>
+                <relation type="hasCollector"/>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>ORCIDParty6_hasCollector</title>
+                <identifier type="orcid">orcid.AUTParty6</identifier>
+                <relation type="hasCollector"/>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>ORICDPartyt_isOwnedBy</title>
+                <identifier type="orcid">orcid.AUTParty6</identifier>
+                <relation type="isOwnedBy"/>
+            </relatedInfo>
+            <relatedInfo type="reuseInformation">
+                <title>Example Reuse Information</title>
+                <identifier type="uri">http://exampleofreuse.com</identifier>
+                <notes>To reuse this data following the steps outlined at the URL</notes>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Another Publication Example</title>
+                <identifier type="issn">789879.3.34.ISSN</identifier>
+            </relatedInfo>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.123123123</identifier>
+                    <title>Citation Title</title>
+                    <version>V0.2</version>
+                    <placePublished>Australia</placePublished>
+                    <publisher>Some Example Publisher</publisher>
+                    <url>http://www.exapmle.com</url>
+                    <context>Context</context>
+                    <contributor seq="1">
+                        <namePart type="given">Joe Blogs</namePart>
+                    </contributor>
+                    <contributor seq="2">
+                        <namePart type="given">Sarah</namePart>
+                        <namePart type="family">Parker</namePart>
+                    </contributor>
+                    <date type="created">2001-12-12</date>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTORCIDWizCollection2</key>
+        <originatingSource type="">http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="dataset" dateModified="2013-04-10T23:51:55Z"
+            dateAccessioned="2015-04-10T23:51:55Z">
+            <name type="abbreviated">
+                <namePart>abbreviatedName</namePart>
+            </name>
+            <name type="alternative">
+                <namePart>alternativeName</namePart>
+            </name>
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection to test ORCID Wizard 2 Full Citation (harvard), RelatedInfo and RelatedObject parties and multiple dates</namePart>
+            </name>
+            <description type="researchSupport">&lt;p&gt;researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport&lt;/p&gt;</description>
+            <description type="researchDataProflie">&lt;p&gt;researchDataProflieresea rchDataProflie researchDataP roflieresearchDataProflie researchDataProflie researchDataProflie researchDataProflie researchDataProflie&lt;/p&gt;</description>
+            <description type="researchAreas">&lt;p&gt;researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas&lt;/p&gt;</description>
+            <description type="note">&lt;p&gt;note note note note note note note note note note note note note note note note note note note note note note&lt;/p&gt;</description>
+            <identifier type="doi">101.101/105.5838</identifier>
+            <identifier type="local">nla.part.1323445a</identifier>
+            <identifier type="issn">issn123d445a</identifier>
+            <dates type="dc.available">
+                <date type="dateFrom" dateFormat="W3CDTF">2011-02-07T00:00:00Z</date>
+            </dates>
+            <dates type="dc.created">
+                <date type="dateFrom" dateFormat="W3CDTF">2012-05-07T00:00:00Z</date>
+            </dates>
+            <dates type="dc.issued">
+                <date type="dateFrom" dateFormat="W3CDTF">2022-03-03T00:00:00Z</date>
+            </dates>
+            <relatedObject>
+                <key>AUTParty2</key>
+                <relation type="isOwnedBy">
+                    <description>relationshipdescription</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTParty3</key>
+                <relation type="hasPrincipalInvestigator">
+                    <description>relationshipdescription</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTParty4</key>
+                <relation type="hasPrincipalInvestigator">
+                    <description>relationshipdescription</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTParty5</key>
+                <relation type="hasCollector">
+                    <description>relationshipdescription</description>
+                </relation>
+            </relatedObject>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="doi">10.123123123</identifier>
+                <relation type="hasPart"/>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>ORCIDParty6_hasCollector</title>
+                <identifier type="orcid">orcid.AUTParty6</identifier>
+                <relation type="hasCollector"/>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>ORICDPartyt_isOwnedBy</title>
+                <identifier type="orcid">orcid.AUTParty6</identifier>
+                <relation type="isOwnedBy"/>
+            </relatedInfo>
+            <citationInfo>
+                <fullCitation style="Harvard">Twaing, T. M., Tesiter, M. J., &amp; Denro, M. J. (2012). Speakers to foreign-accented listen to foreign-accented speech. Journal of Multilingual and Multicultural Development, 23(4), 245-259.</fullCitation>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTORCIDWizCollection2a</key>
+        <originatingSource type="">http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="dataset" dateModified="2013-04-10T23:51:55Z"
+            dateAccessioned="2015-04-10T23:51:55Z">
+            <name type="abbreviated">
+                <namePart>abbreviatedName</namePart>
+            </name>
+            <name type="alternative">
+                <namePart>alternativeName</namePart>
+            </name>
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection to test ORCID Wizard 2a Full Citation (Chicago), RelatedInfo and RelatedObject parties and multiple dates</namePart>
+            </name>
+            <description type="researchSupport">&lt;p&gt;researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport&lt;/p&gt;</description>
+            <description type="researchDataProflie">&lt;p&gt;researchDataProflieresea rchDataProflie researchDataP roflieresearchDataProflie researchDataProflie researchDataProflie researchDataProflie researchDataProflie&lt;/p&gt;</description>
+            <description type="researchAreas">&lt;p&gt;researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas&lt;/p&gt;</description>
+            <description type="note">&lt;p&gt;note note note note note note note note note note note note note note note note note note note note note note&lt;/p&gt;</description>
+            <identifier type="doi">101.101/105.5dd838</identifier>
+            <identifier type="local">nla.part.1323dd45a</identifier>
+            <identifier type="issn">issn123ddd45a</identifier>
+            <dates type="dc.available">
+                <date type="dateFrom" dateFormat="W3CDTF">2011-02-07T00:00:00Z</date>
+            </dates>
+            <dates type="dc.created">
+                <date type="dateFrom" dateFormat="W3CDTF">2012-05-07T00:00:00Z</date>
+            </dates>
+            <dates type="dc.issued">
+                <date type="dateFrom" dateFormat="W3CDTF">2022-03-03T00:00:00Z</date>
+            </dates>
+            <relatedObject>
+                <key>AUTParty2</key>
+                <relation type="isOwnedBy">
+                    <description>relationshipdescription</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTParty3</key>
+                <relation type="hasPrincipalInvestigator">
+                    <description>relationshipdescription</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTParty4</key>
+                <relation type="hasPrincipalInvestigator">
+                    <description>relationshipdescription</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTParty5</key>
+                <relation type="hasCollector">
+                    <description>relationshipdescription</description>
+                </relation>
+            </relatedObject>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="doi">10.123123123</identifier>
+                <relation type="hasPart"/>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>ORCIDParty6_hasCollector</title>
+                <identifier type="orcid">orcid.AUTParty6</identifier>
+                <relation type="hasCollector"/>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>ORICDPartyt_isOwnedBy</title>
+                <identifier type="orcid">orcid.AUTParty6</identifier>
+                <relation type="isOwnedBy"/>
+            </relatedInfo>
+            <citationInfo>
+                <fullCitation style="Chicago">Twaing, T. M., Tesiter, M. J., &amp; Denro, M. J. (2012). Speakers to foreign-accented listen to foreign-accented speech. Journal of Multilingual and Multicultural Development, 23(4), 245-259.</fullCitation>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTORCIDWizCollection2ab</key>
+        <originatingSource type="">http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="dataset" dateModified="2013-04-10T23:51:55Z"
+            dateAccessioned="2015-04-10T23:51:55Z">
+            <name type="abbreviated">
+                <namePart>abbreviatedName</namePart>
+            </name>
+            <name type="alternative">
+                <namePart>alternativeName</namePart>
+            </name>
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection to test ORCID Wizard 2b Full Citation (IEEE), RelatedInfo and RelatedObject parties and multiple dates</namePart>
+            </name>
+            <description type="researchSupport">&lt;p&gt;researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport&lt;/p&gt;</description>
+            <description type="researchDataProflie">&lt;p&gt;researchDataProflieresea rchDataProflie researchDataP roflieresearchDataProflie researchDataProflie researchDataProflie researchDataProflie researchDataProflie&lt;/p&gt;</description>
+            <description type="researchAreas">&lt;p&gt;researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas&lt;/p&gt;</description>
+            <description type="note">&lt;p&gt;note note note note note note note note note note note note note note note note note note note note note note&lt;/p&gt;</description>
+            <identifier type="doi">1d01.101/105.5838</identifier>
+            <identifier type="local">nla.pdart.132345a</identifier>
+            <identifier type="issn">issn123dd45a</identifier>
+            <dates type="dc.available">
+                <date type="dateFrom" dateFormat="W3CDTF">2011-02-07T00:00:00Z</date>
+            </dates>
+            <dates type="dc.created">
+                <date type="dateFrom" dateFormat="W3CDTF">2012-05-07T00:00:00Z</date>
+            </dates>
+            <dates type="dc.issued">
+                <date type="dateFrom" dateFormat="W3CDTF">2022-03-03T00:00:00Z</date>
+            </dates>
+            <relatedObject>
+                <key>AUTParty2</key>
+                <relation type="isOwnedBy">
+                    <description>relationshipdescription</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTParty3</key>
+                <relation type="hasPrincipalInvestigator">
+                    <description>relationshipdescription</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTParty4</key>
+                <relation type="hasPrincipalInvestigator">
+                    <description>relationshipdescription</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTParty5</key>
+                <relation type="hasCollector">
+                    <description>relationshipdescription</description>
+                </relation>
+            </relatedObject>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="doi">10.123123123</identifier>
+                <relation type="hasPart"/>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>ORCIDParty6_hasCollector</title>
+                <identifier type="orcid">orcid.AUTParty6</identifier>
+                <relation type="hasCollector"/>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>ORICDPartyt_isOwnedBy</title>
+                <identifier type="orcid">orcid.AUTParty6</identifier>
+                <relation type="isOwnedBy"/>
+            </relatedInfo>
+            <citationInfo>
+                <fullCitation style="IEEE">Twaing, T. M., Tesiter, M. J., &amp; Denro, M. J. (2012). Speakers to foreign-accented listen to foreign-accented speech. Journal of Multilingual and Multicultural Development, 23(4), 245-259.</fullCitation>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTORCIDWizCollection3</key>
+        <originatingSource type="">http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="publication" dateModified="2013-04-10T23:51:55Z"
+            dateAccessioned="2015-04-10T23:51:55Z">
+            <name>
+                <namePart>(AUTestingRecords) Collection to test ORCID Wizard 3. Single RelatedObject Party. Minimal other Info</namePart>
+            </name>
+            <description type="brief">&lt;p&gt;brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief&lt;/p&gt;</description>
+            <rights>
+                <rightsStatement rightsUri="http://www.rightsuri.com">Rights Statement Rights Statement</rightsStatement>
+                <licence type="AusGOALRestrictive" rightsUri="http://www.rightsuri.com">LicenceLicenceLicence</licence>
+                <accessRights rightsUri="http://www.rightsuri.com">Access Rights</accessRights>
+            </rights>
+            <rights>
+                <licence type="CC-BY">CC-BY</licence>
+                <accessRights type="open">My Access Rights details are listed here and my data is open</accessRights>
+            </rights>
+            <identifier type="handle">101.101/105.5834</identifier>
+            <identifier type="AU-ANL:PEAU">nla.part.1342345a</identifier>
+
+            <location>
+                <address>
+              <electronic type="url" target="landingPage">
+                <value>https://demo.ands.org.au</value>
+                <title>My Landing Page for the data</title>
+              </electronic>
+            </address>
+                <spatial type="kmlPolyCoords">119.707031,-20.468189 152.753906,-32.101190 119.707031,-20.468189</spatial>
+            </location>
+            <coverage>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">2013-01-30T00:00:00Z</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2017-03-03T00:00:00Z</date>
+                </temporal>
+                <spatial type="kmlPolyCoords">143.085938,-22.917923</spatial>
+                <spatial type="kmlPolyCoords">121.640625,-35.173808 150.644531,-20.961440 117.246094,-14.093957 110.390625,-26.273714 127.441406,-20.961440 128.847656,-27.527758 121.640625,-35.173808</spatial>
+            </coverage>
+            <coverage>
+                <spatial type="text">Some place in Australia</spatial>
+            </coverage>
+            <relatedObject>
+                <key>AUTParty5</key>
+                <relation type="hasCollector">
+                    <description>relationshipdescription</description>
+                </relation>
+            </relatedObject>
+            <subject type="local">localSubject</subject>
+            <subject type="anzsrc-seo">830201</subject>
+            <subject type="anzsrc-for">0303</subject>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTORCIDWizCollection4</key>
+        <originatingSource type="">http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="registry" dateModified="2013-04-10T23:51:55Z"
+            dateAccessioned="2015-04-10T23:51:55Z">
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection to test ORCID Wizard 4. Title Only.</namePart>
+            </name>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTORCIDWizCollection5</key>
+        <originatingSource type="">http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection">
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection to test ORCID Wizard 5. No dates</namePart>
+            </name>
+            <description type="full">&lt;p&gt;full full full full full full full full full full full full full full full full full full&lt;/p&gt;</description>
+            <description type="brief">&lt;p&gt;brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief&lt;/p&gt;</description>
+            <description type="local">&lt;p&gt;This is a local statement for the colleciton&lt;/p&gt;</description>
+            <rights>
+                <rightsStatement rightsUri="http://www.rightsuri.com">Rights Statement Rights Statement</rightsStatement>
+                <licence type="AusGOALRestrictive" rightsUri="http://www.rightsuri.com">LicenceLicenceLicence</licence>
+                <accessRights rightsUri="http://www.rightsuri.com">Access Rights</accessRights>
+            </rights>
+            <rights>
+                <licence type="CC-BY">CC-BY</licence>
+                <accessRights type="open">My Access Rights details are listed here and my data is open</accessRights>
+            </rights>
+            <identifier type="handle">101.101/105.5678</identifier>
+            <identifier type="AU-ANL:PEAU">nla.part.12775a</identifier>
+            <location dateFrom="2013-02-14T00:00:00Z" dateTo="2013-03-02T00:00:00Z">
+                <address>
+              <electronic type="url" target="landingPage">
+                <value>https://demo.ands.org.au</value>
+                <title>My Landing Page for the data</title>
+              </electronic>
+              <physical type="postalAddress">
+                <addressPart type="addressLine">&lt;p&gt; 123 Example St&lt;/p&gt; &lt;p&gt; Canberra ACT 2131&lt;/p&gt;</addressPart>
+              </physical>
+              <electronic type="url" target="directDownload">
+                <value>https://dl.dropboxusercontent.com/u/49073372/RIF16WithError.xml</value>
+                <title>My Direct Download link</title>
+                <mediaType>XML</mediaType>
+                <byteSize>3KB</byteSize>
+              </electronic>
+            </address>
+                <spatial type="kmlPolyCoords">119.707031,-20.468189 152.753906,-32.101190 119.707031,-20.468189</spatial>
+            </location>
+            <relatedObject>
+                <key>AUTParty1</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTParty2</key>
+                <relation type="isOwnedBy">
+                    <description>relationshipdescription</description>
+                </relation>
+            </relatedObject>
+            <subject type="local">localSubject</subject>
+            <subject type="anzsrc-seo">830201</subject>
+            <subject type="anzsrc-for">0303</subject>
+            <relatedInfo type="party">
+                <title>AUTParty6</title>
+                <identifier type="orcid">orcid.AUTParty6AS</identifier>
+                <relation type="hasCollector"/>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+    
+    <registryObject group="AUTestingRecords">
+        <key>AUTORCIDWizCollection5a</key>
+        <originatingSource type="">http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection">
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection to test ORCID Wizard 5a. No dates, Reverse Relationships RelatedParty1 (RO isPrincipalInvestigatorOf), RelatedParty2(RO isOwnerOf), Jenny (RI isCollectorOf)</namePart>
+            </name>
+            <description type="full">&lt;p&gt;full full full full full full full full full full full full full full full full full full&lt;/p&gt;</description>
+            <description type="brief">&lt;p&gt;brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief&lt;/p&gt;</description>
+            <description type="local">&lt;p&gt;This is a local statement for the colleciton&lt;/p&gt;</description>
+            <rights>
+                <rightsStatement rightsUri="http://www.rightsuri.com">Rights Statement Rights Statement</rightsStatement>
+                <licence type="AusGOALRestrictive" rightsUri="http://www.rightsuri.com">LicenceLicenceLicence</licence>
+                <accessRights rightsUri="http://www.rightsuri.com">Access Rights</accessRights>
+            </rights>
+            <rights>
+                <licence type="CC-BY">CC-BY</licence>
+                <accessRights type="open">My Access Rights details are listed here and my data is open</accessRights>
+            </rights>
+            <identifier type="handle">101.101/105.5678</identifier>
+            <identifier type="AU-ANL:PEAU">nla.part.12775a</identifier>
+            <location dateFrom="2013-02-14T00:00:00Z" dateTo="2013-03-02T00:00:00Z">
+                <address>
+              <electronic type="url" target="landingPage">
+                <value>https://demo.ands.org.au</value>
+                <title>My Landing Page for the data</title>
+              </electronic>
+              <physical type="postalAddress">
+                <addressPart type="addressLine">&lt;p&gt; 123 Example St&lt;/p&gt; &lt;p&gt; Canberra ACT 2131&lt;/p&gt;</addressPart>
+              </physical>
+              <electronic type="url" target="directDownload">
+                <value>https://dl.dropboxusercontent.com/u/49073372/RIF16WithError.xml</value>
+                <title>My Direct Download link</title>
+                <mediaType>XML</mediaType>
+                <byteSize>3KB</byteSize>
+              </electronic>
+            </address>
+                <spatial type="kmlPolyCoords">119.707031,-20.468189 152.753906,-32.101190 119.707031,-20.468189</spatial>
+            </location>
+            
+            <subject type="local">localSubject</subject>
+            <subject type="anzsrc-seo">830201</subject>
+            <subject type="anzsrc-for">0303</subject>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTORCIDWizCollection6</key>
+        <originatingSource type="">http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2013-04-10T23:51:55Z"
+            dateAccessioned="2015-04-10T23:51:55Z">
+            <name type="abbreviated">
+                <namePart>abbreviatedName</namePart>
+            </name>
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection to test ORCID Wizard 6. CitationMetata Non DOI identifiers</namePart>
+            </name>
+            <description type="local">&lt;p&gt;This is a local statement for the colleciton&lt;/p&gt;</description>
+            <rights>
+                <rightsStatement rightsUri="http://www.rightsuri.com">Rights Statement Rights Statement</rightsStatement>
+                <licence type="AusGOALRestrictive" rightsUri="http://www.rightsuri.com">LicenceLicenceLicence</licence>
+                <accessRights rightsUri="http://www.rightsuri.com">Access Rights</accessRights>
+            </rights>
+            <dates type="dc.issued">
+                <date type="dateFrom" dateFormat="W3CDTF">2022-03-03T00:00:00Z</date>
+            </dates>
+            <location dateFrom="2013-02-14T00:00:00Z" dateTo="2013-03-02T00:00:00Z">
+                <address>
+              <electronic type="url" target="landingPage">
+                <value>https://demo.ands.org.au</value>
+                <title>My Landing Page for the data</title>
+              </electronic>
+              <physical type="postalAddress">
+                <addressPart type="addressLine">&lt;p&gt; 123 Example St&lt;/p&gt; &lt;p&gt; Canberra ACT 2131&lt;/p&gt;</addressPart>
+              </physical>
+              <electronic type="url" target="directDownload">
+                <value>https://dl.dropboxusercontent.com/u/49073372/RIF16WithError.xml</value>
+                <title>My Direct Download link</title>
+                <mediaType>XML</mediaType>
+                <byteSize>3KB</byteSize>
+              </electronic>
+            </address>
+                <spatial type="kmlPolyCoords">119.707031,-20.468189 152.753906,-32.101190 119.707031,-20.468189</spatial>
+            </location>
+            <relatedObject>
+                <key>AUTParty1</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTParty2</key>
+                <relation type="isOwnedBy">
+                    <description>relationshipdescription</description>
+                </relation>
+            </relatedObject>
+            <relatedInfo type="reuseInformation">
+                <title>Example Reuse Information</title>
+                <identifier type="uri">http://exampleofreuse.com</identifier>
+                <notes>To reuse this data following the steps outlined at the URL</notes>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Another Publication Example</title>
+                <identifier type="issn">789879.3.34.ISSN</identifier>
+            </relatedInfo>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="local">10.123123d123</identifier>
+                    <title>Citation Title</title>
+                    <version>V0.2</version>
+                    <placePublished>Australia</placePublished>
+                    <publisher>Some Example Publisher</publisher>
+                    <url>http://www.exapmle.com</url>
+                    <context>Context</context>
+                    <contributor seq="1">
+                        <namePart type="given">Joe Blogs</namePart>
+                    </contributor>
+                    <contributor seq="2">
+                        <namePart type="given">Sarah</namePart>
+                        <namePart type="family">Parker</namePart>
+                    </contributor>
+                    <date type="created">2001-12-12</date>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTORCIDWizCollection7</key>
+        <originatingSource type="">http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="repository" dateModified="2013-04-10T23:51:55Z">
+            <name type="abbreviated">
+                <namePart>abbreviatedName</namePart>
+            </name>
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection to test ORCID Wizard 7. CitationMetata with date type valid (12-2001) and RelatedObject Party isManagedBy</namePart>
+            </name>
+            <identifier type="purl">http://purl.org/1342345a</identifier>
+            <description type="brief">&lt;p&gt;This is a brief statement for the colleciton&lt;/p&gt;</description>
+            <relatedObject>
+                <key>AUTParty1</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+                </relation>
+            </relatedObject>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="isbn">isbn:123</identifier>
+                    <title>Citation Title</title>
+                    <version>V0.2</version>
+                    <placePublished>Australia</placePublished>
+                    <publisher>Some Example Publisher</publisher>
+                    <url>http://www.exapmle.com</url>
+                    <context>Context</context>
+                    <contributor>
+                        <namePart type="given">Joe Blogs</namePart>
+                    </contributor>
+                    <contributor>
+                        <namePart type="given">Sarah</namePart>
+                        <namePart type="family">Parker</namePart>
+                        <namePart type="title">Ms</namePart>
+                    </contributor>
+                    <date type="valid">2001-12</date>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+    
+    
+    <registryObject group="AUTestingRecords">
+        <key>AUTParty1</key>
+        <originatingSource>http://103.6.252.71/registry//orca/register_my_data</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart>Related Party 1</namePart>
+            </name>
+            <identifier type="orcid">0000-0002-4259-9733</identifier>
+            
+            <relatedObject>
+                <key>AUTORCIDWizCollection5a</key>
+                <relation type="isPrincipalInvestigatorOf">
+                    <description>relationshipdescription</description>
+                </relation>
+            </relatedObject>
+        </party>
+    </registryObject>
+    
+    <registryObject group="AUTestingRecords">
+        <key>AUTParty2</key>
+        <originatingSource>http://103.6.252.71/registry//orca/register_my_data</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart>Related Party 2</namePart>
+            </name>
+            <relatedObject>
+                <key>AUTORCIDWizCollection5a</key>
+                <relation type="isOwnerOf">
+                    <description>relationshipdescription</description>
+                </relation>
+            </relatedObject>
+        </party>
+    </registryObject>
+    
+    <registryObject group="AUTestingRecords">
+        <key>AUTParty3</key>
+        <originatingSource>http://103.6.252.71/registry//orca/register_my_data</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart>Related Party 3</namePart>
+            </name>
+        </party>
+    </registryObject>
+    
+    <registryObject group="AUTestingRecords">
+        <key>AUTParty4</key>
+        <originatingSource>http://103.6.252.71/registry//orca/register_my_data</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="given">Craig</namePart>
+                <namePart type="family">David</namePart>
+            </name>
+        </party>
+    </registryObject>
+      
+    <registryObject group="AUTestingRecords">
+        <key>AUTParty5</key>
+        <originatingSource>http://103.6.252.71/registry//orca/register_my_data</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="given">Jenny</namePart>
+                <namePart type="family">Seter</namePart>
+                <namePart type="title">Mrs</namePart>
+            </name>
+            <relatedInfo type="collection">
+                <title>Collection 5a</title>
+                <identifier type="handle">101.101/105.5678</identifier>
+                <relation type="isCollectorOf"/>
+            </relatedInfo>
+        </party>
+
+    </registryObject>
+</registryObjects>

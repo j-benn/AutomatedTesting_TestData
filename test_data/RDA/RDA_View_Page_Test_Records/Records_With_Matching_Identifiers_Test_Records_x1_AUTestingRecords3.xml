@@ -1,0 +1,41 @@
+<registryObjects>
+  <registryObject group="AUTestingRecords3">
+    <key>AUTestingRecords3CollectionCDuplicateIdentifiers</key>
+    <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+    <collection type="registry">
+      <name type="primary">
+        <namePart>(AUTestingRecords3) Collection C Duplicate Identifiers</namePart>
+      </name>
+      <identifier type="doi">10.AUTestingRecords2/345</identifier>
+      <relatedObject>
+        <key>AUTestingRecords3RelatedCollectionDatasetRelObj1</key>
+        <relation type="isDerivedFrom"/>
+      </relatedObject>
+      <relatedObject>
+        <key>AUTestingRecords3RelatedPartyGroupRelObj1</key>
+        <relation type="isManagedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>AUTestingRecordsRelatedPartyGroupRelObj1</key>
+        <relation type="hasAssociationWith"/>
+      </relatedObject>
+      <relatedInfo type="publication">
+        <title>Example Publication 1</title>
+        <identifier type="doi">324543kjk45435543</identifier>
+      </relatedInfo>
+      <relatedInfo type="publication">
+        <title>Example Publication 2</title>
+        <identifier type="local">asdfsadf325432523</identifier>
+        <relation type="isReviewedBy"/>
+      </relatedInfo>
+      <relatedInfo type="website">
+        <title>Example Website 1</title>
+        <identifier type="uri">http://www.exampleweb11.com</identifier>
+      </relatedInfo>
+      <relatedInfo type="website">
+        <title>Example Website 2</title>
+        <identifier type="uri">http://www.exampleweb22.com</identifier>
+      </relatedInfo>
+    </collection>
+  </registryObject>
+  </registryObjects>

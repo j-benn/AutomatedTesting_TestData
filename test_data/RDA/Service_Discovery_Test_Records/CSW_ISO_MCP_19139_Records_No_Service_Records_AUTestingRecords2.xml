@@ -1,0 +1,2375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<csw:GetRecordsResponse xmlns:csw="http://www.opengis.net/cat/csw/2.0.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/cat/csw/2.0.2 http://schemas.opengis.net/csw/2.0.2/CSW-discovery.xsd">
+    <csw:SearchStatus timestamp="2017-08-10T10:50:07"/>
+    <csw:SearchResults numberOfRecordsMatched="141" numberOfRecordsReturned="15" elementSet="full" nextRecord="16">
+        <mcp:MD_Metadata xmlns:mcp="http://bluenet3.antcrc.utas.edu.au/mcp" xmlns="http://www.isotc211.org/2005/gmd" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gml="http://www.opengis.net/gml" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" gco:isoType="gmd:MD_Metadata" xsi:schemaLocation="http://bluenet3.antcrc.utas.edu.au/mcp http://bluenet3.antcrc.utas.edu.au/mcp-1.4/schema.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
+            <!--
+Sort of convert 1.5-experimental to 1.4 by:
+- replacing standard name and standard version
+- excluding mcp:taxonomicElement and any gmd:extent/mcp:EX_Extent with 
+just one mcp:taxonomicElement
+
+TODO:
+- convert mcp:resourceContactInfo and mcp:metadataContactInfo to
+gmd:pointOfContact and gmd:contact respectively
+- convert mcp:CI_Citation to gmd:CI_Citation
+- codelists? how to map 1.5 codelists to 1.4?
+			-->
+            <gmd:fileIdentifier>
+                <gco:CharacterString>6f0e4510-61c5-11dc-acee-00188b4c0af8AUT2</gco:CharacterString>
+            </gmd:fileIdentifier>
+            <gmd:language>
+                <gco:CharacterString>eng</gco:CharacterString>
+            </gmd:language>
+            <gmd:characterSet>
+                <gmd:MD_CharacterSetCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+            </gmd:characterSet>
+            <gmd:hierarchyLevel>
+                <gmd:MD_ScopeCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="model">model</gmd:MD_ScopeCode>
+            </gmd:hierarchyLevel>
+            <gmd:contact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString>Srozzy, AUTestingRecords2, Dr</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString>School of Geosciences, The University of AUTestingRecords</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                        <gco:CharacterString>Research Associate</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:phone>
+                                <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                        <gco:CharacterString>61 2 9351 4255</gco:CharacterString>
+                                    </gmd:voice>
+                                </gmd:CI_Telephone>
+                            </gmd:phone>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                        <gco:CharacterString>School of Geosciences</gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                        <gco:CharacterString>Sydney</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                        <gco:CharacterString>NSW</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                        <gco:CharacterString>2006</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                        <gco:CharacterString>Australia</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                        <gco:CharacterString>autestingrecords@ands.edu.au</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="processor">processor</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:contact>
+            <gmd:contact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:positionName>
+                        <gco:CharacterString>BlueNet Data Facilitator</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:electronicMailAddress>
+                                        <gco:CharacterString>info@bluenet.org.au</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="processor">processor</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:contact>
+            <gmd:dateStamp>
+                <gco:DateTime>2007-09-13T17:06:00</gco:DateTime>
+            </gmd:dateStamp>
+            <gmd:metadataStandardName xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmx="http://www.isotc211.org/2005/gmx">
+                <gco:CharacterString>Australian Marine Community Profile of ISO 19115:2005/19139</gco:CharacterString>
+            </gmd:metadataStandardName>
+            <gmd:metadataStandardVersion xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmx="http://www.isotc211.org/2005/gmx">
+                <gco:CharacterString>1.4</gco:CharacterString>
+            </gmd:metadataStandardVersion>
+            <gmd:identificationInfo>
+                <mcp:MD_DataIdentification gco:isoType="gmd:MD_DataIdentification">
+                    <gmd:citation>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>AUTestingRecords2 Collection with single service URL https://test.ands.org.au/mock/get/AUTestingRecords_WMS_Response_12_v1.3.0?someparams Age of Oceanic Lithosphere</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                        <gco:DateTime>2007-09-13T16:52:00</gco:DateTime>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                        <gmd:CI_DateTypeCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:citedResponsibleParty>
+                                <gmd:CI_ResponsibleParty>
+                                    <gmd:individualName>
+                                        <gco:CharacterString>Muller, Dietmar, Dr</gco:CharacterString>
+                                    </gmd:individualName>
+                                    <gmd:organisationName>
+                                        <gco:CharacterString>School of Geosciences, The University of Sydney (USYD)</gco:CharacterString>
+                                    </gmd:organisationName>
+                                    <gmd:positionName>
+                                        <gco:CharacterString>Associate Professor</gco:CharacterString>
+                                    </gmd:positionName>
+                                    <gmd:contactInfo>
+                                        <gmd:CI_Contact>
+                                            <gmd:address>
+                                                <gmd:CI_Address>
+                                                    <gmd:electronicMailAddress>
+                                                        <gco:CharacterString>dietmar@geosci.usyd.edu.au</gco:CharacterString>
+                                                    </gmd:electronicMailAddress>
+                                                </gmd:CI_Address>
+                                            </gmd:address>
+                                        </gmd:CI_Contact>
+                                    </gmd:contactInfo>
+                                    <gmd:role>
+                                        <gmd:CI_RoleCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                                    </gmd:role>
+                                </gmd:CI_ResponsibleParty>
+                            </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                    </gmd:citation>
+                    <gmd:abstract>
+                        <gco:CharacterString>This is an agegrid showing the present day age of the oceanic lithosphere around the Australian Continent . The agegrid is created using a global set of seafloor spreading isochrons, reconstructed on the basis of approximately 40,000 marine magnetic anomaly identifications and fracture zones identified from marine gravity anomalies and a global set of finite rotations.</gco:CharacterString>
+                    </gmd:abstract>
+                    <gmd:purpose>
+                        <gco:CharacterString>To study the age of the oceanic lithosphere globally.</gco:CharacterString>
+                    </gmd:purpose>
+                    <gmd:credit>
+                        <gco:CharacterString>Sdrolias, Maria</gco:CharacterString>
+                    </gmd:credit>
+                    <gmd:status>
+                        <gmd:MD_ProgressCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
+                    </gmd:status>
+                    <gmd:pointOfContact>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:individualName>
+                                <gco:CharacterString>Muzy, AUTestingRecords, Dr</gco:CharacterString>
+                            </gmd:individualName>
+                            <gmd:organisationName>
+                                <gco:CharacterString>School of Geosciences, The University of AUTestingRecords</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName>
+                                <gco:CharacterString>Associate Professor</gco:CharacterString>
+                            </gmd:positionName>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:phone>
+                                        <gmd:CI_Telephone>
+                                            <gmd:voice>
+                                                <gco:CharacterString>61 2 9351 4254</gco:CharacterString>
+                                            </gmd:voice>
+                                            <gmd:facsimile>
+                                                <gco:CharacterString>61 2 9036 6588</gco:CharacterString>
+                                            </gmd:facsimile>
+                                        </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                        <gmd:CI_Address>
+                                            <gmd:deliveryPoint>
+                                                <gco:CharacterString>Baxter Building H11, School of Geosciences</gco:CharacterString>
+                                            </gmd:deliveryPoint>
+                                            <gmd:city>
+                                                <gco:CharacterString>Sydney</gco:CharacterString>
+                                            </gmd:city>
+                                            <gmd:administrativeArea>
+                                                <gco:CharacterString>New South Wales</gco:CharacterString>
+                                            </gmd:administrativeArea>
+                                            <gmd:postalCode>
+                                                <gco:CharacterString>2006</gco:CharacterString>
+                                            </gmd:postalCode>
+                                            <gmd:country>
+                                                <gco:CharacterString>Australia</gco:CharacterString>
+                                            </gmd:country>
+                                            <gmd:electronicMailAddress>
+                                                <gco:CharacterString>autestingrecords@ands.edu.au</gco:CharacterString>
+                                            </gmd:electronicMailAddress>
+                                        </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                        <gmd:CI_OnlineResource>
+                                            <gmd:linkage>
+                                                <gmd:URL>http://www.geosci.usyd.edu.au/users/dietmar</gmd:URL>
+                                            </gmd:linkage>
+                                            <gmd:protocol>
+                                                <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                                            </gmd:protocol>
+                                            <gmd:name>
+                                                <gco:CharacterString>Assoc Prof R AUTestingRecords Muzy Personal Pages</gco:CharacterString>
+                                            </gmd:name>
+                                            <gmd:description gco:nilReason="missing">
+                                                <gco:CharacterString/>
+                                            </gmd:description>
+                                        </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:pointOfContact>
+                    <gmd:graphicOverview>
+                        <gmd:MD_BrowseGraphic>
+                            <gmd:fileName>
+                                <gco:CharacterString>age_of_oceanographic_lithosphere_s.png</gco:CharacterString>
+                            </gmd:fileName>
+                            <gmd:fileDescription>
+                                <gco:CharacterString>thumbnail</gco:CharacterString>
+                            </gmd:fileDescription>
+                            <gmd:fileType>
+                                <gco:CharacterString>png</gco:CharacterString>
+                            </gmd:fileType>
+                        </gmd:MD_BrowseGraphic>
+                    </gmd:graphicOverview>
+                    <gmd:graphicOverview>
+                        <gmd:MD_BrowseGraphic>
+                            <gmd:fileName>
+                                <gco:CharacterString>age_of_oceanographic_lithosphere.png</gco:CharacterString>
+                            </gmd:fileName>
+                            <gmd:fileDescription>
+                                <gco:CharacterString>large_thumbnail</gco:CharacterString>
+                            </gmd:fileDescription>
+                            <gmd:fileType>
+                                <gco:CharacterString>png</gco:CharacterString>
+                            </gmd:fileType>
+                        </gmd:MD_BrowseGraphic>
+                    </gmd:graphicOverview>
+                    <gmd:descriptiveKeywords>
+                        <gmd:MD_Keywords>
+                            <gmd:keyword>
+                                <gco:CharacterString>Oceans | Marine Geophysics | Seafloor Spreading</gco:CharacterString>
+                            </gmd:keyword>
+                            <gmd:type>
+                                <gmd:MD_KeywordTypeCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+                            </gmd:type>
+                            <gmd:thesaurusName>
+                                <gmd:CI_Citation>
+                                    <gmd:title>
+                                        <gco:CharacterString>Global Change Master Directory Earth Science Keywords v.5.3.8</gco:CharacterString>
+                                    </gmd:title>
+                                    <gmd:date>
+                                        <gmd:CI_Date>
+                                            <gmd:date>
+                                                <gco:DateTime>2007-04-17T00:00:00</gco:DateTime>
+                                            </gmd:date>
+                                            <gmd:dateType>
+                                                <gmd:CI_DateTypeCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                                            </gmd:dateType>
+                                        </gmd:CI_Date>
+                                    </gmd:date>
+                                    <gmd:citedResponsibleParty>
+                                        <gmd:CI_ResponsibleParty>
+                                            <gmd:organisationName>
+                                                <gco:CharacterString>NASA</gco:CharacterString>
+                                            </gmd:organisationName>
+                                            <gmd:contactInfo>
+                                                <gmd:CI_Contact>
+                                                    <gmd:onlineResource>
+                                                        <gmd:CI_OnlineResource>
+                                                            <gmd:linkage>
+                                                                <gmd:URL>http://gcmd.gsfc.nasa.gov/Resources/valids/</gmd:URL>
+                                                            </gmd:linkage>
+                                                            <gmd:protocol>
+                                                                <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                                                            </gmd:protocol>
+                                                        </gmd:CI_OnlineResource>
+                                                    </gmd:onlineResource>
+                                                </gmd:CI_Contact>
+                                            </gmd:contactInfo>
+                                            <gmd:role>
+                                                <gmd:CI_RoleCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="owner">owner</gmd:CI_RoleCode>
+                                            </gmd:role>
+                                        </gmd:CI_ResponsibleParty>
+                                    </gmd:citedResponsibleParty>
+                                </gmd:CI_Citation>
+                            </gmd:thesaurusName>
+                        </gmd:MD_Keywords>
+                    </gmd:descriptiveKeywords>
+                    <gmd:resourceConstraints>
+                        <gmd:MD_LegalConstraints>
+                            <gmd:accessConstraints>
+                                <gmd:MD_RestrictionCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="copyright">copyright</gmd:MD_RestrictionCode>
+                            </gmd:accessConstraints>
+                            <gmd:useConstraints>
+                                <gmd:MD_RestrictionCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="intellectualPropertyRights">intellectualPropertyRights</gmd:MD_RestrictionCode>
+                            </gmd:useConstraints>
+                        </gmd:MD_LegalConstraints>
+                    </gmd:resourceConstraints>
+                    <gmd:resourceConstraints>
+                        <gmd:MD_SecurityConstraints>
+                            <gmd:classification>
+                                <gmd:MD_ClassificationCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#MD_ClassificationCode" codeListValue="unclassified">unclassified</gmd:MD_ClassificationCode>
+                            </gmd:classification>
+                        </gmd:MD_SecurityConstraints>
+                    </gmd:resourceConstraints>
+                    <gmd:aggregationInfo>
+                        <gmd:MD_AggregateInformation>
+                            <gmd:aggregateDataSetName>
+                                <gmd:CI_Citation>
+                                    <gmd:title>
+                                        <gco:CharacterString>Oceanic Lithosphere</gco:CharacterString>
+                                    </gmd:title>
+                                    <gmd:date>
+                                        <gmd:CI_Date>
+                                            <gmd:date>
+                                                <gco:DateTime>2007-09-13T16:52:00</gco:DateTime>
+                                            </gmd:date>
+                                            <gmd:dateType>
+                                                <gmd:CI_DateTypeCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                                            </gmd:dateType>
+                                        </gmd:CI_Date>
+                                    </gmd:date>
+                                </gmd:CI_Citation>
+                            </gmd:aggregateDataSetName>
+                            <gmd:aggregateDataSetIdentifier>
+                                <gmd:MD_Identifier/>
+                            </gmd:aggregateDataSetIdentifier>
+                            <gmd:associationType gco:nilReason="missing"/>
+                        </gmd:MD_AggregateInformation>
+                    </gmd:aggregationInfo>
+                    <gmd:spatialRepresentationType>
+                        <gmd:MD_SpatialRepresentationTypeCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid">grid</gmd:MD_SpatialRepresentationTypeCode>
+                    </gmd:spatialRepresentationType>
+                    <gmd:spatialResolution>
+                        <gmd:MD_Resolution>
+                            <gmd:equivalentScale>
+                                <gmd:MD_RepresentativeFraction>
+                                    <gmd:denominator>
+                                        <gco:Integer>6minute x 6 minute resolution</gco:Integer>
+                                    </gmd:denominator>
+                                </gmd:MD_RepresentativeFraction>
+                            </gmd:equivalentScale>
+                        </gmd:MD_Resolution>
+                    </gmd:spatialResolution>
+                    <gmd:language>
+                        <gco:CharacterString>eng</gco:CharacterString>
+                    </gmd:language>
+                    <gmd:characterSet>
+                        <gmd:MD_CharacterSetCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+                    </gmd:characterSet>
+                    <gmd:topicCategory>
+                        <gmd:MD_TopicCategoryCode>oceans</gmd:MD_TopicCategoryCode>
+                    </gmd:topicCategory>
+                    <mcp:dataParameters>
+                        <mcp:DP_DataParameters>
+                            <mcp:dataParameter>
+                                <mcp:DP_DataParameter>
+                                    <mcp:parameterName>
+                                        <mcp:DP_ParameterName>
+                                            <mcp:name>
+                                                <gco:CharacterString>age</gco:CharacterString>
+                                            </mcp:name>
+                                            <mcp:type>
+                                                <mcp:DP_TypeCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#DP_TypeCode" codeListValue="longName">longName</mcp:DP_TypeCode>
+                                            </mcp:type>
+                                        </mcp:DP_ParameterName>
+                                    </mcp:parameterName>
+                                    <mcp:parameterUnits>
+                                        <mcp:DP_UnitsName>
+                                            <mcp:name>
+                                                <gco:CharacterString>Months, year</gco:CharacterString>
+                                            </mcp:name>
+                                            <mcp:type>
+                                                <mcp:DP_TypeCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#DP_TypeCode" codeListValue="longName">longName</mcp:DP_TypeCode>
+                                            </mcp:type>
+                                        </mcp:DP_UnitsName>
+                                    </mcp:parameterUnits>
+                                    <mcp:parameterMinimumValue gco:nilReason="missing">
+                                        <gco:CharacterString/>
+                                    </mcp:parameterMinimumValue>
+                                    <mcp:parameterMaximumValue gco:nilReason="missing">
+                                        <gco:CharacterString/>
+                                    </mcp:parameterMaximumValue>
+                                    <mcp:parameterDescription>
+                                        <gco:CharacterString>Age of Oceanic Lithosphere</gco:CharacterString>
+                                    </mcp:parameterDescription>
+                                </mcp:DP_DataParameter>
+                            </mcp:dataParameter>
+                        </mcp:DP_DataParameters>
+                    </mcp:dataParameters>
+                </mcp:MD_DataIdentification>
+            </gmd:identificationInfo>
+            <gmd:distributionInfo>
+                <gmd:MD_Distribution>
+                    <gmd:transferOptions>
+                        <gmd:MD_DigitalTransferOptions>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>https://test.ands.org.au/mock/get/AUTestingRecords_WMS_Response_12_v1.3.0?someparams</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>OGC:WMS-URL</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Point of truth URL of this metadata record</gco:CharacterString>
+                                    </gmd:description>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                        </gmd:MD_DigitalTransferOptions>
+                    </gmd:transferOptions>
+                </gmd:MD_Distribution>
+            </gmd:distributionInfo>
+            <gmd:dataQualityInfo>
+                <gmd:DQ_DataQuality>
+                    <gmd:scope>
+                        <gmd:DQ_Scope>
+                            <gmd:level>
+                                <gmd:MD_ScopeCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+                            </gmd:level>
+                        </gmd:DQ_Scope>
+                    </gmd:scope>
+                    <gmd:lineage>
+                        <gmd:LI_Lineage>
+                            <gmd:statement>
+                                <gco:CharacterString>Grey areas indicate regions that are floored by continental or transitional crust or areas where the age or nature of the crust is unknown.</gco:CharacterString>
+                            </gmd:statement>
+                        </gmd:LI_Lineage>
+                    </gmd:lineage>
+                </gmd:DQ_DataQuality>
+            </gmd:dataQualityInfo>
+            <gmd:dataQualityInfo>
+                <gmd:DQ_DataQuality>
+                    <gmd:scope>
+                        <gmd:DQ_Scope>
+                            <gmd:level>
+                                <gmd:MD_ScopeCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="model">model</gmd:MD_ScopeCode>
+                            </gmd:level>
+                        </gmd:DQ_Scope>
+                    </gmd:scope>
+                    <gmd:lineage>
+                        <gmd:LI_Lineage>
+                            <gmd:statement>
+                                <gco:CharacterString>Magnetometer data collected from ship track data is interpolated to densely spaced grids using a computer program Intertec developed at the University of Sydney.</gco:CharacterString>
+                            </gmd:statement>
+                        </gmd:LI_Lineage>
+                    </gmd:lineage>
+                </gmd:DQ_DataQuality>
+            </gmd:dataQualityInfo>
+            <mcp:revisionDate>
+                <gco:DateTime xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmx="http://www.isotc211.org/2005/gmx">2015-01-05T15:03:05</gco:DateTime>
+            </mcp:revisionDate>
+        </mcp:MD_Metadata>
+
+        <mcp:MD_Metadata xmlns:mcp="http://bluenet3.antcrc.utas.edu.au/mcp" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:geonet="http://www.fao.org/geonetwork" gco:isoType="gmd:MD_Metadata" xsi:schemaLocation="http://bluenet3.antcrc.utas.edu.au/mcp http://bluenet3.antcrc.utas.edu.au/mcp-1.4/schema.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
+            <!--
+Sort of convert 1.5-experimental to 1.4 by:
+- replacing standard name and standard version
+- excluding mcp:taxonomicElement and any gmd:extent/mcp:EX_Extent with 
+just one mcp:taxonomicElement
+
+TODO:
+- convert mcp:resourceContactInfo and mcp:metadataContactInfo to
+gmd:pointOfContact and gmd:contact respectively
+- convert mcp:CI_Citation to gmd:CI_Citation
+- codelists? how to map 1.5 codelists to 1.4?
+			-->
+            <gmd:fileIdentifier>
+                <gco:CharacterString>7ab05222-fd29-4a20-80a5-3feee9c15098AUT2</gco:CharacterString>
+            </gmd:fileIdentifier>
+            <gmd:language>
+                <gco:CharacterString>eng</gco:CharacterString>
+            </gmd:language>
+            <gmd:characterSet>
+                <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+            </gmd:characterSet>
+            <gmd:contact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:organisationName>
+                        <gco:CharacterString>AUTestingRecords2 Oceans and Atmosphere - Information and Data Centre</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                        <gco:CharacterString>Data Librarian</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:electronicMailAddress>
+                                        <gco:CharacterString>AUTestingRecords2@ands.au</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                            <gmd:onlineResource>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://www.cmar.csiro.au/datacentre/</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:name>
+                                        <gco:CharacterString>AUTestingRecords2 - Oceans and Atmosphere IDC homepage</gco:CharacterString>
+                                    </gmd:name>
+                                    <gmd:description>
+                                        <gco:CharacterString>Link to AUTestingRecords2 - Oceans and Atmosphere IDC homepage</gco:CharacterString>
+                                    </gmd:description>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onlineResource>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:contact>
+            <gmd:contact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString>AUTestingRecords2 Barkzy</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:contact>
+            <gmd:dateStamp>
+                <gco:Date>2008-07-01</gco:Date>
+            </gmd:dateStamp>
+            <gmd:metadataStandardName>
+                <gco:CharacterString>Australian Marine Community Profile of ISO 19115:2005/19139</gco:CharacterString>
+            </gmd:metadataStandardName>
+            <gmd:metadataStandardVersion>
+                <gco:CharacterString>1.4</gco:CharacterString>
+            </gmd:metadataStandardVersion>
+            <gmd:referenceSystemInfo>
+                <gmd:MD_ReferenceSystem>
+                    <gmd:referenceSystemIdentifier>
+                        <gmd:RS_Identifier>
+                            <gmd:code>
+                                <gco:CharacterString>Other - Please comment</gco:CharacterString>
+                            </gmd:code>
+                        </gmd:RS_Identifier>
+                    </gmd:referenceSystemIdentifier>
+                </gmd:MD_ReferenceSystem>
+            </gmd:referenceSystemInfo>
+            <gmd:identificationInfo>
+                <mcp:MD_DataIdentification gco:isoType="gmd:MD_DataIdentification">
+                    <gmd:citation>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>AUTestingRecords2 collection with 3x service URLs (Response 1,4 &amp; 5) Mapset: Sea Surface Temperature Quarterly Means and Variances (in the Australian Region)</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date gco:nilReason="inapplicable"/>
+                                    <gmd:dateType gco:nilReason="inapplicable"/>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                            <gmd:identifier xlink:title="Marlin Record Number">
+                                <gmd:MD_Identifier>
+                                    <gmd:code>
+                                        <gco:CharacterString>Marlin Record Number: 8164</gco:CharacterString>
+                                    </gmd:code>
+                                </gmd:MD_Identifier>
+                            </gmd:identifier>
+                            <gmd:identifier xlink:title="Anzlic Identifier">
+                                <gmd:MD_Identifier>
+                                    <gmd:code>
+                                        <gco:CharacterString>Anzlic Identifier: ANZCW1205000830</gco:CharacterString>
+                                    </gmd:code>
+                                </gmd:MD_Identifier>
+                            </gmd:identifier>
+                        </gmd:CI_Citation>
+                    </gmd:citation>
+                    <gmd:abstract>
+                        <gco:CharacterString>Set of four maps showing mean sea surface temperature from data collected by CSIRO remote sensing division from the USA's National Oceanographic and Atmospheric Administration (NOAA) satellites. These maps have been produced by CSIRO for the National Oceans Office, as part of an ongoing commitment to natural resource planning and management through the 'National Marine Bioregionalisation' project.</gco:CharacterString>
+                    </gmd:abstract>
+                    <gmd:status>
+                        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
+                    </gmd:status>
+                    <gmd:resourceMaintenance>
+                        <gmd:MD_MaintenanceInformation>
+                            <gmd:maintenanceAndUpdateFrequency>
+                                <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="notPlanned">notPlanned</gmd:MD_MaintenanceFrequencyCode>
+                            </gmd:maintenanceAndUpdateFrequency>
+                        </gmd:MD_MaintenanceInformation>
+                    </gmd:resourceMaintenance>
+                    <gmd:graphicOverview>
+                        <gmd:MD_BrowseGraphic>
+                            <gmd:fileName>
+                                <gco:CharacterString>http://www.cmar.csiro.au/datacentre/cmar_public/ocean_2004/maps/SST/SST_aprmean.jpg</gco:CharacterString>
+                            </gmd:fileName>
+                            <gmd:fileDescription>
+                                <gco:CharacterString>SST_aprmean.jpg (460 KB)</gco:CharacterString>
+                            </gmd:fileDescription>
+                            <gmd:fileType>
+                                <gco:CharacterString>jpg</gco:CharacterString>
+                            </gmd:fileType>
+                        </gmd:MD_BrowseGraphic>
+                    </gmd:graphicOverview>
+                    <gmd:graphicOverview>
+                        <gmd:MD_BrowseGraphic>
+                            <gmd:fileName>
+                                <gco:CharacterString>http://www.cmar.csiro.au/datacentre/cmar_public/ocean_2004/maps/SST/SST_aprvar.jpg</gco:CharacterString>
+                            </gmd:fileName>
+                            <gmd:fileDescription>
+                                <gco:CharacterString>SST_aprvar.jpg (4.67 MB)</gco:CharacterString>
+                            </gmd:fileDescription>
+                            <gmd:fileType>
+                                <gco:CharacterString>jpg</gco:CharacterString>
+                            </gmd:fileType>
+                        </gmd:MD_BrowseGraphic>
+                    </gmd:graphicOverview>
+                    <gmd:graphicOverview>
+                        <gmd:MD_BrowseGraphic>
+                            <gmd:fileName>
+                                <gco:CharacterString>http://www.cmar.csiro.au/datacentre/cmar_public/ocean_2004/maps/SST/SST_janmean.jpg</gco:CharacterString>
+                            </gmd:fileName>
+                            <gmd:fileDescription>
+                                <gco:CharacterString>SST_janmean.jpg (469 KB)</gco:CharacterString>
+                            </gmd:fileDescription>
+                            <gmd:fileType>
+                                <gco:CharacterString>jpg</gco:CharacterString>
+                            </gmd:fileType>
+                        </gmd:MD_BrowseGraphic>
+                    </gmd:graphicOverview>
+                    <gmd:graphicOverview>
+                        <gmd:MD_BrowseGraphic>
+                            <gmd:fileName>
+                                <gco:CharacterString>http://www.cmar.csiro.au/datacentre/cmar_public/ocean_2004/maps/SST/SST_julmean.jpg</gco:CharacterString>
+                            </gmd:fileName>
+                            <gmd:fileDescription>
+                                <gco:CharacterString>SST_julmean.jpg (453 KB)</gco:CharacterString>
+                            </gmd:fileDescription>
+                            <gmd:fileType>
+                                <gco:CharacterString>jpg</gco:CharacterString>
+                            </gmd:fileType>
+                        </gmd:MD_BrowseGraphic>
+                    </gmd:graphicOverview>
+                    <gmd:graphicOverview>
+                        <gmd:MD_BrowseGraphic>
+                            <gmd:fileName>
+                                <gco:CharacterString>http://www.cmar.csiro.au/datacentre/cmar_public/ocean_2004/maps/SST/SST_octvar.jpg</gco:CharacterString>
+                            </gmd:fileName>
+                            <gmd:fileDescription>
+                                <gco:CharacterString>SST_octvar.jpg (4.03 MB)</gco:CharacterString>
+                            </gmd:fileDescription>
+                            <gmd:fileType>
+                                <gco:CharacterString>jpg</gco:CharacterString>
+                            </gmd:fileType>
+                        </gmd:MD_BrowseGraphic>
+                    </gmd:graphicOverview>
+                    <gmd:graphicOverview>
+                        <gmd:MD_BrowseGraphic>
+                            <gmd:fileName>
+                                <gco:CharacterString>http://www.cmar.csiro.au/datacentre/cmar_public/ocean_2004/maps/SST/SST_julvar.jpg</gco:CharacterString>
+                            </gmd:fileName>
+                            <gmd:fileDescription>
+                                <gco:CharacterString>SST_julvar.jpg (3.96 MB)</gco:CharacterString>
+                            </gmd:fileDescription>
+                            <gmd:fileType>
+                                <gco:CharacterString>jpg</gco:CharacterString>
+                            </gmd:fileType>
+                        </gmd:MD_BrowseGraphic>
+                    </gmd:graphicOverview>
+                    <gmd:graphicOverview>
+                        <gmd:MD_BrowseGraphic>
+                            <gmd:fileName>
+                                <gco:CharacterString>http://www.cmar.csiro.au/datacentre/cmar_public/ocean_2004/maps/SST/SST_octmean.jpg</gco:CharacterString>
+                            </gmd:fileName>
+                            <gmd:fileDescription>
+                                <gco:CharacterString>SST_octmean.jpg (456 KB)</gco:CharacterString>
+                            </gmd:fileDescription>
+                            <gmd:fileType>
+                                <gco:CharacterString>jpg</gco:CharacterString>
+                            </gmd:fileType>
+                        </gmd:MD_BrowseGraphic>
+                    </gmd:graphicOverview>
+                    <gmd:graphicOverview>
+                        <gmd:MD_BrowseGraphic>
+                            <gmd:fileName>
+                                <gco:CharacterString>http://www.cmar.csiro.au/datacentre/cmar_public/ocean_2004/maps/SST/SST_janvar.jpg</gco:CharacterString>
+                            </gmd:fileName>
+                            <gmd:fileDescription>
+                                <gco:CharacterString>SST_janvar.jpg (4.95 MB)</gco:CharacterString>
+                            </gmd:fileDescription>
+                            <gmd:fileType>
+                                <gco:CharacterString>jpg</gco:CharacterString>
+                            </gmd:fileType>
+                        </gmd:MD_BrowseGraphic>
+                    </gmd:graphicOverview>
+                    <gmd:descriptiveKeywords>
+                        <gmd:MD_Keywords>
+                            <gmd:keyword>
+                                <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=external.theme.gcmd_keywords&amp;id=http://gcmdservices.gsfc.nasa.gov/kms/concept/bd24a9a9-7d52-4c29-b2a0-6cefd216ae78">Earth Science | Oceans | Ocean Temperature | Sea Surface Temperature</gmx:Anchor>
+                            </gmd:keyword>
+                            <gmd:keyword>
+                                <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=external.theme.gcmd_keywords&amp;id=http://gcmdservices.gsfc.nasa.gov/kms/concept/46206e8c-8def-406f-9e62-da4e74633a58">Earth Science | Oceans | Ocean Temperature | Water Temperature</gmx:Anchor>
+                            </gmd:keyword>
+                            <gmd:type>
+                                <gmd:MD_KeywordTypeCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+                            </gmd:type>
+                            <gmd:thesaurusName>
+                                <gmd:CI_Citation>
+                                    <gmd:title>
+                                        <gco:CharacterString>GCMD Keywords</gco:CharacterString>
+                                    </gmd:title>
+                                    <gmd:alternateTitle>
+                                        <gco:CharacterString>Olsen, L.M., G. Major, K. Shein, J. Scialdone, S. Ritz, T. Stevens, M. Morahan, A. Aleman, R. Vogel, S. Leicester, H. Weir, M. Meaux, S. Grebas, C.Solomon, M. Holland, T. Northcutt, R. A. Restrepo, R. Bilodeau, 2013. NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 8.0.0.0.0</gco:CharacterString>
+                                    </gmd:alternateTitle>
+                                    <gmd:date>
+                                        <gmd:CI_Date>
+                                            <gmd:date>
+                                                <gco:Date>2013</gco:Date>
+                                            </gmd:date>
+                                            <gmd:dateType>
+                                                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                                            </gmd:dateType>
+                                        </gmd:CI_Date>
+                                    </gmd:date>
+                                    <gmd:identifier>
+                                        <gmd:MD_Identifier>
+                                            <gmd:code>
+                                                <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/en/thesaurus.download?ref=external.theme.gcmd_keywords">geonetwork.thesaurus.external.theme.gcmd_keywords</gmx:Anchor>
+                                            </gmd:code>
+                                        </gmd:MD_Identifier>
+                                    </gmd:identifier>
+                                </gmd:CI_Citation>
+                            </gmd:thesaurusName>
+                        </gmd:MD_Keywords>
+                    </gmd:descriptiveKeywords>
+                    <gmd:descriptiveKeywords>
+                        <gmd:MD_Keywords>
+                            <gmd:keyword>
+                                <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=external.place.mcp_regions&amp;id=http://bluenet3.antcrc.utas.edu.au/mcp/geographic_extent_names%2326">Countries | Australia</gmx:Anchor>
+                            </gmd:keyword>
+                            <gmd:keyword>
+                                <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=external.place.mcp_regions&amp;id=http://bluenet3.antcrc.utas.edu.au/mcp/geographic_extent_names%2326">Countries | Australia</gmx:Anchor>
+                            </gmd:keyword>
+                            <gmd:keyword>
+                                <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=external.place.mcp_regions&amp;id=http://bluenet3.antcrc.utas.edu.au/mcp/geographic_extent_names%2313">Regional Seas | Coral Sea</gmx:Anchor>
+                            </gmd:keyword>
+                            <gmd:keyword>
+                                <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=external.place.mcp_regions&amp;id=http://bluenet3.antcrc.utas.edu.au/mcp/geographic_extent_names%2323">Regional Seas | Tasman Sea</gmx:Anchor>
+                            </gmd:keyword>
+                            <gmd:type>
+                                <gmd:MD_KeywordTypeCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place">place</gmd:MD_KeywordTypeCode>
+                            </gmd:type>
+                            <gmd:thesaurusName>
+                                <gmd:CI_Citation>
+                                    <gmd:title>
+                                        <gco:CharacterString>MCP Geographic Extent Names</gco:CharacterString>
+                                    </gmd:title>
+                                    <gmd:alternateTitle>
+                                        <gco:CharacterString>MCP Geographic Extent Names</gco:CharacterString>
+                                    </gmd:alternateTitle>
+                                    <gmd:date>
+                                        <gmd:CI_Date>
+                                            <gmd:date>
+                                                <gco:Date>2014-05-21</gco:Date>
+                                            </gmd:date>
+                                            <gmd:dateType>
+                                                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                            </gmd:dateType>
+                                        </gmd:CI_Date>
+                                    </gmd:date>
+                                    <gmd:identifier>
+                                        <gmd:MD_Identifier>
+                                            <gmd:code>
+                                                <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/en/thesaurus.download?ref=external.place.mcp_regions">geonetwork.thesaurus.external.place.mcp_regions</gmx:Anchor>
+                                            </gmd:code>
+                                        </gmd:MD_Identifier>
+                                    </gmd:identifier>
+                                </gmd:CI_Citation>
+                            </gmd:thesaurusName>
+                        </gmd:MD_Keywords>
+                    </gmd:descriptiveKeywords>
+                    <gmd:resourceConstraints>
+                        <gmd:MD_LegalConstraints>
+                            <gmd:otherConstraints>
+                                <gco:CharacterString>No Restrictions</gco:CharacterString>
+                            </gmd:otherConstraints>
+                        </gmd:MD_LegalConstraints>
+                    </gmd:resourceConstraints>
+                    <gmd:spatialResolution>
+                        <gmd:MD_Resolution>
+                            <gmd:equivalentScale>
+                                <gmd:MD_RepresentativeFraction>
+                                    <gmd:denominator>
+                                        <gco:Integer>250000</gco:Integer>
+                                    </gmd:denominator>
+                                </gmd:MD_RepresentativeFraction>
+                            </gmd:equivalentScale>
+                        </gmd:MD_Resolution>
+                    </gmd:spatialResolution>
+                    <gmd:language>
+                        <gco:CharacterString>eng</gco:CharacterString>
+                    </gmd:language>
+                    <gmd:characterSet>
+                        <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+                    </gmd:characterSet>
+                    <gmd:topicCategory>
+                        <gmd:MD_TopicCategoryCode>oceans</gmd:MD_TopicCategoryCode>
+                    </gmd:topicCategory>
+                    <gmd:extent>
+                        <gmd:EX_Extent>
+                            <gmd:geographicElement>
+                                <gmd:EX_GeographicBoundingBox>
+                                    <gmd:westBoundLongitude>
+                                        <gco:Decimal>90</gco:Decimal>
+                                    </gmd:westBoundLongitude>
+                                    <gmd:eastBoundLongitude>
+                                        <gco:Decimal>180</gco:Decimal>
+                                    </gmd:eastBoundLongitude>
+                                    <gmd:southBoundLatitude>
+                                        <gco:Decimal>-63</gco:Decimal>
+                                    </gmd:southBoundLatitude>
+                                    <gmd:northBoundLatitude>
+                                        <gco:Decimal>-3</gco:Decimal>
+                                    </gmd:northBoundLatitude>
+                                </gmd:EX_GeographicBoundingBox>
+                            </gmd:geographicElement>
+                            <gmd:temporalElement>
+                                <mcp:EX_TemporalExtent gco:isoType="gmd:EX_TemporalExtent">
+                                    <gmd:extent>
+                                        <gml:TimePeriod gml:id="tp1">
+                                            <gml:beginPosition>2004</gml:beginPosition>
+                                            <gml:endPosition>2004</gml:endPosition>
+                                        </gml:TimePeriod>
+                                    </gmd:extent>
+                                </mcp:EX_TemporalExtent>
+                            </gmd:temporalElement>
+                        </gmd:EX_Extent>
+                    </gmd:extent>
+                    <gmd:supplementalInformation>
+                        <gco:CharacterString>ATTRIBUTE STATEMENT: Contains ESRI layers relating to the map title, AUSLIG standard coastline, Jurisdictional boundaries, town and city locations, sea surface temperature</gco:CharacterString>
+                    </gmd:supplementalInformation>
+                </mcp:MD_DataIdentification>
+            </gmd:identificationInfo>
+            <gmd:distributionInfo>
+                <gmd:MD_Distribution>
+                    <gmd:distributionFormat>
+                        <gmd:MD_Format>
+                            <gmd:name>
+                                <gco:CharacterString>DIGITAL - Images - JPEG</gco:CharacterString>
+                            </gmd:name>
+                            <gmd:version gco:nilReason="missing"/>
+                        </gmd:MD_Format>
+                    </gmd:distributionFormat>
+                    <gmd:distributionFormat>
+                        <gmd:MD_Format>
+                            <gmd:name>
+                                <gco:CharacterString>DIGITAL - Images - PDF</gco:CharacterString>
+                            </gmd:name>
+                            <gmd:version gco:nilReason="missing"/>
+                        </gmd:MD_Format>
+                    </gmd:distributionFormat>
+                    <gmd:distributionFormat>
+                        <gmd:MD_Format>
+                            <gmd:name gco:nilReason="missing"/>
+                            <gmd:version gco:nilReason="missing"/>
+                            <gmd:specification>
+                                <gco:CharacterString>Stored Volume: pdf format: 12.2 MB jpg format: 22.4 MB</gco:CharacterString>
+                            </gmd:specification>
+                        </gmd:MD_Format>
+                    </gmd:distributionFormat>
+                    <gmd:transferOptions>
+                        <gmd:MD_DigitalTransferOptions>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://www.cmar.csiro.au/datacentre/cmar_public/ocean_2004/maps/SST/SST_aprvar.pdf</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:name>
+                                        <gco:CharacterString>Graphics Link</gco:CharacterString>
+                                    </gmd:name>
+                                    <gmd:description>
+                                        <gco:CharacterString>SST_aprvar.pdf (1.83 MB)</gco:CharacterString>
+                                    </gmd:description>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                        </gmd:MD_DigitalTransferOptions>
+                    </gmd:transferOptions>
+                    <gmd:transferOptions>
+                        <gmd:MD_DigitalTransferOptions>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://www.cmar.csiro.au/datacentre/cmar_public/ocean_2004/maps/SST/SST_aprmean.pdf</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:name>
+                                        <gco:CharacterString>Graphics Link</gco:CharacterString>
+                                    </gmd:name>
+                                    <gmd:description>
+                                        <gco:CharacterString>SST_aprmean.pdf (1.34 MB)</gco:CharacterString>
+                                    </gmd:description>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                        </gmd:MD_DigitalTransferOptions>
+                    </gmd:transferOptions>
+                    <gmd:transferOptions>
+                        <gmd:MD_DigitalTransferOptions>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://www.cmar.csiro.au/datacentre/cmar_public/ocean_2004/maps/SST/SST_janmean.pdf</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:name>
+                                        <gco:CharacterString>Graphics Link</gco:CharacterString>
+                                    </gmd:name>
+                                    <gmd:description>
+                                        <gco:CharacterString>SST_janmean.pdf (1.48 MB)</gco:CharacterString>
+                                    </gmd:description>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                        </gmd:MD_DigitalTransferOptions>
+                    </gmd:transferOptions>
+                    <gmd:transferOptions>
+                        <gmd:MD_DigitalTransferOptions>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://www.cmar.csiro.au/datacentre/cmar_public/ocean_2004/maps/SST/SST_janvar.pdf</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:name>
+                                        <gco:CharacterString>Graphics Link</gco:CharacterString>
+                                    </gmd:name>
+                                    <gmd:description>
+                                        <gco:CharacterString>SST_janvar.pdf (1.91 MB)</gco:CharacterString>
+                                    </gmd:description>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                        </gmd:MD_DigitalTransferOptions>
+                    </gmd:transferOptions>
+                    <gmd:transferOptions>
+                        <gmd:MD_DigitalTransferOptions>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://www.cmar.csiro.au/datacentre/cmar_public/ocean_2004/maps/SST/SST_julmean.pdf</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:name>
+                                        <gco:CharacterString>Graphics Link</gco:CharacterString>
+                                    </gmd:name>
+                                    <gmd:description>
+                                        <gco:CharacterString>SST_julmean.pdf (1.29 MB)</gco:CharacterString>
+                                    </gmd:description>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                        </gmd:MD_DigitalTransferOptions>
+                    </gmd:transferOptions>
+                    <gmd:transferOptions>
+                        <gmd:MD_DigitalTransferOptions>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://www.cmar.csiro.au/datacentre/cmar_public/ocean_2004/maps/SST/SST_julvar.pdf</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:name>
+                                        <gco:CharacterString>Graphics Link</gco:CharacterString>
+                                    </gmd:name>
+                                    <gmd:description>
+                                        <gco:CharacterString>SST_julvar.pdf (1.56 MB)</gco:CharacterString>
+                                    </gmd:description>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                        </gmd:MD_DigitalTransferOptions>
+                    </gmd:transferOptions>
+                    <gmd:transferOptions>
+                        <gmd:MD_DigitalTransferOptions>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://www.cmar.csiro.au/datacentre/cmar_public/ocean_2004/maps/SST/SST_octvar.pdf</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:name>
+                                        <gco:CharacterString>Graphics Link</gco:CharacterString>
+                                    </gmd:name>
+                                    <gmd:description>
+                                        <gco:CharacterString>SST_octvar.pdf (1.55 MB)</gco:CharacterString>
+                                    </gmd:description>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                        </gmd:MD_DigitalTransferOptions>
+                    </gmd:transferOptions>
+                    <gmd:transferOptions>
+                        <gmd:MD_DigitalTransferOptions>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://www.cmar.csiro.au/datacentre/cmar_public/ocean_2004/maps/SST/SST_octmean.pdf</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:name>
+                                        <gco:CharacterString>Graphics Link</gco:CharacterString>
+                                    </gmd:name>
+                                    <gmd:description>
+                                        <gco:CharacterString>SST_octmean.pdf (1.25 MB)</gco:CharacterString>
+                                    </gmd:description>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                        </gmd:MD_DigitalTransferOptions>
+                    </gmd:transferOptions>
+                    <gmd:transferOptions>
+                        <gmd:MD_DigitalTransferOptions>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://www.marlin.csiro.au/geonetwork/srv/en/search?uuid=7ab05222-fd29-4a20-80a5-3feee9c15098</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>WWW:LINK-1.0-http--metadata-URL</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:name>
+                                        <gco:CharacterString>Point of truth URL of this metadata record</gco:CharacterString>
+                                    </gmd:name>
+                                    <gmd:description>
+                                        <gco:CharacterString>Point of truth URL of this metadata record</gco:CharacterString>
+                                    </gmd:description>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                        </gmd:MD_DigitalTransferOptions>
+                    </gmd:transferOptions>
+                    <gmd:transferOptions>
+                        <gmd:MD_DigitalTransferOptions>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>https://test.ands.org.au/mock/get/AUTestingRecords_WFS_Response_1_v1.1.0?SERVICE=WFS&amp;</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>OGC:WFS--WFS_data-URL</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:name>
+                                        <gco:CharacterString>Point of truth URL of this metadata record</gco:CharacterString>
+                                    </gmd:name>
+                                    <gmd:description>
+                                        <gco:CharacterString>Point of truth URL of this metadata record</gco:CharacterString>
+                                    </gmd:description>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                        </gmd:MD_DigitalTransferOptions>
+                    </gmd:transferOptions>
+                    <gmd:transferOptions>
+                        <gmd:MD_DigitalTransferOptions>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>https://test.ands.org.au/mock/get/AUTestingRecords_WCS_Response_4_v1.1.2</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>OGC:WCS--WCS1.1.2_data-URL</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:name>
+                                        <gco:CharacterString>Point of truth URL of this metadata record</gco:CharacterString>
+                                    </gmd:name>
+                                    <gmd:description>
+                                        <gco:CharacterString>Point of truth URL of this metadata record</gco:CharacterString>
+                                    </gmd:description>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                        </gmd:MD_DigitalTransferOptions>
+                    </gmd:transferOptions>
+                    <gmd:transferOptions>
+                        <gmd:MD_DigitalTransferOptions>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>https://test.ands.org.au/mock/get/AUTestingRecords_WCS_Response_5_v1.0.0</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>OGC:WCS--WCS1.0.0_data-URL</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:name>
+                                        <gco:CharacterString>Point of truth URL of this metadata record</gco:CharacterString>
+                                    </gmd:name>
+                                    <gmd:description>
+                                        <gco:CharacterString>Point of truth URL of this metadata record</gco:CharacterString>
+                                    </gmd:description>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                        </gmd:MD_DigitalTransferOptions>
+                    </gmd:transferOptions>
+                </gmd:MD_Distribution>
+            </gmd:distributionInfo>
+            <gmd:dataQualityInfo>
+                <gmd:DQ_DataQuality>
+                    <gmd:scope>
+                        <gmd:DQ_Scope>
+                            <gmd:level>
+                                <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+                            </gmd:level>
+                        </gmd:DQ_Scope>
+                    </gmd:scope>
+                    <gmd:report>
+                        <gmd:DQ_AbsoluteExternalPositionalAccuracy>
+                            <gmd:result>
+                                <gmd:DQ_ConformanceResult>
+                                    <gmd:specification>
+                                        <gmd:CI_Citation>
+                                            <gmd:title gco:nilReason="inapplicable"/>
+                                            <gmd:date>
+                                                <gmd:CI_Date>
+                                                    <gmd:date gco:nilReason="inapplicable"/>
+                                                    <gmd:dateType>
+                                                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                                    </gmd:dateType>
+                                                </gmd:CI_Date>
+                                            </gmd:date>
+                                        </gmd:CI_Citation>
+                                    </gmd:specification>
+                                    <gmd:explanation>
+                                        <gco:CharacterString>Unknown</gco:CharacterString>
+                                    </gmd:explanation>
+                                    <gmd:pass gco:nilReason="inapplicable"/>
+                                </gmd:DQ_ConformanceResult>
+                            </gmd:result>
+                        </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+                    </gmd:report>
+                    <gmd:report>
+                        <gmd:DQ_CompletenessOmission>
+                            <gmd:result>
+                                <gmd:DQ_ConformanceResult>
+                                    <gmd:specification>
+                                        <gmd:CI_Citation>
+                                            <gmd:title gco:nilReason="inapplicable"/>
+                                            <gmd:date>
+                                                <gmd:CI_Date>
+                                                    <gmd:date gco:nilReason="inapplicable"/>
+                                                    <gmd:dateType>
+                                                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                                    </gmd:dateType>
+                                                </gmd:CI_Date>
+                                            </gmd:date>
+                                        </gmd:CI_Citation>
+                                    </gmd:specification>
+                                    <gmd:explanation>
+                                        <gco:CharacterString>Complete</gco:CharacterString>
+                                    </gmd:explanation>
+                                    <gmd:pass gco:nilReason="inapplicable"/>
+                                </gmd:DQ_ConformanceResult>
+                            </gmd:result>
+                        </gmd:DQ_CompletenessOmission>
+                    </gmd:report>
+                    <gmd:lineage>
+                        <gmd:LI_Lineage>
+                            <gmd:statement>
+                                <gco:CharacterString>The map layers and design layout were assembled using ESRI ArcGIS products. Grids used for mapping were spline interpolated from the 1/2 degree grids</gco:CharacterString>
+                            </gmd:statement>
+                        </gmd:LI_Lineage>
+                    </gmd:lineage>
+                </gmd:DQ_DataQuality>
+            </gmd:dataQualityInfo>
+            <mcp:revisionDate>
+                <gco:DateTime>2008-07-01T16:34:57</gco:DateTime>
+            </mcp:revisionDate>
+        </mcp:MD_Metadata>
+
+        <mcp:MD_Metadata xmlns:mcp="http://bluenet3.antcrc.utas.edu.au/mcp" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gml="http://www.opengis.net/gml" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" gco:isoType="gmd:MD_Metadata" xsi:schemaLocation="http://bluenet3.antcrc.utas.edu.au/mcp http://bluenet3.antcrc.utas.edu.au/mcp-1.4/schema.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
+            <!--
+Sort of convert 1.5-experimental to 1.4 by:
+- replacing standard name and standard version
+- excluding mcp:taxonomicElement and any gmd:extent/mcp:EX_Extent with 
+just one mcp:taxonomicElement
+
+TODO:
+- convert mcp:resourceContactInfo and mcp:metadataContactInfo to
+gmd:pointOfContact and gmd:contact respectively
+- convert mcp:CI_Citation to gmd:CI_Citation
+- codelists? how to map 1.5 codelists to 1.4?
+			-->
+            <gmd:fileIdentifier>
+                <gco:CharacterString>e7afec92-a57b-4c65-9693-f9b619ca4028AUT2</gco:CharacterString>
+            </gmd:fileIdentifier>
+            <gmd:language>
+                <gco:CharacterString>eng</gco:CharacterString>
+            </gmd:language>
+            <gmd:characterSet>
+                <gmd:MD_CharacterSetCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+            </gmd:characterSet>
+            <gmd:contact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:organisationName>
+                        <gco:CharacterString>AUTestingRecords2 Oceans and Atmosphere - Information and Data Centre</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                        <gco:CharacterString>Data Librarian</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:electronicMailAddress>
+                                        <gco:CharacterString>AUTestingRecords2@ands.au</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                            <gmd:onlineResource>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://www.cmar.csiro.au/datacentre/</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:name>
+                                        <gco:CharacterString>AUTestingRecords2 - Oceans and Atmosphere IDC homepage</gco:CharacterString>
+                                    </gmd:name>
+                                    <gmd:description>
+                                        <gco:CharacterString>Link to AUTestingRecords2 - Oceans and Atmosphere IDC homepage</gco:CharacterString>
+                                    </gmd:description>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onlineResource>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:contact>
+            <gmd:contact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString>CMAR Dataoffice Qld</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:contact>
+            <gmd:dateStamp>
+                <gco:Date>2014-09-05</gco:Date>
+            </gmd:dateStamp>
+            <gmd:metadataStandardName>
+                <gco:CharacterString>Australian Marine Community Profile of ISO 19115:2005/19139</gco:CharacterString>
+            </gmd:metadataStandardName>
+            <gmd:metadataStandardVersion>
+                <gco:CharacterString>1.4</gco:CharacterString>
+            </gmd:metadataStandardVersion>
+            <gmd:referenceSystemInfo>
+                <gmd:MD_ReferenceSystem>
+                    <gmd:referenceSystemIdentifier>
+                        <gmd:RS_Identifier>
+                            <gmd:code>
+                                <gco:CharacterString>WGS84</gco:CharacterString>
+                            </gmd:code>
+                        </gmd:RS_Identifier>
+                    </gmd:referenceSystemIdentifier>
+                </gmd:MD_ReferenceSystem>
+            </gmd:referenceSystemInfo>
+            <gmd:identificationInfo>
+                <mcp:MD_DataIdentification gco:isoType="gmd:MD_DataIdentification">
+                    <gmd:citation>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>AUTestingRecords2 Collection with a bogus OGC service URL htt://bogusURL.com Surface sediment soundings from Brunskill et al 2001</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                        <gco:DateTime>2013-04-09T04:00:00</gco:DateTime>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                        <gmd:CI_DateTypeCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                        </gmd:CI_Citation>
+                    </gmd:citation>
+                    <gmd:abstract>
+                        <gco:CharacterString>Sounding data extracted from: Continental Shelf Research 21 (2001) 157–201 Geochemistry and particle size of surface sediments of Exmouth Gulf, Northwest Shelf, Australia G.J. Brunskill,*, A.R. Orpin, I. Zagorskis, K.J. Woolfe, J. Ellison DOI: 10.1016/S0278-4343(00)00076-5 Project Details: The Pilbara Marine Conservation Partnership (PMCP) was an initiative designed to enhance the net conservation benefits of the globally-significant coral reef ecosystems of the Pilbara (Western Australia) by providing an assessment of the condition and trajectory of key ecological values. These assessments were designed to inform and complement existing governance and management arrangements and the PMCP is intended to provide ongoing advice and assessment for conservation efforts in the region, providing lasting benefits. The PMCP concept is based on three core ecological components, namely: Coral Reef Health - concentrating mainly on habitat forming primary producers. Fish and Sharks - their community structure, interactions and impacts on lower trophic levels. Environmental Pressures - physical and anthropogenic factors that influence the condition of reefs and associated biota.</gco:CharacterString>
+                    </gmd:abstract>
+                    <gmd:credit>
+                        <gco:CharacterString>Partner Institutions: CSIRO and University of Western Australia (UWA). The study is funded by the Gorgon Barrow Island Net Conservation Benefit Fund, which forms part of Western Australia's Gorgon gas project - a partnership between Chevron, ExxonMobil and Shell.</gco:CharacterString>
+                    </gmd:credit>
+                    <gmd:credit>
+                        <gco:CharacterString>AUTestingRecords2 Slawzy</gco:CharacterString>
+                    </gmd:credit>
+                    <gmd:status>
+                        <gmd:MD_ProgressCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="historicalArchive">historicalArchive</gmd:MD_ProgressCode>
+                    </gmd:status>
+                    <gmd:resourceMaintenance>
+                        <gmd:MD_MaintenanceInformation>
+                            <gmd:maintenanceAndUpdateFrequency>
+                                <gmd:MD_MaintenanceFrequencyCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+                            </gmd:maintenanceAndUpdateFrequency>
+                        </gmd:MD_MaintenanceInformation>
+                    </gmd:resourceMaintenance>
+                    <gmd:graphicOverview>
+                        <gmd:MD_BrowseGraphic>
+                            <gmd:fileName>
+                                <gco:CharacterString>http://www.cmar.csiro.au/datacentre/web_art/project-pmcp.jpg</gco:CharacterString>
+                            </gmd:fileName>
+                            <gmd:fileDescription>
+                                <gco:CharacterString>Thumbnail Image</gco:CharacterString>
+                            </gmd:fileDescription>
+                            <gmd:fileType>
+                                <gco:CharacterString>jpg</gco:CharacterString>
+                            </gmd:fileType>
+                        </gmd:MD_BrowseGraphic>
+                    </gmd:graphicOverview>
+                    <gmd:descriptiveKeywords>
+                        <gmd:MD_Keywords>
+                            <gmd:keyword>
+                                <gmx:Anchor xlink:href="http://www.marlin.csiro.au:80/geonetwork/srv/eng/xml.keyword.get?thesaurus=external.theme.gcmd_keywords&amp;id=http://gcmdservices.gsfc.nasa.gov/kms/concept/ce4b2c6e-3d69-4cf1-8416-c36e5f9b1b2c">Earth Science | Oceans | Marine Sediments</gmx:Anchor>
+                            </gmd:keyword>
+                            <gmd:keyword>
+                                <gmx:Anchor xlink:href="http://www.marlin.csiro.au:80/geonetwork/srv/eng/xml.keyword.get?thesaurus=external.theme.gcmd_keywords&amp;id=http://gcmdservices.gsfc.nasa.gov/kms/concept/17008d04-394d-4de8-8834-dd0a3cd88093">Earth Science | Oceans | Marine Sediments | Sediment Composition</gmx:Anchor>
+                            </gmd:keyword>
+                            <gmd:type>
+                                <gmd:MD_KeywordTypeCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+                            </gmd:type>
+                            <gmd:thesaurusName>
+                                <gmd:CI_Citation>
+                                    <gmd:title>
+                                        <gco:CharacterString>GCMD Keywords</gco:CharacterString>
+                                    </gmd:title>
+                                    <gmd:date>
+                                        <gmd:CI_Date>
+                                            <gmd:date>
+                                                <gco:Date>2014-04-29</gco:Date>
+                                            </gmd:date>
+                                            <gmd:dateType>
+                                                <gmd:CI_DateTypeCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                            </gmd:dateType>
+                                        </gmd:CI_Date>
+                                    </gmd:date>
+                                    <gmd:identifier>
+                                        <gmd:MD_Identifier>
+                                            <gmd:code>
+                                                <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/en/thesaurus.download?ref=external.theme.gcmd_keywords">geonetwork.thesaurus.external.theme.gcmd_keywords</gmx:Anchor>
+                                            </gmd:code>
+                                        </gmd:MD_Identifier>
+                                    </gmd:identifier>
+                                </gmd:CI_Citation>
+                            </gmd:thesaurusName>
+                        </gmd:MD_Keywords>
+                    </gmd:descriptiveKeywords>
+                    <gmd:descriptiveKeywords>
+                        <gmd:MD_Keywords>
+                            <gmd:keyword>
+                                <gmx:Anchor xlink:href="http://www.marlin.csiro.au:80/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.discipline.urn:marlin.csiro.au:keywords:cmarAOI&amp;id=urn:marlin.csiro.au:keywords:cmarAOI:concept:3210">Pilbara MCP</gmx:Anchor>
+                            </gmd:keyword>
+                            <gmd:type>
+                                <gmd:MD_KeywordTypeCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="discipline">discipline</gmd:MD_KeywordTypeCode>
+                            </gmd:type>
+                            <gmd:thesaurusName>
+                                <gmd:CI_Citation>
+                                    <gmd:title>
+                                        <gco:CharacterString>CSIRO Areas Of Interest</gco:CharacterString>
+                                    </gmd:title>
+                                    <gmd:date>
+                                        <gmd:CI_Date>
+                                            <gmd:date>
+                                                <gco:Date>2015-02-16</gco:Date>
+                                            </gmd:date>
+                                            <gmd:dateType>
+                                                <gmd:CI_DateTypeCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                            </gmd:dateType>
+                                        </gmd:CI_Date>
+                                    </gmd:date>
+                                    <gmd:identifier>
+                                        <gmd:MD_Identifier>
+                                            <gmd:code>
+                                                <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/en/?uuid=urn:marlin.csiro.au:keywords:cmarAOI">geonetwork.thesaurus.register.discipline.urn:marlin.csiro.au:keywords:cmarAOI</gmx:Anchor>
+                                            </gmd:code>
+                                        </gmd:MD_Identifier>
+                                    </gmd:identifier>
+                                </gmd:CI_Citation>
+                            </gmd:thesaurusName>
+                        </gmd:MD_Keywords>
+                    </gmd:descriptiveKeywords>
+                    <gmd:resourceConstraints>
+                        <gmd:MD_LegalConstraints>
+                            <gmd:otherConstraints>
+                                <gco:CharacterString>Please contact the data custodian for detailed information.</gco:CharacterString>
+                            </gmd:otherConstraints>
+                        </gmd:MD_LegalConstraints>
+                    </gmd:resourceConstraints>
+                    <gmd:language>
+                        <gco:CharacterString>eng</gco:CharacterString>
+                    </gmd:language>
+                    <gmd:characterSet>
+                        <gmd:MD_CharacterSetCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+                    </gmd:characterSet>
+                    <gmd:topicCategory>
+                        <gmd:MD_TopicCategoryCode>biota</gmd:MD_TopicCategoryCode>
+                    </gmd:topicCategory>
+                    <gmd:topicCategory>
+                        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+                    </gmd:topicCategory>
+                    <gmd:extent>
+                        <gmd:EX_Extent>
+                            <gmd:geographicElement>
+                                <gmd:EX_GeographicBoundingBox>
+                                    <gmd:westBoundLongitude>
+                                        <gco:Decimal>114</gco:Decimal>
+                                    </gmd:westBoundLongitude>
+                                    <gmd:eastBoundLongitude>
+                                        <gco:Decimal>114.75</gco:Decimal>
+                                    </gmd:eastBoundLongitude>
+                                    <gmd:southBoundLatitude>
+                                        <gco:Decimal>-22.5</gco:Decimal>
+                                    </gmd:southBoundLatitude>
+                                    <gmd:northBoundLatitude>
+                                        <gco:Decimal>-21.5</gco:Decimal>
+                                    </gmd:northBoundLatitude>
+                                </gmd:EX_GeographicBoundingBox>
+                            </gmd:geographicElement>
+                            <gmd:temporalElement/>
+                        </gmd:EX_Extent>
+                    </gmd:extent>
+                </mcp:MD_DataIdentification>
+            </gmd:identificationInfo>
+            <gmd:distributionInfo xmlns:date="http://exslt.org/dates-and-times">
+                <gmd:MD_Distribution>
+                    <gmd:distributionFormat>
+                        <gmd:MD_Format>
+                            <gmd:name>
+                                <gco:CharacterString>DIGITAL - Text Documents - ASCII</gco:CharacterString>
+                            </gmd:name>
+                            <gmd:version>
+                                <gco:CharacterString>brunskill_updated.csv</gco:CharacterString>
+                            </gmd:version>
+                        </gmd:MD_Format>
+                    </gmd:distributionFormat>
+                    <gmd:distributionFormat xmlns:gn="http://www.fao.org/geonetwork">
+                        <gmd:MD_Format>
+                            <gmd:name>
+                                <gco:CharacterString>DIGITAL - Spreadsheets - MS Excel</gco:CharacterString>
+                            </gmd:name>
+                            <gmd:version>
+                                <gco:CharacterString>brunskill_updated.xlsx</gco:CharacterString>
+                            </gmd:version>
+                        </gmd:MD_Format>
+                    </gmd:distributionFormat>
+                    <gmd:transferOptions>
+                        <gmd:MD_DigitalTransferOptions>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://www.marlin.csiro.au/geonetwork/srv/eng/search?uuid=e7afec92-a57b-4c65-9693-f9b619ca4028</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>WWW:LINK-1.0-http--metadata-URL</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:description>
+                                        <gco:CharacterString>Point of truth URL of this metadata record</gco:CharacterString>
+                                    </gmd:description>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://dx.doi.org/10.1016/S0278-4343(00)00076-5</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:name>
+                                        <gco:CharacterString>DOI Link to Publication - Brunskill et al 2001</gco:CharacterString>
+                                    </gmd:name>
+                                    <gmd:description>
+                                        <gco:CharacterString>Publication link to Brunskill et al 2001.</gco:CharacterString>
+                                    </gmd:description>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>https://data.pawsey.org.au/projects/?path=/projects/PMCP/Data_and_Scripts/Common_Reference_Data</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:name>
+                                        <gco:CharacterString>Pawsey Datashare Link</gco:CharacterString>
+                                    </gmd:name>
+                                    <gmd:description>
+                                        <gco:CharacterString>Note: Data are available to project participants only.</gco:CharacterString>
+                                    </gmd:description>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>htt://bogusURL.com</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>OGC:WFS</gco:CharacterString>
+                                    </gmd:protocol>
+                                    <gmd:name>
+                                        <gco:CharacterString>Pawsey Datashare Link</gco:CharacterString>
+                                    </gmd:name>
+                                    <gmd:description>
+                                        <gco:CharacterString>Note: Data are available to project participants only.</gco:CharacterString>
+                                    </gmd:description>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                        </gmd:MD_DigitalTransferOptions>
+                    </gmd:transferOptions>
+                </gmd:MD_Distribution>
+            </gmd:distributionInfo>
+            <gmd:dataQualityInfo>
+                <gmd:DQ_DataQuality>
+                    <gmd:scope>
+                        <gmd:DQ_Scope>
+                            <gmd:level>
+                                <gmd:MD_ScopeCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+                            </gmd:level>
+                        </gmd:DQ_Scope>
+                    </gmd:scope>
+                    <gmd:report>
+                        <gmd:DQ_AbsoluteExternalPositionalAccuracy>
+                            <gmd:result>
+                                <gmd:DQ_ConformanceResult>
+                                    <gmd:specification>
+                                        <gmd:CI_Citation>
+                                            <gmd:title gco:nilReason="missing">
+                                                <gco:CharacterString/>
+                                            </gmd:title>
+                                            <gmd:date>
+                                                <gmd:CI_Date>
+                                                    <gmd:date>
+                                                        <gco:Date/>
+                                                    </gmd:date>
+                                                    <gmd:dateType>
+                                                        <gmd:CI_DateTypeCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                                    </gmd:dateType>
+                                                </gmd:CI_Date>
+                                            </gmd:date>
+                                        </gmd:CI_Citation>
+                                    </gmd:specification>
+                                    <gmd:explanation>
+                                        <gco:CharacterString>Data were spatially referenced using GPS equipment, and are nominally accurate to ~10m.</gco:CharacterString>
+                                    </gmd:explanation>
+                                    <gmd:pass>
+                                        <gco:Boolean>false</gco:Boolean>
+                                    </gmd:pass>
+                                </gmd:DQ_ConformanceResult>
+                            </gmd:result>
+                        </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+                    </gmd:report>
+                    <gmd:report>
+                        <gmd:DQ_CompletenessOmission>
+                            <gmd:result>
+                                <gmd:DQ_ConformanceResult>
+                                    <gmd:specification>
+                                        <gmd:CI_Citation>
+                                            <gmd:title gco:nilReason="missing">
+                                                <gco:CharacterString/>
+                                            </gmd:title>
+                                            <gmd:date>
+                                                <gmd:CI_Date>
+                                                    <gmd:date>
+                                                        <gco:Date/>
+                                                    </gmd:date>
+                                                    <gmd:dateType>
+                                                        <gmd:CI_DateTypeCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                                    </gmd:dateType>
+                                                </gmd:CI_Date>
+                                            </gmd:date>
+                                        </gmd:CI_Citation>
+                                    </gmd:specification>
+                                    <gmd:explanation>
+                                        <gco:CharacterString>Data is complete. Please refer to the published literature for more information.</gco:CharacterString>
+                                    </gmd:explanation>
+                                    <gmd:pass>
+                                        <gco:Boolean>false</gco:Boolean>
+                                    </gmd:pass>
+                                </gmd:DQ_ConformanceResult>
+                            </gmd:result>
+                        </gmd:DQ_CompletenessOmission>
+                    </gmd:report>
+                    <gmd:lineage>
+                        <gmd:LI_Lineage>
+                            <gmd:statement>
+                                <gco:CharacterString>[common] All data sets collated as part of the Pilbara Marine Conservation Partnership (PMCP) are stored within iVEC using data storage from Research Data Storage Infrastructure (RDSI). Please refer to the published literature for a detailed description of project methodology. [dataset specific] The sounding data where collected as per the reference paper. The values were extrated by Dirk Slawinski and checked against coarse GA bathymetry. Some points were found to be erroneous and the authors have been contacted with the details.</gco:CharacterString>
+                            </gmd:statement>
+                        </gmd:LI_Lineage>
+                    </gmd:lineage>
+                </gmd:DQ_DataQuality>
+            </gmd:dataQualityInfo>
+            <mcp:revisionDate>
+                <gco:DateTime>2016-10-21T15:07:15</gco:DateTime>
+            </mcp:revisionDate>
+        </mcp:MD_Metadata>
+		
+		<mcp:MD_Metadata xmlns:mcp="http://bluenet3.antcrc.utas.edu.au/mcp" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:geonet="http://www.fao.org/geonetwork" gco:isoType="gmd:MD_Metadata" xsi:schemaLocation="http://bluenet3.antcrc.utas.edu.au/mcp http://bluenet3.antcrc.utas.edu.au/mcp-1.4/schema.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
+  <!--
+Sort of convert 1.5-experimental to 1.4 by:
+- replacing standard name and standard version
+- excluding mcp:taxonomicElement and any gmd:extent/mcp:EX_Extent with 
+just one mcp:taxonomicElement
+
+TODO:
+- convert mcp:resourceContactInfo and mcp:metadataContactInfo to
+gmd:pointOfContact and gmd:contact respectively
+- convert mcp:CI_Citation to gmd:CI_Citation
+- codelists? how to map 1.5 codelists to 1.4?
+			-->
+  <gmd:fileIdentifier>
+    <gco:CharacterString>dfbb5340-9119-4559-8712-a53630acfbb0AUT2</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gco:CharacterString>eng</gco:CharacterString>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:organisationName>
+        <gco:CharacterString>AUTestingRecords2 Oceans and Atmosphere - Information and Data Centre</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Data Librarian</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>AUTestingRecords2@ands.au</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://www.cmar.csiro.au/datacentre/</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>AUTestingRecords2 - Oceans and Atmosphere IDC homepage</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Link to AUTestingRecords2 - Oceans and Atmosphere IDC homepage</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>AUTestingRecords2 Byzy</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2007-10-09</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>Australian Marine Community Profile of ISO 19115:2005/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.4</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:identificationInfo>
+    <mcp:MD_DataIdentification gco:isoType="gmd:MD_DataIdentification">
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>Current Meter Mooring Data overview (1983 - present)</gco:CharacterString>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date gco:nilReason="inapplicable" />
+              <gmd:dateType gco:nilReason="inapplicable" />
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:identifier xlink:title="Marlin Record Number">
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gco:CharacterString>Marlin Record Number: 6896</gco:CharacterString>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
+          <gmd:identifier xlink:title="Anzlic Identifier">
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gco:CharacterString>Anzlic Identifier: ANZCW0306006896</gco:CharacterString>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>Data collected since 1983 using moored current meters deployed at various locations around Australia and in the southern Ocean has been loaded into the the CMAR Data Warehouse. Individual metadata records contain detailed information about each experiment. Most of these data were collected by the historical CSIRO divisions of Fisheries, Oceanography, Marine Research and now Marine and Atmospheric Research.</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gco:CharacterString>See detailed Current Meter (Moored) metadata records.</gco:CharacterString>
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
+      </gmd:status>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="notPlanned">notPlanned</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=external.theme.gcmd_keywords&amp;id=http://gcmdservices.gsfc.nasa.gov/kms/concept/510c5f78-e19e-4ce4-b59a-8937aeb84631">Earth Science | Oceans | Ocean Circulation | Ocean Currents</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=external.theme.gcmd_keywords&amp;id=http://gcmdservices.gsfc.nasa.gov/kms/concept/e5bca08d-ecb3-4b85-8acd-fed782875aa2">Earth Science | Oceans | Ocean Pressure | Sea Level Pressure</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=external.theme.gcmd_keywords&amp;id=http://gcmdservices.gsfc.nasa.gov/kms/concept/dd025312-0d27-44e0-ae05-7cfcc1aa17f0">Earth Science | Oceans | Ocean Pressure | Water Pressure</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=external.theme.gcmd_keywords&amp;id=http://gcmdservices.gsfc.nasa.gov/kms/concept/46206e8c-8def-406f-9e62-da4e74633a58">Earth Science | Oceans | Ocean Temperature | Water Temperature</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=external.theme.gcmd_keywords&amp;id=http://gcmdservices.gsfc.nasa.gov/kms/concept/7e95b5fc-1d58-431a-af36-948b29fa870d">Earth Science | Oceans | Salinity/Density | Salinity</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GCMD Keywords</gco:CharacterString>
+              </gmd:title>
+              <gmd:alternateTitle>
+                <gco:CharacterString>Olsen, L.M., G. Major, K. Shein, J. Scialdone, S. Ritz, T. Stevens, M. Morahan, A. Aleman, R. Vogel, S. Leicester, H. Weir, M. Meaux, S. Grebas, C.Solomon, M. Holland, T. Northcutt, R. A. Restrepo, R. Bilodeau, 2013. NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 8.0.0.0.0</gco:CharacterString>
+              </gmd:alternateTitle>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2013</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/en/thesaurus.download?ref=external.theme.gcmd_keywords">geonetwork.thesaurus.external.theme.gcmd_keywords</gmx:Anchor>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=external.theme.mcp_collection_methods&amp;id=http://bluenet3.antcrc.utas.edu.au/mcp/collection_methods%2340">Current Meters/Profilers</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>MCP Collection Methods</gco:CharacterString>
+              </gmd:title>
+              <gmd:alternateTitle>
+                <gco:CharacterString>MCP Collection Methods</gco:CharacterString>
+              </gmd:alternateTitle>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2014-05-21</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/en/thesaurus.download?ref=external.theme.mcp_collection_methods">geonetwork.thesaurus.external.theme.mcp_collection_methods</gmx:Anchor>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=external.place.mcp_regions&amp;id=http://bluenet3.antcrc.utas.edu.au/mcp/geographic_extent_names%234">Global / Oceans | Indian Ocean</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=external.place.mcp_regions&amp;id=http://bluenet3.antcrc.utas.edu.au/mcp/geographic_extent_names%234">Global / Oceans | Indian Ocean</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=external.place.mcp_regions&amp;id=http://bluenet3.antcrc.utas.edu.au/mcp/geographic_extent_names%235">Global / Oceans | Pacific Ocean</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=external.place.mcp_regions&amp;id=http://bluenet3.antcrc.utas.edu.au/mcp/geographic_extent_names%236">Global / Oceans | Southern Ocean</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=external.place.mcp_regions&amp;id=http://bluenet3.antcrc.utas.edu.au/mcp/geographic_extent_names%2366">Marine Features (Australia) | Bass Strait, TAS/VIC</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=external.place.mcp_regions&amp;id=http://bluenet3.antcrc.utas.edu.au/mcp/geographic_extent_names%2383">Marine Features (Australia) | Gulf of Carpentaria, NT/QLD</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=external.place.mcp_regions&amp;id=http://bluenet3.antcrc.utas.edu.au/mcp/geographic_extent_names%2313">Regional Seas | Coral Sea</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=external.place.mcp_regions&amp;id=http://bluenet3.antcrc.utas.edu.au/mcp/geographic_extent_names%2323">Regional Seas | Tasman Sea</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=external.place.mcp_regions&amp;id=http://bluenet3.antcrc.utas.edu.au/mcp/geographic_extent_names%2324">Regional Seas | Timor Sea</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=external.place.mcp_regions&amp;id=http://bluenet3.antcrc.utas.edu.au/mcp/geographic_extent_names%2336">States, Territories (Australia) | New South Wales</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=external.place.mcp_regions&amp;id=http://bluenet3.antcrc.utas.edu.au/mcp/geographic_extent_names%2337">States, Territories (Australia) | Northern Territory</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=external.place.mcp_regions&amp;id=http://bluenet3.antcrc.utas.edu.au/mcp/geographic_extent_names%2338">States, Territories (Australia) | Queensland</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=external.place.mcp_regions&amp;id=http://bluenet3.antcrc.utas.edu.au/mcp/geographic_extent_names%2340">States, Territories (Australia) | Tasmania</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=external.place.mcp_regions&amp;id=http://bluenet3.antcrc.utas.edu.au/mcp/geographic_extent_names%2341">States, Territories (Australia) | Victoria</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=external.place.mcp_regions&amp;id=http://bluenet3.antcrc.utas.edu.au/mcp/geographic_extent_names%2342">States, Territories (Australia) | Western Australia</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place">place</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>MCP Geographic Extent Names</gco:CharacterString>
+              </gmd:title>
+              <gmd:alternateTitle>
+                <gco:CharacterString>MCP Geographic Extent Names</gco:CharacterString>
+              </gmd:alternateTitle>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2014-05-21</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/en/thesaurus.download?ref=external.place.mcp_regions">geonetwork.thesaurus.external.place.mcp_regions</gmx:Anchor>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.discipline.urn:marlin.csiro.au:keywords:standardDataType&amp;id=urn:marlin.csiro.au:keywords:standardDataType:concept:3516">Moored Instrument Data: Current Meters and Tide Gauges</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="discipline">discipline</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>CSIRO Standard Data Types</gco:CharacterString>
+              </gmd:title>
+              <gmd:alternateTitle>
+                <gco:CharacterString>MarLIN Standard Datatypes Thesaurus</gco:CharacterString>
+              </gmd:alternateTitle>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2014-05-21</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/en/?uuid=urn:marlin.csiro.au:keywords:standardDataType">geonetwork.thesaurus.register.discipline.urn:marlin.csiro.au:keywords:standardDataType</gmx:Anchor>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.dataSource.urn:marlin.csiro.au:sourceregister&amp;id=urn:marlin.csiro.au:sourceregister:concept:131">Mooring: ACE Cape Howe Moorings (1983)</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.dataSource.urn:marlin.csiro.au:sourceregister&amp;id=urn:marlin.csiro.au:sourceregister:concept:132">Mooring: ACE Maria Island Mooring (1983)</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.dataSource.urn:marlin.csiro.au:sourceregister&amp;id=urn:marlin.csiro.au:sourceregister:concept:133">Mooring: ACE Newcastle Moorings (1983)</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.dataSource.urn:marlin.csiro.au:sourceregister&amp;id=urn:marlin.csiro.au:sourceregister:concept:134">Mooring: ACE South Solitary Island Mooring (1983)</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.dataSource.urn:marlin.csiro.au:sourceregister&amp;id=urn:marlin.csiro.au:sourceregister:concept:135">Mooring: ACE Stanwell Park Moorings (1983)</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.dataSource.urn:marlin.csiro.au:sourceregister&amp;id=urn:marlin.csiro.au:sourceregister:concept:136">Mooring: AIMS/CSIRO GBR-Coral Sea Moorings (1985)</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.dataSource.urn:marlin.csiro.au:sourceregister&amp;id=urn:marlin.csiro.au:sourceregister:concept:137">Mooring: Bass Strait Moorings - CSIRO (1991)</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.dataSource.urn:marlin.csiro.au:sourceregister&amp;id=urn:marlin.csiro.au:sourceregister:concept:167">Mooring: Bass Strait Moorings - UNSW (1991)</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.dataSource.urn:marlin.csiro.au:sourceregister&amp;id=urn:marlin.csiro.au:sourceregister:concept:140">Mooring: Devonport Moorings (1991-2)</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.dataSource.urn:marlin.csiro.au:sourceregister&amp;id=urn:marlin.csiro.au:sourceregister:concept:166">Mooring: Evans Head Upwelling Moorings (1989)</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.dataSource.urn:marlin.csiro.au:sourceregister&amp;id=urn:marlin.csiro.au:sourceregister:concept:143">Mooring: Halmahera Sea Mooring (1993)</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.dataSource.urn:marlin.csiro.au:sourceregister&amp;id=urn:marlin.csiro.au:sourceregister:concept:144">Mooring: Heard Island Moorings (1990)</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.dataSource.urn:marlin.csiro.au:sourceregister&amp;id=urn:marlin.csiro.au:sourceregister:concept:145">Mooring: ICM6 (Ningaloo Reef) Moorings (1994)</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.dataSource.urn:marlin.csiro.au:sourceregister&amp;id=urn:marlin.csiro.au:sourceregister:concept:147">Mooring: LUCIE: Cape Mentelle Moorings (1987)</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.dataSource.urn:marlin.csiro.au:sourceregister&amp;id=urn:marlin.csiro.au:sourceregister:concept:148">Mooring: LUCIE: Dongara Moorings (1986/7)</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.dataSource.urn:marlin.csiro.au:sourceregister&amp;id=urn:marlin.csiro.au:sourceregister:concept:146">Mooring: LUCIE: alongshore Moorings (1986-7)</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.dataSource.urn:marlin.csiro.au:sourceregister&amp;id=urn:marlin.csiro.au:sourceregister:concept:149">Mooring: Makassar Strait Moorings (1993)</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.dataSource.urn:marlin.csiro.au:sourceregister&amp;id=urn:marlin.csiro.au:sourceregister:concept:150">Mooring: Maluku Strait Mooring (1993)</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.dataSource.urn:marlin.csiro.au:sourceregister&amp;id=urn:marlin.csiro.au:sourceregister:concept:151">Mooring: Mertz Polynya Moorings (1998)</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.dataSource.urn:marlin.csiro.au:sourceregister&amp;id=urn:marlin.csiro.au:sourceregister:concept:152">Mooring: North West Shelf Moorings (1995)</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.dataSource.urn:marlin.csiro.au:sourceregister&amp;id=urn:marlin.csiro.au:sourceregister:concept:158">Mooring: PCM3 (Tasman Sea) Moorings (1991-2)</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.dataSource.urn:marlin.csiro.au:sourceregister&amp;id=urn:marlin.csiro.au:sourceregister:concept:154">Mooring: S. Ocean (AUSSAF) Moorings (1991-93)</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.dataSource.urn:marlin.csiro.au:sourceregister&amp;id=urn:marlin.csiro.au:sourceregister:concept:155">Mooring: S. Ocean (SAFDE) Moorings (1995)</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.dataSource.urn:marlin.csiro.au:sourceregister&amp;id=urn:marlin.csiro.au:sourceregister:concept:165">Mooring: SAZ Southern Ocean Moorings (1997-8)</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.dataSource.urn:marlin.csiro.au:sourceregister&amp;id=urn:marlin.csiro.au:sourceregister:concept:156">Mooring: SEF-Gabo Reef Moorings (1996)</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.dataSource.urn:marlin.csiro.au:sourceregister&amp;id=urn:marlin.csiro.au:sourceregister:concept:153">Mooring: South Austr. Upwelling Moorings (1989)</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.dataSource.urn:marlin.csiro.au:sourceregister&amp;id=urn:marlin.csiro.au:sourceregister:concept:162">Mooring: TOGA Equatorial Pacific Mooring (1990)</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.dataSource.urn:marlin.csiro.au:sourceregister&amp;id=urn:marlin.csiro.au:sourceregister:concept:163">Mooring: TROPICS 97 - Sepik River Moorings (1997)</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.dataSource.urn:marlin.csiro.au:sourceregister&amp;id=urn:marlin.csiro.au:sourceregister:concept:141">Mooring: Tasman Sea (L.H. Rise) Moorings (1989)</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.dataSource.urn:marlin.csiro.au:sourceregister&amp;id=urn:marlin.csiro.au:sourceregister:concept:160">Mooring: Tasmania: East Coast Moorings (1988)</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.dataSource.urn:marlin.csiro.au:sourceregister&amp;id=urn:marlin.csiro.au:sourceregister:concept:161">Mooring: Tasmania: West Coast Moorings (1988)</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.dataSource.urn:marlin.csiro.au:sourceregister&amp;id=urn:marlin.csiro.au:sourceregister:concept:159">Mooring: Timor Sea Moorings (1988)</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/eng/xml.keyword.get?thesaurus=register.dataSource.urn:marlin.csiro.au:sourceregister&amp;id=urn:marlin.csiro.au:sourceregister:concept:164">Mooring: West Australian Basin Moorings (1995)</gmx:Anchor>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="dataSource">dataSource</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>AUTestingRecords2 Source List</gco:CharacterString>
+              </gmd:title>
+              <gmd:alternateTitle>
+                <gco:CharacterString>MarLIN Source Register</gco:CharacterString>
+              </gmd:alternateTitle>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2014-05-21</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gmx:Anchor xlink:href="http://www.marlin.csiro.au/geonetwork/srv/en/?uuid=urn:marlin.csiro.au:sourceregister">geonetwork.thesaurus.register.dataSource.urn:marlin.csiro.au:sourceregister</gmx:Anchor>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>Data is available under CSIRO Oceans and Atmosphere CCBY Licence</gco:CharacterString>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:language>
+        <gco:CharacterString>eng</gco:CharacterString>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>oceans</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>74.51</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>167.26669</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>-65.8827</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>1.675</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <mcp:EX_TemporalExtent gco:isoType="gmd:EX_TemporalExtent">
+              <gmd:extent>
+                <gml:TimePeriod gml:id="tp1">
+                  <gml:beginPosition>1983-09-08</gml:beginPosition>
+                  <gml:endPosition />
+                </gml:TimePeriod>
+              </gmd:extent>
+            </mcp:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+      <gmd:supplementalInformation>
+        <gco:CharacterString>ATTRIBUTE STATEMENT:
+Field Name - (units) - Description 
+SURVEY_NAME - name given to groupings of moored instrument deployments (eg in some cases the name of the experiment) 
+STATION_NO - allows differentiation between the filtered data records (station 1) and where available the raw data records (station 2) 
+START_TIME - time the meter entered the water 
+END_TIME - time the meter exited the water 
+NOMINAL_METER_DEPTH - (metres) - how far under water the meter was supposed to be 
+METER_TYPE - allows differentiation between different moored instrument datasets 
+START_LAT - (degrees) - start latitude 
+START_LON - (degrees) - start longitude 
+FILTER_ID - name of the filter used to produce this data from the raw format 
+PROJECT_NAME - name assigned to project 
+MARLIN_ID - ID of the MarLIN record which describes this dataset 
+MODEL_NO - model number of moored instrument 
+SERIAL_NO - equipment/instrument serial number e.g. meter number 
+MOORING_NAME - name of grouping of moorings as used in the MarLIN record which describes the moored instrument dataset (field can be null) 
+TIME_SECONDS - (seconds) - in seconds since 1 January on the year of start_time 
+TIME - (DATE) -  nominal time to which this record relates (UTC) 
+TIME_QC_FLAG - quality flag associated with this item for historical records simply indicates whether data has been filtered 
+NORTH_COMPONENT - (cm/sec) - velocity component of the current perpendicular to the equator 
+EAST_COMPONENT - (cm/sec) - velocity component of the current parallel to the equator 
+EAST_COMPONENT_QC_FLAG - quality flag associated with this item for historical records simply indicates whether data has been filtered 
+SALINITY_VALUE - (practical salinity units) - derived quantity based on temperature depth and conductivity 
+SALINITY_QC_FLAG - quality flag associated with this item for historical records simply indicates whether data has been filtered 
+TEMPERATURE_VALUE - (Degrees C) - calibrated temperature gauge reading 
+TEMPERATURE_QC_FLAG - quality flag associated with this item for historical records simply indicates whether data has been filtered 
+PRESSURE - (decibars) - calibrated pressure meter reading 
+PRESSURE_QC_FLAG - quality flag associated with this item for historical records simply indicates whether data has been filtered</gco:CharacterString>
+      </gmd:supplementalInformation>
+    </mcp:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>DIGITAL - Database Files - Oracle</gco:CharacterString>
+          </gmd:name>
+          <gmd:version gco:nilReason="missing" />
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://portal.aodn.org.au/aodn/</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Data Link</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>AODN Portal (Mooring locations)</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://www.cmar.csiro.au/data/trawler/</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Data Link</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Data available from data TRAWLER</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://www.marine.csiro.au/warehouse/javadoc/Download.pdf</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Documentation Link</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Data Trawler Download Format</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://www.marlin.csiro.au/geonetwork/srv/en/search?uuid=dfbb5340-9119-4559-8712-a53630acfbb0</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--metadata-URL</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Point of truth URL of this metadata record</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Point of truth URL of this metadata record</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+	    <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://test.ands.org.au/mock/get/AUTestingRecords_WCS_Response_6_v1.1.1</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WCS-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>WCS Link</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Data Trawler WCS Service</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+	  	    <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://test.ands.org.au/mock/get/AUTestingRecords_WMS_Response_9_v1.3.0</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>WMS Link</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Data Trawler WMS Service</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+	  	  	    <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://test.ands.org.au/mock/get/AUTestingRecords_HTML_Response_13</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Bogus WFS Link returns HTML</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Data Trawler Bogus WFS Service</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+          </gmd:level>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:report>
+        <gmd:DQ_CompletenessOmission>
+          <gmd:result>
+            <gmd:DQ_ConformanceResult>
+              <gmd:specification>
+                <gmd:CI_Citation>
+                  <gmd:title gco:nilReason="inapplicable" />
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date gco:nilReason="inapplicable" />
+                      <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                      </gmd:dateType>
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:specification>
+              <gmd:explanation>
+                <gco:CharacterString>These datasets may not necessarily be complete owing to inherent problems with collecting moored data. Check the individual metadata records and related publications or consult custodian for more details.</gco:CharacterString>
+              </gmd:explanation>
+              <gmd:pass gco:nilReason="inapplicable" />
+            </gmd:DQ_ConformanceResult>
+          </gmd:result>
+        </gmd:DQ_CompletenessOmission>
+      </gmd:report>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:statement>
+            <gco:CharacterString>Data were processed according to then-current Divisional procedures.</gco:CharacterString>
+          </gmd:statement>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+  <mcp:revisionDate>
+    <gco:DateTime>2012-06-05T14:20:10</gco:DateTime>
+  </mcp:revisionDate>
+</mcp:MD_Metadata>
+    </csw:SearchResults>
+</csw:GetRecordsResponse>

@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xmlns:extRif="http://ands.org.au/standards/rif-cs/extendedRegistryObjects" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+
+
+    <registryObject group="Australian Institute of Health and Welfare">
+        <key>refreshaihw.gov.au/8700c71e-c528-49e9-82a9-921d12f09614</key>
+        <originatingSource>http://aihw.gov.au/ANDS/AIWH_RIF-CS_extract.xml</originatingSource>
+        <collection type="collection" dateAccessioned="2012-05-22T10:12:40.1673103+10:00">
+            <identifier type="local">WEB.DATAHOUND.HOLDING.DHID=6682</identifier>
+            <name type="primary">
+                <namePart>MORTALITY DATA</namePart>
+            </name>
+            <location>
+                <address>
+          <electronic type="url">
+            <value>http://www.aihw.gov.au/datacat/index.cfm/action/showall/id/6682</value>
+          </electronic>
+        </address>
+            </location>
+            <coverage>
+                <spatial type="text">National</spatial>
+                <spatial type="kmlPolyCoords">159.105459,-9.221084 112.921454,-9.221084 112.921454,-54.777218 159.105459,-54.777218 159.105459,-9.221084</spatial>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">1964-01-01</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2007-12-31</date>
+                </temporal>
+            </coverage>
+            <relatedObject>
+                <key>refreshaihw.gov.au/4bebcfff-7172-47b0-962a-45077052ee5b</key>
+                <relation type="isOwnedBy"/>
+            </relatedObject>
+            <relatedObject>
+                <key>refreshaihw.gov.au/4232a7a2-f2ed-4227-975a-9b4b8ccdd5c7</key>
+                <relation type="isDescribedBy"/>
+            </relatedObject>
+            <subject type="local">COD</subject>
+            <subject type="local">DEATH</subject>
+            <subject type="local">MORTALITY</subject>
+            <description type="rights">Publications&amp;lt;br&amp;gt;Online Statistics&amp;lt;br&amp;gt;Client specified tables on request which may be subject to data provider approval (charges apply)</description>
+            <description type="brief">The mortality database consists of two data holdings, the mortality-underlying cause of death and the mortality-multiple causes of death. The first contains data for the period 1964 to present and only contains the underlying cause of death, the second contains data for the period 1997 to present and contains all causes that contributed to a death.          Please consult their seperate data documentation for more detailed information.</description>
+            <description type="note">Collection Methodology: Official Data</description>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/datacat/documents/data dictionary_latest1.doc</identifier>
+                <title>Mortality database documentation</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/datacat/documents/ACFOVA1gb4Pa.doc</identifier>
+                <title>Mortality-historical documentation</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/datacat/documents/Multiple cod doco.doc</identifier>
+                <title>Contributing causes of death documentation</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/datacat/documents/All causes combined 05.xls</identifier>
+                <title>All Causes Combined workbook</title>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+
+    <registryObject group="Australian Institute of Health and Welfare">
+        <key>refreshaihw.gov.au/7d1ae7ae-01e9-4145-9584-838ef16b88de</key>
+        <originatingSource>http://aihw.gov.au/ANDS/AIWH_RIF-CS_extract.xml</originatingSource>
+        <collection type="collection" dateAccessioned="2012-05-22T10:12:40.2073509+10:00">
+            <identifier type="local">WEB.DATAHOUND.HOLDING.DHID=8933</identifier>
+            <name type="primary">
+                <namePart>NATIONAL SURVEY OF MENTAL HEALTH SERVICES</namePart>
+            </name>
+            <location>
+                <address>
+          <electronic type="url">
+            <value>http://www.aihw.gov.au/datacat/index.cfm/action/showall/id/8933</value>
+          </electronic>
+        </address>
+            </location>
+            <coverage>
+                <spatial type="text">National</spatial>
+                <spatial type="kmlPolyCoords">159.105459,-9.221084 112.921454,-9.221084 112.921454,-54.777218 159.105459,-54.777218 159.105459,-9.221084</spatial>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">1995-07-01</date>
+                    <date type="dateTo" dateFormat="W3CDTF">1997-06-30</date>
+                </temporal>
+            </coverage>
+            <relatedObject>
+                <key>refreshaihw.gov.au/4bebcfff-7172-47b0-962a-45077052ee5b</key>
+                <relation type="isOwnedBy"/>
+            </relatedObject>
+            <relatedObject>
+                <key>refreshaihw.gov.au/4232a7a2-f2ed-4227-975a-9b4b8ccdd5c7</key>
+                <relation type="isDescribedBy"/>
+            </relatedObject>
+            <subject type="local">ESTABLISHMENTS</subject>
+            <subject type="local">MENTAL HEALTH</subject>
+            <description type="rights">Unit records may not be available and there may be restrictions or limitations governing the availability or use of other data in this holding. For more information about availability please call the phone number below</description>
+            <description type="brief">DHA funded survey of all specialised public mental health services compiled by AIHW from 1995-96 to 1996-97</description>
+            <description type="note">Collection Methodology: Survey</description>
+        </collection>
+    </registryObject>
+
+
+    <registryObject group="Australian Institute of Health and Welfare">
+        <key>refreshaihw.gov.au/7bf6bb4e-1175-438e-b8d7-41f772a17f9e</key>
+        <originatingSource>http://aihw.gov.au/ANDS/AIWH_RIF-CS_extract.xml</originatingSource>
+        <collection type="collection" dateAccessioned="2012-05-22T10:12:40.1995381+10:00">
+            <identifier type="local">WEB.DATAHOUND.HOLDING.DHID=7320</identifier>
+            <name type="primary">
+                <namePart>NATIONAL PUBLIC HOSPITAL ESTABLISHMENTS DATABASE</namePart>
+            </name>
+            <location>
+                <address>
+          <electronic type="url">
+            <value>http://www.aihw.gov.au/datacat/index.cfm/action/showall/id/7320</value>
+          </electronic>
+        </address>
+            </location>
+            <coverage>
+                <spatial type="text">National</spatial>
+                <spatial type="kmlPolyCoords">159.105459,-9.221084 112.921454,-9.221084 112.921454,-54.777218 159.105459,-54.777218 159.105459,-9.221084</spatial>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">1993-07-01</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2005-06-30</date>
+                </temporal>
+            </coverage>
+            <relatedObject>
+                <key>refreshaihw.gov.au/4bebcfff-7172-47b0-962a-45077052ee5b</key>
+                <relation type="isOwnedBy"/>
+            </relatedObject>
+            <relatedObject>
+                <key>refreshaihw.gov.au/4232a7a2-f2ed-4227-975a-9b4b8ccdd5c7</key>
+                <relation type="isDescribedBy"/>
+            </relatedObject>
+            <subject type="local">ESTABLISHMENTS</subject>
+            <subject type="local">EXPENDITURE</subject>
+            <subject type="local">HOSPITAL</subject>
+            <subject type="local">HOSPITAL STATISTICS</subject>
+            <subject type="local">STATE AND TERRITORY</subject>
+            <description type="rights">Publications&amp;lt;br&amp;gt;Summary tables published in electronic form.&amp;lt;br&amp;gt;Client specified tables on request which may be subject to data provider approval (charges apply)&amp;lt;br&amp;gt;Restricted unit record access subject to Ethics Committee approval and/or the agreement of all relevant data custodians in all states and territories (charges may apply).</description>
+            <description type="brief">Collection of resources, expenditure and services data for all public and repatriation hospitals in Australia.</description>
+            <description type="note">Collection Methodology: Official Data</description>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/hospitals/nphe_database.cfm</identifier>
+                <title>The National Public Hospital Establishments Database (NPHED)</title>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+
+    <registryObject group="Australian Institute of Health and Welfare">
+        <key>refreshaihw.gov.au/282ae747-4ed6-4d77-8a0f-809b87e1c7ce</key>
+        <originatingSource>http://aihw.gov.au/ANDS/AIWH_RIF-CS_extract.xml</originatingSource>
+        <collection type="collection" dateAccessioned="2012-05-22T10:12:40.1604741+10:00">
+            <identifier type="local">WEB.DATAHOUND.HOLDING.DHID=6360</identifier>
+            <name type="primary">
+                <namePart>LABOUR FORCE STATISTICS</namePart>
+            </name>
+            <location>
+                <address>
+          <electronic type="url">
+            <value>http://www.aihw.gov.au/datacat/index.cfm/action/showall/id/6360</value>
+          </electronic>
+        </address>
+            </location>
+            <coverage>
+                <spatial type="text">National</spatial>
+                <spatial type="kmlPolyCoords">159.105459,-9.221084 112.921454,-9.221084 112.921454,-54.777218 159.105459,-54.777218 159.105459,-9.221084</spatial>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">1989-01-01</date>
+                </temporal>
+            </coverage>
+            <relatedObject>
+                <key>refreshaihw.gov.au/4bebcfff-7172-47b0-962a-45077052ee5b</key>
+                <relation type="isOwnedBy"/>
+            </relatedObject>
+            <relatedObject>
+                <key>refreshaihw.gov.au/4232a7a2-f2ed-4227-975a-9b4b8ccdd5c7</key>
+                <relation type="isDescribedBy"/>
+            </relatedObject>
+            <subject type="local">EMPLOYMENT</subject>
+            <subject type="local">LABOUR</subject>
+            <subject type="local">LABOURFORCE</subject>
+            <subject type="local">STAFFING</subject>
+            <subject type="local">STATISTICS</subject>
+            <description type="rights">Unit records may not be available and there may be restrictions or limitations governing the availability or use of other data in this holding. For more information about availability please call the phone number below</description>
+            <description type="brief">These data are obtained from the respective professional groups, viz.,   medical, nursing, podiatry, pharmacy, occupational therapy, podiatry, physiotherapy, optometry and psychology.There are also data on higher education and migration of health professionals.</description>
+            <description type="accessRights">requires approval of data custodian</description>
+            <description type="note">Collection Methodology: Survey</description>
+        </collection>
+    </registryObject>
+
+
+    <registryObject group="Australian Institute of Health and Welfare">
+        <key>refreshaihw.gov.au/96102f41-0fb1-4a9d-b39f-24c93120f1a5</key>
+        <originatingSource>http://aihw.gov.au/ANDS/AIWH_RIF-CS_extract.xml</originatingSource>
+        <collection type="collection" dateAccessioned="2012-05-22T10:12:40.2190701+10:00">
+            <identifier type="local">WEB.DATAHOUND.HOLDING.DHID=5281</identifier>
+            <name type="primary">
+                <namePart>SUPPORTED ACCOMMODATION ASSISTANCE PROGRAM (SAAP) NATIONAL DATA COLLECTION (OVERVIEW)</namePart>
+            </name>
+            <location>
+                <address>
+          <electronic type="url">
+            <value>http://www.aihw.gov.au/datacat/index.cfm/action/showall/id/5281</value>
+          </electronic>
+        </address>
+            </location>
+            <coverage>
+                <spatial type="text">National</spatial>
+                <spatial type="kmlPolyCoords">159.105459,-9.221084 112.921454,-9.221084 112.921454,-54.777218 159.105459,-54.777218 159.105459,-9.221084</spatial>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">1996-07-01</date>
+                </temporal>
+            </coverage>
+            <relatedObject>
+                <key>refreshaihw.gov.au/4bebcfff-7172-47b0-962a-45077052ee5b</key>
+                <relation type="isOwnedBy"/>
+            </relatedObject>
+            <relatedObject>
+                <key>refreshaihw.gov.au/4232a7a2-f2ed-4227-975a-9b4b8ccdd5c7</key>
+                <relation type="isDescribedBy"/>
+            </relatedObject>
+            <subject type="local">ACCOMMODATION</subject>
+            <subject type="local">CRISIS ACCOMMODATION</subject>
+            <subject type="local">HOUSING ASSISTANCE</subject>
+            <subject type="local">SAAP</subject>
+            <subject type="local">SUPPORTED</subject>
+            <subject type="local">SUPPORTED ACCOMODATION</subject>
+            <description type="rights">Publications&amp;lt;br&amp;gt;Summary tables published in electronic form.&amp;lt;br&amp;gt;Client specified tables on request which may be subject to data provider approval (charges apply)&amp;lt;br&amp;gt;Restricted unit record access subject to Ethics Committee approval and/or the agreement of all relevant data custodians in all states and territories (charges may apply).&amp;lt;br&amp;gt;There are restrictions and limitations governing the availability or use of other data in this holding.</description>
+            <description type="brief">The National Data Collection Agency (NDCA) was established within the Supported Accommodation and Crisis Services Unit (SACS) of the AIHW to administer the Supported Accommodation Assistance Program (SAAP) National Data Collection (NDC). The aim of SAAP is to provide accommodation and support services to help people who are homeless and/or in crisis to achieve the maximum possible degree of self reliance and independence.</description>
+            <description type="full">Following a full scale trial, the SAAP National Data Collection began on 1 July 1996.     The National Data Collection comprises four main collections which record information on clients; casual clients; the demand for accommodation and saap funded organisations.   The client collection is an ongoing census of all clients assisted under the program.   The casual client collection is held for a two week period, once per year.   The demand for accommodation collection is held for 2 separate weeks each year.  The administrative data collection collects information every six months from the State and Territory departments that administer SAAP on agencies being funded under SAAP.    In addition to the above collections the NDCA is also contracted to conduct special one-off collections or alternatively to provide further indepth analysis and reports on specific items of interest.The first special collection recorded information on casual clients, the second reported on accompanying children and the third covered the income status of SAAP clients.     Customised reports from the collection are provided to over 1,200 SAAP funded agencies on a six-monthly basis. The institute publishes a national report, individual state/territory reports, a report on the demand for SAAP assistance by homeless people and at least one report on a theme of the program on an annual basis. Copies of published reports are available through the AIHW distribution centre or on the AIHW website.    More than 180,000 paper and electronic forms are returned each year. The institute has developed a computer package to enable agencies to retain their data and to facilitate data transfer to the NDCA. The package is known as SMART (SAAP Management And Reporting Tool) and is currently used in about half the SAAP agencies.</description>
+            <description type="note">Collection Methodology: Official Data</description>
+        </collection>
+    </registryObject>
+
+
+    <registryObject group="Australian Institute of Health and Welfare">
+        <key>refreshaihw.gov.au/fa7fafe5-b577-4c1e-91e7-6ed24afae70c</key>
+        <originatingSource>http://aihw.gov.au/ANDS/AIWH_RIF-CS_extract.xml</originatingSource>
+        <collection type="catalogueOrIndex" dateAccessioned="2012-05-22T10:12:12.6574649+10:00">
+            <name type="primary">
+                <namePart>AIHW Publications</namePart>
+            </name>
+            <location>
+                <address>
+          <electronic type="url">
+            <value>http://www.aihw.gov.au/publications/</value>
+          </electronic>
+        </address>
+            </location>
+            <relatedObject>
+                <key>refreshaihw.gov.au/4bebcfff-7172-47b0-962a-45077052ee5b</key>
+                <relation type="isOwnedBy"/>
+            </relatedObject>
+            <description type="brief">Catalogue of all AIHW publications</description>
+            <description type="accessRights">All AIHW publications are available as free downloads from AIHW website. Some AIHW publications are also available in hardcopy for purchase. The materials on the website are published under a Creative Commons (CC) BY 3.0 licence. Under the terms of this licence, you are required to attribute the AIHW in a form specified by this policy. However, you may not attribute the AIHW in a way that would create an impression that the AIHW endorses your organisation or your work.</description>
+        </collection>
+    </registryObject>
+
+
+    <registryObject group="Australian Institute of Health and Welfare">
+        <key>refreshaihw.gov.au/3e0163d1-7939-43bd-83e3-bc94b931d175</key>
+        <originatingSource>http://aihw.gov.au/ANDS/AIWH_RIF-CS_extract.xml</originatingSource>
+        <collection type="collection" dateAccessioned="2012-05-22T10:12:12.7766101+10:00">
+            <identifier type="local">WEB.DATAHOUND.HOLDING.DHID=8284</identifier>
+            <name type="primary">
+                <namePart>ALCOHOL AND OTHER DRUG TREATMENT SERVICES (NATIONAL MINIMUM DATA SET)</namePart>
+            </name>
+            <location>
+                <address>
+          <electronic type="url">
+            <value>http://www.aihw.gov.au/datacat/index.cfm/action/showall/id/8284</value>
+          </electronic>
+        </address>
+            </location>
+            <coverage>
+                <spatial type="text">National</spatial>
+                <spatial type="kmlPolyCoords">159.105459,-9.221084 112.921454,-9.221084 112.921454,-54.777218 159.105459,-54.777218 159.105459,-9.221084</spatial>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">2000-07-01</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2010-06-30</date>
+                </temporal>
+            </coverage>
+            <relatedObject>
+                <key>refreshaihw.gov.au/4bebcfff-7172-47b0-962a-45077052ee5b</key>
+                <relation type="isOwnedBy"/>
+            </relatedObject>
+            <relatedObject>
+                <key>refreshaihw.gov.au/4232a7a2-f2ed-4227-975a-9b4b8ccdd5c7</key>
+                <relation type="isDescribedBy"/>
+            </relatedObject>
+            <subject type="local">ALCOHOL</subject>
+            <subject type="local">AODTS</subject>
+            <subject type="local">DRUG</subject>
+            <subject type="local">TOBACCO</subject>
+            <description type="rights">Publications&amp;lt;br&amp;gt;Summary tables published in electronic form.&amp;lt;br&amp;gt;Online interactive Data Cubes.&amp;lt;br&amp;gt;Client specified tables on request which may be subject to data provider approval (charges apply)&amp;lt;br&amp;gt;Restricted unit record access subject to Ethics Committee approval and/or the agreement of all relevant data custodians in all states and territories (charges may apply).</description>
+            <description type="brief">The Alcohol and Other Drug Treatment Services National Minimum Data Set (AODTS NMDS) emanated from the national forum 'treatment and research - where to from here?' held in 1995 by the Alcohol and Other Drugs Council of Australia. In December 1999 the Commonwealth and state and territory governments through the then National Health Information Management Group endorsed a version of the AODTS NMDS for collection to commence on 1 July 2000. The first data were collected for 2000-01; this was considered a pilot year. The data from 2001-02 onwards contain information about alcohol and other drug treatment services; the clients who use these services; the types of drug problems for which treatment is sought and the types of treatment provided.</description>
+            <description type="accessRights">AODTS Working Group approval required for unreleased state/territory data. AIHW Ethics Committee approval required for access to unit record level data.</description>
+            <description type="note">Collection Methodology: Official Data</description>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/drugs/index.cfm</identifier>
+                <title>Alcohol and other Drugs Web Portal</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publication-detail/?id=10737419494</identifier>
+                <title>Collection and access guidelines 2011-12</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publication-detail/?id=6442475563</identifier>
+                <title>Alcohol and other drug treatment services in Western Australia 2008-09: findings from the National Minimum Data Set (NMDS)</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publication-detail/?id=6442475583</identifier>
+                <title>Alcohol and other drug treatment services in Victoria 2008-09: findings from the National Minimum Data Set (NMDS)</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publication-detail/?id=6442475588</identifier>
+                <title>Alcohol and other drug treatment services in the Northern Territory 2008-09: findings from the National Minimum Data Set (NMDS)</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publication-detail/?id=6442475593</identifier>
+                <title>Alcohol and other drug treatment services in the Australian Capital Territory 2008-09: findings from the National Minimum Data Set (NMDS)</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publication-detail/?id=6442475597</identifier>
+                <title>Alcohol and other drug treatment services in Tasmania 2008-09: findings from the National Minimum Data Set (NMDS)</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publication-detail/?id=6442475602</identifier>
+                <title>Alcohol and other drug treatment services in South Australia 2008-09: findings from the National Minimum Data Set (NMDS)</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publication-detail/?id=6442475606</identifier>
+                <title>Alcohol and other drug treatment services in Queensland 2008-09: findings from the National Minimum Data Set (NMDS)</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publication-detail/?id=6442475607</identifier>
+                <title>Alcohol and other drug treatment services in New South Wales 2008-09: findings from the National Minimum Data Set (NMDS)</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publication-detail/?id=6442472422</identifier>
+                <title>Alcohol and other drug treatment services in Australia 2008-09: report on the National Minimum Data Set</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publication-detail/?id=10737419119</identifier>
+                <title>Report profile: Alcohol and other drug treatment services in Australia 2008-09: report on the National Minimum Data Set</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/interactive-alcohol-and-other-drug-treatment-services-data-cubes/</identifier>
+                <title>Interactive alcohol and other drugs (AODT-NMDS) data cubes</title>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+
+    <registryObject group="Australian Institute of Health and Welfare">
+        <key>refreshaihw.gov.au/f7b4b297-07c4-45bd-8b79-96a6e8c95429</key>
+        <originatingSource>http://aihw.gov.au/ANDS/AIWH_RIF-CS_extract.xml</originatingSource>
+        <collection type="collection" dateAccessioned="2012-05-22T10:12:40.1858657+10:00">
+            <identifier type="local">WEB.DATAHOUND.HOLDING.DHID=8571</identifier>
+            <name type="primary">
+                <namePart>NATIONAL DRUG STRATEGY HOUSEHOLD SURVEYS</namePart>
+            </name>
+            <location>
+                <address>
+          <electronic type="url">
+            <value>http://www.aihw.gov.au/datacat/index.cfm/action/showall/id/8571</value>
+          </electronic>
+        </address>
+            </location>
+            <coverage>
+                <spatial type="text">National and State</spatial>
+                <spatial type="kmlPolyCoords">159.105459,-9.221084 112.921454,-9.221084 112.921454,-54.777218 159.105459,-54.777218 159.105459,-9.221084</spatial>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">1998-06-30</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2010-06-30</date>
+                </temporal>
+            </coverage>
+            <relatedObject>
+                <key>refreshaihw.gov.au/4bebcfff-7172-47b0-962a-45077052ee5b</key>
+                <relation type="isOwnedBy"/>
+            </relatedObject>
+            <relatedObject>
+                <key>refreshaihw.gov.au/4232a7a2-f2ed-4227-975a-9b4b8ccdd5c7</key>
+                <relation type="isDescribedBy"/>
+            </relatedObject>
+            <subject type="local">ALCOHOL</subject>
+            <subject type="local">DRUG</subject>
+            <subject type="local">ILLICIT DRUGS</subject>
+            <subject type="local">KNOWLEDGE AND BELIEFS</subject>
+            <subject type="local">PERCEPTIONS</subject>
+            <subject type="local">POLICY SUPPORT</subject>
+            <subject type="local">TOBACCO</subject>
+            <description type="rights">Publications&amp;lt;br&amp;gt;Summary tables published in electronic form.&amp;lt;br&amp;gt;Client specified tables on request which may be subject to data provider approval (charges apply)&amp;lt;br&amp;gt;Restricted unit record access subject to Ethics Committee approval and/or the agreement of all relevant data custodians in all states and territories (charges may apply).</description>
+            <description type="brief">A series of surveys auspiced by the National Drug Strategy (and its predecessors and successors). The 1998, 2001, 2004, 2007 and 2010 surveys were conducted by the AIHW. It is a national household survey of non-institutionalised persons aged 14 years and over (12 years and over from 2004).</description>
+            <description type="full">A confidentialised unit record file for public access is available at the Australian Social Science Data Archives at the ANU:  &amp;lt;a href="http://ssda.anu.edu.au" target = "new"&amp;gt; http://ssda.anu.edu.au &amp;lt;/a&amp;gt;. (available September 2011 for the not yet available for the 2010 NDSHS)  Public access to the master unit record data requires application to the AIHW Ethics Committee.</description>
+            <description type="accessRights">Sample is designed to be representative at national and state/territory level.</description>
+            <description type="note">Collection Methodology: Survey</description>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/6243</identifier>
+                <title>1998 National Drug Strategy Household Survey: Detailed Findings</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/5182</identifier>
+                <title>1998 National Drug Strategy Household Survey: First Results</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/5621</identifier>
+                <title>1998 National Drug Strategy Household Survey: Queensland Results</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/6247</identifier>
+                <title>1998 National Drug Strategy Household Survey: State and Territory Results</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/5660</identifier>
+                <title>1998 National Drug Strategy Household Survey: Western Australia Results</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/8227</identifier>
+                <title>2001 National Drug Strategy Household Survey: Detailed Findings</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/7553</identifier>
+                <title>2001 National Drug Strategy Household Survey: First Results</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/7821</identifier>
+                <title>2001 National Drug Strategy Household Survey: State and Territory Supplement</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/5460</identifier>
+                <title>Statistics on Drug Use in Australia 1998</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/6785</identifier>
+                <title>Statistics on Drug Use in Australia 2000</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/8390</identifier>
+                <title>Statistics on Drug Use in Australia 2002</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://assda.anu.edu.au/codebooks/d1016/d1016cbk.pdf</identifier>
+                <title>Data users' guide</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/10579</identifier>
+                <title>2007 National Drug Strategy Household Survey: first results</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/10674</identifier>
+                <title>2007 National Drug Strategy Household Survey: detailed findings</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/10670</identifier>
+                <title>2007 National Drug Strategy Household Survey: state and territory results</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/10143</identifier>
+                <title>Statistics on drug use in Australia 2004</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/10393</identifier>
+                <title>Statistics on drug use in Australia 2006</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/10122</identifier>
+                <title>2004 National Drug Strategy Household Survey: first results</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/10133</identifier>
+                <title>2004 National Drug Strategy Household Survey: state and territory results</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/publications/index.cfm/title/10190</identifier>
+                <title>2004 National Drug Strategy Household Survey: detailed findings</title>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+
+    <registryObject group="Australian Institute of Health and Welfare">
+        <key>refreshaihw.gov.au/9fc3495c-c598-49fb-9b8b-eb5e0452b4e8</key>
+        <originatingSource>http://aihw.gov.au/ANDS/AIWH_RIF-CS_extract.xml</originatingSource>
+        <collection type="collection" dateAccessioned="2012-05-22T10:12:40.1438719+10:00">
+            <identifier type="local">WEB.DATAHOUND.HOLDING.DHID=6425</identifier>
+            <name type="primary">
+                <namePart>COMMONWEALTH STATE/TERRITORY DISABILITY AGREEMENT (CSTDA) MINIMUM DATA SET</namePart>
+            </name>
+            <location>
+                <address>
+          <electronic type="url">
+            <value>http://www.aihw.gov.au/datacat/index.cfm/action/showall/id/6425</value>
+          </electronic>
+        </address>
+            </location>
+            <coverage>
+                <spatial type="text">National</spatial>
+                <spatial type="kmlPolyCoords">159.105459,-9.221084 112.921454,-9.221084 112.921454,-54.777218 159.105459,-54.777218 159.105459,-9.221084</spatial>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">1994-08-15</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2009-06-30</date>
+                </temporal>
+            </coverage>
+            <relatedObject>
+                <key>refreshaihw.gov.au/4bebcfff-7172-47b0-962a-45077052ee5b</key>
+                <relation type="isOwnedBy"/>
+            </relatedObject>
+            <relatedObject>
+                <key>refreshaihw.gov.au/4232a7a2-f2ed-4227-975a-9b4b8ccdd5c7</key>
+                <relation type="isDescribedBy"/>
+            </relatedObject>
+            <subject type="local">AGREEMENT</subject>
+            <subject type="local">COMMONWEALTH</subject>
+            <subject type="local">CSDA</subject>
+            <subject type="local">DISABILITY</subject>
+            <subject type="local">SERVICES</subject>
+            <subject type="local">STATE</subject>
+            <subject type="local">WELFARE</subject>
+            <description type="rights">Unit records may not be available and there may be restrictions or limitations governing the availability or use of other data in this holding. For more information about availability please call the phone number below</description>
+            <description type="brief">The CSTDA national minimum data set was developed in 1993 and 1994 jointly by all states and territories, the AIHW.The first data collection was undertaken in 1995. The data contains information about services directly provided or funded by government, under the umbrella of the CSTDA. The collection has been redeveloped and, after having been a 'snaphsot' collection, produces full year data from 2002-03.</description>
+            <description type="accessRights">See annual reports and data guides on links provided.</description>
+            <description type="note">Collection Methodology: Official Data</description>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/disability/csda_public/index.cfm</identifier>
+                <title>Functioning and disability portal, CSDA collection details</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.aihw.gov.au/disability/publications.cfm</identifier>
+                <title>Publications</title>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+
+    <registryObject group="Australian Institute of Health and Welfare">
+        <key>refreshaihw.gov.au/f8182791-f59c-4222-b0a3-274b93146bd2</key>
+        <originatingSource>http://aihw.gov.au/ANDS/AIWH_RIF-CS_extract.xml</originatingSource>
+        <collection type="collection" dateAccessioned="2012-05-22T10:12:40.1731699+10:00">
+            <identifier type="local">WEB.DATAHOUND.HOLDING.DHID=6520</identifier>
+            <name type="primary">
+                <namePart>NATIONAL DEATH INDEX</namePart>
+            </name>
+            <location>
+                <address>
+          <electronic type="url">
+            <value>http://www.aihw.gov.au/datacat/index.cfm/action/showall/id/6520</value>
+          </electronic>
+        </address>
+            </location>
+            <coverage>
+                <spatial type="text">National</spatial>
+                <spatial type="kmlPolyCoords">159.105459,-9.221084 112.921454,-9.221084 112.921454,-54.777218 159.105459,-54.777218 159.105459,-9.221084</spatial>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">1980-01-01</date>
+                </temporal>
+            </coverage>
+            <relatedObject>
+                <key>refreshaihw.gov.au/4bebcfff-7172-47b0-962a-45077052ee5b</key>
+                <relation type="isOwnedBy"/>
+            </relatedObject>
+            <relatedObject>
+                <key>refreshaihw.gov.au/4232a7a2-f2ed-4227-975a-9b4b8ccdd5c7</key>
+                <relation type="isDescribedBy"/>
+            </relatedObject>
+            <subject type="local">FOD</subject>
+            <subject type="local">INDEX</subject>
+            <subject type="local">NATIONAL</subject>
+            <subject type="local">NDI</subject>
+            <description type="rights">Unit records may not be available and there may be restrictions or limitations governing the availability or use of other data in this holding. For more information about availability please call the phone number below</description>
+            <description type="brief">The National Death Index (NDI) is a data base developed and maintained by the Australian Institute of Health and Welfare, in Canberra. The data base is a listing of all deaths that have occurred in Australia since 1980. It is an invaluable tool for epidemiologists and clinicians in following up research cohorts using record linkage.</description>
+            <description type="full">Linkages of research data files with the NDI are usually done using the following data items: first name, second name, surname, sex, date of birth. Last contact date, if available in the research file, is used to assist in resolving uncertain cases, as may be additional information such as country of birth and state and SLA of usual residence.</description>
+            <description type="accessRights">All proposals for linkage with the NDI must be approved by the AIHW Ethics Committee.</description>
+            <description type="note">Collection Methodology: Official Data</description>
+        </collection>
+    </registryObject>
+</registryObjects>

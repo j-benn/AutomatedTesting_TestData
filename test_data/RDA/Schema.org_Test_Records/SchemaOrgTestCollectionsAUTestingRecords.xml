@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects"
+    xmlns:extRif="http://ands.org.au/standards/rif-cs/extendedRegistryObjects"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+    <registryObject group="AUTestingRecords">
+        <key>AUTSchemaOrgCollection1</key>
+        <originatingSource type="">http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2005-05-05T23:51:55Z"
+            dateAccessioned="2015-04-10T23:51:55Z">
+            <name type="abbreviated">
+                <namePart>abbreviatedName</namePart>
+            </name>
+            <name type="alternative">
+                <namePart>alternativeName</namePart>
+            </name>
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection to test Schema.Org Mapping. Collection with the lot.</namePart>
+            </name>
+            <description type="significanceStatement">&lt;p&gt;significanceStatement significanceStatement&lt;/p&gt;</description>
+            <description type="researchSupport">&lt;p&gt;researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport&lt;/p&gt;</description>
+            <description type="researchDataProflie">&lt;p&gt;researchDataProflieresea rchDataProflie researchDataP roflieresearchDataProflie researchDataProflie researchDataProflie researchDataProflie researchDataProflie&lt;/p&gt;</description>
+            <description type="researchAreas">&lt;p&gt;researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas&lt;/p&gt;</description>
+            <description type="note">&lt;p&gt;note note note note note note note note note note note note note note note note note note note note note note&lt;/p&gt;</description>
+            <description type="logo">&lt;p&gt;https://dl.dropbox.com/u/49073372/LOGO.jpg&lt;/p&gt;</description>
+            <description type="full">&lt;p&gt;full full full full full full full full full full full full full full full full full full&lt;/p&gt;</description>
+            <description type="deliverymethod">&lt;p&gt;deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod&lt;/p&gt;</description>
+            <description type="brief">&lt;p&gt;brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief&lt;/p&gt;</description>
+            <description type="lineage">&lt;p&gt;This is the lineage statement for the collection&lt;/p&gt;</description>
+            <description type="local">&lt;p&gt;This is a local statement for the colleciton&lt;/p&gt;</description>
+            <rights>
+                <rightsStatement rightsUri="http://www.rightsuri.com">Rights Statement Rights Statement</rightsStatement>
+                <licence type="AusGOALRestrictive" rightsUri="http://www.rightsuri.com">LicenceLicenceLicence</licence>
+                <accessRights rightsUri="http://www.rightsuri.com">Access Rights</accessRights>
+            </rights>
+            <rights>
+                <accessRights type="open">My Access Rights details are listed here and my data is open</accessRights>
+            </rights>
+            <identifier type="AU-ANL:PEAU">http://nla.gov.au/nla.party-1504d955</identifier>
+            <identifier type="AU-ANL:PEAU">nla.party-1504945655</identifier>
+            <identifier type="abn">abn12334545</identifier>
+            <identifier type="arc">arc.12345345</identifier>
+            <identifier type="ark">ands.org/ark:/432434523</identifier>
+            <identifier type="ark">ark:/43342423</identifier>
+            <identifier type="doi">10.123445</identifier>
+            <identifier type="doi">http://dx.doi.org/10.124345</identifier>
+            <identifier type="handle">hdl:102.10550.100/15</identifier>
+            <identifier type="handle">102.100.1400/15</identifier>
+            <identifier type="handle">http://hdl.handle.net/102.100.1006/15</identifier>
+            <identifier type="infouri">infouri.1236645</identifier>
+            <identifier type="isil">AU-ACT6</identifier>
+            <identifier type="local">local.123645</identifier>
+            <identifier type="purl">http://purl.org/162345</identifier>
+            <identifier type="purl">1236645</identifier>
+            <identifier type="uri">http://www.researchdataaustralia.ands.o6rg.au</identifier>
+            <identifier type="orcid">http://orcid.org/0000-006602-4259-9774</identifier>
+            <identifier type="orcid">0000-066002-4259-9774</identifier>
+            <identifier type="nhmrc">89679762</identifier>
+            <identifier type="fundref">fundref-0936643</identifier>
+            <identifier type="handle">http://handle.westernsydney.edu.au:806681/1959.7/hiev_104</identifier>
+            <identifier type="orcid">http://www.MyOrcidResolver66.com.au</identifier>
+            <identifier type="AU-ANL:PEAU">http://MyNlaResolver6.com.au</identifier>
+            <identifier type="purl">http://www.MyPurlResolrverr.com.au</identifier>
+            <identifier type="doi">http://MyDOIResolver.org/10ret.12345</identifier>
+            <identifier type="handle">https://handle.westernsydney.edu.au:808ret1/1959.7/hiev_104</identifier>
+            <identifier type="orcid">https://www.MyOrcidResolver.comert.au</identifier>
+            <identifier type="AU-ANL:PEAU">https://MyNlaResolverert.com.au</identifier>
+            <identifier type="purl">https://www.MyPurlResolverert.com.au</identifier>
+            <identifier type="doi">https://MyDOIResolver.org/10ret.12345</identifier>
+            <dates type="dc.available">
+                <date type="dateFrom" dateFormat="W3CDTF">2011-02-07T00:00:00Z</date>
+            </dates>
+            <dates type="dc.created">
+                <date type="dateFrom" dateFormat="W3CDTF">2010-10-10T00:00:00Z</date>
+            </dates>
+            <dates type="dc.issued">
+                <date type="dateFrom" dateFormat="W3CDTF">2011-11-11T11:11:00Z</date>
+            </dates>
+            <dates type="dc.dateAccepted">
+                <date type="dateFrom" dateFormat="W3CDTF">9999-11-11T11:11:00Z</date>
+            </dates>
+            <dates type="dc.valid">
+                <date type="dateFrom" dateFormat="W3CDTF">9999-11-11T11:11:00Z</date>
+            </dates>
+            <location dateFrom="2013-02-14T00:00:00Z" dateTo="2013-03-02T00:00:00Z">
+                <address>
+              <electronic type="url" target="landingPage">
+                <value>https://demo.ands.org.au</value>
+                <title>My Landing Page for the data</title>
+              </electronic>
+              <physical type="postalAddress">
+                <addressPart type="addressLine">&lt;p&gt; 123 Example St&lt;/p&gt; &lt;p&gt; Canberra ACT 2131&lt;/p&gt;</addressPart>
+              </physical>
+              <electronic type="url" target="directDownload">
+                <value>https://dl.dropboxusercontent.com/u/49073372/RIF16WithError.xml</value>
+                <title>My Direct Download link</title>
+                <mediaType>XML</mediaType>
+                <byteSize>3KB</byteSize>
+              </electronic>
+            </address>
+                <spatial type="kmlPolyCoords">119.707031,-20.468189 152.753906,-32.101190 119.707031,-20.468189</spatial>
+            </location>
+            <coverage>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">2013-01-30T00:00:00Z</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2017-03-03T00:00:00Z</date>
+                </temporal>
+                <spatial type="kmlPolyCoords">143.085938,-22.917923</spatial>
+                <spatial type="kmlPolyCoords">121.640625,-35.173808 150.644531,-20.961440 117.246094,-14.093957 110.390625,-26.273714 127.441406,-20.961440 128.847656,-27.527758 121.640625,-35.173808</spatial>
+            </coverage>
+            <coverage>
+                <spatial type="text">Some place in Australia</spatial>
+            </coverage>
+            <relatedObject>
+                <key>AUTService1z</key>
+                <relation type="supports">
+                    <url>http://www.serviceAccessUrl.com.au</url>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTParty1zz</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecords3:Funder/Program12/Hub1/ProjectLP0347149/Collection3/Collection3.1z</key>
+                <relation type="hasPart">
+                    <description>relationshipdescription</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecords3:Funder/Program12/Hub1/ProjectLP0347149/Collection3z</key>
+                <relation type="isPartOf"> </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecords2ala.org.au/dr931z</key>
+                <relation type="isDerivedFrom"> </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTParty2z</key>
+                <relation type="isOwnedBy">
+                    <description>relationshipdescription</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTParty3z</key>
+                <relation type="hasPrincipalInvestigator">
+                    <description>relationshipdescription</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTParty4z</key>
+                <relation type="hasPrincipalInvestigator">
+                    <description>relationshipdescription</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTParty5z</key>
+                <relation type="hasCollector">
+                    <description>relationshipdescription</description>
+                </relation>
+            </relatedObject>
+            <subject type="local">localSubject</subject>
+            <subject type="anzsrc-seo">830201</subject>
+            <subject type="anzsrc-for">0303</subject>
+            <relatedInfo type="metadata">
+                <title>Related Info Title</title>
+                <identifier type="doi">10.1234567882484</identifier>
+                <format>
+                    <identifier type="mediaType">formatidentifier</identifier>
+                </format>
+                <notes>related info notes</notes>
+            </relatedInfo>
+            <relatedInfo type="dataQualityInformation">
+                <title>relatedinfo Title</title>
+                <identifier type="infouri">infouri.12345</identifier>
+                <notes>Related Info Notes</notes>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="doi">10.123123123</identifier>
+                <relation type="hasPart"/>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <title>Stuff</title>
+                <identifier type="uri">http://www.smithy.com</identifier>
+                <relation type="hasAssociationWith">
+                    <description>A website relationship</description>
+                </relation>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>AUTParty6</title>
+                <identifier type="orcid">orcid.AUTParty6</identifier>
+                <relation type="hasCollector"/>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>ORCIDParty6_hasCollector</title>
+                <identifier type="orcid">orcid.AUTParty6</identifier>
+                <relation type="hasCollector"/>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>ORICDPartyt_isOwnedBy</title>
+                <identifier type="orcid">orcid.AUTParty6</identifier>
+                <relation type="isOwnedBy"/>
+            </relatedInfo>
+            <relatedInfo type="service">
+                <title>Example RelatedInfo Service</title>
+                <identifier type="uri">http://exampleofRelatedInfoService.com</identifier>
+                <notes>To use this service following the steps outlined at the URL</notes>
+                <relation type="isPresentedBy">
+                    <url>http://www.RelatedInfoServiceAccessUrl.com.au</url>
+                </relation>
+            </relatedInfo>
+            <relatedInfo type="reuseInformation">
+                <title>Example Reuse Information</title>
+                <identifier type="uri">http://exampleofreuse.com</identifier>
+                <notes>To reuse this data following the steps outlined at the URL</notes>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Another Publication Example</title>
+                <identifier type="issn">789879.3.34.ISSN</identifier>
+            </relatedInfo>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.123123123</identifier>
+                    <title>Citation Title</title>
+                    <version>V0.2</version>
+                    <placePublished>Australia</placePublished>
+                    <publisher>Some Example Citation Publisher</publisher>
+                    <url>http://www.exapmle.com</url>
+                    <context>Context</context>
+                    <contributor seq="1">
+                        <namePart type="given">Joe Blogs</namePart>
+                    </contributor>
+                    <contributor seq="2">
+                        <namePart type="given">Sarah</namePart>
+                        <namePart type="family">Parker</namePart>
+                    </contributor>
+                    <date type="created">2010-10-10</date>
+                    <date type="issued">2011-11-11</date>
+                    <date type="publicationDate">2001-12-12</date>
+                    <date type="modified">9999-11-11</date>
+                    <date type="date">9999-12-12</date>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTParty1zz</key>
+        <originatingSource>http://103.6.252.71/registry//orca/register_my_data</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart>Related Party 1</namePart>
+            </name>
+            <relatedObject>
+                <key>AUTSchemaOrgCollection4</key>
+                <relation type="isOwnerOf">
+                    <url>http://www.RelatedObjectServiceAccessUrl.com.au</url>
+                </relation>
+            </relatedObject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTParty2z</key>
+        <originatingSource>http://103.6.252.71/registry//orca/register_my_data</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart>Related Party 2</namePart>
+            </name>
+            <relatedObject>
+                <key>AUTSchemaOrgCollection4</key>
+                <relation type="isPrincipalInvestigatorOf">
+                    <url>http://www.RelatedObjectServiceAccessUrl.com.au</url>
+                </relation>
+            </relatedObject>
+        </party>
+    </registryObject>
+
+
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTParty3z</key>
+        <originatingSource>http://103.6.252.71/registry//orca/register_my_data</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart>Related Party 3</namePart>
+            </name>
+            <relatedInfo type="collection">
+                <title>Collection 4</title>
+                <identifier type="purl">http://www.MyPurlResolrverr23.com.au</identifier>
+                <relation type="author"/>
+            </relatedInfo>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTParty4z</key>
+        <originatingSource>http://103.6.252.71/registry//orca/register_my_data</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="given">Craig</namePart>
+                <namePart type="family">David</namePart>
+            </name>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTParty5z</key>
+        <originatingSource>http://103.6.252.71/registry//orca/register_my_data</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="given">Jenny</namePart>
+                <namePart type="family">Seter</namePart>
+                <namePart type="title">Mrs</namePart>
+            </name>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTParty6</key>
+        <originatingSource>http://103.6.252.71/registry//orca/register_my_data</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="given">Example</namePart>
+                <namePart type="family">Party6</namePart>
+                <namePart type="title">Mrs</namePart>
+            </name>
+            <identifier type="orcid">orcid.AUTParty6</identifier>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTService1z</key>
+        <originatingSource>http://103.6.252.71/registry//orca/register_my_data</originatingSource>
+        <service type="create">
+            <name type="primary">
+                <namePart>Example Service 1</namePart>
+            </name>
+        </service>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTService2z</key>
+        <originatingSource>http://103.6.252.71/registry//orca/register_my_data</originatingSource>
+        <service type="create">
+            <name type="primary">
+                <namePart>Example Service 2</namePart>
+            </name>
+            <relatedObject>
+                <key>AUTSchemaOrgCollection1</key>
+                <relation type="presents">
+                    <url>http://www.RelatedObjectServiceAccessUrl.com.au</url>
+                </relation>
+            </relatedObject>
+        </service>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTestingRecords3:Funderz</key>
+        <originatingSource type="">http://api.crossref.org/funders?filter=location:Australia</originatingSource>
+        <party type="group">
+            <name type="primary">
+                <namePart>(AUTestingRecords3) AUTestingRecords3:Funder</namePart>
+            </name>
+            <description type="brief">&amp;lt;p&amp;gt;The Department of the AUTestingRecords3 designs and implements the Australian Government’s policies and programmes to protect and conserve the environment, water and heritage and promote climate action. The environmental framework is being delivered under four pillars:&amp;lt;/p&amp;gt;
+                &amp;lt;ul&amp;gt;
+                &amp;lt;li&amp;gt;Clean Water&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;Clean Air&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;Clean Land&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;National heritage&amp;lt;/li&amp;gt;
+                &amp;lt;/ul&amp;gt;
+                &amp;lt;p&amp;gt;Throughout Australia, environment and heritage issues are also managed by other levels of government.&amp;lt;/p&amp;gt;
+                &amp;lt;ul&amp;gt;
+                &amp;lt;li class=&amp;quot;arrow&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;http://www.australia.gov.au&amp;quot;&amp;gt;Government in Australia&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li class=&amp;quot;arrow&amp;quot;&amp;gt;&amp;lt;a class=&amp;quot;ext&amp;quot; href=&amp;quot;http://australia.gov.au/directories/state-territory-and-local-government-directories/states-territories-and-local-government&amp;quot;&amp;gt;States, territories and local government&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;/ul&amp;gt;
+                &amp;lt;div class=&amp;quot;boxtwocols&amp;quot;&amp;gt; &amp;lt;/div&amp;gt;</description>
+            <identifier type="doi">AUTestingRecords3:Funder</identifier>
+            <identifier type="fundref">50110000AUT3.x</identifier>
+            <identifier type="AU-ANL:PEAU">http://nla.gov.au/nla.party-AUT55.433</identifier>
+            <location>
+                <address>
+          <electronic type="url">
+            <value>http://www.environment.gov.au/webform/website-feedback</value>
+          </electronic>
+        </address>
+                <spatial type="iso31661">AU</spatial>
+            </location>
+            <relatedInfo type="website">
+                <title>Web Site</title>
+                <identifier type="uri">http://www.environment.gov.au</identifier>
+            </relatedInfo>
+            <existenceDates>
+                <startDate dateFormat="W3CDTF">2013-09-18</startDate>
+            </existenceDates>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTestingRecords3:Funder/Program12/Hub2/GrantDP0987282z</key>
+        <originatingSource>arc.gov.au/general/searchable_data.htm</originatingSource>
+        <activity type="grant">
+            <name type="primary">
+                <namePart>(AUTestingRecords3)AUTestingRecords3:Funder/Program12/Hub2/GrantDP0987282</namePart>
+            </name>
+            <identifier type="purl">AUTestingRecords3:Funder/Program12/Hub2/GrantDP0987282AUTx.Grant</identifier>
+            <identifier type="arc">DP0987282AUTx.Grant</identifier>
+            <relatedObject>
+                <key>AUTestingRecords3:Funderz</key>
+                <relation type="isFundedBy"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTSchemaOrgCollection1</key>
+                <relation type="hasOutput"/>
+            </relatedObject>
+            <subject type="anzsrc-for">2403</subject>
+            <subject type="local">brane</subject>
+            <subject type="local">domain wall</subject>
+            <subject type="local">extra dimension</subject>
+            <subject type="local">phenomenology</subject>
+            <subject type="local">standard model</subject>
+            <subject type="local">unification</subject>
+            <description type="brief">This project will explore theories which hypothesis that our universe is a 3-dimensional mem-(brane) residing in higher dimensional space. We will construct completely realistic theories and find ways to test them experimentally. This project is at the forefront of international developments in our understanding of the universe - an area that has grown in importance following the construction of the Large Hadron Collider at the European Giant accelerator laboraroty. The project will�expose postgraduate students to exciting developments in this fascinating field pf physics.</description>
+            <description type="fundingAmount">$285,000</description>
+            <description type="fundingScheme">Discovery Projects</description>
+            <description type="researchers">Prof RR Volkas</description>
+            <existenceDates>
+                <startDate dateFormat="W3CDTF">2009</startDate>
+                <endDate dateFormat="W3CDTF">2011</endDate>
+            </existenceDates>
+            <relatedInfo type="collection">
+                <title>Collection 4</title>
+                <identifier type="purl">http://www.MyPurlResolrverr23.com.au</identifier>
+                <relation type="hasOutput"/>
+            </relatedInfo>
+        </activity>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords3:Funder/Program12/Hub1/ProjectLP0347149/Collection3/Collection3.1z</key>
+        <originatingSource>Atlas of Living Australia</originatingSource>
+        <collection type="dataset">
+            <identifier type="local">ala.org.au/dr968AUT2</identifier>
+            <name type="primary">
+                <namePart type="full">(AUTestingRecords2)
+                    AUTestingRecords3:Funder/Program12/Hub1/ProjectLP0347149/Collection3/Collection3.1 Collection which
+                    is the child of a collection which is linked to grants network.
+                </namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic>
+                        <value>http://collections.ala.org.au/public/show/dr968</value>
+                    </electronic>
+                </address>
+            </location>
+            <relatedInfo type="website">
+                <identifier type="uri">http://collections.ala.org.au/public/show/dr968</identifier>
+            </relatedInfo>
+            <rights>
+                <licence type="other"/>
+            </rights>
+            <description type="brief"/>
+            <coverage>
+                <spatial type="iso19139dcmiBox">northlimit=-35.2758; southlimit=-35.276; westlimit=149.0897;
+                    eastLimit=149.1114; projection=WGS84
+                </spatial>
+            </coverage>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords3:Funder/Program12/Hub1/ProjectLP0347149/Collection3z</key>
+        <originatingSource>
+            Atlantic Oceanographic and Meteorological Laboratory (AOML)
+        </originatingSource>
+        <collection type="dataset">
+            <identifier type="uri">
+                http://imosmest.aodn.org.au:80/geonetwork/srv/en/metadata.show?uuid=03bcf232-4b45-31bb-abeb-8fed01492914
+                AUTbx1
+            </identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2)(LVL 1)
+                    AUTestingRecords3:Funder/Program12/Hub1/ProjectLP0347149/Collection3 AOML - Argo float, WMO 1900812
+                </namePart>
+            </name>
+            <dates type="created">
+                <date type="dateFrom" dateFormat="W3CDTF">2014-09-09T06:06:15</date>
+            </dates>
+            <relatedObject>
+                <key>AUTestingRecords3:Funder/Program12/Hub1/ProjectLP0347149</key>
+                <relation type="isOutputOf"/>
+            </relatedObject>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>
+                            http://imosmest.aodn.org.au:80/geonetwork/srv/en/metadata.show?uuid=03bcf232-4b45-31bb-abeb-8fed01492914
+                        </value>
+                    </electronic>
+                </address>
+            </location>
+            <subject type="local">oceans</subject>
+            <subject type="local">Oceans | Ocean Temperature | Water Temperature</subject>
+            <subject type="local">Oceans | Salinity/density | Salinity</subject>
+            <subject type="local">Oceans | Ocean Pressure | Water Pressure</subject>
+            <subject type="local">Profiling Float | Autonomous Profiling Float</subject>
+            <description type="full">
+                This dataset contains temperature, salinity and pressure data for all profiles of the Argo float 1900812
+                managed by the Atlantic Oceanographic and Meteorological Laboratory (AOML). Argo is a major
+                international collaborative project to observe the world's oceans and help scientists understand ocean
+                processes and the ocean's roles in climate. The data collected also improves our ability to forecast
+                climate and ocean conditions. The float drift at depth of between 1 and 2 km. Every ten days each float
+                ascends to the surface, measuring temperature and salinity as it rises. This data is transmitted to
+                satellites along with the float's position. The float then dives and starts a new cycle. The Argo float,
+                WMO 1900812 was first deployed on the 2008-11-25T14:00:00 at launch location (Latitude :
+                -43.68600082397461 ; Longitude : 70.98100280761719). The variables available for this Argo float are :
+                Temperature, Practical Salinity and Pressure. The last location of the Argo float was transmitted on the
+                2014-08-28T14:37:01 at the following location (Latitude : -48.588 ; Longitude : -129.169).
+            </description>
+            <coverage>
+                <spatial type="iso19139dcmiBox">
+                    northlimit=-41.405; southlimit=-58.592; westlimit=70.941; eastLimit=-129.169; projection=WGS84
+                </spatial>
+                <spatial type="text">
+                    northlimit=-41.405; southlimit=-58.592; westlimit=70.941; eastLimit=-129.169; projection=WGS84
+                </spatial>
+            </coverage>
+            <coverage>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">2008-11-01T00:00:00</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2014-08-28T14:37:01</date>
+                </temporal>
+            </coverage>
+            <relatedInfo type="website">
+                <identifier type="uri">
+                    http://thredds.aodn.org.au/thredds/catalog/IMOS/Argo/dac/aoml/1900812/catalog.html
+                    AUTbx1
+                </identifier>
+                <relation type="hasAssociationWith"/>
+                <title>Data available via the IMOS OPeNDAP server</title>
+            </relatedInfo>
+            <rights>
+                <rightsStatement>
+                    Argo Data (Temperature and Salinity profiles) are freely available without any restriction, via the
+                    internet Global Data Centres (GDACs) and the GTS of WMO. Please support Argo by acknowledging your
+                    use of Argo data with the following words: "These data where collected and made freely available by
+                    the International Argo project and the national initiatives that contribute to it.
+                    (http://www.argo.net). Argo is a pilot programme of the Global Ocean Observing System."
+                </rightsStatement>
+            </rights>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="uri">
+                        http://imosmest.aodn.org.au:80/geonetwork/srv/en/metadata.show?uuid=03bcf232-4b45-31bb-abeb-8fed01492914
+                        AUTbx1
+                    </identifier>
+                    <title>AOML - Argo float, WMO 1900812</title>
+                    <date type="created">2014</date>
+                    <contributor>
+                        <namePart>(AUTestingRecords2)
+                            Atlantic Oceanographic and Meteorological Laboratory (AOML)
+                        </namePart>
+                    </contributor>
+                    <publisher>Integrated Marine Observing System (IMOS)</publisher>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ala.org.au/dr931z</key>
+        <originatingSource>NatureMap</originatingSource>
+        <collection type="dataset">
+            <identifier type="local">ala.org.au/dr931sdAUT2</identifier>
+            <name type="primary">
+                <namePart type="full">(AUTestingRecords2)CollectionNotLinkedToGrantsNetwork Collection which has child
+                    collection which is linked to grants network.
+                </namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic>
+                        <value>http://collections.ala.org.au/public/show/dr931</value>
+                    </electronic>
+                </address>
+            </location>
+            <relatedInfo type="website">
+                <identifier type="uri">http://naturemap.dec.wa.gov.au/default.aspx</identifier>
+                <title>See this Collection on the website of NatureMap</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://collections.ala.org.au/public/show/dr931</identifier>
+            </relatedInfo>
+            <relatedObject>
+                <key>AUTestingRecords3:Funder/Program12/Hub1/ProjectLP0347149/Collection3</key>
+                <relation type="hasPart"/>
+            </relatedObject>
+            <rights>
+                <licence type="other"/>
+                <rightsStatement>Conditions of Access
+                    All users need to acknowledge and agree to the following conditions before using NatureMap content:
+                    Data within NatureMap is provided with the participation and good will of data custodians and I will
+                    endeavour, where possible, to seek a collaborative approach with custodians in any research or
+                    papers published using NatureMap data.
+                    Re-sale of raw data or the commercial use of images or descriptive text (other than generated maps,
+                    species lists and reports) on this site is unauthorised unless written permission is obtained from
+                    the Department of Environment and Conservation (DEC).
+                    Appropriate and full acknowledgement of DEC and species data custodians (see Data Directory) must
+                    always be given in any publication that includes data sourced here.
+                    Data provided through NatureMap represents positive records of flora and fauna occurrence. The
+                    absence of a record should not be taken to mean flora or fauna is necessarily absent from an area.
+                    (To minimise the effect of data gaps, a buffer area should be applied that is reflective of the
+                    likelihood of surveys or collections having been undertaken in the target area.)
+                    My username and password will not be passed on to any other person or organisation.
+                    DEC and data custodians reserve the right to revoke registration if the above conditions of access
+                    are not complied with.
+                    I will notify DEC if any relevant conditions change that might affect my NatureMap authorisation
+                    level.
+                    Also note:
+                    Custodians have kindly granted permission to allow relatively large subsets of data to be downloaded
+                    for a wide range of uses, including within a commercial context. Note, however, it is not NatureMap
+                    policy to allow the downloading of entire datasets
+                    It is current custodian policy to only grant Advanced Access (see the Registration page) for bona
+                    fide research or conservation planning purposes. This does not extend to use within a commercial
+                    context. While this may appear restrictive, in fact basic registration provides a great deal of
+                    information on both conservation and non-conservation taxa, and all users are encouraged to explore
+                    NatureMap&amp;#39;s sophisticated querying and mapping capabilities. DEC&amp;#39;s Species and
+                    Communities Branch continues to provide information on detailed localities of conservation taxa to
+                    consultants and other commercial users on a fee-for-service basis.
+                    Fair Use Guidlines
+                    As stated above, we want as many people as possible to make use of the data available within
+                    NatureMap, so long as that use is &amp;quot;fair&amp;quot;. It is considered fair for anyone to use
+                    information from NatureMap for conservation or planning purposes, including incorporating that
+                    information into reports or papers, or summarising and value-adding to data.
+                    It is not considered fair use to download raw data and on-sell it. That would contravene copyright.
+                    It is also bad business, because anyone could obtain the same data directly from NatureMap.
+                    Of particular note:
+                    Maps, species lists, reports and raw data may be freely used by anyone, including commercial
+                    consultants, for research, planning, generating reports and compilations, or for personal use, so
+                    long as the above conditions of access are complied with.
+                    Raw data, i.e. bulk detail records of individual locations that have been downloaded from NatureMap
+                    and not summarised, compiled or modified in any substantial way, may not be on-sold or rebadged
+                    without written permission from the Department of Environment and Conservation (DEC). This is
+                    consistent with Australian Copyright law.
+                    Other descriptive text and images, such as Thematic content on wetlands or ecological attributes,
+                    remain the property of NatureMap and copyright holders and may not be used without written
+                    permission from DEC.
+                    For full terms of use see Copyright page at
+                    http://naturemap.dec.wa.gov.au/default.aspx
+                </rightsStatement>
+            </rights>
+            <description type="brief">This was sourced from a regional flora and vegetation surveys surveys of eight
+                calcrete areas in the mid west carried out by DEC staff in 2010;. For more information on this dataset
+                visit the BIF theme page by clicking on Themes | Yilgarn Surveys in the NatureMap main menu.
+            </description>
+            <description type="notes">Includes: point occurrence data</description>
+            <citationInfo>
+                <fullCitation>Calcrete Survey. NatureMap: Mapping Western Australia&amp;#39;s Biodiversity. Department
+                    of Environment and Conservation. URL: http://naturemap.dec.wa.gov.au/
+                </fullCitation>
+            </citationInfo>
+            <coverage>
+                <spatial type="iso19139dcmiBox">northlimit=-26.34152778; southlimit=-27.82194444; westlimit=118.4163333;
+                    eastLimit=121.6550278; projection=WGS84
+                </spatial>
+            </coverage>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTSchemaOrgCollection2</key>
+        <originatingSource type="">http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2005-05-05T23:51:55Z"
+            dateAccessioned="2015-04-10T23:51:55Z">
+            <name type="abbreviated">
+                <namePart>abbreviatedName</namePart>
+            </name>
+            <name type="alternative">
+                <namePart>alternativeName</namePart>
+            </name>
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection to test Schema.Org Mapping 2. No citationMetadata, RelatedInfo accountable person, no download.</namePart>
+            </name>
+            <description type="full">&lt;p&gt;full full full full full full full full full full full full full full full full full full&lt;/p&gt;</description>
+            <description type="deliverymethod">&lt;p&gt;deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod&lt;/p&gt;</description>
+            <rights>
+                <licence type="CC-BY"/>
+                <accessRights type="open">My Access Rights details are listed here and my data is open</accessRights>
+            </rights>
+            <identifier type="issn">0000-066002-4259-973474</identifier>
+            <dates type="dc.available">
+                <date type="dateFrom" dateFormat="W3CDTF">2011-02-07T00:00:00Z</date>
+            </dates>
+            <location>
+                <address>
+          <electronic type="url" target="landingPage">
+            <value>https://demo.ands.org.au</value>
+            <title>My Landing Page for the data</title>
+          </electronic>
+          <physical type="postalAddress">
+            <addressPart type="addressLine">&lt;p&gt; 123 Example St&lt;/p&gt; &lt;p&gt; Canberra ACT 2131&lt;/p&gt;</addressPart>
+          </physical>
+        </address>
+            </location>
+            <coverage>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">2013-01-30T00:00:00Z</date>
+                </temporal>
+                <spatial type="kmlPolyCoords">143.085938,-22.917923</spatial>
+
+            </coverage>
+            <relatedObject>
+                <key>AUTService1z</key>
+                <relation type="supports">
+                    <url>http://www.serviceAccessUrl.com.au</url>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTParty1zz</key>
+                <relation type="isManagedBy">
+                    <description>relationshipdescription</description>
+                </relation>
+            </relatedObject>
+            <subject type="local">localSubject</subject>
+            <subject type="anzsrc-seo">830201</subject>
+            <relatedInfo type="website">
+                <title>Stuff</title>
+                <identifier type="uri">http://www.smithy.com</identifier>
+                <relation type="hasAssociationWith">
+                    <description>A website relationship</description>
+                </relation>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>ORCIDParty6_hasCollector</title>
+                <identifier type="orcid">orcid.AUTParty6</identifier>
+                <relation type="hasCollector"/>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>ORICDPartyt_isOwnedBy</title>
+                <identifier type="orcid">orcid.AUTParty6</identifier>
+                <relation type="isOwnedBy"/>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTSchemaOrgCollection3</key>
+        <originatingSource type="">http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2005-05-05T23:51:55Z"
+            dateAccessioned="2015-04-10T23:51:55Z">
+            <name type="abbreviated">
+                <namePart>abbreviatedName</namePart>
+            </name>
+            <name type="alternative">
+                <namePart>alternativeName</namePart>
+            </name>
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection to test Schema.Org Mapping 3. Full Citation, relatedInfo parties, 2x directDownload</namePart>
+            </name>
+            <description type="brief">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</description>
+            <identifier type="purl">http://purl.org/16234dsd5</identifier>
+            <identifier type="doi">https://MyDOIResolver.org/10ret.123adsf45</identifier>
+            <location dateFrom="2013-02-14T00:00:00Z" dateTo="2013-03-02T00:00:00Z">
+                <address>
+              <electronic type="url" target="landingPage">
+                <value>https://demo.ands.org.au</value>
+                <title>My Landing Page for the data</title>
+              </electronic>
+              <physical type="postalAddress">
+                <addressPart type="addressLine">&lt;p&gt; 123 Example St&lt;/p&gt; &lt;p&gt; Canberra ACT 2131&lt;/p&gt;</addressPart>
+              </physical>
+              <electronic type="url" target="directDownload">
+                <value>https://dl.dropboxusercontent.com/u/49073372/RIF16WithError.xml</value>
+                <title>My Direct Download link</title>
+                <mediaType>XML</mediaType>
+                <byteSize>3KB</byteSize>
+              </electronic>
+              <electronic type="url" target="directDownload">
+                <value>https://dl.dropboxusercontent.com/adsfds2.xml</value>
+                <title>My Direct Download link 2</title>
+                <mediaType>ZIP</mediaType>
+                <byteSize>300KB</byteSize>
+              </electronic>
+            </address>
+            </location>
+            <coverage>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">2013-01-30T00:00:00Z</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2017-03-03T00:00:00Z</date>
+                </temporal>
+            </coverage>
+            <coverage>
+                <spatial type="text">Some place in Australia</spatial>
+            </coverage>
+            <subject type="local">localSubject</subject>
+            <subject type="local">localSubject2</subject>
+            <subject type="local">localSubject3</subject>
+            <subject type="anzsrc-seo">830201</subject>
+            <subject type="anzsrc-for">0303</subject>
+            <subject type="anzsrc-for">0405</subject>
+            <relatedInfo type="publication">
+                <title>Related Info Pub Title</title>
+                <identifier type="doi">10.123123123</identifier>
+                <relation type="isCitedBy"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Pub Title 2</title>
+                <identifier type="doi">10.123123124</identifier>
+                <relation type="isCitedBy"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Pub Title 3</title>
+                <identifier type="doi">10.123123125</identifier>
+                <relation type="isCitedBy"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Pub Title 4</title>
+                <identifier type="doi">10.123123126</identifier>
+                <relation type="isCitedBy"/>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>AUTParty6Has_Collector</title>
+                <identifier type="orcid">orcid.AUTPartyNew</identifier>
+                <relation type="hasCollector"/>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>AUTPartyDoestExist_HasCollector</title>
+                <identifier type="orcid">orcid.AUTParty6</identifier>
+                <relation type="hasCollector"/>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>ORICDPartyExists_isOwnedBy</title>
+                <identifier type="orcid">orcid.AUTParty6</identifier>
+                <relation type="isOwnedBy"/>
+            </relatedInfo>
+            <relatedInfo type="service">
+                <title>Example RelatedInfo Service</title>
+                <identifier type="uri">http://exampleofRelatedInfoService.com</identifier>
+                <notes>To use this service following the steps outlined at the URL</notes>
+                <relation type="isPresentedBy">
+                    <url>http://www.RelatedInfoServiceAccessUrl.com.au</url>
+                </relation>
+            </relatedInfo>
+            <citationInfo>
+                <fullCitation style="Harvard">Twaing, T. M., Tesiter, M. J., &amp; Denro, M. J. (2012). Speakers to foreign-accented listen to foreign-accented speech. Journal of Multilingual and Multicultural Development, 23(4), 245-259.</fullCitation>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTSchemaOrgCollection4</key>
+        <originatingSource type="">http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2005-05-05T23:51:55Z"
+            dateAccessioned="2015-04-10T23:51:55Z">
+            <name type="abbreviated">
+                <namePart>abbreviatedName</namePart>
+            </name>
+            <name type="alternative">
+                <namePart>alternativeName</namePart>
+            </name>
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection to test Schema.Org Mapping 4. Reverse Relationships Party1(RO isOwnerOf), Party2(RO PrinceInvest), Party3(RI author), GrantDP0987282(RI hasOutput).</namePart>
+            </name>
+            <description type="significanceStatement">&lt;p&gt;significanceStatement significanceStatement&lt;/p&gt;</description>
+            <description type="researchSupport">&lt;p&gt;researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport&lt;/p&gt;</description>
+            <description type="researchDataProflie">&lt;p&gt;researchDataProflieresea rchDataProflie researchDataP roflieresearchDataProflie researchDataProflie researchDataProflie researchDataProflie researchDataProflie&lt;/p&gt;</description>
+            <description type="researchAreas">&lt;p&gt;researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas&lt;/p&gt;</description>
+            <description type="note">&lt;p&gt;note note note note note note note note note note note note note note note note note note note note note note&lt;/p&gt;</description>
+            <description type="logo">&lt;p&gt;https://dl.dropbox.com/u/49073372/LOGO.jpg&lt;/p&gt;</description>
+            <description type="full">&lt;p&gt;full full full full full full full full full full full full full full full full full full&lt;/p&gt;</description>
+            <description type="deliverymethod">&lt;p&gt;deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod&lt;/p&gt;</description>
+            <description type="brief">&lt;p&gt;brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief&lt;/p&gt;</description>
+            <description type="lineage">&lt;p&gt;This is the lineage statement for the collection&lt;/p&gt;</description>
+            <description type="local">&lt;p&gt;This is a local statement for the colleciton&lt;/p&gt;</description>
+            <rights>
+                <rightsStatement rightsUri="http://www.rightsuri.com">Rights Statement Rights Statement</rightsStatement>
+                <licence type="AusGOALRestrictive" rightsUri="http://www.rightsuri.com">LicenceLicenceLicence</licence>
+                <accessRights rightsUri="http://www.rightsuri.com">Access Rights</accessRights>
+            </rights>
+            <rights>
+                <accessRights type="open">My Access Rights details are listed here and my data is open</accessRights>
+            </rights>
+            <identifier type="purl">http://www.MyPurlResolrverr23.com.au</identifier>
+            <identifier type="local">http://MyDOIResolver.org/10r3et.12345</identifier>
+            <dates type="dc.available">
+                <date type="dateFrom" dateFormat="W3CDTF">2011-02-07T00:00:00Z</date>
+            </dates>
+            <location dateFrom="2013-02-14T00:00:00Z" dateTo="2013-03-02T00:00:00Z">
+                <address>
+              <electronic type="url" target="landingPage">
+                <value>https://demo.ands.org.au</value>
+                <title>My Landing Page for the data</title>
+              </electronic>
+              <physical type="postalAddress">
+                <addressPart type="addressLine">&lt;p&gt; 123 Example St&lt;/p&gt; &lt;p&gt; Canberra ACT 2131&lt;/p&gt;</addressPart>
+              </physical>
+            </address>
+                <spatial type="kmlPolyCoords">119.707031,-20.468189 152.753906,-32.101190 119.707031,-20.468189</spatial>
+            </location>
+            <coverage>
+                <spatial type="text">Some place in Australia</spatial>
+            </coverage>
+            <subject type="local" xml:lang="en">primary forests</subject>
+            <subject type="local" xml:lang="en">tropics</subject>
+            <subject type="local" xml:lang="en">conservation forests</subject>
+            <subject type="local" xml:lang="en">biodiversity</subject>
+            <subject type="anzsrc-for" xml:lang="en">050202</subject>
+            <subject type="anzsrc-for" xml:lang="en">070504</subject>
+            <subject type="anzsrc-seo" xml:lang="en">961306</subject>
+            <relatedInfo type="metadata">
+                <title>Related Info Title</title>
+                <identifier type="doi">10.1234567882484</identifier>
+                <format>
+                    <identifier type="mediaType">formatidentifier</identifier>
+                </format>
+                <notes>related info notes</notes>
+            </relatedInfo>
+            <relatedInfo type="dataQualityInformation">
+                <title>relatedinfo Title</title>
+                <identifier type="infouri">infouri.12345</identifier>
+                <notes>Related Info Notes</notes>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+    
+    <registryObject group="AUTestingRecords">
+        <key>AUT-bc58-36ff77ded053</key>
+        <originatingSource type="">Commonwealth of Australia (Geoscience Australia)</originatingSource>
+        <service type="software">
+            <name type="primary">
+                <namePart>(AUTestingRecords) Service to test Schema.org</namePart>
+            </name>
+            <description type="brief">&lt;p&gt;This is the Acreage Release Marine Environmental Data compiled web service to be updated each year with acreage release. It contains the following publicly available datasets, for the 2016 Acreage Release - Marine Survey Towed-video Transects, Marine Sediments Database Samples, Australian Seascapes, Seabed Mud Content on the Northwest Shelf, Seabed Sand Content of the Northwest Shelf and Seabed Gravel Content of the Northwest Shelf.&lt;/p&gt;</description>
+            <identifier type="global">fcddf15ee64-97f1-4171-bc58-36ff77ded053</identifier>
+            <location>
+                <address>
+          <electronic type="url">
+            <value>http://ecat.ga.gov.au/geonetwork/srv/eng/search#!fc15ee64-97f1-4171-bc58-36ff77ded053</value>
+          </electronic>
+        </address>
+            </location>
+            <coverage>
+                <spatial type="iso19139dcmiBox">northlimit=-8; southlimit=-45; westlimit=110; eastLimit=153; projection=GDA94</spatial>
+                <spatial type="text">northlimit=-8; southlimit=-45; westlimit=110; eastLimit=153; projection=GDA94</spatial>
+            </coverage>
+            <relatedObject>
+                <key>AUTParty6</key>
+                <relation type="isOwnedBy"/>
+            </relatedObject>
+            <rights>
+                <rightsStatement rightsUri="http://www.rightsuri.com">Rights Statement Rights Statement</rightsStatement>
+                <licence type="AusGOALRestrictive" rightsUri="http://www.rightsuri.com">LicenceLicenceLicence</licence>
+                <accessRights rightsUri="http://www.rightsuri.com">Access Rights</accessRights>
+            </rights>
+            <subject type="local">acreage release</subject>
+            <subject type="local">petroleum</subject>
+            <subject type="local">gas</subject>
+            <subject type="local">marine</subject>
+            <subject type="local">environment</subject>
+            <subject type="local">seabed</subject>
+            <subject type="local">offshore</subject>
+            <subject type="local">Earth Sciences</subject>
+        </service>
+    </registryObject>
+</registryObjects>

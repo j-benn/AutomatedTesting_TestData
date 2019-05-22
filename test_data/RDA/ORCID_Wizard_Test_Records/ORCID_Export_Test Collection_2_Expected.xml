@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<work:work
+	xmlns:common="http://www.orcid.org/ns/common" xmlns:work="http://www.orcid.org/ns/work"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.orcid.org/ns/work /work-2.0.xsd ">	
+	<work:title>
+		<common:title>(AUTestingRecords) ORCID Export Test Collection 2 -Australian Nucleotide (DNA/RNA) and Protein sequences from Australian organisms in  the family Boryaceae ()</common:title>
+	</work:title>
+	<work:short-description>This data collection contains all currently published nucleotide (DNA/RNA) and protein sequences from Australian Boryaceae. Other information about this group: 
+The nucleotide (DNA/RNA) and protein sequences have been sourced through the European Nucleotide Archive (ENA) and Universal Protein Resource (UniProt), databases that contains comprehensive sets of nucleotide (DNA/RNA) and protein sequences from all organisms that have been published by the International Research Community.
+The identification of species in Boryaceae as Australian dwelling organisms has been achieved by accessing the Australian Plant Census (APC) or Australian Faunal Directory (AFD) through the Atlas of Living Australia.</work:short-description>
+	<work:type>other</work:type>
+	<common:publication-date>
+		<common:year>2016</common:year>
+		<common:month>04</common:month>
+		<common:day>10</common:day>
+	</common:publication-date>
+	<common:external-ids>
+		<common:external-id>
+			<common:external-id-type>uri</common:external-id-type>
+			<common:external-id-value>www.qfab.org/collection-192AUTOrc2</common:external-id-value>			
+			<common:external-id-relationship>self</common:external-id-relationship>
+		</common:external-id>
+	</common:external-ids>
+	<work:url>http://rda.ebi.edu.au/default.jsp?collectionId=192&view=preview</work:url>
+</work:work>

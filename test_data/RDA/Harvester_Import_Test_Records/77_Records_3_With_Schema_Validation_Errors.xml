@@ -1,0 +1,3616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xmlns:extRif="http://ands.org.au/standards/rif-cs/extendedRegistryObjects" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+
+
+<registryObject group="AuScope">
+    <key>validRecordhttp://portal.auscope.org/CSW</key>
+    <originatingSource>http://www.opengeospatial.org/standards/cat/</originatingSource>
+    <service type="search-http">
+      <identifier type="local">http://portal.auscope.org/CSW</identifier>
+      <name type="primary">
+        <namePart>Catalogue Service</namePart>
+      </name>
+      <name type="abbreviated">
+        <namePart>CSW</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.opengeospatial.org/standards/cat/</value>
+          </electronic>
+          <electronic type="other">
+            <value>CSW</value>
+            <arg required="true" type="string" use="keyValue">service</arg>
+          </electronic>
+          <electronic type="other">
+            <value>2.0.2</value>
+            <arg required="true" type="string" use="keyValue">version</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetCapabilities</value>
+            <arg required="true" type="string" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>DescribeRecord</value>
+            <arg required="true" type="string" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetDomain</value>
+            <arg required="true" type="string" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetRecordById</value>
+            <arg required="true" type="string" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetRecords</value>
+            <arg required="true" type="string" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>Transaction</value>
+            <arg required="true" type="string" use="keyValue">request</arg>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-8.9; southlimit=-44.0; westlimit=112.8; eastLimit=154.1; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordhttp://portal.auscope.org/OGC</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="anzsrc-for">04</subject>
+      <subject type="local">CSW</subject>
+      <description type="brief">OpenGIS Catalogue Service Implementation Specification</description>
+      <description type="full">This document specifies the interfaces between clients and catalogue services, through the presentation of abstract and implementation-specific models. Catalogue services support the ability to publish and search collections of descriptive information (metadata) for data, services, and related information objects. Metadata in catalogues represent resource characteristics that can be queried and presented for evaluation and further processing by both humans and software. Catalogue services are required to support the discovery and binding to registered information resources within an information community.</description>
+      <rights>
+        <rightsStatement rightsUri="http://www.opengeospatial.org/legal/">Copyright © 2007 Open Geospatial Consortium, Inc. All Rights Reserved. To obtain additional rights of use, visit http://www.opengeospatial.org/legal/.</rightsStatement>
+      </rights>
+      <accessPolicy>http://www.opengeospatial.org/projects/groups/geoxacmlswg</accessPolicy>
+      <relatedInfo type="publication">
+        <identifier type="uri">http://portal.opengeospatial.org/files/?artifact_id=20555</identifier>
+        <title>OpenGIS Catalogue Service Implementation Specification</title>
+        <notes>version 2.0.2, accessed 25 July 2012</notes>
+      </relatedInfo>
+    </service>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordhttp://portal.auscope.org/VVGPortal</key>
+    <originatingSource>http://maps.ubspatial.com.au/vvg.php</originatingSource>
+    <service type="search-http">
+      <identifier type="local">http://portal.auscope.org/VVGPortal</identifier>
+      <name type="primary">
+        <namePart>Visualising Victoria's Groundwater Portal</namePart>
+      </name>
+      <name type="abbreviated">
+        <namePart>VVG Portal</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://maps.ubspatial.com.au/vvg.php</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-34.0; southlimit=-39.0; westlimit=141.0; eastLimit=150.0; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordhttp://portal.auscope.org/UniOfBallarat</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="anzsrc-for" xml:lang="en">040603</subject>
+      <subject type="local" xml:lang="en">Hydrogeology</subject>
+      <subject type="local">WFS</subject>
+      <description type="full">&amp;lt;p&amp;gt;VVG is an interoperative web-GIS that federates groundwater data from disparate sources to assist groundwater researchers and help water managers make the correct choices for the sustainable use of a precious resource.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;The project has been funded by the State Government of Victoria - Broadband Enabled Innovation Program</description>
+      <rights>
+        <rightsStatement rightsUri="http://www.vvg.org.au/cb_pages/disclaimer.php">Terms and Conditions of Use.</rightsStatement>
+      </rights>
+      <relatedInfo type="reuseInformation">
+        <identifier type="uri">http://www.opengeospatial.org/standards/wfs</identifier>
+      </relatedInfo>
+    </service>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordhttp://portal.auscope.org/WFS</key>
+    <originatingSource>http://www.opengeospatial.org/standards/wfs/</originatingSource>
+    <service type="search-http">
+      <identifier type="local">http://portal.auscope.org/WFS</identifier>
+      <name type="primary">
+        <namePart>Web Feature Service</namePart>
+      </name>
+      <name type="abbreviated">
+        <namePart>WFS</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.opengeospatial.org/standards/wfs/</value>
+          </electronic>
+          <electronic type="other">
+            <value>WFS</value>
+            <arg required="true" type="string" use="keyValue">service</arg>
+          </electronic>
+          <electronic type="other">
+            <value>1.1.0</value>
+            <arg required="true" type="string" use="keyValue">version</arg>
+          </electronic>
+          <electronic type="other">
+            <value>2.0</value>
+            <arg required="true" type="string" use="keyValue">version</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetCapabilities</value>
+            <arg required="true" type="string" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>DescribeFeatureType</value>
+            <arg required="true" type="string" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetFeature</value>
+            <arg required="true" type="string" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetGmlObject</value>
+            <arg required="true" type="string" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>LockFeature</value>
+            <arg required="true" type="string" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetFeatureWithLock</value>
+            <arg required="true" type="string" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>Transaction</value>
+            <arg required="true" type="string" use="keyValue">request</arg>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-8.9; southlimit=-44.0; westlimit=112.8; eastLimit=154.1; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordhttp://portal.auscope.org/OGC</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="anzsrc-for">04</subject>
+      <subject type="local">WFS</subject>
+      <description type="brief">OpenGIS Web Feature Service (WFS) Implementation Specification</description>
+      <description type="full">The Web Feature Service (WFS) represents a change in the way geographic information is created, modified and exchanged on the Internet. Rather than sharing geographic information at the file level using File Transfer Protocol (FTP), for example, the WFS offers direct fine-grained access to geographic information at the feature and feature property level. Web feature services allow clients to only retrieve or modify the data they are seeking, rather than retrieving a file that contains the data they are seeking and possibly much more. That data can then be used for a wide variety of purposes, including purposes other than their producers' intended ones. In the taxonomy of services defined in ISO 19119, the WFS is primarily a feature access service but also includes elements of a feature type service, a coordinate conversion/transformation service and geographic format conversion service.</description>
+      <rights>
+        <rightsStatement>Copyright © Open Geospatial Consortium, Inc (2005)</rightsStatement>
+        <rightsStatement rightsUri="http://www.opengeospatial.org/legal/">Copyright © 2010 Open Geospatial Consortium To obtain additional rights of use, visit http://www.opengeospatial.org/legal/.</rightsStatement>
+      </rights>
+      <accessPolicy>http://www.opengeospatial.org/projects/groups/geoxacmlswg</accessPolicy>
+      <relatedInfo type="publication">
+        <identifier type="uri">http://portal.opengeospatial.org/files/?artifact_id=8339</identifier>
+        <title>OpenGIS Web Feature Service (WFS) Implementation Specification</title>
+        <notes>version 1.1.0, accessed 25 July 2012</notes>
+      </relatedInfo>
+      <relatedInfo type="publication">
+        <identifier type="uri">http://portal.opengeospatial.org/files/?artifact_id=39967</identifier>
+        <title>OpenGIS Web Feature Service 2.0 Interface Standard (also ISO 19142)</title>
+        <notes>version 2.0, accessed 25 July 2012</notes>
+      </relatedInfo>
+    </service>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordhttp://portal.auscope.org/WCS</key>
+    <originatingSource>http://www.opengeospatial.org/standards/wcs/</originatingSource>
+    <service type="search-http">
+      <identifier type="local">http://portal.auscope.org/WCS</identifier>
+      <name type="primary">
+        <namePart>Web Coverage Service</namePart>
+      </name>
+      <name type="abbreviated">
+        <namePart>WCS</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.opengeospatial.org/standards/wcs/</value>
+          </electronic>
+          <electronic type="other">
+            <value>WCS</value>
+            <arg required="true" type="string" use="keyValue">service</arg>
+          </electronic>
+          <electronic type="other">
+            <value>1.0.0</value>
+            <arg required="true" type="string" use="keyValue">version</arg>
+          </electronic>
+          <electronic type="other">
+            <value>2.0</value>
+            <arg required="true" type="string" use="keyValue">version</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetCapabilities</value>
+            <arg required="true" type="string" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>DescribeCoverage</value>
+            <arg required="true" type="string" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetCoverage</value>
+            <arg required="true" type="string" use="keyValue">request</arg>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-8.9; southlimit=-44.0; westlimit=112.8; eastLimit=154.1; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordhttp://portal.auscope.org/OGC</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="anzsrc-for">04</subject>
+      <subject type="local">WCS</subject>
+      <description type="brief">OGC® WCS 2.0 Interface Standard - Core</description>
+      <description type="full">The OGC Web Coverage Service (WCS) supports electronic retrieval of geospatial data as "coverages" – that is, digital geospatial information representing space/time-varying phe-nomena. This document specifies the WCS core; every implementation of a WCS shall adhere to this standard. This standard thus defines only basic requirements. Extensions to the core will define extensions to meet additional requirements, such as the response encoding. Indeed, additional extensions are required in order to completely specify a WCS for implementation. A WCS provides access to coverage data in forms that are useful for client-side rendering, as input into scientific models, and for other clients. The WCS may be compared to the OGC Web Feature Service (WFS) and the Web Map Service (WMS). As WMS and WFS service instances, a WCS allows clients to choose portions of a server's information holdings based on spatial constraints and other query criteria</description>
+      <rights>
+        <rightsStatement rightsUri="http://www.opengeospatial.org/legal/">Copyright © 2009 Open Geospatial Consortium, Inc. All Rights Reserved. To obtain additional rights of use, visit http://www.opengeospatial.org/legal/.</rightsStatement>
+        <rightsStatement rightsUri="http://www.opengeospatial.org/legal/">Copyright © 2010 Open Geospatial Consortium To obtain additional rights of use, visit http://www.opengeospatial.org/legal/.</rightsStatement>
+      </rights>
+      <accessPolicy>http://www.opengeospatial.org/projects/groups/geoxacmlswg</accessPolicy>
+      <relatedInfo type="publication">
+        <identifier type="uri">http://portal.opengeospatial.org/files/?artifact_id=32416</identifier>
+        <title>OpenGIS Web Coverage Service (WCS) - Processing Extension (WCPS)</title>
+        <notes>version 1.0.0, accessed 25 July 2012</notes>
+      </relatedInfo>
+      <relatedInfo type="publication">
+        <identifier type="uri">http://portal.opengeospatial.org/files/?artifact_id=41437</identifier>
+        <title>OGC® WCS 2.0 Interface Standard - Core</title>
+        <notes>version 2.0, accessed 25 July 2012</notes>
+      </relatedInfo>
+    </service>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordhttp://portal.auscope.org/UniOfBallarat</key>
+    <originatingSource>http://www.ballarat.edu.au</originatingSource>
+    <party type="group">
+      <identifier type="AU-ANL:PEAU">http://nla.gov.au/nla.party-497740</identifier>
+      <name type="primary">
+        <namePart>University of Ballarat</namePart>
+      </name>
+      <name type="abbreviated">
+        <namePart>UB</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="email">
+            <value>info@ballarat.edu.au</value>
+          </electronic>
+        </address>
+        <address>
+          <physical type="postalAddress">
+            <addressPart type="addressLine">P.O. Box 663</addressPart>
+            <addressPart type="suburbOrPlaceOrLocality">Ballarat</addressPart>
+            <addressPart type="stateOrTerritory">VIC</addressPart>
+            <addressPart type="postCode">3350</addressPart>
+            <addressPart type="country">Australia</addressPart>
+          </physical>
+        </address>
+        <address>
+          <physical type="streetAddress">
+            <addressPart type="addressLine">University Drive</addressPart>
+            <addressPart type="suburbOrPlaceOrLocality">Mt Helen</addressPart>
+            <addressPart type="stateOrTerritory">VIC</addressPart>
+            <addressPart type="postCode">3350</addressPart>
+            <addressPart type="country">Australia</addressPart>
+          </physical>
+          <physical>
+            <addressPart type="faxNumber">61 3 5327 9704</addressPart>
+          </physical>
+          <physical>
+            <addressPart type="telephoneNumber">61 3 5327 9000</addressPart>
+          </physical>
+        </address>
+      </location>
+      <description type="full">&amp;lt;p&amp;gt;The University of Ballarat (UB) is Australia's only regional multi-sector university. We are the third oldest site of higher learning in Australia, and offer secondary schooling, TAFE, higher education, and research opportunities. We have six campuses; the Mt Helen, SMB and Camp Street campuses in Ballarat, and the Horsham, Stawell and Ararat campuses. We also work with a range of partner institutes across Australia and the world.&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;UB has around 25,000 international and domestic students. We are committed to serving regional Victorian communities, yet have a broad national and international outlook. UB offers the best of both worlds; combining a strong tradition of 137 years of tertiary education with the freedom and dynamism that comes with being a multi-sector University with close links to local industry and technology.&amp;lt;br /&amp;gt;&amp;lt;/p&amp;gt;
+            </description>
+      <description type="logo">http://www.ballarat.edu.au/__data/assets/image/0017/719/logo.jpg</description>
+      <subject type="anzsrc-for" xml:lang="en">040603</subject>
+      <subject type="local" xml:lang="en">Hydrogeology</subject>
+    </party>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordhttp://portal.auscope.org/OGC</key>
+    <originatingSource>http://www.opengeospatial.org/</originatingSource>
+    <party type="group" dateModified="2012-07-26T13:36:00Z">
+      <name type="primary">
+        <namePart>Open Geospatial Consortium</namePart>
+      </name>
+      <name type="abbreviated">
+        <namePart>OGC</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.opengeospatial.org/ogc/contacts</value>
+          </electronic>
+          <physical>
+            <addressPart type="faxNumber">+1 508 655 2237</addressPart>
+          </physical>
+          <physical>
+            <addressPart type="telephoneNumber">+1 508 655 5858</addressPart>
+          </physical>
+        </address>
+      </location>
+      <description type="full">
+				&amp;lt;p&amp;gt;The Open Geospatial Consortium (OGC) is an international industry consortium of 
+&amp;lt;strong&amp;gt;466&amp;lt;/strong&amp;gt;  
+companies, government agencies and universities participating in a consensus process to develop publicly available interface standards. 
+OGC® Standards support interoperable solutions that "geo-enable" the Web, wireless and location-based services and mainstream IT. The standards empower technology developers to make complex spatial information and services accessible and useful with all kinds of applications.  &amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;OGC® and OpenGIS® are registered trademarks of the Open Geospatial Consortium (OGC). OGC is the brand name associated with the standards and documents produced by the OGC. OGC standards are developed in a unique consensus process supported by the OGC's industry, government and academic members to enable geoprocessing technologies to interoperate, or "plug and play". 
+You will also find the OGC trademark associated with products that implement our standards and that have obtained the Certified OGC Compliant brand. Make sure that your geoprocessing and location services procurement and technology development programs demand OGC standards!
+&amp;lt;/p&amp;gt;
+			</description>
+      <subject type="anzsrc-for">04</subject>
+    </party>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordhttp://portal.auscope.org/WMS</key>
+    <originatingSource>http://www.opengeospatial.org/standards/wms/</originatingSource>
+    <service type="search-http">
+      <identifier type="local">http://portal.auscope.org/WMS</identifier>
+      <name type="primary">
+        <namePart>Web Map Service</namePart>
+      </name>
+      <name type="abbreviated">
+        <namePart>WMS</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.opengeospatial.org/standards/wms/</value>
+          </electronic>
+          <electronic type="other">
+            <value>WMS</value>
+            <arg required="true" type="string" use="keyValue">service</arg>
+          </electronic>
+          <electronic type="other">
+            <value>1.1.1</value>
+            <arg required="true" type="string" use="keyValue">version</arg>
+          </electronic>
+          <electronic type="other">
+            <value>1.3.0</value>
+            <arg required="true" type="string" use="keyValue">version</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetCapabilities</value>
+            <arg required="true" type="string" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetMap</value>
+            <arg required="true" type="string" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetFeatureInfo</value>
+            <arg required="true" type="string" use="keyValue">request</arg>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-8.9; southlimit=-44.0; westlimit=112.8; eastLimit=154.1; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordhttp://portal.auscope.org/OGC</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="anzsrc-for">04</subject>
+      <subject type="local">WMS</subject>
+      <description type="brief">OpenGIS Web Map Service (WMS) Implementation Specification</description>
+      <description type="full">The OpenGIS® Web Map Service Interface Standard (WMS) provides a simple HTTP interface for requesting geo-registered map images from one or more distributed geospatial databases. A WMS request defines the geographic layer(s) and area of interest to be processed. The response to the request is one or more geo-registered map images (returned as JPEG, PNG, etc) that can be displayed in a browser application. The interface also supports the ability to specify whether the returned images should be transparent so that layers from multiple servers can be combined or not.</description>
+      <rights>
+        <rightsStatement>© OGC 2001 – All rights reserved</rightsStatement>
+        <rightsStatement rightsUri="http://www.opengeospatial.org/legal/">Copyright © 2006 Open Geospatial Consortium, Inc. All Rights Reserved. To obtain additional rights of use, visit http://www.opengeospatial.org/legal/</rightsStatement>
+      </rights>
+      <accessPolicy>http://www.opengeospatial.org/projects/groups/geoxacmlswg</accessPolicy>
+      <relatedInfo type="publication">
+        <identifier type="uri">http://portal.opengeospatial.org/files/?artifact_id=1081</identifier>
+        <title>Web Map Service</title>
+        <notes>version 1.1.1, accessed 25 July 2012</notes>
+      </relatedInfo>
+      <relatedInfo type="publication">
+        <identifier type="uri">http://portal.opengeospatial.org/files/?artifact_id=14416</identifier>
+        <title>OpenGIS Web Map Service (WMS) Implementation Specification</title>
+        <notes>version 1.3.0, accessed 25 July 2012</notes>
+      </relatedInfo>
+    </service>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordhttp://portal.auscope.org/NCGRTData</key>
+    <originatingSource>http://www.groundwater.com.au</originatingSource>
+    <collection type="collection" dateModified="2012-07-24T16:37:00Z">
+      <identifier type="local">http://portal.auscope.org/NCGRTData</identifier>
+      <name type="primary">
+        <namePart>National Centre for Groundwater Research and Training Data</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.groundwater.com.au</value>
+          </electronic>
+        </address>
+      </location>
+      <relatedObject>
+        <key>validRecordhttp://portal.auscope.org/NCGRT</key>
+        <relation type="hasCollector"/>
+      </relatedObject>
+      <description type="brief">Groundwater wells, observations and modelling data. Linking geological and hydrogeological processes.</description>
+      <description type="full">
+					&amp;lt;p&amp;gt;
+		Groundwater research in Australia is entering an exciting new era. The Commonwealth and State governments have come together around the National Water Initiative. Groundwater investigations are highlighted in the National Groundwater Assessment Initiative which targets gaps in our knowledge about groundwater.&amp;lt;br /&amp;gt;
+		&amp;lt;br /&amp;gt;
+		Now, we have the National Centre for Groundwater Research and Training (NCGRT). For the first time researchers and professionals from many disciplines are pooling their expertise in five major research programs to unlock the secrets of Australia’s sub surface water systems. These programs reflect extensive consultations with state governments and industry: those who manage our water and the technologies and systems that are required to deliver it to users.&amp;lt;br /&amp;gt;
+		&amp;lt;br /&amp;gt;
+		Groundwater is often called the forgotten resource. Despite the fact that groundwater accounts for over 30 per cent of Australia’s water consumption, we simply do not know enough about this vital water resource, and how to manage it.&amp;lt;br /&amp;gt;
+		&amp;lt;br /&amp;gt;
+		With severe droughts and climate change placing extreme pressure on existing water supplies, there is an urgent need to expand this knowledge base.&amp;lt;br /&amp;gt;
+		&amp;lt;br /&amp;gt;
+		The NCGRT will coordinate the efforts of nearly 200 Australian and international researchers – many of whom are internationally recognised as leaders in their fields.&amp;lt;br /&amp;gt;
+		&amp;lt;br /&amp;gt;
+		Using the latest technology and infrastructure, our researchers are pioneering new hydrogeological research methods to investigate pressing questions relating to aquifers and aquitards; water flows in complex subterranean systems; and the largely unexplored link between surface water and groundwater.&amp;lt;br /&amp;gt;
+		&amp;lt;br /&amp;gt;
+		NCGRT research teams are studying groundwater-dependent ecosystems and the potential impact of climate change, while legal and policy experts are examining the highly complex area of socio-economics, policy-making and management.&amp;lt;br /&amp;gt;
+		&amp;lt;br /&amp;gt;
+		Some of the challenges facing our researchers are unique to Australia. They have to contend with:
+		&amp;lt;/p&amp;gt;
+		&amp;lt;ul&amp;gt;
+			&amp;lt;li&amp;gt;wide ranging climates from arid to tropical&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;topography that is mostly flat, which means that groundwater moves very slowly&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;wetlands and rivers that often disappear in summer&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;high levels of salinity&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;extensive periods of drought.&amp;lt;/li&amp;gt;
+		&amp;lt;/ul&amp;gt;
+		&amp;lt;p&amp;gt;
+		Through its major training and capacity building program, the NCGRT will deliver an understanding of our groundwater systems that will be critical for Australia’s future water security.&amp;lt;br /&amp;gt;
+		&amp;lt;br /&amp;gt;
+		Our Research Programs explore the key questions from the basic understanding of groundwater origins and processes, through groundwater interactions with surface water, vegetation, and the environment, to the decisions we are taking about the management of this resource.&amp;lt;br /&amp;gt;
+		&amp;lt;/p&amp;gt;
+		&amp;lt;ul&amp;gt;
+			&amp;lt;li&amp;gt;Program 1: Innovative Characterisation of Aquifers and Aquitards&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;Program 2: Hydrodynamics and Modelling of Complex Groundwater Systems&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;Program 3: Surface Water - Groundwater Interactions&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;Program 4: Groundwater-Vegetation-Atmosphere Interactions (GVI)&amp;lt;/li&amp;gt;
+			&amp;lt;li&amp;gt;Program 5: Integrating Socioeconomics, Policy and Decision Support&amp;lt;/li&amp;gt;
+		&amp;lt;/ul&amp;gt;
+			</description>
+      <description type="logo">http://www.groundwater.com.au/media/logo-icon.gif</description>
+      <rights>
+        <accessRights>Data is not available publicly. Please see contact page to gain access: http://www.groundwater.com.au/contactus.php.</accessRights>
+      </rights>
+      <subject type="anzsrc-for" xml:lang="en">040603</subject>
+      <subject type="local" xml:lang="en">Hydrogeology</subject>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-8.9; southlimit=-44.0; westlimit=112.8; eastLimit=154.1; projection=WGS84</spatial>
+      </coverage>
+      <relatedInfo type="website">
+        <identifier type="uri">http://www.groundwater.com.au</identifier>
+      </relatedInfo>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordhttp://portal.auscope.org/VVG</key>
+    <originatingSource>http://www.vvg.org.au</originatingSource>
+    <collection type="collection">
+      <identifier type="local">http://portal.auscope.org/VVG</identifier>
+      <name type="primary">
+        <namePart>Visualising Victoria's Groundwater</namePart>
+      </name>
+      <name type="abbreviated">
+        <namePart>VVG</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://maps.ubspatial.com.au/vvg.php</value>
+          </electronic>
+        </address>
+      </location>
+      <relatedObject>
+        <key>validRecordhttp://portal.auscope.org/UniOfBallarat</key>
+        <relation type="isManagedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>validRecordhttp://portal.auscope.org/VVGPortal</key>
+        <relation type="isAvailableThrough"/>
+      </relatedObject>
+      <relatedObject>
+        <key>validRecordhttp://portal.auscope.org/WFS</key>
+        <relation type="hasAssociationWith"/>
+      </relatedObject>
+      <description type="brief">Adapting new technologies to sustainably manage a precious resource: Visualising Victoria's groundwater.</description>
+      <description type="full">&amp;lt;p&amp;gt;The first iteration of the Visualising Victoria's Groundwater web-portal (released July 2012) displays the data for all of Victoria from the following sources:&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Department of Sustainability and Environment (DSE)&amp;lt;/p&amp;gt;&amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;Groundwater Management System (GMS)&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Victorian Aquifer Framework(VAF)&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;p&amp;gt;Department of Primary Industries (DPI)&amp;lt;/p&amp;gt;&amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;Geological Exploration and Development Information System (GEDIS)&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Salinity bore database from Future Farming Systems Research (FFSR)&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Seamless Geology&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;p&amp;gt;University of Ballarat (UB)&amp;lt;/p&amp;gt;&amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;Groundwater research bores and other bores not recorded elsewhere (UB Spatial)&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;p&amp;gt;Victorian Mineral Water Committee (VMWC)&amp;lt;/p&amp;gt;&amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;Victorian Mineral Springs database (VMSD)&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;p&amp;gt;	The quality of the bore data varies greatly. Note that bore records may be duplicated in the databases or between the databases, the locations may be wrong, data may be missing and sometimes data may be wrong.For this reason, the emphasis in the data collection has been to refer each record to its original source and link to the original source material where available. Over time it is proposed to edit each individual bore in the database to verify and clean the data where possible. As a general rule, bores in the State Observation Bore network, and groundwater research bores managed by the University have the most complete and accurate data.&amp;lt;/p&amp;gt;
+            </description>
+      <description type="logo">http://www.vvg.org.au/images/vvg-logo.jpg</description>
+      <rights>
+        <rightsStatement rightsUri="http://www.vvg.org.au/cb_pages/disclaimer.php">Terms and Conditions of Use.</rightsStatement>
+      </rights>
+      <subject type="anzsrc-for" xml:lang="en">040603</subject>
+      <subject type="local" xml:lang="en">Hydrogeology</subject>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-34.0; southlimit=-39.0; westlimit=141.0; eastLimit=150.0; projection=WGS84</spatial>
+      </coverage>
+      <relatedInfo type="website">
+        <identifier type="uri">http://www.vvg.org.au/cb_pages/about_the_data.php</identifier>
+      </relatedInfo>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordhttp://portal.auscope.org/NCGRT</key>
+    <originatingSource>http://www.groundwater.com.au</originatingSource>
+    <party type="group" dateModified="2012-07-19T16:26:17Z">
+      <name type="primary">
+        <namePart>National Centre for Groundwater Research and Training</namePart>
+      </name>
+      <name type="abbreviated">
+        <namePart>NCGRT</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="email">
+            <value>enquiries@groundwater.com.au</value>
+          </electronic>
+        </address>
+        <address>
+          <physical type="postalAddress">
+            <addressPart type="buildingOrPropertyName">School of the Environment, Flinders University</addressPart>
+            <addressPart type="addressLine">GPO Box 2100</addressPart>
+            <addressPart type="suburbOrPlaceOrLocality">Adelaide</addressPart>
+            <addressPart type="stateOrTerritory">South Australia</addressPart>
+            <addressPart type="postCode">5001</addressPart>
+            <addressPart type="country">Australia</addressPart>
+          </physical>
+        </address>
+        <address>
+          <physical type="streetAddress">
+            <addressPart type="floorOrLevelNumber">Room 326, Level 3</addressPart>
+            <addressPart type="buildingOrPropertyName">Information Science and Technology Building, Flinders University</addressPart>
+            <addressPart type="addressLine">Sturt Road</addressPart>
+            <addressPart type="suburbOrPlaceOrLocality">Bedford Park</addressPart>
+            <addressPart type="stateOrTerritory">South Australia</addressPart>
+            <addressPart type="postCode">5001</addressPart>
+            <addressPart type="country">Australia</addressPart>
+          </physical>
+          <physical>
+            <addressPart type="faxNumber">61-8-8201-5635</addressPart>
+          </physical>
+          <physical>
+            <addressPart type="telephoneNumber">61-8-8201-5632</addressPart>
+          </physical>
+        </address>
+      </location>
+      <description type="full">
+				&amp;lt;p&amp;gt;
+The National Centre for Groundwater Research and Training is a Co-Funded Centre of Excellence of the Australian Research Council and the National Water Commission.&amp;lt;br/&amp;gt;
+					&amp;lt;br/&amp;gt;
+The Centre was established in June 2009, with Commonwealth funding of $29.5M over five years.&amp;lt;br/&amp;gt;
+					&amp;lt;br/&amp;gt;
+Subsequent to the award of this core funding, the Centre was awarded an additional $15M over four years to develop groundwater research infrastructure as part of the Australian Government's Super Science (Marine and Climate) initiative, funded by the Education Infrastructure Fund and administered by the Department of Innovation, Industry, Science and Research.&amp;lt;br/&amp;gt;
+					&amp;lt;br/&amp;gt;
+This substantial investment in groundwater by the Australian Government has created an unprecedented opportunity for groundwater researchers and the industry, making us the envy of the groundwater world.&amp;lt;br/&amp;gt;
+					&amp;lt;br/&amp;gt;
+The National Centre for Groundwater Research and Training opens with:
+&amp;lt;/p&amp;gt;
+				&amp;lt;ul&amp;gt;
+					&amp;lt;li&amp;gt;$55M in cash funding to recruit personnel and build lasting research infrastructure&amp;lt;/li&amp;gt;
+					&amp;lt;li&amp;gt;A collaboration between twelve universities and eight industry and government organisations&amp;lt;/li&amp;gt;
+					&amp;lt;li&amp;gt;Thirty four of the top groundwater researchers in the nation collaborating on its research programs&amp;lt;/li&amp;gt;
+					&amp;lt;li&amp;gt;Research programs in South Australia, New South Wales, Queensland, Victoria, Western Australia, and the Australian Capital Territory&amp;lt;/li&amp;gt;
+					&amp;lt;li&amp;gt;Distinguished national and international scientists and research leaders providing guidance to the Centre through its advisory committees&amp;lt;/li&amp;gt;
+					&amp;lt;li&amp;gt;There has never been a better time to engage with the task of understanding Australia's hidden water resource, and about how to preserve and manage it for generations to come&amp;lt;/li&amp;gt;
+				&amp;lt;/ul&amp;gt;
+			</description>
+      <description type="logo">http://www.groundwater.com.au/media/logo-icon.gif</description>
+      <subject type="anzsrc-for" xml:lang="en">040603</subject>
+      <subject type="local" xml:lang="en">Hydrogeology</subject>
+    </party>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordTim Rawling</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <party type="person">
+      <identifier type="AU-ANL:PEAU">http://nla.gov.au/nla.party-513262</identifier>
+      <name type="primary">
+        <namePart>Tim Rawling</namePart>
+      </name>
+      <location>
+        <address>
+          <physical type="streetAddress">
+            <addressPart type="locationDescriptor">University of Melbourne</addressPart>
+            <addressPart type="country">Australia</addressPart>
+          </physical>
+        </address>
+      </location>
+      <location>
+        <address>
+          <physical type="streetAddress">
+            <addressPart type="locationDescriptor">University of Melbourne</addressPart>
+            <addressPart type="country">Australia</addressPart>
+          </physical>
+        </address>
+      </location>
+    </party>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordJame Cleverly</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart>Jame Cleverly</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="email">
+            <value>james.cleverley@csiro.au</value>
+          </electronic>
+          <physical type="streetAddress">
+            <addressPart type="locationDescriptor">CSIRO</addressPart>
+            <addressPart type="country">Australia</addressPart>
+          </physical>
+        </address>
+      </location>
+    </party>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordpmdcrc</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart>pmdcrc</namePart>
+      </name>
+      <location>
+        <address>
+          <physical type="streetAddress">
+            <addressPart type="locationDescriptor">pmdcrc</addressPart>
+            <addressPart type="country">Australia</addressPart>
+          </physical>
+        </address>
+      </location>
+    </party>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordLawrence Leader</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart>Lawrence Leader</namePart>
+      </name>
+      <location>
+        <address>
+          <physical type="streetAddress">
+            <addressPart type="locationDescriptor">Monash University</addressPart>
+            <addressPart type="country">Australia</addressPart>
+          </physical>
+        </address>
+      </location>
+    </party>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordTerry Lees</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart>Terry Lees</namePart>
+      </name>
+      <location>
+        <address>
+          <physical type="streetAddress">
+            <addressPart type="locationDescriptor">Monash University</addressPart>
+            <addressPart type="country">Australia</addressPart>
+          </physical>
+        </address>
+      </location>
+    </party>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordMichael Nugus</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart>Michael Nugus</namePart>
+      </name>
+      <location>
+        <address>
+          <physical type="streetAddress">
+            <addressPart type="country">Australia</addressPart>
+          </physical>
+        </address>
+      </location>
+    </party>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordpmd*CRC</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart>pmd*CRC</namePart>
+      </name>
+      <location>
+        <address>
+          <physical type="streetAddress">
+            <addressPart type="locationDescriptor">pmdcrc</addressPart>
+            <addressPart type="country">Australia</addressPart>
+          </physical>
+        </address>
+      </location>
+    </party>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordJohn McLellan</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart>John McLellan</namePart>
+      </name>
+      <location>
+        <address>
+          <physical type="streetAddress">
+            <addressPart type="country">Australia</addressPart>
+          </physical>
+        </address>
+      </location>
+    </party>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordCameron Cairns</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <party type="person">
+      <name type="primary">
+        <namePart>Cameron Cairns</namePart>
+      </name>
+      <location>
+        <address>
+          <physical type="streetAddress">
+            <addressPart type="locationDescriptor">Geological Survey of Victoria - Earth Resource Development Division</addressPart>
+            <addressPart type="suburbOrPlaceOrLocality">Melbourne</addressPart>
+            <addressPart type="country">AUSTRALIA</addressPart>
+          </physical>
+        </address>
+      </location>
+      <location>
+        <address>
+          <physical type="streetAddress">
+            <addressPart type="locationDescriptor">Geological Survey of Victoria - Earth Resource Development Division</addressPart>
+            <addressPart type="suburbOrPlaceOrLocality">Melbourne</addressPart>
+            <addressPart type="country">AUSTRALIA</addressPart>
+          </physical>
+        </address>
+      </location>
+    </party>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordebacae1c-bd67-4b75-ac68-ab4f676811e6</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">ebacae1c-bd67-4b75-ac68-ab4f676811e6</identifier>
+      <name type="primary">
+        <namePart>Borehole Portrayal View</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.auscope.org/gmap.html</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-26.0; southlimit=-38.5; westlimit=129.0; eastLimit=141.0; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordContactPerson</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">association:https://sarigdata.pir.sa.gov.au/resource/feature/pirsa/gsmlp/borehole/</subject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">GeoSciML Portrayal Borehole View for NVCL Borehole</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecord759f47a8-d992-4aac-ac60-06d3b1a74218</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">759f47a8-d992-4aac-ac60-06d3b1a74218</identifier>
+      <name type="primary">
+        <namePart>EarthResourceML mining feature occurrences of South Australia</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.auscope.org/gmap.html</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-26.0081548; southlimit=-38.0578316; westlimit=128.708579736566; eastLimit=142.252815555197; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordContactPerson</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">association:https://sarigdata.pir.sa.gov.au/ergrid/resource/feature/pirsa/er/miningfeatureoccurrence/</subject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">Mining feature occurrences of South Australia provided by Primary Industries and Resources SA (PIRSA).</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecord969a1a1f-3208-404a-9dba-3ab0bfb54abd</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">969a1a1f-3208-404a-9dba-3ab0bfb54abd</identifier>
+      <name type="primary">
+        <namePart>Mineral Occurrence Portrayal View of South Australia (1.0)</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.auscope.org/gmap.html</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-26.0034136; southlimit=-38.0578316; westlimit=127.795789641837; eastLimit=142.383444902867; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordContactPerson</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">association:https://sarigdata.pir.sa.gov.au/ergrid/resource/feature/pirsa/er/mineraloccurrence/</subject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">Eath Resource Mineral Occurrence Portrayal View provided by Primary Industries and Resources SA (PIRSA)  from the MINEDEX database.</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecord3b74f6ad-65b2-4a00-bed7-24b37bdb64d2</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">3b74f6ad-65b2-4a00-bed7-24b37bdb64d2</identifier>
+      <name type="primary">
+        <namePart>GeoSciML mapped features occurrences of South Australia</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.auscope.org/gmap.html</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-26.0034136; southlimit=-38.0578316; westlimit=127.795789641837; eastLimit=142.390600065995; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordContactPerson</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">association:https://sarigdata.pir.sa.gov.au/ergrid/resource/feature/pirsa/gsml/mappedfeature/</subject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">GeoSciML mapped features of South Australia provided by Primary Industries and Resources SA (PIRSA).</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordb17cf54b-b881-4bc4-b591-a45eedb42718</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">b17cf54b-b881-4bc4-b591-a45eedb42718</identifier>
+      <name type="primary">
+        <namePart>Borehole Portrayal View</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.auscope.org/gmap.html</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-26.0; southlimit=-38.5; westlimit=129.0; eastLimit=141.0; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordContactPerson</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">association:https://sarigdata.pir.sa.gov.au/resource/feature/pirsa/gsmlp/borehole/</subject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">GeoSciML Portrayal Borehole View for NVCL Borehole</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecorddda50a19-b45e-4d19-a606-28172c9c1e68</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">dda50a19-b45e-4d19-a606-28172c9c1e68</identifier>
+      <name type="primary">
+        <namePart>Boreholes</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.auscope.org/gmap.html</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-26.0; southlimit=-38.5; westlimit=129.0; eastLimit=141.0; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordContactPerson</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">This feature describes the existence, location and associated metadata of drill holes contained within the data provider catalogues.</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecord2bdb836e-6271-418d-8968-ed37f39afe0e</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">2bdb836e-6271-418d-8968-ed37f39afe0e</identifier>
+      <name type="primary">
+        <namePart>Simple NVCL TSA Results</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.auscope.org/gmap.html</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=0.0; southlimit=-1.0; westlimit=-1.0; eastLimit=0.0; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordContactPerson</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">This feature contains a series of observations and measurements made at regular intervals along a drill core or spatially associated drill chips.  The observations comprise suggested mineralogical interpretations generated with The Spectral Assistant(TSA) algorithm on visible and shortwave-infrared reflectance spectra and filtered by experienced analysts. The observations are represented as mineral species and mineral group predictions by name with associated weights(proportions). Proportions are only relative to the sum of the SWIR or VNIR spectral-active minerals sensed and are NOT modal abundances.  This feature is provided as a guide only and should be validated by the user using other methods. It is provided as a WFS simple feature type and can be download in csv format.</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecorda794785b-3683-4ac8-8a8a-6d9d5775e8c1</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">a794785b-3683-4ac8-8a8a-6d9d5775e8c1</identifier>
+      <name type="primary">
+        <namePart>ScannedBoreholeCollection</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.auscope.org/gmap.html</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=90.0; southlimit=-90.0; westlimit=-180.0; eastLimit=180.0; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordContactPerson</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">Scanned Borehole Collection</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecord68908386-7b8c-4722-b9b0-3339b0f673fa</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">68908386-7b8c-4722-b9b0-3339b0f673fa</identifier>
+      <name type="primary">
+        <namePart>NVCL TSA Results</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.auscope.org/gmap.html</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=90.0; southlimit=-90.0; westlimit=-180.0; eastLimit=180.0; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordContactPerson</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">This feature contains a series of observations and measurements made at regular intervals along a drill core or spatially associated drill chips.  The observations comprise suggested mineralogical interpretations generated with �The Spectral Assistant (TSA)� algorithm on visible and shortwave-infrared reflectance spectra and filtered by experienced analysts.  The observations are represented as mineral species and mineral group predictions by name with associated weights (proportions). Proportions are only relative to the sum of the SWIR or VNIR spectral-active minerals sensed and are NOT modal abundances.  This feature is provided as a guide only and should be validated by the user using other methods.</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecord51395ed6-6d79-4a2e-9c63-5e0a5fb34e8f</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">51395ed6-6d79-4a2e-9c63-5e0a5fb34e8f</identifier>
+      <name type="primary">
+        <namePart>Mineral Occurrence Portrayal View of South Australia (1.0)</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.auscope.org/gmap.html</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-26.0034136; southlimit=-38.0578316; westlimit=127.795789641837; eastLimit=142.383444902867; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordContactPerson</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">association:https://sarigdata.pir.sa.gov.au/ergrid/resource/feature/pirsa/er/mineraloccurrence/</subject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">Eath Resource Mineral Occurrence Portrayal View provided by Primary Industries and Resources SA (PIRSA)  from the MINEDEX database.</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecord01035e0f-90c9-4f37-a585-11db40ac3e05</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">01035e0f-90c9-4f37-a585-11db40ac3e05</identifier>
+      <name type="primary">
+        <namePart>GeoSciML mapped features occurrences of South Australia</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.auscope.org/gmap.html</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-26.0034136; southlimit=-38.0578316; westlimit=127.795789641837; eastLimit=142.390600065995; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordContactPerson</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">association:https://sarigdata.pir.sa.gov.au/ergrid/resource/feature/pirsa/gsml/mappedfeature/</subject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">GeoSciML mapped features of South Australia provided by Primary Industries and Resources SA (PIRSA).</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordf1ac61cb-adc7-4b41-ade3-3ad41bc89045</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">f1ac61cb-adc7-4b41-ade3-3ad41bc89045</identifier>
+      <name type="primary">
+        <namePart>EarthResourceML mining feature occurrences of South Australia</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.auscope.org/gmap.html</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-26.0081548; southlimit=-38.0578316; westlimit=128.708579736566; eastLimit=142.252815555197; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordContactPerson</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">association:https://sarigdata.pir.sa.gov.au/ergrid/resource/feature/pirsa/er/miningfeatureoccurrence/</subject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">Mining feature occurrences of South Australia provided by Primary Industries and Resources SA (PIRSA).</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecord88bdb3d0-7eb3-4fc7-b9cc-2e010912e34f</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">88bdb3d0-7eb3-4fc7-b9cc-2e010912e34f</identifier>
+      <name type="primary">
+        <namePart>EarthResourceML mining activities of South Australia</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.auscope.org/gmap.html</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-26.0; southlimit=-38.5; westlimit=129.0; eastLimit=141.0; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordContactPerson</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">Mining activities of South Australia provided by Primary Industries and Resources SA (PIRSA).</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordb3fe2d74-8490-4716-b2f6-3f73d9a3ae8a</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">b3fe2d74-8490-4716-b2f6-3f73d9a3ae8a</identifier>
+      <name type="primary">
+        <namePart>EarthResourceML mines of South Australia</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.auscope.org/gmap.html</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-26.0; southlimit=-38.5; westlimit=129.0; eastLimit=141.0; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordContactPerson</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">Mines of South Australia provided by Primary Industries and Resources SA (PIRSA).</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecord861df8d2-5c9a-4932-84b2-52da3d270033</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">861df8d2-5c9a-4932-84b2-52da3d270033</identifier>
+      <name type="primary">
+        <namePart>EarthResourceML mineral occurrences of South Australia</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.auscope.org/gmap.html</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-26.0; southlimit=-38.5; westlimit=129.0; eastLimit=141.0; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordContactPerson</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">Mineral occurrences of South Australia provided by Primary Industries and Resources SA (PIRSA).</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordb56d50e6-4316-4fdc-a908-b4b2649d1d24</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">b56d50e6-4316-4fdc-a908-b4b2649d1d24</identifier>
+      <name type="primary">
+        <namePart>EarthResourceML commodities of South Australia</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.auscope.org/gmap.html</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-26.0; southlimit=-38.5; westlimit=129.0; eastLimit=141.0; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordContactPerson</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">Commodities of South Australia provided by Primary Industries and Resources SA (PIRSA).</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecord5f758e10-7868-4333-8f52-957ae113b6f5</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">5f758e10-7868-4333-8f52-957ae113b6f5</identifier>
+      <name type="primary">
+        <namePart>Boreholes</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.auscope.org/gmap.html</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-26.0; southlimit=-38.5; westlimit=129.0; eastLimit=141.0; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordContactPerson</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">This feature describes the existence, location and associated metadata of drill holes contained within the data provider catalogues.</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecord5f86f2e9cb998d7b667909539008c17be94c2a75</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <service type="search-http">
+      <name type="primary">
+        <namePart>CSIRO Remanent Anomaly Map Service</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp; http://remanentanomalies.csiro.au/geoserver/wms?SERVICE=WMS&amp;</value>
+          </electronic>
+          <electronic type="other">
+            <value>WMS</value>
+            <arg type="string" required="true" use="keyValue">service</arg>
+          </electronic>
+          <electronic type="other">
+            <value>1.1.1</value>
+            <arg type="string" required="true" use="keyValue">version</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetCapabilities</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetMap</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetFeatureInfo</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>DescribeLayer</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetLegendGraphic</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetStyles</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>RemAnomAutoSearch:AutoSearchAnomalies</value>
+            <arg type="string" required="true" use="keyValue">layers</arg>
+          </electronic>
+          <electronic type="other">
+            <value>RemAnom:Anomaly</value>
+            <arg type="string" required="true" use="keyValue">layers</arg>
+          </electronic>
+          <electronic type="other">
+            <value>mag:AUS5 - Total Magnetic Intensity</value>
+            <arg type="string" required="true" use="keyValue">layers</arg>
+          </electronic>
+        </address>
+      </location>
+      <relatedInfo type="reuseInformation">
+        <identifier type="uri">http://www.opengeospatial.org/standards/wms</identifier>
+      </relatedInfo>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-8.322690079864513; southlimit=-45; westlimit=110; eastLimit=160; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordClive Foss</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">WFS</subject>
+      <subject type="local">WMS</subject>
+      <subject type="local">GEOSERVER</subject>
+      <description type="brief">CSIRO Remanent Anomaly Map Service</description>
+      <rights>
+        <accessRights>There are no access rights associated with this service.</accessRights>
+      </rights>
+    </service>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordc448cae7fafe012529c11df4767824a4e13000ae</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <service type="search-http">
+      <name type="primary">
+        <namePart>Earth Magnetic Anomaly Grid TDS instance</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://remanentanomalies.csiro.au/thredds/wms/Emag2/EMAG2.nc</value>
+          </electronic>
+          <electronic type="other">
+            <value>WMS</value>
+            <arg type="string" required="true" use="keyValue">service</arg>
+          </electronic>
+          <electronic type="other">
+            <value>1.3.0</value>
+            <arg type="string" required="true" use="keyValue">version</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetCapabilities</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetMap</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetFeatureInfo</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>z</value>
+            <arg type="string" required="true" use="keyValue">layers</arg>
+          </electronic>
+        </address>
+      </location>
+      <relatedInfo type="reuseInformation">
+        <identifier type="uri">http://www.opengeospatial.org/standards/wms</identifier>
+      </relatedInfo>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=90; southlimit=-90; westlimit=-180; eastLimit=180; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordPeter Warren</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">meteorology</subject>
+      <subject type="local">atmosphere</subject>
+      <subject type="local">climate</subject>
+      <subject type="local">ocean</subject>
+      <subject type="local">earth science</subject>
+      <description type="brief">Earth Magnetic Anomaly Grid</description>
+      <rights>
+        <accessRights>There are no access rights associated with this service.</accessRights>
+      </rights>
+    </service>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecord0b95266f042dae1a2c0cc06c538c7baa9fa511a8</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <service type="search-http">
+      <name type="primary">
+        <namePart>CSIRO Remanent Anomaly Feature Service</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://remanentanomalies.csiro.au/geoserverEMAG/wfs</value>
+          </electronic>
+          <electronic type="other">
+            <value>WFS</value>
+            <arg type="string" required="true" use="keyValue">service</arg>
+          </electronic>
+          <electronic type="other">
+            <value>1.1.0</value>
+            <arg type="string" required="true" use="keyValue">version</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetCapabilities</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>DescribeFeatureType</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetFeature</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetGmlObject</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>LockFeature</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetFeatureWithLock</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>Transaction</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>RemAnom:Anomaly</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+        </address>
+      </location>
+      <relatedInfo type="reuseInformation">
+        <identifier type="uri">http://www.opengeospatial.org/standards/wfs</identifier>
+      </relatedInfo>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-10; southlimit=-45; westlimit=110; eastLimit=160; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordPeter Warren</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">WFS</subject>
+      <subject type="local">WMS</subject>
+      <subject type="local">GEOSERVER</subject>
+      <description type="brief">CSIRO Remanent Anomaly GeoServer Web Feature Service</description>
+      <rights>
+        <accessRights>There are no access rights associated with this service.</accessRights>
+      </rights>
+    </service>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordfc790bdcd654f43f5b57d1e0f23dd06c60284472</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <service type="search-http">
+      <name type="primary">
+        <namePart>Geological Survey of New South Wales - Borehole Data WFS</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://auscope.dpi.nsw.gov.au:80/geoserver/wfs</value>
+          </electronic>
+          <electronic type="other">
+            <value>WFS</value>
+            <arg type="string" required="true" use="keyValue">service</arg>
+          </electronic>
+          <electronic type="other">
+            <value>1.1.0</value>
+            <arg type="string" required="true" use="keyValue">version</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetCapabilities</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>DescribeFeatureType</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetFeature</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetGmlObject</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>LockFeature</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetFeatureWithLock</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>Transaction</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>nvcl:ScannedBoreholeCollection</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>sa:SamplingFeatureCollection</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>mt:MineralTenement</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>gsml:Borehole</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>gsmlp:BoreholeView</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+        </address>
+      </location>
+      <relatedInfo type="reuseInformation">
+        <identifier type="uri">http://www.opengeospatial.org/standards/wfs</identifier>
+      </relatedInfo>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=90; southlimit=-90; westlimit=-180; eastLimit=180; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordDr Meagan Clissold</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">WFS</subject>
+      <subject type="local">WMS</subject>
+      <subject type="local">GEOSERVER</subject>
+      <description type="brief">Geoscience data layers from the Geological Survey of New South Wales. The service includes boreholes (including those scanned for the National Virtual Core Library). This service provides borehole features and the results of analysis performed on them.  The borehole feature describes drill holes (diamond or otherwise) for which the data provider stores core or chips in their core libraries for public access. The boreholes and cores were created through publicly funded (government) programs or submitted as required by legislation or by voluntary donations.  This service also provides the results of spectral analysis and interpretations performed by the data provider using CSIRO HyLogging instruments and software.</description>
+      <rights>
+        <accessRights>There are no access rights associated with this service.</accessRights>
+      </rights>
+    </service>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordDr Meagan Clissold</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <party type="person">
+      <identifier type="AU-ANL:PEAU">http://nla.gov.au/nla.party-1501009</identifier>
+      <name type="primary">
+        <namePart>Dr Meagan Clissold</namePart>
+      </name>
+      <location>
+        <address>
+          <physical>
+            <addressPart type="telephoneNumber">612-4777-0322</addressPart>
+          </physical>
+          <physical>
+            <addressPart type="faxNumber">612-4777-4397</addressPart>
+          </physical>
+          <physical type="streetAddress">
+            <addressPart type="locationDescriptor">Geological Survey of NSW</addressPart>
+            <addressPart type="suburbOrPlaceOrLocality">Sydney</addressPart>
+            <addressPart type="stateOrTerritory">New South Wales</addressPart>
+            <addressPart type="postCode">2753</addressPart>
+            <addressPart type="country">Australia</addressPart>
+          </physical>
+        </address>
+      </location>
+      <location>
+        <address>
+          <physical>
+            <addressPart type="telephoneNumber">612-4777-0322</addressPart>
+          </physical>
+          <physical>
+            <addressPart type="faxNumber">612-4777-4397</addressPart>
+          </physical>
+          <physical type="streetAddress">
+            <addressPart type="locationDescriptor">Geological Survey of NSW</addressPart>
+            <addressPart type="suburbOrPlaceOrLocality">Sydney</addressPart>
+            <addressPart type="stateOrTerritory">New South Wales</addressPart>
+            <addressPart type="postCode">2753</addressPart>
+            <addressPart type="country">Australia</addressPart>
+          </physical>
+        </address>
+      </location>
+    </party>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecord0e0a0a68753e9b740df9979a117467422c953984</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <service type="search-http">
+      <name type="primary">
+        <namePart>CSIRO Earth Science and Resource Engineering (CESRE) Shared Well Data</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://services.auscope.org:80/pressuredb/wfs</value>
+          </electronic>
+          <electronic type="other">
+            <value>WFS</value>
+            <arg type="string" required="true" use="keyValue">service</arg>
+          </electronic>
+          <electronic type="other">
+            <value>1.1.0</value>
+            <arg type="string" required="true" use="keyValue">version</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetCapabilities</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>DescribeFeatureType</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetFeature</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetGmlObject</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>pdb:MV_PW_TEMPERATURE</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>pdb:MV_BOREHOLE_HEADER</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>pdb:t</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>pdb:tds</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>pdb:nacl</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>pdb:cl</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>pdb:rft</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>pdb:fitp</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>gsml:Borehole</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>pdb:dst</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>gsmlp:BoreholeView</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+        </address>
+      </location>
+      <relatedInfo type="reuseInformation">
+        <identifier type="uri">http://www.opengeospatial.org/standards/wfs</identifier>
+      </relatedInfo>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=1; southlimit=-54.7539; westlimit=-1; eastLimit=174.3169417; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordChristine Trefry</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">WFS</subject>
+      <subject type="local">WMS</subject>
+      <subject type="local">GEOSERVER</subject>
+      <description type="brief">Geological data from oil and gas wells provided by The West Australian Geothermal Centre of Excellence (WAGCOE) presented using GeoSciML data model.  This service provides the community information on wells within the state including pressure, temperature, salinity and other information important to the research community.</description>
+      <rights>
+        <accessRights>There are no access rights associated with this service.</accessRights>
+      </rights>
+    </service>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecord6a30f106-6154-4aa3-aae1-f9487f51d04f</key>
+    <originatingSource>http://gsnsw.arrc.csiro.au:80/gsnsw-earthresource/wfs</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">6a30f106-6154-4aa3-aae1-f9487f51d04f</identifier>
+      <name type="primary">
+        <namePart>GeoSciML mapped features Mineral Occurrences of NSW of Australia</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://gsnsw.arrc.csiro.au:80/gsnsw-earthresource/wfs?service=WFS&amp;amp;request=GetCapabilities</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-8.957769999999995; southlimit=-55.931830000000005; westlimit=112.44646999999999; eastLimit=159.42053; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordhttp://portal.auscope.org/Geological Survey of New South Wales</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <relatedObject>
+        <key>validRecordhttp://portal.auscope.org/WFS</key>
+        <relation type="hasAssociationWith"/>
+      </relatedObject>
+      <relatedInfo type="reuseInformation">
+        <identifier type="uri">http://www.opengeospatial.org/standards/wfs</identifier>
+      </relatedInfo>
+      <relatedInfo type="website">
+        <identifier type="uri">http://portal.auscope.org/gmap.html</identifier>
+      </relatedInfo>
+      <subject type="anzsrc-for">04</subject>
+      <subject type="local">association:http://services.auscope.org/resource/feature/gsnsw/gsml/MappedFeature</subject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">GeoSciML mapped features of NSW of Australia provided by Geological Survey of NSW</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordbac4789d-dee2-47cf-a471-f7a4843a1dfc</key>
+    <originatingSource>http://gsnsw.arrc.csiro.au:80/gsnsw-earthresource/wms?SERVICE=WMS&amp;amp;</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">bac4789d-dee2-47cf-a471-f7a4843a1dfc</identifier>
+      <name type="primary">
+        <namePart>GeoSciML mapped features Mineral Occurrences of NSW of Australia</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://gsnsw.arrc.csiro.au:80/gsnsw-earthresource/wms?SERVICE=WMS&amp;amp;service=WMS&amp;amp;request=GetCapabilities</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-8.957769999999995; southlimit=-55.931830000000005; westlimit=112.44646999999999; eastLimit=159.42053; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordhttp://portal.auscope.org/Geological Survey of New South Wales</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <relatedObject>
+        <key>validRecordhttp://portal.auscope.org/WMS</key>
+        <relation type="hasAssociationWith"/>
+      </relatedObject>
+      <relatedInfo type="reuseInformation">
+        <identifier type="uri">http://www.opengeospatial.org/standards/wms</identifier>
+      </relatedInfo>
+      <relatedInfo type="website">
+        <identifier type="uri">http://portal.auscope.org/gmap.html</identifier>
+      </relatedInfo>
+      <subject type="anzsrc-for">04</subject>
+      <subject type="local">association:http://services.auscope.org/resource/feature/gsnsw/gsml/MappedFeature</subject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">GeoSciML mapped features of NSW of Australia provided by Geological Survey of NSW</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecorddc8f920b-a298-4be9-a2a5-61c53c47bcfc</key>
+    <originatingSource>http://gsnsw.arrc.csiro.au:80/gsnsw-earthresource/wfs</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">dc8f920b-a298-4be9-a2a5-61c53c47bcfc</identifier>
+      <name type="primary">
+        <namePart>Geological Survey of NSW  EarthResourceML (1.1) Mining Feature Occurrences</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://gsnsw.arrc.csiro.au:80/gsnsw-earthresource/wfs?service=WFS&amp;amp;request=GetCapabilities</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-8.957769999999995; southlimit=-55.931830000000005; westlimit=112.44646999999999; eastLimit=159.42053; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordhttp://portal.auscope.org/Geological Survey of New South Wales</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <relatedObject>
+        <key>validRecordhttp://portal.auscope.org/WFS</key>
+        <relation type="hasAssociationWith"/>
+      </relatedObject>
+      <relatedInfo type="reuseInformation">
+        <identifier type="uri">http://www.opengeospatial.org/standards/wfs</identifier>
+      </relatedInfo>
+      <relatedInfo type="website">
+        <identifier type="uri">http://portal.auscope.org/gmap.html</identifier>
+      </relatedInfo>
+      <subject type="anzsrc-for">04</subject>
+      <subject type="local">association:http://services.auscope.org/resource/feature/gsnsw/er/MiningFeatureOccurrence</subject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">The locations of Mines and Mining Activities of NSW provided by Geological Survey of NSW from the MetIndEx database. Data presented using the EarthResourceML (version 1.1) data model.</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordda75fc07-2bea-4e06-803c-60f74e9518f8</key>
+    <originatingSource>http://gsnsw.arrc.csiro.au:80/gsnsw-earthresource/wms?SERVICE=WMS&amp;amp;</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">da75fc07-2bea-4e06-803c-60f74e9518f8</identifier>
+      <name type="primary">
+        <namePart>Geological Survey of NSW  EarthResourceML (1.1) Mining Feature Occurrences</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://gsnsw.arrc.csiro.au:80/gsnsw-earthresource/wms?SERVICE=WMS&amp;amp;service=WMS&amp;amp;request=GetCapabilities</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-8.957769999999995; southlimit=-55.931830000000005; westlimit=112.44646999999999; eastLimit=159.42053; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordhttp://portal.auscope.org/Geological Survey of New South Wales</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <relatedObject>
+        <key>validRecordhttp://portal.auscope.org/WMS</key>
+        <relation type="hasAssociationWith"/>
+      </relatedObject>
+      <relatedInfo type="reuseInformation">
+        <identifier type="uri">http://www.opengeospatial.org/standards/wms</identifier>
+      </relatedInfo>
+      <relatedInfo type="website">
+        <identifier type="uri">http://portal.auscope.org/gmap.html</identifier>
+      </relatedInfo>
+      <subject type="anzsrc-for">04</subject>
+      <subject type="local">association:http://services.auscope.org/resource/feature/gsnsw/er/MiningFeatureOccurrence</subject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">The locations of Mines and Mining Activities of NSW provided by Geological Survey of NSW from the MetIndEx database. Data presented using the EarthResourceML (version 1.1) data model.</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordd8290f82-ef2b-4546-82dc-af335defb933</key>
+    <originatingSource>http://gsnsw.arrc.csiro.au:80/gsnsw-earthresource/wfs</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">d8290f82-ef2b-4546-82dc-af335defb933</identifier>
+      <name type="primary">
+        <namePart>Geological Survey of NSW EarthResourceML (1.1) Commodities</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://gsnsw.arrc.csiro.au:80/gsnsw-earthresource/wfs?service=WFS&amp;amp;request=GetCapabilities</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-10.1357; southlimit=-54.7539; westlimit=112.907; eastLimit=158.96; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordhttp://portal.auscope.org/Geological Survey of New South Wales</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <relatedObject>
+        <key>validRecordhttp://portal.auscope.org/WFS</key>
+        <relation type="hasAssociationWith"/>
+      </relatedObject>
+      <relatedInfo type="reuseInformation">
+        <identifier type="uri">http://www.opengeospatial.org/standards/wfs</identifier>
+      </relatedInfo>
+      <relatedInfo type="website">
+        <identifier type="uri">http://portal.auscope.org/gmap.html</identifier>
+      </relatedInfo>
+      <subject type="anzsrc-for">04</subject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">Mineral commodities of NSW provided by Geological Survey of NSW from the MetIndEx database. Data presented using the EarthResourceML (version 1.1) data model.</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecord796b64f3-9d64-4284-bbc9-9742a1ed407e</key>
+    <originatingSource>http://gsnsw.arrc.csiro.au:80/gsnsw-earthresource/wfs</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">796b64f3-9d64-4284-bbc9-9742a1ed407e</identifier>
+      <name type="primary">
+        <namePart>Geological Survey of NSW EarthResourceML (1.1) Mineral Occurrences</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://gsnsw.arrc.csiro.au:80/gsnsw-earthresource/wfs?service=WFS&amp;amp;request=GetCapabilities</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-10.1357; southlimit=-54.7539; westlimit=112.907; eastLimit=158.96; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordhttp://portal.auscope.org/Geological Survey of New South Wales</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <relatedObject>
+        <key>validRecordhttp://portal.auscope.org/WFS</key>
+        <relation type="hasAssociationWith"/>
+      </relatedObject>
+      <relatedInfo type="reuseInformation">
+        <identifier type="uri">http://www.opengeospatial.org/standards/wfs</identifier>
+      </relatedInfo>
+      <relatedInfo type="website">
+        <identifier type="uri">http://portal.auscope.org/gmap.html</identifier>
+      </relatedInfo>
+      <subject type="anzsrc-for">04</subject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">Mineral occurrences of NSW provided by Geological Survey of NSW from the MetIndEx database. Data presented using the EarthResourceML (version 1.1) data model.</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordc2875282-787f-4518-9112-bf9fdd22177e</key>
+    <originatingSource>http://gsnsw.arrc.csiro.au:80/gsnsw-earthresource/wfs</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">c2875282-787f-4518-9112-bf9fdd22177e</identifier>
+      <name type="primary">
+        <namePart>Geological Survey of NSW EarthResourceML (1.1) Mines</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://gsnsw.arrc.csiro.au:80/gsnsw-earthresource/wfs?service=WFS&amp;amp;request=GetCapabilities</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-10.1357; southlimit=-54.7539; westlimit=112.907; eastLimit=158.96; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordhttp://portal.auscope.org/Geological Survey of New South Wales</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <relatedObject>
+        <key>validRecordhttp://portal.auscope.org/WFS</key>
+        <relation type="hasAssociationWith"/>
+      </relatedObject>
+      <relatedInfo type="reuseInformation">
+        <identifier type="uri">http://www.opengeospatial.org/standards/wfs</identifier>
+      </relatedInfo>
+      <relatedInfo type="website">
+        <identifier type="uri">http://portal.auscope.org/gmap.html</identifier>
+      </relatedInfo>
+      <subject type="anzsrc-for">04</subject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">Mines of NSW provided by Geological Survey of NSW from the MetIndEx database. Data presented using the EarthResourceML (version 1.1) data model.</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecord71f5011f-a48d-4e4d-a90e-5bb6ceed21a7</key>
+    <originatingSource>http://gsnsw.arrc.csiro.au:80/gsnsw-earthresource/wfs</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">71f5011f-a48d-4e4d-a90e-5bb6ceed21a7</identifier>
+      <name type="primary">
+        <namePart>Geological Survey of NSW EarthResourceML (1.1) Mining Activities</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://gsnsw.arrc.csiro.au:80/gsnsw-earthresource/wfs?service=WFS&amp;amp;request=GetCapabilities</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-10.1357; southlimit=-54.7539; westlimit=112.907; eastLimit=158.96; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordhttp://portal.auscope.org/Geological Survey of New South Wales</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <relatedObject>
+        <key>validRecordhttp://portal.auscope.org/WFS</key>
+        <relation type="hasAssociationWith"/>
+      </relatedObject>
+      <relatedInfo type="reuseInformation">
+        <identifier type="uri">http://www.opengeospatial.org/standards/wfs</identifier>
+      </relatedInfo>
+      <relatedInfo type="website">
+        <identifier type="uri">http://portal.auscope.org/gmap.html</identifier>
+      </relatedInfo>
+      <subject type="anzsrc-for">04</subject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">Mining Activities of NSW provided by Geological Survey of NSW from the MetIndEx database. Data presented using the EarthResourceML (version 1.1) data model.</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordChristine Trefry</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <party type="person">
+      <identifier type="AU-ANL:PEAU">http://nla.gov.au/nla.party-1501005</identifier>
+      <name type="primary">
+        <namePart>Christine Trefry</namePart>
+      </name>
+      <location>
+        <address>
+          <physical>
+            <addressPart type="telephoneNumber">61--8-643-68528</addressPart>
+          </physical>
+          <physical>
+            <addressPart type="faxNumber">61-8-6436-8555</addressPart>
+          </physical>
+          <physical type="streetAddress">
+            <addressPart type="locationDescriptor">CSIRO Petroleum</addressPart>
+            <addressPart type="addressLine">26 Dick Perry Avenue</addressPart>
+            <addressPart type="suburbOrPlaceOrLocality">Kensington</addressPart>
+            <addressPart type="stateOrTerritory">Western Australia</addressPart>
+            <addressPart type="postCode">6151</addressPart>
+            <addressPart type="country">Australia</addressPart>
+          </physical>
+        </address>
+      </location>
+      <location>
+        <address>
+          <physical>
+            <addressPart type="telephoneNumber">61--8-643-68528</addressPart>
+          </physical>
+          <physical>
+            <addressPart type="faxNumber">61-8-6436-8555</addressPart>
+          </physical>
+          <physical type="streetAddress">
+            <addressPart type="locationDescriptor">CSIRO Petroleum</addressPart>
+            <addressPart type="addressLine">26 Dick Perry Avenue</addressPart>
+            <addressPart type="suburbOrPlaceOrLocality">Kensington</addressPart>
+            <addressPart type="stateOrTerritory">Western Australia</addressPart>
+            <addressPart type="postCode">6151</addressPart>
+            <addressPart type="country">Australia</addressPart>
+          </physical>
+        </address>
+      </location>
+    </party>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordf8018c90d9a03b631d06d10a43259dd5eab3d01e</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <service type="search-http">
+      <name type="primary">
+        <namePart>Geological Survey of New South Wales</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://gsnsw.arrc.csiro.au:80/gsnsw-earthresource/wfs</value>
+          </electronic>
+          <electronic type="other">
+            <value>WFS</value>
+            <arg type="string" required="true" use="keyValue">service</arg>
+          </electronic>
+          <electronic type="other">
+            <value>1.1.0</value>
+            <arg type="string" required="true" use="keyValue">version</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetCapabilities</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>DescribeFeatureType</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetFeature</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetGmlObject</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>LockFeature</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetFeatureWithLock</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>Transaction</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>test:rs_sample</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>mo:MinOccView</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>er:MiningActivity</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>er:Mine</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>er:MineralOccurrence</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>er:Commodity</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>er:MiningFeatureOccurrence</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>gsml:MappedFeature</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+        </address>
+      </location>
+      <relatedInfo type="reuseInformation">
+        <identifier type="uri">http://www.opengeospatial.org/standards/wfs</identifier>
+      </relatedInfo>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-7; southlimit=-41.07791560000002; westlimit=-179.838656390972; eastLimit=179.172835903053; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordGeological Survey of New South Wales</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">WFS</subject>
+      <subject type="local">WMS</subject>
+      <subject type="local">GEOSERVER</subject>
+      <description type="brief">Metallic and Industrial Mineral Occurrences of NSW provided by Geological Survey of New South Wales</description>
+      <rights>
+        <accessRights>There are no access rights associated with this service.</accessRights>
+      </rights>
+    </service>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecord1dae5bfd71e666daa89f19c92c73a8f3e9e3bfd0</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <service type="search-http">
+      <name type="primary">
+        <namePart>Victorian Department of Primary Industries - Earth Resource Development Division (ERDD) EarthResourceML WFS</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://geology.data.vic.gov.au/services/earthresourceml/wfs</value>
+          </electronic>
+          <electronic type="other">
+            <value>WFS</value>
+            <arg type="string" required="true" use="keyValue">service</arg>
+          </electronic>
+          <electronic type="other">
+            <value>1.1.0</value>
+            <arg type="string" required="true" use="keyValue">version</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetCapabilities</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>DescribeFeatureType</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetFeature</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetGmlObject</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>er:MiningFeatureOccurrence</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>er:MiningActivity</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>er:Mine</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>gsml:MappedFeature</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>er:MineralOccurrence</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>er:Commodity</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+        </address>
+      </location>
+      <relatedInfo type="reuseInformation">
+        <identifier type="uri">http://www.opengeospatial.org/standards/wfs</identifier>
+      </relatedInfo>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-33; southlimit=-40; westlimit=140; eastLimit=150; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordCameron Cairns</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">WFS</subject>
+      <subject type="local">GEOSERVER</subject>
+      <description type="brief">EarthResourceML feature types generated from the Victorian Department of Primary Industries - Earth Resource Development Division's (ERDD) VicMine database.</description>
+      <rights>
+        <accessRights>There are no access rights associated with this service.</accessRights>
+      </rights>
+    </service>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>InValidRecordc7d6a6d6b3df6aea637686b39be58a164b58dec1</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <service type="search-http">
+      <name type="primary">
+        <namePart>Geological Survey of New South Wales</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://gsnsw.arrc.csiro.au:80/gsnsw-earthresource/wms?SERVICE=WMS&amp; http://gsnsw.arrc.csiro.au:80/gsnsw-earthresource/wms?SERVICE=WMS&amp;</value>
+          </electronic>
+          <electronic type="other">
+            <value>WMS</value>
+            <arg type="string" required="true" use="keyValue">service</arg>
+          </electronic>
+          <electronic type="other">
+            <value>1.1.1</value>
+            <arg type="string" required="true" use="keyValue">version</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetCapabilities</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetMap</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetFeatureInfo</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>DescribeLayer</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetLegendGraphic</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetStyles</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>test:rs_sample</value>
+            <arg type="string" required="true" use="keyValue">layers</arg>
+          </electronic>
+          <electronic type="other">
+            <value>er:MiningFeatureOccurrence</value>
+            <arg type="string" required="true" use="keyValue">layers</arg>
+          </electronic>
+          <electronic type="other">
+            <value>mo:MinOccView</value>
+            <arg type="string" required="true" use="keyValue">layers</arg>
+          </electronic>
+          <electronic type="other">
+            <value>gsml:MappedFeature</value>
+            <arg type="string" required="true" use="keyValue">layers</arg>
+          </electronic>
+        </address>
+      </location>
+      <relatedInfo type="reuseInformation">
+        <identifier type="uri">http://www.opengeospatial.org/standards/wms</identifier>
+      </relatedInfo>
+      <coverage>
+        <spatial invalidAttribute="333" type="iso19139dcmiBox">northlimit=-7; southlimit=-41.07791560000002; westlimit=-179.838656390972; eastLimit=179.172835903053; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordGeological Survey of New South Wales</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">WFS</subject>
+      <subject type="local">WMS</subject>
+      <subject type="local">GEOSERVER</subject>
+      <description type="brief">Metallic and Industrial Mineral Occurrences of NSW provided by Geological Survey of New South Wales</description>
+      <rights>
+        <accessRights>There are no access rights associated with this service.</accessRights>
+      </rights>
+    </service>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordGeological Survey of New South Wales</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <party type="group">
+      <identifier type="AU-ANL:PEAU">http://nla.gov.au/nla.party-510262</identifier>
+      <name type="primary">
+        <namePart>Geological Survey of New South Wales</namePart>
+      </name>
+      <location>
+        <address>
+          <physical>
+            <addressPart type="telephoneNumber">61-2-4931-65822</addressPart>
+          </physical>
+          <physical>
+            <addressPart type="faxNumber">61-2-4931-6790</addressPart>
+          </physical>
+          <physical type="streetAddress">
+            <addressPart type="locationDescriptor">Geological Survey of New South Wales</addressPart>
+            <addressPart type="suburbOrPlaceOrLocality">Maitland</addressPart>
+            <addressPart type="stateOrTerritory">New South Wales</addressPart>
+            <addressPart type="postCode">2320</addressPart>
+            <addressPart type="country">Australia</addressPart>
+          </physical>
+        </address>
+      </location>
+      <location>
+        <address>
+          <physical>
+            <addressPart type="telephoneNumber">61-2-4931-65822</addressPart>
+          </physical>
+          <physical>
+            <addressPart type="faxNumber">61-2-4931-6790</addressPart>
+          </physical>
+          <physical type="streetAddress">
+            <addressPart type="locationDescriptor">Geological Survey of New South Wales</addressPart>
+            <addressPart type="suburbOrPlaceOrLocality">Maitland</addressPart>
+            <addressPart type="stateOrTerritory">New South Wales</addressPart>
+            <addressPart type="postCode">2320</addressPart>
+            <addressPart type="country">Australia</addressPart>
+          </physical>
+        </address>
+      </location>
+    </party>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecord668385f1-ae68-48ce-9167-0814c510a4e3</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">668385f1-ae68-48ce-9167-0814c510a4e3</identifier>
+      <name type="primary">
+        <namePart>Boreholes of Tasmania</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.auscope.org/gmap.html</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-38.0; southlimit=-44.5; westlimit=142.5; eastLimit=150.0; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordWeb Enquiries</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">This feature describes the existence, location and associated metadata of drill holes contained within Tasmania.</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecord7cba7c79761add71a4b152739bb59b0ed43c0148</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <service type="search-http">
+      <name type="primary">
+        <namePart>Mineral Resources Tasmania (MRT) Web Feature Service</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.mrt.tas.gov.au:80/web-services/wfs</value>
+          </electronic>
+          <electronic type="other">
+            <value>WFS</value>
+            <arg type="string" required="true" use="keyValue">service</arg>
+          </electronic>
+          <electronic type="other">
+            <value>1.1.0</value>
+            <arg type="string" required="true" use="keyValue">version</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetCapabilities</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>DescribeFeatureType</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetFeature</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetGmlObject</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>LockFeature</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetFeatureWithLock</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>Transaction</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value/>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>nvcl:ScannedBoreholeCollection</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>sa:SamplingFeatureCollection</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>mt:MineralTenement</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>mo:MinOccView</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value/>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>gsml:MappedFeature</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>er:MiningFeatureOccurrence</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>er:MiningActivity</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>er:Mine</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>er:MineralOccurrence</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>er:Commodity</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>gsml:Borehole</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>gsmlp:BoreholeView</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value/>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+        </address>
+      </location>
+      <relatedInfo type="reuseInformation">
+        <identifier type="uri">http://www.opengeospatial.org/standards/wfs</identifier>
+      </relatedInfo>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=0; southlimit=-44.76578882158265; westlimit=-1; eastLimit=150; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordWeb Enquiries</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">WFS</subject>
+      <subject type="local">WMS</subject>
+      <subject type="local">GEOSERVER</subject>
+      <description type="brief">WFS 1.0.0 and WFS 1.1.0</description>
+      <rights>
+        <accessRights>There are no access rights associated with this service.</accessRights>
+      </rights>
+    </service>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecord38ed9372-23e0-4c1b-90e1-e00005ef9c68</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">38ed9372-23e0-4c1b-90e1-e00005ef9c68</identifier>
+      <name type="primary">
+        <namePart>EarthResourceML mining feature occurrences of Tasmania</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.auscope.org/gmap.html</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-38.0; southlimit=-44.5; westlimit=142.5; eastLimit=150.0; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordWeb Enquiries</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">association:http://www.mrt.tas.gov.au/resource/feature/mrt/gsml/miningfeatureoccurrence</subject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">Mining feature occurrences of Tasmania provided by Mineral Resources Tasmania (MRT).</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecord400be97c-5fd3-463f-8351-bb885f51ad66</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">400be97c-5fd3-463f-8351-bb885f51ad66</identifier>
+      <name type="primary">
+        <namePart>Borehole Portrayal View of Tasmania</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.auscope.org/gmap.html</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-38.0; southlimit=-44.5; westlimit=142.5; eastLimit=150.0; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordWeb Enquiries</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">association:http://www.mrt.tas.gov.au/resource/feature/mrt/gsmlp/borehole/</subject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">GeoSciML Portrayal Borehole View for NVCL Borehole Mineral Resources Tasmania (MRT)</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordfce1044b-8d51-435f-97da-c6448d50e1b0</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">fce1044b-8d51-435f-97da-c6448d50e1b0</identifier>
+      <name type="primary">
+        <namePart>3D regolith architecture of the Jamestown Area - implications for salinity</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.auscope.org/gmap.html</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-33.25; southlimit=-33.25; westlimit=138.5833333; eastLimit=138.5833333; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordTerry Rankine</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <relatedObject>
+        <key>validRecordWilford, J.</key>
+        <relation type="author"/>
+      </relatedObject>
+      <relatedObject>
+        <key>validRecordCRC LEME</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">Jamestown - South Australia</subject>
+      <subject type="local">Regolith architecture</subject>
+      <subject type="local">Salinity</subject>
+      <subject type="local">Report</subject>
+      <subject type="local">South Australia</subject>
+      <subject type="local">Jamestown</subject>
+      <description type="brief">The combined analysis of a digital elevation model, gamma-ray spectrometry, magnetics, airborne electromagnetics (AEM) and drill holes has provided new insights into the regolith-landform evolution of the Jamestown region, located in the Mid North of South Australia. In particular, the 3D architecture (geometry and composition) of the valley fill deposits is better understood. Three dimensional models generated from the integration of these datasets show the distribution of regolith materials, salt stores and possible preferential flow paths for groundwater in the region.
+
+The Jamestown region is characterised by a range of landforms from low relief colluvial and alluvial fans, floodplains and pediments through to rises, low hills and hills. Depositional materials occur in three main valleys: the Belalie, Bundaleer and Caltowie. Coalescing colluvial and alluvial fans of Quaternary age have filled these valleys to depths of up to 40 metres. The thickest sediments consisting of silt, clay, fine sand and minor gravels occur in the Belalie and Bundaleer valleys. The Caltowie valley has a thinner sediment cover which appears to have a lower electrical conductivity when compared with the other two catchments. Low angle pediments characterise the upper parts of the Caltowie catchment.
+
+Airborne gamma-ray spectrometry was effective in separating a variety of bedrock types and regolith materials based on their radioelement characteristics. A relationship between the surface texture of soils on depositional plains and airborne K concentrations was used to predict the surface silt content in each of the main valleys. The Caltowie valley has less silt and a higher percentage of medium to fine sand than the other two catchments. Whether these sandier soils are representative of materials at depth is not known. Most of the sediments in these valley systems are dominated by poorly sorted debris or mudflow deposits that consist mostly of silt and clay with minor gravels. Available drilling suggests that scattered throughout the valley fill, but more common in the basal part of the alluvial sequence, are traction or bed load deposits associated with river channels. Many of these buried channel sediments contain maghemite that are clearly delineated in high frequency component of the airborne magnetic imagery. Magnetic channels show rill, dendritic and braided patterns. In areas of thicker sediment cover, inter-woven and possibly stacked, buried palaeo-channel networks are observed in the magnetic imagery. These buried palaeo-channels define a palaeo-darainge system that is not reflected in the contemporary drainage, which is widely spaced and discontinuous. As a result of the Belalie valley being partly filled with sediment there is evidence of superimposed drainage diverting palaeo-drainage lines east of Jamestown. With the exception of some local discrete conductive basement rocks, the valley fill sediments and some areas of highly weathered saprolite appear, in the airborne EM, as the most conductive materials in the landscape. An isosurface (3D surface of equal value) of the high, near-surface conductivity in most cases delineates the geometry of the valley prior to sedimentation and infilling. Both the fine grained sediments of the valley fill and highly weathered bedrock are likely to contain the highest salt stores as implied by an interpretation of the AEM data. Overlaying the salt stores (defined using the AEM) on the magnetic channels highlights possible groundwater flow directions. The surface expression of dryland salinity within the valleys occurs where salt stores and associated regolith materials thin and where basement barriers or valley constrictions impede groundwater flow. Valley constrictions and associated dry land salinity occur in the Bundaleer and Caltowie valleys but not the Belalie valley, despite the fact that the Belalie valley has the highest salt store. This might be explained by the fact that the Belalie system has a relatively thick transported cover with numerous buried, and more transmissive and inter-connected channel networks. It is proposed that this more effective sub-surface drainage may prevent the build up of shallow water tables and salts in the upper soil layer.</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecord962ce242-4efd-4001-b7e2-19b7a72a41e4</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">962ce242-4efd-4001-b7e2-19b7a72a41e4</identifier>
+      <name type="primary">
+        <namePart>Mineral Tenement of Tasmania</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.auscope.org/gmap.html</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-38.0; southlimit=-44.5; westlimit=142.5; eastLimit=150.0; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordWeb Enquiries</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">association:http://www.mrt.tas.gov.au/resource/feature/mrt/mt/mineraltenement</subject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">This is a simple web service to deliver mineral tenements (permits, licences, leases) using  MineralTenementML provided by Mineral Resources Tasmania (MRT).. More information on http://schemas.geoscience.gov.au/MineralTenementML/1.0/.</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>InValidRecord5828a727-875c-45c4-bd82-abf362bb3c50</key>
+    <collection type="dataset">
+      <identifier type="local">5828a727-875c-45c4-bd82-abf362bb3c50</identifier>
+      <name type="primary">
+        <namePart>Boreholes</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.auscope.org/gmap.html</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-10.415345166691509; southlimit=-35.033522303030146; westlimit=105.53333332790065; eastLimit=129.01666666127286; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordGeological Survey of Western Australia (GSWA)</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">This feature describes the existence, location and associated metadata of drill holes contained within the data provider catalogues.</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecord697d9966adae04a19e89cbc91af1a853690d9fa8</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <service type="search-http">
+      <name type="primary">
+        <namePart>Borehole Information</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>https://sarigdata.pir.sa.gov.au/nvcl/geoserver/wms?SERVICE=WMS&amp; https://sarigdata.pir.sa.gov.au/nvcl/geoserver/wms?SERVICE=WMS&amp;</value>
+          </electronic>
+          <electronic type="other">
+            <value>WMS</value>
+            <arg type="string" required="true" use="keyValue">service</arg>
+          </electronic>
+          <electronic type="other">
+            <value>1.1.1</value>
+            <arg type="string" required="true" use="keyValue">version</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetCapabilities</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetMap</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetFeatureInfo</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>DescribeLayer</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetLegendGraphic</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetStyles</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>er:MiningFeatureOccurrence</value>
+            <arg type="string" required="true" use="keyValue">layers</arg>
+          </electronic>
+          <electronic type="other">
+            <value>mt:MineralTenement</value>
+            <arg type="string" required="true" use="keyValue">layers</arg>
+          </electronic>
+          <electronic type="other">
+            <value>mo:MinOccView</value>
+            <arg type="string" required="true" use="keyValue">layers</arg>
+          </electronic>
+          <electronic type="other">
+            <value>gsml:MappedFeature</value>
+            <arg type="string" required="true" use="keyValue">layers</arg>
+          </electronic>
+          <electronic type="other">
+            <value>gsmlp:BoreholeView</value>
+            <arg type="string" required="true" use="keyValue">layers</arg>
+          </electronic>
+          <electronic type="other">
+            <value>gsml:Borehole</value>
+            <arg type="string" required="true" use="keyValue">layers</arg>
+          </electronic>
+        </address>
+      </location>
+      <relatedInfo type="reuseInformation">
+        <identifier type="uri">http://www.opengeospatial.org/standards/wms</identifier>
+      </relatedInfo>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=0; southlimit=-38.5; westlimit=-1; eastLimit=142.390600065995; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordContactPerson</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">WFS</subject>
+      <subject type="local">WMS</subject>
+      <subject type="local">GEOSERVER</subject>
+      <description type="brief">This is a description of your Web Map Server.</description>
+      <rights>
+        <accessRights>There are no access rights associated with this service.</accessRights>
+      </rights>
+    </service>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecord38bea63540b927218bd4e079a34f3cebc61ef21a</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <service type="search-http">
+      <name type="primary">
+        <namePart>NVCL</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>https://sarigdata.pir.sa.gov.au/nvcl/geoserver/wfs</value>
+          </electronic>
+          <electronic type="other">
+            <value>WFS</value>
+            <arg type="string" required="true" use="keyValue">service</arg>
+          </electronic>
+          <electronic type="other">
+            <value>1.1.0</value>
+            <arg type="string" required="true" use="keyValue">version</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetCapabilities</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>DescribeFeatureType</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetFeature</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetGmlObject</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>om:GETPUBLISHEDSYSTEMTSA</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>nvcl:ScannedBoreholeCollection</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>sa:SamplingFeatureCollection</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>mt:MineralTenement</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>mo:MinOccView</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>gsml:MappedFeature</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>er:MiningFeatureOccurrence</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>er:MiningActivity</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>er:Mine</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>er:MineralOccurrence</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>er:Commodity</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>gsml:Borehole</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>gsmlp:BoreholeView</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+        </address>
+      </location>
+      <relatedInfo type="reuseInformation">
+        <identifier type="uri">http://www.opengeospatial.org/standards/wfs</identifier>
+      </relatedInfo>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=90; southlimit=-90; westlimit=-180; eastLimit=180; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordContactPerson</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">WFS</subject>
+      <subject type="local">WMS</subject>
+      <subject type="local">GEOSERVER</subject>
+      <description type="brief">This service provides borehole features and the results of analysis performed on them.  The borehole feature describes drill holes (diamond or otherwise) for which the data provider stores core or chips in their core libraries for public access. The boreholes and cores were created through publically funded (government) programs or submitted as required by legislation or by voluntary donations.  This service also provides the results of spectral analysis and interpretations performed by the data provider using CSIRO HyLogging instruments and software. test</description>
+      <rights>
+        <accessRights>There are no access rights associated with this service.</accessRights>
+      </rights>
+    </service>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>InValidRecord4cd4f23b6cc0b2a642ef216b8ade9145f5287128</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <service type="search-http">
+      <name type="primary">
+        <namePart>GSWA EarthResourceML (1.1) Mineral Occurrences</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://geossdi.dmp.wa.gov.au:80/services/wfs</value>
+          </electronic>
+          <electronic type="other">
+            <value>WFS</value>
+            <arg type="string" required="true" use="keyValue">service</arg>
+          </electronic>
+          <electronic type="other">
+            <value>1.1.0</value>
+            <arg type="string" required="true" use="keyValue">version</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetCapabilities</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>DescribeFeatureType</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetFeature</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetGmlObject</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>LockFeature</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetFeatureWithLock</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>Transaction</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>om:GETPUBLISHEDSYSTEMTSA</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>nvcl:ScannedBoreholeCollection</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>sa:SamplingFeatureCollection</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>mt:MineralTenement</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>mo:MinOccView</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>er:MiningFeatureOccurrence</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>er:MiningActivity</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>er:Mine</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>er:MineralOccurrence</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>gsml:MappedFeature</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>er:Commodity</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>gsml:Borehole</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+          <electronic type="other">
+            <value>gsmlp:BoreholeView</value>
+            <arg type="string" required="true" use="keyValue">typeName</arg>
+          </electronic>
+        </address>
+      </location>
+      <relatedInfo>
+        <identifier>http://www.opengeospatial.org/standards/wfs</identifier>
+      </relatedInfo>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=90; southlimit=-90; westlimit=-180; eastLimit=180; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordGeological Survey of Western Australia (GSWA)</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">WFS</subject>
+      <subject type="local">WMS</subject>
+      <subject type="local">GEOSERVER</subject>
+      <description type="brief">Earth resources of Western Australia provided by Geological Survey of Western Australia (GSWA) from the MINEDEX database. Data presented using the EarthResourceML (version 1.1) data model.
+
+This service provides information from an Australian state and/or territory geological survey organisation from their earth resource database, which stores information on mineral occurrences, commodities, historical production, reserve and resource estimates, deposit classification and other related information. For historical and internal business requirements each database has its own format, properties, QA/QC, and content styles or vocabularies. For this reason, EarthResourceML services have been setup at each jurisdiction to aid in the interoperable delivery of Earth Resource Information.</description>
+      <rights>
+        <accessRights>There are no access rights associated with this service.</accessRights>
+      </rights>
+    </service>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordbdbfd106-c5df-445c-b3e9-9438cb7b684c</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">bdbfd106-c5df-445c-b3e9-9438cb7b684c</identifier>
+      <name type="primary">
+        <namePart>Mineral Tenements of Western Australia</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.auscope.org/gmap.html</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-10.0; southlimit=-35.0; westlimit=105.0; eastLimit=129.5; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordGeological Survey of Western Australia (GSWA)</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">association:http://geossdi.dmp.wa.gov.au/resource/feature/gswa/mineraltenement</subject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">This is a simple web service to deliver mineral tenements using  MineralTenementML provided by the Department of Mines and Petroleum (DMP).. More information on http://schemas.geoscience.gov.au/MineralTenementML/1.0/.</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecord695edaa5-3c1d-4ced-846c-c18e1044b8a7</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">695edaa5-3c1d-4ced-846c-c18e1044b8a7</identifier>
+      <name type="primary">
+        <namePart>NVCL TSA Results</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.auscope.org/gmap.html</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=90.0; southlimit=-90.0; westlimit=-180.0; eastLimit=180.0; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordGeological Survey of Western Australia (GSWA)</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">This feature contains a series of observations and measurements made at regular intervals along a drill core or spatially associated drill chips.  The observations comprise suggested mineralogical interpretations generated with �The Spectral Assistant (TSA)� algorithm on visible and shortwave-infrared reflectance spectra and filtered by experienced analysts.  The observations are represented as mineral species and mineral group predictions by name with associated weights (proportions). Proportions are only relative to the sum of the SWIR or VNIR spectral-active minerals sensed and are NOT modal abundances.  This feature is provided as a guide only and should be validated by the user using other methods.</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecord22487ea7-0cf4-4e04-a25c-d504f99ed9a4</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">22487ea7-0cf4-4e04-a25c-d504f99ed9a4</identifier>
+      <name type="primary">
+        <namePart>ScannedBoreholeCollection</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.auscope.org/gmap.html</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-10.415345166691509; southlimit=-35.033522303030146; westlimit=105.53333332790065; eastLimit=129.01666666127286; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordGeological Survey of Western Australia (GSWA)</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">Scanned Borehole Collection</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecord4f755a4a-0306-4954-b5ac-80e3256d9711</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">4f755a4a-0306-4954-b5ac-80e3256d9711</identifier>
+      <name type="primary">
+        <namePart>Simple NVCL TSA Results</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.auscope.org/gmap.html</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=0.0; southlimit=-1.0; westlimit=-1.0; eastLimit=0.0; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordGeological Survey of Western Australia (GSWA)</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">This feature contains a series of observations and measurements made at regular intervals along a drill core or spatially associated drill chips.  The observations comprise suggested mineralogical interpretations generated with The Spectral Assistant(TSA) algorithm on visible and shortwave-infrared reflectance spectra and filtered by experienced analysts. The observations are represented as mineral species and mineral group predictions by name with associated weights(proportions). Proportions are only relative to the sum of the SWIR or VNIR spectral-active minerals sensed and are NOT modal abundances.  This feature is provided as a guide only and should be validated by the user using other methods. It is provided as a WFS simple feature type and can be download in csv format.</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecorde9fe3f1fd366fe79dca47238785e01769e56acff</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <service type="search-http">
+      <name type="primary">
+        <namePart>GSWA WMS Service</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://geossdi.dmp.wa.gov.au:80/services/wms?SERVICE=WMS&amp; http://geossdi.dmp.wa.gov.au:80/services/wms?SERVICE=WMS&amp;</value>
+          </electronic>
+          <electronic type="other">
+            <value>WMS</value>
+            <arg type="string" required="true" use="keyValue">service</arg>
+          </electronic>
+          <electronic type="other">
+            <value>1.1.1</value>
+            <arg type="string" required="true" use="keyValue">version</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetCapabilities</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetMap</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetFeatureInfo</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>DescribeLayer</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetLegendGraphic</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>GetStyles</value>
+            <arg type="string" required="true" use="keyValue">request</arg>
+          </electronic>
+          <electronic type="other">
+            <value>er:MiningFeatureOccurrence</value>
+            <arg type="string" required="true" use="keyValue">layers</arg>
+          </electronic>
+          <electronic type="other">
+            <value>mt:MineralTenement</value>
+            <arg type="string" required="true" use="keyValue">layers</arg>
+          </electronic>
+          <electronic type="other">
+            <value>mo:MinOccView</value>
+            <arg type="string" required="true" use="keyValue">layers</arg>
+          </electronic>
+          <electronic type="other">
+            <value>gsml:MappedFeature</value>
+            <arg type="string" required="true" use="keyValue">layers</arg>
+          </electronic>
+          <electronic type="other">
+            <value>gsmlp:BoreholeView</value>
+            <arg type="string" required="true" use="keyValue">layers</arg>
+          </electronic>
+          <electronic type="other">
+            <value>gsml:Borehole</value>
+            <arg type="string" required="true" use="keyValue">layers</arg>
+          </electronic>
+        </address>
+      </location>
+      <relatedInfo type="reuseInformation">
+        <identifier type="uri">http://www.opengeospatial.org/standards/wms</identifier>
+      </relatedInfo>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=0; southlimit=-35.033522303030146; westlimit=-1; eastLimit=129.5; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordGeological Survey of Western Australia (GSWA)</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">WFS</subject>
+      <subject type="local">WMS</subject>
+      <subject type="local">GEOSERVER</subject>
+      <description type="brief">This is a description of your Web Map Server.</description>
+      <rights>
+        <accessRights>There are no access rights associated with this service.</accessRights>
+      </rights>
+    </service>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordbe87febe-f27f-4098-91d9-a0950f8f9e92</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">be87febe-f27f-4098-91d9-a0950f8f9e92</identifier>
+      <name type="primary">
+        <namePart>Mineral Occurrence Portrayal View of Western Australia (1.0)</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.auscope.org/gmap.html</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-10.415345166691509; southlimit=-35.033522303030146; westlimit=105.53333332790065; eastLimit=129.01666666127286; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordGeological Survey of Western Australia (GSWA)</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">association:http://geossdi.dmp.wa.gov.au/resource/feature/mo/minoccview</subject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">Eath Resource Mineral Occurrence Portrayal View provided by Geological Survey of Western Australia (GSWA) from the MINEDEX database.</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordc3ee6412-33e4-402d-8cf2-2e0290a1c0cd</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">c3ee6412-33e4-402d-8cf2-2e0290a1c0cd</identifier>
+      <name type="primary">
+        <namePart>GSWA EarthResourceML (1.1) Mining Feature Occurrences</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.auscope.org/gmap.html</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-10.415345166691509; southlimit=-35.033522303030146; westlimit=105.53333332790065; eastLimit=129.01666666127286; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordGeological Survey of Western Australia (GSWA)</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">association:http://geossdi.dmp.wa.gov.au/resource/feature/gswa/er/MiningFeatureOccurrence</subject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">The locations of Mines and Mining Activities of Western Australia provided by Geological Survey of Western Australia (GSWA) from the MINEDEX database. Data presented using the EarthResourceML (version 1.1) data model.</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecord229b1364-9945-4f6d-bad0-b9743e5de67b</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">229b1364-9945-4f6d-bad0-b9743e5de67b</identifier>
+      <name type="primary">
+        <namePart>GSWA EarthResourceML (1.1) Mines</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.auscope.org/gmap.html</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-10.415345166691509; southlimit=-35.033522303030146; westlimit=105.53333332790065; eastLimit=129.01666666127286; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordGeological Survey of Western Australia (GSWA)</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">Mines of Western Australia provided by Geological Survey of Western Australia (GSWA) from the MINEDEX database. Data presented using the EarthResourceML (version 1.1) data model.</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecord7a6298c1-8cb4-4fec-af16-ce875a49b31f</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">7a6298c1-8cb4-4fec-af16-ce875a49b31f</identifier>
+      <name type="primary">
+        <namePart>GSWA EarthResourceML (1.1) Mining Feature Occurrences</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.auscope.org/gmap.html</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-10.415345166691509; southlimit=-35.033522303030146; westlimit=105.53333332790065; eastLimit=129.01666666127286; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordGeological Survey of Western Australia (GSWA)</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">association:http://geossdi.dmp.wa.gov.au/resource/feature/gswa/er/MiningFeatureOccurrence</subject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">The locations of Mines and Mining Activities of Western Australia provided by Geological Survey of Western Australia (GSWA) from the MINEDEX database. Data presented using the EarthResourceML (version 1.1) data model.</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecord3278c1e2-bec0-4eb5-ab49-014da5c6544f</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">3278c1e2-bec0-4eb5-ab49-014da5c6544f</identifier>
+      <name type="primary">
+        <namePart>GSWA EarthResourceML (1.1) Mining Activities</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.auscope.org/gmap.html</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-10.415345166691509; southlimit=-35.033522303030146; westlimit=105.53333332790065; eastLimit=129.01666666127286; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordGeological Survey of Western Australia (GSWA)</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">Mining Activities of Western Australia provided by Geological Survey of Western Australia (GSWA) from the MINEDEX database. Data presented using the EarthResourceML (version 1.1) data model.</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecord3736da12-260b-431e-967b-7a609abe9b98</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">3736da12-260b-431e-967b-7a609abe9b98</identifier>
+      <name type="primary">
+        <namePart>GSWA EarthResourceML (1.1) Mineral Occurrences</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.auscope.org/gmap.html</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-10.415345166691509; southlimit=-35.033522303030146; westlimit=105.53333332790065; eastLimit=129.01666666127286; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordGeological Survey of Western Australia (GSWA)</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">Mineral occurrences of Western Australia provided by Geological Survey of Western Australia (GSWA) from the MINEDEX database. Data presented using the EarthResourceML (version 1.1) data model.</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+
+
+<registryObject group="AuScope">
+    <key>validRecordf271d920-686a-4624-86b7-d9e2300ee306</key>
+    <originatingSource>http://portal.auscope.org</originatingSource>
+    <collection type="dataset">
+      <identifier type="local">f271d920-686a-4624-86b7-d9e2300ee306</identifier>
+      <name type="primary">
+        <namePart>Mineral Tenements of Western Australia</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://portal.auscope.org/gmap.html</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <spatial type="iso19139dcmiBox">northlimit=-10.0; southlimit=-35.0; westlimit=105.0; eastLimit=129.5; projection=WGS84</spatial>
+      </coverage>
+      <relatedObject>
+        <key>validRecordGeological Survey of Western Australia (GSWA)</key>
+        <relation type="pointOfContact"/>
+      </relatedObject>
+      <subject type="local">association:http://geossdi.dmp.wa.gov.au/resource/feature/gswa/mineraltenement</subject>
+      <subject type="local">geoscientificInformation</subject>
+      <description type="brief">This is a simple web service to deliver mineral tenements using  MineralTenementML provided by the Department of Mines and Petroleum (DMP).. More information on http://schemas.geoscience.gov.au/MineralTenementML/1.0/.</description>
+      <rights>
+        <rightsStatement>There are no access constraints associated with this collection.</rightsStatement>
+      </rights>
+    </collection>
+  </registryObject>
+</registryObjects>

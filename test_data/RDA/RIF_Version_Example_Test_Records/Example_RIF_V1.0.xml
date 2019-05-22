@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" 
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                 xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/home/orca/schemata/registryObjects.xsd">
+
+  <registryObject group="ands.org.au">
+    <key>ands.org.au.1</key>
+    <originatingSource>https://services.ands.org.au/home</originatingSource>
+    <collection type="catalogueOrIndex" dateAccessioned="2009-03-12T01:38:00Z" dateModified="2009-03-12T01:54:00Z">
+      <name type="abbreviated">
+        <namePart>MarLIN</namePart>
+      </name>
+      <name type="primary">
+        <namePart>CSIRO Marine and Atmospheric Research Laboratories Information Network</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.cmar.csiro.au/marlin/</value>
+          </electronic>
+        </address>
+      </location>
+      <description type="full">MarLIN is the searchable catalogue of datasets for data held by the CSIRO Division of Marine and Atmospheric Research (CMAR). It is an initiative of the Divisional Data Centre. MarLIN is designed to hold descriptions of datasets collected by, or currently held within, the CSIRO Marine and Atmospheric Research plus its predecessors (Divisions of Marine Research, Atmospheric Research, Fisheries, Oceanography, and Fisheries &#38; Oceanography). All MarLIN open-access (externally viewable) dataset descriptions from MarLIN are also accessible via the Australian Spatial Data Directory (ASDD).</description>
+    </collection>
+  </registryObject>
+
+  <registryObject group="ands.org.au">
+    <key>ands.org.au.10</key>
+    <originatingSource>ands.org.au</originatingSource>
+    <activity type="program" dateModified="2009-03-16T22:55:00Z">
+      <name type="primary">
+        <namePart>Species Conservation</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.reef.crc.org.au/resprogram/programA/programa.html#A4</value>
+          </electronic>
+        </address>
+      </location>
+      <relatedObject>
+        <key>ands.org.au.11</key>
+        <relation type="isManagedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>ands.org.au.8</key>
+        <relation type="isPartOf"/>
+      </relatedObject>
+    </activity>
+  </registryObject>
+
+  <registryObject group="ands.org.au">
+    <key>ands.org.au.11</key>
+    <originatingSource>ands.org.au</originatingSource>
+    <party type="person" dateModified="2009-03-16T23:47:00Z">
+      <name dateFrom="2009-03-16T23:48:00Z" type="primary">
+        <namePart type="family">Marsh</namePart>
+        <namePart type="given">Helene</namePart>
+        <namePart type="title">Professor</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.jcu.edu.au/ees/JCUDEV_008380.html</value>
+          </electronic>
+        </address>
+      </location>
+      <relatedObject>
+        <key>ands.org.au.5</key>
+        <relation type="isMemberOf"/>
+      </relatedObject>
+      <description type="full">Professor Helene Marsh is Professor of Environmental Science and Dean of Postgraduate Studies, the Graduate Research School at James Cook University. Her main research interests are in the application of ecology to the management of marine, coastal and terrestrial wildlife species (notably dugongs, sea turtles and native mammals) and their habitats, especially in relation to their distribution and abundance, life history, diet and movements. Her current research also includes the management of Indigenous resources and environmental monitoring and associated methodological problems. Additionally, Prof Marsh is leading a CRC Reef Research program (Conserving World Heritage Values) that involves finding sustainable solutions to anthropogenic impacts on the Great Barrier Reef.</description>
+    </party>
+  </registryObject>
+
+  <registryObject group="ands.org.au">
+    <key>ands.org.au.12</key>
+    <originatingSource>ands.org.au</originatingSource>
+    <party type="person" dateModified="2009-03-17T06:34:00Z">
+      <name dateFrom="2009-03-17T06:35:00Z" type="primary">
+        <namePart>Grayson</namePart>
+        <namePart type="given">Jillian</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.jcu.edu.au/ees/staff/postgrad/JCUDEV_010123.html</value>
+          </electronic>
+        </address>
+      </location>
+      <relatedObject>
+        <key>ands.org.au.5</key>
+        <relation type="isMemberof"/>
+      </relatedObject>
+      <relatedObject>
+        <key>ands.org.au.13</key>
+        <relation type="isMemberof"/>
+      </relatedObject>
+      <relatedObject>
+        <key>ands.org.au.7</key>
+        <relation type="isMemberof"/>
+      </relatedObject>
+      <relatedObject>
+        <key>ands.org.au.14</key>
+        <relation type="isMemberof"/>
+      </relatedObject>
+    </party>
+  </registryObject>
+
+  <registryObject group="ands.org.au">
+    <key>ands.org.au.13</key>
+    <originatingSource>ands.org.au</originatingSource>
+    <activity type="project" dateModified="2009-03-17T07:27:00Z">
+      <name type="primary">
+        <namePart>An information base for a sustainable traditional fishery of green turtles and dugongs in the Northern Peninsula Area (NPA) and Inner Islands of Torres Strait. </namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.crctorres.com/postgrad/student.htm</value>
+          </electronic>
+        </address>
+      </location>
+      <relatedObject>
+        <key>ands.org.au.7</key>
+        <relation type="isOwnedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>ands.org.au.12</key>
+        <relation type="hasMember"/>
+      </relatedObject>
+      <relatedObject>
+        <key>ands.org.au.4</key>
+        <relation type="hasOutput"/>
+      </relatedObject>
+      <subject type="anzsrc-for">060205</subject>
+      <subject type="anzsrc-for">050205</subject>
+      <subject type="anzsrc-for">050201</subject>
+      <description type="full">This investigation arrised from concerns about the sustainability of catch rates in Torres Strait and over harvesting in neighbouring countries have established an urgent need to develop management strategies for green turtles and dugong throughout the Torres Strait region including the Inner Islands and the Northern Peninsula Area. This investigation quantified the take of turtles and dugongs by four of the communities in the Inner Islands of Torres Strait and the Northern Peninsula Area. Information on catch rates, the composition and selectivity of catches and the major biological, environmental, social, cultural and economic factors that affect the pattern of hunting and harvest levels was collected to assist community-based management and monitoring.</description>
+    </activity>
+  </registryObject>
+
+  <registryObject group="ands.org.au">
+    <key>ands.org.au.14</key>
+    <originatingSource>ands.org.au</originatingSource>
+    <collection type="collection" dateAccessioned="2009-03-31T06:47:00Z" dateModified="2009-03-31T06:47:00Z">
+      <name type="primary">
+        <namePart>Cultural acceptability of management options for dugongs (Dugong dugon) and green turtles (Chelonia mydas): Hammond Island case study 2006</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.marine.csiro.au/marq/edd_search.Browse_Citation?txtSession=6844</value>
+          </electronic>
+        </address>
+      </location>
+      <relatedObject>
+        <key>ands.org.au.5</key>
+        <relation type="isManagedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>ands.org.au.7</key>
+        <relation type="isFundedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>ands.org.au.12</key>
+        <relation type="isOwnedBy"/>
+      </relatedObject>
+      <subject type="anzsrc-for">050205</subject>
+      <subject type="anzsrc-for">050201</subject>
+      <subject type="anzsrc-for">060205</subject>
+      <description type="full">This study examined the cultural acceptability of various management options for dugongs and green turtles at Hammond Island in Torres Strait. Elders and hunters participated in semi-structured interviews to examine their perceptions about various management options for dugongs and green turtles for their community.</description>
+    </collection>
+  </registryObject>
+
+  <registryObject group="ands.org.au">
+    <key>ands.org.au.15</key>
+    <originatingSource>ands.org.au</originatingSource>
+    <collection type="collection" dateAccessioned="2009-03-31T07:08:00Z" dateModified="2009-03-31T07:08:00Z">
+      <name type="primary">
+        <namePart>Dugong and turtle catch data, turtle sighting and laparoscope data (2005 onwards)</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.marine.csiro.au/marq/edd_search.Browse_Citation?txtSession=6846</value>
+          </electronic>
+        </address>
+      </location>
+      <relatedObject>
+        <key>ands.org.au.5</key>
+        <relation type="isManagedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>ands.org.au.7</key>
+        <relation type="isFundedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>ands.org.au.12</key>
+        <relation type="isOwnedBy"/>
+      </relatedObject>
+      <subject type="anzsrc-for">050205</subject>
+      <subject type="anzsrc-for">050201</subject>
+      <subject type="anzsrc-for">060205</subject>
+      <description type="full">Dugong and turtle catch data, turtle sighting and laparoscope data stored for 220 individuals on Fox Pro database.</description>
+    </collection>
+  </registryObject>
+
+  <registryObject group="ands.org.au">
+    <key>ands.org.au.16</key>
+    <originatingSource>ands.org.au</originatingSource>
+    <collection type="catalogueOrIndex" dateAccessioned="2009-03-31T07:52:00Z" dateModified="2009-03-31T07:53:00Z">
+      <name type="primary">
+        <namePart>Torres Strait marine science publication and metadata collection, 1980 - 2003</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.cmar.csiro.au/datacentre/torres/AFMA1980_2003/</value>
+          </electronic>
+        </address>
+      </location>
+      <subject type="anzsrc-for">060205</subject>
+      <subject type="anzsrc-for">050202</subject>
+      <description type="full">The collection is a central digital repository of marine research project reports and associated data collected within Torres Strait predominately funded by the Australian Fisheries Management Authority (AFMA).</description>
+    </collection>
+  </registryObject>
+
+  <registryObject group="ands.org.au">
+    <key>ands.org.au.17</key>
+    <originatingSource>ands.org.au</originatingSource>
+    <activity type="investigation" dateModified="2009-03-31T08:02:00Z">
+      <name type="primary">
+        <namePart>Raising Indigenous community awareness and promoting on-ground recovery activities for marine turtles and dugongs in Torres Strait</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.crctorres.com/research/T4_3.htm</value>
+          </electronic>
+        </address>
+      </location>
+      <relatedObject>
+        <key>ands.org.au.11</key>
+        <relation type="isManagedBy"/>
+      </relatedObject>
+      <subject type="anzsrc-for">060205</subject>
+      <subject type="anzsrc-for">050202</subject>
+    </activity>
+  </registryObject>
+
+  <registryObject group="ands.org.au">
+    <key>ands.org.au.18</key>
+    <originatingSource>ands.org.au</originatingSource>
+    <collection type="collection" dateAccessioned="2009-03-31T08:13:00Z" dateModified="2009-03-31T08:13:00Z">
+      <name type="primary">
+        <namePart>Dugong data collection</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.cmar.csiro.au/datacentre/torres/AFMA1980_2003/www/Dugong_data.html</value>
+          </electronic>
+        </address>
+      </location>
+      <relatedObject>
+        <key>ands.org.au.16</key>
+        <relation type="isPartOf"/>
+      </relatedObject>
+      <subject type="anzsrc-for">060205</subject>
+      <subject type="anzsrc-for">050202</subject>
+      <description type="full">The collection is part of the central digital repository of marine research project reports and associated data collected within Torres Strait predominately funded by the Australian Fisheries Management Authority (AFMA).</description>
+    </collection>
+  </registryObject>
+
+  <registryObject group="ands.org.au">
+    <key>ands.org.au.19</key>
+    <originatingSource>https://services.ands.org.au/home</originatingSource>
+    <collection type="catalogueOrIndex" dateAccessioned="2009-04-09T00:19:00Z" dateModified="2009-04-09T00:19:00Z">
+      <name dateFrom="2009-04-09T00:44:00Z" type="abbreviated">
+        <namePart type="title">SCAR-MarBIN</namePart>
+      </name>
+      <name dateFrom="2009-04-09T00:42:00Z" type="primary">
+        <namePart type="title">SCAR-Marine Biodiversity Information Network</namePart>
+      </name>
+      <location dateFrom="2009-04-09T00:45:00Z">
+        <address>
+          <electronic type="url">
+            <value>http://www.scarmarbin.be/</value>
+          </electronic>
+        </address>
+      </location>
+      <description type="full">SCAR-MarBIN (SCAR Marine Biodiversity Information Network) establishes and supports a distributed system of interoperable databases, forming the Antarctic Regional OBIS (Ocean Biogeographic Information System) Node, under the aegis of SCAR (Scientific Committee on Antarctic Research).</description>
+    </collection>
+  </registryObject>
+
+  <registryObject group="ands.org.au">
+    <key>ands.org.au.2</key>
+    <originatingSource>ands.org.au</originatingSource>
+    <collection type="catalogueOrIndex" dateAccessioned="2009-03-12T02:32:00Z" dateModified="2009-03-12T02:32:00Z">
+      <name type="abbreviated">
+        <namePart>ASSD</namePart>
+      </name>
+      <name type="primary">
+        <namePart>Australian Spatial Data Directory</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://asdd.ga.gov.au/asdd/</value>
+          </electronic>
+        </address>
+      </location>
+      <description type="full">The Australian Spatial Data Directory (ASDD) is a national initiative supported by all governments under the auspices of ANZLIC - the Spatial Information Council. The ASDD is a national catalogue of metadata records of data collections and data sets. The directory comprises government and commercial nodes in each State/Territory and spatial data agencies within the Australian Government.</description>
+    </collection>
+  </registryObject>
+
+  <registryObject group="ands.org.au">
+    <key>ands.org.au.3</key>
+    <originatingSource>ands.org.au</originatingSource>
+    <party type="group" dateModified="2009-03-12T02:49:00Z">
+      <name dateFrom="2009-03-12T03:03:00Z" type="abbreviated">
+        <namePart type="title">ANZLIC</namePart>
+      </name>
+      <name dateFrom="2009-03-12T03:03:00Z" type="primary">
+        <namePart type="title">ANZLIC - the Spatial Information Council</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.anzlic.org.au/</value>
+          </electronic>
+        </address>
+      </location>
+    </party>
+  </registryObject>
+
+  <registryObject group="ands.org.au">
+    <key>ands.org.au.4</key>
+    <originatingSource>ands.org.au</originatingSource>
+    <collection type="collection" dateAccessioned="2009-03-12T03:04:00Z" dateModified="2009-03-12T03:04:00Z">
+      <name type="primary">
+        <namePart>Community-based catch-monitoring of dugongs (Dugong dugon) and green turtles (Chelonia mydas) in the Kaiwalagal region of Torres Strait 2006</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.marine.csiro.au/marq/edd_search.Browse_Citation?txtSession=6843</value>
+          </electronic>
+        </address>
+      </location>
+      <relatedObject>
+        <key>ands.org.au.5</key>
+        <relation type="isManagedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>ands.org.au.7</key>
+        <relation type="isFundedBy"/>
+      </relatedObject>
+      <relatedObject>
+        <key>ands.org.au.13</key>
+        <relation type="isPartOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>ands.org.au.12</key>
+        <relation type="isOwnedBy"/>
+      </relatedObject>
+      <subject type="anzsrc-for">050205</subject>
+      <subject type="anzsrc-for">050201</subject>
+      <subject type="anzsrc-for">050202</subject>
+      <subject type="anzsrc-for">060205</subject>
+      <description type="full">This study trialled community-based catch-monitoring strategies for dugongs and green turtles in two communities (Hammond and Thursday Islands) in the Kaiwalagal region (inner islands) of Torres Strait. Hunters completed datasheets after each hunting trip and these were collected weekly by Indigenous catch-monitors employed on the project. The catch-monitoring program was evaluated in terms of the reliability of the informaition collected and the suitability of the method to the communities. The information collected included biological information about the composition of the catch (e.g. sex ratio, size distribution, reproductive status), selectivity of the green turtle catch, catch-effort, catch-gear and the uses for which dugongs and turtles were hunted. The participating communities can use the information in future management of dugongs and green turtles in their communities.</description>
+    </collection>
+  </registryObject>
+
+  <registryObject group="ands.org.au">
+    <key>ands.org.au.5</key>
+    <originatingSource>ands.org.au</originatingSource>
+    <party type="group" dateModified="2009-03-12T03:41:00Z">
+      <name dateFrom="2009-03-12T03:43:00Z" type="abbreviated">
+        <namePart type="title">JCU</namePart>
+      </name>
+      <name dateFrom="2009-03-12T03:41:00Z" type="primary">
+        <namePart type="title">James Cook University</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.jcu.edu.au/</value>
+          </electronic>
+        </address>
+      </location>
+      <description type="brief">James Cook University states that it is Australia&#39;s &#34;leading tropical research university&#34;. It takes its name from the eighteenth-century British navigator and explorer Captain James Cook, whose epic voyages contributed to the world of science. The University was proclaimed in Townsville, Queensland on 20 April 1970, two hundred years after Cook charted the eastern seaboard of Australia, including northern Queensland.</description>
+    </party>
+  </registryObject>
+
+  <registryObject group="ands.org.au">
+    <key>ands.org.au.7</key>
+    <originatingSource>ands.org.au</originatingSource>
+    <party type="group" dateModified="2009-03-12T04:29:00Z">
+      <name type="abbreviated">
+        <namePart>CRC Torres Strait</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.crctorres.com</value>
+          </electronic>
+        </address>
+      </location>
+      <relatedObject>
+        <key>ands.org.au.13</key>
+        <relation type="hasPart">
+          <description>Investigation</description>
+        </relation>
+      </relatedObject>
+      <description type="full">CRC Torres Strait Ltd is a not-for-profit company established to implement the Torres Strait research program which is a supplementary program of the Cooperative Research Centre for the Great Barrier Reef World Heritage Area. The administrative centre and registered office of CRC Torres Strait is co-located with CRC Reef Research Centre, based in Townsville. The core participants in CRC Torres Strait are Australia Fisheries Management Authority, Australian Institute of Marine Science, CSIRO Marine, CRC Reef, GeoScience Australia, James Cook University, National Oceans Office (NOO), Queensland Dept of Primary Industries and the TSRA. Supporting participants include Great Barrier Reef marine Park Authority (GBRMPA), Great Barrier Reef Research Foundation (GBRRF) and Queensland Seafood Industry Association (QSIA).</description>
+    </party>
+  </registryObject>
+
+  <registryObject group="ands.org.au">
+    <key>ands.org.au.8</key>
+    <originatingSource>ands.org.au</originatingSource>
+    <party type="group" dateModified="2009-03-16T22:42:00Z">
+      <name dateFrom="2009-03-16T22:43:00Z" type="alternative">
+        <namePart type="title">Cooperative Research Centre for the Great Barrier Reef World Heritage Area</namePart>
+      </name>
+      <name dateFrom="2009-03-16T22:43:00Z" type="primary">
+        <namePart type="title">CRC Reef Research Centre</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.reef.crc.org.au/</value>
+          </electronic>
+        </address>
+      </location>
+      <relatedObject>
+        <key>ands.org.au.9</key>
+        <relation type="hasPart"/>
+      </relatedObject>
+    </party>
+  </registryObject>
+
+  <registryObject group="ands.org.au">
+    <key>ands.org.au.9</key>
+    <originatingSource>ands.org.au</originatingSource>
+    <activity type="program" dateModified="2009-03-16T22:49:00Z">
+      <name type="primary">
+        <namePart>Conserving World Heritage Values</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://www.reef.crc.org.au/resprogram/programA/programa.html</value>
+          </electronic>
+        </address>
+      </location>
+      <relatedObject>
+        <key>ands.org.au.8</key>
+        <relation type="isPartOf"/>
+      </relatedObject>
+      <relatedObject>
+        <key>ands.org.au.11</key>
+        <relation type="isManagedBy"/>
+      </relatedObject>
+      <subject type="anzsrc-for">060205</subject>
+      <subject type="anzsrc-for">050202</subject>
+      <description type="full">The objective of this program is to enable policy makers and environmental managers to use all relevant information, including the different values of various stakeholder groups, in decision making for the use and conservation of the Great Barrier Reef region in accordance with its World Heritage Values. This program will assist in natural resource management by documenting the social, cultural and economic values of the Great Barrier Reef World Heritage Area.</description>
+    </activity>
+  </registryObject>
+</registryObjects>

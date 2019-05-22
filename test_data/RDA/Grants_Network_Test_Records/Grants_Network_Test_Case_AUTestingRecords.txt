@@ -1,0 +1,237 @@
+Step 1
+Import AUTestingRecords3 Grant Records https://dl.dropboxusercontent.com/u/49073372/Harvest_Import_Test_Data/Grants_Network_Example_Records_AUTestingRecords3.xml
+
+Expected Results After Step 1
+Expected links from top down:
+
+Funder has 2 linked Programs: Program 12 & Program 13 (isFunderOf)
+Funder has 2 linked Hubs: Hub1 & Hub2 (isFunderOf)
+Funder has 2 linked Collections : Collection1 & Collection2 (isFunderOf)
+Funder has 6 linked Grants & Projects (LP0347149, LP0211170, DP0987152, LP0669606, DP0558457, DP0987282) (isFunderOf)
+
+Program 12 has link to Funder (isFundedBy)
+Program 12 has 2 linked Hubs: Hub1 & Hub2 (hasPart)
+Program 12 has 2 linked Collections : Collection1 & Collection2 (hasOutput)
+Program 12 has 6 linked Grants & Projects (hasPart)
+
+Program 13 has link to Funder (isFundedBy)
+
+Hub1 has link to Funder (isFundedBy)
+Hub1 has link to Program 12 (isPartOf)
+Hub1 has 1 linked Collections : Collection2 (hasOutput)
+Hub1 has 5 linked Grants  & Projects: (LP0347149, LP0211170, DP0987152, LP0669606, DP0558457) (hasPart)
+
+Hub2 has link to Funder
+Hub2 has link to Program 12 (isPartOf)
+Hub2 has 1 linked Collections : Collection1 (hasOutput)
+Hub 2 has 1 linked Grants: DP0987282 (hasPart)
+
+Grant LP0347149 has link to Funder (isFundedBy)
+Grant LP0347149 has link to Program 12 (isPartOf)
+Grant LP0347149 has link to Hub1 (isPartOf)
+
+Grant LP0211170 has link to Funder (isFundedBy)
+Grant LP0211170  has link to Program 12 (isPartOf)
+Grant LP0211170 has link to Hub1 (isPartOf)
+
+Grant DP0987152 has link to Funder (isFundedBy)
+Grant DP0987152 has link to Program 12 (isPartOf)
+Grant DP0987152 has link to Hub1 (isPartOf)
+
+Grant LP0669606 has link to Funder (isFundedBy)
+Grant LP0669606 has link to Program 12 (isPartOf)
+Grant LP0669606 has link to Hub1 (isPartOf)
+Grant LP0669606  has link to Collection2 (hasOutput)
+
+Grant DP0558457 has link to Funder (isFundedBy)
+Grant DP0558457 has link to Program 12
+Grant DP0558457 has link to Hub1
+
+Grant DP0987282 has link to Funder (isFundedBy)
+Grant DP0987282 has link to Program 12 (isPartOf)
+Grant DP0987282 has link to Hub2 (isPartOf)
+Grant DP0987282 has link to Collection1 (hasOutput)
+
+Collection1 has link to Funder (isFundedBy)
+Collection1 has link to Program 12 (isOutputOf)
+Collection1 has link to Hub2 (isOutputOf)
+Collection1 has link to Grant DP0987282 (isOutputOf)
+
+Collection2 has link to Funder (isFundedBy)
+Collection2 has link to Program 12 (isOutputOf)
+Collection2 has link to Hub1 (isOutputOf)
+Collection2 has link to Grant LP0669606 (isOutputOf)
+
+Step 2
+Import AUTestingRecords Grant Records https://dl.dropboxusercontent.com/u/49073372/Harvest_Import_Test_Data/Grants_Network_Example_Records_AUTestingRecords.xml
+
+Expected Results After Step 2
+Expected links from top down:
+
+Funder has 2 linked Programs: Program 12 & Program 13 (isFunderOf)
+Funder has 2 linked Hubs: Hub1 & Hub2 (isFunderOf)
+Funder has 4 linked Collections : Collection1, Collection2, Collection4 & Collection5 (isFunderOf)
+Funder has 6 linked Grants & Projects (isFunderOf)
+
+Program 12 has link to Funder (isFundedBy)
+Program 12 has 2 linked Hubs: Hub1 & Hub2 (hasPart)
+Program 12 has 3 linked Collections : Collection1, Collection2, & Collection5 (hasOutput)
+Program 12 has 6 linked Grants & Projects (hasPart)
+
+Program 13 has link to Funder (isFundedBy)
+Program 13 has 1 linked Collections : Collection4 (hasOutput)
+
+Hub1 has link to Funder (isFundedBy)
+Hub1 has link to Program 12 (isPartOf)
+Hub1 has 1 linked Collections : Collection2 (hasOutput)
+Hub1 has 5 linked Grants  & Projects: (LP0347149, LP0211170, DP0987152, LP0669606, DP0558457) (hasPart)
+
+Hub2 has link to Funder (isFundedBy)
+Hub2 has link to Program 12 (isPartOf)
+Hub2 has 1 linked Collections : Collection1 (hasOutput)
+Hub 2 has 1 linked Grants: DP0987282
+
+Grant LP0347149 has link to Funder (isFundedBy)
+Grant LP0347149 has link to Program 12 (isPartOf)
+Grant LP0347149 has link to Hub1 (isPartOf)
+
+Grant LP0211170 has link to Funder (isFundedBy)
+Grant LP0211170  has link to Program 12 (isPartOf)
+Grant LP0211170 has link to Hub1 (isPartOf)
+
+Grant DP0987152 has link to Funder (isFundedBy)
+Grant DP0987152 has link to Program 12 (isPartOf)
+Grant DP0987152 has link to Hub1 (isPartOf)
+
+Grant LP0669606 has link to Funder (isFundedBy)
+Grant LP0669606 has link to Program 12 (isPartOf)
+Grant LP0669606 has link to Hub1 (isPartOf)
+Grant LP0669606  has link to Collection2 (hasOutput)
+
+Grant DP0558457 has link to Funder (isFundedBy)
+Grant DP0558457 has link to Program 12 (isPartOf)
+Grant DP0558457 has link to Hub1 (isPartOf)
+Grant DP0558457 has link to Collection5 (hasOutput)
+
+Grant DP0987282 has link to Funder (isFundedBy)
+Grant DP0987282 has link to Program 12 (isPartOf)
+Grant DP0987282 has link to Hub2 (isPartOf)
+Grant DP0987282 has link to Collection1 (hasOutput)
+
+Collection1 has link to Funder (isFundedBy)
+Collection1 has link to Program 12 (isOutputOf)
+Collection1 has link to Hub2 (isOutputOf)
+Collection1 has link to Grant DP0987282 (isOutputOf)
+
+Collection2 has link to Funder (isFundedBy)
+Collection2 has link to Program 12 (isOutputOf)
+Collection2 has link to Hub1 (isOutputOf)
+Collection2 has link to Grant LP0669606 (isOutputOf)
+
+Collection4 has link to Funder (isFundedBy)
+Collection4 has link to Program13 (isOutputOf)
+
+Collection5 has link to Funder (isFundedBy)
+Collection5 has link to Program 12 (isOutputOf)
+Collection5 has link to Hub1 (isOutputOf)
+Collection5 has link to Grant DP0558457 (isOutputOf)
+
+Step 3
+Import AUTestingRecords2 Grant Records https://dl.dropboxusercontent.com/u/49073372/Harvest_Import_Test_Data/Grants_Network_Example_Records_AUTestingRecords2.xml
+
+Expected Results After Step 3
+Expected links from top down:
+
+Funder has 2 linked Programs: Program 12 & Program 13 (isFunderOf)
+Funder has 2 linked Hubs: Hub1 & Hub2 (isFunderOf)
+Funder has 4 linked Collections : Collection1, Collection2, Collection4, Collection5, Collection3, Collection3.1 (isFunderOf)
+Funder has 6 linked Grants & Projects (isFunderOf)
+
+Program 12 has link to Funder (isFundedBy)
+Program 12 has 2 linked Hubs: Hub1 & Hub2 (hasPart)
+Program 12 has 3 linked Collections : Collection1, Collection2, & Collection5, Collection3, Collection3.1 (hasOutput)
+Program 12 has 6 linked Grants & Projects (hasPart)
+
+Program 13 has link to Funder (isFundedBy)
+Program 13 has 1 linked Collections : Collection4 (hasOutput)
+
+Hub1 has link to Funder (isFundedBy)
+Hub1 has link to Program 12 (isPartOf)
+Hub1 has 1 linked Collections : Collection2, Collection3, Collection3.1 (hasOutput)
+Hub1 has 5 linked Grants  & Projects: (LP0347149, LP0211170, DP0987152, LP0669606, DP0558457) (hasPart)
+
+Hub2 has link to Funder (isFundedBy)
+Hub2 has link to Program 12  (isPartOf)
+Hub2 has 1 linked Collections : Collection1 (hasOutput)
+Hub 2 has 1 linked Grants: DP0987282 (hasPart)
+
+Grant LP0347149 has link to Funder (isFundedBy)
+Grant LP0347149 has link to Program 12 (isPartOf)
+Grant LP0347149 has link to Hub1 (isPartOf)
+Grant LP0347149 has 2 linked Collections: Collection3 & Collection3.1 (hasOutput)
+
+
+Grant LP0211170 has link to Funder (isFundedBy)
+Grant LP0211170  has link to Program 12 (isPartOf)
+Grant LP0211170 has link to Hub1 (isPartOf)
+
+Grant DP0987152 has link to Funder (isFundedBy)
+Grant DP0987152 has link to Program 12 (isPartOf)
+Grant DP0987152 has link to Hub1 (isPartOf)
+
+Grant LP0669606 has link to Funder (isFundedBy)
+Grant LP0669606 has link to Program 12 (isPartOf)
+Grant LP0669606 has link to Hub1 (isPartOf)
+Grant LP0669606  has link to Collection2 (hasOutput)
+
+Grant DP0558457 has link to Funder (isFundedBy)
+Grant DP0558457 has link to Program 12 (isPartOf)
+Grant DP0558457 has link to Hub1 (isPartOf)
+Grant DP0558457 has link to Collection5 (hasOutput)
+
+Grant DP0987282 has link to Funder (isFundedBy)
+Grant DP0987282 has link to Program 12 (isPartOf)
+Grant DP0987282 has link to Hub2 (isPartOf)
+Grant DP0987282 has link to Collection1 (hasOutput)
+
+Collection1 has link to Funder (isFundedBy)
+Collection1 has link to Program 12 (isOutputOf)
+Collection1 has link to Hub2 (isOutputOf)
+Collection1 has link to Grant DP0987282 (isOutputOf)
+
+Collection2 has link to Funder (isFundedBy)
+Collection2 has link to Program 12 (isOutputOf)
+Collection2 has link to Hub1 (isOutputOf)
+Collection2 has link to Grant LP0669606 (isOutputOf)
+
+Collection4 has link to Funder (isFundedBy)
+Collection4 has link to Program13 (isOutputOf)
+
+Collection5 has link to Funder (isFundedBy)
+Collection5 has link to Program 12 (isOutputOf)
+Collection5 has link to Hub1 (isOutputOf)
+Collection5 has link to Grant DP0558457 (isOutputOf)
+
+Collection3 has link to Funder (isFundedBy)
+Collection3 has link to Program 12 (isOutputOf)
+Collection3 has link to Hub1 (isOutputOf)
+Collection3 has link to Grant LP0347149  (isOutputOf)
+Collection3 has link to Collection3.1 (hasPart)
+Collection3 has link to CollectionNotLinkedToGrantsNetwork  (isPartOf)
+
+Collection3Duplicate has link to Funder (isFundedBy)
+Collection3Duplicate has link to Program 12 (isOutputOf)
+Collection3Duplicate has link to Hub1 (isOutputOf)
+Collection3Duplicate has link to Grant LP0347149 (isOutputOf)
+Collection3Duplicate has link to Collection3.1 (hasPart)
+Collection3Duplicate has link to CollectionNotLinkedToGrantsNetwork  (isPartOf)
+
+Collection3.1 has link to Funder (isFundedBy)
+Collection3.1 has link to Program 12 (isOutputOf)
+Collection3.1 has link to Hub1 (isOutputOf)
+Collection3.1 has link to Grant LP0347149  (isOutputOf)
+Collection3.1 has link to Collection3 (isPartOf)
+Collection3.1 has link to CollectionNotLinkedToGrantsNetwork  (isPartOf)
+
+CollectionNotLinkedToGrantsNetwork does not link to grants network
+CollectionNotLinkedToGrantsNetwork has 2 linked collections (has part) : Collection3 & Collection3.1

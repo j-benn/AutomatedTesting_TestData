@@ -1,0 +1,2150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xmlns:extRif="http://ands.org.au/standards/rif-cs/extendedRegistryObjects" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords1</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix56</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Simple Scholix Source Collection With a Single Identifier and Single RelatedInfo Publication. No creators</namePart>
+            </name>
+            <description type="full">Expected Result:
+                A single Link Info Package with a link from the collection doi identifier to the publication uri identifier</description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords2</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix562</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Simple Scholix Source Collection With a Single Identifier and 2 RelatedInfo Publications. No creators</namePart>
+            </name>
+            <description type="full">Expected Result:
+                2 Link Info Packages:
+                &#xD; 1 with a link from the collection doi identifier to the 1st publication uri identifier
+                &#xD; 1 with a link from the collection doi identifier to the 2nd publication handle identifier</description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+                <relation type="isReviewedBy"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Extra Publication Title</title>
+                <identifier type="handle">10.2578/855258/75A</identifier>
+                <relation type="isCitedBy"/>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords3</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix563</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Simple Scholix Source Collection With a Single Identifier and 1 RelatedInfo Publication with 2 identifiers. No creators</namePart>
+            </name>
+            <description type="full">Expected Result:
+                2 Link Info Packages:
+                &#xD; 1 with a link from the collection doi identifier to the publication uri identifier
+                &#xD; 1 with a link from the collection doi identifier to the publication handle identifier</description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+                <identifier type="handle">10.2578/855258/75B</identifier>
+                <relation type="isReferencedBy"/>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords4</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix564</identifier>
+            <identifier type="local">LocalIdentifier-Scholix564</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Simple Scholix Source Collection With 2 Identifiers and Single RelatedInfo Publication. No creators</namePart>
+            </name>
+            <description type="full">Expected Result:
+                1 x Link Info Packages:
+                &#xD; 1 with a link from the collection doi identifier to the publication identifier
+                &#xD; NO link from the collection local identifier to the publication identifier</description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+                <relation type="isReviewedBy"/>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords5</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix565</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection With a Single Identifier, CitationMetadata and Single RelatedInfo Publication.</namePart>
+            </name>
+            <description type="full">Expected Result:
+                1 Link Info Package with a link from the collection doi identifier to the publication uri identifier.
+                &#xD; Source publication date, creator and identifier shall be taken from citationMetadata.
+            </description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+                <relation type="isReviewedBy"/>
+            </relatedInfo>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.1234/00/Scholix565</identifier>
+                    <title>
+                        (citation/title) Scholix Source Collection With a Single Identifier, CitationMetadata and Single RelatedInfo Publication.
+                    </title>
+                    <date type="publicationDate">2001</date>
+                    <contributor>
+                        <namePart>Example contributor single string</namePart>
+                    </contributor>
+                    <publisher>AUTestingRecords2 Citation Publisher</publisher>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords6</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix566</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection With a Single Identifier, CitationMetadata with multiple contributors and Single RelatedInfo Publication.</namePart>
+            </name>
+            <description type="full">Expected Result:
+                1 Link Info Package with a link from the collection doi identifier to the publication uri identifier.
+                &#xD; Source publication date, 2 x creators and identifier shall be taken from citationMetadata.
+            </description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+                <relation type="hasPart"/>
+            </relatedInfo>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.1234/00/Scholix566</identifier>
+                    <title>
+                        (citation/title) Scholix Source Collection With a Single Identifier, CitationMetadata with multiple contributors and Single RelatedInfo Publication.
+                    </title>
+                    <date type="publicationDate">2001</date>
+                    <contributor>
+                        <namePart>Example contributor single string</namePart>
+                    </contributor>
+                    <contributor>
+                        <namePart>2nd Example contributor single string</namePart>
+                    </contributor>
+                    <publisher>AUTestingRecords2 Citation Publisher</publisher>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords7</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix567</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection With a Single Identifier, CitationMetadata with contributor with multiple nameParts and Single RelatedInfo Publication.</namePart>
+            </name>
+            <description type="full">Expected Result:
+                1 Link Info Package with a link from the collection doi identifier to the publication uri identifier.
+                &#xD; Source publication date, creator and identifier shall be taken from citationMetadata.
+                &#xD; Creator name is display name for contributor (all nameParts)
+            </description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+                <relation type="hasPart"/>
+            </relatedInfo>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.1234/00/Scholix567</identifier>
+                    <title>
+                        (citation/title) Scholix Source Collection With a Single Identifier, CitationMetadata with contributor with multiple nameParts and Single RelatedInfo Publication.
+                    </title>
+                    <date type="issued">2001-03-05</date>
+                    <contributor>
+                        <namePart type="title">Mr</namePart>
+                        <namePart type="family">Scholix</namePart>
+                        <namePart type="given">Contributor</namePart>
+                    </contributor>
+                    <publisher>AUTestingRecords2 Citation Publisher</publisher>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords8</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix568</identifier>
+            <identifier type="local">LocalIdentifier-Scholix568</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Simple Scholix Source Collection With 2 Identifiers and Single RelatedInfo Publication. No relation. 1  relatedObject creator hasCollector. 1 dc.submitted date with from and to</namePart>
+            </name>
+            <relatedObject>
+                <key>AUTestingRecords3ScholixPartyRecords5</key>
+                <relation type="hasCollector"/>
+            </relatedObject>
+            <description type="full">Expected Result:
+                2 Link Info Packages:
+                &#xD; 1 with a link from the collection doi identifier to the publication identifier. No relation. Single creator.
+                &#xD; 1 with a link from the collection local identifier to the publication identifier. No relation. Single creator.
+				 &#xD; 1 publication date take from the from value from dc.submitted.</description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+            </relatedInfo>
+            <dates type="dc.dateSubmitted">
+                <date type="dateFrom" dateFormat="W3CDTF">2003-05-21T00:00:00Z</date>
+                <date type="dateTo" dateFormat="W3CDTF">2007-02-21T00:00:00Z</date>
+            </dates>
+        </collection>
+    </registryObject>
+
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords9</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix59</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Simple Scholix Source Collection With 1 relatedObject hasCollector creator,  a Single Identifier and Single RelatedInfo Publication with 2x relations.</namePart>
+            </name>
+            <relatedObject>
+                <key>AUTestingRecords3ScholixPartyRecords5</key>
+                <relation type="hasCollector"/>
+            </relatedObject>
+            <description type="full">Expected Result:
+                A single Link Info Package with a link from the collection doi identifier to the publication uri identifier. Single creator. Multiple relations</description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+                <relation type="hasAssociationWith"/>
+				<relation type="isCitedBy"/>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords10</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix510</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Simple Scholix Source Collection With 1 relatedObject principalInvestigator creator,  a Single Identifier and Single RelatedInfo Publication.</namePart>
+            </name>
+            <relatedObject>
+                <key>AUTestingRecords3ScholixPartyRecords1</key>
+                <relation type="hasPrincipalInvestigator"/>
+            </relatedObject>
+            <description type="full">Expected Result:
+                A single Link Info Package with a link from the collection doi identifier to the publication uri identifier. Single creator.</description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords11</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix5611</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection With a Single Identifier, CitationMetadata with contributor with multiple nameParts, relatedInfo isOwnedBy creator and Single RelatedInfo Publication.</namePart>
+            </name>
+            <description type="full">Expected Result:
+                1 Link Info Package with a link from the collection doi identifier to the publication uri identifier.
+                &#xD; Source publication date, creator and identifier shall be taken from citationMetadata.
+                &#xD; CitationMetadata Creator name is display name for contributor (all nameParts Firstname, Surname)
+				&#xD; 2nd creator taken from relatedInfo isOwnedBy party.
+            </description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+                <relation type="hasPart"/>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>Related Info Party Author</title>
+                <identifier type="uri">http://scholixParties.com/ScholixPartyRecords2</identifier>
+                <relation type="isOwnedBy"/>
+            </relatedInfo>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.1234/00/Scholix5611</identifier>
+                    <title>
+                        (citation/title) Scholix Source Collection With a Single Identifier, CitationMetadata with contributor with multiple nameParts and Single RelatedInfo Publication.
+                    </title>
+                    <date type="issued">2001-03-05</date>
+                    <contributor>
+                        <namePart type="title">Mr</namePart>
+                        <namePart type="family">Scholix</namePart>
+                        <namePart type="given">Contributor</namePart>
+                    </contributor>
+                    <publisher>AUTestingRecords2 Citation Publisher</publisher>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords12</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix512</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Simple Scholix Source Collection With 1 relatedObject principalInvestigator creator, 1 relatedInfo hasCollector creator, a Single Identifier and Single RelatedInfo Publication.</namePart>
+            </name>
+            <relatedObject>
+                <key>AUTestingRecords3ScholixPartyRecords1</key>
+                <relation type="hasPrincipalInvestigator"/>
+            </relatedObject>
+            <description type="full">Expected Result:
+                A single Link Info Package with a link from the collection doi identifier to the publication uri identifier. 2 creators.</description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>Related Info Party Author</title>
+                <identifier type="uri">http://scholixParties.com/ScholixPartyRecords5</identifier>
+                <relation type="isOwnedBy"/>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords13</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix5613</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection With a Single Identifier, CitationMetadata with contributor with multiple nameParts, relatedInfo isOwnedBy creator, reverse relatedInfo hasCollector creator and Single RelatedInfo Publication.</namePart>
+            </name>
+            <description type="full">Expected Result:
+                1 Link Info Package with a link from the collection doi identifier to the publication uri identifier.
+                &#xD; Source publication date, creator and identifier shall be taken from citationMetadata.
+                &#xD; CitationMetadata Creator name is display name for contributor (all nameParts Firstname, Surname)
+				&#xD; 2nd creator taken from relatedInfo isOwnedBy party.
+				&#xD; 3rd creator taken from reverse relatedInfo isCollectorOf party.
+            </description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+                <relation type="hasPart"/>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>Related Info Party Author</title>
+                <identifier type="uri">http://scholixParties.com/ScholixPartyRecords2</identifier>
+                <relation type="isOwnedBy"/>
+            </relatedInfo>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.1234/00/Scholix5613</identifier>
+                    <title>
+                        (citation/title) Scholix Source Collection With a Single Identifier, CitationMetadata with contributor with multiple nameParts and Single RelatedInfo Publication.
+                    </title>
+                    <date type="issued">2001-03-05</date>
+                    <contributor>
+                        <namePart type="title">Mr</namePart>
+                        <namePart type="family">Scholix</namePart>
+                        <namePart type="given">Contributor</namePart>
+                    </contributor>
+                    <publisher>AUTestingRecords2 Citation Publisher</publisher>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords14</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix514</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Simple Scholix Source Collection With 1 reverse relatedObject principalInvestigator creator, dc.available date,  a Single Identifier and Single RelatedInfo Publication.Source is reverse relatedObject related to party with the same name as group attribute. Publisher id should be that of the related party.</namePart>
+            </name>
+            <description type="full">Expected Result:
+                A single Link Info Package with a link from the collection doi identifier to the publication uri identifier. Single creator from reverse relation. Source is reverse relatedObject related to party with the same name as group attribute. Publisher id should be that of the related party.</description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <dates type="dc.available">
+                <date type="dateFrom" dateFormat="W3CDTF">2003-04-17T00:00:00Z</date>
+            </dates>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords15</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection With a identifier only in citationMetadata and relationship to 4x RelatedInfo Publication. 3 with relations 1 without. 2xdates 1 in citationMetadata and 1 in dates.</namePart>
+            </name>
+            <description type="full">Expected Result:
+                4x Link Info Package with a link from the collection to each relatedInfo identifier.
+                &#xD; Source publication date, creator and identifier shall be taken from citationMetadata.
+            </description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+                <relation type="isReviewedBy"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix2</identifier>
+                <relation type="isCitedBy"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="issn">ISSN-Scholix1</identifier>
+                <relation type="isReviewedBy"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="purl">http://www.purl.org/someExamplePublication.org/Scholix3</identifier>
+            </relatedInfo>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.1234/00/Scholix5615</identifier>
+                    <title>
+                        (citation/title) Scholix Source Collection With a Single Identifier, CitationMetadata and Single RelatedInfo Publication.
+                    </title>
+                    <date type="publicationDate">2001</date>
+                    <contributor>
+                        <namePart>Example contributor single string</namePart>
+                    </contributor>
+                    <publisher>AUTestingRecords2 Citation Publisher</publisher>
+                </citationMetadata>
+            </citationInfo>
+            <dates type="dc.available">
+                <date type="dateFrom" dateFormat="W3CDTF">2001-04-17T00:00:00Z</date>
+            </dates>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords16</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Simple Scholix Source Collection With No identifier, 1 relatedObject principalInvestigator creator, 1 relatedInfo hasCollector creator and Single RelatedInfo Publication. Source is related to party via relatedObject which has the same name as group attribute. Publisher id should be that of the related party.</namePart>
+            </name>
+            <relatedObject>
+                <key>AUTestingRecords3ScholixPartyRecords1</key>
+                <relation type="hasPrincipalInvestigator"/>
+            </relatedObject>
+			<relatedObject>
+                <key>AUTestingRecords2ScholixGroupRecord1</key>
+                <relation type="isManagedBy"/>
+            </relatedObject>
+            <description type="full">Expected Result:
+                A single Link Info Package with a link from the collection key to the publication uri identifier. 2 creators.Publisher id should be that of the related party with the same name as the group attribute.</description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>Related Info Party Author</title>
+                <identifier type="uri">http://scholixParties.com/ScholixPartyRecords5</identifier>
+                <relation type="isOwnedBy"/>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords17</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix5617</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection With a Single Identifier, CitationMetadata with contributor with multiple nameParts, relatedInfo isOwnedBy creator, reverse relatedInfo hasCollector creator and Single RelatedInfo Publication.</namePart>
+            </name>
+            <description type="full">Expected Result:
+                1 Link Info Package with a link from the collection doi identifier to the publication uri identifier.
+                &#xD; Source publication date, creator and identifier shall be taken from citationMetadata.
+                &#xD; CitationMetadata Creator name is display name for contributor (all nameParts Firstname, Surname)
+				&#xD; 2nd creator taken from relatedInfo isOwnedBy party.
+				&#xD; 3rd creator taken from reverse relatedInfo isCollectorOf party.
+            </description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+                <relation type="hasPart"/>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>Related Info Party Author</title>
+                <identifier type="uri">http://scholixParties.com/ScholixPartyRecords2</identifier>
+                <relation type="isOwnedBy"/>
+            </relatedInfo>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.1234/00/Scholix5617</identifier>
+                    <title>
+                        (citation/title) Scholix Source Collection With a Single Identifier, CitationMetadata with contributor with multiple nameParts and Single RelatedInfo Publication.
+                    </title>
+                    <date type="publicationDate">2001-03-05</date>
+                    <contributor>
+                        <namePart type="title">Mr</namePart>
+                        <namePart type="family">Scholix</namePart>
+                        <namePart type="given">Contributor</namePart>
+                    </contributor>
+                    <publisher>AUTestingRecords2 Citation Publisher</publisher>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords18</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix5618</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection With a Single Identifier, CitationMetadata with startPublicationDate, contributor with multiple nameParts, relatedInfo isOwnedBy creator, reverse relatedInfo hasCollector creator and Single RelatedInfo Publication. Source is related to party via relatedInfo which has the same name as group attribute. Publisher id should be that of the related party.</namePart>
+            </name>
+            <description type="full">Expected Result:
+                1 Link Info Package with a link from the collection doi identifier to the publication uri identifier.
+                &#xD; Source publication date, creator and identifier shall be taken from citationMetadata.
+                &#xD; CitationMetadata Creator name is display name for contributor (all nameParts Firstname, Surname)
+				&#xD; 2nd creator taken from relatedInfo isOwnedBy party.
+				&#xD; 3rd creator taken from reverse relatedInfo isCollectorOf party.
+				&#xD; Publisher id should be that of the related party with the same name as the group attribute.
+            </description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+                <relation type="hasPart"/>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>Related Info Party Author</title>
+                <identifier type="uri">http://scholixParties.com/ScholixPartyRecords2</identifier>
+                <relation type="isOwnedBy"/>
+            </relatedInfo>
+			 <relatedInfo type="party">
+                <title>Place holder title for party</title>
+            <identifier type="uri">http://scholixParties.com/AUTestingRecords2GroupIdentifier2</identifier>
+                <relation type="isManagedBy"/>
+            </relatedInfo>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.1234/00/Scholix5618</identifier>
+                    <title>
+                        (citation/title) Scholix Source Collection With a Single Identifier, CitationMetadata with contributor with multiple nameParts and Single RelatedInfo Publication.
+                    </title>
+                    <date type="startPublicationDate">2001-03-05</date>
+                    <contributor>
+                        <namePart type="title">Mr</namePart>
+                        <namePart type="family">Scholix</namePart>
+                        <namePart type="given">Contributor</namePart>
+                    </contributor>
+                    <publisher>AUTestingRecords2 Citation Publisher</publisher>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords19</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix5619</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection With a Single Identifier, CitationMetadata with startPublicationDate and created date, contributor with multiple nameParts, relatedInfo isOwnedBy creator, reverse relatedInfo hasCollector creator and Single RelatedInfo Publication.</namePart>
+            </name>
+            <description type="full">Expected Result:
+                1 Link Info Package with a link from the collection doi identifier to the publication uri identifier.
+                &#xD; Source publication date from created date, creator and identifier shall be taken from citationMetadata.
+                &#xD; CitationMetadata Creator name is display name for contributor (all nameParts Firstname, Surname)
+				&#xD; 2nd creator taken from relatedInfo isOwnedBy party.
+				&#xD; 3rd creator taken from reverse relatedInfo isCollectorOf party.
+            </description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+                <relation type="hasPart"/>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>Related Info Party Author</title>
+                <identifier type="uri">http://scholixParties.com/ScholixPartyRecords2</identifier>
+                <relation type="isOwnedBy"/>
+            </relatedInfo>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.1234/00/Scholix5619</identifier>
+                    <title>
+                        (citation/title) Scholix Source Collection With a Single Identifier, CitationMetadata with contributor with multiple nameParts and Single RelatedInfo Publication.
+                    </title>
+                    <date type="startPublicationDate">2001-03-05</date>
+                    <date type="created">2001-03-01</date>
+                    <contributor>
+                        <namePart type="title">Mr</namePart>
+                        <namePart type="family">Scholix</namePart>
+                        <namePart type="given">Contributor</namePart>
+                    </contributor>
+                    <publisher>AUTestingRecords2 Citation Publisher</publisher>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords20</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix5620</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection With a Single Identifier, 1x not supported Date and 2 RelatedInfo Publications. 3 creators all reverse. 2 x relatedInfo 1 x RelatedObject</namePart>
+            </name>
+            <description type="full">Expected Result:
+                2 Link Info Packages:
+                &#xD; 1 with a link from the collection doi identifier to the 1st publication uri identifier
+                &#xD; 1 with a link from the collection doi identifier to the 2nd publication handle identifier
+				&#xD;  3 creators for each link info package.
+				&#xD;  No publication dates.</description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+                <relation type="isReviewedBy"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Extra Publication Title</title>
+                <identifier type="handle">10.2578/855258/75A</identifier>
+                <relation type="isCitedBy"/>
+            </relatedInfo>
+            <dates type="dc.dateAccepted">
+                <date type="dateFrom" dateFormat="W3CDTF">2001-04-17T00:00:00Z</date>
+            </dates>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords21</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix5621</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection With a Single Identifier, CitationMetadata with contributor with multiple nameParts, relatedInfo coInvestigator creator and Single RelatedInfo Publication.</namePart>
+            </name>
+            <description type="full">Expected Result:
+                1 Link Info Package with a link from the collection doi identifier to the publication uri identifier.
+                &#xD; Source publication date, creator and identifier shall be taken from citationMetadata.
+                &#xD; CitationMetadata Creator name is display name for contributor (all nameParts Firstname, Surname)
+                &#xD; 2nd creator taken from relatedInfo coInvestigator party.
+            </description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+                <relation type="hasPart"/>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>Related Info Party Co Investigator</title>
+                <identifier type="uri">http://scholixParties.com/ScholixPartyRecords3</identifier>
+                <relation type="coInvestigator"/>
+            </relatedInfo>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.1234/00/Scholix5621</identifier>
+                    <title>
+                        (citation/title) Scholix Source Collection With a Single Identifier, CitationMetadata with contributor with multiple nameParts and Single RelatedInfo Publication.
+                    </title>
+                    <date type="issued">2001-03-05</date>
+                    <contributor>
+                        <namePart type="title">Mr</namePart>
+                        <namePart type="family">Scholix</namePart>
+                        <namePart type="given">Contributor</namePart>
+                    </contributor>
+                    <publisher>AUTestingRecords2 Citation Publisher</publisher>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords22</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix5622</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection With a Single Identifier, CitationMetadata with contributor with multiple nameParts, reverse relatedInfo coInvestigator creator and Single RelatedInfo Publication.</namePart>
+            </name>
+            <description type="full">Expected Result:
+                1 Link Info Package with a link from the collection doi identifier to the publication uri identifier.
+                &#xD; Source publication date, creator and identifier shall be taken from citationMetadata.
+                &#xD; CitationMetadata Creator name is display name for contributor (all nameParts Firstname, Surname)
+                &#xD; 2nd creator taken from reverse relatedInfo coInvestigator party.
+            </description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+                <relation type="hasPart"/>
+            </relatedInfo>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.1234/00/Scholix5622</identifier>
+                    <title>
+                        (citation/title) Scholix Source Collection With a Single Identifier, CitationMetadata with contributor with multiple nameParts and Single RelatedInfo Publication.
+                    </title>
+                    <date type="issued">2001-03-05</date>
+                    <contributor>
+                        <namePart type="title">Mr</namePart>
+                        <namePart type="family">Scholix</namePart>
+                        <namePart type="given">Contributor</namePart>
+                    </contributor>
+                    <publisher>AUTestingRecords2 Citation Publisher</publisher>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords23</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="ark">ark://ands.scholix.23</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Simple Scholix Source Collection With a Single ARK Identifier and Single RelatedInfo Publication. No creators</namePart>
+            </name>
+            <description type="full">Expected Result:
+                A single Link Info Package with a link from the collection doi identifier to the publication uri identifier</description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords24</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="abn">abn.scholix.24</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Simple Scholix Source Collection With a Single ABN Identifier and Single RelatedInfo Publication. No creators</namePart>
+            </name>
+            <description type="full">Expected Result:
+                A single Link Info Package with a link from the collection doi identifier to the publication uri identifier</description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords25</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="uri">http://ands.scholix.org.au/5625</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection With a Single Identifier, 5 x creators. Mix of direct reverse and relatedInfo, relatedObject and citationMetadata/contributor.</namePart>
+            </name>
+            <description type="full">Expected Result:
+                1 Link Info Package with a link from the collection doi identifier to the publication uri identifier.
+                &#xD; Source publication date, creator and identifier shall be taken from citationMetadata.
+                &#xD; 5 x creators. 
+            </description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+                <relation type="hasPart"/>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>Related Info Party Co Investigator</title>
+                <identifier type="uri">http://scholixParties.com/ScholixPartyRecords3</identifier>
+                <relation type="coInvestigator"/>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>Related Info Party Principal Investigator</title>
+                <identifier type="uri">http://scholixParties.com/ScholixPartyRecords1</identifier>
+                <relation type="hasPrincipalInvestigator"/>
+            </relatedInfo>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="uri">http://ands.scholix.org.au/5625</identifier>
+                    <title>
+                        (citation/title) Scholix Source Collection With a Single Identifier, CitationMetadata with contributor with multiple nameParts and Single RelatedInfo Publication.
+                    </title>
+                    <date type="issued">2001-03-05</date>
+                    <date type="’publicationDate">2001-03-05</date>
+                    <date type="created">2001-03-05</date>
+                    <contributor>
+                        <namePart type="title">Mr</namePart>
+                        <namePart type="family">Scholix</namePart>
+                        <namePart type="given">Contributor</namePart>
+                    </contributor>
+                    <contributor>
+                        <namePart>Example contributor single string</namePart>
+                    </contributor>
+                    <publisher>AUTestingRecords2 Citation Publisher</publisher>
+                </citationMetadata>
+            </citationInfo>
+            <dates type="dc.dateAccepted">
+                <date type="dateFrom" dateFormat="W3CDTF">2001-04-17T00:00:00Z</date>
+            </dates>
+            <dates type="dc.available">
+                <date type="dateFrom" dateFormat="W3CDTF">2001-04-17T00:00:00Z</date>
+            </dates>
+            <dates type="dc.dateSubmitted">
+                <date type="dateFrom" dateFormat="W3CDTF">2003-05-21T00:00:00Z</date>
+                <date type="dateTo" dateFormat="W3CDTF">2007-02-21T00:00:00Z</date>
+            </dates>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords26</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix5626</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Simple NON Scholixable Collection With a single RelatedInfo website.</namePart>
+            </name>
+            <description type="full">Expected Result:
+                 No Link Info Package </description>
+            <relatedInfo type="website">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplewebsite.com</identifier>
+                <relation type="isReferencedBy"/>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <!-- Collection type publication records start here-->
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords27</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix5627</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Simple Scholix Source Collection With a Single Identifier and Single RelatedInfo collection type publication. No creators</namePart>
+            </name>
+            <description type="full">Expected Result:
+                A single Link Info Package with a link from the collection doi identifier to the collection/publication doi identifier</description>
+            <relatedInfo type="collection">
+                <title>Related Info Title for Pub that exists</title>
+                <identifier type="doi">10.1234/00/Scholix5653</identifier>
+                <relation type="isCitedBy"/>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords28</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix5628</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Simple Scholix Source Collection With a Single Identifier and 2 RelatedInfo Publications. 1 of which is a collection/publication No creators</namePart>
+            </name>
+            <description type="full">Expected Result:
+                2 Link Info Packages:
+                &#xD; 1 with a link from the collection doi identifier to the 1st publication uri identifier
+                &#xD; 1 with a link from the collection doi identifier to the 2nd collection/publication doi identifier</description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+                <relation type="isReviewedBy"/>
+            </relatedInfo>
+            <relatedInfo type="collection">
+                <title>Related Info Title for Pub that exists</title>
+                <identifier type="doi">10.1234/00/Scholix5653</identifier>
+                <relation type="isReferencedBy"/>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords29</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix5629</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Simple Scholix Source Collection With a Single Identifier and 1 RelatedInfo collection/publication with 2 identifiers. No creators</namePart>
+            </name>
+            <description type="full">Expected Result:
+                2 Link Info Packages:
+                &#xD; 1 with a link from the collection doi identifier to the publication uri identifier
+                &#xD; 1 with a link from the collection doi identifier to the publication handle identifier</description>
+            <relatedInfo type="collection">
+                <title>Related Info Title of collection that exists</title>
+                <identifier type="uri">http://ands.scholix.org.au/5654</identifier>
+                <relation type="isReferencedBy"/>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords30</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix5630</identifier>
+            <identifier type="local">LocalIdentifier-Scholix5630</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Simple Scholix Source Collection With 2 Identifiers and Single relatedObject collection/publication. No creators</namePart>
+            </name>
+            <description type="full">Expected Result:
+                2 Link Info Packages:
+                &#xD; 1 with a link from the collection doi identifier to the collection/publication identifier
+                &#xD; 1 with a link from the collection local identifier to the collection/publication identifier</description>
+            <relatedObject>
+                <key>AUTestingRecords2ScholixRecords54</key>
+                <relation type="isDocumentedBy"/>
+            </relatedObject>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords31</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix5631</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection With a Single Identifier, CitationMetadata and Single relatedObject collection/publication.</namePart>
+            </name>
+            <description type="full">Expected Result:
+                1 Link Info Package with a link from the collection doi identifier to the collection/publication uri identifier.
+                &#xD; Source publication date, creator and identifier shall be taken from citationMetadata.
+            </description>
+            <relatedObject>
+                <key>AUTestingRecords2ScholixRecords54</key>
+                <relation type="isSupplementTo"/>
+            </relatedObject>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.1234/00/Scholix5631</identifier>
+                    <title>
+                        (citation/title) Scholix Source Collection With a Single Identifier, CitationMetadata and Single relatedObject collection/publication.
+                    </title>
+                    <date type="publicationDate">2001</date>
+                    <contributor>
+                        <namePart>Example contributor single string</namePart>
+                    </contributor>
+                    <publisher>AUTestingRecords2 Citation Publisher</publisher>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords32</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix5632</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection With a Single Identifier, CitationMetadata with multiple contributors and Single relatedObject collection/publication.</namePart>
+            </name>
+            <description type="full">Expected Result:
+                1 Link Info Package with a link from the collection doi identifier to the publication uri identifier.
+                &#xD; Source publication date, 2 x creators and identifier shall be taken from citationMetadata.
+            </description>
+            <relatedObject>
+                <key>AUTestingRecords2ScholixRecords54</key>
+                <relation type="isSupplementTo"/>
+            </relatedObject>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.1234/00/Scholix5632</identifier>
+                    <title>
+                        (citation/title) Scholix Source Collection With a Single Identifier, CitationMetadata with multiple contributors and Single relatedObject collection/publication.
+                    </title>
+                    <date type="publicationDate">2001</date>
+                    <contributor>
+                        <namePart>Example contributor single string</namePart>
+                    </contributor>
+                    <contributor>
+                        <namePart>2nd Example contributor single string</namePart>
+                    </contributor>
+                    <publisher>AUTestingRecords2 Citation Publisher</publisher>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords33</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix5633</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection With a Single Identifier, CitationMetadata with contributor with multiple nameParts and Single reverse RelatedInfo collection/Publication.</namePart>
+            </name>
+            <description type="full">Expected Result:
+                2 Link Info Packages with a link from the collection doi identifier to each of the collection/publication identifiers.
+                &#xD; Source publication date, creator and identifier shall be taken from citationMetadata.
+                &#xD; Creator name is display name for contributor (all nameParts)
+            </description>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.1234/00/Scholix5633</identifier>
+                    <title>
+                        (citation/title) Scholix Source Collection With a Single Identifier, CitationMetadata with contributor with multiple nameParts and Single reverse RelatedInfo collection/publication.
+                    </title>
+                    <date type="issued">2001-03-05</date>
+                    <contributor>
+                        <namePart type="title">Mr</namePart>
+                        <namePart type="family">Scholix</namePart>
+                        <namePart type="given">Contributor</namePart>
+                    </contributor>
+                    <publisher>AUTestingRecords2 Citation Publisher</publisher>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords34</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix5634</identifier>
+            <identifier type="local">LocalIdentifier-Scholix5634</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Simple Scholix Source Collection With 2 Identifiers and Single reverse relatedObject collection/publication. No relation. 1  relatedObject creator hasCollector. 1 dc.submitted date with from and to</namePart>
+            </name>
+            <relatedObject>
+                <key>AUTestingRecords3ScholixPartyRecords5</key>
+                <relation type="hasCollector"/>
+            </relatedObject>
+            <description type="full">Expected Result:
+                2 Link Info Packages:
+                &#xD; 1 with a link from the collection doi identifier to the collection/publication identifier. No relation. Single creator.
+                &#xD; 1 with a link from the collection local identifier to the collection/publication identifier. No relation. Single creator.
+				 &#xD; 1 publication date take from the from value from dc.submitted.</description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+            </relatedInfo>
+            <dates type="dc.dateSubmitted">
+                <date type="dateFrom" dateFormat="W3CDTF">2003-05-21T00:00:00Z</date>
+                <date type="dateTo" dateFormat="W3CDTF">2007-02-21T00:00:00Z</date>
+            </dates>
+        </collection>
+    </registryObject>
+
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords35</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix535</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Simple Scholix Source Collection With 1 relatedObject hasCollector creator,  a Single Identifier and Single RelatedInfo collection/publication.</namePart>
+            </name>
+            <relatedObject>
+                <key>AUTestingRecords3ScholixPartyRecords5</key>
+                <relation type="hasCollector"/>
+            </relatedObject>
+            <description type="full">Expected Result:
+                A single Link Info Package with a link from the collection doi identifier to the collection/publication identifier. Single creator.</description>
+            <relatedInfo type="collection">
+                <title>Related Info Title of collection that exists</title>
+                <identifier type="uri">http://ands.scholix.org.au/5654</identifier>
+                <relation type="isSupplementedBy"/>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords36</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix536</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Simple Scholix Source Collection With 1 relatedObject principalInvestigator creator,  a Single Identifier and Single RelatedInfo collection/publication.</namePart>
+            </name>
+            <relatedObject>
+                <key>AUTestingRecords3ScholixPartyRecords1</key>
+                <relation type="hasPrincipalInvestigator"/>
+            </relatedObject>
+            <description type="full">Expected Result:
+                A single Link Info Package with a link from the collection doi identifier to the collection/publication identifier. Single creator.</description>
+            <relatedInfo type="collection">
+                <title>Related Info Title of collection that exists</title>
+                <identifier type="uri">http://ands.scholix.org.au/5654</identifier>
+                <relation type="isSupplementedBy"/>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords37</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix5637</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection With a Single Identifier, CitationMetadata with contributor with multiple nameParts, relatedInfo isOwnedBy creator and Single relatedObject collection/publication.</namePart>
+            </name>
+            <description type="full">Expected Result:
+                1 Link Info Package with a link from the collection doi identifier to the collection/publication key(has no identifier).
+                &#xD; Source publication date, creator and identifier shall be taken from citationMetadata.
+                &#xD; CitationMetadata Creator name is display name for contributor (all nameParts Firstname, Surname)
+				&#xD; 2nd creator taken from relatedInfo isOwnedBy party.
+            </description>
+            <relatedObject>
+                <key>AUTestingRecords3ScholixPublicationRecords6</key>
+                <relation type="isSupplementTo"/>
+            </relatedObject>
+            <relatedInfo type="party">
+                <title>Related Info Party Author</title>
+                <identifier type="uri">http://scholixParties.com/ScholixPartyRecords2</identifier>
+                <relation type="isOwnedBy"/>
+            </relatedInfo>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.1234/00/Scholix5637</identifier>
+                    <title>
+                        (citation/title) Scholix Source Collection With a Single Identifier, CitationMetadata with contributor with multiple nameParts, relatedInfo isOwnedBy creator and Single relatedObject collection/publication.
+                    </title>
+                    <date type="issued">2001-03-05</date>
+                    <contributor>
+                        <namePart type="title">Mr</namePart>
+                        <namePart type="family">Scholix</namePart>
+                        <namePart type="given">Contributor</namePart>
+                    </contributor>
+                    <publisher>AUTestingRecords2 Citation Publisher</publisher>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords38</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix538</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Simple Scholix Source Collection With 1 relatedObject principalInvestigator creator, 1 relatedInfo hasCollector creator, a Single Identifier and Single relatedObject collection/publication.</namePart>
+            </name>
+            <relatedObject>
+                <key>AUTestingRecords3ScholixPartyRecords1</key>
+                <relation type="hasPrincipalInvestigator"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecords2ScholixRecords53</key>
+                <relation type="isCitedBy"/>
+            </relatedObject>
+            <description type="full">Expected Result:
+                A single Link Info Package with a link from the collection doi identifier to the publication uri identifier. 2 creators.</description>
+            <relatedInfo type="party">
+                <title>Related Info Party Author</title>
+                <identifier type="uri">http://scholixParties.com/ScholixPartyRecords5</identifier>
+                <relation type="isOwnedBy"/>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords39</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix5639</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection With a Single Identifier, CitationMetadata with contributor with multiple nameParts, relatedInfo isOwnedBy creator, reverse relatedInfo hasCollector creator and Single reverse relatedObject collection/publication.</namePart>
+            </name>
+            <description type="full">Expected Result:
+                1 Link Info Package with a link from the collection doi identifier to the publication uri identifier.
+                &#xD; Source publication date, creator and identifier shall be taken from citationMetadata.
+                &#xD; CitationMetadata Creator name is display name for contributor (all nameParts Firstname, Surname)
+				&#xD; 2nd creator taken from relatedInfo isOwnedBy party.
+				&#xD; 3rd creator taken from reverse relatedInfo isCollectorOf party.
+            </description>
+            <relatedInfo type="party">
+                <title>Related Info Party Author</title>
+                <identifier type="uri">http://scholixParties.com/ScholixPartyRecords2</identifier>
+                <relation type="isOwnedBy"/>
+            </relatedInfo>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.1234/00/Scholix5639</identifier>
+                    <title>
+                        (citation/title) Scholix Source Collection With a Single Identifier, CitationMetadata with contributor with multiple nameParts, relatedInfo isOwnedBy creator, reverse relatedInfo hasCollector creator and Single reverse relatedObject collection/publication.
+                    </title>
+                    <date type="issued">2001-03-05</date>
+                    <contributor>
+                        <namePart type="title">Mr</namePart>
+                        <namePart type="family">Scholix</namePart>
+                        <namePart type="given">Contributor</namePart>
+                    </contributor>
+                    <publisher>AUTestingRecords2 Citation Publisher</publisher>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords40</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix540</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Simple Scholix Source Collection With 1 reverse relatedObject principalInvestigator creator, dc.available date,  a Single Identifier and Single RelatedObject collection/publication.</namePart>
+            </name>
+            <description type="full">Expected Result:
+                A single Link Info Package with a link from the collection doi identifier to the publication uri identifier. Single creator from reverse relation.</description>
+            <relatedObject>
+                <key>AUTestingRecords2ScholixRecords53</key>
+                <relation type="isCitedBy"/>
+            </relatedObject>
+            <dates type="dc.available">
+                <date type="dateFrom" dateFormat="W3CDTF">2003-04-17T00:00:00Z</date>
+            </dates>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords41</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection With a identifier only in citationMetadata and relationship to 4x RelatedInfo Publication 1x reverse RelatedObject collection/publication. 3 with relations 1 without. 2xdates 1 in citationMetadata and 1 in dates.</namePart>
+            </name>
+            <description type="full">Expected Result:
+                5x Link Info Package with a link from the collection to each relatedInfo identifier and one to the collection/publication identifier.
+				&#xD; Source publication date, creator and identifier shall be taken from citationMetadata.
+            </description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+                <relation type="isReviewedBy"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix2</identifier>
+                <relation type="isCitedBy"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="issn">ISSN-Scholix1</identifier>
+                <relation type="isReviewedBy"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="purl">http://www.purl.org/someExamplePublication.org/Scholix3</identifier>
+            </relatedInfo>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.1234/00/Scholix5641</identifier>
+                    <title>
+                        (citation/title) Scholix Source Collection With a Single Identifier, CitationMetadata and Single RelatedInfo Publication.
+                    </title>
+                    <date type="publicationDate">2001</date>
+                    <contributor>
+                        <namePart>Example contributor single string</namePart>
+                    </contributor>
+                    <publisher>AUTestingRecords2 Citation Publisher</publisher>
+                </citationMetadata>
+            </citationInfo>
+            <dates type="dc.available">
+                <date type="dateFrom" dateFormat="W3CDTF">2001-04-17T00:00:00Z</date>
+            </dates>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords42</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection With No identifier, 1 relatedObject principalInvestigator creator, 1 relatedInfo hasCollector creator and 15 RelatedInfo Publications. 2 
+				of the publications have 2 identifiers</namePart>
+            </name>
+            <relatedObject>
+                <key>AUTestingRecords3ScholixPartyRecords1</key>
+                <relation type="hasPrincipalInvestigator"/>
+            </relatedObject>
+            <description type="full">Expected Result:
+                17 Link Info Packages with a link from the collection key to the publication identifiers. 2 creators.</description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+                <identifier type="handle">10.3555/23434/Scholix1</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix2</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix3</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix4</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix5</identifier>
+                <identifier type="handle">10.3555/23434/Scholix5</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix6</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix7</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix8</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix9</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix10</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix11</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix12</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix13</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix14</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix15</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>Related Info Party Author</title>
+                <identifier type="uri">http://scholixParties.com/ScholixPartyRecords5</identifier>
+                <relation type="isOwnedBy"/>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords43</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix5643</identifier>
+            <identifier type="local">ScholixLocalId43</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection With a 2 x Identifier, CitationMetadata with contributor with multiple nameParts, relatedInfo isOwnedBy creator, reverse relatedInfo hasCollector creator and 15 RelatedInfo Publication. 2 of the publications have 2 identifiers</namePart>
+            </name>
+            <description type="full">Expected Result:
+                15 Link Info Packages with a link from the collection doi identifier to each publication identifier. And NONE from the collection local identifier to each publication identifier.
+                &#xD; Source publication date, creator and identifier shall be taken from citationMetadata.
+                &#xD; CitationMetadata Creator name is display name for contributor (all nameParts Firstname, Surname)
+				&#xD; 2nd creator taken from relatedInfo isOwnedBy party.
+				&#xD; 3rd creator taken from reverse relatedInfo isCollectorOf party.
+            </description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+                <identifier type="handle">10.3555/23434/Scholix1</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title 2</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix2</identifier>
+                <relation type="isCitedBy"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title 3</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix3</identifier>
+                <relation type="isReferencedBy"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title 4</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix4</identifier>
+                <relation type="localRelation"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title 5</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix5</identifier>
+                <identifier type="handle">10.3555/23434/Scholix5</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title 6</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix6</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title 7</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix7</identifier>
+                <relation type="isReviewedBy"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title 8</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix8</identifier>
+                <relation type="isDocumentedBy"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title 9</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix9</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title 10</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix10</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title 11</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix11</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title 12</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix12</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title 13</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix13</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title 14</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix14</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title 15</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix15</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>Related Info Party Author</title>
+                <identifier type="uri">http://scholixParties.com/ScholixPartyRecords2</identifier>
+                <relation type="isOwnedBy"/>
+            </relatedInfo>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.1234/00/Scholix5643</identifier>
+                    <title>
+                        (citation/title) Scholix Source Collection With a Single Identifier, CitationMetadata with contributor with multiple nameParts and Single RelatedInfo Publication.
+                    </title>
+                    <date type="publicationDate">2001-03-05</date>
+                    <contributor>
+                        <namePart type="title">Mr</namePart>
+                        <namePart type="family">Scholix</namePart>
+                        <namePart type="given">Contributor</namePart>
+                    </contributor>
+                    <publisher>AUTestingRecords2 Citation Publisher</publisher>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords44</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix5644</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection With a Single Identifier, CitationMetadata with startPublicationDate, contributor with multiple nameParts, relatedInfo isOwnedBy creator, reverse relatedInfo isOwnedBy creator and Single RelatedInfo collection/publication with 2 identifiers.</namePart>
+            </name>
+            <description type="full">Expected Result:
+                2 Link Info Package with a link from the collection doi identifier to each of the collection/publication identifiers.
+                &#xD; Source publication date, creator and identifier shall be taken from citationMetadata.
+                &#xD; CitationMetadata Creator name is display name for contributor (all nameParts Firstname, Surname)
+				&#xD; 2nd creator taken from relatedInfo isOwnedBy party.
+				&#xD; 3rd creator taken from reverse relatedInfo isCollectorOf party.
+            </description>
+            <relatedInfo type="collection">
+                <title>Related Info collection/Publication Title</title>
+                <identifier type="uri">http://ands.scholix.org.au/5654</identifier>
+                <relation type="isReferencedBy"/>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>Related Info Party Author</title>
+                <identifier type="uri">http://scholixParties.com/ScholixPartyRecords2</identifier>
+                <relation type="isOwnedBy"/>
+            </relatedInfo>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.1234/00/Scholix5644</identifier>
+                    <title>
+                        (citation/title) Scholix Source Collection With a Single Identifier, CitationMetadata with contributor with multiple nameParts and Single RelatedInfo Publication.
+                    </title>
+                    <date type="startPublicationDate">2001-03-05</date>
+                    <contributor>
+                        <namePart type="title">Mr</namePart>
+                        <namePart type="family">Scholix</namePart>
+                        <namePart type="given">Contributor</namePart>
+                    </contributor>
+                    <publisher>AUTestingRecords2 Citation Publisher</publisher>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords45</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix5645</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection With a Single Identifier, CitationMetadata with startPublicationDate and created date, contributor with multiple nameParts, relatedInfo isOwnedBy creator, reverse relatedObject coInvestigator creator and Single reverse relatedObject collection/publication with 2x identifiers.</namePart>
+            </name>
+            <description type="full">Expected Result:
+                2 Link Info Packages with a link from the collection doi identifier to each of the collection/publication identifiers.
+                &#xD; Source publication date from created date, creator and identifier shall be taken from citationMetadata.
+                &#xD; CitationMetadata Creator name is display name for contributor (all nameParts Firstname, Surname)
+				&#xD; 2nd creator taken from relatedInfo isOwnedBy party.
+				&#xD; 3rd creator taken from reverse relatedInfo isCollectorOf party.
+            </description>
+            <relatedInfo type="party">
+                <title>Related Info Party Author</title>
+                <identifier type="uri">http://scholixParties.com/ScholixPartyRecords2</identifier>
+                <relation type="isOwnedBy"/>
+            </relatedInfo>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.1234/00/Scholix5645</identifier>
+                    <title>
+                        (citation/title) Scholix Source Collection With a Single Identifier, CitationMetadata with contributor with multiple nameParts and Single RelatedInfo Publication.
+                    </title>
+                    <date type="startPublicationDate">2001-03-05</date>
+                    <date type="created">2001-03-01</date>
+                    <contributor>
+                        <namePart type="title">Mr</namePart>
+                        <namePart type="family">Scholix</namePart>
+                        <namePart type="given">Contributor</namePart>
+                    </contributor>
+                    <publisher>AUTestingRecords2 Citation Publisher</publisher>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords46</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix5646</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection With a Single Identifier, 1x not supported Date and 1 RelatedInfo Publication and 1 relatedObject collection/publication. 3 creators all reverse. 2 x relatedInfo 1 x RelatedObject</namePart>
+            </name>
+            <description type="full">Expected Result:
+                2 Link Info Packages:
+                &#xD; 1 with a link from the collection doi identifier to the 1st publication uri identifier
+                &#xD; 1 with a link from the collection doi identifier to the collection/publication identifier
+				&#xD;  3 creators for each link info package.
+				&#xD;  No publication dates.</description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+                <relation type="isReviewedBy"/>
+            </relatedInfo>
+            <relatedObject>
+                <key>AUTestingRecords2ScholixRecords53</key>
+                <relation type="isCitedBy"/>
+				<relation type="isReferencedBy"/>
+            </relatedObject>
+            <dates type="dc.dateAccepted">
+                <date type="dateFrom" dateFormat="W3CDTF">2001-04-17T00:00:00Z</date>
+            </dates>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords52</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="repository" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix5652</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Simple NON Scholixable Collection With a single relatedObject collection/publication.</namePart>
+            </name>
+            <description type="full">Expected Result:
+                No Link Info Package</description>
+            <relatedInfo type="website">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplewebsite.com</identifier>
+                <relation type="isReferencedBy"/>
+            </relatedInfo>
+            <relatedObject>
+                <key>AUTestingRecords2ScholixRecords53</key>
+                <relation type="isCitedBy"/>
+            </relatedObject>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords53</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="publication" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix5653</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection type publication With a Single Identifier, CitationMetadata with multiple contributors and Single RelatedInfo Publication.</namePart>
+            </name>
+            <description type="full">Some example description
+            </description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+                <relation type="hasPart"/>
+            </relatedInfo>
+            <relatedObject>
+                <key>AUTestingRecords2ScholixRecords34</key>
+                <relation type="cites"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecords2ScholixRecords41</key>
+                <relation type="reviews"/>
+            </relatedObject>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.1234/00/Scholix5653</identifier>
+                    <title>
+                        (citation/title) Scholix Source Collection With a Single Identifier, CitationMetadata with multiple contributors and Single RelatedInfo Publication.
+                    </title>
+                    <date type="publicationDate">2001</date>
+                    <contributor>
+                        <namePart>Example contributor single string</namePart>
+                    </contributor>
+                    <contributor>
+                        <namePart>2nd Example contributor single string</namePart>
+                    </contributor>
+                    <publisher>AUTestingRecords2 Citation Publisher</publisher>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords54</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="publication" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="doi">10.1234/00/Scholix5654</identifier>
+            <identifier type="uri">http://ands.scholix.org.au/5654</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection type publication With a 2x Identifier, CitationMetadata with multiple contributors.</namePart>
+            </name>
+            <description type="full">Some example description
+            </description>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.1234/00/Scholix5654</identifier>
+                    <title>
+                        (citation/title) Scholix Source Collection With a Single Identifier, CitationMetadata with multiple contributors and Single RelatedInfo Publication.
+                    </title>
+                    <date type="publicationDate">2001</date>
+                    <contributor>
+                        <namePart>Example contributor single string</namePart>
+                    </contributor>
+                    <contributor>
+                        <namePart>2nd Example contributor single string</namePart>
+                    </contributor>
+                    <publisher>AUTestingRecords2 Citation Publisher</publisher>
+                </citationMetadata>
+            </citationInfo>
+            <relatedObject>
+                <key>AUTestingRecords2ScholixRecords45</key>
+                <relation type="supplements"/>
+            </relatedObject>
+            <relatedInfo type="collection">
+                <title>(AUTestingRecords2) Scholix Source Collection</title>
+                <identifier type="doi">10.1234/00/Scholix5633</identifier>
+                <relation type="references"/>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+	
+	<registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords55</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="local">Scholix55198989</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection With a Single local Identifier, location/electronic/address[@type=url], CitationMetadata with startPublicationDate and created date, contributor with multiple nameParts, relatedInfo isOwnedBy creator, reverse relatedInfo hasCollector creator and Single RelatedInfo Publication.</namePart>
+            </name>
+            <description type="full">Expected Result:
+                1 Link Info Package with a link from the collection location URL to the publication uri identifier.
+                &#xD; Source publication date from created date, creator and identifier shall be taken from citationMetadata.
+                &#xD; CitationMetadata Creator name is display name for contributor (all nameParts Firstname, Surname)
+				&#xD; 2nd creator taken from relatedInfo isOwnedBy party.
+				&#xD; 3rd creator taken from reverse relatedInfo isCollectorOf party.
+            </description>
+			<location>
+        <address>
+          <electronic type="url" target="landingPage">
+            <value>http:\\www.exampleUrlScholix55.com</value>
+          </electronic>
+        </address>
+      </location>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+                <relation type="hasPart"/>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>Related Info Party Author</title>
+                <identifier type="uri">http://scholixParties.com/ScholixPartyRecords2</identifier>
+                <relation type="isOwnedBy"/>
+            </relatedInfo>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="local">Scholix55198989</identifier>
+                    <title>
+                        (citation/title) Scholix Source Collection With a Single local Identifier, location/electronic/address[@type=url], CitationMetadata...
+                    </title>
+                    <date type="startPublicationDate">2001-03-05</date>
+                    <date type="created">2001-03-01</date>
+                    <contributor>
+                        <namePart type="title">Mr</namePart>
+                        <namePart type="family">Scholix</namePart>
+                        <namePart type="given">Contributor</namePart>
+                    </contributor>
+                    <publisher>AUTestingRecords2 Citation Publisher</publisher>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+	
+	    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords56</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="handle">10.10.1.4/00/Scholix5656</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection With a Single Handle Identifier, CitationMetadata with contributor with multiple nameParts, relatedInfo isOwnedBy creator and Single relatedObject collection/publication with local id.</namePart>
+            </name>
+            <description type="full">Expected Result:
+                1 Link Info Package with a link from the collection doi identifier to the publication key.
+                &#xD; Source publication date, creator and identifier shall be taken from citationMetadata.
+                &#xD; CitationMetadata Creator name is display name for contributor (all nameParts Firstname, Surname)
+				&#xD; 2nd creator taken from relatedInfo isOwnedBy party.
+            </description>
+            <relatedObject>
+                <key>AUTestingRecords3ScholixPublicationRecords7</key>
+                <relation type="isSupplementTo"/>
+            </relatedObject>
+            <relatedInfo type="party">
+                <title>Related Info Party Author</title>
+                <identifier type="uri">http://scholixParties.com/ScholixPartyRecords2</identifier>
+                <relation type="isOwnedBy"/>
+            </relatedInfo>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="handle">10.10.1.4/00/Scholix5656</identifier>
+                    <title>
+                        (citation/title) Scholix Source Collection With a Single Identifier, CitationMetadata with contributor with multiple nameParts, relatedInfo isOwnedBy creator and Single relatedObject collection/publication.
+                    </title>
+                    <date type="issued">2001-03-05</date>
+                    <contributor>
+                        <namePart type="title">Mr</namePart>
+                        <namePart type="family">Scholix</namePart>
+                        <namePart type="given">Contributor</namePart>
+                    </contributor>
+                    <publisher>AUTestingRecords2 Citation Publisher</publisher>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+	
+	<registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords57</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection With an ark identifier only in citationMetadata and relationship to 4x RelatedInfo Publication. 3 with relations 1 without. 2xdates 1 in citationMetadata and 1 in dates.</namePart>
+            </name>
+            <description type="full">Expected Result:
+                3x Link Info Package with a link from the collection to each supported relatedInfo identifier.
+                &#xD; Source publication date, creator and identifier shall be taken from citationMetadata.
+            </description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="pubMedId">pubMedId3443</identifier>
+                <relation type="isReviewedBy"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="madeupIdentifierType">http://www.someExamplePublication.org/Scholix2</identifier>
+                <relation type="isCitedBy"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="eissn">ISSN-Scholix1</identifier>
+                <relation type="isReviewedBy"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="purl">http://www.purl.org/someExamplePublication.org/Scholix3</identifier>
+            </relatedInfo>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="ark">ark/03/Scholix5715</identifier>
+                    <title>
+                        (citation/title) Scholix Source Collection With a Single Identifier, CitationMetadata and Single RelatedInfo Publication.
+                    </title>
+                    <date type="publicationDate">2001</date>
+                    <contributor>
+                        <namePart>Example contributor single string</namePart>
+                    </contributor>
+                    <publisher>AUTestingRecords2 Citation Publisher</publisher>
+                </citationMetadata>
+            </citationInfo>
+            <dates type="dc.available">
+                <date type="dateFrom" dateFormat="W3CDTF">2001-04-17T00:00:00Z</date>
+            </dates>
+        </collection>
+    </registryObject>
+	
+	<registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords58</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection With a local identifier only in citationMetadata and relationship to 3x RelatedInfo Publication &amp; one reverse relatedObject pub with local id. 3 with relations 1 without. 2xdates 1 in citationMetadata and 1 in dates.</namePart>
+            </name>
+            <description type="full">Expected Result:
+                4x Link Info Package with a link from the collection key to each relatedInfo/relatedobject pub identifier.
+                &#xD; Source publication date, creator and identifier shall be taken from citationMetadata.
+            </description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix2</identifier>
+                <relation type="isCitedBy"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="issn">ISSN-Scholix1</identifier>
+                <relation type="isReviewedBy"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="purl">http://www.purl.org/someExamplePublication.org/Scholix3</identifier>
+            </relatedInfo>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="local">localIdRecord58</identifier>
+                    <title>
+                        (citation/title) (AUTestingRecords2) Scholix Source Collection With a local identifier only in citationMetadata and relationship to 3x...
+                    </title>
+                    <date type="publicationDate">2001</date>
+                    <contributor>
+                        <namePart>Example contributor single string</namePart>
+                    </contributor>
+                    <publisher>AUTestingRecords2 Citation Publisher</publisher>
+                </citationMetadata>
+            </citationInfo>
+            <dates type="dc.available">
+                <date type="dateFrom" dateFormat="W3CDTF">2001-04-17T00:00:00Z</date>
+            </dates>
+        </collection>
+    </registryObject>
+	
+	<registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords59</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+		<identifier type="handle">100.1/00/Scholix5959</identifier>
+		<identifier type="ark">ark/Scholix5959</identifier>
+		<identifier type="doi">10.10.1.4/00/Scholix5959</identifier>
+		<identifier type="purl">http://purl.org/00/Scholix5959</identifier>
+		<identifier type="uri">http://www.sholixURI/00/Scholix5959</identifier>
+		<identifier type="url">http://www.sholixURL/00/Scholix5959</identifier>
+		<identifier type="local">1uujd_88d93Scholix5959</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection With 7x identifiers with doi duplicated in citationMetadata and relationship to 9x RelatedInfo and 1x registryObject Publication. 2xdates 1 in citationMetadata and 1 in dates.</namePart>
+            </name>
+            <description type="full">Expected Result:
+                60x Link Info Package with a link from the collection to each relatedInfo identifier.
+                &#xD; Source publication date, creator and identifier shall be taken from citationMetadata.
+            </description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+                <relation type="isReviewedBy"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="url">http://www.someExamplePublication.org/Scholix2</identifier>
+                <relation type="isCitedBy"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="issn">ISSN-Scholix1</identifier>
+                <relation type="isReviewedBy"/>
+            </relatedInfo>
+			            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="eissn">EISSN-Scholix59</identifier>
+                <relation type="isReviewedBy"/>
+            </relatedInfo>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="purl">http://www.purl.org/someExamplePublication.org/Scholix3</identifier>
+            </relatedInfo>
+			            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="ark">ark/publication/Scholix59</identifier>
+            </relatedInfo>
+			<relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="pubMedId">PubMedIdpub55</identifier>
+            </relatedInfo>
+			<relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="isbn">isbn:28/pub55</identifier>
+            </relatedInfo>
+			<relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="handle">102.228/pub55</identifier>
+            </relatedInfo>
+			            <relatedObject>
+                <key>AUTestingRecords2ScholixRecords53</key>
+                <relation type="isReferencedBy"/>
+            </relatedObject>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.10.1.4/00/Scholix5959</identifier>
+                    <title>
+                        (citation/title) Scholix Source Collection With a Single Identifier, CitationMetadata and Single RelatedInfo Publication.
+                    </title>
+                    <date type="publicationDate">2001</date>
+                    <contributor>
+                        <namePart>Example contributor single string</namePart>
+                    </contributor>
+                    <publisher>AUTestingRecords2 Citation Publisher</publisher>
+                </citationMetadata>
+            </citationInfo>
+            <dates type="dc.available">
+                <date type="dateFrom" dateFormat="W3CDTF">2001-04-17T00:00:00Z</date>
+            </dates>
+        </collection>
+    </registryObject>
+	
+	    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords60</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+		<identifier type="abn">abn:Scholix60</identifier>
+		<identifier type="AU-ANL:PEAU">nla.party/Scholix60</identifier>
+		<identifier type="ean13">ean13Scholix60</identifier>
+		<identifier type="infouri">http://infouri.org/00/Scholix60</identifier>
+		<identifier type="isil">ISIL Scholix60</identifier>
+		<identifier type="istc">itsc:Scholix60</identifier>
+		<identifier type="mediaType">media-TypeScholix60</identifier>
+		<identifier type="orcid">orcid-Scholix60</identifier>
+		<identifier type="upc">UPCScholix60</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Simple Scholix Source Collection With No supported identifiers, 1 relatedObject principalInvestigator creator and 5 x RelatedInfo Publication with no supported identifiers. 1x relatedObject collection type pub with no identifier. Source is related to party via relatedObject which has the same name as group attribute. Publisher id should be that of the related party.</namePart>
+            </name>
+            <relatedObject>
+                <key>AUTestingRecords3ScholixPartyRecords1</key>
+                <relation type="hasPrincipalInvestigator"/>
+            </relatedObject>
+			<relatedObject>
+                <key>AUTestingRecords2ScholixGroupRecord1</key>
+                <relation type="isManagedBy"/>
+            </relatedObject>
+            <description type="full">Expected Result:
+                A single Link Info Package with a link from the collection key to the relatedObject publication key. 1 creator.Publisher id should be that of the related party with the same name as the group attribute.</description>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="abn">abn:Scholix60a</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+			            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="ean13">ean13Scholix60a</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+			            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="isil">ISIL Scholix60a</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+			            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="istc">itsc:Scholix60a</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+			            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="upc">UPCScholix60a</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+			<relatedObject>
+                <key>AUTestingRecords3ScholixPublicationRecords6</key>
+                <relation type="isReferencedBy"/>
+            </relatedObject>
+        </collection>
+    </registryObject>
+	
+	<registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords62</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="local">Scholix62198989</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection With a Single local Identifier, 2 x location/electronic/address[@type=url], CitationMetadata with startPublicationDate and created date, contributor with multiple nameParts, relatedInfo isOwnedBy creator, reverse relatedInfo hasCollector creator and Single RelatedInfo Publication.</namePart>
+            </name>
+            <description type="full">Expected Result:
+                2 Link Info Package with a link from the each collection location URL to the publication uri identifier.
+                &#xD; Source publication date from created date, creator and identifier shall be taken from citationMetadata.
+                &#xD; CitationMetadata Creator name is display name for contributor (all nameParts Firstname, Surname)
+				&#xD; 2nd creator taken from relatedInfo isOwnedBy party.
+				&#xD; 3rd creator taken from reverse relatedInfo isCollectorOf party.
+            </description>
+			<location>
+        <address>
+          <electronic type="url" target="landingPage">
+            <value>http:\\www.exampleUrlScholix62.com</value>
+          </electronic>
+        </address>
+      </location>
+	  	<location>
+        <address>
+          <electronic type="url" target="directDownload">
+            <value>http:\\www.exampleDirectDLUrlScholix62.com</value>
+          </electronic>
+        </address>
+      </location>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+                <relation type="hasPart"/>
+            </relatedInfo>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="local">Scholix62198989</identifier>
+                    <title>
+                        (citation/title) Scholix Source Collection With a Single local Identifier, location/electronic/address[@type=url], CitationMetadata...
+                    </title>
+                    <date type="startPublicationDate">2001-03-05</date>
+                    <date type="created">2001-03-01</date>
+                    <contributor>
+                        <namePart type="title">Mr</namePart>
+                        <namePart type="family">Scholix</namePart>
+                        <namePart type="given">Contributor</namePart>
+                    </contributor>
+                    <publisher>AUTestingRecords2 Citation Publisher</publisher>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+	
+	<registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixRecords63</key>
+        <originatingSource>http://test.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2016-04-10T23:51:40Z">
+            <identifier type="handle">100.10.12/Scholix63198989</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2) Scholix Source Collection With a Single handle Identifier, 2 x location/electronic/address[@type=url], relatedInfo isOwnedBy creator, reverse relatedInfo hasCollector creator and Single RelatedInfo Publication with 2x identifiers.</namePart>
+            </name>
+            <description type="full">Expected Result:
+                2 x Link Info Package with a link from the collection handle identifier to each publication uri identifier.
+				&#xD; creator taken from relatedInfo isOwnedBy party.
+				&#xD; Publication date taken from dateModified.
+            </description>
+			<location>
+        <address>
+          <electronic type="url" target="landingPage">
+            <value>http:\\www.exampleUrlScholix62.com</value>
+          </electronic>
+        </address>
+      </location>
+	  	<location>
+        <address>
+          <electronic type="url" target="directDownload">
+            <value>http:\\www.exampleDirectDLUrlScholix55.com</value>
+          </electronic>
+        </address>
+      </location>
+            <relatedInfo type="publication">
+                <title>Related Info Title</title>
+                <identifier type="uri">http://www.someExamplePublication.org/Scholix1</identifier>
+				<identifier type="doi">10.55.58825.dd</identifier>
+                <relation type="hasPart"/>
+            </relatedInfo>
+            <relatedInfo type="party">
+                <title>Related Info Party Author</title>
+                <identifier type="uri">http://scholixParties.com/ScholixPartyRecords2</identifier>
+                <relation type="isOwnedBy"/>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+	
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixGroupRecord1</key>
+        <originatingSource>AUTestingRecords3</originatingSource>
+        <party type="group">
+            <name type="primary">
+                <namePart>AUTestingRecords2</namePart>
+            </name>
+            <identifier type="uri">http://scholixParties.com/AUTestingRecords2GroupIdentifier</identifier>
+			<identifier type="AU-ANL:PEAU">nla.party_AUTestingRecords2GroupIdentifier</identifier>
+            <relatedObject>
+                <key>AUTestingRecords2ScholixRecords14</key>
+                <relation type="isManagerOf"/>
+            </relatedObject>
+        </party>
+    </registryObject>
+	
+	    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ScholixGroupRecord2</key>
+        <originatingSource>AUTestingRecords3</originatingSource>
+        <party type="group">
+            <name type="primary">
+                <namePart>NotAUTestingRecords2</namePart>
+            </name>
+            <identifier type="uri">http://scholixParties.com/AUTestingRecords2GroupIdentifier2</identifier>
+            <relatedObject>
+                <key>AUTestingRecords2ScholixRecords15</key>
+                <relation type="isManagerOf"/>
+            </relatedObject>
+        </party>
+    </registryObject>
+</registryObjects>
