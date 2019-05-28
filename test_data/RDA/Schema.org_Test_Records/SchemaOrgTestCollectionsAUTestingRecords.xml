@@ -445,6 +445,19 @@
         <originatingSource>Atlas of Living Australia</originatingSource>
         <collection type="dataset">
             <identifier type="local">ala.org.au/dr968AUT2</identifier>
+            <description type="brief">&amp;lt;p&amp;gt;The Department of the AUTestingRecords3 designs and implements the Australian Government’s policies and programmes to protect and conserve the environment, water and heritage and promote climate action. The environmental framework is being delivered under four pillars:&amp;lt;/p&amp;gt;
+                &amp;lt;ul&amp;gt;
+                &amp;lt;li&amp;gt;Clean Water&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;Clean Air&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;Clean Land&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;National heritage&amp;lt;/li&amp;gt;
+                &amp;lt;/ul&amp;gt;
+                &amp;lt;p&amp;gt;Throughout Australia, environment and heritage issues are also managed by other levels of government.&amp;lt;/p&amp;gt;
+                &amp;lt;ul&amp;gt;
+                &amp;lt;li class=&amp;quot;arrow&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;http://www.australia.gov.au&amp;quot;&amp;gt;Government in Australia&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li class=&amp;quot;arrow&amp;quot;&amp;gt;&amp;lt;a class=&amp;quot;ext&amp;quot; href=&amp;quot;http://australia.gov.au/directories/state-territory-and-local-government-directories/states-territories-and-local-government&amp;quot;&amp;gt;States, territories and local government&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;/ul&amp;gt;
+                &amp;lt;div class=&amp;quot;boxtwocols&amp;quot;&amp;gt; &amp;lt;/div&amp;gt;</description>
             <name type="primary">
                 <namePart type="full">(AUTestingRecords2)
                     AUTestingRecords3:Funder/Program12/Hub1/ProjectLP0347149/Collection3/Collection3.1 Collection which
