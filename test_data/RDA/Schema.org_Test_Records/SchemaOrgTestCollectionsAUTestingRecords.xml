@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects"
-    xmlns:extRif="http://ands.org.au/standards/rif-cs/extendedRegistryObjects"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xmlns:extRif="http://ands.org.au/standards/rif-cs/extendedRegistryObjects" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
     <registryObject group="AUTestingRecords">
         <key>AUTSchemaOrgCollection1</key>
         <originatingSource type="">http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
-        <collection type="collection" dateModified="2005-05-05T23:51:55Z"
-            dateAccessioned="2015-04-10T23:51:55Z">
+        <collection type="collection" dateModified="2005-05-05T23:51:55Z" dateAccessioned="2015-04-10T23:51:55Z">
             <name type="abbreviated">
                 <namePart>abbreviatedName</namePart>
             </name>
@@ -83,21 +79,7 @@
                 <date type="dateFrom" dateFormat="W3CDTF">9999-11-11T11:11:00Z</date>
             </dates>
             <location dateFrom="2013-02-14T00:00:00Z" dateTo="2013-03-02T00:00:00Z">
-                <address>
-              <electronic type="url" target="landingPage">
-                <value>https://demo.ands.org.au</value>
-                <title>My Landing Page for the data</title>
-              </electronic>
-              <physical type="postalAddress">
-                <addressPart type="addressLine">&lt;p&gt; 123 Example St&lt;/p&gt; &lt;p&gt; Canberra ACT 2131&lt;/p&gt;</addressPart>
-              </physical>
-              <electronic type="url" target="directDownload">
-                <value>https://dl.dropboxusercontent.com/u/49073372/RIF16WithError.xml</value>
-                <title>My Direct Download link</title>
-                <mediaType>XML</mediaType>
-                <byteSize>3KB</byteSize>
-              </electronic>
-            </address>
+                <address> <electronic type="url" target="landingPage"> <value>https://demo.ands.org.au</value> <title>My Landing Page for the data</title> </electronic> <physical type="postalAddress"> <addressPart type="addressLine">&lt;p&gt; 123 Example St&lt;/p&gt; &lt;p&gt; Canberra ACT 2131&lt;/p&gt;</addressPart> </physical> <electronic type="url" target="directDownload"> <value>https://dl.dropboxusercontent.com/u/49073372/RIF16WithError.xml</value> <title>My Direct Download link</title> <mediaType>XML</mediaType> <byteSize>3KB</byteSize> </electronic> </address>
                 <spatial type="kmlPolyCoords">119.707031,-20.468189 152.753906,-32.101190 119.707031,-20.468189</spatial>
             </location>
             <coverage>
@@ -246,8 +228,6 @@
             </citationInfo>
         </collection>
     </registryObject>
-
-
     <registryObject group="AUTestingRecords">
         <key>AUTParty1zz</key>
         <originatingSource>http://103.6.252.71/registry//orca/register_my_data</originatingSource>
@@ -263,7 +243,6 @@
             </relatedObject>
         </party>
     </registryObject>
-
     <registryObject group="AUTestingRecords">
         <key>AUTParty2z</key>
         <originatingSource>http://103.6.252.71/registry//orca/register_my_data</originatingSource>
@@ -279,9 +258,6 @@
             </relatedObject>
         </party>
     </registryObject>
-
-
-
     <registryObject group="AUTestingRecords">
         <key>AUTParty3z</key>
         <originatingSource>http://103.6.252.71/registry//orca/register_my_data</originatingSource>
@@ -296,7 +272,6 @@
             </relatedInfo>
         </party>
     </registryObject>
-
     <registryObject group="AUTestingRecords">
         <key>AUTParty4z</key>
         <originatingSource>http://103.6.252.71/registry//orca/register_my_data</originatingSource>
@@ -307,7 +282,6 @@
             </name>
         </party>
     </registryObject>
-
     <registryObject group="AUTestingRecords">
         <key>AUTParty5z</key>
         <originatingSource>http://103.6.252.71/registry//orca/register_my_data</originatingSource>
@@ -319,7 +293,6 @@
             </name>
         </party>
     </registryObject>
-
     <registryObject group="AUTestingRecords">
         <key>AUTParty6</key>
         <originatingSource>http://103.6.252.71/registry//orca/register_my_data</originatingSource>
@@ -332,7 +305,6 @@
             <identifier type="orcid">orcid.AUTParty6</identifier>
         </party>
     </registryObject>
-
     <registryObject group="AUTestingRecords">
         <key>AUTService1z</key>
         <originatingSource>http://103.6.252.71/registry//orca/register_my_data</originatingSource>
@@ -342,7 +314,6 @@
             </name>
         </service>
     </registryObject>
-
     <registryObject group="AUTestingRecords">
         <key>AUTService2z</key>
         <originatingSource>http://103.6.252.71/registry//orca/register_my_data</originatingSource>
@@ -358,7 +329,6 @@
             </relatedObject>
         </service>
     </registryObject>
-
     <registryObject group="AUTestingRecords3">
         <key>AUTestingRecords3:Funderz</key>
         <originatingSource type="">http://api.crossref.org/funders?filter=location:Australia</originatingSource>
@@ -366,28 +336,12 @@
             <name type="primary">
                 <namePart>(AUTestingRecords3) AUTestingRecords3:Funder</namePart>
             </name>
-            <description type="brief">&amp;lt;p&amp;gt;The Department of the AUTestingRecords3 designs and implements the Australian Government’s policies and programmes to protect and conserve the environment, water and heritage and promote climate action. The environmental framework is being delivered under four pillars:&amp;lt;/p&amp;gt;
-                &amp;lt;ul&amp;gt;
-                &amp;lt;li&amp;gt;Clean Water&amp;lt;/li&amp;gt;
-                &amp;lt;li&amp;gt;Clean Air&amp;lt;/li&amp;gt;
-                &amp;lt;li&amp;gt;Clean Land&amp;lt;/li&amp;gt;
-                &amp;lt;li&amp;gt;National heritage&amp;lt;/li&amp;gt;
-                &amp;lt;/ul&amp;gt;
-                &amp;lt;p&amp;gt;Throughout Australia, environment and heritage issues are also managed by other levels of government.&amp;lt;/p&amp;gt;
-                &amp;lt;ul&amp;gt;
-                &amp;lt;li class=&amp;quot;arrow&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;http://www.australia.gov.au&amp;quot;&amp;gt;Government in Australia&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
-                &amp;lt;li class=&amp;quot;arrow&amp;quot;&amp;gt;&amp;lt;a class=&amp;quot;ext&amp;quot; href=&amp;quot;http://australia.gov.au/directories/state-territory-and-local-government-directories/states-territories-and-local-government&amp;quot;&amp;gt;States, territories and local government&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
-                &amp;lt;/ul&amp;gt;
-                &amp;lt;div class=&amp;quot;boxtwocols&amp;quot;&amp;gt; &amp;lt;/div&amp;gt;</description>
+            <description type="brief">&amp;lt;p&amp;gt;The Department of the AUTestingRecords3 designs and implements the Australian Government’s policies and programmes to protect and conserve the environment, water and heritage and promote climate action. The environmental framework is being delivered under four pillars:&amp;lt;/p&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;Clean Water&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Clean Air&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Clean Land&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;National heritage&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;p&amp;gt;Throughout Australia, environment and heritage issues are also managed by other levels of government.&amp;lt;/p&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li class=&amp;quot;arrow&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;http://www.australia.gov.au&amp;quot;&amp;gt;Government in Australia&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;quot;arrow&amp;quot;&amp;gt;&amp;lt;a class=&amp;quot;ext&amp;quot; href=&amp;quot;http://australia.gov.au/directories/state-territory-and-local-government-directories/states-territories-and-local-government&amp;quot;&amp;gt;States, territories and local government&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;div class=&amp;quot;boxtwocols&amp;quot;&amp;gt; &amp;lt;/div&amp;gt;</description>
             <identifier type="doi">AUTestingRecords3:Funder</identifier>
             <identifier type="fundref">50110000AUT3.x</identifier>
             <identifier type="AU-ANL:PEAU">http://nla.gov.au/nla.party-AUT55.433</identifier>
             <location>
-                <address>
-          <electronic type="url">
-            <value>http://www.environment.gov.au/webform/website-feedback</value>
-          </electronic>
-        </address>
+                <address> <electronic type="url"> <value>http://www.environment.gov.au/webform/website-feedback</value> </electronic> </address>
                 <spatial type="iso31661">AU</spatial>
             </location>
             <relatedInfo type="website">
@@ -399,7 +353,6 @@
             </existenceDates>
         </party>
     </registryObject>
-
     <registryObject group="AUTestingRecords3">
         <key>AUTestingRecords3:Funder/Program12/Hub2/GrantDP0987282z</key>
         <originatingSource>arc.gov.au/general/searchable_data.htm</originatingSource>
@@ -439,37 +392,17 @@
             </relatedInfo>
         </activity>
     </registryObject>
-
     <registryObject group="AUTestingRecords2">
         <key>AUTestingRecords3_Funder/Program12/Hub1/ProjectLP0347149/Collection3/Collection3.1z</key>
         <originatingSource>Atlas of Living Australia</originatingSource>
         <collection type="dataset">
             <identifier type="local">ala.org.au/dr968AUT2</identifier>
-            <description type="brief">&amp;lt;p&amp;gt;The Department of the AUTestingRecords3 designs and implements the Australian Government’s policies and programmes to protect and conserve the environment, water and heritage and promote climate action. The environmental framework is being delivered under four pillars:&amp;lt;/p&amp;gt;
-                &amp;lt;ul&amp;gt;
-                &amp;lt;li&amp;gt;Clean Water&amp;lt;/li&amp;gt;
-                &amp;lt;li&amp;gt;Clean Air&amp;lt;/li&amp;gt;
-                &amp;lt;li&amp;gt;Clean Land&amp;lt;/li&amp;gt;
-                &amp;lt;li&amp;gt;National heritage&amp;lt;/li&amp;gt;
-                &amp;lt;/ul&amp;gt;
-                &amp;lt;p&amp;gt;Throughout Australia, environment and heritage issues are also managed by other levels of government.&amp;lt;/p&amp;gt;
-                &amp;lt;ul&amp;gt;
-                &amp;lt;li class=&amp;quot;arrow&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;http://www.australia.gov.au&amp;quot;&amp;gt;Government in Australia&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
-                &amp;lt;li class=&amp;quot;arrow&amp;quot;&amp;gt;&amp;lt;a class=&amp;quot;ext&amp;quot; href=&amp;quot;http://australia.gov.au/directories/state-territory-and-local-government-directories/states-territories-and-local-government&amp;quot;&amp;gt;States, territories and local government&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
-                &amp;lt;/ul&amp;gt;
-                &amp;lt;div class=&amp;quot;boxtwocols&amp;quot;&amp;gt; &amp;lt;/div&amp;gt;</description>
+            <description type="brief">&amp;lt;p&amp;gt;The Department of the AUTestingRecords3 designs and implements the Australian Government’s policies and programmes to protect and conserve the environment, water and heritage and promote climate action. The environmental framework is being delivered under four pillars:&amp;lt;/p&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;Clean Water&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Clean Air&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Clean Land&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;National heritage&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;p&amp;gt;Throughout Australia, environment and heritage issues are also managed by other levels of government.&amp;lt;/p&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li class=&amp;quot;arrow&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;http://www.australia.gov.au&amp;quot;&amp;gt;Government in Australia&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li class=&amp;quot;arrow&amp;quot;&amp;gt;&amp;lt;a class=&amp;quot;ext&amp;quot; href=&amp;quot;http://australia.gov.au/directories/state-territory-and-local-government-directories/states-territories-and-local-government&amp;quot;&amp;gt;States, territories and local government&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;div class=&amp;quot;boxtwocols&amp;quot;&amp;gt; &amp;lt;/div&amp;gt;</description>
             <name type="primary">
-                <namePart type="full">(AUTestingRecords2)
-                    AUTestingRecords3:Funder/Program12/Hub1/ProjectLP0347149/Collection3/Collection3.1 Collection which
-                    is the child of a collection which is linked to grants network.
-                </namePart>
+                <namePart type="full">(AUTestingRecords2) AUTestingRecords3:Funder/Program12/Hub1/ProjectLP0347149/Collection3/Collection3.1 Collection which is the child of a collection which is linked to grants network. </namePart>
             </name>
             <location>
-                <address>
-                    <electronic>
-                        <value>http://collections.ala.org.au/public/show/dr968</value>
-                    </electronic>
-                </address>
+                <address> <electronic> <value>http://collections.ala.org.au/public/show/dr968</value> </electronic> </address>
             </location>
             <relatedInfo type="website">
                 <identifier type="uri">http://collections.ala.org.au/public/show/dr968</identifier>
@@ -479,27 +412,17 @@
             </rights>
             <description type="brief"/>
             <coverage>
-                <spatial type="iso19139dcmiBox">northlimit=-35.2758; southlimit=-35.276; westlimit=149.0897;
-                    eastLimit=149.1114; projection=WGS84
-                </spatial>
+                <spatial type="iso19139dcmiBox">northlimit=-35.2758; southlimit=-35.276; westlimit=149.0897; eastLimit=149.1114; projection=WGS84 </spatial>
             </coverage>
         </collection>
     </registryObject>
-
     <registryObject group="AUTestingRecords2">
         <key>AUTestingRecords3_Funder/Program12/Hub1/ProjectLP0347149/Collection3z</key>
-        <originatingSource>
-            Atlantic Oceanographic and Meteorological Laboratory (AOML)
-        </originatingSource>
+        <originatingSource> Atlantic Oceanographic and Meteorological Laboratory (AOML) </originatingSource>
         <collection type="dataset">
-            <identifier type="uri">
-                http://imosmest.aodn.org.au:80/geonetwork/srv/en/metadata.show?uuid=03bcf232-4b45-31bb-abeb-8fed01492914
-                AUTbx1
-            </identifier>
+            <identifier type="uri"> http://imosmest.aodn.org.au:80/geonetwork/srv/en/metadata.show?uuid=03bcf232-4b45-31bb-abeb-8fed01492914 AUTbx1 </identifier>
             <name type="primary">
-                <namePart>(AUTestingRecords2)(LVL 1)
-                    AUTestingRecords3:Funder/Program12/Hub1/ProjectLP0347149/Collection3 AOML - Argo float, WMO 1900812
-                </namePart>
+                <namePart>(AUTestingRecords2)(LVL 1) AUTestingRecords3:Funder/Program12/Hub1/ProjectLP0347149/Collection3 AOML - Argo float, WMO 1900812 </namePart>
             </name>
             <dates type="created">
                 <date type="dateFrom" dateFormat="W3CDTF">2014-09-09T06:06:15</date>
@@ -509,39 +432,17 @@
                 <relation type="isOutputOf"/>
             </relatedObject>
             <location>
-                <address>
-                    <electronic type="url">
-                        <value>
-                            http://imosmest.aodn.org.au:80/geonetwork/srv/en/metadata.show?uuid=03bcf232-4b45-31bb-abeb-8fed01492914
-                        </value>
-                    </electronic>
-                </address>
+                <address> <electronic type="url"> <value> http://imosmest.aodn.org.au:80/geonetwork/srv/en/metadata.show?uuid=03bcf232-4b45-31bb-abeb-8fed01492914 </value> </electronic> </address>
             </location>
             <subject type="local">oceans</subject>
             <subject type="local">Oceans | Ocean Temperature | Water Temperature</subject>
             <subject type="local">Oceans | Salinity/density | Salinity</subject>
             <subject type="local">Oceans | Ocean Pressure | Water Pressure</subject>
             <subject type="local">Profiling Float | Autonomous Profiling Float</subject>
-            <description type="full">
-                This dataset contains temperature, salinity and pressure data for all profiles of the Argo float 1900812
-                managed by the Atlantic Oceanographic and Meteorological Laboratory (AOML). Argo is a major
-                international collaborative project to observe the world's oceans and help scientists understand ocean
-                processes and the ocean's roles in climate. The data collected also improves our ability to forecast
-                climate and ocean conditions. The float drift at depth of between 1 and 2 km. Every ten days each float
-                ascends to the surface, measuring temperature and salinity as it rises. This data is transmitted to
-                satellites along with the float's position. The float then dives and starts a new cycle. The Argo float,
-                WMO 1900812 was first deployed on the 2008-11-25T14:00:00 at launch location (Latitude :
-                -43.68600082397461 ; Longitude : 70.98100280761719). The variables available for this Argo float are :
-                Temperature, Practical Salinity and Pressure. The last location of the Argo float was transmitted on the
-                2014-08-28T14:37:01 at the following location (Latitude : -48.588 ; Longitude : -129.169).
-            </description>
+            <description type="full"> This dataset contains temperature, salinity and pressure data for all profiles of the Argo float 1900812 managed by the Atlantic Oceanographic and Meteorological Laboratory (AOML). Argo is a major international collaborative project to observe the world's oceans and help scientists understand ocean processes and the ocean's roles in climate. The data collected also improves our ability to forecast climate and ocean conditions. The float drift at depth of between 1 and 2 km. Every ten days each float ascends to the surface, measuring temperature and salinity as it rises. This data is transmitted to satellites along with the float's position. The float then dives and starts a new cycle. The Argo float, WMO 1900812 was first deployed on the 2008-11-25T14:00:00 at launch location (Latitude : -43.68600082397461 ; Longitude : 70.98100280761719). The variables available for this Argo float are : Temperature, Practical Salinity and Pressure. The last location of the Argo float was transmitted on the 2014-08-28T14:37:01 at the following location (Latitude : -48.588 ; Longitude : -129.169). </description>
             <coverage>
-                <spatial type="iso19139dcmiBox">
-                    northlimit=-41.405; southlimit=-58.592; westlimit=70.941; eastLimit=-129.169; projection=WGS84
-                </spatial>
-                <spatial type="text">
-                    northlimit=-41.405; southlimit=-58.592; westlimit=70.941; eastLimit=-129.169; projection=WGS84
-                </spatial>
+                <spatial type="iso19139dcmiBox"> northlimit=-41.405; southlimit=-58.592; westlimit=70.941; eastLimit=-129.169; projection=WGS84 </spatial>
+                <spatial type="text"> northlimit=-41.405; southlimit=-58.592; westlimit=70.941; eastLimit=-129.169; projection=WGS84 </spatial>
             </coverage>
             <coverage>
                 <temporal>
@@ -550,57 +451,36 @@
                 </temporal>
             </coverage>
             <relatedInfo type="website">
-                <identifier type="uri">
-                    http://thredds.aodn.org.au/thredds/catalog/IMOS/Argo/dac/aoml/1900812/catalog.html
-                    AUTbx1
-                </identifier>
+                <identifier type="uri"> http://thredds.aodn.org.au/thredds/catalog/IMOS/Argo/dac/aoml/1900812/catalog.html AUTbx1 </identifier>
                 <relation type="hasAssociationWith"/>
                 <title>Data available via the IMOS OPeNDAP server</title>
             </relatedInfo>
             <rights>
-                <rightsStatement>
-                    Argo Data (Temperature and Salinity profiles) are freely available without any restriction, via the
-                    internet Global Data Centres (GDACs) and the GTS of WMO. Please support Argo by acknowledging your
-                    use of Argo data with the following words: "These data where collected and made freely available by
-                    the International Argo project and the national initiatives that contribute to it.
-                    (http://www.argo.net). Argo is a pilot programme of the Global Ocean Observing System."
-                </rightsStatement>
+                <rightsStatement> Argo Data (Temperature and Salinity profiles) are freely available without any restriction, via the internet Global Data Centres (GDACs) and the GTS of WMO. Please support Argo by acknowledging your use of Argo data with the following words: "These data where collected and made freely available by the International Argo project and the national initiatives that contribute to it. (http://www.argo.net). Argo is a pilot programme of the Global Ocean Observing System." </rightsStatement>
             </rights>
             <citationInfo>
                 <citationMetadata>
-                    <identifier type="uri">
-                        http://imosmest.aodn.org.au:80/geonetwork/srv/en/metadata.show?uuid=03bcf232-4b45-31bb-abeb-8fed01492914
-                        AUTbx1
-                    </identifier>
+                    <identifier type="uri"> http://imosmest.aodn.org.au:80/geonetwork/srv/en/metadata.show?uuid=03bcf232-4b45-31bb-abeb-8fed01492914 AUTbx1 </identifier>
                     <title>AOML - Argo float, WMO 1900812</title>
                     <date type="created">2014</date>
                     <contributor>
-                        <namePart>(AUTestingRecords2)
-                            Atlantic Oceanographic and Meteorological Laboratory (AOML)
-                        </namePart>
+                        <namePart>(AUTestingRecords2) Atlantic Oceanographic and Meteorological Laboratory (AOML) </namePart>
                     </contributor>
                     <publisher>Integrated Marine Observing System (IMOS)</publisher>
                 </citationMetadata>
             </citationInfo>
         </collection>
     </registryObject>
-
     <registryObject group="AUTestingRecords2">
         <key>AUTestingRecords2ala.org.au/dr931z</key>
         <originatingSource>NatureMap</originatingSource>
         <collection type="dataset">
             <identifier type="local">ala.org.au/dr931sdAUT2</identifier>
             <name type="primary">
-                <namePart type="full">(AUTestingRecords2)CollectionNotLinkedToGrantsNetwork Collection which has child
-                    collection which is linked to grants network.
-                </namePart>
+                <namePart type="full">(AUTestingRecords2)CollectionNotLinkedToGrantsNetwork Collection which has child collection which is linked to grants network. </namePart>
             </name>
             <location>
-                <address>
-                    <electronic>
-                        <value>http://collections.ala.org.au/public/show/dr931</value>
-                    </electronic>
-                </address>
+                <address> <electronic> <value>http://collections.ala.org.au/public/show/dr931</value> </electronic> </address>
             </location>
             <relatedInfo type="website">
                 <identifier type="uri">http://naturemap.dec.wa.gov.au/default.aspx</identifier>
@@ -615,81 +495,22 @@
             </relatedObject>
             <rights>
                 <licence type="other"/>
-                <rightsStatement>Conditions of Access
-                    All users need to acknowledge and agree to the following conditions before using NatureMap content:
-                    Data within NatureMap is provided with the participation and good will of data custodians and I will
-                    endeavour, where possible, to seek a collaborative approach with custodians in any research or
-                    papers published using NatureMap data.
-                    Re-sale of raw data or the commercial use of images or descriptive text (other than generated maps,
-                    species lists and reports) on this site is unauthorised unless written permission is obtained from
-                    the Department of Environment and Conservation (DEC).
-                    Appropriate and full acknowledgement of DEC and species data custodians (see Data Directory) must
-                    always be given in any publication that includes data sourced here.
-                    Data provided through NatureMap represents positive records of flora and fauna occurrence. The
-                    absence of a record should not be taken to mean flora or fauna is necessarily absent from an area.
-                    (To minimise the effect of data gaps, a buffer area should be applied that is reflective of the
-                    likelihood of surveys or collections having been undertaken in the target area.)
-                    My username and password will not be passed on to any other person or organisation.
-                    DEC and data custodians reserve the right to revoke registration if the above conditions of access
-                    are not complied with.
-                    I will notify DEC if any relevant conditions change that might affect my NatureMap authorisation
-                    level.
-                    Also note:
-                    Custodians have kindly granted permission to allow relatively large subsets of data to be downloaded
-                    for a wide range of uses, including within a commercial context. Note, however, it is not NatureMap
-                    policy to allow the downloading of entire datasets
-                    It is current custodian policy to only grant Advanced Access (see the Registration page) for bona
-                    fide research or conservation planning purposes. This does not extend to use within a commercial
-                    context. While this may appear restrictive, in fact basic registration provides a great deal of
-                    information on both conservation and non-conservation taxa, and all users are encouraged to explore
-                    NatureMap&amp;#39;s sophisticated querying and mapping capabilities. DEC&amp;#39;s Species and
-                    Communities Branch continues to provide information on detailed localities of conservation taxa to
-                    consultants and other commercial users on a fee-for-service basis.
-                    Fair Use Guidlines
-                    As stated above, we want as many people as possible to make use of the data available within
-                    NatureMap, so long as that use is &amp;quot;fair&amp;quot;. It is considered fair for anyone to use
-                    information from NatureMap for conservation or planning purposes, including incorporating that
-                    information into reports or papers, or summarising and value-adding to data.
-                    It is not considered fair use to download raw data and on-sell it. That would contravene copyright.
-                    It is also bad business, because anyone could obtain the same data directly from NatureMap.
-                    Of particular note:
-                    Maps, species lists, reports and raw data may be freely used by anyone, including commercial
-                    consultants, for research, planning, generating reports and compilations, or for personal use, so
-                    long as the above conditions of access are complied with.
-                    Raw data, i.e. bulk detail records of individual locations that have been downloaded from NatureMap
-                    and not summarised, compiled or modified in any substantial way, may not be on-sold or rebadged
-                    without written permission from the Department of Environment and Conservation (DEC). This is
-                    consistent with Australian Copyright law.
-                    Other descriptive text and images, such as Thematic content on wetlands or ecological attributes,
-                    remain the property of NatureMap and copyright holders and may not be used without written
-                    permission from DEC.
-                    For full terms of use see Copyright page at
-                    http://naturemap.dec.wa.gov.au/default.aspx
-                </rightsStatement>
+                <rightsStatement>Conditions of Access All users need to acknowledge and agree to the following conditions before using NatureMap content: Data within NatureMap is provided with the participation and good will of data custodians and I will endeavour, where possible, to seek a collaborative approach with custodians in any research or papers published using NatureMap data. Re-sale of raw data or the commercial use of images or descriptive text (other than generated maps, species lists and reports) on this site is unauthorised unless written permission is obtained from the Department of Environment and Conservation (DEC). Appropriate and full acknowledgement of DEC and species data custodians (see Data Directory) must always be given in any publication that includes data sourced here. Data provided through NatureMap represents positive records of flora and fauna occurrence. The absence of a record should not be taken to mean flora or fauna is necessarily absent from an area. (To minimise the effect of data gaps, a buffer area should be applied that is reflective of the likelihood of surveys or collections having been undertaken in the target area.) My username and password will not be passed on to any other person or organisation. DEC and data custodians reserve the right to revoke registration if the above conditions of access are not complied with. I will notify DEC if any relevant conditions change that might affect my NatureMap authorisation level. Also note: Custodians have kindly granted permission to allow relatively large subsets of data to be downloaded for a wide range of uses, including within a commercial context. Note, however, it is not NatureMap policy to allow the downloading of entire datasets It is current custodian policy to only grant Advanced Access (see the Registration page) for bona fide research or conservation planning purposes. This does not extend to use within a commercial context. While this may appear restrictive, in fact basic registration provides a great deal of information on both conservation and non-conservation taxa, and all users are encouraged to explore NatureMap&amp;#39;s sophisticated querying and mapping capabilities. DEC&amp;#39;s Species and Communities Branch continues to provide information on detailed localities of conservation taxa to consultants and other commercial users on a fee-for-service basis. Fair Use Guidlines As stated above, we want as many people as possible to make use of the data available within NatureMap, so long as that use is &amp;quot;fair&amp;quot;. It is considered fair for anyone to use information from NatureMap for conservation or planning purposes, including incorporating that information into reports or papers, or summarising and value-adding to data. It is not considered fair use to download raw data and on-sell it. That would contravene copyright. It is also bad business, because anyone could obtain the same data directly from NatureMap. Of particular note: Maps, species lists, reports and raw data may be freely used by anyone, including commercial consultants, for research, planning, generating reports and compilations, or for personal use, so long as the above conditions of access are complied with. Raw data, i.e. bulk detail records of individual locations that have been downloaded from NatureMap and not summarised, compiled or modified in any substantial way, may not be on-sold or rebadged without written permission from the Department of Environment and Conservation (DEC). This is consistent with Australian Copyright law. Other descriptive text and images, such as Thematic content on wetlands or ecological attributes, remain the property of NatureMap and copyright holders and may not be used without written permission from DEC. For full terms of use see Copyright page at http://naturemap.dec.wa.gov.au/default.aspx </rightsStatement>
             </rights>
-            <description type="brief">This was sourced from a regional flora and vegetation surveys surveys of eight
-                calcrete areas in the mid west carried out by DEC staff in 2010;. For more information on this dataset
-                visit the BIF theme page by clicking on Themes | Yilgarn Surveys in the NatureMap main menu.
-            </description>
+            <description type="brief">This was sourced from a regional flora and vegetation surveys surveys of eight calcrete areas in the mid west carried out by DEC staff in 2010;. For more information on this dataset visit the BIF theme page by clicking on Themes | Yilgarn Surveys in the NatureMap main menu. </description>
             <description type="notes">Includes: point occurrence data</description>
             <citationInfo>
-                <fullCitation>Calcrete Survey. NatureMap: Mapping Western Australia&amp;#39;s Biodiversity. Department
-                    of Environment and Conservation. URL: http://naturemap.dec.wa.gov.au/
-                </fullCitation>
+                <fullCitation>Calcrete Survey. NatureMap: Mapping Western Australia&amp;#39;s Biodiversity. Department of Environment and Conservation. URL: http://naturemap.dec.wa.gov.au/ </fullCitation>
             </citationInfo>
             <coverage>
-                <spatial type="iso19139dcmiBox">northlimit=-26.34152778; southlimit=-27.82194444; westlimit=118.4163333;
-                    eastLimit=121.6550278; projection=WGS84
-                </spatial>
+                <spatial type="iso19139dcmiBox">northlimit=-26.34152778; southlimit=-27.82194444; westlimit=118.4163333; eastLimit=121.6550278; projection=WGS84 </spatial>
             </coverage>
         </collection>
     </registryObject>
-
     <registryObject group="AUTestingRecords">
         <key>AUTSchemaOrgCollection2</key>
         <originatingSource type="">http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
-        <collection type="collection" dateModified="2005-05-05T23:51:55Z"
-            dateAccessioned="2015-04-10T23:51:55Z">
+        <collection type="collection" dateModified="2005-05-05T23:51:55Z" dateAccessioned="2015-04-10T23:51:55Z">
             <name type="abbreviated">
                 <namePart>abbreviatedName</namePart>
             </name>
@@ -710,22 +531,13 @@
                 <date type="dateFrom" dateFormat="W3CDTF">2011-02-07T00:00:00Z</date>
             </dates>
             <location>
-                <address>
-          <electronic type="url" target="landingPage">
-            <value>https://demo.ands.org.au</value>
-            <title>My Landing Page for the data</title>
-          </electronic>
-          <physical type="postalAddress">
-            <addressPart type="addressLine">&lt;p&gt; 123 Example St&lt;/p&gt; &lt;p&gt; Canberra ACT 2131&lt;/p&gt;</addressPart>
-          </physical>
-        </address>
+                <address> <electronic type="url" target="landingPage"> <value>https://demo.ands.org.au</value> <title>My Landing Page for the data</title> </electronic> <physical type="postalAddress"> <addressPart type="addressLine">&lt;p&gt; 123 Example St&lt;/p&gt; &lt;p&gt; Canberra ACT 2131&lt;/p&gt;</addressPart> </physical> </address>
             </location>
             <coverage>
                 <temporal>
                     <date type="dateFrom" dateFormat="W3CDTF">2013-01-30T00:00:00Z</date>
                 </temporal>
                 <spatial type="kmlPolyCoords">143.085938,-22.917923</spatial>
-
             </coverage>
             <relatedObject>
                 <key>AUTService1z</key>
@@ -760,12 +572,10 @@
             </relatedInfo>
         </collection>
     </registryObject>
-
     <registryObject group="AUTestingRecords">
         <key>AUTSchemaOrgCollection3</key>
         <originatingSource type="">http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
-        <collection type="collection" dateModified="2005-05-05T23:51:55Z"
-            dateAccessioned="2015-04-10T23:51:55Z">
+        <collection type="collection" dateModified="2005-05-05T23:51:55Z" dateAccessioned="2015-04-10T23:51:55Z">
             <name type="abbreviated">
                 <namePart>abbreviatedName</namePart>
             </name>
@@ -775,32 +585,11 @@
             <name type="primary">
                 <namePart>(AUTestingRecords) Collection to test Schema.Org Mapping 3. Full Citation, relatedInfo parties, 2x directDownload</namePart>
             </name>
-            <description type="brief">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</description>
+            <description type="brief">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</description>
             <identifier type="purl">http://purl.org/16234dsd5</identifier>
             <identifier type="doi">https://MyDOIResolver.org/10ret.123adsf45</identifier>
             <location dateFrom="2013-02-14T00:00:00Z" dateTo="2013-03-02T00:00:00Z">
-                <address>
-              <electronic type="url" target="landingPage">
-                <value>https://demo.ands.org.au</value>
-                <title>My Landing Page for the data</title>
-              </electronic>
-              <physical type="postalAddress">
-                <addressPart type="addressLine">&lt;p&gt; 123 Example St&lt;/p&gt; &lt;p&gt; Canberra ACT 2131&lt;/p&gt;</addressPart>
-              </physical>
-              <electronic type="url" target="directDownload">
-                <value>https://dl.dropboxusercontent.com/u/49073372/RIF16WithError.xml</value>
-                <title>My Direct Download link</title>
-                <mediaType>XML</mediaType>
-                <byteSize>3KB</byteSize>
-              </electronic>
-              <electronic type="url" target="directDownload">
-                <value>https://dl.dropboxusercontent.com/adsfds2.xml</value>
-                <title>My Direct Download link 2</title>
-                <mediaType>ZIP</mediaType>
-                <byteSize>300KB</byteSize>
-              </electronic>
-            </address>
+                <address> <electronic type="url" target="landingPage"> <value>https://demo.ands.org.au</value> <title>My Landing Page for the data</title> </electronic> <physical type="postalAddress"> <addressPart type="addressLine">&lt;p&gt; 123 Example St&lt;/p&gt; &lt;p&gt; Canberra ACT 2131&lt;/p&gt;</addressPart> </physical> <electronic type="url" target="directDownload"> <value>https://dl.dropboxusercontent.com/u/49073372/RIF16WithError.xml</value> <title>My Direct Download link</title> <mediaType>XML</mediaType> <byteSize>3KB</byteSize> </electronic> <electronic type="url" target="directDownload"> <value>https://dl.dropboxusercontent.com/adsfds2.xml</value> <title>My Direct Download link 2</title> <mediaType>ZIP</mediaType> <byteSize>300KB</byteSize> </electronic> </address>
             </location>
             <coverage>
                 <temporal>
@@ -865,12 +654,10 @@
             </citationInfo>
         </collection>
     </registryObject>
-
     <registryObject group="AUTestingRecords">
         <key>AUTSchemaOrgCollection4</key>
         <originatingSource type="">http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
-        <collection type="collection" dateModified="2005-05-05T23:51:55Z"
-            dateAccessioned="2015-04-10T23:51:55Z">
+        <collection type="collection" dateModified="2005-05-05T23:51:55Z" dateAccessioned="2015-04-10T23:51:55Z">
             <name type="abbreviated">
                 <namePart>abbreviatedName</namePart>
             </name>
@@ -905,15 +692,7 @@
                 <date type="dateFrom" dateFormat="W3CDTF">2011-02-07T00:00:00Z</date>
             </dates>
             <location dateFrom="2013-02-14T00:00:00Z" dateTo="2013-03-02T00:00:00Z">
-                <address>
-              <electronic type="url" target="landingPage">
-                <value>https://demo.ands.org.au</value>
-                <title>My Landing Page for the data</title>
-              </electronic>
-              <physical type="postalAddress">
-                <addressPart type="addressLine">&lt;p&gt; 123 Example St&lt;/p&gt; &lt;p&gt; Canberra ACT 2131&lt;/p&gt;</addressPart>
-              </physical>
-            </address>
+                <address> <electronic type="url" target="landingPage"> <value>https://demo.ands.org.au</value> <title>My Landing Page for the data</title> </electronic> <physical type="postalAddress"> <addressPart type="addressLine">&lt;p&gt; 123 Example St&lt;/p&gt; &lt;p&gt; Canberra ACT 2131&lt;/p&gt;</addressPart> </physical> </address>
                 <spatial type="kmlPolyCoords">119.707031,-20.468189 152.753906,-32.101190 119.707031,-20.468189</spatial>
             </location>
             <coverage>
@@ -941,7 +720,6 @@
             </relatedInfo>
         </collection>
     </registryObject>
-    
     <registryObject group="AUTestingRecords">
         <key>AUT-bc58-36ff77ded053</key>
         <originatingSource type="">Commonwealth of Australia (Geoscience Australia)</originatingSource>
@@ -952,11 +730,7 @@
             <description type="brief">&lt;p&gt;This is the Acreage Release Marine Environmental Data compiled web service to be updated each year with acreage release. It contains the following publicly available datasets, for the 2016 Acreage Release - Marine Survey Towed-video Transects, Marine Sediments Database Samples, Australian Seascapes, Seabed Mud Content on the Northwest Shelf, Seabed Sand Content of the Northwest Shelf and Seabed Gravel Content of the Northwest Shelf.&lt;/p&gt;</description>
             <identifier type="global">fcddf15ee64-97f1-4171-bc58-36ff77ded053</identifier>
             <location>
-                <address>
-          <electronic type="url">
-            <value>http://ecat.ga.gov.au/geonetwork/srv/eng/search#!fc15ee64-97f1-4171-bc58-36ff77ded053</value>
-          </electronic>
-        </address>
+                <address> <electronic type="url"> <value>http://ecat.ga.gov.au/geonetwork/srv/eng/search#!fc15ee64-97f1-4171-bc58-36ff77ded053</value> </electronic> </address>
             </location>
             <coverage>
                 <spatial type="iso19139dcmiBox">northlimit=-8; southlimit=-45; westlimit=110; eastLimit=153; projection=GDA94</spatial>
