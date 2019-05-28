@@ -441,7 +441,7 @@
     </registryObject>
 
     <registryObject group="AUTestingRecords2">
-        <key>AUTestingRecords3:Funder/Program12/Hub1/ProjectLP0347149/Collection3/Collection3.1z</key>
+        <key>AUTestingRecords3_Funder/Program12/Hub1/ProjectLP0347149/Collection3/Collection3.1z</key>
         <originatingSource>Atlas of Living Australia</originatingSource>
         <collection type="dataset">
             <identifier type="local">ala.org.au/dr968AUT2</identifier>
@@ -487,7 +487,7 @@
     </registryObject>
 
     <registryObject group="AUTestingRecords2">
-        <key>AUTestingRecords3:Funder/Program12/Hub1/ProjectLP0347149/Collection3z</key>
+        <key>AUTestingRecords3_Funder/Program12/Hub1/ProjectLP0347149/Collection3z</key>
         <originatingSource>
             Atlantic Oceanographic and Meteorological Laboratory (AOML)
         </originatingSource>
