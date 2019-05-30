@@ -632,8 +632,8 @@
                 <relation type="hasCollector"/>
             </relatedInfo>
             <relatedInfo type="party">
-                <title>AUTPartyDoestExist_HasCollector</title>
-                <identifier type="orcid">orcid.AUTParty6</identifier>
+                <title>AUTPartyDoesntExist_HasCollector</title>
+                <identifier type="orcid">orcid.AUTParty90</identifier>
                 <relation type="hasCollector"/>
             </relatedInfo>
             <relatedInfo type="party">
