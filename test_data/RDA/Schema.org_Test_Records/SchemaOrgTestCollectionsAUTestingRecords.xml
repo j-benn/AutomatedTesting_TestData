@@ -270,6 +270,11 @@
                 <identifier type="purl">http://www.MyPurlResolrverr23.com.au</identifier>
                 <relation type="author"/>
             </relatedInfo>
+            <relatedInfo type="collection">
+                <title>Collection 4</title>
+                <identifier type="purl">http://www.MyPurlResolrverr23.com.au23</identifier>
+                <relation type="author"/>
+            </relatedInfo>
         </party>
     </registryObject>
     <registryObject group="AUTestingRecords">
@@ -535,7 +540,7 @@
             </location>
             <coverage>
                 <temporal>
-                    <date type="dateFrom" dateFormat="W3CDTF">2013-01-30T00:00:00Z</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2013-05</date>
                 </temporal>
                 <spatial type="kmlPolyCoords">143.085938,-22.917923</spatial>
             </coverage>
@@ -600,6 +605,9 @@
             <coverage>
                 <spatial type="text">Some place in Australia</spatial>
             </coverage>
+            <rights>
+                <licence rightsUri="http://www.rightsuri.com">Licence Value Goes Here</licence>
+            </rights>
             <subject type="local">localSubject</subject>
             <subject type="local">localSubject2</subject>
             <subject type="local">localSubject3</subject>
@@ -680,7 +688,7 @@
             <description type="local">&lt;p&gt;This is a local statement for the colleciton&lt;/p&gt;</description>
             <rights>
                 <rightsStatement rightsUri="http://www.rightsuri.com">Rights Statement Rights Statement</rightsStatement>
-                <licence type="AusGOALRestrictive" rightsUri="http://www.rightsuri.com">LicenceLicenceLicence</licence>
+                <licence>LicenceLicenceLicence</licence>
                 <accessRights rightsUri="http://www.rightsuri.com">Access Rights</accessRights>
             </rights>
             <rights>
@@ -697,7 +705,14 @@
             </location>
             <coverage>
                 <spatial type="text">Some place in Australia</spatial>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">2001</date>
+                </temporal>
             </coverage>
+            <relatedObject>
+                <key>ec040bc8-ec4b-419f-1661-01937f91b390</key>
+                <relation type="isCitedBy"/>
+            </relatedObject>
             <subject type="local" xml:lang="en">primary forests</subject>
             <subject type="local" xml:lang="en">tropics</subject>
             <subject type="local" xml:lang="en">conservation forests</subject>
@@ -720,6 +735,202 @@
             </relatedInfo>
         </collection>
     </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTSchemaOrgCollection23</key>
+        <originatingSource type="">http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2005-05-05T23:51:55Z" dateAccessioned="2015-04-10T23:51:55Z">
+            <name type="abbreviated">
+                <namePart>abbreviatedName</namePart>
+            </name>
+            <name type="alternative">
+                <namePart>alternativeName</namePart>
+            </name>
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection to test Schema.Org Mapping 23. Reverse Relationships RelatedParty3(RI author), GrantDP0987282(RI hasOutput).</namePart>
+            </name>
+            <description type="significanceStatement">&lt;p&gt;significanceStatement significanceStatement&lt;/p&gt;</description>
+            <description type="researchSupport">&lt;p&gt;researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport researchSupport&lt;/p&gt;</description>
+            <description type="researchDataProflie">&lt;p&gt;researchDataProflieresea rchDataProflie researchDataP roflieresearchDataProflie researchDataProflie researchDataProflie researchDataProflie researchDataProflie&lt;/p&gt;</description>
+            <description type="researchAreas">&lt;p&gt;researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas researchAreas&lt;/p&gt;</description>
+            <description type="note">&lt;p&gt;note note note note note note note note note note note note note note note note note note note note note note&lt;/p&gt;</description>
+            <description type="logo">&lt;p&gt;https://dl.dropbox.com/u/49073372/LOGO.jpg&lt;/p&gt;</description>
+            <description type="full">&lt;p&gt;full full full full full full full full full full full full full full full full full full&lt;/p&gt;</description>
+            <description type="deliverymethod">&lt;p&gt;deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod deliverymethod&lt;/p&gt;</description>
+            <description type="brief">&lt;p&gt;brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief brief&lt;/p&gt;</description>
+            <description type="lineage">&lt;p&gt;This is the lineage statement for the collection&lt;/p&gt;</description>
+            <description type="local">&lt;p&gt;This is a local statement for the colleciton&lt;/p&gt;</description>
+            <rights>
+                <rightsStatement rightsUri="http://www.rightsuri.com">Rights Statement Rights Statement</rightsStatement>
+                <licence>LicenceLicenceLicence</licence>
+                <accessRights rightsUri="http://www.rightsuri.com">Access Rights</accessRights>
+            </rights>
+            <rights>
+                <accessRights type="open">My Access Rights details are listed here and my data is open</accessRights>
+            </rights>
+            <identifier type="purl">http://www.MyPurlResolrverr23.com.au23</identifier>
+            <identifier type="local">http://MyDOIResolver.org/10r3et.1234523</identifier>
+            <dates type="dc.available">
+                <date type="dateFrom" dateFormat="W3CDTF">2011-02-07T00:00:00Z</date>
+            </dates>
+            <location dateFrom="2013-02-14T00:00:00Z" dateTo="2013-03-02T00:00:00Z">
+                <address> <electronic type="url" target="landingPage"> <value>https://demo.ands.org.au</value> <title>My Landing Page for the data</title> </electronic> <physical type="postalAddress"> <addressPart type="addressLine">&lt;p&gt; 123 Example St&lt;/p&gt; &lt;p&gt; Canberra ACT 2131&lt;/p&gt;</addressPart> </physical> </address>
+                <spatial type="kmlPolyCoords">119.707031,-20.468189 152.753906,-32.101190 119.707031,-20.468189</spatial>
+            </location>
+            <coverage>
+                <spatial type="text">Some place in Australia</spatial>
+                <temporal>
+                    <date type="dateTo" dateFormat="W3CDTF">1999</date>
+                </temporal>
+            </coverage>
+            <relatedObject>
+                <key>ec040bc8-ec4b-419f-1661-01937f91b390</key>
+                <relation type="isCitedBy"/>
+            </relatedObject>
+            <subject type="local" xml:lang="en">primary forests</subject>
+            <subject type="local" xml:lang="en">tropics</subject>
+            <subject type="local" xml:lang="en">conservation forests</subject>
+            <subject type="local" xml:lang="en">biodiversity</subject>
+            <subject type="anzsrc-for" xml:lang="en">050202</subject>
+            <subject type="anzsrc-for" xml:lang="en">070504</subject>
+            <subject type="anzsrc-seo" xml:lang="en">961306</subject>
+            <relatedInfo type="metadata">
+                <title>Related Info Title</title>
+                <identifier type="doi">10.1234567882484</identifier>
+                <format>
+                    <identifier type="mediaType">formatidentifier</identifier>
+                </format>
+                <notes>related info notes</notes>
+            </relatedInfo>
+            <relatedInfo type="dataQualityInformation">
+                <title>relatedinfo Title</title>
+                <identifier type="infouri">infouri.12345</identifier>
+                <notes>Related Info Notes</notes>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTSchemaOrgCollection24</key>
+        <originatingSource type="">http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="9999-05-05T23:51:55Z" dateAccessioned="2999-09-09T00:00:01Z">
+            <name>
+                <namePart>(AUTestingRecords) Collection to test Schema.Org Mapping 24. DatePublished should pick up dc.issued</namePart>
+            </name>
+            <description type="local">&lt;p&gt;This is a local statement for the colleciton&lt;/p&gt;</description>
+
+            <dates type="dc.available">
+                <date type="dateFrom" dateFormat="W3CDTF">2011-02-07T00:00:00Z</date>
+            </dates>
+            <dates type="dc.created">
+                <date type="dateFrom" dateFormat="W3CDTF">2010-10-10T00:00:00Z</date>
+            </dates>
+            <dates type="dc.issued">
+                <date type="dateFrom" dateFormat="W3CDTF">2012-11-11T11:11:00Z</date>
+            </dates>
+            <dates type="dc.dateAccepted">
+                <date type="dateFrom" dateFormat="W3CDTF">2013-11-11</date>
+            </dates>
+            <dates type="dc.valid">
+                <date type="dateFrom" dateFormat="W3CDTF">2014-11</date>
+            </dates>
+            <subject type="local" xml:lang="en">primary forests</subject>
+            <subject type="local" xml:lang="en">tropics</subject>
+            <subject type="local" xml:lang="en">conservation forests</subject>
+            <subject type="local" xml:lang="en">biodiversity</subject>
+            <subject type="anzsrc-for" xml:lang="en">050202</subject>
+            <subject type="anzsrc-for" xml:lang="en">070504</subject>
+            <subject type="anzsrc-seo" xml:lang="en">961306</subject>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTSchemaOrgCollection25</key>
+        <originatingSource type="">http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="9999-05-05T23:51:55Z" dateAccessioned="2999-09-09T00:00:01Z">
+            <name type="other">
+                <namePart>(AUTestingRecords) Collection to test Schema.Org Mapping 25. DatePublished should pick up dc.available</namePart>
+            </name>
+            <description type="local">&lt;p&gt;This is a local statement for the colleciton&lt;/p&gt;</description>
+
+            <dates type="dc.available">
+                <date type="dateFrom" dateFormat="W3CDTF">2011</date>
+            </dates>
+            <dates type="dc.created">
+                <date type="dateFrom" dateFormat="W3CDTF">2010-10-10T00:00:00Z</date>
+            </dates>
+            <dates type="dc.dateAccepted">
+                <date type="dateFrom" dateFormat="W3CDTF">2013-11-11</date>
+            </dates>
+            <dates type="dc.valid">
+                <date type="dateFrom" dateFormat="W3CDTF">2014-11</date>
+            </dates>
+            <subject type="local" xml:lang="en">primary forests</subject>
+            <subject type="local" xml:lang="en">tropics</subject>
+            <subject type="local" xml:lang="en">conservation forests</subject>
+            <subject type="local" xml:lang="en">biodiversity</subject>
+            <subject type="anzsrc-for" xml:lang="en">050202</subject>
+            <subject type="anzsrc-for" xml:lang="en">070504</subject>
+            <subject type="anzsrc-seo" xml:lang="en">961306</subject>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTSchemaOrgCollection26</key>
+        <originatingSource type="">http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="9999-05-05T23:51:55Z" dateAccessioned="2999-09-09T00:00:01Z">
+            <name type="other">
+                <namePart>(AUTestingRecords) Collection to test Schema.Org Mapping 26. DatePublished should pick up dateAccessioned</namePart>
+            </name>
+            <description type="local">&lt;p&gt;This is a local statement for the colleciton&lt;/p&gt;</description>
+
+            <dates type="dc.created">
+                <date type="dateFrom" dateFormat="W3CDTF">2010-10-10T00:00:00Z</date>
+            </dates>
+            <dates type="dc.dateAccepted">
+                <date type="dateFrom" dateFormat="W3CDTF">2013-11-11</date>
+            </dates>
+            <dates type="dc.valid">
+                <date type="dateFrom" dateFormat="W3CDTF">2014-11</date>
+            </dates>
+            <subject type="local" xml:lang="en">primary forests</subject>
+            <subject type="local" xml:lang="en">tropics</subject>
+            <subject type="local" xml:lang="en">conservation forests</subject>
+            <subject type="local" xml:lang="en">biodiversity</subject>
+            <subject type="anzsrc-for" xml:lang="en">050202</subject>
+            <subject type="anzsrc-for" xml:lang="en">070504</subject>
+            <subject type="anzsrc-seo" xml:lang="en">961306</subject>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTSchemaOrgCollection27</key>
+        <originatingSource type="">http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="9999-05-05T23:51:55Z">
+            <name type="other">
+                <namePart>(AUTestingRecords) Collection to test Schema.Org Mapping 27. DatePublished. No date. Will pickup date ingested</namePart>
+            </name>
+            <description type="local">&lt;p&gt;This is a local statement for the colleciton&lt;/p&gt;</description>
+
+            <dates type="dc.created">
+                <date type="dateFrom" dateFormat="W3CDTF">2010-10-10T00:00:00Z</date>
+            </dates>
+            <dates type="dc.dateAccepted">
+                <date type="dateFrom" dateFormat="W3CDTF">2013-11-11</date>
+            </dates>
+            <dates type="dc.valid">
+                <date type="dateFrom" dateFormat="W3CDTF">2014-11</date>
+            </dates>
+            <subject type="local" xml:lang="en">primary forests</subject>
+            <subject type="local" xml:lang="en">tropics</subject>
+            <subject type="local" xml:lang="en">conservation forests</subject>
+            <subject type="local" xml:lang="en">biodiversity</subject>
+            <subject type="anzsrc-for" xml:lang="en">050202</subject>
+            <subject type="anzsrc-for" xml:lang="en">070504</subject>
+            <subject type="anzsrc-seo" xml:lang="en">961306</subject>
+        </collection>
+    </registryObject>
+
     <registryObject group="AUTestingRecords">
         <key>AUT-bc58-36ff77ded053</key>
         <originatingSource type="">Commonwealth of Australia (Geoscience Australia)</originatingSource>
@@ -755,4 +966,27 @@
             <subject type="local">Earth Sciences</subject>
         </service>
     </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>ec040bc8-ec4b-419f-1661-01937f91b390</key>
+        <originatingSource type="">https://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="publication">
+            <name type="primary">
+                <namePart>Schema.org Collection type publication</namePart>
+            </name>
+            <description type="brief">&lt;p&gt;A description for the collection type pub&lt;/p&gt;</description>
+            <identifier type="doi">10.3202304.sdf023450/234</identifier>
+            <relatedObject>
+                <key>AUTSchemaOrgCollection2</key>
+                <relation type="cites"/>
+            </relatedObject>
+            <relatedInfo type="publication">
+                <title>A related Schema.org collection key:AUTSchemaOrgCollection1</title>
+                <identifier type="AU-ANL:PEAU">http://nla.gov.au/nla.party-1504d955</identifier>
+                <relation type="cites"/>
+                <notes>Related Info Notes</notes>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
 </registryObjects>
