@@ -159,7 +159,7 @@
                 <identifier type="infouri">infouri.12345</identifier>
                 <notes>Related Info Notes</notes>
             </relatedInfo>
-            <<relatedInfo type="publication">
+            <relatedInfo test="test" type="publication">
                 <title>Related Info Title</title>
                 <identifier type="doi">10.123123123</identifier>
                 <relation type="hasPart"/>
