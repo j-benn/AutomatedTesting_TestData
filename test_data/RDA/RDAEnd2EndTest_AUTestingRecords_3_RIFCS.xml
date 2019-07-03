@@ -425,7 +425,7 @@
     <originatingSource>arc.gov.au/general/searchable_data.htm</originatingSource>
     <activity type="grant">
       <name type="primary">
-        <namePart>(AUTestingRecords3)Design and Implementation of a Clinical Services Performance Management Model</namePart>
+        <namePart>(AUTestingRecords3)Design and Implementation of a Clinical Services Performance Management Model (NOTE Test for number of grants fails as relatedinfo isManagedBy relation not being picked up)</namePart>
       </name>
       <identifier type="purl">http://AUT.org/au-research/grants/arc/LP0211548AUTx.Grant</identifier>
       <identifier type="arc">LP0211548AUTx.Grant</identifier>
