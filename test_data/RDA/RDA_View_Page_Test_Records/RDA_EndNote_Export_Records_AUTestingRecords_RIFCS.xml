@@ -623,10 +623,6 @@
                 <key>AUTestingRecordsPartyTocoInvestigator</key>
                 <relation type="coInvestigator"/>
             </relatedObject>
-            <relatedObject>
-                <key>AUTestingRecordsPartyToRelateToauthor</key>
-                <relation type="author"/>
-            </relatedObject>
             <subject type="local">oceans</subject>
             <subject type="local">Oceans | Ocean Temperature | Water Temperature</subject>
             <subject type="local">Oceans | Salinity/density | Salinity</subject>
@@ -646,11 +642,6 @@
                 <title>(AUTestingRecords) Party to relate to Exists 3</title>
                 <identifier type="local">coInvestigator_2_-yer123454</identifier>
                 <relation type="coInvestigator"/>
-            </relatedInfo>
-            <relatedInfo type="party">
-                <title>(AUTestingRecords) Party to relate to Author - Does not exist</title>
-                <identifier type="uri">http://www.someidentifierforaparty20d2</identifier>
-                <relation type="author"/>
             </relatedInfo>
         </collection>
     </registryObject>
