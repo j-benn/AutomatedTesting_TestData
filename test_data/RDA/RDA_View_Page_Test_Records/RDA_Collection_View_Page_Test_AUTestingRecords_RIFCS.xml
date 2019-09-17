@@ -707,13 +707,24 @@
             <subject type="local">Oceans | Salinity/density | Salinity</subject>
             <subject type="local">Oceans | Ocean Pressure | Water Pressure</subject>
             <subject type="local">Profiling Float | Autonomous Profiling Float</subject>
+            <subject type="local">environment</subject>
+            <subject type="local">imageryBaseMapsEarthCover</subject>
+            <subject type="local">EARTH SCIENCE</subject>
+            <subject type="local">BIOSPHERE</subject>
+            <subject type="local">VEGETATION</subject>
+            <subject type="local">FOREST COMPOSITION/VEGETATION STRUCTURE</subject>
+            <subject type="local">Earth Observation Satellites</subject>
+            <subject type="local">Landsat TM and ETM+, ALOS PALSAR-1, GLAS/ICESat</subject>
+            <subject type="local">Landsat TM and ETM+, ALOS PALSAR-1, GLAS/ICESat</subject>
+            <subject type="local">1 meter - &lt; 30 meters</subject>
+            <subject type="local">Monthly - &lt; Annual</subject>
             <description type="full">This dataset contains temperature, salinity and pressure data for all profiles
                 of the Argo float 2901092 managed by the Indian National Centre for Ocean Information Services
                 (INCOIS).Argo is a major international collaborative project to observe the world's oceans and help
                 scientists understand ocean processes and the ocean's roles in climate. The data collected also
                 improves our ability to forecast climate and ocean conditions. The float drift at depth of between 1
                 and 2 km. Every ten days each float ascends to the surface, measuring temperature and salinity as it
-                rises. This data is transmitted to satellites along with the float's position. The float then dives
+                rises. Less than &lt; Ampersand &amp; &quot;This data is transmitted to satellites&quot; along with the float's position. The float then dives
                 and starts a new cycle. The Argo float, WMO 2901092 was first deployed on the 2008-08-24T18:00:00 at
                 launch location (Latitude : -1.0 ; Longitude : 81.53). The variables available for this Argo float
                 are : Temperature, Practical Salinity and Pressure. The last location of the Argo float was

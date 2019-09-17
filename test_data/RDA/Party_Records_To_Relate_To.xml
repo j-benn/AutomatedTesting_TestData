@@ -1,0 +1,1752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registryObjects>
+
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToRelateToIsPrincipalInvestigatorOf</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)IsPrincipalInvestigatorOf - Party Type Person</namePart>
+            </name>
+            <identifier type="local">IsPrincipalInvestigatorOf-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+                affinity-purified antibodies with protein profiling in a multitude of tissues and cells assembled in
+                tissue microarrays. Confocal microscopy analysis using human cell lines is performed for more detailed
+                protein localization. The program hosts the Human Protein Atlas portal with expression profiles of human
+                proteins in tissues and cells.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;The main sites are located at AlbaNova
+                and SciLifeLab, KTH - Royal Institute of Technology, Stockholm, Sweden, the Rudbeck Laboratory, Uppsala
+                University, Uppsala, Sweden and Lab Surgpath, Mumbai, India. The main objective of the resource centre
+                is to produce specific antibodies to human target proteins using a high-throughput production method
+                involving the cloning and protein expression of Protein Epitope Signature Tags (PrESTs). After
+                purification, the antibodies are used to study expression profiles in cells and tissues and for
+                functional analysis of the corresponding proteins in a wide range of platforms. The Stockholm sites are
+                responsible for generating high-quality antibodies and to perform the immunofluorescence analysis, the
+                Uppsala site is responsible for large-scale protein profiling in tissues and cells using
+                immunohistochemistry and the Mumbai site for the annotation of the immunohistochemistry images.&amp;lt;/p&amp;gt;
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToRelateToauthor</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)author - Party Type Person</namePart>
+            </name>
+            <identifier type="local">author-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+                affinity-purified antibodies with protein profiling in a multitude of tissues and cells assembled in
+                tissue microarrays. Confocal microscopy analysis using human cell lines is performed for more detailed
+                protein localization. The program hosts the Human Protein Atlas portal with expression profiles of human
+                proteins in tissues and cells.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;The main sites are located at AlbaNova
+                and SciLifeLab, KTH - Royal Institute of Technology, Stockholm, Sweden, the Rudbeck Laboratory, Uppsala
+                University, Uppsala, Sweden and Lab Surgpath, Mumbai, India. The main objective of the resource centre
+                is to produce specific antibodies to human target proteins using a high-throughput production method
+                involving the cloning and protein expression of Protein Epitope Signature Tags (PrESTs). After
+                purification, the antibodies are used to study expression profiles in cells and tissues and for
+                functional analysis of the corresponding proteins in a wide range of platforms. The Stockholm sites are
+                responsible for generating high-quality antibodies and to perform the immunofluorescence analysis, the
+                Uppsala site is responsible for large-scale protein profiling in tissues and cells using
+                immunohistochemistry and the Mumbai site for the annotation of the immunohistochemistry images.&amp;lt;/p&amp;gt;
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyTocoInvestigator</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)coInvestigator - Party Type Person</namePart>
+            </name>
+            <identifier type="local">coInvestigator-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToisOwnedBy</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)isOwnedBy - Party Type Person</namePart>
+            </name>
+            <identifier type="local">isOwnedBy-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyTohasCollector</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)hasCollector - Party Type Person</namePart>
+            </name>
+            <identifier type="local">hasCollector-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyTohasAssociationWith</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)hasAssociationWith - Party Type Person</namePart>
+            </name>
+            <identifier type="local">hasAssociationWith-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+    <key>AUTestingRecordsPartyTohasAssociationWith</key>
+    <originatingSource>http://www.proteomebrowser.org</originatingSource>
+    <party type="person">
+        <name type="primary">
+            <namePart type="">(AUTestingRecords)hasAssociationWith - Party Type Person</namePart>
+        </name>
+        <identifier type="local">hasAssociationWith-yer123454</identifier>
+        <location>
+            <address>
+                <electronic type="url">
+                    <value>http://www.proteinatlas.org/about/organization</value>
+                </electronic>
+                <electronic type="email">
+                    <value>contact@proteinatlas.org</value>
+                </electronic>
+            </address>
+        </location>
+        <description type="full">
+            &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+            Foundation, has been set up to allow for a systematic exploration of the human proteome using
+            Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+        </description>
+        <subject type="anzsrc-for">110702</subject>
+    </party>
+</registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToisManagedBy</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)isManagedBy - Party Type Person</namePart>
+            </name>
+            <identifier type="local">isManagedBy-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToisEnrichedBy</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)isEnrichedBy - Party Type Person</namePart>
+            </name>
+            <identifier type="local">isEnrichedBy-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToisMemberOf</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)isMemberOf - Party Type Person</namePart>
+            </name>
+            <identifier type="local">isMemberOf-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToisParticipantIn</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)isParticipantIn - Party Type Person</namePart>
+            </name>
+            <identifier type="local">isParticipantIn-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToRelateToIsPrincipalInvestigatorOf_2_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)IsPrincipalInvestigatorOf_2_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">IsPrincipalInvestigatorOf_2_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+                affinity-purified antibodies with protein profiling in a multitude of tissues and cells assembled in
+                tissue microarrays. Confocal microscopy analysis using human cell lines is performed for more detailed
+                protein localization. The program hosts the Human Protein Atlas portal with expression profiles of human
+                proteins in tissues and cells.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;The main sites are located at AlbaNova
+                and SciLifeLab, KTH - Royal Institute of Technology, Stockholm, Sweden, the Rudbeck Laboratory, Uppsala
+                University, Uppsala, Sweden and Lab Surgpath, Mumbai, India. The main objective of the resource centre
+                is to produce specific antibodies to human target proteins using a high-throughput production method
+                involving the cloning and protein expression of Protein Epitope Signature Tags (PrESTs). After
+                purification, the antibodies are used to study expression profiles in cells and tissues and for
+                functional analysis of the corresponding proteins in a wide range of platforms. The Stockholm sites are
+                responsible for generating high-quality antibodies and to perform the immunofluorescence analysis, the
+                Uppsala site is responsible for large-scale protein profiling in tissues and cells using
+                immunohistochemistry and the Mumbai site for the annotation of the immunohistochemistry images.&amp;lt;/p&amp;gt;
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToRelateToauthor_2_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)author_2_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">author_2_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+                affinity-purified antibodies with protein profiling in a multitude of tissues and cells assembled in
+                tissue microarrays. Confocal microscopy analysis using human cell lines is performed for more detailed
+                protein localization. The program hosts the Human Protein Atlas portal with expression profiles of human
+                proteins in tissues and cells.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;The main sites are located at AlbaNova
+                and SciLifeLab, KTH - Royal Institute of Technology, Stockholm, Sweden, the Rudbeck Laboratory, Uppsala
+                University, Uppsala, Sweden and Lab Surgpath, Mumbai, India. The main objective of the resource centre
+                is to produce specific antibodies to human target proteins using a high-throughput production method
+                involving the cloning and protein expression of Protein Epitope Signature Tags (PrESTs). After
+                purification, the antibodies are used to study expression profiles in cells and tissues and for
+                functional analysis of the corresponding proteins in a wide range of platforms. The Stockholm sites are
+                responsible for generating high-quality antibodies and to perform the immunofluorescence analysis, the
+                Uppsala site is responsible for large-scale protein profiling in tissues and cells using
+                immunohistochemistry and the Mumbai site for the annotation of the immunohistochemistry images.&amp;lt;/p&amp;gt;
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyTocoInvestigator_2_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)coInvestigator_2_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">coInvestigator_2_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToisOwnedBy_2_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)isOwnedBy_2_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">isOwnedBy_2_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyTohasCollector_2_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)hasCollector_2_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">hasCollector_2_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyTohasAssociationWith_2_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)hasAssociationWith_2_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">hasAssociationWith_2_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyTohasAssociationWith_2_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)hasAssociationWith_2_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">hasAssociationWith_2_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToisManagedBy_2_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)isManagedBy_2_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">isManagedBy_2_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToisEnrichedBy_2_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)isEnrichedBy_2_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">isEnrichedBy_2_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToisMemberOf_2_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)isMemberOf_2_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">isMemberOf_2_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToisParticipantIn_2_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)isParticipantIn_2_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">isParticipantIn-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToRelateToIsPrincipalInvestigatorOf_3_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)IsPrincipalInvestigatorOf_3_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">IsPrincipalInvestigatorOf_3_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+                affinity-purified antibodies with protein profiling in a multitude of tissues and cells assembled in
+                tissue microarrays. Confocal microscopy analysis using human cell lines is performed for more detailed
+                protein localization. The program hosts the Human Protein Atlas portal with expression profiles of human
+                proteins in tissues and cells.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;The main sites are located at AlbaNova
+                and SciLifeLab, KTH - Royal Institute of Technology, Stockholm, Sweden, the Rudbeck Laboratory, Uppsala
+                University, Uppsala, Sweden and Lab Surgpath, Mumbai, India. The main objective of the resource centre
+                is to produce specific antibodies to human target proteins using a high-throughput production method
+                involving the cloning and protein expression of Protein Epitope Signature Tags (PrESTs). After
+                purification, the antibodies are used to study expression profiles in cells and tissues and for
+                functional analysis of the corresponding proteins in a wide range of platforms. The Stockholm sites are
+                responsible for generating high-quality antibodies and to perform the immunofluorescence analysis, the
+                Uppsala site is responsible for large-scale protein profiling in tissues and cells using
+                immunohistochemistry and the Mumbai site for the annotation of the immunohistochemistry images.&amp;lt;/p&amp;gt;
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToRelateToauthor_3_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)author_3_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">author_3_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+                affinity-purified antibodies with protein profiling in a multitude of tissues and cells assembled in
+                tissue microarrays. Confocal microscopy analysis using human cell lines is performed for more detailed
+                protein localization. The program hosts the Human Protein Atlas portal with expression profiles of human
+                proteins in tissues and cells.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;The main sites are located at AlbaNova
+                and SciLifeLab, KTH - Royal Institute of Technology, Stockholm, Sweden, the Rudbeck Laboratory, Uppsala
+                University, Uppsala, Sweden and Lab Surgpath, Mumbai, India. The main objective of the resource centre
+                is to produce specific antibodies to human target proteins using a high-throughput production method
+                involving the cloning and protein expression of Protein Epitope Signature Tags (PrESTs). After
+                purification, the antibodies are used to study expression profiles in cells and tissues and for
+                functional analysis of the corresponding proteins in a wide range of platforms. The Stockholm sites are
+                responsible for generating high-quality antibodies and to perform the immunofluorescence analysis, the
+                Uppsala site is responsible for large-scale protein profiling in tissues and cells using
+                immunohistochemistry and the Mumbai site for the annotation of the immunohistochemistry images.&amp;lt;/p&amp;gt;
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyTocoInvestigator_3_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)coInvestigator_3_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">coInvestigator_3_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToisOwnedBy_3_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)isOwnedBy_3_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">isOwnedBy_3_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyTohasCollector_3_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)hasCollector_3_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">hasCollector_3_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyTohasAssociationWith_3_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)hasAssociationWith_3_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">hasAssociationWith_3_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyTohasAssociationWith_3_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)hasAssociationWith_3_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">hasAssociationWith_3_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToisManagedBy_3_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)isManagedBy_3_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">isManagedBy_3_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToisEnrichedBy_3_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)isEnrichedBy_3_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">isEnrichedBy_3_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToisMemberOf_3_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)isMemberOf_3_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">isMemberOf_3_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToisParticipantIn_3_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)isParticipantIn_3_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">isParticipantIn-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToRelateToIsPrincipalInvestigatorOf_4_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)IsPrincipalInvestigatorOf_4_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">IsPrincipalInvestigatorOf_4_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+                affinity-purified antibodies with protein profiling in a multitude of tissues and cells assembled in
+                tissue microarrays. Confocal microscopy analysis using human cell lines is performed for more detailed
+                protein localization. The program hosts the Human Protein Atlas portal with expression profiles of human
+                proteins in tissues and cells.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;The main sites are located at AlbaNova
+                and SciLifeLab, KTH - Royal Institute of Technology, Stockholm, Sweden, the Rudbeck Laboratory, Uppsala
+                University, Uppsala, Sweden and Lab Surgpath, Mumbai, India. The main objective of the resource centre
+                is to produce specific antibodies to human target proteins using a high-throughput production method
+                involving the cloning and protein expression of Protein Epitope Signature Tags (PrESTs). After
+                purification, the antibodies are used to study expression profiles in cells and tissues and for
+                functional analysis of the corresponding proteins in a wide range of platforms. The Stockholm sites are
+                responsible for generating high-quality antibodies and to perform the immunofluorescence analysis, the
+                Uppsala site is responsible for large-scale protein profiling in tissues and cells using
+                immunohistochemistry and the Mumbai site for the annotation of the immunohistochemistry images.&amp;lt;/p&amp;gt;
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToRelateToauthor_4_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)author_4_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">author_4_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+                affinity-purified antibodies with protein profiling in a multitude of tissues and cells assembled in
+                tissue microarrays. Confocal microscopy analysis using human cell lines is performed for more detailed
+                protein localization. The program hosts the Human Protein Atlas portal with expression profiles of human
+                proteins in tissues and cells.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;The main sites are located at AlbaNova
+                and SciLifeLab, KTH - Royal Institute of Technology, Stockholm, Sweden, the Rudbeck Laboratory, Uppsala
+                University, Uppsala, Sweden and Lab Surgpath, Mumbai, India. The main objective of the resource centre
+                is to produce specific antibodies to human target proteins using a high-throughput production method
+                involving the cloning and protein expression of Protein Epitope Signature Tags (PrESTs). After
+                purification, the antibodies are used to study expression profiles in cells and tissues and for
+                functional analysis of the corresponding proteins in a wide range of platforms. The Stockholm sites are
+                responsible for generating high-quality antibodies and to perform the immunofluorescence analysis, the
+                Uppsala site is responsible for large-scale protein profiling in tissues and cells using
+                immunohistochemistry and the Mumbai site for the annotation of the immunohistochemistry images.&amp;lt;/p&amp;gt;
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyTocoInvestigator_4_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)coInvestigator_4_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">coInvestigator_4_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToisOwnedBy_4_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)isOwnedBy_4_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">isOwnedBy_4_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyTohasCollector_4_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)hasCollector_4_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">hasCollector_4_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyTohasAssociationWith_4_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)hasAssociationWith_4_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">hasAssociationWith_4_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyTohasAssociationWith_4_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)hasAssociationWith_4_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">hasAssociationWith_4_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToisManagedBy_4_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)isManagedBy_4_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">isManagedBy_4_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToisEnrichedBy_4_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)isEnrichedBy_4_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">isEnrichedBy_4_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToisMemberOf_4_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)isMemberOf_4_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">isMemberOf_4_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToisParticipantIn_4_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)isParticipantIn_4_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">isParticipantIn-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToRelateToIsPrincipalInvestigatorOf_5_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)IsPrincipalInvestigatorOf_5_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">IsPrincipalInvestigatorOf_5_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+                affinity-purified antibodies with protein profiling in a multitude of tissues and cells assembled in
+                tissue microarrays. Confocal microscopy analysis using human cell lines is performed for more detailed
+                protein localization. The program hosts the Human Protein Atlas portal with expression profiles of human
+                proteins in tissues and cells.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;The main sites are located at AlbaNova
+                and SciLifeLab, KTH - Royal Institute of Technology, Stockholm, Sweden, the Rudbeck Laboratory, Uppsala
+                University, Uppsala, Sweden and Lab Surgpath, Mumbai, India. The main objective of the resource centre
+                is to produce specific antibodies to human target proteins using a high-throughput production method
+                involving the cloning and protein expression of Protein Epitope Signature Tags (PrESTs). After
+                purification, the antibodies are used to study expression profiles in cells and tissues and for
+                functional analysis of the corresponding proteins in a wide range of platforms. The Stockholm sites are
+                responsible for generating high-quality antibodies and to perform the immunofluorescence analysis, the
+                Uppsala site is responsible for large-scale protein profiling in tissues and cells using
+                immunohistochemistry and the Mumbai site for the annotation of the immunohistochemistry images.&amp;lt;/p&amp;gt;
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToRelateToauthor_5_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)author_5_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">author_5_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+                affinity-purified antibodies with protein profiling in a multitude of tissues and cells assembled in
+                tissue microarrays. Confocal microscopy analysis using human cell lines is performed for more detailed
+                protein localization. The program hosts the Human Protein Atlas portal with expression profiles of human
+                proteins in tissues and cells.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;The main sites are located at AlbaNova
+                and SciLifeLab, KTH - Royal Institute of Technology, Stockholm, Sweden, the Rudbeck Laboratory, Uppsala
+                University, Uppsala, Sweden and Lab Surgpath, Mumbai, India. The main objective of the resource centre
+                is to produce specific antibodies to human target proteins using a high-throughput production method
+                involving the cloning and protein expression of Protein Epitope Signature Tags (PrESTs). After
+                purification, the antibodies are used to study expression profiles in cells and tissues and for
+                functional analysis of the corresponding proteins in a wide range of platforms. The Stockholm sites are
+                responsible for generating high-quality antibodies and to perform the immunofluorescence analysis, the
+                Uppsala site is responsible for large-scale protein profiling in tissues and cells using
+                immunohistochemistry and the Mumbai site for the annotation of the immunohistochemistry images.&amp;lt;/p&amp;gt;
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyTocoInvestigator_5_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)coInvestigator_5_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">coInvestigator_5_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToisOwnedBy_5_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)isOwnedBy_5_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">isOwnedBy_5_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyTohasCollector_5_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)hasCollector_5_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">hasCollector_5_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyTohasAssociationWith_5_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)hasAssociationWith_5_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">hasAssociationWith_5_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyTohasAssociationWith_5_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)hasAssociationWith_5_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">hasAssociationWith_5_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToisManagedBy_5_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)isManagedBy_5_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">isManagedBy_5_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToisEnrichedBy_5_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)isEnrichedBy_5_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">isEnrichedBy_5_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToisMemberOf_5_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)isMemberOf_5_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">isMemberOf_5_-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToisParticipantIn_5_</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)isParticipantIn_5_ - Party Type Person</namePart>
+            </name>
+            <identifier type="local">isParticipantIn-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <!-- _____________GROUPS_____________ -->
+    <!-- _____________GROUPS_____________ -->
+    <!-- _____________GROUPS_____________ -->
+
+
+    <registryObject group="AUTestingRecords3">
+        <key>AUTestingRecordsPartyToisFundedBy_Group</key>
+        <originatingSource type="">http://api.crossref.org/funders?filter=location:Australia</originatingSource>
+        <party type="group">
+            <name type="primary">
+                <namePart>(AUTestingRecords)isFundedBy_Group - AUTestingRecords3:Funder</namePart>
+            </name>
+            <description type="brief">&amp;lt;p&amp;gt;The Department of the AUTestingRecords3 designs and implements
+                the Australian Government’s policies and programmes to protect and conserve the environment, water and
+                heritage and promote climate action. The environmental framework is being delivered under four pillars:&amp;lt;/p&amp;gt;
+                &amp;lt;ul&amp;gt;
+                &amp;lt;li&amp;gt;Clean Water&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;Clean Air&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;Clean Land&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;National heritage&amp;lt;/li&amp;gt;
+                &amp;lt;/ul&amp;gt;
+                &amp;lt;p&amp;gt;Throughout Australia, environment and heritage issues are also managed by other levels
+                of government.&amp;lt;/p&amp;gt;
+                &amp;lt;ul&amp;gt;
+                &amp;lt;li class=&amp;quot;arrow&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;http://www.australia.gov.au&amp;quot;&amp;gt;Government
+                in Australia&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li class=&amp;quot;arrow&amp;quot;&amp;gt;&amp;lt;a class=&amp;quot;ext&amp;quot; href=&amp;quot;http://australia.gov.au/directories/state-territory-and-local-government-directories/states-territories-and-local-government&amp;quot;&amp;gt;States,
+                territories and local government&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;/ul&amp;gt;
+                &amp;lt;div class=&amp;quot;boxtwocols&amp;quot;&amp;gt; &amp;lt;/div&amp;gt;
+            </description>
+            <identifier type="local">isFundedBy_Group-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.environment.gov.au/webform/website-feedback</value>
+                    </electronic>
+                </address>
+                <spatial type="iso31661">AU</spatial>
+            </location>
+            <relatedInfo type="website">
+                <title>Web Site</title>
+                <identifier type="uri">http://www.environment.gov.au</identifier>
+            </relatedInfo>
+            <existenceDates>
+                <startDate dateFormat="W3CDTF">2013-09-18</startDate>
+            </existenceDates>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToisMemberOf_Group</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="group">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)isMemberOf_Group - Party Type Person</namePart>
+            </name>
+            <identifier type="local">isMemberOf_Group-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToisManagerOf_Group</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="group">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)isManagerOf_Group - Party Type Person</namePart>
+            </name>
+            <identifier type="local">isManagerOf_Group-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToisCollectorOf_Group</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="group">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)isCollectorOf_Group - Party Type Person</namePart>
+            </name>
+            <identifier type="local">isCollectorOf_Group-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+
+</registryObjects>
