@@ -751,7 +751,7 @@
                 <title>(AUTestingRecords) Party to relate to</title>
             </relatedInfo>
             <relatedInfo type="party">
-                <identifier type="uri">http://www.someidentifierforaparty2</identifier>
+                <identifier type="uri">http://www.someidentifierforaparty2a</identifier>
                 <relation type="isEnrichedBy"/>
                 <title>(AUTestingRecords) Party to relate to</title>
             </relatedInfo>
