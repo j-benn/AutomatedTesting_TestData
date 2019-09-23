@@ -23,41 +23,42 @@
                 Database: Research Data Australia
                 Content:text/plain; charset="utf-8"
 
-                TY  - DATA
-                Y2  - 2019-09-09
-                DO  - 10.93248s742dd3/3
-                PY  - 2014
-                AU  - Tretty, Sarah
-                AU  - smetz, john
-                A4  - (AUTestingRecords3) AUTestingRecords3:Funder
-                TI  - Citation - Title Export to Endnote Test Collection 1
-                UR  - http://hdl.handle.net/10.93248742378a, https://test.ands.org.au/autestingrecords-export-endnote-collection-1
-                PB  - Me the Publisher
-                DA  - 2014
-                ET  - Version 2
-                LA  - English
-                C5  - Rights statement for collection
-                C5  - Licence details for collection
-                C5  - Access rights about the collection
-                KW  - SOIL SCIENCES
-                KW  - ENVIRONMENTAL SCIENCES
-                KW  - OTHER EDUCATION
-                KW  - EDUCATION
-                RI  - 132.187500,-22.917923 149.414063,-22.917923 149.414063,-26.588527
+                TY - DATA
+                Y2 - 2019-09-09
+                DO - 10.93248s742dd3/3
+                PY - 2014
+                AU - Tretty, Sarah
+                AU - smetz, john
+                A4 - (AUTestingRecords3) AUTestingRecords3:Funder
+                TI - Citation - Title Export to Endnote Test Collection 1
+                UR - http://hdl.handle.net/10.93248742378a,
+                https://test.ands.org.au/autestingrecords-export-endnote-collection-1
+                PB - Me the Publisher
+                DA - 2014
+                ET - Version 2
+                LA - English
+                C5 - Rights statement for collection
+                C5 - Licence details for collection
+                C5 - Access rights about the collection
+                KW - SOIL SCIENCES
+                KW - ENVIRONMENTAL SCIENCES
+                KW - OTHER EDUCATION
+                KW - EDUCATION
+                RI - 132.187500,-22.917923 149.414063,-22.917923 149.414063,-26.588527
                 132.187500,-26.588527 132.187500,-22.917923
-                N1  - Some notes about my collection
-                N1  - Some notes about the description
-                C1  - From 2014-03-03T22:56:56Z
-                C1  - To 2014-06-12T23:57:00Z
-                AB  - A more detailed description of my collection.Export to Endnote
+                N1 - Some notes about my collection
+                N1 - Some notes about the description
+                C1 - From 2014-03-03T22:56:56Z
+                C1 - To 2014-06-12T23:57:00Z
+                AB - A more detailed description of my collection.Export to Endnote
                 Test CollectionTitle of the data resource featured in the record. This could be a data study, data set,
                 or other data resource. Data studies with multiple data sets should ideally be supplied with the data
                 sets as separate records referencing the parent study if this is not possible, a combined record for the
                 data study can include references to the data sets used in the study.
-                AB  - A very brief description describing my collection
-                AB  - Significance Statement for collection
-                AB  - Lineage about the collection
-                ER  -
+                AB - A very brief description describing my collection
+                AB - Significance Statement for collection
+                AB - Lineage about the collection
+                ER -
             </description>
             <rights>
                 <rightsStatement rightsUri="http://rightsstatementuri.com">Rights statement for collection
@@ -132,31 +133,32 @@
                 Content:text/plain; charset="utf-8"
 
 
-                TY  - DATA
-                Y2  - 2019-09-09
-                PY  - 2014
-                AU  - Tretty
-                AU  - smetz, john
-                A4  - (AUTestingRecords3) AUTestingRecords3:Funder
-                TI  - Citation Title - Export to Endnote Test Collection 2
-                UR  - http://hdl.handle.net/10.93248742378a, https://test.ands.org.au/autestingrecords-export-endnote-collection-2
-                PB  - Me the Publisher
-                DA  - 2014
-                ET  - Version 2
-                LA  - English
-                C5  - Rights statement for collection
-                C5  - Licence details for collection
-                C5  - Access rights about the collection
-                KW  - SOIL SCIENCES
-                KW  - ENVIRONMENTAL SCIENCES
-                KW  - OTHER EDUCATION
-                KW  - EDUCATION
-                RI  - 132.187500,-22.917923 149.414063,-22.917923 149.414063,-26.588527
+                TY - DATA
+                Y2 - 2019-09-09
+                PY - 2014
+                AU - Tretty
+                AU - smetz, john
+                A4 - (AUTestingRecords3) AUTestingRecords3:Funder
+                TI - Citation Title - Export to Endnote Test Collection 2
+                UR - http://hdl.handle.net/10.93248742378a,
+                https://test.ands.org.au/autestingrecords-export-endnote-collection-2
+                PB - Me the Publisher
+                DA - 2014
+                ET - Version 2
+                LA - English
+                C5 - Rights statement for collection
+                C5 - Licence details for collection
+                C5 - Access rights about the collection
+                KW - SOIL SCIENCES
+                KW - ENVIRONMENTAL SCIENCES
+                KW - OTHER EDUCATION
+                KW - EDUCATION
+                RI - 132.187500,-22.917923 149.414063,-22.917923 149.414063,-26.588527
                 132.187500,-26.588527 132.187500,-22.917923
-                C1  - From 2014-03-03T22:56:56Z
-                C1  - To 2014-06-12T23:57:00Z
-                AB  - A very brief description describing my collection
-                ER  -
+                C1 - From 2014-03-03T22:56:56Z
+                C1 - To 2014-06-12T23:57:00Z
+                AB - A very brief description describing my collection
+                ER -
             </description>
             <rights>
                 <rightsStatement rightsUri="http://rightsstatementuri.com">Rights statement for collection
@@ -224,7 +226,7 @@
     </registryObject>
 
     <registryObject group="AUTestingRecords">
-        <key>AUTestingRecords5parties12323488a</key>
+        <key>AUTestingRecords5parties12323488a1</key>
         <originatingSource type="">Indian National Centre for Ocean Information Services (INCOIS)</originatingSource>
         <collection type="dataset">
             <name type="primary">
@@ -243,44 +245,45 @@
                 Database: Research Data Australia
                 Content:text/plain; charset="utf-8"
 
-                TY  - DATA
-                Y2  - 2019-09-09
-                PY  - 2014
-                AU  - (AUTestingRecords)IsPrincipalInvestigatorOf_2_ - Party Type Person
-                AU  - (AUTestingRecords)IsPrincipalInvestigatorOf - Party Type Person
-                TI  - (AUTestingRecords) EndNote Test Collection 3 - All investor relation types in RO (x5) and also
+                TY - DATA
+                Y2 - 2019-09-09
+                PY - 2014
+                AU - (AUTestingRecords)IsPrincipalInvestigatorOf_2_ - Party Type Person
+                AU - (AUTestingRecords)IsPrincipalInvestigatorOf - Party Type Person
+                TI - (AUTestingRecords) EndNote Test Collection 3 - All investor relation types in RO (x5) and also
                 in RI (x4 1 with 2 relations). No citation
-                UR  - http://imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efewsd, https://test.ands.org.au/autestingrecords-endnote-test-relations-citation
-                PB  - AUTestingRecords
-                LA  - English
-                C5  - Argo Data (Temperature and Salinity profiles) are freely available without any
+                UR - http://imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efewsd,
+                https://test.ands.org.au/autestingrecords-endnote-test-relations-citation
+                PB - AUTestingRecords
+                LA - English
+                C5 - Argo Data (Temperature and Salinity profiles) are freely available without any
                 restriction, via the internet Global Data Centres (GDACs) and the GTS of WMO. Please support Argo by
                 acknowledging your use of Argo data with the following words: "These data where collected and
                 made freely available by the International Argo project and the national initiatives that contribute
                 to it. (http://www.argo.net). Argo is a pilot programme of the Global Ocean Observing System."
 
-                KW  - oceans
-                KW  - WATER TEMPERATURE
-                KW  - EARTH SCIENCE
-                KW  - OCEANS
-                KW  - OCEAN TEMPERATURE
-                KW  - SALINITY
-                KW  - SALINITY/DENSITY
-                KW  - WATER PRESSURE
-                KW  - OCEAN PRESSURE
-                KW  - Profiling Float | Autonomous Profiling Float
-                RI  - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                KW - oceans
+                KW - WATER TEMPERATURE
+                KW - EARTH SCIENCE
+                KW - OCEANS
+                KW - OCEAN TEMPERATURE
+                KW - SALINITY
+                KW - SALINITY/DENSITY
+                KW - WATER PRESSURE
+                KW - OCEAN PRESSURE
+                KW - Profiling Float | Autonomous Profiling Float
+                RI - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
                 projection=WGS84
 
-                RI  - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                RI - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
                 projection=WGS84
 
-                C1  - From 2014-03-03T22:56:56Z
-                C1  - To 2014-06-12T23:57:00Z
-                AB  - Based on the business rules the EndNote export should only pick up the 2 x
+                C1 - From 2014-03-03T22:56:56Z
+                C1 - To 2014-06-12T23:57:00Z
+                AB - Based on the business rules the EndNote export should only pick up the 2 x
                 IsPrincipalInvestigatorOf parties.
 
-                ER  -
+                ER -
 
             </description>
             <rights>
@@ -376,7 +379,8 @@
         <originatingSource type="">Indian National Centre for Ocean Information Services (INCOIS)</originatingSource>
         <collection type="dataset">
             <name type="primary">
-                <namePart>(AUTestingRecords) EndNote Test Collection 3a - All investor relation types (except PI) in RO (x4) and also
+                <namePart>(AUTestingRecords) EndNote Test Collection 3a - All investor relation types (except PI) in RO
+                    (x4) and also
                     in RI (x4). No citation
                 </namePart>
             </name>
@@ -391,41 +395,43 @@
                 Database: Research Data Australia
                 Content:text/plain; charset="utf-8"
 
-                TY  - DATA
-                Y2  - 2019-09-09
-                PY  - 2014
-                AU  - (AUTestingRecords) Party to relate to Author - Does not exist
-                AU  - (AUTestingRecords)author - Party Type Person
-                TI  - (AUTestingRecords) EndNote Test Collection 3a - All investor relation types (except PI) in RO (x4) and also
+                TY - DATA
+                Y2 - 2019-09-09
+                PY - 2014
+                AU - (AUTestingRecords) Party to relate to Author - Does not exist
+                AU - (AUTestingRecords)author - Party Type Person
+                TI - (AUTestingRecords) EndNote Test Collection 3a - All investor relation types (except PI) in RO (x4)
+                and also
                 in RI (x4). No citation
-                UR  - http://imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efewsd3a, https://test.ands.org.au/autestingrecords-endnote-test-x4-citation
-                PB  - AUTestingRecords
-                DA  - 2014
-                LA  - English
-                C5  - Argo Data (Temperature and Salinity profiles) are freely available without any
+                UR - http://imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efewsd3a,
+                https://test.ands.org.au/autestingrecords-endnote-test-x4-citation
+                PB - AUTestingRecords
+                DA - 2014
+                LA - English
+                C5 - Argo Data (Temperature and Salinity profiles) are freely available without any
                 restriction, via the internet Global Data Centres (GDACs) and the GTS of WMO. Please support Argo by
                 acknowledging your use of Argo data with the following words: "These data where collected and
                 made freely available by the International Argo project and the national initiatives that contribute
                 to it. (http://www.argo.net). Argo is a pilot programme of the Global Ocean Observing System."
-                KW  - oceans
-                KW  - WATER TEMPERATURE
-                KW  - EARTH SCIENCE
-                KW  - OCEANS
-                KW  - OCEAN TEMPERATURE
-                KW  - SALINITY
-                KW  - SALINITY/DENSITY
-                KW  - WATER PRESSURE
-                KW  - OCEAN PRESSURE
-                KW  - Profiling Float | Autonomous Profiling Float
-                RI  - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                KW - oceans
+                KW - WATER TEMPERATURE
+                KW - EARTH SCIENCE
+                KW - OCEANS
+                KW - OCEAN TEMPERATURE
+                KW - SALINITY
+                KW - SALINITY/DENSITY
+                KW - WATER PRESSURE
+                KW - OCEAN PRESSURE
+                KW - Profiling Float | Autonomous Profiling Float
+                RI - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
                 projection=WGS84
-                RI  - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                RI - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
                 projection=WGS84
-                C1  - From 2014-03-03T22:56:56Z
-                C1  - To 2014-06-12T23:57:00Z
-                AB  - Based on the business rules the EndNote export should only pick up the 2 x
+                C1 - From 2014-03-03T22:56:56Z
+                C1 - To 2014-06-12T23:57:00Z
+                AB - Based on the business rules the EndNote export should only pick up the 2 x
                 author parties.
-                ER  -
+                ER -
 
             </description>
             <rights>
@@ -516,7 +522,8 @@
         <originatingSource type="">Indian National Centre for Ocean Information Services (INCOIS)</originatingSource>
         <collection type="dataset">
             <name type="primary">
-                <namePart>(AUTestingRecords) EndNote Test Collection 3b - All investor relation types (except PI &amp; Author) in RO (x4) and also
+                <namePart>(AUTestingRecords) EndNote Test Collection 3b - All investor relation types (except PI &amp;
+                    Author) in RO (x4) and also
                     in RI (x4). No citation
                 </namePart>
             </name>
@@ -531,45 +538,47 @@
                 Database: Research Data Australia
                 Content:text/plain; charset="utf-8"
 
-                TY  - DATA
-                Y2  - 2019-09-09
-                PY  - 2014
-                AU  - (AUTestingRecords)coInvestigator - Party Type Person
-                AU  - (AUTestingRecords)coInvestigator_2_ - Party Type Person
-                TI  - (AUTestingRecords) EndNote Test Collection 3b - AAll investor relation types (except PI &amp; Author) in RO (x4) and also
+                TY - DATA
+                Y2 - 2019-09-09
+                PY - 2014
+                AU - (AUTestingRecords)coInvestigator - Party Type Person
+                AU - (AUTestingRecords)coInvestigator_2_ - Party Type Person
+                TI - (AUTestingRecords) EndNote Test Collection 3b - AAll investor relation types (except PI &amp;
+                Author) in RO (x4) and also
                 in RI (x4). No citation
-                UR  - http://imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efewsd3b, https://test.ands.org.au/autestingrecords-endnote-test-x4-citation
-                PB  - AUTestingRecords
-                DA  - 2014
-                LA  - English
-                C5  - Argo Data (Temperature and Salinity profiles) are freely available without any
+                UR - http://imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efewsd3b,
+                https://test.ands.org.au/autestingrecords-endnote-test-x4-citation
+                PB - AUTestingRecords
+                DA - 2014
+                LA - English
+                C5 - Argo Data (Temperature and Salinity profiles) are freely available without any
                 restriction, via the internet Global Data Centres (GDACs) and the GTS of WMO. Please support Argo by
                 acknowledging your use of Argo data with the following words: "These data where collected and
                 made freely available by the International Argo project and the national initiatives that contribute
                 to it. (http://www.argo.net). Argo is a pilot programme of the Global Ocean Observing System."
 
-                KW  - oceans
-                KW  - WATER TEMPERATURE
-                KW  - EARTH SCIENCE
-                KW  - OCEANS
-                KW  - OCEAN TEMPERATURE
-                KW  - SALINITY
-                KW  - SALINITY/DENSITY
-                KW  - WATER PRESSURE
-                KW  - OCEAN PRESSURE
-                KW  - Profiling Float | Autonomous Profiling Float
-                RI  - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                KW - oceans
+                KW - WATER TEMPERATURE
+                KW - EARTH SCIENCE
+                KW - OCEANS
+                KW - OCEAN TEMPERATURE
+                KW - SALINITY
+                KW - SALINITY/DENSITY
+                KW - WATER PRESSURE
+                KW - OCEAN PRESSURE
+                KW - Profiling Float | Autonomous Profiling Float
+                RI - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
                 projection=WGS84
 
-                RI  - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                RI - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
                 projection=WGS84
 
-                C1  - From 2014-03-03T22:56:56Z
-                C1  - To 2014-06-12T23:57:00Z
-                AB  - Based on the business rules the EndNote export should only pick up the 2 x
+                C1 - From 2014-03-03T22:56:56Z
+                C1 - To 2014-06-12T23:57:00Z
+                AB - Based on the business rules the EndNote export should only pick up the 2 x
                 coInvestigator parties.
 
-                ER  -
+                ER -
 
             </description>
             <rights>
@@ -651,7 +660,8 @@
         <originatingSource type="">Indian National Centre for Ocean Information Services (INCOIS)</originatingSource>
         <collection type="dataset">
             <name type="primary">
-                <namePart>(AUTestingRecords) EndNote Test Collection 3c - All investor relation types (except PI, Author &amp; coInvestigator) in RO (x3) and also
+                <namePart>(AUTestingRecords) EndNote Test Collection 3c - All investor relation types (except PI, Author
+                    &amp; coInvestigator) in RO (x3) and also
                     in RI (x3). No citation
                 </namePart>
             </name>
@@ -666,45 +676,47 @@
                 Database: Research Data Australia
                 Content:text/plain; charset="utf-8"
 
-                TY  - DATA
-                Y2  - 2019-09-09
-                PY  - 2014
-                AU  - (AUTestingRecords)isOwnedBy_2_ - Party Type Person
-                AU  - (AUTestingRecords)isOwnedBy - Party Type Person
-                TI  - (AUTestingRecords) EndNote Test Collection 3c - All investor relation types (except PI, Author &amp; coInvestigator) in RO (x3) and also
+                TY - DATA
+                Y2 - 2019-09-09
+                PY - 2014
+                AU - (AUTestingRecords)isOwnedBy_2_ - Party Type Person
+                AU - (AUTestingRecords)isOwnedBy - Party Type Person
+                TI - (AUTestingRecords) EndNote Test Collection 3c - All investor relation types (except PI, Author
+                &amp; coInvestigator) in RO (x3) and also
                 in RI (x3). No citation
-                UR  - http://imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efewsd3c, https://test.ands.org.au/autestingrecords-endnote-test-x3-citation
-                PB  - AUTestingRecords
-                DA  - 2014
-                LA  - English
-                C5  - Argo Data (Temperature and Salinity profiles) are freely available without any
+                UR - http://imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efewsd3c,
+                https://test.ands.org.au/autestingrecords-endnote-test-x3-citation
+                PB - AUTestingRecords
+                DA - 2014
+                LA - English
+                C5 - Argo Data (Temperature and Salinity profiles) are freely available without any
                 restriction, via the internet Global Data Centres (GDACs) and the GTS of WMO. Please support Argo by
                 acknowledging your use of Argo data with the following words: "These data where collected and
                 made freely available by the International Argo project and the national initiatives that contribute
                 to it. (http://www.argo.net). Argo is a pilot programme of the Global Ocean Observing System."
 
-                KW  - oceans
-                KW  - WATER TEMPERATURE
-                KW  - EARTH SCIENCE
-                KW  - OCEANS
-                KW  - OCEAN TEMPERATURE
-                KW  - SALINITY
-                KW  - SALINITY/DENSITY
-                KW  - WATER PRESSURE
-                KW  - OCEAN PRESSURE
-                KW  - Profiling Float | Autonomous Profiling Float
-                RI  - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                KW - oceans
+                KW - WATER TEMPERATURE
+                KW - EARTH SCIENCE
+                KW - OCEANS
+                KW - OCEAN TEMPERATURE
+                KW - SALINITY
+                KW - SALINITY/DENSITY
+                KW - WATER PRESSURE
+                KW - OCEAN PRESSURE
+                KW - Profiling Float | Autonomous Profiling Float
+                RI - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
                 projection=WGS84
 
-                RI  - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                RI - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
                 projection=WGS84
 
-                C1  - From 2014-03-03T22:56:56Z
-                C1  - To 2014-06-12T23:57:00Z
-                AB  - Based on the business rules the EndNote export should only pick up the 2 x
+                C1 - From 2014-03-03T22:56:56Z
+                C1 - To 2014-06-12T23:57:00Z
+                AB - Based on the business rules the EndNote export should only pick up the 2 x
                 isOwnedBy parties.
 
-                ER  -
+                ER -
 
             </description>
             <rights>
@@ -777,7 +789,9 @@
         <originatingSource type="">Indian National Centre for Ocean Information Services (INCOIS)</originatingSource>
         <collection type="dataset">
             <name type="primary">
-                <namePart>(AUTestingRecords) EndNote Test Collection 3d - 2 x hasCollector parties (1 x RO 1 x RI). No Citation</namePart>
+                <namePart>(AUTestingRecords) EndNote Test Collection 3d - 2 x hasCollector parties (1 x RO 1 x RI). No
+                    Citation
+                </namePart>
             </name>
             <name type="abbreviated">
                 <namePart>(AUTestingRecords) Abbreviated Name</namePart>
@@ -790,40 +804,42 @@
                 Database: Research Data Australia
                 Content:text/plain; charset="utf-8"
 
-                TY  - DATA
-                Y2  - 2019-09-09
-                PY  - 2014
-                AU  - (AUTestingRecords)hasCollector_2_ - Party Type Person
-                AU  - (AUTestingRecords)hasCollector - Party Type Person
-                TI  - (AUTestingRecords) EndNote Test Collection 3d - 2 x hasCollector parties (1 x RO 1 x RI). No Citation
-                UR  - http://imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efewsd3d, https://test.ands.org.au/autestingrecords-endnote-test-ri-citation
-                PB  - AUTestingRecords
-                DA  - 2014
-                LA  - English
-                C5  - Argo Data (Temperature and Salinity profiles) are freely available without any
+                TY - DATA
+                Y2 - 2019-09-09
+                PY - 2014
+                AU - (AUTestingRecords)hasCollector_2_ - Party Type Person
+                AU - (AUTestingRecords)hasCollector - Party Type Person
+                TI - (AUTestingRecords) EndNote Test Collection 3d - 2 x hasCollector parties (1 x RO 1 x RI). No
+                Citation
+                UR - http://imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efewsd3d,
+                https://test.ands.org.au/autestingrecords-endnote-test-ri-citation
+                PB - AUTestingRecords
+                DA - 2014
+                LA - English
+                C5 - Argo Data (Temperature and Salinity profiles) are freely available without any
                 restriction, via the internet Global Data Centres (GDACs) and the GTS of WMO. Please support Argo by
                 acknowledging your use of Argo data with the following words: "These data where collected and
                 made freely available by the International Argo project and the national initiatives that contribute
                 to it. (http://www.argo.net). Argo is a pilot programme of the Global Ocean Observing System."
-                KW  - oceans
-                KW  - WATER TEMPERATURE
-                KW  - EARTH SCIENCE
-                KW  - OCEANS
-                KW  - OCEAN TEMPERATURE
-                KW  - SALINITY
-                KW  - SALINITY/DENSITY
-                KW  - WATER PRESSURE
-                KW  - OCEAN PRESSURE
-                KW  - Profiling Float | Autonomous Profiling Float
-                RI  - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                KW - oceans
+                KW - WATER TEMPERATURE
+                KW - EARTH SCIENCE
+                KW - OCEANS
+                KW - OCEAN TEMPERATURE
+                KW - SALINITY
+                KW - SALINITY/DENSITY
+                KW - WATER PRESSURE
+                KW - OCEAN PRESSURE
+                KW - Profiling Float | Autonomous Profiling Float
+                RI - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
                 projection=WGS84
-                RI  - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                RI - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
                 projection=WGS84
-                C1  - From 2014-03-03T22:56:56Z
-                C1  - To 2014-06-12T23:57:00Z
-                AB  - Based on the business rules the EndNote export should only pick up the 2 x
+                C1 - From 2014-03-03T22:56:56Z
+                C1 - To 2014-06-12T23:57:00Z
+                AB - Based on the business rules the EndNote export should only pick up the 2 x
                 hasCollector parties.
-                ER  -
+                ER -
 
             </description>
             <rights>
@@ -887,55 +903,59 @@
         <originatingSource type="">Indian National Centre for Ocean Information Services (INCOIS)</originatingSource>
         <collection type="dataset">
             <name type="primary">
-                <namePart>(AUTestingRecords) EndNote Test Collection 3e - All investor relation types in RO (x5) and also
+                <namePart>(AUTestingRecords) EndNote Test Collection 3e - All investor relation types in RO (x5) and
+                    also
                     in RI (x4 1 with 2 relations). With citationMetadata
                 </namePart>
             </name>
             <name type="abbreviated">
                 <namePart>(AUTestingRecords) Abbreviated Name</namePart>
             </name>
-            <description type="full">Based on the business rules the EndNote export should only pick up the 2 citation metadata contributors
+            <description type="full">Based on the business rules the EndNote export should only pick up the 2 citation
+                metadata contributors
             </description>
             <description type="EXPECTED RIS OUTPUT">
                 Provider: Australian Research Data Commons
                 Database: Research Data Australia
                 Content:text/plain; charset="utf-8"
 
-                TY  - DATA
-                Y2  - 2019-09-09
-                PY  - 2014
-                AU  - Tretty, Sarah
-                AU  - smetz, john
-                TI  - Citation Title - EndNote Test Collection 3e - All investor relation types in RO (x5) and also
+                TY - DATA
+                Y2 - 2019-09-09
+                PY - 2014
+                AU - Tretty, Sarah
+                AU - smetz, john
+                TI - Citation Title - EndNote Test Collection 3e - All investor relation types in RO (x5) and also
                 in RI (x4 1 with 2 relations). With citationMetadata
-                UR  - http://hdl.handle.net/10.93248742378a, https://test.ands.org.au/autestingrecords-endnote-test-relations-citationmetadata
-                PB  - Me the Publisher
-                DA  - 2014
-                ET  - Version 2
-                LA  - English
-                C5  - Argo Data (Temperature and Salinity profiles) are freely available without any
+                UR - http://hdl.handle.net/10.93248742378a,
+                https://test.ands.org.au/autestingrecords-endnote-test-relations-citationmetadata
+                PB - Me the Publisher
+                DA - 2014
+                ET - Version 2
+                LA - English
+                C5 - Argo Data (Temperature and Salinity profiles) are freely available without any
                 restriction, via the internet Global Data Centres (GDACs) and the GTS of WMO. Please support Argo by
                 acknowledging your use of Argo data with the following words: "These data where collected and
                 made freely available by the International Argo project and the national initiatives that contribute
                 to it. (http://www.argo.net). Argo is a pilot programme of the Global Ocean Observing System."
-                KW  - oceans
-                KW  - WATER TEMPERATURE
-                KW  - EARTH SCIENCE
-                KW  - OCEANS
-                KW  - OCEAN TEMPERATURE
-                KW  - SALINITY
-                KW  - SALINITY/DENSITY
-                KW  - WATER PRESSURE
-                KW  - OCEAN PRESSURE
-                KW  - Profiling Float | Autonomous Profiling Float
-                RI  - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                KW - oceans
+                KW - WATER TEMPERATURE
+                KW - EARTH SCIENCE
+                KW - OCEANS
+                KW - OCEAN TEMPERATURE
+                KW - SALINITY
+                KW - SALINITY/DENSITY
+                KW - WATER PRESSURE
+                KW - OCEAN PRESSURE
+                KW - Profiling Float | Autonomous Profiling Float
+                RI - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
                 projection=WGS84
-                RI  - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                RI - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
                 projection=WGS84
-                C1  - From 2014-03-03T22:56:56Z
-                C1  - To 2014-06-12T23:57:00Z
-                AB  - Based on the business rules the EndNote export should only pick up the 2 citation metadata contributors
-                ER  -
+                C1 - From 2014-03-03T22:56:56Z
+                C1 - To 2014-06-12T23:57:00Z
+                AB - Based on the business rules the EndNote export should only pick up the 2 citation metadata
+                contributors
+                ER -
 
             </description>
             <rights>
@@ -1027,7 +1047,8 @@
                 <citationMetadata>
                     <identifier type="handle">10.93248742378a</identifier>
                     <title>Citation Title - EndNote Test Collection 3e - All investor relation types in RO (x5) and also
-                        in RI (x4 1 with 2 relations). With citationMetadata</title>
+                        in RI (x4 1 with 2 relations). With citationMetadata
+                    </title>
                     <version>Version 2</version>
                     <placePublished>Published in Australia</placePublished>
                     <publisher>Me the Publisher</publisher>
@@ -1052,9 +1073,14 @@
         <originatingSource>Indian National Centre for Ocean Information Services (INCOIS)</originatingSource>
         <collection type="dataset">
             <identifier type="uri">http://imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd</identifier>
-            <identifier type="uri">http://uri.imosmsfest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4b</identifier>
-            <identifier type="url">http://url.org.imosdfsmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4b</identifier>
-            <identifier type="purl">http://purl.org.imosdfsmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4b</identifier>
+            <identifier type="uri">http://uri.imosmsfest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4b
+            </identifier>
+            <identifier type="url">
+                http://url.org.imosdfsmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4b
+            </identifier>
+            <identifier type="purl">
+                http://purl.org.imosdfsmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4b
+            </identifier>
             <identifier type="doi">10.93248742dsf378a.identifier.doi</identifier>
             <identifier type="handle">10.932487sdf42378a.identifier.handle</identifier>
             <name type="primary">
@@ -1075,51 +1101,52 @@
             </dates>
             <description type="note">&amp;lt;p&amp;gt;Some notes about my collection&amp;lt;/p&amp;gt;</description>
             <description type="EXPECTED RIS OUTPUT">
-                TY  - DATA
-                Y2  - 2019-09-09
-                DO  - 10.932487dsfds42378a
-                PY  - 2014
-                AU  - Tretty, Sarah
-                AU  - smetz, john
-                TI  - Citation Title - EndNote Test Collection 4 - All citationMetadata date types.
-                UR  - http://dx.doi.org/10.932487dsfds42378a, https://test.ands.org.au/autestingrecords-endnote-test-date-types
-                PB  - Me the Publisher
-                DA  - 1999
-                ET  - Version 2
-                LA  - English
-                C5  - Argo Data (Temperature and Salinity profiles) are freely available without any
+                TY - DATA
+                Y2 - 2019-09-09
+                DO - 10.932487dsfds42378a
+                PY - 2014
+                AU - Tretty, Sarah
+                AU - smetz, john
+                TI - Citation Title - EndNote Test Collection 4 - All citationMetadata date types.
+                UR - http://dx.doi.org/10.932487dsfds42378a,
+                https://test.ands.org.au/autestingrecords-endnote-test-date-types
+                PB - Me the Publisher
+                DA - 1999
+                ET - Version 2
+                LA - English
+                C5 - Argo Data (Temperature and Salinity profiles) are freely available without any
                 restriction, via the internet Global Data Centres (GDACs) and the GTS of WMO. Please support Argo by
                 acknowledging your use of Argo data with the following words: "These data where collected and made
                 freely available by the International Argo project and the national initiatives that contribute to
                 it. (http://www.argo.net). Argo is a pilot programme of the Global Ocean Observing System."
 
-                KW  - oceans
-                KW  - WATER TEMPERATURE
-                KW  - EARTH SCIENCE
-                KW  - OCEANS
-                KW  - OCEAN TEMPERATURE
-                KW  - SALINITY
-                KW  - SALINITY/DENSITY
-                KW  - WATER PRESSURE
-                KW  - OCEAN PRESSURE
-                KW  - Profiling Float | Autonomous Profiling Float
-                KW  - environment
-                KW  - imageryBaseMapsEarthCover
-                KW  - BIOSPHERE
-                KW  - VEGETATION
-                KW  - FOREST COMPOSITION/VEGETATION STRUCTURE
-                KW  - Earth Observation Satellites
-                KW  - Landsat TM and ETM+, ALOS PALSAR-1, GLAS/ICESat
-                KW  - 1 meter - &lt; 30 meters
-                KW  - Monthly - &lt; Annual
-                RI  - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                KW - oceans
+                KW - WATER TEMPERATURE
+                KW - EARTH SCIENCE
+                KW - OCEANS
+                KW - OCEAN TEMPERATURE
+                KW - SALINITY
+                KW - SALINITY/DENSITY
+                KW - WATER PRESSURE
+                KW - OCEAN PRESSURE
+                KW - Profiling Float | Autonomous Profiling Float
+                KW - environment
+                KW - imageryBaseMapsEarthCover
+                KW - BIOSPHERE
+                KW - VEGETATION
+                KW - FOREST COMPOSITION/VEGETATION STRUCTURE
+                KW - Earth Observation Satellites
+                KW - Landsat TM and ETM+, ALOS PALSAR-1, GLAS/ICESat
+                KW - 1 meter - &lt; 30 meters
+                KW - Monthly - &lt; Annual
+                RI - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
                 projection=WGS84
 
-                RI  - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                RI - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
                 projection=WGS84
 
-                N1  - Some notes about my collection
-                AB  - This dataset contains temperature, salinity and pressure data for all profiles of
+                N1 - Some notes about my collection
+                AB - This dataset contains temperature, salinity and pressure data for all profiles of
                 the Argo float 2901092 managed by the Indian National Centre for Ocean Information Services
                 (INCOIS).Argo is a major international collaborative project to observe the world's oceans and help
                 scientists understand ocean processes and the ocean's roles in climate. The data collected also improves
@@ -1132,7 +1159,7 @@
                 Pressure. The last location of the Argo float was transmitted on the 2013-12-08T14:23:56 at the
                 following location (Latitude : -5.073 ; Longitude : 102.708).
 
-                ER  -
+                ER -
             </description>
             <location>
                 <address>
@@ -1253,14 +1280,18 @@
         <key>AUTestingRecords5parties123234b</key>
         <originatingSource>Indian National Centre for Ocean Information Services (INCOIS)</originatingSource>
         <collection type="dataset">
-            <identifier type="uri">http://uri.imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4b</identifier>
-            <identifier type="url">http://url.org.imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4b</identifier>
-            <identifier type="purl">http://purl.org.imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4b</identifier>
+            <identifier type="uri">http://uri.imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4b
+            </identifier>
+            <identifier type="url">http://url.org.imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4b
+            </identifier>
+            <identifier type="purl">http://purl.org.imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4b
+            </identifier>
             <identifier type="doi">10.93248742378a.identifier.doi</identifier>
             <identifier type="handle">10.93248742378a.identifier.handle</identifier>
 
             <name type="primary">
-                <namePart>(AUTestingRecords) EndNote Test Collection 4b - All citationMetadata date types except (publicationDate)
+                <namePart>(AUTestingRecords) EndNote Test Collection 4b - All citationMetadata date types except
+                    (publicationDate)
                 </namePart>
             </name>
             <name type="abbreviated">
@@ -1277,51 +1308,53 @@
             </dates>
             <description type="note">&amp;lt;p&amp;gt;Some notes about my collection&amp;lt;/p&amp;gt;</description>
             <description type="EXPECTED RIS OUTPUT">
-                TY  - DATA
-                Y2  - 2019-09-09
-                DO  - 10.93248742378a.identifier.doi
-                PY  - 2007
-                AU  - Tretty, Sarah
-                AU  - smetz, john
-                TI  - Citation Title - EndNote Test Collection 4b - All citationMetadata date types except (publicationDate)
-                UR  - http://hdl.handle.net/10.93248742378a, https://test.ands.org.au/autestingrecords-endnote-test-date-types
-                PB  - Me the Publisher
-                DA  - 1999
-                ET  - Version 2
-                LA  - English
-                C5  - Argo Data (Temperature and Salinity profiles) are freely available without any
+                TY - DATA
+                Y2 - 2019-09-09
+                DO - 10.93248742378a.identifier.doi
+                PY - 2007
+                AU - Tretty, Sarah
+                AU - smetz, john
+                TI - Citation Title - EndNote Test Collection 4b - All citationMetadata date types except
+                (publicationDate)
+                UR - http://hdl.handle.net/10.93248742378a,
+                https://test.ands.org.au/autestingrecords-endnote-test-date-types
+                PB - Me the Publisher
+                DA - 1999
+                ET - Version 2
+                LA - English
+                C5 - Argo Data (Temperature and Salinity profiles) are freely available without any
                 restriction, via the internet Global Data Centres (GDACs) and the GTS of WMO. Please support Argo by
                 acknowledging your use of Argo data with the following words: "These data where collected and made
                 freely available by the International Argo project and the national initiatives that contribute to
                 it. (http://www.argo.net). Argo is a pilot programme of the Global Ocean Observing System."
 
-                KW  - oceans
-                KW  - WATER TEMPERATURE
-                KW  - EARTH SCIENCE
-                KW  - OCEANS
-                KW  - OCEAN TEMPERATURE
-                KW  - SALINITY
-                KW  - SALINITY/DENSITY
-                KW  - WATER PRESSURE
-                KW  - OCEAN PRESSURE
-                KW  - Profiling Float | Autonomous Profiling Float
-                KW  - environment
-                KW  - imageryBaseMapsEarthCover
-                KW  - BIOSPHERE
-                KW  - VEGETATION
-                KW  - FOREST COMPOSITION/VEGETATION STRUCTURE
-                KW  - Earth Observation Satellites
-                KW  - Landsat TM and ETM+, ALOS PALSAR-1, GLAS/ICESat
-                KW  - 1 meter - &lt; 30 meters
-                KW  - Monthly - &lt; Annual
-                RI  - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                KW - oceans
+                KW - WATER TEMPERATURE
+                KW - EARTH SCIENCE
+                KW - OCEANS
+                KW - OCEAN TEMPERATURE
+                KW - SALINITY
+                KW - SALINITY/DENSITY
+                KW - WATER PRESSURE
+                KW - OCEAN PRESSURE
+                KW - Profiling Float | Autonomous Profiling Float
+                KW - environment
+                KW - imageryBaseMapsEarthCover
+                KW - BIOSPHERE
+                KW - VEGETATION
+                KW - FOREST COMPOSITION/VEGETATION STRUCTURE
+                KW - Earth Observation Satellites
+                KW - Landsat TM and ETM+, ALOS PALSAR-1, GLAS/ICESat
+                KW - 1 meter - &lt; 30 meters
+                KW - Monthly - &lt; Annual
+                RI - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
                 projection=WGS84
 
-                RI  - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                RI - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
                 projection=WGS84
 
-                N1  - Some notes about my collection
-                AB  - This dataset contains temperature, salinity and pressure data for all profiles of
+                N1 - Some notes about my collection
+                AB - This dataset contains temperature, salinity and pressure data for all profiles of
                 the Argo float 2901092 managed by the Indian National Centre for Ocean Information Services
                 (INCOIS).Argo is a major international collaborative project to observe the world's oceans and help
                 scientists understand ocean processes and the ocean's roles in climate. The data collected also improves
@@ -1334,7 +1367,7 @@
                 Pressure. The last location of the Argo float was transmitted on the 2013-12-08T14:23:56 at the
                 following location (Latitude : -5.073 ; Longitude : 102.708).
 
-                ER  -
+                ER -
             </description>
             <location>
                 <address>
@@ -1421,7 +1454,9 @@
             <citationInfo>
                 <citationMetadata>
                     <identifier type="handle">10.93248742378a</identifier>
-                    <title>Citation Title - EndNote Test Collection 4b - All citationMetadata date types except (publicationDate)</title>
+                    <title>Citation Title - EndNote Test Collection 4b - All citationMetadata date types except
+                        (publicationDate)
+                    </title>
                     <version>Version 2</version>
                     <placePublished>Published in Australia</placePublished>
                     <publisher>Me the Publisher</publisher>
@@ -1454,14 +1489,16 @@
         <key>AUTestingRecords5parties123234c</key>
         <originatingSource>Indian National Centre for Ocean Information Services (INCOIS)</originatingSource>
         <collection type="dataset">
-            <identifier type="uri">http://imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4c</identifier>
+            <identifier type="uri">http://imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4c
+            </identifier>
             <identifier type="uri">http://uri.imosmsfest.aodn.org.au:80/AUT122554efddddd4c</identifier>
             <identifier type="url">http://url.org.imosdfsmest.aodn.org.au:80/AUT122554efddddd4c</identifier>
             <identifier type="purl">http://purl.org.imosdfsmest.aodn.org.au:80/AUT122554efddddd4c</identifier>
             <identifier type="doi">10.932487442ddsfsf378a.identifier.doi</identifier>
             <identifier type="handle">10.9324487sdf4sf2378a.identifier.handle</identifier>
             <name type="primary">
-                <namePart>(AUTestingRecords) EndNote Test Collection 4c - All citationMetadata date types except (publicationDate, issued)
+                <namePart>(AUTestingRecords) EndNote Test Collection 4c - All citationMetadata date types except
+                    (publicationDate, issued)
                 </namePart>
             </name>
             <name type="abbreviated">
@@ -1483,51 +1520,53 @@
                 Content:text/plain; charset="utf-8"
 
 
-                TY  - DATA
-                Y2  - 2019-09-09
-                DO  - 10.932487442ddsfsf378a.identifier.doi
-                PY  - 2012
-                AU  - Tretty, Sarah
-                AU  - smetz, john
-                TI  - Citation Title - EndNote Test Collection 4c - All citationMetadata date types except (publicationDate, issued)
-                UR  - http://citationUri.identifier, https://test.ands.org.au/autestingrecords-endnote-test-publicationdate-issued
-                PB  - Me the Publisher
-                DA  - 1999
-                ET  - Version 2
-                LA  - English
-                C5  - Argo Data (Temperature and Salinity profiles) are freely available without any
+                TY - DATA
+                Y2 - 2019-09-09
+                DO - 10.932487442ddsfsf378a.identifier.doi
+                PY - 2012
+                AU - Tretty, Sarah
+                AU - smetz, john
+                TI - Citation Title - EndNote Test Collection 4c - All citationMetadata date types except
+                (publicationDate, issued)
+                UR - http://citationUri.identifier,
+                https://test.ands.org.au/autestingrecords-endnote-test-publicationdate-issued
+                PB - Me the Publisher
+                DA - 1999
+                ET - Version 2
+                LA - English
+                C5 - Argo Data (Temperature and Salinity profiles) are freely available without any
                 restriction, via the internet Global Data Centres (GDACs) and the GTS of WMO. Please support Argo by
                 acknowledging your use of Argo data with the following words: "These data where collected and made
                 freely available by the International Argo project and the national initiatives that contribute to
                 it. (http://www.argo.net). Argo is a pilot programme of the Global Ocean Observing System."
 
-                KW  - oceans
-                KW  - WATER TEMPERATURE
-                KW  - EARTH SCIENCE
-                KW  - OCEANS
-                KW  - OCEAN TEMPERATURE
-                KW  - SALINITY
-                KW  - SALINITY/DENSITY
-                KW  - WATER PRESSURE
-                KW  - OCEAN PRESSURE
-                KW  - Profiling Float | Autonomous Profiling Float
-                KW  - environment
-                KW  - imageryBaseMapsEarthCover
-                KW  - BIOSPHERE
-                KW  - VEGETATION
-                KW  - FOREST COMPOSITION/VEGETATION STRUCTURE
-                KW  - Earth Observation Satellites
-                KW  - Landsat TM and ETM+, ALOS PALSAR-1, GLAS/ICESat
-                KW  - 1 meter - &lt;30 meters
-                KW  - Monthly - &lt;Annual
-                                  RI  - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                KW - oceans
+                KW - WATER TEMPERATURE
+                KW - EARTH SCIENCE
+                KW - OCEANS
+                KW - OCEAN TEMPERATURE
+                KW - SALINITY
+                KW - SALINITY/DENSITY
+                KW - WATER PRESSURE
+                KW - OCEAN PRESSURE
+                KW - Profiling Float | Autonomous Profiling Float
+                KW - environment
+                KW - imageryBaseMapsEarthCover
+                KW - BIOSPHERE
+                KW - VEGETATION
+                KW - FOREST COMPOSITION/VEGETATION STRUCTURE
+                KW - Earth Observation Satellites
+                KW - Landsat TM and ETM+, ALOS PALSAR-1, GLAS/ICESat
+                KW - 1 meter - &lt;30 meters
+                KW - Monthly - &lt;Annual
+                RI - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
                 projection=WGS84
 
-                RI  - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                RI - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
                 projection=WGS84
 
-                N1  - Some notes about my collection
-                AB  - This dataset contains temperature, salinity and pressure data for all profiles of
+                N1 - Some notes about my collection
+                AB - This dataset contains temperature, salinity and pressure data for all profiles of
                 the Argo float 2901092 managed by the Indian National Centre for Ocean Information Services
                 (INCOIS).Argo is a major international collaborative project to observe the world's oceans and help
                 scientists understand ocean processes and the ocean's roles in climate. The data collected also improves
@@ -1540,7 +1579,7 @@
                 Pressure. The last location of the Argo float was transmitted on the 2013-12-08T14:23:56 at the
                 following location (Latitude : -5.073 ; Longitude : 102.708).
 
-                ER  -
+                ER -
             </description>
             <location>
                 <address>
@@ -1627,7 +1666,9 @@
             <citationInfo>
                 <citationMetadata>
                     <identifier type="uri">http://citationUri.identifier</identifier>
-                    <title>Citation Title - EndNote Test Collection 4c - All citationMetadata date types except (publicationDate, issued)</title>
+                    <title>Citation Title - EndNote Test Collection 4c - All citationMetadata date types except
+                        (publicationDate, issued)
+                    </title>
                     <version>Version 2</version>
                     <placePublished>Published in Australia</placePublished>
                     <publisher>Me the Publisher</publisher>
@@ -1659,14 +1700,21 @@
         <key>AUTestingRecords5parties123234d</key>
         <originatingSource>Indian National Centre for Ocean Information Services (INCOIS)</originatingSource>
         <collection type="dataset">
-            <identifier type="uri">http://imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4d</identifier>
-            <identifier type="uri">http://uri.imosmsfest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4d</identifier>
-            <identifier type="url">http://url.org.imosdfsmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4d</identifier>
-            <identifier type="purl">http://purl.org.imosdfsmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4d</identifier>
+            <identifier type="uri">http://imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4d
+            </identifier>
+            <identifier type="uri">http://uri.imosmsfest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4d
+            </identifier>
+            <identifier type="url">
+                http://url.org.imosdfsmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4d
+            </identifier>
+            <identifier type="purl">
+                http://purl.org.imosdfsmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4d
+            </identifier>
             <identifier type="doi">10.932487443442ddsfsf378a.identifier.doi</identifier>
             <identifier type="handle">10.9324487s2344df4sf2378a.identifier.handle</identifier>
             <name type="primary">
-                <namePart>(AUTestingRecords) EndNote Test Collection 4d - All citationMetadata date types except (publicationDate, issued, created)
+                <namePart>(AUTestingRecords) EndNote Test Collection 4d - All citationMetadata date types except
+                    (publicationDate, issued, created)
                 </namePart>
             </name>
             <name type="abbreviated">
@@ -1688,51 +1736,53 @@
                 Content:text/plain; charset="utf-8"
 
 
-                TY  - DATA
-                Y2  - 2019-09-09
-                DO  - 10.932487443442ddsfsf378a.identifier.doi
-                PY  - 1991
-                AU  - Tretty, Sarah
-                AU  - smetz, john
-                TI  - Citation Title - EndNote Test Collection 4d - All citationMetadata date types except (publicationDate, issued, created)
-                UR  - http://dx.doi.org/10.932487443442ddsfsf378a.identifier.doi, https://test.ands.org.au/autestingrecords-endnote-test-issued-created
-                PB  - Me the Publisher
-                DA  - 1999
-                ET  - Version 2
-                LA  - English
-                C5  - Argo Data (Temperature and Salinity profiles) are freely available without any
+                TY - DATA
+                Y2 - 2019-09-09
+                DO - 10.932487443442ddsfsf378a.identifier.doi
+                PY - 1991
+                AU - Tretty, Sarah
+                AU - smetz, john
+                TI - Citation Title - EndNote Test Collection 4d - All citationMetadata date types except
+                (publicationDate, issued, created)
+                UR - http://dx.doi.org/10.932487443442ddsfsf378a.identifier.doi,
+                https://test.ands.org.au/autestingrecords-endnote-test-issued-created
+                PB - Me the Publisher
+                DA - 1999
+                ET - Version 2
+                LA - English
+                C5 - Argo Data (Temperature and Salinity profiles) are freely available without any
                 restriction, via the internet Global Data Centres (GDACs) and the GTS of WMO. Please support Argo by
                 acknowledging your use of Argo data with the following words: "These data where collected and made
                 freely available by the International Argo project and the national initiatives that contribute to
                 it. (http://www.argo.net). Argo is a pilot programme of the Global Ocean Observing System."
 
-                KW  - oceans
-                KW  - WATER TEMPERATURE
-                KW  - EARTH SCIENCE
-                KW  - OCEANS
-                KW  - OCEAN TEMPERATURE
-                KW  - SALINITY
-                KW  - SALINITY/DENSITY
-                KW  - WATER PRESSURE
-                KW  - OCEAN PRESSURE
-                KW  - Profiling Float | Autonomous Profiling Float
-                KW  - environment
-                KW  - imageryBaseMapsEarthCover
-                KW  - BIOSPHERE
-                KW  - VEGETATION
-                KW  - FOREST COMPOSITION/VEGETATION STRUCTURE
-                KW  - Earth Observation Satellites
-                KW  - Landsat TM and ETM+, ALOS PALSAR-1, GLAS/ICESat
-                KW  - 1 meter - &lt;30 meters
-                KW  - Monthly - &lt;Annual
-                                  RI  - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                KW - oceans
+                KW - WATER TEMPERATURE
+                KW - EARTH SCIENCE
+                KW - OCEANS
+                KW - OCEAN TEMPERATURE
+                KW - SALINITY
+                KW - SALINITY/DENSITY
+                KW - WATER PRESSURE
+                KW - OCEAN PRESSURE
+                KW - Profiling Float | Autonomous Profiling Float
+                KW - environment
+                KW - imageryBaseMapsEarthCover
+                KW - BIOSPHERE
+                KW - VEGETATION
+                KW - FOREST COMPOSITION/VEGETATION STRUCTURE
+                KW - Earth Observation Satellites
+                KW - Landsat TM and ETM+, ALOS PALSAR-1, GLAS/ICESat
+                KW - 1 meter - &lt;30 meters
+                KW - Monthly - &lt;Annual
+                RI - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
                 projection=WGS84
 
-                RI  - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                RI - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
                 projection=WGS84
 
-                N1  - Some notes about my collection
-                AB  - This dataset contains temperature, salinity and pressure data for all profiles of
+                N1 - Some notes about my collection
+                AB - This dataset contains temperature, salinity and pressure data for all profiles of
                 the Argo float 2901092 managed by the Indian National Centre for Ocean Information Services
                 (INCOIS).Argo is a major international collaborative project to observe the world's oceans and help
                 scientists understand ocean processes and the ocean's roles in climate. The data collected also improves
@@ -1745,7 +1795,7 @@
                 Pressure. The last location of the Argo float was transmitted on the 2013-12-08T14:23:56 at the
                 following location (Latitude : -5.073 ; Longitude : 102.708).
 
-                ER  -
+                ER -
             </description>
             <location>
                 <address>
@@ -1832,7 +1882,9 @@
             <citationInfo>
                 <citationMetadata>
                     <identifier type="ark">ark10.93248742378a</identifier>
-                    <title>Citation Title - EndNote Test Collection 4d - All citationMetadata date types except (publicationDate, issued, created)</title>
+                    <title>Citation Title - EndNote Test Collection 4d - All citationMetadata date types except
+                        (publicationDate, issued, created)
+                    </title>
                     <version>Version 2</version>
                     <placePublished>Published in Australia</placePublished>
                     <publisher>Me the Publisher</publisher>
@@ -1863,13 +1915,20 @@
         <key>AUTestingRecords5parties123234e</key>
         <originatingSource>Indian National Centre for Ocean Information Services (INCOIS)</originatingSource>
         <collection type="dataset">
-            <identifier type="uri">http://imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4e</identifier>
-            <identifier type="uri">http://uri.imosmsfest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4e</identifier>
-            <identifier type="url">http://url.org.imosdfsmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4e</identifier>
-            <identifier type="purl">http://purl.org.imosdfsmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4e</identifier>
+            <identifier type="uri">http://imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4e
+            </identifier>
+            <identifier type="uri">http://uri.imosmsfest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4e
+            </identifier>
+            <identifier type="url">
+                http://url.org.imosdfsmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4e
+            </identifier>
+            <identifier type="purl">
+                http://purl.org.imosdfsmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4e
+            </identifier>
             <identifier type="handle">10.93244987df4sf2378a.identifier.handle</identifier>
             <name type="primary">
-                <namePart>(AUTestingRecords) EndNote Test Collection 4e - All citationMetadata date types except (publicationDate, issued, created) + dates dc.created &amp; dc.available
+                <namePart>(AUTestingRecords) EndNote Test Collection 4e - All citationMetadata date types except
+                    (publicationDate, issued, created) + dates dc.created &amp; dc.available
                 </namePart>
             </name>
             <name type="abbreviated">
@@ -1888,50 +1947,52 @@
                 Content:text/plain; charset="utf-8"
 
 
-                TY  - DATA
-                Y2  - 2019-09-09
-                PY  - 1989
-                AU  - Tretty, Sarah
-                AU  - smetz, john
-                TI  - Citation Title - EndNote Test Collection 4e - All citationMetadata date types except (publicationDate, issued, created) + dates dc.created &amp; dc.available
-                UR  - http://hdl.handle.net/10.93244987df4sf2378a.identifier.handle, https://test.ands.org.au/autestingrecords-endnote-test-dccreated-dcavailable
-                PB  - Me the Publisher
-                DA  - 1999
-                ET  - Version 2
-                LA  - English
-                C5  - Argo Data (Temperature and Salinity profiles) are freely available without any
+                TY - DATA
+                Y2 - 2019-09-09
+                PY - 1989
+                AU - Tretty, Sarah
+                AU - smetz, john
+                TI - Citation Title - EndNote Test Collection 4e - All citationMetadata date types except
+                (publicationDate, issued, created) + dates dc.created &amp; dc.available
+                UR - http://hdl.handle.net/10.93244987df4sf2378a.identifier.handle,
+                https://test.ands.org.au/autestingrecords-endnote-test-dccreated-dcavailable
+                PB - Me the Publisher
+                DA - 1999
+                ET - Version 2
+                LA - English
+                C5 - Argo Data (Temperature and Salinity profiles) are freely available without any
                 restriction, via the internet Global Data Centres (GDACs) and the GTS of WMO. Please support Argo by
                 acknowledging your use of Argo data with the following words: "These data where collected and made
                 freely available by the International Argo project and the national initiatives that contribute to
                 it. (http://www.argo.net). Argo is a pilot programme of the Global Ocean Observing System."
 
-                KW  - oceans
-                KW  - WATER TEMPERATURE
-                KW  - EARTH SCIENCE
-                KW  - OCEANS
-                KW  - OCEAN TEMPERATURE
-                KW  - SALINITY
-                KW  - SALINITY/DENSITY
-                KW  - WATER PRESSURE
-                KW  - OCEAN PRESSURE
-                KW  - Profiling Float | Autonomous Profiling Float
-                KW  - environment
-                KW  - imageryBaseMapsEarthCover
-                KW  - BIOSPHERE
-                KW  - VEGETATION
-                KW  - FOREST COMPOSITION/VEGETATION STRUCTURE
-                KW  - Earth Observation Satellites
-                KW  - Landsat TM and ETM+, ALOS PALSAR-1, GLAS/ICESat
-                KW  - 1 meter - &lt;30 meters
-                KW  - Monthly - &lt;Annual
-                                  RI  - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                KW - oceans
+                KW - WATER TEMPERATURE
+                KW - EARTH SCIENCE
+                KW - OCEANS
+                KW - OCEAN TEMPERATURE
+                KW - SALINITY
+                KW - SALINITY/DENSITY
+                KW - WATER PRESSURE
+                KW - OCEAN PRESSURE
+                KW - Profiling Float | Autonomous Profiling Float
+                KW - environment
+                KW - imageryBaseMapsEarthCover
+                KW - BIOSPHERE
+                KW - VEGETATION
+                KW - FOREST COMPOSITION/VEGETATION STRUCTURE
+                KW - Earth Observation Satellites
+                KW - Landsat TM and ETM+, ALOS PALSAR-1, GLAS/ICESat
+                KW - 1 meter - &lt;30 meters
+                KW - Monthly - &lt;Annual
+                RI - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
                 projection=WGS84
 
-                RI  - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                RI - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
                 projection=WGS84
 
-                N1  - Some notes about my collection
-                AB  - This dataset contains temperature, salinity and pressure data for all profiles of
+                N1 - Some notes about my collection
+                AB - This dataset contains temperature, salinity and pressure data for all profiles of
                 the Argo float 2901092 managed by the Indian National Centre for Ocean Information Services
                 (INCOIS).Argo is a major international collaborative project to observe the world's oceans and help
                 scientists understand ocean processes and the ocean's roles in climate. The data collected also improves
@@ -1944,7 +2005,7 @@
                 Pressure. The last location of the Argo float was transmitted on the 2013-12-08T14:23:56 at the
                 following location (Latitude : -5.073 ; Longitude : 102.708).
 
-                ER  -
+                ER -
             </description>
             <location>
                 <address>
@@ -2031,7 +2092,9 @@
             <citationInfo>
                 <citationMetadata>
                     <identifier type="issn">1dfd0.93248742378a</identifier>
-                    <title>Citation Title - EndNote Test Collection 4e - All citationMetadata date types except (publicationDate, issued, created) + dates dc.created &amp; dc.available</title>
+                    <title>Citation Title - EndNote Test Collection 4e - All citationMetadata date types except
+                        (publicationDate, issued, created) + dates dc.created &amp; dc.available
+                    </title>
                     <version>Version 2</version>
                     <placePublished>Published in Australia</placePublished>
                     <publisher>Me the Publisher</publisher>
@@ -2062,11 +2125,17 @@
         <key>AUTestingRecords5parties123234f</key>
         <originatingSource>Indian National Centre for Ocean Information Services (INCOIS)</originatingSource>
         <collection type="dataset">
-            <identifier type="uri">http://uri.imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4f</identifier>
-            <identifier type="url">http://url.org.imosdfsmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4f</identifier>
-            <identifier type="purl">http://purl.org.imosdfsmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4f</identifier>
+            <identifier type="uri">http://uri.imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4f
+            </identifier>
+            <identifier type="url">
+                http://url.org.imosdfsmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4f
+            </identifier>
+            <identifier type="purl">
+                http://purl.org.imosdfsmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4f
+            </identifier>
             <name type="primary">
-                <namePart>(AUTestingRecords) EndNote Test Collection 4f - All citationMetadata date types except (publicationDate, issued, created) + dates dc.created
+                <namePart>(AUTestingRecords) EndNote Test Collection 4f - All citationMetadata date types except
+                    (publicationDate, issued, created) + dates dc.created
                 </namePart>
             </name>
             <name type="abbreviated">
@@ -2082,50 +2151,52 @@
                 Content:text/plain; charset="utf-8"
 
 
-                TY  - DATA
-                Y2  - 2019-09-09
-                PY  - 1999
-                AU  - Tretty, Sarah
-                AU  - smetz, john
-                TI  - Citation Title - EndNote Test Collection 4f - All citationMetadata date types except (publicationDate, issued, created) + dates dc.created
-                UR  - http://uri.imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4f, https://test.ands.org.au/autestingrecords-endnote-test-dates-dccreated
-                PB  - Me the Publisher
-                DA  - 1999
-                ET  - Version 2
-                LA  - English
-                C5  - Argo Data (Temperature and Salinity profiles) are freely available without any
+                TY - DATA
+                Y2 - 2019-09-09
+                PY - 1999
+                AU - Tretty, Sarah
+                AU - smetz, john
+                TI - Citation Title - EndNote Test Collection 4f - All citationMetadata date types except
+                (publicationDate, issued, created) + dates dc.created
+                UR - http://uri.imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4f,
+                https://test.ands.org.au/autestingrecords-endnote-test-dates-dccreated
+                PB - Me the Publisher
+                DA - 1999
+                ET - Version 2
+                LA - English
+                C5 - Argo Data (Temperature and Salinity profiles) are freely available without any
                 restriction, via the internet Global Data Centres (GDACs) and the GTS of WMO. Please support Argo by
                 acknowledging your use of Argo data with the following words: "These data where collected and made
                 freely available by the International Argo project and the national initiatives that contribute to
                 it. (http://www.argo.net). Argo is a pilot programme of the Global Ocean Observing System."
 
-                KW  - oceans
-                KW  - WATER TEMPERATURE
-                KW  - EARTH SCIENCE
-                KW  - OCEANS
-                KW  - OCEAN TEMPERATURE
-                KW  - SALINITY
-                KW  - SALINITY/DENSITY
-                KW  - WATER PRESSURE
-                KW  - OCEAN PRESSURE
-                KW  - Profiling Float | Autonomous Profiling Float
-                KW  - environment
-                KW  - imageryBaseMapsEarthCover
-                KW  - BIOSPHERE
-                KW  - VEGETATION
-                KW  - FOREST COMPOSITION/VEGETATION STRUCTURE
-                KW  - Earth Observation Satellites
-                KW  - Landsat TM and ETM+, ALOS PALSAR-1, GLAS/ICESat
-                KW  - 1 meter - &lt;30 meters
-                KW  - Monthly - &lt;Annual
-                                  RI  - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                KW - oceans
+                KW - WATER TEMPERATURE
+                KW - EARTH SCIENCE
+                KW - OCEANS
+                KW - OCEAN TEMPERATURE
+                KW - SALINITY
+                KW - SALINITY/DENSITY
+                KW - WATER PRESSURE
+                KW - OCEAN PRESSURE
+                KW - Profiling Float | Autonomous Profiling Float
+                KW - environment
+                KW - imageryBaseMapsEarthCover
+                KW - BIOSPHERE
+                KW - VEGETATION
+                KW - FOREST COMPOSITION/VEGETATION STRUCTURE
+                KW - Earth Observation Satellites
+                KW - Landsat TM and ETM+, ALOS PALSAR-1, GLAS/ICESat
+                KW - 1 meter - &lt;30 meters
+                KW - Monthly - &lt;Annual
+                RI - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
                 projection=WGS84
 
-                RI  - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                RI - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
                 projection=WGS84
 
-                N1  - Some notes about my collection
-                AB  - This dataset contains temperature, salinity and pressure data for all profiles of
+                N1 - Some notes about my collection
+                AB - This dataset contains temperature, salinity and pressure data for all profiles of
                 the Argo float 2901092 managed by the Indian National Centre for Ocean Information Services
                 (INCOIS).Argo is a major international collaborative project to observe the world's oceans and help
                 scientists understand ocean processes and the ocean's roles in climate. The data collected also improves
@@ -2138,7 +2209,7 @@
                 Pressure. The last location of the Argo float was transmitted on the 2013-12-08T14:23:56 at the
                 following location (Latitude : -5.073 ; Longitude : 102.708).
 
-                ER  -
+                ER -
             </description>
             <location>
                 <address>
@@ -2225,7 +2296,9 @@
             <citationInfo>
                 <citationMetadata>
                     <identifier type="local">10.93248742378a</identifier>
-                    <title>Citation Title - EndNote Test Collection 4f - All citationMetadata date types except (publicationDate, issued, created) + dates dc.created</title>
+                    <title>Citation Title - EndNote Test Collection 4f - All citationMetadata date types except
+                        (publicationDate, issued, created) + dates dc.created
+                    </title>
                     <version>Version 2</version>
                     <placePublished>Published in Australia</placePublished>
                     <publisher>Me the Publisher</publisher>
@@ -2256,10 +2329,15 @@
         <key>AUTestingRecords5parties123234g</key>
         <originatingSource>Indian National Centre for Ocean Information Services (INCOIS)</originatingSource>
         <collection type="dataset" dateAccessioned="1985-07-01T00:12:20Z">
-            <identifier type="url">http://url.org.imosdfsmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4g</identifier>
-            <identifier type="purl">http://purl.org.imosdfsmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4g</identifier>
+            <identifier type="url">
+                http://url.org.imosdfsmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4g
+            </identifier>
+            <identifier type="purl">
+                http://purl.org.imosdfsmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4g
+            </identifier>
             <name type="primary">
-                <namePart>(AUTestingRecords) EndNote Test Collection 4g - All citationMetadata date types except (publicationDate, issued, created)  + dateAccessioned
+                <namePart>(AUTestingRecords) EndNote Test Collection 4g - All citationMetadata date types except
+                    (publicationDate, issued, created) + dateAccessioned
                 </namePart>
             </name>
             <name type="abbreviated">
@@ -2272,49 +2350,51 @@
                 Content:text/plain; charset="utf-8"
 
 
-                TY  - DATA
-                Y2  - 2019-09-09
-                PY  - 1985
-                AU  - Tretty, Sarah
-                AU  - smetz, john
-                TI  - Citation Title - EndNote Test Collection 4g - All citationMetadata date types except (publicationDate, issued, created)  + dateAccessioned
-                UR  - http://purl.org.imosdfsmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4g, https://test.ands.org.au/autestingrecords-endnote-test-created-dateaccessioned
-                PB  - Me the Publisher
-                ET  - Version 2
-                LA  - English
-                C5  - Argo Data (Temperature and Salinity profiles) are freely available without any
+                TY - DATA
+                Y2 - 2019-09-09
+                PY - 1985
+                AU - Tretty, Sarah
+                AU - smetz, john
+                TI - Citation Title - EndNote Test Collection 4g - All citationMetadata date types except
+                (publicationDate, issued, created) + dateAccessioned
+                UR - http://purl.org.imosdfsmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4g,
+                https://test.ands.org.au/autestingrecords-endnote-test-created-dateaccessioned
+                PB - Me the Publisher
+                ET - Version 2
+                LA - English
+                C5 - Argo Data (Temperature and Salinity profiles) are freely available without any
                 restriction, via the internet Global Data Centres (GDACs) and the GTS of WMO. Please support Argo by
                 acknowledging your use of Argo data with the following words: "These data where collected and made
                 freely available by the International Argo project and the national initiatives that contribute to
                 it. (http://www.argo.net). Argo is a pilot programme of the Global Ocean Observing System."
 
-                KW  - oceans
-                KW  - WATER TEMPERATURE
-                KW  - EARTH SCIENCE
-                KW  - OCEANS
-                KW  - OCEAN TEMPERATURE
-                KW  - SALINITY
-                KW  - SALINITY/DENSITY
-                KW  - WATER PRESSURE
-                KW  - OCEAN PRESSURE
-                KW  - Profiling Float | Autonomous Profiling Float
-                KW  - environment
-                KW  - imageryBaseMapsEarthCover
-                KW  - BIOSPHERE
-                KW  - VEGETATION
-                KW  - FOREST COMPOSITION/VEGETATION STRUCTURE
-                KW  - Earth Observation Satellites
-                KW  - Landsat TM and ETM+, ALOS PALSAR-1, GLAS/ICESat
-                KW  - 1 meter - &lt; 30 meters
-                KW  - Monthly - &lt; Annual
-                                  RI  - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                KW - oceans
+                KW - WATER TEMPERATURE
+                KW - EARTH SCIENCE
+                KW - OCEANS
+                KW - OCEAN TEMPERATURE
+                KW - SALINITY
+                KW - SALINITY/DENSITY
+                KW - WATER PRESSURE
+                KW - OCEAN PRESSURE
+                KW - Profiling Float | Autonomous Profiling Float
+                KW - environment
+                KW - imageryBaseMapsEarthCover
+                KW - BIOSPHERE
+                KW - VEGETATION
+                KW - FOREST COMPOSITION/VEGETATION STRUCTURE
+                KW - Earth Observation Satellites
+                KW - Landsat TM and ETM+, ALOS PALSAR-1, GLAS/ICESat
+                KW - 1 meter - &lt; 30 meters
+                KW - Monthly - &lt; Annual
+                RI - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
                 projection=WGS84
 
-                RI  - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                RI - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
                 projection=WGS84
 
-                N1  - Some notes about my collection
-                AB  - This dataset contains temperature, salinity and pressure data for all profiles of
+                N1 - Some notes about my collection
+                AB - This dataset contains temperature, salinity and pressure data for all profiles of
                 the Argo float 2901092 managed by the Indian National Centre for Ocean Information Services
                 (INCOIS).Argo is a major international collaborative project to observe the world's oceans and help
                 scientists understand ocean processes and the ocean's roles in climate. The data collected also improves
@@ -2327,7 +2407,7 @@
                 Pressure. The last location of the Argo float was transmitted on the 2013-12-08T14:23:56 at the
                 following location (Latitude : -5.073 ; Longitude : 102.708).
 
-                ER  -
+                ER -
             </description>
             <location>
                 <address>
@@ -2414,7 +2494,9 @@
             <citationInfo>
                 <citationMetadata>
                     <identifier type="issn">10.93248742378a</identifier>
-                    <title>Citation Title - EndNote Test Collection 4g - All citationMetadata date types except (publicationDate, issued, created)  + dateAccessioned</title>
+                    <title>Citation Title - EndNote Test Collection 4g - All citationMetadata date types except
+                        (publicationDate, issued, created) + dateAccessioned
+                    </title>
                     <version>Version 2</version>
                     <placePublished>Published in Australia</placePublished>
                     <publisher>Me the Publisher</publisher>
@@ -2445,9 +2527,12 @@
         <key>AUTestingRecords5parties123234h</key>
         <originatingSource>Indian National Centre for Ocean Information Services (INCOIS)</originatingSource>
         <collection type="dataset" dateAccessioned="1985-07-01T00:12:20Z">
-            <identifier type="url">http://url.org.imosdfsmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4h</identifier>
+            <identifier type="url">
+                http://url.org.imosdfsmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4h
+            </identifier>
             <name type="primary">
-                <namePart>(AUTestingRecords) EndNote Test Collection 4h - All citationMetadata date types except (publicationDate, issued, created)  + url identifier
+                <namePart>(AUTestingRecords) EndNote Test Collection 4h - All citationMetadata date types except
+                    (publicationDate, issued, created) + url identifier
                 </namePart>
             </name>
             <name type="abbreviated">
@@ -2460,49 +2545,50 @@
                 Content:text/plain; charset="utf-8"
 
 
-                TY  - DATA
-                Y2  - 2019-09-09
-                PY  - 1985
-                AU  - Tretty, Sarah
-                AU  - smetz, john
-                TI  -   Citation Title - EndNote Test Collection 4h - All citationMetadata date types except (publicationDate, issued, created)  + url identifier
-                UR  - http://citation.url, https://test.ands.org.au/autestingrecords-endnote-test-url-identifier
-                PB  - Me the Publisher
-                ET  - Version 2
-                LA  - English
-                C5  - Argo Data (Temperature and Salinity profiles) are freely available without any
+                TY - DATA
+                Y2 - 2019-09-09
+                PY - 1985
+                AU - Tretty, Sarah
+                AU - smetz, john
+                TI - Citation Title - EndNote Test Collection 4h - All citationMetadata date types except
+                (publicationDate, issued, created) + url identifier
+                UR - http://citation.url, https://test.ands.org.au/autestingrecords-endnote-test-url-identifier
+                PB - Me the Publisher
+                ET - Version 2
+                LA - English
+                C5 - Argo Data (Temperature and Salinity profiles) are freely available without any
                 restriction, via the internet Global Data Centres (GDACs) and the GTS of WMO. Please support Argo by
                 acknowledging your use of Argo data with the following words: "These data where collected and made
                 freely available by the International Argo project and the national initiatives that contribute to
                 it. (http://www.argo.net). Argo is a pilot programme of the Global Ocean Observing System."
 
-                KW  - oceans
-                KW  - WATER TEMPERATURE
-                KW  - EARTH SCIENCE
-                KW  - OCEANS
-                KW  - OCEAN TEMPERATURE
-                KW  - SALINITY
-                KW  - SALINITY/DENSITY
-                KW  - WATER PRESSURE
-                KW  - OCEAN PRESSURE
-                KW  - Profiling Float | Autonomous Profiling Float
-                KW  - environment
-                KW  - imageryBaseMapsEarthCover
-                KW  - BIOSPHERE
-                KW  - VEGETATION
-                KW  - FOREST COMPOSITION/VEGETATION STRUCTURE
-                KW  - Earth Observation Satellites
-                KW  - Landsat TM and ETM+, ALOS PALSAR-1, GLAS/ICESat
-                KW  - 1 meter - &lt; 30 meters
-                KW  - Monthly - &lt; Annual
-                                  RI  - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                KW - oceans
+                KW - WATER TEMPERATURE
+                KW - EARTH SCIENCE
+                KW - OCEANS
+                KW - OCEAN TEMPERATURE
+                KW - SALINITY
+                KW - SALINITY/DENSITY
+                KW - WATER PRESSURE
+                KW - OCEAN PRESSURE
+                KW - Profiling Float | Autonomous Profiling Float
+                KW - environment
+                KW - imageryBaseMapsEarthCover
+                KW - BIOSPHERE
+                KW - VEGETATION
+                KW - FOREST COMPOSITION/VEGETATION STRUCTURE
+                KW - Earth Observation Satellites
+                KW - Landsat TM and ETM+, ALOS PALSAR-1, GLAS/ICESat
+                KW - 1 meter - &lt; 30 meters
+                KW - Monthly - &lt; Annual
+                RI - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
                 projection=WGS84
 
-                RI  - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                RI - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
                 projection=WGS84
 
-                N1  - Some notes about my collection
-                AB  - This dataset contains temperature, salinity and pressure data for all profiles of
+                N1 - Some notes about my collection
+                AB - This dataset contains temperature, salinity and pressure data for all profiles of
                 the Argo float 2901092 managed by the Indian National Centre for Ocean Information Services
                 (INCOIS).Argo is a major international collaborative project to observe the world's oceans and help
                 scientists understand ocean processes and the ocean's roles in climate. The data collected also improves
@@ -2515,7 +2601,7 @@
                 Pressure. The last location of the Argo float was transmitted on the 2013-12-08T14:23:56 at the
                 following location (Latitude : -5.073 ; Longitude : 102.708).
 
-                ER  -
+                ER -
             </description>
             <location>
                 <address>
@@ -2602,7 +2688,9 @@
             <citationInfo>
                 <citationMetadata>
                     <identifier type="issn">10.93248742fd378a</identifier>
-                    <title>Citation Title - EndNote Test Collection 4h - All citationMetadata date types except (publicationDate, issued, created)  + url identifier</title>
+                    <title>Citation Title - EndNote Test Collection 4h - All citationMetadata date types except
+                        (publicationDate, issued, created) + url identifier
+                    </title>
                     <version>Version 2</version>
                     <placePublished>Published in Australia</placePublished>
                     <publisher>Me the Publisher</publisher>
@@ -2634,7 +2722,8 @@
         <originatingSource>Indian National Centre for Ocean Information Services (INCOIS)</originatingSource>
         <collection type="dataset" dateAccessioned="1985-07-01T00:12:20Z">
             <name type="primary">
-                <namePart>(AUTestingRecords) EndNote Test Collection 4i - All citationMetadata date types except (publicationDate, issued, created)  + no usable identifiers for URL value
+                <namePart>(AUTestingRecords) EndNote Test Collection 4i - All citationMetadata date types except
+                    (publicationDate, issued, created) + no usable identifiers for URL value
                 </namePart>
             </name>
             <name type="abbreviated">
@@ -2647,49 +2736,52 @@
                 Content:text/plain; charset="utf-8"
 
 
-                TY  - DATA
-                Y2  - 2019-09-09
-                PY  - 1985
-                AU  - Tretty, Sarah
-                AU  - smetz, john
-                TI  - Citation Title - EndNote Test Collection 4h - All citationMetadata date types except (publicationDate, issued, created)  + no usable identifiers for URL value
-                UR  - http://imosmest.aodn.org.au:80/geonetwork/srv/en/metadata.show?uuid=86ec0cee-0620-3724-963a-d0432dddd, https://test.ands.org.au/autestingrecords-endnote-test-url-value
-                PB  - Me the Publisher
-                ET  - Version 2
-                LA  - English
-                C5  - Argo Data (Temperature and Salinity profiles) are freely available without any
+                TY - DATA
+                Y2 - 2019-09-09
+                PY - 1985
+                AU - Tretty, Sarah
+                AU - smetz, john
+                TI - Citation Title - EndNote Test Collection 4h - All citationMetadata date types except
+                (publicationDate, issued, created) + no usable identifiers for URL value
+                UR -
+                http://imosmest.aodn.org.au:80/geonetwork/srv/en/metadata.show?uuid=86ec0cee-0620-3724-963a-d0432dddd,
+                https://test.ands.org.au/autestingrecords-endnote-test-url-value
+                PB - Me the Publisher
+                ET - Version 2
+                LA - English
+                C5 - Argo Data (Temperature and Salinity profiles) are freely available without any
                 restriction, via the internet Global Data Centres (GDACs) and the GTS of WMO. Please support Argo by
                 acknowledging your use of Argo data with the following words: "These data where collected and made
                 freely available by the International Argo project and the national initiatives that contribute to
                 it. (http://www.argo.net). Argo is a pilot programme of the Global Ocean Observing System."
 
-                KW  - oceans
-                KW  - WATER TEMPERATURE
-                KW  - EARTH SCIENCE
-                KW  - OCEANS
-                KW  - OCEAN TEMPERATURE
-                KW  - SALINITY
-                KW  - SALINITY/DENSITY
-                KW  - WATER PRESSURE
-                KW  - OCEAN PRESSURE
-                KW  - Profiling Float | Autonomous Profiling Float
-                KW  - environment
-                KW  - imageryBaseMapsEarthCover
-                KW  - BIOSPHERE
-                KW  - VEGETATION
-                KW  - FOREST COMPOSITION/VEGETATION STRUCTURE
-                KW  - Earth Observation Satellites
-                KW  - Landsat TM and ETM+, ALOS PALSAR-1, GLAS/ICESat
-                KW  - 1 meter - &lt; 30 meters
-                KW  - Monthly - &lt; Annual
-                                  RI  - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                KW - oceans
+                KW - WATER TEMPERATURE
+                KW - EARTH SCIENCE
+                KW - OCEANS
+                KW - OCEAN TEMPERATURE
+                KW - SALINITY
+                KW - SALINITY/DENSITY
+                KW - WATER PRESSURE
+                KW - OCEAN PRESSURE
+                KW - Profiling Float | Autonomous Profiling Float
+                KW - environment
+                KW - imageryBaseMapsEarthCover
+                KW - BIOSPHERE
+                KW - VEGETATION
+                KW - FOREST COMPOSITION/VEGETATION STRUCTURE
+                KW - Earth Observation Satellites
+                KW - Landsat TM and ETM+, ALOS PALSAR-1, GLAS/ICESat
+                KW - 1 meter - &lt; 30 meters
+                KW - Monthly - &lt; Annual
+                RI - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
                 projection=WGS84
 
-                RI  - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                RI - northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
                 projection=WGS84
 
-                N1  - Some notes about my collection
-                AB  - This dataset contains temperature, salinity and pressure data for all profiles of
+                N1 - Some notes about my collection
+                AB - This dataset contains temperature, salinity and pressure data for all profiles of
                 the Argo float 2901092 managed by the Indian National Centre for Ocean Information Services
                 (INCOIS).Argo is a major international collaborative project to observe the world's oceans and help
                 scientists understand ocean processes and the ocean's roles in climate. The data collected also improves
@@ -2702,7 +2794,7 @@
                 Pressure. The last location of the Argo float was transmitted on the 2013-12-08T14:23:56 at the
                 following location (Latitude : -5.073 ; Longitude : 102.708).
 
-                ER  -
+                ER -
             </description>
             <location>
                 <address>
@@ -2789,7 +2881,9 @@
             <citationInfo>
                 <citationMetadata>
                     <identifier type="issn">10.93248742fd378a</identifier>
-                    <title>Citation Title - EndNote Test Collection 4h - All citationMetadata date types except (publicationDate, issued, created)  + no usable identifiers for URL value</title>
+                    <title>Citation Title - EndNote Test Collection 4h - All citationMetadata date types except
+                        (publicationDate, issued, created) + no usable identifiers for URL value
+                    </title>
                     <version>Version 2</version>
                     <placePublished>Published in Australia</placePublished>
                     <publisher>Me the Publisher</publisher>
@@ -2826,36 +2920,171 @@
                 EDUCATION Taonga (Māori Artefacts) HERITAGE CULTURAL UNDERSTANDING % of students fötter
             </description>
             <description type="EXPECTED RIS OUTPUT">
-            Provider: Australian Research Data Commons
-            Database: Research Data Australia
-            Content:text/plain; charset="utf-8"
+                Provider: Australian Research Data Commons
+                Database: Research Data Australia
+                Content:text/plain; charset="utf-8"
 
 
-            TY  - DATA
-            Y2  - 2019-09-11
-            PY  - 2019
-            AU  - Anonymous
-            TI  - (AUTestingRecords) Collection To Test Subject Display With Special Chars
-            UR  - https://test.ands.org.au/autestingrecords-collection-test-special-chars
-            PB  - AUTestingRecords
-            LA  - English
-            KW  - Early Childhood Education (excl. Māori)
-            KW  - EDUCATION
-            KW  - EDUCATION SYSTEMS
-            KW  - Taonga (Māori Artefacts)
-            KW  - CULTURAL UNDERSTANDING
-            KW  - HERITAGE
-            KW  - % of students
-            KW  - fötter
-            AB  - Expected subject values: Early Childhood Education (excl. Māori) EDUCATION SYSTEMS
-            EDUCATION Taonga (Māori Artefacts) HERITAGE CULTURAL UNDERSTANDING % of students fötter
+                TY - DATA
+                Y2 - 2019-09-11
+                PY - 2019
+                AU - Anonymous
+                TI - (AUTestingRecords) Collection To Test Subject Display With Special Chars
+                UR - https://test.ands.org.au/autestingrecords-collection-test-special-chars
+                PB - AUTestingRecords
+                LA - English
+                KW - Early Childhood Education (excl. Māori)
+                KW - EDUCATION
+                KW - EDUCATION SYSTEMS
+                KW - Taonga (Māori Artefacts)
+                KW - CULTURAL UNDERSTANDING
+                KW - HERITAGE
+                KW - % of students
+                KW - fötter
+                AB - Expected subject values: Early Childhood Education (excl. Māori) EDUCATION SYSTEMS
+                EDUCATION Taonga (Māori Artefacts) HERITAGE CULTURAL UNDERSTANDING % of students fötter
 
-            ER  -
-        </description>
+                ER -
+            </description>
             <subject type="anzsrc-for">130102</subject>
             <subject type="anzsrc-seo">950309</subject>
             <subject type="local">% of students</subject>
             <subject type="local">fötter</subject>
+        </collection>
+    </registryObject>
+
+    <registryObject group="Commonwealth Scientific and Industrial Research Organisation">
+        <key>AUTestingRecords102.100.100/20858_Software</key>
+        <originatingSource>https://data.csiro.au/dap/</originatingSource>
+        <collection dateAccessioned="2017-10-17T16:21:57+11:00" type="software">
+            <identifier type="local">102.100.100/20858_software</identifier>
+            <identifier type="doi">10.4225/08/59e5936b181c7_software</identifier>
+            <name type="primary">
+                <namePart>Collection of type software</namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://hdl.handle.net/102.100.100/20858?index=1</value>
+                    </electronic>
+                </address>
+            </location>
+            <coverage>
+                <temporal>
+                    <date dateFormat="W3CDTF" type="dateTo">2017-10-11</date>
+                </temporal>
+            </coverage>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.4225/08/59e5936b181c7</identifier>
+                    <title>A DCM plug-in for microstructure-based computation of material sample electric conductivity
+                        and permittivity
+                    </title>
+                    <version>v4</version>
+                    <publisher>Commonwealth Scientific and Industrial Research Organisation (CSIRO)</publisher>
+                    <contributor seq="1">
+                        <namePart type="family">Yang</namePart>
+                        <namePart type="given">Sam</namePart>
+                    </contributor>
+                    <contributor seq="2">
+                        <namePart type="family">Tulloh</namePart>
+                        <namePart type="given">Andrew</namePart>
+                    </contributor>
+                    <contributor seq="3">
+                        <namePart type="family">Clennell</namePart>
+                        <namePart type="given">Ben</namePart>
+                    </contributor>
+                    <date type="publicationDate">2017-10-17</date>
+                </citationMetadata>
+            </citationInfo>
+            <relatedObject>
+                <key>AUTestingRecordsnhmrc.gov.au/person/Ddfdsf0716</key>
+                <relation type="hasPrincipalInvestigator"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsnhmrc.gov.au/person/Ddfdsf0717</key>
+                <relation type="hasAssociationWith"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsnhmrc.gov.au/person/Ddfdsf0718</key>
+                <relation type="isManagedBy"/>
+            </relatedObject>
+            <subject type="local">Data-constrained modelling, DCM, plug-in, conductivity, permittivity</subject>
+            <subject type="anzsrc-for">040499</subject>
+            <subject type="anzsrc-for">080309</subject>
+            <description type="brief">This is a DCM plug-in for computation of electric conductivity and permittivity of
+                a material sample from its microstructure as defined by the composition channels. The void can take
+                non-vacuum parameters to simulate cases where the voids are filled with a fluid. The submission is
+                updated on 01/09/2015.
+            </description>
+            <description type="lineage">Sam Yang, Andrew Tulloh, Clement Chu, , Fiona Chen, John Taylor, DCM - A
+                Software Platform for Advanced 3D Materials Modelling, Characterisation and Visualization. CSIRO Data
+                Access Portal. PID: https://data.csiro.au/dap/landingpage?pid=csiro:9448;
+                Sam Yang, Keyu Liu, Sherry Mayo, Andrew Tulloh, CIPS sandstone microstructure, CSIRO Data Collection
+                (2012) http://dx.doi.org/10.4225/08/5476787A1A50F;
+                Sam Yang, Sherry Mayo, Marina Pervukhina, Ben Clennell, Lionel Esteban, Sally Irvine, Karen Siu, Anton
+                Maksimenko, Andrew Tulloh, Carbonate rock X-ray CT and DCM microstructure data. CSIRO Data Access
+                Portal. PID: http://dx.doi.org/10.4225/08/5476787E08766;
+                Ruru Li, Clement Chu, Sam Yang, Gerald Pereira, DCM plugin for partially percolating LBM single phase
+                flow. CSIRO Data Access Portal. PID: https://data.csiro.au/dap/landingpage?pid=csiro:9569
+            </description>
+
+            <description type="EXPECTED RIS OUTPUT">
+                Provider: Australian Research Data Commons
+                Database: Research Data Australia
+                Content:text/plain; charset="utf-8"
+
+
+                TY - COMP
+                Y2 - 2019-09-19
+                DO - 10.4225/08/59e5936b181c7
+                PY - 2017
+                AU - Yang, Sam
+                AU - Tulloh, Andrew
+                AU - Clennell, Ben
+                TI - A DCM plug-in for microstructure-based computation of material sample electric conductivity and
+                permittivity
+                UR - http://dx.doi.org/10.4225/08/59e5936b181c7, https://test.ands.org.au/collection-type-software
+                PB - Commonwealth Scientific and Industrial Research Organisation (CSIRO)
+                ET - v4
+                LA - English
+                C5 - All Rights (including copyright) CSIRO 2015.
+                C5 - CSIRO Binary Software Licence Agreement v1.0
+                C5 - Data is accessible online and may be reused in accordance with licence conditions
+                KW - Data-constrained modelling, DCM, plug-in, conductivity, permittivity
+                KW - Geophysics not elsewhere classified
+                KW - EARTH SCIENCES
+                KW - GEOPHYSICS
+                KW - Software Engineering
+                KW - INFORMATION AND COMPUTING SCIENCES
+                KW - COMPUTER SOFTWARE
+                C1 - To 2017-10-11
+                AB - This is a DCM plug-in for computation of electric conductivity and permittivity of a material
+                sample from its microstructure as defined by the composition channels. The void can take non-vacuum
+                parameters to simulate cases where the voids are filled with a fluid. The submission is updated on
+                01/09/2015.
+                AB - Sam Yang, Andrew Tulloh, Clement Chu, , Fiona Chen, John Taylor, DCM - A Software Platform for
+                Advanced 3D Materials Modelling, Characterisation and Visualization. CSIRO Data Access Portal. PID:
+                https://data.csiro.au/dap/landingpage?pid=csiro:9448;
+                Sam Yang, Keyu Liu, Sherry Mayo, Andrew Tulloh, CIPS sandstone microstructure, CSIRO Data Collection
+                (2012) http://dx.doi.org/10.4225/08/5476787A1A50F;
+                Sam Yang, Sherry Mayo, Marina Pervukhina, Ben Clennell, Lionel Esteban, Sally Irvine, Karen Siu, Anton
+                Maksimenko, Andrew Tulloh, Carbonate rock X-ray CT and DCM microstructure data. CSIRO Data Access
+                Portal. PID: http://dx.doi.org/10.4225/08/5476787E08766;
+                Ruru Li, Clement Chu, Sam Yang, Gerald Pereira, DCM plugin for partially percolating LBM single phase
+                flow. CSIRO Data Access Portal. PID: https://data.csiro.au/dap/landingpage?pid=csiro:9569
+                ER -
+
+            </description>
+            <rights>
+                <rightsStatement>All Rights (including copyright) CSIRO 2015.</rightsStatement>
+                <licence rightsUri="https://wiki.csiro.au/display/dmsdoc/CSIRO+Binary+Software+Licence+Agreement"
+                         type="Unknown/Other">CSIRO Binary Software Licence Agreement v1.0
+                </licence>
+                <accessRights type="open">Data is accessible online and may be reused in accordance with licence
+                    conditions
+                </accessRights>
+            </rights>
         </collection>
     </registryObject>
 
