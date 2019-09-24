@@ -29,7 +29,7 @@
                 PY - 2014
                 AU - Tretty, Sarah
                 AU - smetz, john
-                A4 - (AUTestingRecords3) AUTestingRecords3:Funder
+                A4 - (AUTestingRecords3) AUTestingRecords:Funder
                 TI - Citation - Title Export to Endnote Test Collection 1
                 UR - http://hdl.handle.net/10.93248742378a,
                 https://test.ands.org.au/autestingrecords-export-endnote-collection-1
@@ -138,7 +138,7 @@
                 PY - 2014
                 AU - Tretty
                 AU - smetz, john
-                A4 - (AUTestingRecords3) AUTestingRecords3:Funder
+                A4 - (AUTestingRecords3) AUTestingRecords:Funder
                 TI - Citation Title - Export to Endnote Test Collection 2
                 UR - http://hdl.handle.net/10.93248742378a,
                 https://test.ands.org.au/autestingrecords-export-endnote-collection-2
@@ -379,8 +379,7 @@
         <originatingSource type="">Indian National Centre for Ocean Information Services (INCOIS)</originatingSource>
         <collection type="dataset">
             <name type="primary">
-                <namePart>(AUTestingRecords) EndNote Test Collection 3a - All investor relation types (except PI) in RO
-                    (x4) and also
+                <namePart>(AUTestingRecords) EndNote Test Collection 3a - All investor relation types (except PI) in RO (x4) and also
                     in RI (x4). No citation
                 </namePart>
             </name>
@@ -522,8 +521,7 @@
         <originatingSource type="">Indian National Centre for Ocean Information Services (INCOIS)</originatingSource>
         <collection type="dataset">
             <name type="primary">
-                <namePart>(AUTestingRecords) EndNote Test Collection 3b - All investor relation types (except PI &amp;
-                    Author) in RO (x4) and also
+                <namePart>(AUTestingRecords) EndNote Test Collection 3b - All investor relation types (except PI &amp; Author) in RO (x4) and also
                     in RI (x4). No citation
                 </namePart>
             </name>
@@ -660,8 +658,7 @@
         <originatingSource type="">Indian National Centre for Ocean Information Services (INCOIS)</originatingSource>
         <collection type="dataset">
             <name type="primary">
-                <namePart>(AUTestingRecords) EndNote Test Collection 3c - All investor relation types (except PI, Author
-                    &amp; coInvestigator) in RO (x3) and also
+                <namePart>(AUTestingRecords) EndNote Test Collection 3c - All investor relation types (except PI, Author &amp; coInvestigator) in RO (x3) and also
                     in RI (x3). No citation
                 </namePart>
             </name>
@@ -789,8 +786,7 @@
         <originatingSource type="">Indian National Centre for Ocean Information Services (INCOIS)</originatingSource>
         <collection type="dataset">
             <name type="primary">
-                <namePart>(AUTestingRecords) EndNote Test Collection 3d - 2 x hasCollector parties (1 x RO 1 x RI). No
-                    Citation
+                <namePart>(AUTestingRecords) EndNote Test Collection 3d - 2 x hasCollector parties (1 x RO 1 x RI). No Citation
                 </namePart>
             </name>
             <name type="abbreviated">
@@ -903,10 +899,8 @@
         <originatingSource type="">Indian National Centre for Ocean Information Services (INCOIS)</originatingSource>
         <collection type="dataset">
             <name type="primary">
-                <namePart>(AUTestingRecords) EndNote Test Collection 3e - All investor relation types in RO (x5) and
-                    also
-                    in RI (x4 1 with 2 relations). With citationMetadata
-                </namePart>
+                <namePart>(AUTestingRecords) EndNote Test Collection 3e - All investor relation types in RO (x5) and also
+                    in RI (x4 1 with 2 relations). With citationMetadata</namePart>
             </name>
             <name type="abbreviated">
                 <namePart>(AUTestingRecords) Abbreviated Name</namePart>
@@ -3439,12 +3433,12 @@
         </party>
     </registryObject>
 
-    <registryObject group="AUTestingRecords3">
-        <key>AUTestingRecords3:Funder</key>
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecords:Funder</key>
         <originatingSource type="">http://api.crossref.org/funders?filter=location:Australia</originatingSource>
         <party type="group">
             <name type="primary">
-                <namePart>(AUTestingRecords3) AUTestingRecords3:Funder</namePart>
+                <namePart>(AUTestingRecords) AUTestingRecords:Funder</namePart>
             </name>
             <description type="brief">&amp;lt;p&amp;gt;The Department of the AUTestingRecords3 designs and implements
                 the Australian Government’s policies and programmes to protect and conserve the environment, water and
@@ -3459,7 +3453,7 @@
                 territories and local government&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;div
                 class=&amp;quot;boxtwocols&amp;quot;&amp;gt; &amp;lt;/div&amp;gt;
             </description>
-            <identifier type="doi">AUTestingRecords3:Funder</identifier>
+            <identifier type="doi">AUTestingRecords:Funder</identifier>
             <identifier type="fundref">50110000AUT3.x</identifier>
             <identifier type="AU-ANL:PEAU">http://nla.gov.au/nla.party-AUT55.433</identifier>
             <location>
@@ -3499,7 +3493,7 @@
                 <relation type="isManagedBy"/>
             </relatedObject>
             <relatedObject>
-                <key>AUTestingRecords3:Funder</key>
+                <key>AUTestingRecords:Funder</key>
                 <relation type="isFundedBy"/>
             </relatedObject>
             <subject type="anzsrc-for">2403</subject>
@@ -5106,7 +5100,7 @@
         <originatingSource type="">http://api.crossref.org/funders?filter=location:Australia</originatingSource>
         <party type="group">
             <name type="primary">
-                <namePart>(AUTestingRecords)isFundedBy_Group - AUTestingRecords3:Funder</namePart>
+                <namePart>(AUTestingRecords)isFundedBy_Group - AUTestingRecords:Funder</namePart>
             </name>
             <description type="brief">&amp;lt;p&amp;gt;The Department of the AUTestingRecords3 designs and implements
                 the Australian Government’s policies and programmes to protect and conserve the environment, water and

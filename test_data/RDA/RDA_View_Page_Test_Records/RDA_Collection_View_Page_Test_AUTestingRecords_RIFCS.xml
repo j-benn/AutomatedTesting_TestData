@@ -368,9 +368,9 @@
         <key>AUTestingRecordsnhmrc.gosddfeson/DdfdsfGroup1</key>
         <originatingSource>nhmrc.gov.au</originatingSource>
         <party type="group">
-            <identifier type="uri">http://www.someidentifierforaparty12</identifier>
+            <identifier type="uri">http://www.someidentifierforaparty12a</identifier>
             <name type="primary">
-                <namePart>(AUTestingRecords) Borlli Technologies</namePart>
+                <namePart>(AUTestingRecords) Group Borlli Technologies</namePart>
             </name>
         </party>
     </registryObject>
