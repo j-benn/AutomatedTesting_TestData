@@ -1921,8 +1921,7 @@
             </identifier>
             <identifier type="handle">10.93244987df4sf2378a.identifier.handle</identifier>
             <name type="primary">
-                <namePart>(AUTestingRecords) EndNote Test Collection 4e - All citationMetadata date types except
-                    (publicationDate, issued, created) + dates dc.created &amp; dc.available
+                <namePart>(AUTestingRecords) EndNote Test Collection 4e - All citationMetadata date types except (publicationDate, issued, created) + dates dc.created &amp; dc.available
                 </namePart>
             </name>
             <name type="abbreviated">
@@ -2128,8 +2127,7 @@
                 http://purl.org.imosdfsmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4f
             </identifier>
             <name type="primary">
-                <namePart>(AUTestingRecords) EndNote Test Collection 4f - All citationMetadata date types except
-                    (publicationDate, issued, created) + dates dc.created
+                <namePart>(AUTestingRecords) EndNote Test Collection 4f - All citationMetadata date types except (publicationDate, issued, created) + dates dc.created
                 </namePart>
             </name>
             <name type="abbreviated">
@@ -2330,8 +2328,7 @@
                 http://purl.org.imosdfsmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4g
             </identifier>
             <name type="primary">
-                <namePart>(AUTestingRecords) EndNote Test Collection 4g - All citationMetadata date types except
-                    (publicationDate, issued, created) + dateAccessioned
+                <namePart>(AUTestingRecords) EndNote Test Collection 4g - All citationMetadata date types except (publicationDate, issued, created) + dateAccessioned
                 </namePart>
             </name>
             <name type="abbreviated">
@@ -2525,8 +2522,7 @@
                 http://url.org.imosdfsmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efddddd4h
             </identifier>
             <name type="primary">
-                <namePart>(AUTestingRecords) EndNote Test Collection 4h - All citationMetadata date types except
-                    (publicationDate, issued, created) + url identifier
+                <namePart>(AUTestingRecords) EndNote Test Collection 4h - All citationMetadata date types except (publicationDate, issued, created) + url identifier
                 </namePart>
             </name>
             <name type="abbreviated">
@@ -2682,8 +2678,7 @@
             <citationInfo>
                 <citationMetadata>
                     <identifier type="issn">10.93248742fd378a</identifier>
-                    <title>Citation Title - EndNote Test Collection 4h - All citationMetadata date types except
-                        (publicationDate, issued, created) + url identifier
+                    <title>Citation Title - EndNote Test Collection 4h - All citationMetadata date types except (publicationDate, issued, created) + url identifier
                     </title>
                     <version>Version 2</version>
                     <placePublished>Published in Australia</placePublished>
