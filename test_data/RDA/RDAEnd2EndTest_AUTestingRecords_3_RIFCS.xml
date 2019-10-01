@@ -448,7 +448,7 @@
         <endDate dateFormat="W3CDTF">2004</endDate>
       </existenceDates>
 	        <relatedInfo type="party">
-        <identifier type="url">http://nla.gov.au/nla.party-AUT2</identifier>
+        <identifier type="AU-ANL:PEAU">http://nla.gov.au/nla.party-AUT2</identifier>
         <relation type="isManagedBy"/>
       </relatedInfo>
     </activity>
