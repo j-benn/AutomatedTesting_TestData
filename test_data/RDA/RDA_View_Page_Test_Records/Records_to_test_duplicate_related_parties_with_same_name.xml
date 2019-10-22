@@ -205,7 +205,7 @@
             <relatedInfo type="party">
             <title>Some party title</title>
             <relation type="hasPrincipalInvestigator"></relation>
-            <identifier type="local">IsPrincipalInvestigatorOf-yer123454</identifier>
+            <identifier type="local">IsPrincipalInvestigatorOf-yer123454_1</identifier>
             </relatedInfo>
         </service>
     </registryObject>
