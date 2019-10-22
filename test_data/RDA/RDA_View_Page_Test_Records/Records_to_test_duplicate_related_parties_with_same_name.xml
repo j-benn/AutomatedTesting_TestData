@@ -1,0 +1,212 @@
+<registryObjects>
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPartyToRelateToIsPrincipalInvestigatorOf</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)IsPrincipalInvestigatorOf - Party Type Person</namePart>
+            </name>
+            <identifier type="local">IsPrincipalInvestigatorOf-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+                affinity-purified antibodies with protein profiling in a multitude of tissues and cells assembled in
+                tissue microarrays. Confocal microscopy analysis using human cell lines is performed for more detailed
+                protein localization. The program hosts the Human Protein Atlas portal with expression profiles of human
+                proteins in tissues and cells.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;The main sites are located at AlbaNova
+                and SciLifeLab, KTH - Royal Institute of Technology, Stockholm, Sweden, the Rudbeck Laboratory, Uppsala
+                University, Uppsala, Sweden and Lab Surgpath, Mumbai, India. The main objective of the resource centre
+                is to produce specific antibodies to human target proteins using a high-throughput production method
+                involving the cloning and protein expression of Protein Epitope Signature Tags (PrESTs). After
+                purification, the antibodies are used to study expression profiles in cells and tissues and for
+                functional analysis of the corresponding proteins in a wide range of platforms. The Stockholm sites are
+                responsible for generating high-quality antibodies and to perform the immunofluorescence analysis, the
+                Uppsala site is responsible for large-scale protein profiling in tissues and cells using
+                immunohistochemistry and the Mumbai site for the annotation of the immunohistochemistry images.&amp;lt;/p&amp;gt;
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+        <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecordsPartyToRelateToIsPrincipalInvestigatorOf2</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)IsPrincipalInvestigatorOf - Party Type Person</namePart>
+            </name>
+            <identifier type="local">IsPrincipalInvestigatorOf-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+                affinity-purified antibodies with protein profiling in a multitude of tissues and cells assembled in
+                tissue microarrays. Confocal microscopy analysis using human cell lines is performed for more detailed
+                protein localization. The program hosts the Human Protein Atlas portal with expression profiles of human
+                proteins in tissues and cells.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;The main sites are located at AlbaNova
+                and SciLifeLab, KTH - Royal Institute of Technology, Stockholm, Sweden, the Rudbeck Laboratory, Uppsala
+                University, Uppsala, Sweden and Lab Surgpath, Mumbai, India. The main objective of the resource centre
+                is to produce specific antibodies to human target proteins using a high-throughput production method
+                involving the cloning and protein expression of Protein Epitope Signature Tags (PrESTs). After
+                purification, the antibodies are used to study expression profiles in cells and tissues and for
+                functional analysis of the corresponding proteins in a wide range of platforms. The Stockholm sites are
+                responsible for generating high-quality antibodies and to perform the immunofluorescence analysis, the
+                Uppsala site is responsible for large-scale protein profiling in tissues and cells using
+                immunohistochemistry and the Mumbai site for the annotation of the immunohistochemistry images.&amp;lt;/p&amp;gt;
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+            <registryObject group="AUTestingRecords3">
+        <key>AUTestingRecordsPartyToRelateToIsPrincipalInvestigatorOf3</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)IsPrincipalInvestigatorOf - Party Type Person</namePart>
+            </name>
+            <identifier type="local">IsPrincipalInvestigatorOf-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+                affinity-purified antibodies with protein profiling in a multitude of tissues and cells assembled in
+                tissue microarrays. Confocal microscopy analysis using human cell lines is performed for more detailed
+                protein localization. The program hosts the Human Protein Atlas portal with expression profiles of human
+                proteins in tissues and cells.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;The main sites are located at AlbaNova
+                and SciLifeLab, KTH - Royal Institute of Technology, Stockholm, Sweden, the Rudbeck Laboratory, Uppsala
+                University, Uppsala, Sweden and Lab Surgpath, Mumbai, India. The main objective of the resource centre
+                is to produce specific antibodies to human target proteins using a high-throughput production method
+                involving the cloning and protein expression of Protein Epitope Signature Tags (PrESTs). After
+                purification, the antibodies are used to study expression profiles in cells and tissues and for
+                functional analysis of the corresponding proteins in a wide range of platforms. The Stockholm sites are
+                responsible for generating high-quality antibodies and to perform the immunofluorescence analysis, the
+                Uppsala site is responsible for large-scale protein profiling in tissues and cells using
+                immunohistochemistry and the Mumbai site for the annotation of the immunohistochemistry images.&amp;lt;/p&amp;gt;
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+            <registryObject group="AUTestingRecords4">
+        <key>AUTestingRecordsPartyToRelateToIsPrincipalInvestigatorOf4</key>
+        <originatingSource>http://www.proteomebrowser.org</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords)IsPrincipalInvestigatorOf - Party Type Person</namePart>
+            </name>
+            <identifier type="local">IsPrincipalInvestigatorOf-yer123454</identifier>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>http://www.proteinatlas.org/about/organization</value>
+                    </electronic>
+                    <electronic type="email">
+                        <value>contact@proteinatlas.org</value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full">
+                &amp;lt;p&amp;gt;The Swedish Human Protein Atlas project, funded by the Knut and Alice Wallenberg
+                Foundation, has been set up to allow for a systematic exploration of the human proteome using
+                Antibody-Based Proteomics. This is accomplished by combining high-throughput generation of
+                affinity-purified antibodies with protein profiling in a multitude of tissues and cells assembled in
+                tissue microarrays. Confocal microscopy analysis using human cell lines is performed for more detailed
+                protein localization. The program hosts the Human Protein Atlas portal with expression profiles of human
+                proteins in tissues and cells.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;The main sites are located at AlbaNova
+                and SciLifeLab, KTH - Royal Institute of Technology, Stockholm, Sweden, the Rudbeck Laboratory, Uppsala
+                University, Uppsala, Sweden and Lab Surgpath, Mumbai, India. The main objective of the resource centre
+                is to produce specific antibodies to human target proteins using a high-throughput production method
+                involving the cloning and protein expression of Protein Epitope Signature Tags (PrESTs). After
+                purification, the antibodies are used to study expression profiles in cells and tissues and for
+                functional analysis of the corresponding proteins in a wide range of platforms. The Stockholm sites are
+                responsible for generating high-quality antibodies and to perform the immunofluorescence analysis, the
+                Uppsala site is responsible for large-scale protein profiling in tissues and cells using
+                immunohistochemistry and the Mumbai site for the annotation of the immunohistochemistry images.&amp;lt;/p&amp;gt;
+            </description>
+            <subject type="anzsrc-for">110702</subject>
+        </party>
+    </registryObject>
+
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsPROV12sdfdf866s</key>
+        <originatingSource type="">http://www.prov.vic.gov.au</originatingSource>
+        <service type="create" dateModified="2015-12-13 23:49:08">
+            <name type="primary">
+                <namePart>(AUTestingRecords)Council Minutes</namePart>
+            </name>
+            <description type="full">&amp;lt;p&amp;gt;Minutes of council meetings were created in accordance with section 145 of the Municipal Institutions Act 1863 (27 Vic., No.184) and with subsequent legislation relating to local government including the Local Government Act 1958 (No.6299). Many local government bodies in existence prior to 1863 maintained records of their meetings in the form of minutes.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;These acts have required that for each meeting of council, minutes of all proceedings are recorded together with the names of all councillors present and all who vote for and against motions. The &amp;quot;master set&amp;quot; of minutes is also required to be signed by the mayor or chairman of the meeting once the minutes have been confirmed at the following council meeting. The minutes relate to the wide range of activities for which the council is responsible, including building, community services, collection of rates, property valuation and town planning. &amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;The committee system is employed by most Victorian councils. The Local Government Act 1903 (No.1893) removed the requirement that separate committee minutes be kept and introduced the requirement that committees' reports to council be included in the council minutes. In some cases, the minutes of committees are recorded in the council minute books, either in lieu of or in addition to committee reports. Where committee minutes were maintained in separate volumes they constitute a separate series from the council minutes.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;/p&amp;gt;</description>
+            <description type="logo">&amp;lt;p&amp;gt;&amp;lt;img src=&amp;quot;http://metadata.prov.vic.gov.au/image/LOGO_BLACK.jpg&amp;quot; alt=&amp;quot;logo&amp;quot; /&amp;gt;&amp;lt;/p&amp;gt;</description>
+            <rights>
+                <rightsStatement rightsUri="http://prov.vic.gov.au/provguide-25">Records held by Public Record Office Victoria (PROV) are covered by copyright. For information on reusing material from the collection see PROVguide 25</rightsStatement>
+                <accessRights>Open</accessRights>
+            </rights>
+            <identifier type="local">VPRS 128sdfdf66AUT</identifier>
+
+            <location>
+                <address>
+          <electronic type="url">
+            <value>http://www.access.prov.vic.gov.au/public/component/daPublicBaseContainer?component=daViewSeries&amp;breadcrumbPath=Home/Access%20the%20Collection/Browse%20The%20Collection/Series%20Details&amp;entityId=12866</value>
+          </electronic>
+          <physical type="">
+            <addressPart type="text">&amp;lt;p&amp;gt;&amp;lt;a title=&amp;quot;Public Record Office Victoria&amp;quot; href=&amp;quot;http://prov.vic.gov.au&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Victorian Archives Centre&amp;lt;/a&amp;gt;&amp;lt;br /&amp;gt;99 Shiel St North Melbourne VIC 3051, Australia&amp;lt;br /&amp;gt;Ph: +61 3 9348 5600&amp;lt;/p&amp;gt;</addressPart>
+          </physical>
+        </address>
+            </location>
+            <coverage>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">1894</date>
+                    <date type="dateTo" dateFormat="W3CDTF">1994</date>
+                </temporal>
+                <spatial type="kmlPolyCoords">141.000000,-34.000000 142.919336,-34.145604 144.582129,-35.659230 147.742627,-35.873175 150.024219,-37.529041 150.200000,-39.200000 141.000000,-39.200000 141.000000,-34.000000 141.000000,-34.000000</spatial>
+            </coverage>
+            <relatedObject>
+                <key>AUTestingRecordsRelationshipsCollection3</key>
+                <relation type="isPartOf"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsCollectionToTestInternalExternalSettings</key>
+                <relation type="isDerivedFrom"/>
+            </relatedObject>
+            <subject type="ANZSRC">2103 HISTORICAL STUDIES</subject>
+
+            <relatedInfo type="party">
+            <title>Some party title</title>
+            <relation type="hasPrincipalInvestigator"></relation>
+            <identifier type="local">IsPrincipalInvestigatorOf-yer123454</identifier>
+            </relatedInfo>
+        </service>
+    </registryObject>
+    </registryObjects>
