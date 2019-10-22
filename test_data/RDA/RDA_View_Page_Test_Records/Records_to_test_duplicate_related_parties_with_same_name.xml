@@ -1,12 +1,12 @@
 <registryObjects>
     <registryObject group="AUTestingRecords">
-        <key>AUTestingRecordsPartyToRelateToIsPrincipalInvestigatorOf</key>
+        <key>AUTestingRecordsPartyToRelateToIsPrincipalInvestigatorOf_1</key>
         <originatingSource>http://www.proteomebrowser.org</originatingSource>
         <party type="person">
             <name type="primary">
                 <namePart type="">(AUTestingRecords)IsPrincipalInvestigatorOf - Party Type Person</namePart>
             </name>
-            <identifier type="local">IsPrincipalInvestigatorOf-yer123454</identifier>
+            <identifier type="local">IsPrincipalInvestigatorOf-yer123454_1</identifier>
             <location>
                 <address>
                     <electronic type="url">
@@ -40,13 +40,13 @@
     </registryObject>
 
         <registryObject group="AUTestingRecords2">
-        <key>AUTestingRecordsPartyToRelateToIsPrincipalInvestigatorOf2</key>
+        <key>AUTestingRecordsPartyToRelateToIsPrincipalInvestigatorOf_2</key>
         <originatingSource>http://www.proteomebrowser.org</originatingSource>
         <party type="person">
             <name type="primary">
                 <namePart type="">(AUTestingRecords)IsPrincipalInvestigatorOf - Party Type Person</namePart>
             </name>
-            <identifier type="local">IsPrincipalInvestigatorOf-yer123454</identifier>
+            <identifier type="local">IsPrincipalInvestigatorOf-yer123454_1</identifier>
             <location>
                 <address>
                     <electronic type="url">
@@ -80,13 +80,13 @@
     </registryObject>
 
             <registryObject group="AUTestingRecords3">
-        <key>AUTestingRecordsPartyToRelateToIsPrincipalInvestigatorOf3</key>
+        <key>AUTestingRecordsPartyToRelateToIsPrincipalInvestigatorOf_3</key>
         <originatingSource>http://www.proteomebrowser.org</originatingSource>
         <party type="person">
             <name type="primary">
                 <namePart type="">(AUTestingRecords)IsPrincipalInvestigatorOf - Party Type Person</namePart>
             </name>
-            <identifier type="local">IsPrincipalInvestigatorOf-yer123454</identifier>
+            <identifier type="local">IsPrincipalInvestigatorOf-yer123454_1</identifier>
             <location>
                 <address>
                     <electronic type="url">
@@ -120,13 +120,13 @@
     </registryObject>
 
             <registryObject group="AUTestingRecords4">
-        <key>AUTestingRecordsPartyToRelateToIsPrincipalInvestigatorOf4</key>
+        <key>AUTestingRecordsPartyToRelateToIsPrincipalInvestigatorOf_4</key>
         <originatingSource>http://www.proteomebrowser.org</originatingSource>
         <party type="person">
             <name type="primary">
                 <namePart type="">(AUTestingRecords)IsPrincipalInvestigatorOf - Party Type Person</namePart>
             </name>
-            <identifier type="local">IsPrincipalInvestigatorOf-yer123454</identifier>
+            <identifier type="local">IsPrincipalInvestigatorOf-yer123454_1</identifier>
             <location>
                 <address>
                     <electronic type="url">
@@ -161,7 +161,7 @@
 
 
     <registryObject group="AUTestingRecords">
-        <key>AUTestingRecordsPROV12sdfdf866s</key>
+        <key>AUTestingRecordsPROV12sdfdf866s_1</key>
         <originatingSource type="">http://www.prov.vic.gov.au</originatingSource>
         <service type="create" dateModified="2015-12-13 23:49:08">
             <name type="primary">
