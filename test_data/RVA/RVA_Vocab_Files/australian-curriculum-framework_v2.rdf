@@ -584,7 +584,7 @@
 	<statementLabel xmlns="http://purl.org/ASN/schema/core/" rdf:resource="http://vocabulary.curriculum.edu.au/curriculumElement/1"/>
 	<skos:narrower rdf:resource="http://test.curriculum.edu.au/framework/W100"/>
 	<skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">W</skos:notation>
-	<skos:prefLabel xml:lang="en">Work studies</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">English studies</skos:prefLabel>
 	<skos:topConceptOf rdf:resource="http://test.curriculum.edu.au/framework/1724a465-0396-49ad-9a2b-d0ff00720372"/>
 </rdf:Description>
 

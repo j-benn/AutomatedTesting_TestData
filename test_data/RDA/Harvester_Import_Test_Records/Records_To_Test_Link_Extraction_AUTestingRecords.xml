@@ -1,0 +1,510 @@
+<registryObjects>
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsjcu.edu.au/collection/enmasse/298z</key>
+        <originatingSource>https://research.jcu.edu.au/researchdata/default</originatingSource>
+        <collection type="dataset" dateAccessioned="2013-05-07T00:00:00Z">
+            <identifier type="local">jcu.edu.au/collection/enmasse/298AUT234zz.3.ods</identifier>
+            <name type="primary" xml:lang="en">
+                <namePart>(AUTestingRecords) Collection to related to. Microclimate monitoring of the Australian Wet Tropics rainforest at SU6A2 (146.24152513, -19.00261633, 600.0m above MSL) collected by iButton Hygrochron </namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="uri">
+                        <value>
+                            https://research.jcu.edu.au/researchdata/default/detail/5198f94c76097ec59a85fb254af2a06c
+                        </value>
+                    </electronic>
+                </address>
+                <address>
+                    <electronic type="url">
+                        <value>https://research.jcu.edu.au/enmasse/298/data</value>
+                    </electronic>
+                </address>
+                <address>
+                    <physical>
+                        <addressPart type="text">CC-DAM, James Cook University, Townsville Campus</addressPart>
+                    </physical>
+                </address>
+            </location>
+            <coverage>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">2004-02-02T00:00:00Z</date>
+                    <text>2004 - ongoing</text>
+                </temporal>
+            </coverage>
+            <coverage>
+                <spatial type="kmlPolyCoords" xml:lang="en"> 145.08,-17.70 145.52,-17.70 145.52,-16.28 145.08,-16.28 145.08,-17.70 </spatial>
+            </coverage>
+            <relatedObject>
+                <key>AUTestingRecordsjcu.edu.au/collection/enmasse/2</key>
+                <relation type="isPartOf"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordshttp://nla.gov.au/nla.party-1507923</key>
+                <relation type="hasCollector"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordshttp://nla.gov.au/nla.party-1507923</key>
+                <relation type="hasAssociationWith">
+                    <description>Primary Contact</description>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsjcu.edu.au/activities/15549</key>
+                <relation type="isOutputOf"/>
+            </relatedObject>
+            <subject type="local" xml:lang="en">Australian Wet Tropics</subject>
+            <subject type="local" xml:lang="en">environmental data</subject>
+            <subject type="local" xml:lang="en">microclimate</subject>
+            <subject type="anzsrc-for" xml:lang="en">050101</subject>
+            <subject type="anzsrc-seo" xml:lang="en">960305</subject>
+            <subject type="anzsrc-toa">Strategic basic research</subject>
+            <description type="full" xml:lang="en"> Sensors used: - HOBO micro weather station - iButton Thermochron - iButton Hygrochron Hobo micro weather station data loggers, ibuttons and hygrobuttons were used to collect long-term microclimate data from 2006-2009 at permanent monitoring sites across the Australian Wet Tropics. Air temperature and humidity sampling was conducted manually in relation to standardized vertebrate sampling quarterly from 2004 (ongoing). The HOBO data loggers and iButton Hygrochron were erected 1m from the ground 0.25 m squared. They were placed well within the forest out of public view and camouflage painted. Sensors associated with each logger measured the following readings continuously at 15 minute intervals: - Air Temperate - Humidity - Soil Temperature - Soil Moisture - Leaf wetness An iButton Thermochron was placed beneath a log to measure under-log temperature &amp;lt;a href=&amp;quot;http://www.findThisLink.edu.au/&amp;quot;&amp;gt;. This set of 3 microclimate data loggers were established at 25 sites in November 2006:
+                Site Name AU10A2 AU1A3 AU2A2 AU4A2 AU6A2 AU8A2 BK10A2 BK12A2 BK14A2 BK16A2 CU10A2 CU12A2 CU1A1 CU2A2 CU4A2 CU6A2 CU8A2 SU10A2 SU10B2 SU350A2 SU6A2 SU8A2 WU11A2 WU13A2 WU9A2 </description>
+            <description type="brief" xml:lang="en"> Hobo micro weather station data loggers and iButton thermochrons and hygrochrons were used to collect long-term microclimate data from 2006-2009 at permanent monitoring sites across the Australian Wet Tropics. Manual quarterly sampling of temperature and humidity has been ongoing since February 2004. </description>
+            <description type="note" xml:lang="en"> iButton Hygrochrons were used to collect long-term microclimate data from 2006-2009 at this permanent monitoring site. The iButton Hygrochrons were erected 1m from the ground. They were placed well within the forest out of public view and camouflage painted. Sensors measured the following readings continuously at 15 minute intervals: - Air Temperate - Humidity </description>
+            <rights>
+                <accessRights> Restricted access. Login authentication is required to access the data - please contact the data manager or nominated primary contact to negotiate access. If you have difficulty, please contact researchdata@jcu.edu.au for assistance. </accessRights>
+                <licence rightsUri="http://creativecommons.org/licenses/by-nc/3.0/au">CC BY-NC: Attribution-Noncommercial 3.0 AU</licence>
+            </rights>
+            <relatedInfo type="publication">
+                <identifier type="uri">http://dx.doi.org/10.1890/09-1069.1AUT234.3.ods</identifier>
+                <title> Distributions, life history specialisation and phylogeny of the rainforest vertebrates in the Australian Wet Tropics. </title>
+            </relatedInfo>
+            <citationInfo>
+                <fullCitation style="Datacite"> Williams, Stephen (2013). Microclimate monitoring of the Australian Wet Tropics rainforest at SU6A2 (146.24152513, -19.00261633, 600.0m above MSL) collected by iButton Hygrochron. James Cook University. [Data Files] jcu.edu.au/collection/enmasse/298 </fullCitation>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsNestedfederation.edu.au/colal/001a</key>
+        <originatingSource type="">http://demo.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <collection type="dataset">
+            <name type="primary">
+                <namePart>(AUTestingRecords)(LVL 4)Online Farm Trials</namePart>
+            </name>
+            <description type="full">&amp;lt;p&amp;gt;Online Farm Trials is part of an interoperable web-GIS maintained by Federation University Australia. The Online Farm Trials (OFT) project is funded and supported by the &amp;lt;a href=&amp;quot;http://www.grdc.com.au/&amp;quot;&amp;gt;Grains Research and Development Corporation (GRDC)&amp;lt;/a&amp;gt;, and was initiated in 2013 with the aim of using the latest technology to improve access to, and adoption of, grains industry research data and information. Federation University Australia's &amp;lt;a href=&amp;quot;http://www.cerdi.edu.au/&amp;quot;&amp;gt;Centre for eResearch and Digital Innovation&amp;lt;/a&amp;gt; is leading the project to develop and deliver the OFT Trial Explorer, Report Library and other trial research resources. The project has a strong collaborative approach, working with a range of crop research groups, industry experts and grain industry organisations to ensure the outcomes are highly relevant, practical
+                and beneficial.&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;The Federation University Australia Spatial Online Farm Trials database includes:&amp;lt;/p&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;An accessible online digital library of national farm trial research reports and documents.&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Direct online access to trial research data in digital form with download capacity.&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Online analytical/decision tools for growers, agronomists and researchers.&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Linking of other sources of relevant data and information with trial research through interoperable systems.&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;Increased networking and collaboration on cropping issues and farm trial research.&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;p&amp;gt;The principle objective of the project is to help growers improve productivity and sustainability of their farm enterprise through improved access to
+                trial research knowledge.&amp;lt;/p&amp;gt;</description>
+            <rights>
+                <rightsStatement>You are provided with access to this application only for your personal use and you may not without our written permission on-sell or rebadge information obtained from this web site, or in any way represent that the information is from any source other than the Federation University Australia Interoperable GIS.</rightsStatement>
+                <licence type="CC-BY-NC">CC</licence>
+                <accessRights type="open">Access via website</accessRights>
+            </rights>
+            <identifier type="uri">http://researchonline.federation.edu.au:8080/vital/access/HandleResolver/1959.17/76793AUTbaa1</identifier>
+            <location>
+                <address>
+                    <electronic type="url" target="landingPage">
+                        <value>http://www.farmtrials.com.au/</value>
+                    </electronic>
+                </address>
+            </location>
+            <coverage>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">1993</date>
+                </temporal>
+                <spatial type="text">Australia</spatial>
+            </coverage>
+            <relatedObject>
+                <key>AUTestingRecordsNestedfederation.edu.au/party/00a1</key>
+                <relation type="isOwnedBy"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedwww.ballarat.edu.au/party/000a0015158</key>
+                <relation type="hasAssociationWith"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedwww.ballarat.edu.au/staff/hethoampson</key>
+                <relation type="hasAssociationWith"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedwww.ballarat.edu.au/aact/6</key>
+                <relation type="isOutputOf"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedwww.ballarat.edu.au/serv/1a</key>
+                <relation type="isAvailableThrough"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedfederation.edu.au/rmilnae</key>
+                <relation type="hasPrincipalInvestigator"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedfederation.edu.au/party/003a</key>
+                <relation type="hasAssociationWith"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsNestedfederation.edu.au/party/004a</key>
+                <relation type="hasAssociationWith"/>
+            </relatedObject>
+            <subject type="anzsrc-for">0703</subject>
+            <subject type="local">Grains</subject>
+            <subject type="local">Grain production</subject>
+            <subject type="local">Soil</subject>
+            <relatedInfo type="website">
+                <title>UB Spatial: an interoperable web-GIS and databases</title>
+                <identifier type="uri">http://ubspatial.com.au/AUTba1</identifier>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <title>News release</title>
+                <identifier type="uri">http://www.cecc.com.au/cb_pages/newas/OFT.phpAUTba1</identifier>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsNestedx100IMOS/7f2f5084-2933-3b79-847e-33c348a8265e42a</key>
+        <originatingSource> Atlantic Oceanographic and Meteorological Laboratory (AOML) </originatingSource>
+        <collection type="dataset">
+            <identifier type="uri">http://imosmest.aodn.org.au:80/geonetwork/srv/en/metadata.show?uuid=7f2fa5084-2933-3b79-847e-33c348a8265e AUTbx142</identifier>
+            <name type="primary">
+                <namePart>(LVL 5) Nested Collections Large Numbers42</namePart>
+            </name>
+            <dates type="created">
+                <date type="dateFrom" dateFormat="W3CDTF">2014-09-09T06:06:26</date>
+            </dates>
+            <relatedObject>
+                <key>AUTestingRecordsNestedx100IMOS/8cc13f98-9897-4193-8ba6-d1f05356d3f2a</key>
+                <relation type="isPartOf"/>
+            </relatedObject>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value> http://imosmest.aodn.org.au:80/geonetwork/srv/en/metadata.show?uuid=7f2f5084-2933-3b79-847e-33c348a8265e </value>
+                    </electronic>
+                </address>
+            </location>
+            <relatedObject>
+                <key>AUTestingRecordsNestedx100IMOS/4b9ecd05-3162-312aa-a90f-905245ca01f9</key>
+                <relation type="isPartOf"/>
+            </relatedObject>
+            <subject type="local">oceans</subject>
+            <subject type="local">Oceans | Ocean Temperature | Water Temperature</subject>
+            <subject type="local">Oceans | Salinity/density | Salinity</subject>
+            <subject type="local">Oceans | Ocean Pressure | Water Pressure</subject>
+            <subject type="local">Oceans | Ocean Chemistry | Dissolved Gases</subject>
+            <subject type="local">Profiling Float | Autonomous Profiling Float</subject>
+            <description type="full"> This dataset contains temperature, salinity, pressure and dissolved oxygen data for all profiles of the Argo float 2900114 managed by the Atlantic Oceanographic and Meteorological Laboratory (AOML). Argo is a major international collaborative project to observe the world's oceans and help scientists understand ocean processes and the ocean's roles in climate. The data collected also improves our ability to forecast climate and ocean conditions. The float drift at depth of between 1 and 2 km. Every ten days each float https://www.findThisLink.com, ascends to the surface, measuring temperature and salinity as it rises. This data is transmitted to satellites along with the float's position. The float then dives and starts a new cycle. The Argo float, WMO 2900114 was first deployed on the 2007-09-30T07:30:00 at launch location (Latitude : -64.9316635131836 ; Longitude : 119.15666961669922). The variables available for this Argo float are : Temperature, Practical Salinity, Pressure [https://www.findThisLink2.com].
+                and Dissolved Oxygen. The last location of the Argo float was transmitted on the 2011-11-17T09:30:10 at the following location (Latitude : -55.862 ; Longitude : 105.108). </description>
+            <coverage>
+                <spatial type="iso19139dcmiBox"> northlimit=-55.538; southlimit=-65.52; westlimit=83.295; eastLimit=119.342; projection=WGS84 </spatial>
+                <spatial type="text"> northlimit=-55.538; southlimit=-65.52; westlimit=83.295; eastLimit=119.342; projection=WGS84 </spatial>
+            </coverage>
+            <coverage>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">2007-09-30T14:34:00</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2011-11-17T09:30:10</date>
+                </temporal>
+            </coverage>
+            <relatedInfo type="website">
+                <identifier type="uri"> http://thredds.aodn.org.au/thredds/cataalog/IMOS/Argo/dac/aoml/2900114/catalog.html AUTbx1</identifier>
+                <relation type="hasAssociationWith"/>
+                <title>Data available via the IMOS OPeNDAP server</title>
+            </relatedInfo>
+            <rights>
+                <rightsStatement> Argo Data (Temperature and Salinity profiles) https://www.findThisLink2.com, are freely available without any restriction, via the internet Global Data Centres (GDACs) and the GTS of WMO. Please support Argo by acknowledging your use of Argo data with the following words: "These data where collected and made freely available by the International Argo project and the national initiatives that contribute to it. (http://www.argo.net).Argo is a pilot programme of the Global Ocean Observing System." </rightsStatement>
+            </rights>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="uri"> http://imosmest.aodn.org.au:80/geonetwork/srv/en/metadata.show?uuid=7f2f5084-2933-3b79-847e-33c348a8265e AUTbx1</identifier>
+                    <title>AOML - Argo float, WMO 2900114</title>
+                    <date type="created">2014</date>
+                    <contributor>
+                        <namePart> Atlantic Oceanographic and Meteorological Laboratory (AOML) </namePart>
+                    </contributor>
+                    <publisher>Integrated Marine Observing System (IMOS)</publisher>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsb.org/collection-39694AUTx345344aa</key>
+        <originatingSource> http://services.ands.org.au/sandbox/orca/register_my_data </originatingSource>
+        <collection type="collection">
+            <identifier type="local">www.qfab.org/collection-39694AUaaTx345344</identifier>
+            <name type="primary">
+                <namePart> (AUTestingRecords)Collection to related to 2 brief AND 1 full description. Australian Nucleotide (DNA/RNA) and Protein sequences from Australian organisms in the species Decatopseustis cataphanes () </namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>
+                            http://rda.ebi.edu.au/default.jsp?collectionId=39694&amp;view=preview
+                        </value>
+                    </electronic>
+                </address>
+            </location>
+            <description type="full"> (FULL)The contents of this collection is dynamic and will change over time as more data is deposited into the European Nucleotide Archive (ENA) and Universal Protein Resource (UniProt). The set of nucleotide (DNA/RNA) and protein sequences in this collection is not necessarily comprehensive. It contains only nucleotide (DNA/RNA) and protein sequences that have been published in the European Nucleotide Archive (ENA) and Universal Protein Resource (UniProt). The results have been returned using the exact search term Decatopseustis cataphanes. The current version of the system does not allow for typographical errors or synonyms. </description>
+            <description type="brief"> (BRIEF 2)This data collection contains all currently published nucleotide (DNA/RNA) and protein sequences from Australian Decatopseustis cataphanes. Other information about this group: (https://www.findThisLink.com) The nucleotide (DNA/RNA) and protein sequences have been sourced through the European Nucleotide Archive (ENA) and Universal Protein Resource (UniProt), databases that contains comprehensive sets of nucleotide (DNA/RNA) and protein sequences from all organisms that have been published by the International Research Community. The identification of species in Decatopseustis cataphanes as Australian dwelling organisms has been achieved by accessing the Australian Plant Census (APC) or Australian Faunal Directory (AFD) through the Atlas of Living Australia. </description>
+            <description type="brief"> (BRIEF 1)This data is freely available to any individual for any purpose. For more information see http:www.ebi.ac.uk/Information/termsofuse.html </description>
+            <subject type="anzsrc-for">060407</subject>
+            <subject type="anzsrc-for">060102</subject>
+            <subject type="anzsrc-for">060411</subject>
+            <relatedObject>
+                <key>AUTestingRecordsPROV VPRSxx.s354.3 </key>
+                <relation type="isLocatedIn"/>
+            </relatedObject>
+            <relatedInfo>
+                <identifier type="uri">http://www.ebi.ac.uk/enaa</identifier>
+                <title>ENA (European Nucleotide Archive)</title>
+            </relatedInfo>
+            <relatedInfo>
+                <identifier type="uri">http://www.uniprot.orga</identifier>
+                <title>Uniprot (Universal Protein Resource)</title>
+            </relatedInfo>
+            <relatedInfo>
+                <identifier type="uri">http://www.ala.org.aua</identifier>
+                <title>Atlas of Living Australia</title>
+            </relatedInfo>
+            <relatedInfo>
+                <identifier type="uri">http://www.ebi.ac.uka</identifier>
+                <title>EBI (European Bioinformatics Institute)</title>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordscu.edu.au/collart-fd.x.x.collection-39694AUTx345344aaa</key>
+        <originatingSource>
+            http://researchdata.ands.org.au/registry/orca/register_my_data
+        </originatingSource>
+        <collection dateAccessioned="2013-02-19T00:00:00Z" dateModified="2013-02-19T00:00:00Z" type="collection">
+            <name type="primary">
+                <namePart type="">(AUTestingRecords) Collection with dc.created (just From yyyy-mm-dd format) AND relatedInfo 'provenance' with all identifier types
+                </namePart>
+            </name>
+            <description type="full">
+                &amp;lt;p&amp;gt; A Visual Representation of Music &amp; Aural Representation of Image:&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt; The&amp;nbsp;&amp;lt;em&amp;gt;Intermedia Frottage&amp;nbsp;&amp;lt;/em&amp;gt;collection documents the development of compositional method for using graphic synthesis techniques to create sounds from images, and images from sounds. The products of these processes are then layered and arranged in cohesive, meaningful combinations. Moving back-and-forth between the two mediums in this dynamic interaction, a narrative interplay develops, connecting the materials created. Together with the sound compositions, the canvases and artists&amp;rsquo; scorebooks tell this story.&amp;nbsp;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt; The collection consists of:&amp;lt;/p&amp;gt; &amp;lt;ol&amp;gt; &amp;lt;li&amp;gt; 200pp. exegesis, text with 48 coloured figures,&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; 14-track CD sound recording,&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; Exhibition collection of 6 artists books and 10 giclee (digital print) canvases,&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; DVD of images exhibition canvases and artists books,&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; Exhibition copies of 14-track audio CD.&amp;lt;/li&amp;gt; &amp;lt;/ol&amp;gt; &amp;lt;p&amp;gt; The collection represents the complete body of work submitted by Melissa Cary to complete her PhD. The collection was exhibited at the Southern Cross University, NEXT Gallery as an installation of visual artworks accompanied by headphone listening stations with copies of the audio CD.&amp;lt;/p&amp;gt;
+            </description>
+            <rights>
+                <rightsStatement>
+                    Data associated with this collection remain the property of Melissa Carey. This data is only available for analysis and/or publication with the permission of the owner.
+                </rightsStatement>
+                <accessRights>
+                    For permission to access this collection please contact Melissa Carey.
+                </accessRights>
+            </rights>
+            <identifier type="local">scu.edu.au/art-001AUTdl3.x.x.c9a</identifier>
+            <location>
+                <address>
+                    <electronic type="email">
+                        <value>mcarey@scu.edu.au</value>
+                    </electronic>
+                    <physical type="postalAddress">
+                        <addressPart type="text">
+                            R Block, Division of Research, Southern Cross University Military Road East Lismore New South Wales Australia 2480
+                        </addressPart>
+                    </physical>
+                </address>
+            </location>
+            <relatedObject>
+                <key>scu.edu.au/partart-001a</key>
+                <relation type="isOwnedBy"/>
+            </relatedObject>
+            <subject type="anzsrc-for">1904</subject>
+            <subject type="anzsrc-for">1905</subject>
+            <citationInfo>
+                <fullCitation style="Harvard">
+                    Carey, M. 2007 "Intermedia Frottage - An Arual representation of images".
+                </fullCitation>
+            </citationInfo>
+            <dates type="dc.created">
+                <date type="dateFrom" dateFormat="W3CDTF">2007-02-21</date>
+            </dates>
+            <relatedInfo type="provenance">
+                <title>Provenance Title and Identifier URI</title>
+                <identifier type="uri">http://www.exampleprovenance.com.aua</identifier>
+                <notes>RelatedInfo Provenance notesURI</notes>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="provenance">
+                <title>Provenance Title and Identifier NLA full url</title>
+                <identifier type="AU-ANL:PEAU">http://nla.gov.au/nla.party-150dd4955a</identifier>
+                <notes>RelatedInfo Provenance notesNLA</notes>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="provenance">
+                <title>Provenance Title and Identifier NLA just id</title>
+                <identifier type="AU-ANL:PEAU">nla.party-15049dd55a</identifier>
+                <notes>RelatedInfo Provenance notesNLA just id</notes>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="provenance">
+                <title>Provenance Title and Identifier ABN</title>
+                <identifier type="abn">abn12345a</identifier>
+                <notes>RelatedInfo Provenance notesIdentifier ABN</notes>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="provenance">
+                <title>Provenance Title and Identifier ARC just id</title>
+                <identifier type="arc">arc.12345a</identifier>
+                <notes>RelatedInfo Provenance notes Identifier ARC just id</notes>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="provenance">
+                <title>Provenance Title and Identifier ARC full </title>
+                <identifier type="ark">ands.org/ark:/432423a</identifier>
+                <notes>RelatedInfo Provenance notes Identifier ARC full </notes>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="provenance">
+                <title>Provenance Title and Identifier ARC non resolvable </title>
+                <identifier type="ark">ark:/432423a</identifier>
+                <notes>RelatedInfo Provenance notes Identifier ARC non resolvable </notes>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="provenance">
+                <title>Provenance Title and Identifier DOI just id </title>
+                <identifier type="doi">10.12345a</identifier>
+                <notes>RelatedInfo Provenance notes Identifier DOI just id </notes>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="provenance">
+                <title>Provenance Title and Identifier DOI full URL</title>
+                <identifier type="doi">http://dx.doi.org/10.12345a</identifier>
+                <notes>RelatedInfo Provenance notes Identifier DOI full URL</notes>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="provenance">
+                <title>Provenance Title and Identifier Handle hdl: format</title>
+                <identifier type="handle">hdl:102.100.100/15a</identifier>
+                <notes>RelatedInfo Provenance notes Identifier Handle hdl: format</notes>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="provenance">
+                <title>Provenance Title and Identifier Handle just id</title>
+                <identifier type="handle">102.100.100/15a</identifier>
+                <notes>RelatedInfo Provenance notes Identifier Handle just id</notes>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="provenance">
+                <title>Provenance Title and Identifier Handle full URL</title>
+                <identifier type="handle">http://hdl.handle.net/102.100.100/15a</identifier>
+                <notes>RelatedInfo Provenance notes Identifier Handle full URL</notes>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="provenance">
+                <title>Provenance Title and Identifier InfoURI</title>
+                <identifier type="infouri">infouri.12345</identifier>
+                <notes>RelatedInfo Provenance notes Identifier InfoURI</notes>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="provenance">
+                <title>Provenance Title and Identifier ISIL</title>
+                <identifier type="isil">AU-ACT</identifier>
+                <notes>RelatedInfo Provenance notes Identifier ISIL</notes>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="provenance">
+                <title>Provenance Title and Identifier Local</title>
+                <identifier type="local">local.12345a</identifier>
+                <notes>RelatedInfo Provenance notes Identifier Local</notes>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="provenance">
+                <title>Provenance Title and Identifier PURL full URL</title>
+                <identifier type="purl">http://purl.org/12345a</identifier>
+                <notes>RelatedInfo Provenance notes Identifier PURL full URL</notes>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="provenance">
+                <title>Provenance Title and Identifier PURL just id</title>
+                <identifier type="purl">12345a</identifier>
+                <notes>RelatedInfo Provenance notes Identifier PURL just id</notes>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="provenance">
+                <title>Provenance Title and Identifier URI</title>
+                <identifier type="uri">http://www.researchdataaustralia.ands.org.aua</identifier>
+                <notes>RelatedInfo Provenance notes Identifier URI</notes>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="provenance">
+                <title>Provenance Title and Identifier ORCID full URL</title>
+                <identifier type="orcid">http://orcid.org/0000-0002-4259-9774a</identifier>
+                <notes>RelatedInfo Provenance notes Identifier ORCID full URL</notes>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="provenance">
+                <title>Provenance Title and Identifier ORCID just id</title>
+                <identifier type="orcid">0000-0002-4259-9774a</identifier>
+                <notes>RelatedInfo Provenance notes Identifier ORCID just id</notes>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="provenance">
+                <title>Provenance Title and Identifier NHMRC</title>
+                <identifier type="nhmrc">8979762a</identifier>
+                <notes>RelatedInfo Provenance notes Identifier NHMRC</notes>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+            <relatedInfo type="provenance">
+                <title>Provenance Title and Identifier Fundref id</title>
+                <identifier type="fundref">fundref-09343a</identifier>
+                <notes>RelatedInfo Provenance notes Identifier Fundref id</notes>
+                <relation type="hasAssociationWith"/>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTCollection2_a</key>
+        <originatingSource type="">http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
+        <collection type="collection" dateModified="2013-04-10T23:51:38Z">
+            <name type="primary">
+                <namePart>IdentifierTypes</namePart>
+            </name>
+            <description type="full">&lt;p&gt;&lt;strong&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt; &lt;/p&gt;
+                &lt;p&gt;&lt;strong&gt;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt; &lt;/p&gt;</description>
+            <identifier type="AU-ANL:PEAU">http://nla.gov.au/nla.party-1504955a</identifier>
+            <identifier type="AU-ANL:PEAU">nla.party-1504955a</identifier>
+            <identifier type="abn">abn12345a</identifier>
+            <identifier type="arc">arc.12345a</identifier>
+            <identifier type="ark">ands.org/ark:/432423a</identifier>
+            <identifier type="ark">ark:/432423a</identifier>
+            <identifier type="doi">10.12345a</identifier>
+            <identifier type="doi">http://dx.doi.org/10.12345a</identifier>
+            <identifier type="handle">hdl:102.100.100/15a</identifier>
+            <identifier type="handle">102.100.100/15a</identifier>
+            <identifier type="handle">http://hdl.handle.net/102.100.100/15a</identifier>
+            <identifier type="infouri">infouri.12345a</identifier>
+            <identifier type="isil">AU-ACT</identifier>
+            <identifier type="local">local.12345a</identifier>
+            <identifier type="purl">http://purl.org/12345a</identifier>
+            <identifier type="purl">12345a</identifier>
+            <identifier type="uri">http://www.researchdataaustralia.ands.org.aua</identifier>
+            <identifier type="orcid">http://orcid.org/0000-0002-4259-9774a</identifier>
+            <identifier type="orcid">0000-0002-4259-9774a</identifier>
+            <identifier type="nhmrc">8979762a</identifier>
+            <identifier type="fundref">fundref-09343a</identifier>
+            <identifier type="handle">http://handle.westernsydney.edu.au:8081/1959.7/hiev_104a</identifier>
+            <identifier type="orcid">http://www.MyOrcidResolver.com.aua</identifier>
+            <identifier type="AU-ANL:PEAU">http://MyNlaResolver.com.aua</identifier>
+            <identifier type="purl">http://www.MyPurlResolver.com.aua</identifier>
+            <identifier type="igsn">BGRB5054RX05201a</identifier>
+            <identifier type="igsn">http://igsn.org/BGRB5054RX05201a</identifier>
+            <identifier type="isni">http://www.isni.org/0000000039818361a</identifier>
+            <identifier type="isni">0000000039818361a</identifier>
+            <identifier type="isni">0000 0000 3981 8361a</identifier>
+            <identifier type="grid">https://www.grid.ac/institutes/grid.419696.5a</identifier>
+            <identifier type="grid">grid.419666.aa</identifier>
+            <identifier type="scopusID">http://www.MyScopusID.com/54845a</identifier>
+            <identifier type="scopusID">MyScopusID.com/54845a</identifier>
+            <identifier type="raid">hdl:106.160.100/15a</identifier>
+            <identifier type="raid">106.160.100/15a</identifier>
+            <identifier type="raid">http://hdl.handle.net/106.100.100/65a</identifier>
+            <identifier type="doi">http://MyDOIResolver.org/10.12345a</identifier>
+            <identifier type="handle">https://handle.westernsydney.edu.au:8081/1959.7/hiev_104a</identifier>
+            <identifier type="orcid">https://www.MyOrcidResolver.com.aua</identifier>
+            <identifier type="AU-ANL:PEAU">https://MyNlaResolver.com.aua</identifier>
+            <identifier type="purl">https://www.MyPurlResolver.com.aua</identifier>
+            <identifier type="doi">https://MyDOIResolver.org/10.12345a</identifier>
+        </collection>
+    </registryObject>
+</registryObjects>

@@ -2332,6 +2332,7 @@
                 86 = MANUFACTURING
                 21 ARCHAEOLOGY = 21 ARCHAEOLOGY
                 1901 to 2006 = 1901 to 2006
+                920499 Public Health (excl. Specific Population Health) not elsewhere classified) = 920499 Public Health (excl. Specific Population Health) not elsewhere classified)
             </description>
             <subject type="local">0806 Information Services</subject>
             <subject type="local">0105 mathematical physics</subject>
@@ -2339,6 +2340,7 @@
             <subject type="local">8602 Dairy products</subject>
             <subject type="local">21 ARCHAEOLOGY</subject>
             <subject type="local">1901 to 2006</subject>
+            <subject type="anzsrc-seo">920499 Public Health (excl. Specific Population Health) not elsewhere classified)</subject>
         </collection>
     </registryObject>
     <registryObject group="AUTestingRecords">
