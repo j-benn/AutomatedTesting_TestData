@@ -1,0 +1,328 @@
+<registryObjects>
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ExampleCollectionForLargeNumberRelations1a</key>
+        <originatingSource>http://data.csiro.au/dap/</originatingSource>
+        <collection dateAccessioned="2016-04-11T14:12:48.148+10:00" type="dataset">
+            <identifier type="local">102.100.100/1469AUT1a</identifier>
+            <identifier type="doi">10.4225/08/53EC645738B5B1a</identifier>
+            <name type="primary">
+                <namePart>Example Collection For Large &amp; Number Relations1</namePart>
+            </name>
+            <location>
+                <address>
+          <electronic type="url">
+            <value>http://hdl.handle.net/102.100.100/14609?index=1</value>
+          </electronic>
+        </address>
+            </location>
+            <coverage>
+                <spatial type="iso19139dcmiBox">northlimit=90; southlimit=-90; westlimit=-180; eastLimit=180; projection=WGS84</spatial>
+            </coverage>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.4225/08/53EC645738B5BAUTa</identifier>
+                    <title>Acacia catechu - AdaptNRM module 2: Invasive plant species and climate change</title>
+                    <version>v1</version>
+                    <publisher>Commonwealth Scientific and Industrial Research Organisation (CSIRO)</publisher>
+                    <contributor seq="1">
+                        <namePart type="family">Scott</namePart>
+                        <namePart type="given">John</namePart>
+                    </contributor>
+                    <contributor seq="2">
+                        <namePart type="family">Ota</namePart>
+                        <namePart type="given">Noboru</namePart>
+                    </contributor>
+                    <date type="publicationDate">2014-08-14</date>
+                </citationMetadata>
+            </citationInfo>
+            <relatedObject>
+                <key>AUTestingRecordsRelationshipsCollection4</key>
+                <relation type="hasDerivedCollection"/>
+            </relatedObject>
+            <subject type="local">Acacia catechu</subject>
+            <subject type="local">adaptation</subject>
+            <subject type="local">alien plant</subject>
+            <subject type="local">Australia</subject>
+            <subject type="local">climate change</subject>
+            <subject type="local">climate extreme</subject>
+            <subject type="local">CLIMEX</subject>
+            <subject type="local">ecoclimatic index</subject>
+            <subject type="local">invasive plant</subject>
+            <subject type="local">management</subject>
+            <subject type="local">naturalised plant</subject>
+            <subject type="local">sleeper weed</subject>
+            <subject type="local">species distribution model</subject>
+            <subject type="local">weed</subject>
+            <subject type="local">world</subject>
+            <subject type="anzsrc-for">050103</subject>
+            <subject type="anzsrc-for">070308</subject>
+            <description type="brief">Global and Australian maps of Species &amp; Distribution Models (SDM) for current and 2070 climates for &amp;lt;100 invasive plant species for which there are published CLIMEX models. The parameters for the model are listed in a cxp file. A GIS suitable file is provided.</description>
+            <relatedInfo type="collection">
+                <identifier type="uri">https://data.csiro.au/dap/landingpage?list=SEA&amp;pid=csiro:8009&amp;sb=RELEVANCE&amp;rn=1&amp;rpp=25&amp;p=1&amp;tr=2&amp;q=climex&amp;dr=allAUT</identifier>
+                <title>Technical Guide and Parameter Sets</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.csiro.au/Outcomes/Food-and-Agriculture/Sleeper-Alert-Weeds.aspxAUT</identifier>
+                <title>Modelling Climate Change Impacts on Sleeper and Alert Weeds final report</title>
+            </relatedInfo>
+            <rights>
+                <rightsStatement>All Rights (including copyright) CSIRO Australia 2014.</rightsStatement>
+                <licence rightsUri="https://creativecommons.org/licenses/by/3.0/" type="CC-BY">Creative Commons Attribution</licence>
+                <accessRights type="open">Data is accessible online and may be reused in accordance with licence conditions</accessRights>
+            </rights>
+        </collection>
+    </registryObject>
+
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ExampleCollectionForLargeNumberRelations2a</key>
+        <originatingSource>http://data.csiro.au/dap/</originatingSource>
+        <collection dateAccessioned="2016-04-11T14:12:48.148+10:00" type="dataset">
+            <identifier type="local">102.100.100/1469AUT2a</identifier>
+            <identifier type="doi">10.4225/08/53EC645738B5B2a</identifier>
+            <name type="primary">
+                <namePart>Example: Collection For Large Number Relations %2</namePart>
+            </name>
+            <location>
+                <address>
+          <electronic type="url">
+            <value>http://hdl.handle.net/102.100.100/14609?index=1</value>
+          </electronic>
+        </address>
+            </location>
+            <coverage>
+                <spatial type="iso19139dcmiBox">northlimit=90; southlimit=-90; westlimit=-180; eastLimit=180; projection=WGS84</spatial>
+            </coverage>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="doi">10.4225/08/53EC645738B5BAUT</identifier>
+                    <title>Acacia catechu - AdaptNRM module 2: Invasive plant species and climate change</title>
+                    <version>v1</version>
+                    <publisher>Commonwealth Scientific &amp; Industrial Research Organisation (CSIRO)</publisher>
+                    <contributor seq="1">
+                        <namePart type="family">Scott</namePart>
+                        <namePart type="given">John</namePart>
+                    </contributor>
+                    <contributor seq="2">
+                        <namePart type="family">Ota</namePart>
+                        <namePart type="given">Noboru</namePart>
+                    </contributor>
+                    <date type="publicationDate">2014-08-14</date>
+                </citationMetadata>
+            </citationInfo>
+            <relatedObject>
+                <key>AUTestingRecordsRelationshipsCollection4</key>
+                <relation type="hasDerivedCollection"/>
+            </relatedObject>
+            <subject type="local">Acacia catechu</subject>
+            <subject type="local">adaptation</subject>
+            <subject type="local">alien plant</subject>
+            <subject type="local">Australia</subject>
+            <subject type="local">climate change</subject>
+            <subject type="local">climate extreme</subject>
+            <subject type="local">CLIMEX</subject>
+            <subject type="local">ecoclimatic index</subject>
+            <subject type="local">invasive plant</subject>
+            <subject type="local">management</subject>
+            <subject type="local">naturalised plant</subject>
+            <subject type="local">sleeper weed</subject>
+            <subject type="local">species distribution model</subject>
+            <subject type="local">weed</subject>
+            <subject type="local">world</subject>
+            <subject type="anzsrc-for">050103</subject>
+            <subject type="anzsrc-for">070308</subject>
+            <description type="brief">Global and Australian 546ø maps of Species Distribution Models (SDM) for current and 2070 climates for invasive plant species for which there are published CLIMEX models. The parameters for the model are listed in a cxp file. A GIS suitable file is provided.</description>
+            <relatedInfo type="collection">
+                <identifier type="uri">https://data.csiro.au/dap/landingpage?list=SEA&amp;pid=csiro:8009&amp;sb=RELEVANCE&amp;rn=1&amp;rpp=25&amp;p=1&amp;tr=2&amp;q=climex&amp;dr=allAUT</identifier>
+                <title>Technical Guide and Parameter Sets</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.csiro.au/Outcomes/Food-and-Agriculture/Sleeper-Alert-Weeds.aspxAUT</identifier>
+                <title>Modelling Climate Change Impacts on Sleeper and Alert Weeds final report</title>
+            </relatedInfo>
+            <rights>
+                <rightsStatement>All Rights (including copyright) CSIRO Australia 2014.</rightsStatement>
+                <licence rightsUri="https://creativecommons.org/licenses/by/3.0/" type="CC-BY">Creative Commons Attribution</licence>
+                <accessRights type="open">Data is accessible online and may be reused in accordance with licence conditions</accessRights>
+            </rights>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecordsNestedx3IMOS/e0e28776-4442-33fe-a365-9c7bc2beb67ba</key>
+        <originatingSource> Atlantic Oceanographic and Meteorological Laboratory (AOM¥¨) </originatingSource>
+        <collection type="dataset">
+            <identifier type="uri"> http://imosmest.aodn.org.au:80/geonetwork/srv/en/metadata.show?uuid=e0e28776-4442-33fe-a365-9ca7bc2beb67b AUTbx1</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords2)(LVL 3)AOML - Argo float, WMO 5900606</namePart>
+            </name>
+            <dates type="created">
+                <date type="dateFrom" dateFormat="W3CDTF">2014-09-09T06:06:52</date>
+            </dates>
+            <location>
+                <address>
+          <electronic type="url">
+            <value>
+http://imosmest.aodn.org.au:80/geonetwork/srv/en/metadata.show?uuid=e0e28776-4442-33fe-a365-9c7bc2beb67b
+</value>
+          </electronic>
+        </address>
+            </location>
+            <subject type="local">oceans</subject>
+            <subject type="local">Oceans | Ocean Temperature | Water Temperature</subject>
+            <subject type="local">Oceans | Salinity/density | Salinity</subject>
+            <subject type="local">Oceans | Ocean Pressure | Water Pressure</subject>
+            <subject type="local">Profiling Float | Autonomous Profiling Float</subject>
+            <description type="full"> This dataset contains Māori temperature, salinity and pressure data for all profiles of the Argo float 5900606 managed by the Atlantic Oceanographic and Meteorological Laboratory (AOML). Argo is a major international collaborative project to observe the world's oceans and help scientists understand ocean processes and the ocean's roles in climate. The data collected also improves our ability to forecast climate and ocean conditions. The float drift at depth of between 1 and 2 km. Every ten days each float ascends to the surface, measuring temperature and salinity as it rises. This data is transmitted to satellites along with the float's position. The float then dives and starts a new cycle. The Argo float, WMO 5900606 was first deployed on the 2004-07-27T16:38:46 at launch location (Latitude : -26.97 ; Longitude : 165.004). The variables available for this Argo float are : Temperature, Practical Salinity and Pressure. The last location of the Argo float
+                was transmitted on the 2009-06-10T10:25:04 at the following location (Latitude : -55.702 ; Longitude : 177.947). </description>
+            <coverage>
+                <spatial type="iso19139dcmiBox"> northlimit=-22.824; southlimit=-57.033; westlimit=145.944; eastLimit=178.694; projection=WGS84 </spatial>
+                <spatial type="text"> northlimit=-22.824; southlimit=-57.033; westlimit=145.944; eastLimit=178.694; projection=WGS84 </spatial>
+            </coverage>
+            <coverage>
+                <temporal>
+                    <date type="dateTo" dateFormat="W3CDTF">2009-06-10T10:25:04</date>
+                </temporal>
+            </coverage>
+            <relatedInfo type="website">
+                <identifier type="uri"> http://thredds.aodn.org.au/thredds/catalog/IMOS/Argo/dac/aoml/5900606/catalog.html AUTbx1</identifier>
+                <relation type="hasAssociationWith"/>
+                <title>Data available via the IMOS OPeNDAP server</title>
+            </relatedInfo>
+            <rights>
+                <rightsStatement> Argo Data (Temperature and Salinity profiles) are freely available without any restriction, via the internet Global Data Centres (GDACs) and the GTS of WMO. Please support Argo by acknowledging your use of Argo data with the following words: "These data where collected and made freely available by the International Argo project and the national initiatives that contribute to it. (http://www.argo.net). Argo is a pilot programme of the Global Ocean Observing System." </rightsStatement>
+            </rights>
+            <citationInfo>
+                <citationMetadata>
+                    <identifier type="uri"> http://imosmest.aodn.org.au:80/geonetwork/srv/en/metadata.show?uuid=e0e28776-4442-33fe-a365-9c7bc2beb67b AUTbx1</identifier>
+                    <title>AOML - Argo float, WMO 5900606</title>
+                    <date type="created">2014</date>
+                    <contributor>
+                        <namePart>(AUTestingRecords2) Atlantic Oceanographic and Meteorological Laboratory (AOML) </namePart>
+                    </contributor>
+                    <publisher>Integrated Marine Observing System (IMOS)</publisher>
+                </citationMetadata>
+            </citationInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2.au/anudc:32dsf335xa</key>
+        <originatingSource>http://anu.edu.au</originatingSource>
+        <party type="person">
+            <identifier type="uri">https://datacommons.anu.edu.au:8443/DataCommons/item/anudc:3dd33aAUTx9a</identifier>
+            <name type="primary">
+                <namePart type="title">Mrs</namePart>
+                <namePart type="family">O'Donnell</namePart>
+                <namePart type="given">Ötter</namePart>
+            </name>
+            <location>
+                <address>
+          <electronic type="email">
+            <value>pip.deveson@anu.edu.au</value>
+          </electronic>
+        </address>
+            </location>
+            <location>
+                <address>
+          <physical type="postalAddress">
+            <addressPart type="text"> #123 Digital Humanities Hub Research School of the Humanities and the Arts 9 Liversidge Street The Australian National University Canberra ACT 0200 Australia</addressPart>
+          </physical>
+        </address>
+            </location>
+            <location>
+                <address>
+          <physical type="streetAddress">
+            <addressPart type="telephoneNumber">(02) 6125 4462</addressPart>
+          </physical>
+        </address>
+            </location>
+            <location>
+                <address>
+          <physical type="streetAddress">
+            <addressPart type="faxNumber">(02) 6248 0054</addressPart>
+          </physical>
+        </address>
+            </location>
+            <location>
+                <address>
+          <electronic type="url">
+            <value>
+http://rsh.anu.edu.au/people/profile_system/public.php?id=88
+</value>
+          </electronic>
+        </address>
+            </location>
+            <location>
+                <address>
+          <electronic type="url">
+            <value>
+https://datacommons.anu.edu.au:8443/DataCommons/item/anudc:3285
+</value>
+          </electronic>
+        </address>
+            </location>
+            <relatedObject>
+                <key>AUTestingRecords2CollectionBDuplicateIdentifiers</key>
+                <relation type="isManagerOf"/>
+            </relatedObject>
+            <subject type="anzsrc-for">160104</subject>
+            <subject type="anzsrc-for">16</subject>
+            <subject type="anzsrc-for">200201</subject>
+            <subject type="anzsrc-for">200209</subject>
+            <subject type="local">Social and Cultural Anthroplogy</subject>
+            <subject type="local"> Aboriginal And Torres Strait Islander Cultural Studies </subject>
+            <subject type="local"> Multicultural, Intercultural And Cross Cultural Studies </subject>
+            <subject type="local">Visual Anthroplogy</subject>
+            <description type="full"> Pip @Deveson is a Research and Media Project Officer with the Digital Humanities Hub. From 1981 to 1984, Pip worked with Ian Dunlop on the Yirrkala Film Project, focussing on the Yolngu Aboriginal community of northeast Arnhem Land. From 1994 to 1996, she was editor/writer for the Yirrkala Video Project, funded by Australian Institute of Aboriginal and Torres Strait Islander Studies and Film Australia. She and Ian Dunlop shared the Royal Anthropological Institute Film Prize in 1996 for the film Conversations with Dundiwuy Wanambi. In 2007 she was awarded the National Archives Frederick Watson Fellowship to undertake further research on the Yirrkala Film collection. More recently Pip has worked on a number of multi-media and film projects, most notably, a multi-media biography (on CD-ROM) of the renowned Yolngu artist, Narritjin Maymuru. She is currently working on two ARC-funded projects: Contexts of Collection â&amp;#128;&amp;#147; a dialogic
+                approach to understanding the making of the material record of Yolngu cultures; and Pintupi Dialogues: reconstructing memories of art, land and community through the visual record. </description>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ExampleServiceForLargeNumberRelations1a</key>
+        <originatingSource type="">http://test.ands.org.au/registry//orca/register_my_data</originatingSource>
+        <service type="create">
+            <name type="primary">
+                <namePart>Example &amp; * Service For Large Number Relations1</namePart>
+            </name>
+            <relatedObject>
+                <key>AUTestingRecordsRelationshipsCollection4</key>
+                <relation type="isOwnerOf"/>
+            </relatedObject>
+            <description type="brief">http://jjoeoeodl.com.au &amp; Tests dates</description>
+            <location>
+                <address>
+          <electronic type="url">
+            <value>http://someservice.com</value>
+            <arg type="string" required="true" use="in">1234</arg>
+            <arg type="object" required="true" use="keyValue">string, 123321</arg>
+            <arg type="string" required="false" use="inline">234fsdklj</arg>
+          </electronic>
+        </address>
+            </location>
+        </service>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords2">
+        <key>AUTestingRecords2ExampleActivityForLargeNumberRelations1a</key>
+        <originatingSource type="">AUTestingRecords2a</originatingSource>
+        <activity type="project">
+            <name type="primary">
+                <namePart>Example Activity For Large Number:(Relations1)ÂÔ</namePart>
+            </name>
+             <description type="brief">Market &amp; Tests dates</description>
+            <relatedObject>
+                <key>AUTestingRecordsRelationshipsCollection4</key>
+                <relation type="hasOutput"/>
+            </relatedObject>
+            <relatedInfo type="collection">
+                <title>MC005 - Collection</title>
+                <identifier type="uri">ddreverse_www.parent.of.other.collections.com.auAUT</identifier>
+                <relation type="hasOutput"/>
+                <notes>MC005 Collection Notes</notes>
+            </relatedInfo>
+        </activity>
+    </registryObject>
+
+</registryObjects>
