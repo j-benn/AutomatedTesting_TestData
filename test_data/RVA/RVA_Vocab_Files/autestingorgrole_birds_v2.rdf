@@ -331,7 +331,6 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-23T00:18:31Z</dcterms:modified>
 	<skos:narrower rdf:resource="http://birds.org.au/def/voc/birds/2"/>
 	<skos:narrower rdf:resource="http://birds.org.au/def/voc/birds/6"/>
-	<skos:narrower rdf:resource="https://zoology.org.au/def/voc/animals/0"/>
 	<skos:topConceptOf rdf:resource="http://birds.org.au/def/voc/birds/0"/>
 	<skos:inScheme rdf:resource="http://birds.org.au/def/voc/birds/0"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/rowanAdminSuper"/>
