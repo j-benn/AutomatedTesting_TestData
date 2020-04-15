@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecords5parties12323488agraph</key>
+        <originatingSource type="">Indian National Centre for Ocean Information Services (INCOIS)</originatingSource>
+        <collection type="dataset">
+            <name type="primary">
+                <namePart>(AUTestingRecords) Collection related to 10 related person parties using related object and
+                    info
+                </namePart>
+            </name>
+            <name type="abbreviated">
+                <namePart>(AUTestingRecords) Abbreviated Name</namePart>
+            </name>
+            <description type="full">
+                Expected Order:
+                (AUTestingRecords) Borlli Technologies (hasPrincipalInvestigator, hasCollector) - relatedInfo
+                (AUTestingRecords) Party to relate to 14 James (has principal investigator)
+                (AUTestingRecords) Party to relate to 15 Peter (hasPrincipalInvestigator) - related Info
+                (AUTestingRecords) Party to relate to 16 Daniel (isEnrichedBy) - relatedInfo
+                (AUTestingRecords) Terry Institute (isEnrichedBy) - relatedInfo
+                AdamGiven(AUTestingRecords) Party to relate to 12 SimpsonFamily (has collector)
+                AustinGiven (AUTestingRecords) Party to relate to 14 JennyFamily (is owned by)
+                DennisGiven (AUTestingRecords) Party to relate to 13 ChristophFamily (is managed by)
+                HastGiven (AUTestingRecords) Party to relate to 13 FaradFamily (is managed by)
+                SmithGiven (AUTestingRecords) Party to relate to 12 SarahFamily (hasCollector)
+                10 related parties
+                &lt;p&gt;This dataset contains temperature, salinity and pressure data for all profiles of the Argo
+                float 2901092 managed by the Indian National Centre for Ocean Information Services (INCOIS).Argo is a
+                major international collaborative project to observe the world's oceans and help scientists understand
+                ocean processes and the ocean's roles in climate. The data collected also improves our ability to
+                forecast climate and ocean conditions. The float drift at depth of between 1 and 2 km. Every ten days
+                each float ascends to the surface, measuring temperature and salinity as it rises. This data is
+                transmitted to satellites along with the float's position. The float then dives and starts a new cycle.
+                The Argo float, WMO 2901092 was first deployed on the 2008-08-24T18:00:00 at launch location (Latitude :
+                -1.0 ; Longitude : 81.53). The variables available for this Argo float are : Temperature, Practical
+                Salinity and Pressure. The last location of the Argo float was transmitted on the 2013-12-08T14:23:56 at
+                the following location (Latitude : -5.073 ; Longitude : 102.708).&lt;/p&gt;
+            </description>
+            <rights>
+                <rightsStatement>Argo Data (Temperature and Salinity profiles) are freely available without any
+                    restriction, via the internet Global Data Centres (GDACs) and the GTS of WMO. Please support Argo by
+                    acknowledging your use of Argo data with the following words: &quot;These data where collected and
+                    made freely available by the International Argo project and the national initiatives that contribute
+                    to it. (http://www.argo.net). Argo is a pilot programme of the Global Ocean Observing System.&quot;
+                </rightsStatement>
+            </rights>
+            <identifier type="uri">http://imosmest.aodn.org.au:80/geonesdfdsfsdfsfdsfd84d_AUT122554efewsddfsa
+            </identifier>
+            <dates type="created">
+                <date type="dateFrom" dateFormat="W3CDTF">2014-09-09T06:10:16</date>
+            </dates>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>
+                            http://imosmest.aodn.org.au:80/geonetwork/srv/en/metadata.show?uuid=86ec0cee-0620-3724-963a-d0432dd
+                        </value>
+                    </electronic>
+                </address>
+            </location>
+            <coverage>
+                <spatial type="iso19139dcmiBox">northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                    projection=WGS84
+                </spatial>
+                <spatial type="text">northlimit=0.856; southlimit=-6.3; westlimit=80.355; eastLimit=104.202;
+                    projection=WGS84
+                </spatial>
+            </coverage>
+            <coverage>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">2008-08-26T00:23:32</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2013-12-08T14:23:56</date>
+                </temporal>
+            </coverage>
+            <relatedObject>
+                <key>AUTestingRecordsnhmrc.gov.au/person/Ddfdsf0716agraph</key>
+                <relation type="hasCollector"/>
+            </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecordsnhmrc.gov.au/person/Ddfdsf07162agraph</key>
+                <relation type="hasCollector"/>
+            </relatedObject>
+            <subject type="local">oceans</subject>
+            <subject type="local">Oceans | Ocean Temperature | Water Temperature</subject>
+            <subject type="local">Oceans | Salinity/density | Salinity</subject>
+            <subject type="local">Oceans | Ocean Pressure | Water Pressure</subject>
+            <subject type="local">Profiling Float | Autonomous Profiling Float</subject>
+            <relatedInfo type="party">
+                <title>(AUTestingRecords) Party to relate to Peter</title>
+                <identifier type="uri">http://www.someidentifierforapartyDoesNotExist</identifier>
+                <relation type="hasPrincipalInvestigator"/>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsnhmrc.gov.au/person/Ddfdsf0716agraph</key>
+        <originatingSource type="">nhmrc.gov.au</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="family">SarahFamily</namePart>
+                <namePart type="given">SmithGiven (AUTestingRecords) Party to relate to 12</namePart>
+            </name>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsnhmrc.gov.au/person/Ddfdsf0717agraph</key>
+        <originatingSource type="">nhmrc.gov.au</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="family">ChristophFamily</namePart>
+                <namePart type="given">DennisGiven (AUTestingRecords) Party to relate to 13</namePart>
+            </name>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsnhmrc.gov.au/person/Ddfdsf0719agraph</key>
+        <originatingSource type="">nhmrc.gov.au</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="family">JennyFamily</namePart>
+                <namePart type="given">AustinGiven (AUTestingRecords) Party to relate to 14</namePart>
+            </name>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsnhmrc.gov.au/person/Ddfdsf07162agraph</key>
+        <originatingSource type="">nhmrc.gov.au</originatingSource>
+        <party type="person">
+            <name type="primary">
+                <namePart type="family">SimpsonFamily</namePart>
+                <namePart type="given">AdamGiven(AUTestingRecords) Party to relate to 12</namePart>
+            </name>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsnhmrc.gosddfeson/Ddfdsf0716graph</key>
+        <originatingSource>nhmrc.gov.au</originatingSource>
+        <party type="person">
+            <identifier type="uri">http://www.someidentifierforaparty1</identifier>
+            <name type="primary">
+                <namePart type="family">Peter</namePart>
+                <namePart type="given">(AUTestingRecords) Party to relate to 15</namePart>
+            </name>
+        </party>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordscab989babbb073ac9cd7graph</key>
+        <originatingSource>http://portal.auscope.org</originatingSource>
+        <service type="search-http">
+            <name type="primary">
+                <namePart>(AUTestingRecords)Reverse Relationships Internal Related Object "isSupportedBy"</namePart>
+            </name>
+            <location>
+                <address>
+                    <electronic type="url">
+                        <value>
+                            http://www.ga.gov.au/gis/services/earth_science/GA_Onshore_Seismic_Surveys/MapServer/WMSServer
+                        </value>
+                    </electronic>
+                    <electronic type="other">
+                        <value>WMS</value>
+                        <arg type="string" required="true" use="keyValue">service</arg>
+                    </electronic>
+                    <electronic type="other">
+                        <value>1.3.0</value>
+                        <arg type="string" required="true" use="keyValue">version</arg>
+                    </electronic>
+                    <electronic type="other">
+                        <value>GetCapabilities</value>
+                        <arg type="string" required="true" use="keyValue">request</arg>
+                    </electronic>
+                    <electronic type="other">
+                        <value>GetMap</value>
+                        <arg type="string" required="true" use="keyValue">request</arg>
+                    </electronic>
+                    <electronic type="other">
+                        <value>GetFeatureInfo</value>
+                        <arg type="string" required="true" use="keyValue">request</arg>
+                    </electronic>
+                    <electronic type="other">
+                        <value>esri_wms:GetStyles</value>
+                        <arg type="string" required="true" use="keyValue">request</arg>
+                    </electronic>
+                    <electronic type="other">
+                        <value>OnshoreSeismicSurveyLines</value>
+                        <arg type="string" required="true" use="keyValue">layers</arg>
+                    </electronic>
+                </address>
+            </location>
+            <coverage>
+                <spatial type="iso19139dcmiBox">
+                    northlimit=-16.1024022919999; southlimit=-42.4299973519999; westlimit=114.383912127;
+                    eastLimit=153.339989998; projection=WGS84
+                </spatial>
+            </coverage>
+            <relatedObject>
+                <key>AUTestingRecords5parties12323488agraph</key>
+                <relation type="hasAssociationWith"/>
+            </relatedObject>
+            <subject type="local">Geosciences</subject>
+            <subject type="local">Geophysics</subject>
+            <subject type="local">Seismic Lines</subject>
+            <subject type="local">Seismic Traverses</subject>
+            <subject type="local">Seismic Reflection</subject>
+            <subject type="local">Seismic Refraction</subject>
+            <subject type="local">Mineral Exploration</subject>
+            <subject type="local">Petroleum Exploration</subject>
+            <description type="brief">
+                The Onshore Seismic Data of Australia is a collection of all land seismic traverses cross the
+                Australian continent and its margins. The data includes raw and processed data in SEGY format. The
+                metadata includes acquisition reports, processing reports, processed images, logs, and so on. The
+                data acquisition was carried out in Australia from 1949-2012 by Geoscience Australia and various
+                partners. The set of reflection and refraction data comprises over 12,000 km of coverage, and
+                provides an insight into the variations in crustal architecture in the varied geological domains.
+                The complete processed dataset was first available for public access in Oct 2013
+                (http://www.ga.gov.au/minerals/projects/current-projects/seismic-acquisition-processing.html ). The
+                location of seismic traverses is shown by the Gallery link on the webpage. The new survey data will
+                be updated on the webpage by the official data release date. The attribute structure of the dataset
+                has also been revised to be more compatible with the GeoSciML data standard, published by the IUGS
+                Commission for Geoscience Information. The onshore seismic data were collected with partner
+                organizations: Australian Geodynamics Cooperative Research Centre, National Research Facility for
+                Earth Sounding, Australian Nuclear Science and Technology Organisation, Cooperative Research Centre
+                for Greenhouse Gas Technologies, Curtin University of Technology, Geological Survey of New South
+                Wales, NSW Department of Mineral Resources, NSW Department of Primary Industries Mineral Resources,
+                An organisation for a National Earth Science Infrastructure Program, Geological Survey Western
+                Australia, Northern Territory Geological Survey, Primary Industries and Resources South Australia,
+                Predictive Mineral Discovery Cooperative Research Centre, Queensland Geological Survey, GeoScience
+                Victoria Department of Primary Industries, Tasmania Development and Resources, University of Western
+                Australia.
+            </description>
+            <relatedObject>
+                <key>AUTestingRecordsReverseRelationshipsCollection1graph</key>
+                <relation type="isSupportedBy"/>
+            </relatedObject>
+            <rights>
+                <accessRights>
+                    There are no access rights associated with this service.
+                </accessRights>
+            </rights>
+        </service>
+    </registryObject>
+
+    <registryObject group="AUTestingRecords">
+        <key>AUTestingRecordsnhmrc/640318graph</key>
+        <originatingSource>
+            www.nhmrc.gov.au/grants/research-funding-statistics-and-data
+        </originatingSource>
+        <activity type="grant">
+            <identifier type="purl">http://purl.org/au-research/grants/nhmrc/640318AUT</identifier>
+            <identifier type="nhmrc">640318AUT</identifier>
+            <name type="primary">
+                <namePart>(AUTestingRecords)Reverse Relationships Internal Related Object "hasOutput"</namePart>
+            </name>
+            <relatedObject>
+                <key>http://dx.doi.org/10.13039/501100000925AUT</key>
+                <relation type="isFundedBy"/>
+            </relatedObject>
+            <subject type="anzsrc-for">11</subject>
+            <subject type="local">Equipment Grant</subject>
+            <description type="fundingAmount">$AUD 98,454.00</description>
+            <description type="fundingScheme">NHMRC Infrastructure Grants</description>
+            <description type="notes">Equipment Grant</description>
+            <existenceDates>
+                <startDate dateFormat="W3CDTF">2009</startDate>
+                <endDate dateFormat="W3CDTF">2009</endDate>
+            </existenceDates>
+        </activity>
+    </registryObject>
+
+</registryObjects>
