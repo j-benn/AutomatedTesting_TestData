@@ -534,7 +534,7 @@
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/rowanAdminSuper"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://pid.geoscience.gov.au/def/voc/ga/igsncode/contributorType">
+<rdf:Description rdf:about="http://birds.org.au/def/voc/birds/collection1">
 	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
 	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bird Collection</rdfs:label>
