@@ -328,6 +328,7 @@
 	<skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0</skos:notation>
 	<skos:prefLabel xml:lang="en">Australian birds</skos:prefLabel>
 	<skos:prefLabel xml:lang="es">Pájaros australianos</skos:prefLabel>
+	<skos:hiddenLabel xml:lang="es">Hidden Oz Birds</skos:hiddenLabel>
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-23T00:18:31Z</dcterms:modified>
 	<skos:narrower rdf:resource="http://birds.org.au/def/voc/birds/2"/>
 	<skos:narrower rdf:resource="http://birds.org.au/def/voc/birds/6"/>
