@@ -51,6 +51,13 @@
 	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Collection">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#object">
 	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
 	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
@@ -525,6 +532,15 @@
 	<skos:broader rdf:resource="http://birds.org.au/def/voc/birds/6"/>
 	<skos:inScheme rdf:resource="http://birds.org.au/def/voc/birds/0"/>
 	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/rowanAdminSuper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://pid.geoscience.gov.au/def/voc/ga/igsncode/contributorType">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bird Collection</rdfs:label>
+	<skos:member rdf:resource="http://birds.org.au/def/voc/birds/8"/>
+	<skos:member rdf:resource="http://birds.org.au/def/voc/birds/4"/>
+	<skos:member rdf:resource="http://birds.org.au/def/voc/birds/2"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://purl.org/dc/terms/source">
