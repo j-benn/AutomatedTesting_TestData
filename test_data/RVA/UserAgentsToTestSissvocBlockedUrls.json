@@ -1,0 +1,140 @@
+[
+  {
+    "agent": "user"
+  },
+  {
+    "agent": "11A465"
+  },
+  {
+    "agent": "Ahrefs"
+  },
+  {
+    "agent": "ArchiveBot"
+  },
+  {
+    "agent": "AspiegelBot"
+  },
+  {
+    "agent": "Baiduspider"
+  },
+  {
+    "agent": "bingbot"
+  },
+  {
+    "agent": "BLEXBot"
+  },
+  {
+    "agent": "Bytespider"
+  },
+  {
+    "agent": "CCBot"
+  },
+  {
+    "agent": "Curebot"
+  },
+  {
+    "agent": "Daum"
+  },
+  {
+    "agent": "Detectify"
+  },
+  {
+    "agent": "DotBot"
+  },
+  {
+    "agent": "Grapeshot"
+  },
+  {
+    "agent": "heritrix"
+  },
+  {
+    "agent": "Kinza"
+  },
+  {
+    "agent": "LieBaoFast"
+  },
+  {
+    "agent": "Linguee"
+  },
+  {
+    "agent": "LMY47V"
+  },
+  {
+    "agent": "MauiBot"
+  },
+  {
+    "agent": "Mb2345Browser"
+  },
+  {
+    "agent": "MegaIndex"
+  },
+  {
+    "agent": "MicroMessenger"
+  },
+  {
+    "agent": "MJ12bot"
+  },
+  {
+    "agent": "MQQBrowser"
+  },
+  {
+    "agent": "PageFreezer"
+  },
+  {
+    "agent": "PiplBot"
+  },
+  {
+    "agent": "Riddler"
+  },
+  {
+    "agent": "Screaming.Frog"
+  },
+  {
+    "agent": "Search365bot"
+  },
+  {
+    "agent": "Seekport"
+  },
+  {
+    "agent": "SemanticScholarBot"
+  },
+  {
+    "agent": "SemrushBot"
+  },
+  {
+    "agent": "SEOkicks"
+  },
+  {
+    "agent": "serpstatbot"
+  },
+  {
+    "agent": "Siteimprove.com"
+  },
+  {
+    "agent": "Sogou.web.spider"
+  },
+  {
+    "agent": "trendictionbot"
+  },
+  {
+    "agent": "TurnitinBot"
+  },
+  {
+    "agent": "UCBrowser"
+  },
+  {
+    "agent": "weborama-fetcher"
+  },
+  {
+    "agent": "Vagabondo"
+  },
+  {
+    "agent": "VelenPublicWebCrawler"
+  },
+  {
+    "agent": "YandexBot"
+  },
+  {
+    "agent": "YisouSpider [NC]"
+  }
+]
