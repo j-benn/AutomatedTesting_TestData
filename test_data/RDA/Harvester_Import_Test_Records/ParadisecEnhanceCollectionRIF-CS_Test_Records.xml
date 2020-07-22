@@ -19,19 +19,19 @@
                 <address><electronic type="url"><value>http://catalog.paradisec.org.au/collections/AA1</value></electronic><physical type="postalAddress"><addressPart type="text">PARADISEC Sydney Unit: Sydney Conservatorium of Music, Rm 3019, Building C41, The University of Sydney, NSW, 2006, Phone +61 2 9351 1279. PARADISEC Melbourne Unit: School of Languages and Linguistics, University of Melbourne, +61 2 8344 8952 | PARADISEC Canberra Unit: College of Asia and the Pacific, The Australian National University, +61 2 6125 6115</addressPart></physical></address>
             </location>
             <relatedObject>
-                <key>paradisec.org.au/user/58</key>
+                <key>paradisec.org.au/user/58T</key>
                 <relation type="hasCollector">
                     <url>http://catalog.paradisec.org.au/admin/users/58</url>
                 </relation>
             </relatedObject>
             <relatedObject>
-                <key>paradisec.org.au</key>
+                <key>paradisec.org.auT</key>
                 <relation type="isManagedBy">
                     <url>http://catalog.paradisec.org.au</url>
                 </relation>
             </relatedObject>
             <relatedObject>
-                <key>http://nla.gov.au/nla.party-593909</key>
+                <key>http://nla.gov.au/nla.party-593909T</key>
                 <relation type="isOutputOf"/>
             </relatedObject>
             <subject type="local">Kendayan</subject>
@@ -74,19 +74,19 @@
                 <address><electronic type="url"><value>http://catalog.paradisec.org.au/collections/ALB01</value></electronic><physical type="postalAddress"><addressPart type="text">PARADISEC Sydney Unit: Sydney Conservatorium of Music, Rm 3019, Building C41, The University of Sydney, NSW, 2006, Phone +61 2 9351 1279. PARADISEC Melbourne Unit: School of Languages and Linguistics, University of Melbourne, +61 2 8344 8952 | PARADISEC Canberra Unit: College of Asia and the Pacific, The Australian National University, +61 2 6125 6115</addressPart></physical></address>
             </location>
             <relatedObject>
-                <key>paradisec.org.au/user/76</key>
+                <key>paradisec.org.au/user/76T</key>
                 <relation type="hasCollector">
                     <url>http://catalog.paradisec.org.au/admin/users/76</url>
                 </relation>
             </relatedObject>
             <relatedObject>
-                <key>paradisec.org.au</key>
+                <key>paradisec.org.auT</key>
                 <relation type="isManagedBy">
                     <url>http://catalog.paradisec.org.au</url>
                 </relation>
             </relatedObject>
             <relatedObject>
-                <key>http://nla.gov.au/nla.party-1301719</key>
+                <key>http://nla.gov.au/nla.party-1301719T</key>
                 <relation type="isOutputOf"/>
             </relatedObject>
             <subject type="local">Ahtena</subject>
@@ -141,19 +141,19 @@
                 <address><electronic type="url"><value>http://catalog.paradisec.org.au/collections/AM4</value></electronic><physical type="postalAddress"><addressPart type="text">PARADISEC Sydney Unit: Sydney Conservatorium of Music, Rm 3019, Building C41, The University of Sydney, NSW, 2006, Phone +61 2 9351 1279. PARADISEC Melbourne Unit: School of Languages and Linguistics, University of Melbourne, +61 2 8344 8952 | PARADISEC Canberra Unit: College of Asia and the Pacific, The Australian National University, +61 2 6125 6115</addressPart></physical></address>
             </location>
             <relatedObject>
-                <key>paradisec.org.au/user/18</key>
+                <key>paradisec.org.au/user/18T</key>
                 <relation type="hasCollector">
                     <url>http://catalog.paradisec.org.au/admin/users/18</url>
                 </relation>
             </relatedObject>
             <relatedObject>
-                <key>paradisec.org.au</key>
+                <key>paradisec.org.auT</key>
                 <relation type="isManagedBy">
                     <url>http://catalog.paradisec.org.au</url>
                 </relation>
             </relatedObject>
             <relatedObject>
-                <key>http://nla.gov.au/nla.party-507067</key>
+                <key>http://nla.gov.au/nla.party-507067T</key>
                 <relation type="isOutputOf"/>
             </relatedObject>
             <subject type="local">English</subject>
