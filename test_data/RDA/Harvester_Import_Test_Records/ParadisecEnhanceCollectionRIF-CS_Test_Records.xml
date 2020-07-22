@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registryObjects>
+    <registryObject group="PARADISEC">
+        <key>paradisec.org.au/collection/AA1_Testing</key>
+        <originatingSource type="authoritative">http://catalog.paradisec.org.au</originatingSource>
+        <collection type="collection" dateModified="2016-03-15T17:09:47+11:00">
+            <dates type="dc.created">
+                <date type="dateFrom" dateFormat="W3CDTF">2007-09-14T00:00:00+10:00</date>
+            </dates>
+            <name type="primary">
+                <namePart>Recordings of Selako (Indonesia)</namePart>
+            </name>
+            <description type="brief">Narratives, oral history and events recorded in Selako (Indonesia).</description>
+            <rights>
+                <accessRights>Open (subject to agreeing to PDSC access conditions)</accessRights>
+            </rights>
+            <identifier type="uri">http://catalog.paradisec.org.au/collections/AA1_Testing</identifier>
+            <location>
+                <address><electronic type="url"><value>http://catalog.paradisec.org.au/collections/AA1</value></electronic><physical type="postalAddress"><addressPart type="text">PARADISEC Sydney Unit: Sydney Conservatorium of Music, Rm 3019, Building C41, The University of Sydney, NSW, 2006, Phone +61 2 9351 1279. PARADISEC Melbourne Unit: School of Languages and Linguistics, University of Melbourne, +61 2 8344 8952 | PARADISEC Canberra Unit: College of Asia and the Pacific, The Australian National University, +61 2 6125 6115</addressPart></physical></address>
+            </location>
+            <relatedObject>
+                <key>paradisec.org.au/user/58</key>
+                <relation type="hasCollector">
+                    <url>http://catalog.paradisec.org.au/admin/users/58</url>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>paradisec.org.au</key>
+                <relation type="isManagedBy">
+                    <url>http://catalog.paradisec.org.au</url>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>http://nla.gov.au/nla.party-593909</key>
+                <relation type="isOutputOf"/>
+            </relatedObject>
+            <subject type="local">Kendayan</subject>
+            <subject type="iso639-3">knx</subject>
+            <subject type="anzsrc-for">200313</subject>
+            <coverage>
+                <spatial type="text">Indonesia</spatial>
+                <spatial type="iso31661">ID</spatial>
+                <spatial type="iso19139dcmiBox">northlimit=2.083; southlimit=1.006; westlimit=108.905; eastLimit=109.711;</spatial>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">1986-11-24T00:00:00+11:00</date>
+                    <date type="dateTo" dateFormat="W3CDTF">1990-07-21T00:00:00+10:00</date>
+                </temporal>
+            </coverage>
+            <citationInfo>
+                <fullCitation style="APA">Alexander Adelaar (collector), 1986; Recordings of Selako (Indonesia) (AA1), Digital collection managed by PARADISEC. [Open Access] DOI: 10.4225/72/56E7A7256C274_Testing</fullCitation>
+            </citationInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.ethnologue.com/show_language.asp?code=knx</identifier>
+                <title>Ethnologue entry for Kendayan</title>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+    <registryObject group="PARADISEC">
+        <key>paradisec.org.au/collection/ALB01_Testing</key>
+        <originatingSource type="authoritative">http://catalog.paradisec.org.au</originatingSource>
+        <collection type="collection" dateModified="2016-03-15T17:10:39+11:00">
+            <dates type="dc.created">
+                <date type="dateFrom" dateFormat="W3CDTF">2008-10-04T00:00:00+10:00</date>
+            </dates>
+            <name type="primary">
+                <namePart>Recordings of Ahtena (United States)</namePart>
+            </name>
+            <description type="brief">A collection of elicitation and narrative in Ahtena (United States)</description>
+            <rights>
+                <accessRights>Closed (subject to the access condition details)</accessRights>
+            </rights>
+            <identifier type="uri">http://catalog.paradisec.org.au/collections/ALB01_Testing</identifier>
+            <location>
+                <address><electronic type="url"><value>http://catalog.paradisec.org.au/collections/ALB01</value></electronic><physical type="postalAddress"><addressPart type="text">PARADISEC Sydney Unit: Sydney Conservatorium of Music, Rm 3019, Building C41, The University of Sydney, NSW, 2006, Phone +61 2 9351 1279. PARADISEC Melbourne Unit: School of Languages and Linguistics, University of Melbourne, +61 2 8344 8952 | PARADISEC Canberra Unit: College of Asia and the Pacific, The Australian National University, +61 2 6125 6115</addressPart></physical></address>
+            </location>
+            <relatedObject>
+                <key>paradisec.org.au/user/76</key>
+                <relation type="hasCollector">
+                    <url>http://catalog.paradisec.org.au/admin/users/76</url>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>paradisec.org.au</key>
+                <relation type="isManagedBy">
+                    <url>http://catalog.paradisec.org.au</url>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>http://nla.gov.au/nla.party-1301719</key>
+                <relation type="isOutputOf"/>
+            </relatedObject>
+            <subject type="local">Ahtena</subject>
+            <subject type="iso639-3">aht</subject>
+            <subject type="local">English</subject>
+            <subject type="iso639-3">eng</subject>
+            <subject type="local">Degexit'an</subject>
+            <subject type="iso639-3">ing</subject>
+            <subject type="anzsrc-for">200399</subject>
+            <coverage>
+                <spatial type="text">United States</spatial>
+                <spatial type="iso31661">US</spatial>
+                <spatial type="iso19139dcmiBox">northlimit=62.74; southlimit=60.684; westlimit=-145.86; eastLimit=-143.918;</spatial>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">1964-01-01T00:00:00+10:00</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2010-11-11T00:00:00+11:00</date>
+                </temporal>
+            </coverage>
+            <citationInfo>
+                <fullCitation style="APA">Andrea Berez (collector), 1964; Recordings of Ahtena (United States) (ALB01), Digital collection managed by PARADISEC. [Closed Access] DOI: 10.4225/72/56E7A759B570F_Testing</fullCitation>
+            </citationInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.ethnologue.com/show_language.asp?code=aht</identifier>
+                <title>Ethnologue entry for Ahtena</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.ethnologue.com/show_language.asp?code=eng</identifier>
+                <title>Ethnologue entry for English</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.ethnologue.com/show_language.asp?code=ing</identifier>
+                <title>Ethnologue entry for Degexit'an</title>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+    <registryObject group="PARADISEC">
+        <key>paradisec.org.au/collection/AM4_Testing</key>
+        <originatingSource type="authoritative">http://catalog.paradisec.org.au</originatingSource>
+        <collection type="collection" dateModified="2019-10-31T12:08:41+11:00">
+            <dates type="dc.created">
+                <date type="dateFrom" dateFormat="W3CDTF">2004-07-29T00:00:00+10:00</date>
+            </dates>
+            <name type="primary">
+                <namePart>Lau corpus (Oceanic Solomon Islands)</namePart>
+            </name>
+            <description type="brief">Collection of nine texts in Lau. Speaker: Francis Aruwafu Recorded by Anna Margetts Transcription, free translation and morphological glosses by Anna Margetts and Francis Aruwafu Some annotations modified and added by Harriet Sheppard Francis Aruwafu (author of texts)</description>
+            <rights>
+                <accessRights>Open (subject to agreeing to PDSC access conditions)</accessRights>
+            </rights>
+            <identifier type="uri">http://catalog.paradisec.org.au/collections/AM4_Testing</identifier>
+            <location>
+                <address><electronic type="url"><value>http://catalog.paradisec.org.au/collections/AM4</value></electronic><physical type="postalAddress"><addressPart type="text">PARADISEC Sydney Unit: Sydney Conservatorium of Music, Rm 3019, Building C41, The University of Sydney, NSW, 2006, Phone +61 2 9351 1279. PARADISEC Melbourne Unit: School of Languages and Linguistics, University of Melbourne, +61 2 8344 8952 | PARADISEC Canberra Unit: College of Asia and the Pacific, The Australian National University, +61 2 6125 6115</addressPart></physical></address>
+            </location>
+            <relatedObject>
+                <key>paradisec.org.au/user/18</key>
+                <relation type="hasCollector">
+                    <url>http://catalog.paradisec.org.au/admin/users/18</url>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>paradisec.org.au</key>
+                <relation type="isManagedBy">
+                    <url>http://catalog.paradisec.org.au</url>
+                </relation>
+            </relatedObject>
+            <relatedObject>
+                <key>http://nla.gov.au/nla.party-507067</key>
+                <relation type="isOutputOf"/>
+            </relatedObject>
+            <subject type="local">English</subject>
+            <subject type="iso639-3">eng</subject>
+            <subject type="local">Lau</subject>
+            <subject type="iso639-3">llu</subject>
+            <subject type="anzsrc-for">200320</subject>
+            <coverage>
+                <spatial type="text">Australia</spatial>
+                <spatial type="iso31661">AU</spatial>
+                <spatial type="text">Solomon Islands</spatial>
+                <spatial type="iso31661">SB</spatial>
+                <spatial type="iso19139dcmiBox">northlimit=-7.7961; southlimit=-8.7163; westlimit=160.428; eastLimit=161.102;</spatial>
+                <temporal>
+                    <date type="dateFrom" dateFormat="W3CDTF">2002-12-01T00:00:00+11:00</date>
+                    <date type="dateTo" dateFormat="W3CDTF">2019-02-15T00:00:00+11:00</date>
+                </temporal>
+            </coverage>
+            <citationInfo>
+                <fullCitation style="APA">Anna Margetts (collector), 2002; Lau corpus (Oceanic Solomon Islands) (AM4), Digital collection managed by PARADISEC. [Open Access] DOI: 10.4225/72/56E8239940955_Testing</fullCitation>
+            </citationInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.ethnologue.com/show_language.asp?code=eng</identifier>
+                <title>Ethnologue entry for English</title>
+            </relatedInfo>
+            <relatedInfo type="website">
+                <identifier type="uri">http://www.ethnologue.com/show_language.asp?code=llu</identifier>
+                <title>Ethnologue entry for Lau</title>
+            </relatedInfo>
+        </collection>
+    </registryObject>
+</registryObjects>
