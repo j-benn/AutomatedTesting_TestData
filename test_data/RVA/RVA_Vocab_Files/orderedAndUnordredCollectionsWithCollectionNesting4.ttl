@@ -156,7 +156,9 @@
         dcterms:creator      <http://editor.vocabs.ands.org.au/user/richard> ;
         dcterms:description  "This is the description for OrderedCollection1"@en ;
         dcterms:modified     "2020-07-07T06:40:51.468Z"^^xsd:dateTime ;
-        dcterms:title        "OrderedCollection1"@en ;
+        dcterms:title        "OrderedCollection1 dctermsTitle";
+        skos:prefLabel        "OrderedCollection1 prefLabel en"@en ;
+        rdfs:label             "OrderedCollection1 rdfsLabel"; 
         skos:memberList      [ a          rdf:List ;
                                rdf:first  <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C1.2.1.1> ;
                                rdf:rest   [ a          rdf:List ;
@@ -180,7 +182,8 @@
         dcterms:creator      <http://editor.vocabs.ands.org.au/user/richard> ;
         dcterms:description  "This is the description for OrderedCollection1"@en ;
         dcterms:modified     "2020-07-07T06:40:51.468Z"^^xsd:dateTime ;
-        dcterms:title        "OrderedCollection3"@en ;
+        dcterms:title        "OrderedCollection3 dctermsTitle en"@en ;
+        dcterms:title        "OrderedCollection3 dctermsTitle de"@de ;
         skos:memberList      [ a          rdf:List ;
                                rdf:first  <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C1.1.1> ;
                                rdf:rest   [  a          rdf:List ;
@@ -226,6 +229,7 @@
         a                    skos:Collection ;
         dcterms:created      "2020-07-07T06:39:12.099Z"^^xsd:dateTime ;
         dcterms:creator      <http://editor.vocabs.ands.org.au/user/richard> ;
+        dcterms:description  "This is the description for UnorderedCollection3"@en ;
         dcterms:title        "UnorderedCollection3"@en ;
         skos:member <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/UnorderedCollection2> .
 
@@ -257,7 +261,7 @@
         dcterms:contributor  <http://editor.vocabs.ands.org.au/user/richard> ;
         dcterms:created      "2020-07-07T06:38:59.194Z"^^xsd:dateTime ;
         dcterms:creator      <http://editor.vocabs.ands.org.au/user/richard> ;
-        dcterms:description  "This is the description for UnorderedCollection2 it contains a few special chars ®†¥¨. Its also much longer that the descirptions for all other collections in this file. This is the description for UnorderedCollection2 it contains a few special chars ®†¥¨. Its also much longer that the descirptions for all other collections in this file."@en ;
+        dcterms:description  "This is the description for UnorderedCollection2"@en ;
         dcterms:modified     "2020-07-07T06:54:37.778Z"^^xsd:dateTime ;
         dcterms:title        "UnorderedCollection2"@en ;
         skos:member          <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C1.2.2> , <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C2.1.1> .
