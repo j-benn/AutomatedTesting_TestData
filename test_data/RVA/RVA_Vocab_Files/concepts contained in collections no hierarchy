@@ -1,0 +1,400 @@
+@prefix cycAnnot: <http://sw.cyc.com/CycAnnotations_v1#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix csw: <http://semantic-web.at/ontologies/csw.owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix freebase: <http://rdf.freebase.com/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix cyc: <http://sw.cyc.com/concept/> .
+@prefix tags: <http://www.holygoat.co.uk/owl/redwood/0.1/tags/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix opencyc: <http://sw.opencyc.org/concept/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ctag: <http://commontag.org/ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+rdf:type a rdf:Property , rdfs:Resource ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:range rdfs:Class ;
+	rdfs:subPropertyOf rdf:type .
+
+rdf:Property a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf rdf:Property , rdfs:Resource .
+
+rdf:subject a rdf:Property , rdfs:Resource ;
+	rdfs:domain rdf:Statement ;
+	rdfs:range rdfs:Resource ;
+	rdfs:subPropertyOf rdf:subject .
+
+rdf:predicate a rdf:Property , rdfs:Resource ;
+	rdfs:domain rdf:Statement ;
+	rdfs:range rdfs:Resource ;
+	rdfs:subPropertyOf rdf:predicate .
+
+rdf:object a rdf:Property , rdfs:Resource ;
+	rdfs:domain rdf:Statement ;
+	rdfs:range rdfs:Resource ;
+	rdfs:subPropertyOf rdf:object .
+
+rdf:first a rdf:Property , rdfs:Resource ;
+	rdfs:domain rdf:List ;
+	rdfs:range rdfs:Resource ;
+	rdfs:subPropertyOf rdf:first .
+
+rdf:rest a rdf:Property , rdfs:Resource ;
+	rdfs:domain rdf:List ;
+	rdfs:range rdf:List ;
+	rdfs:subPropertyOf rdf:rest .
+
+rdf:value a rdf:Property , rdfs:Resource ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:range rdfs:Resource ;
+	rdfs:subPropertyOf rdf:value .
+
+rdf:nil a rdf:List , rdfs:Resource .
+
+rdf:List a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf rdf:List , rdfs:Resource .
+
+rdfs:domain a rdf:Property , rdfs:Resource ;
+	rdfs:domain rdf:Property ;
+	rdfs:range rdfs:Class ;
+	rdfs:subPropertyOf rdfs:domain .
+
+rdfs:Resource a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf rdfs:Resource .
+
+rdfs:range a rdf:Property , rdfs:Resource ;
+	rdfs:domain rdf:Property ;
+	rdfs:range rdfs:Class ;
+	rdfs:subPropertyOf rdfs:range .
+
+rdfs:subPropertyOf a rdf:Property , rdfs:Resource ;
+	rdfs:domain rdf:Property ;
+	rdfs:range rdf:Property ;
+	rdfs:subPropertyOf rdfs:subPropertyOf .
+
+rdfs:subClassOf a rdf:Property , rdfs:Resource ;
+	rdfs:domain rdfs:Class ;
+	rdfs:range rdfs:Class ;
+	rdfs:subPropertyOf rdfs:subClassOf .
+
+rdfs:Class a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf rdfs:Resource , rdfs:Class .
+
+rdf:Statement a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf rdfs:Resource , rdf:Statement .
+
+rdfs:member a rdf:Property , rdfs:Resource ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:range rdfs:Resource ;
+	rdfs:subPropertyOf rdfs:member .
+
+rdfs:seeAlso a rdf:Property , rdfs:Resource ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:range rdfs:Resource ;
+	rdfs:subPropertyOf rdfs:seeAlso .
+
+rdfs:isDefinedBy a rdf:Property , rdfs:Resource ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:range rdfs:Resource ;
+	rdfs:subPropertyOf rdfs:seeAlso , rdfs:isDefinedBy .
+
+rdfs:comment a rdf:Property , rdfs:Resource ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf rdfs:comment .
+
+rdfs:label a rdf:Property , rdfs:Resource ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:range rdfs:Literal ;
+	rdfs:subPropertyOf rdfs:label .
+
+rdfs:Literal a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf rdfs:Resource , rdfs:Literal .
+
+rdf:Alt a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf rdfs:Resource , rdf:Alt , rdfs:Container .
+
+rdfs:Container a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf rdfs:Resource , rdfs:Container .
+
+rdf:Bag a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf rdfs:Resource , rdfs:Container , rdf:Bag .
+
+rdf:Seq a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf rdfs:Resource , rdfs:Container , rdf:Seq .
+
+rdfs:ContainerMembershipProperty a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf rdf:Property , rdfs:Resource , rdfs:ContainerMembershipProperty .
+
+rdf:XMLLiteral a rdfs:Resource , rdfs:Class , rdfs:Datatype ;
+	rdfs:subClassOf rdfs:Resource , rdfs:Literal , rdf:XMLLiteral .
+
+rdfs:Datatype a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf rdfs:Resource , rdfs:Class , rdfs:Datatype .
+
+<https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/CS1> a rdfs:Resource , skos:ConceptScheme ;
+	dcterms:description "This is the description for CS1"@en ;
+	dcterms:creator <http://editor.vocabs.ands.org.au/user/richard> ;
+	dcterms:created "2020-07-07T00:46:43.818Z"^^xsd:dateTime ;
+	dcterms:modified "2020-08-17T04:21:52.880Z"^^xsd:dateTime ;
+	dcterms:title "CS1"@en ;
+	skos:hasTopConcept <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/TC1.2> , <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/TC1.1> ;
+	dcterms:issued "2020-08-18" ;
+	owl:versionInfo "v1" .
+
+dcterms:description a rdf:Property , rdfs:Resource ;
+	rdfs:subPropertyOf dcterms:description .
+
+<https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/TC1.2> a rdfs:Resource , skos:Concept ;
+	dcterms:contributor <http://editor.vocabs.ands.org.au/user/richard> ;
+	dcterms:creator <http://editor.vocabs.ands.org.au/user/richard> ;
+	skos:inScheme <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/CS1> ;
+	dcterms:created "2020-07-07T00:50:42.915Z"^^xsd:dateTime ;
+	skos:prefLabel "TC1.2"@en ;
+	dcterms:modified "2020-08-14T05:49:52.602Z"^^xsd:dateTime ;
+	skos:topConceptOf <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/CS1> ;
+	skos:notation "B" .
+
+dcterms:contributor a rdf:Property , rdfs:Resource ;
+	rdfs:subPropertyOf dcterms:contributor .
+
+<http://editor.vocabs.ands.org.au/user/richard> a rdfs:Resource , dcterms:Agent ;
+	foaf:name "richard" .
+
+<https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C1.2.1.1> a rdfs:Resource , skos:Concept ;
+	dcterms:contributor <http://editor.vocabs.ands.org.au/user/richard> ;
+	dcterms:creator <http://editor.vocabs.ands.org.au/user/richard> ;
+	skos:inScheme <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/CS1>;
+	dcterms:created "2020-07-07T00:51:08.294Z"^^xsd:dateTime ;
+	dcterms:modified "2020-08-17T04:21:53.131Z"^^xsd:dateTime ;
+	skos:notation "Z-C" .
+
+dcterms:creator a rdf:Property , rdfs:Resource ;
+	rdfs:subPropertyOf dcterms:creator .
+
+_:genid-75469d65d5b940239af701793f3412dd-node1e5ue0bqsx2080767 a rdf:List , rdfs:Resource ;
+	rdf:first <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/TC1.1> ;
+	rdf:rest _:genid-75469d65d5b940239af701793f3412dd-node1e5ue0bqsx2080972 .
+
+_:genid-75469d65d5b940239af701793f3412dd-node1e5ue0bqsx2080972 a rdf:List , rdfs:Resource ;
+	rdf:first <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C1.1.3> ;
+	rdf:rest rdf:nil .
+
+skos:inScheme a rdf:Property , rdfs:Resource ;
+	rdfs:subPropertyOf skos:inScheme .
+
+
+skos:ConceptScheme a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf rdfs:Resource , skos:ConceptScheme .
+
+
+dcterms:created a rdf:Property , rdfs:Resource ;
+	rdfs:subPropertyOf dcterms:created .
+
+
+skos:Concept a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf rdfs:Resource , skos:Concept .
+
+skos:broader a rdf:Property , rdfs:Resource ;
+	rdfs:subPropertyOf skos:broader .
+
+skos:prefLabel a rdf:Property , rdfs:Resource ;
+	rdfs:subPropertyOf skos:prefLabel .
+
+skos:narrower a rdf:Property , rdfs:Resource ;
+	rdfs:subPropertyOf skos:narrower .
+
+<https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C1.2.2> a rdfs:Resource , skos:Concept ;
+	dcterms:contributor <http://editor.vocabs.ands.org.au/user/richard> ;
+	dcterms:creator <http://editor.vocabs.ands.org.au/user/richard> ;
+	skos:inScheme <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/CS1> ;
+	dcterms:created "2020-07-07T01:06:35.464Z"^^xsd:dateTime ;
+	skos:prefLabel "C1.2.2"@en ;
+	dcterms:modified "2020-08-14T05:50:14.521Z"^^xsd:dateTime ;
+	skos:notation "B-1" .
+
+dcterms:modified a rdf:Property , rdfs:Resource ;
+	rdfs:subPropertyOf dcterms:modified .
+
+dcterms:title a rdf:Property , rdfs:Resource ;
+	rdfs:subPropertyOf dcterms:title .
+
+skos:topConceptOf a rdf:Property , rdfs:Resource ;
+	rdfs:subPropertyOf skos:topConceptOf .
+
+_:genid-75469d65d5b940239af701793f3412dd-node1e5ue0bqsx2070875 a rdf:List , rdfs:Resource ;
+	rdf:first <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C1.2.1.1> ;
+	rdf:rest _:genid-75469d65d5b940239af701793f3412dd-node1e5ue0bqsx2071080 .
+
+_:genid-75469d65d5b940239af701793f3412dd-node1e5ue0bqsx2070584 a rdf:List , rdfs:Resource ;
+	rdf:first <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/TC1.1> ;
+	rdf:rest _:genid-75469d65d5b940239af701793f3412dd-node1e5ue0bqsx2071285 .
+
+_:genid-75469d65d5b940239af701793f3412dd-node1e5ue0bqsx2071285 a rdf:List , rdfs:Resource ;
+	rdf:first <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C1.1.3> ;
+	rdf:rest rdf:nil .
+
+<https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/TC1.1> a rdfs:Resource , skos:Concept ;
+	dcterms:contributor <http://editor.vocabs.ands.org.au/user/richard> ;
+	dcterms:creator <http://editor.vocabs.ands.org.au/user/richard> ;
+	skos:inScheme <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/CS1> ;
+	dcterms:created "2020-07-07T00:50:34.626Z"^^xsd:dateTime ;
+	skos:prefLabel "TC1.1"@en ;
+	dcterms:modified "2020-08-14T05:48:52.942Z"^^xsd:dateTime ;
+	skos:topConceptOf <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/CS1> ;
+	skos:notation "Z" .
+
+<https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C1.1.3> a rdfs:Resource , skos:Concept ;
+	dcterms:contributor <http://editor.vocabs.ands.org.au/user/richard> ;
+	dcterms:creator <http://editor.vocabs.ands.org.au/user/richard> ;
+	skos:inScheme <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/CS1>;
+	dcterms:created "2020-07-07T01:06:18.311Z"^^xsd:dateTime ;
+	skos:prefLabel "C1.1.3"@en ;
+	dcterms:modified "2020-08-14T06:22:20.057Z"^^xsd:dateTime ;
+	skos:notation "Z-A" .
+
+skos:notation a rdf:Property , rdfs:Resource ;
+	rdfs:subPropertyOf skos:notation .
+
+skos:hasTopConcept a rdf:Property , rdfs:Resource ;
+	rdfs:subPropertyOf skos:hasTopConcept .
+
+<https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C1.1.1> a rdfs:Resource , skos:Concept ;
+	dcterms:contributor <http://editor.vocabs.ands.org.au/user/richard> ;
+	dcterms:creator <http://editor.vocabs.ands.org.au/user/richard> ;
+	skos:inScheme <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/CS1> ;
+	dcterms:created "2020-07-07T00:50:56.599Z"^^xsd:dateTime ;
+	skos:prefLabel "C1.1.1"@en ;
+	dcterms:modified "2020-08-14T05:49:17.500Z"^^xsd:dateTime ;
+	skos:notation "Z-B" .
+
+<https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C1.2.1> a rdfs:Resource , skos:Concept ;
+	dcterms:contributor <http://editor.vocabs.ands.org.au/user/richard> ;
+	dcterms:creator <http://editor.vocabs.ands.org.au/user/richard> ;
+	skos:inScheme <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/CS1>;
+	dcterms:created "2020-07-07T00:51:21.336Z"^^xsd:dateTime ;
+	skos:prefLabel "C1.2.1"@en ;
+	dcterms:modified "2020-08-14T06:21:14.615Z"^^xsd:dateTime ;
+	skos:notation "B-2" .
+
+<https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/OrderedCollection1> a rdfs:Resource , skos:OrderedCollection ;
+	dcterms:description "This is the description for OrderedCollection1"@en ;
+	dcterms:contributor <http://editor.vocabs.ands.org.au/user/richard> ;
+	dcterms:creator <http://editor.vocabs.ands.org.au/user/richard> ;
+	dcterms:created "2020-07-07T06:38:11.827Z"^^xsd:dateTime ;
+	dcterms:modified "2020-07-07T06:40:51.468Z"^^xsd:dateTime ;
+	dcterms:title "OrderedCollection1"@en ;
+    skos:memberList      [ a          rdf:List ;
+                               rdf:first  <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C1.2.2> ;
+                               rdf:rest   [a          rdf:List ;
+                               rdf:first  <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C1.1.1> ;
+                               rdf:rest   [  a          rdf:List ;
+                                                                      rdf:first  <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/TC1.2> ;
+                                                                      rdf:rest   ()
+                                                                    
+                                                       
+                                          ]]
+                             ] .
+
+<https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/UnorderedCollection1> a rdfs:Resource , skos:Collection ;
+	dcterms:description "This is the description for UnorderedCollection1"@en ;
+	dcterms:contributor <http://editor.vocabs.ands.org.au/user/richard> ;
+	dcterms:creator <http://editor.vocabs.ands.org.au/user/richard> ;
+	dcterms:created "2020-07-07T06:38:46.724Z"^^xsd:dateTime ;
+	dcterms:modified "2020-07-07T06:53:55.240Z"^^xsd:dateTime ;
+	dcterms:title "UnorderedCollection1"@en ;
+	skos:member <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C1.2.2>, <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C1.2.1> , <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C1.1.3> , <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C1.2.1.1> , <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/TC1.1> .
+
+skos:OrderedCollection a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf rdfs:Resource , skos:OrderedCollection .
+
+skos:Collection a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf rdfs:Resource , skos:Collection .
+
+skos:memberList a rdf:Property , rdfs:Resource ;
+	rdfs:subPropertyOf skos:memberList .
+
+skos:member a rdf:Property , rdfs:Resource ;
+	rdfs:subPropertyOf skos:member .
+
+<https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/0> a rdfs:Resource ;
+	rdfs:label "https://editor.vocabs.ands.org.au/A..."@en ;
+	dcterms:isReplacedBy <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/CS1> ;
+	owl:deprecated true .
+
+dcterms:isReplacedBy a rdf:Property , rdfs:Resource ;
+	rdfs:subPropertyOf dcterms:isReplacedBy .
+
+owl:deprecated a rdf:Property , rdfs:Resource ;
+	rdfs:subPropertyOf owl:deprecated .
+
+<https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/1> a rdfs:Resource ;
+	rdfs:label "https://editor.vocabs.ands.org.au/A..."@en ;
+	dcterms:isReplacedBy <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/CS2> ;
+	owl:deprecated true .
+
+<https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/7> a rdfs:Resource ;
+	rdfs:label "TC1.1"@en ;
+	dcterms:isReplacedBy <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/TC1.1> ;
+	owl:deprecated true .
+
+<https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/8> a rdfs:Resource ;
+	rdfs:label "TC1.2"@en ;
+	dcterms:isReplacedBy <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/TC1.2> ;
+	owl:deprecated true .
+
+<https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/9> a rdfs:Resource ;
+	rdfs:label "C1.1.1"@en ;
+	dcterms:isReplacedBy <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C1.1.1> ;
+	owl:deprecated true .
+
+<https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/10> a rdfs:Resource ;
+	rdfs:label "C1.1.2"@en ;
+	dcterms:isReplacedBy <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C1.1.2> ;
+	owl:deprecated true .
+
+<https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C1.1.2> a rdfs:Resource ;
+	rdfs:label "C1.2.1.1"@en ;
+	dcterms:isReplacedBy <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C1.2.1.1> ;
+	owl:deprecated true .
+
+<https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/12> a rdfs:Resource ;
+	rdfs:label "C1.1.3"@en ;
+	dcterms:isReplacedBy <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C1.1.3> ;
+	owl:deprecated true .
+
+<https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/11> a rdfs:Resource ;
+	rdfs:label "C1.2.1"@en ;
+	dcterms:isReplacedBy <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C1.2.1> ;
+	owl:deprecated true .
+
+<https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/13> a rdfs:Resource ;
+	rdfs:label "C1.2.2"@en ;
+	dcterms:isReplacedBy <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C1.2.2> ;
+	owl:deprecated true .
+
+<https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/4> a rdfs:Resource ;
+	rdfs:label "OrderedCollection1"@en ;
+	owl:deprecated true .
+
+
+<https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/2> a rdfs:Resource ;
+	rdfs:label "UnorderedCollection1"@en ;
+	owl:deprecated true .
+
+dcterms:Agent a rdfs:Resource , rdfs:Class ;
+	rdfs:subClassOf rdfs:Resource , dcterms:Agent .
+
+foaf:name a rdf:Property , rdfs:Resource ;
+	rdfs:subPropertyOf foaf:name .
+
+dcterms:issued a rdf:Property , rdfs:Resource ;
+	rdfs:subPropertyOf dcterms:issued .
+
+owl:versionInfo a rdf:Property , rdfs:Resource ;
+	rdfs:subPropertyOf owl:versionInfo .
