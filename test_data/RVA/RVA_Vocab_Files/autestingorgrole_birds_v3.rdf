@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:cycAnnot="http://sw.cyc.com/CycAnnotations_v1#"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:csw="http://semantic-web.at/ontologies/csw.owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:freebase="http://rdf.freebase.com/ns/"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dbpedia="http://dbpedia.org/resource/"
+	xmlns:cyc="http://sw.cyc.com/concept/"
+	xmlns:tags="http://www.holygoat.co.uk/owl/redwood/0.1/tags/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:opencyc="http://sw.opencyc.org/concept/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ctag="http://commontag.org/ns#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:fn="http://www.w3.org/2005/xpath-functions#"
+	xmlns:sesame="http://www.openrdf.org/schema/sesame#">
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#subject">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#subject"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Collection">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#object">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#object"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#first">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#first"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#List">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#domain">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#domain"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Resource">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#range">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#range"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subPropertyOf">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#subPropertyOf"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Class">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#member">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#member"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Container">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Datatype">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://birds.org.au/def/voc/birds/9">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.1.3</skos:notation>
+	<skos:prefLabel xml:lang="en">Gang-gang Cockatoo</skos:prefLabel>
+	<skos:prefLabel xml:lang="es">Cacatúa gang gang</skos:prefLabel>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-23T00:18:31Z</dcterms:modified>
+	<skos:altLabel xml:lang="en">Callocephalon fimbriatum</skos:altLabel>
+	<skos:broader rdf:resource="http://birds.org.au/def/voc/birds/6"/>
+	<skos:inScheme rdf:resource="http://birds.org.au/def/voc/birds/0"/>
+	<skos:definition xml:lang="en">The gang-gang cockatoo (Callocephalon fimbriatum) is found in the cooler and wetter forests and woodlands of Australia, particularly alpine bushland. Mostly mild grey in colour with some lighter scalloping (more pronounced and buffy in females), the male has a red head and crest, while the female has a small fluffy grey crest. It ranges throughout south-eastern Australia. The gang-gang cockatoo is the faunal emblem of the Australian Capital Territory. It is easily identified by its distinctive call, which is described as resembling a creaky gate, or the sound of a cork being pulled from a wine bottle.</skos:definition>
+	<dcterms:source xml:lang="en">http://eol.org/pages/1178108</dcterms:source>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/rowanAdminSuper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#notation">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://birds.org.au/def/voc/पक्षियों/4">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2.3</skos:notation>
+	<skos:prefLabel xml:lang="en">Diamond Firetail</skos:prefLabel>
+	<skos:prefLabel xml:lang="es">Pinzón de fuego de diamante</skos:prefLabel>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-23T00:18:31Z</dcterms:modified>
+	<skos:broader rdf:resource="http://birds.org.au/def/voc/birds/2"/>
+	<skos:inScheme rdf:resource="http://birds.org.au/def/voc/birds/0"/>
+	<skos:definition xml:lang="en">Zebra finches are native to Australia and inhabit most regions of the continent. They have become naturalized in parts of Indonesia and occur in captivity as domesticated animals throughout much of the world.</skos:definition>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/rowanAdminSuper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/terms/modified">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/modified"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://birds.org.au/def/voc/birds/0">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-23T00:18:31Z</dcterms:modified>
+	<skos:hasTopConcept rdf:resource="http://birds.org.au/def/voc/birds/1"/>
+	<dcterms:title xml:lang="es">Aves</dcterms:title>
+	<dcterms:title xml:lang="en">Birds</dcterms:title>
+	<dcterms:description xml:lang="en">Australia and its offshore islands and territories have 898 recorded bird species as of 2014.[1] Of the recorded birds, 165 are considered vagrant or accidental visitors, of the remainder over 45% are classified as Australian endemics: found nowhere else on earth.[2] It has been suggested that up to 10% of Australian bird species may go extinct by the year 2100 as a result of climate change.[3]Australian species range from the tiny 8 cm weebill to the huge, flightless emu. Many species of Australian birds will immediately seem familiar to visitors from the Northern Hemisphere - Australian wrens look and act much like northern wrens and Australian robins seem to be close relatives of the northern robins, but in fact the majority of Australian passerines are descended from the ancestors of the crow family, and the close resemblance is misleading: the cause is not genetic relatedness but convergent evolution.For example, almost any land habitat offers a nice home for a small bird that specialises in finding small insects: the form best fitted to that task is one with long legs for agility and obstacle clearance, moderately-sized wings optimised for quick, short flights, and a large, upright tail for rapid changes of direction. In consequence, the unrelated birds that fill that role in the Americas and in Australia look and act as though they are close relatives.Australian birds which show convergent evolution with Northern Hemisphere species:honeyeaters (resemble sunbirds)sittellas (resemble nuthatches)Australasian babblers (resemble scimitar babblers)Australian robins (resemble Old World chats)Scrub robins (resemble thrushes)</dcterms:description>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-02-14</dcterms:issued>
+	<owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">v1</owl:versionInfo>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#hasTopConcept">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#hasTopConcept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://birds.org.au/def/voc/birds/1">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0</skos:notation>
+	<skos:prefLabel xml:lang="en">Australian birds</skos:prefLabel>
+	<skos:prefLabel xml:lang="es">Pájaros australianos</skos:prefLabel>
+	<skos:hiddenLabel xml:lang="es">Hidden Oz Birds</skos:hiddenLabel>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-23T00:18:31Z</dcterms:modified>
+	<skos:narrower rdf:resource="http://birds.org.au/def/voc/birds/2"/>
+	<skos:narrower rdf:resource="http://birds.org.au/def/voc/birds/6"/>
+	<skos:topConceptOf rdf:resource="http://birds.org.au/def/voc/birds/0"/>
+	<skos:inScheme rdf:resource="http://birds.org.au/def/voc/birds/0"/>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/rowanAdminSuper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#narrower">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#narrower"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://birds.org.au/def/voc/birds/2">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</skos:notation>
+	<skos:prefLabel xml:lang="en">Australian finches</skos:prefLabel>
+	<skos:prefLabel xml:lang="es">Pinzones australianos</skos:prefLabel>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-23T00:18:31Z</dcterms:modified>
+	<skos:narrower rdf:resource="http://birds.org.au/def/voc/पक्षियों/4"/>
+	<skos:narrower rdf:resource="http://birds.org.au/def/voc/birds/3"/>
+	<skos:narrower rdf:resource="http://birds.org.au/def/voc/éin/5"/>
+	<skos:broader rdf:resource="http://birds.org.au/def/voc/birds/1"/>
+	<skos:inScheme rdf:resource="http://birds.org.au/def/voc/birds/0"/>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/rowanAdminSuper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://birds.org.au/def/voc/birds/6">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.1</skos:notation>
+	<skos:prefLabel xml:lang="en">Australian parrots</skos:prefLabel>
+	<skos:prefLabel xml:lang="es">Loros australianos</skos:prefLabel>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-23T00:18:31Z</dcterms:modified>
+	<skos:narrower rdf:resource="http://birds.org.au/def/voc/birds/9"/>
+	<skos:narrower rdf:resource="http://birds.org.au/def/voc/birds/10"/>
+	<skos:narrower rdf:resource="http://birds.org.au/def/voc/birds/11"/>
+	<skos:narrower rdf:resource="http://birds.org.au/def/voc/birds/12"/>
+	<skos:narrower rdf:resource="http://birds.org.au/def/voc/小鸟7"/>
+	<skos:narrower rdf:resource="http://birds.org.au/def/voc/birds/8"/>
+	<skos:broader rdf:resource="http://birds.org.au/def/voc/birds/1"/>
+	<skos:inScheme rdf:resource="http://birds.org.au/def/voc/birds/0"/>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/rowanAdminSuper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#topConceptOf">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#topConceptOf"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://birds.org.au/def/voc/birds/10">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.1.2</skos:notation>
+	<skos:prefLabel xml:lang="en">Sulphur-crested Cockatoo</skos:prefLabel>
+	<skos:prefLabel xml:lang="es">Cacatúa con cresta de azufre</skos:prefLabel>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-23T00:23:18Z</dcterms:modified>
+	<skos:altLabel xml:lang="en">Cacatua (Cacatua) galerita</skos:altLabel>
+	<skos:broader rdf:resource="http://birds.org.au/def/voc/birds/6"/>
+	<skos:exactMatch rdf:resource="http://dbpedia.org/resource/Sulphur-crested_cockatoo"/>
+	<skos:inScheme rdf:resource="http://birds.org.au/def/voc/birds/0"/>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/rowanAdminSuper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#altLabel">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#altLabel"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#broader">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#broader"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://birds.org.au/def/voc/birds/11">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.1.4</skos:notation>
+	<skos:prefLabel xml:lang="es">Rosella carmesí</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Crimson Rosella</skos:prefLabel>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-23T00:18:31Z</dcterms:modified>
+	<skos:broader rdf:resource="http://birds.org.au/def/voc/birds/6"/>
+	<skos:inScheme rdf:resource="http://birds.org.au/def/voc/birds/0"/>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/rowanAdminSuper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://birds.org.au/def/voc/birds/12">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.1.6</skos:notation>
+	<skos:prefLabel xml:lang="es">Rosella oriental</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Eastern Rosella</skos:prefLabel>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-23T00:30:16Z</dcterms:modified>
+	<skos:broader rdf:resource="http://birds.org.au/def/voc/birds/6"/>
+	<skos:exactMatch rdf:resource="http://bie.ala.org.au/species/urn:lsid:biodiversity.org.au:afd.taxon:d14f5c5b-117a-4138-910a-f954cee75390"/>
+	<skos:exactMatch rdf:resource="http://dbpedia.org/resource/Eastern_rosella"/>
+	<skos:inScheme rdf:resource="http://birds.org.au/def/voc/birds/0"/>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/rowanAdminSuper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://birds.org.au/def/voc/birds/13">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.1.4</skos:notation>
+	<skos:prefLabel xml:lang="es">Halcón negro</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Black Falcon</skos:prefLabel>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-23T00:18:31Z</dcterms:modified>
+	<skos:broader rdf:resource="http://birds.org.au/def/voc/birds/6"/>
+	<skos:inScheme rdf:resource="http://birds.org.au/def/voc/birds/0"/>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/rowanAdminSuper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://bie.ala.org.au/species/urn:lsid:biodiversity.org.au:afd.taxon:d14f5c5b-117a-4138-910a-f954cee75390">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://birds.org.au/def/voc/birds/3">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2.1</skos:notation>
+	<skos:prefLabel xml:lang="en">Red-browed Finch</skos:prefLabel>
+	<skos:prefLabel xml:lang="es">Pinzón de cejas rojas</skos:prefLabel>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-23T00:18:31Z</dcterms:modified>
+	<skos:broader rdf:resource="http://birds.org.au/def/voc/birds/2"/>
+	<skos:inScheme rdf:resource="http://birds.org.au/def/voc/birds/0"/>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/rowanAdminSuper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://birds.org.au/def/voc/éin/5">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2.2</skos:notation>
+	<skos:prefLabel xml:lang="es">Pinzón cebra</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Zebra Finch Changed</skos:prefLabel>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-23T00:18:31Z</dcterms:modified>
+	<skos:broader rdf:resource="http://birds.org.au/def/voc/birds/2"/>
+	<skos:inScheme rdf:resource="http://birds.org.au/def/voc/birds/0"/>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/rowanAdminSuper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#inScheme">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#definition">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#definition"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://birds.org.au/def/voc/小鸟7">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.1.5</skos:notation>
+	<skos:prefLabel xml:lang="en">Australian King-parrot</skos:prefLabel>
+	<skos:prefLabel xml:lang="es">Australiano, rey, loro</skos:prefLabel>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-23T00:18:31Z</dcterms:modified>
+	<skos:broader rdf:resource="http://birds.org.au/def/voc/birds/6"/>
+	<skos:exactMatch rdf:resource="http://bie.ala.org.au/species/urn:lsid:biodiversity.org.au:afd.taxon:3aca9928-daf5-416d-a343-60e194b2c2c2"/>
+	<skos:inScheme rdf:resource="http://birds.org.au/def/voc/birds/0"/>
+	<skos:definition xml:lang="en">The Australian king parrot (Alisterus scapularis) is endemic to eastern Australia. It is found in humid and heavily forested upland regions of the eastern portion of the continent, including eucalyptus wooded areas in and directly adjacent to subtropical and temperate rainforest. They feed on fruits and seeds gathered from trees or on the ground.</skos:definition>
+	<dcterms:source xml:lang="en">http://eol.org/pages/1177876</dcterms:source>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/rowanAdminSuper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://birds.org.au/def/voc/birds/8/´ˆ©˙†">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.1.1</skos:notation>
+	<skos:prefLabel xml:lang="en">Red-rumped Parrot</skos:prefLabel>
+	<skos:prefLabel xml:lang="es">Loro rojo-rumped</skos:prefLabel>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-23T00:18:31Z</dcterms:modified>
+	<skos:altLabel xml:lang="en">Psephotus (Psephotus) haematonotus</skos:altLabel>
+	<skos:broader rdf:resource="http://birds.org.au/def/voc/birds/6"/>
+	<skos:inScheme rdf:resource="http://birds.org.au/def/voc/birds/0"/>
+	<dcterms:contributor rdf:resource="http://editor.vocabs.ands.org.au/user/rowanAdminSuper"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://birds.org.au/def/voc/birds/collection1_测试iri">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bird Collection</rdfs:label>
+	<skos:member rdf:resource="http://birds.org.au/def/voc/birds/8"/>
+	<skos:member rdf:resource="http://birds.org.au/def/voc/पक्षियों/4"/>
+	<skos:member rdf:resource="http://birds.org.au/def/voc/birds/2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/terms/source">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/source"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://bie.ala.org.au/species/urn:lsid:biodiversity.org.au:afd.taxon:3aca9928-daf5-416d-a343-60e194b2c2c2">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/terms/created">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/created"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/terms/creator">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/creator"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://editor.vocabs.ands.org.au/user/rowanAdminSuper">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://purl.org/dc/terms/Agent"/>
+	<foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rowanAdminSuper</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/terms/contributor">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/contributor"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/terms/title">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/title"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/terms/description">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/description"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Sulphur-crested_cockatoo">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Eastern_rosella">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/terms/Agent">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/Agent"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://xmlns.com/foaf/0.1/name">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/name"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/terms/issued">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/issued"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#versionInfo">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#versionInfo"/>
+</rdf:Description>
+
+</rdf:RDF>

@@ -1,0 +1,88 @@
+# Test of depth-first search yielding concept_refs,
+
+# and the front-end unpacking of them.
+
+ 
+
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+@prefix my:      <http://test/> .
+
+    my:CS1      a                    skos:ConceptScheme ;
+        dcterms:description  "my:CS1 dcterms:description @es"@es ;
+        dcterms:title        "my:CS1  " ;
+        skos:hasTopConcept   my:OC4 .
+
+my:C1 a skos:Concept ;
+skos:inScheme my:CS1; 
+skos:notation "C1" ;
+  skos:prefLabel "C1" .
+
+ 
+
+my:UC1 skos:prefLabel "UC1" ;
+skos:inScheme my:CS1; 
+skos:notation "UC5" ;
+  skos:narrower my:UCcommon .
+
+my:UC2 skos:prefLabel "UC2" ;
+skos:inScheme my:CS1; 
+skos:notation "UC4" ;
+  skos:narrower my:UCcommon .
+
+my:UC3 skos:prefLabel "UC3" ;
+skos:inScheme my:CS1; 
+skos:notation "UC3" ;
+  skos:narrower my:UCcommon .
+
+my:UCcommon skos:prefLabel "UCcommon" ;
+skos:inScheme my:CS1; 
+skos:notation "UC" ;
+  skos:narrower my:C1, my:UC5 .
+
+ 
+
+my:OC1 skos:prefLabel "OC1" ;
+skos:inScheme my:CS1; 
+skos:notation "OC2" ;
+  skos:narrower my:OCcommon .
+
+my:OC2 skos:prefLabel "OC2" ;
+skos:inScheme my:CS1; 
+skos:notation "OC1" ;
+  skos:narrower my:OCcommon .
+
+my:OC3 skos:prefLabel "OC3" ;
+skos:inScheme my:CS1; 
+skos:notation "OC3" ;
+  skos:narrower my:OCcommon .
+
+my:OCcommon skos:prefLabel "OCcommon" ;
+skos:inScheme my:CS1; 
+skos:notation "OC" ;
+  skos:narrower my:C1 .
+
+ 
+
+my:UC4 skos:prefLabel "UC4" ;
+skos:inScheme my:CS1; 
+skos:notation "UC2" ;
+  skos:narrower my:OC1 .
+
+my:UC5 skos:prefLabel "UC5" ;
+skos:notation "UC1" ;
+skos:inScheme my:CS1; 
+  skos:narrower my:OC1 .
+
+ 
+
+my:OC4 skos:prefLabel "OC4" ;
+skos:inScheme my:CS1; 
+skos:notation "OC5" ;
+  skos:narrower my:UC1 .
+
+my:OC5 skos:prefLabel "OC5" ;
+skos:inScheme my:CS1; 
+skos:notation "OC5" ;
+  skos:narrower my:UC1 .

@@ -21,16 +21,45 @@
         dcterms:contributor  <http://editor.vocabs.ands.org.au/user/richard> ;
         dcterms:created      "2020-07-07T06:38:46.724Z"^^xsd:dateTime ;
         dcterms:creator      <http://editor.vocabs.ands.org.au/user/richard> ;
-        dcterms:description  "This is the dcterms description for UnorderedCollection1 @en"@en ;
-        dcterms:description  "This is the dcterms description for UnorderedCollection1 no lang" ;
-        skos:definition     "This is the skos:definition for UnorderedCollection1 @en"@en ;
+        dcterms:description  "This is the description for UnorderedCollection1"@en ;
         dcterms:modified     "2020-07-07T06:53:55.240Z"^^xsd:dateTime ;
-        dcterms:title        "UnorderedCollection1 dcTitle en"@en ;
-        dcterms:title        "UnorderedCollection1 dcTitle zh"@zh ;
-        skos:prefLabel        "UnorderedCollection1 prefLabel zh"@zh ;
-        skos:prefLabel        "UnorderedCollection1 prefLabel de"@de ;
-        rdfs:label             "UnorderedCollection1 rdfsLabel"; 
+        dcterms:title        "UnorderedCollection1"@en ;
         skos:member          <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C1.2.2> , <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/TC1.1> , <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/UnorderedCollection2> .
+
+
+        <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C0.1>
+        a                    skos:Concept ;
+        dcterms:contributor  <http://editor.vocabs.ands.org.au/user/richard> ;
+        dcterms:created      "2020-07-07T01:06:54.995Z"^^xsd:dateTime ;
+        dcterms:creator      <http://editor.vocabs.ands.org.au/user/richard> ;
+        dcterms:modified     "2020-08-14T06:00:46.103Z"^^xsd:dateTime ;
+        skos:narrower        <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/TC1.1> ;
+        skos:inScheme        <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/CS2> ;
+        skos:notation        "A-0" ;
+        skos:prefLabel       "Concept broader than Top Concept C0.1"@en .
+
+        <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C0.1.1>
+        a                    skos:Concept ;
+        dcterms:contributor  <http://editor.vocabs.ands.org.au/user/richard> ;
+        dcterms:created      "2020-07-07T01:06:54.995Z"^^xsd:dateTime ;
+        dcterms:creator      <http://editor.vocabs.ands.org.au/user/richard> ;
+        dcterms:modified     "2020-08-14T06:00:46.103Z"^^xsd:dateTime ;
+        skos:broader        <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C0.1> ;
+        skos:inScheme        <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/CS2> ;
+        skos:notation        "A-0.1.1" ;
+        skos:prefLabel       "Concept C0.1.1"@en .
+
+        <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C0.1.1.1>
+        a                    skos:Concept ;
+        dcterms:contributor  <http://editor.vocabs.ands.org.au/user/richard> ;
+        dcterms:created      "2020-07-07T01:06:54.995Z"^^xsd:dateTime ;
+        dcterms:creator      <http://editor.vocabs.ands.org.au/user/richard> ;
+        dcterms:modified     "2020-08-14T06:00:46.103Z"^^xsd:dateTime ;
+        skos:broader        <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C0.1.1> ;
+        skos:narrower       <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/TC4.2>;
+        skos:inScheme        <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/CS2> ;
+        skos:notation        "A-0.1.1.1" ;
+        skos:prefLabel       "Concept C0.1.1.1"@en .
 
 <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/TC1.1>
         a                    skos:Concept ;
@@ -38,11 +67,11 @@
         dcterms:created      "2020-07-07T00:50:34.626Z"^^xsd:dateTime ;
         dcterms:creator      <http://editor.vocabs.ands.org.au/user/richard> ;
         dcterms:modified     "2020-08-14T05:48:52.942Z"^^xsd:dateTime ;
-        skos:inScheme        <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/CS1> ;
+        skos:inScheme        <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/CS2>,<https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/CS2>  ;
         skos:narrower        <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C1.1.1> , <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C1.1.3> , <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C1.2.1.1> ;
         skos:notation        "Z" ;
         skos:prefLabel       "TC1.1"@en ;
-        skos:topConceptOf    <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/CS1> .
+        skos:topConceptOf    <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/CS1>.
 
 <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C2.1.1>
         a                    skos:Concept ;
@@ -71,15 +100,9 @@
         a                    skos:ConceptScheme ;
         dcterms:created      "2020-07-07T00:47:04.177Z"^^xsd:dateTime ;
         dcterms:creator      <http://editor.vocabs.ands.org.au/user/richard> ;
-        dcterms:description  "CS2 dcterms:description no lang" ;
-        dcterms:description  "CS2 dcterms:description no lang 2" ;
-        dcterms:description  "CS2 dcterms:description @zh"@zh ;
-        skos:definition      "CS2 skos:definition no lang" ;
-        skos:definition      "CS2 skos:definition @zh"@zh ;
+        dcterms:description  "This is the description for CS2"@en ;
         dcterms:modified     "2020-07-07T01:06:55.049Z"^^xsd:dateTime ;
-        dcterms:title        "CS2 dcterms:title @en"@en ;
-        skos:prefLabel       "CS2 skos:prefLabel @en"@en ;
-        skos:prefLabel       "CS2 skos:prefLabel @zh"@zh ;
+        dcterms:title        "CS2"@en ;
         skos:hasTopConcept   <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/TC2.1> .
 
 <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C1.2.2>
@@ -93,30 +116,14 @@
         skos:notation        "B-1" ;
         skos:prefLabel       "C1.2.2"@en .
 
-<https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/OrderedCollection4>
+<https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/OrderedCollection2>
         a                    skos:OrderedCollection ;
         dcterms:contributor  <http://editor.vocabs.ands.org.au/user/richard> ;
         dcterms:created      "2020-07-07T06:38:27.316Z"^^xsd:dateTime ;
         dcterms:creator      <http://editor.vocabs.ands.org.au/user/richard> ;
-        dcterms:description  "This is the dcterms description for OrderedCollection2@en"@en ;
-        dcterms:description  "This is the dcterms description for OrderedCollection2@zh"@zh ;
-        rdfs:comment         "This is a rdfs comment";
-        skos:notation       "OrdCol.4";
-        dcterms:modified     "2020-07-07T06:38:27.402Z"^^xsd:dateTime .
-        
-
-                             <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/OrderedCollection2>
-        a                    skos:OrderedCollection ;
-        dcterms:contributor  <http://editor.vocabs.ands.org.au/user/richard> ;
-        dcterms:created      "2020-07-07T06:38:27.316Z"^^xsd:dateTime ;
-        dcterms:creator      <http://editor.vocabs.ands.org.au/user/richard> ;
-        dcterms:description  "This is the dcterms description for OrderedCollection2@en"@en ;
-        dcterms:description  "This is the dcterms description for OrderedCollection2@zh"@zh ;
-        dcterms:description  "This is the dcterms description for OrderedCollection2 noLang" ;
+        dcterms:description  "This is the description for OrderedCollection2"@en ;
         dcterms:modified     "2020-07-07T06:38:27.402Z"^^xsd:dateTime ;
-        dcterms:title        "OrderedCollection2 dcTitle"@en;
-        rdfs:label             "OrderedCollection2 rdfsLabel en"@en; 
-        skos:notation       "OrdCol.2";
+        dcterms:title        "OrderedCollection2"@en;
         skos:memberList      [ a          rdf:List ;
                                rdf:first  <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/OrderedCollection3> ;
                                rdf:rest   ()
@@ -126,10 +133,10 @@
         a                    skos:ConceptScheme ;
         dcterms:created      "2020-07-07T00:46:43.818Z"^^xsd:dateTime ;
         dcterms:creator      <http://editor.vocabs.ands.org.au/user/richard> ;
+        dcterms:description  "This is the description for CS1"@en ;
         dcterms:modified     "2020-08-17T04:21:52.880Z"^^xsd:dateTime ;
-        rdfs:label        "CS1 rdfs:label  zh"@zh ;
-        rdfs:label         "CS1 rdfs:label  de"@de ;
-        skos:hasTopConcept   <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/TC1.1> , <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/TC1.2> .
+        dcterms:title        "CS1"@en ;
+        skos:hasTopConcept   <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/TC1.2> .
 
 <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C1.2.1>
         a                    skos:Concept ;
@@ -182,14 +189,9 @@
         dcterms:contributor  <http://editor.vocabs.ands.org.au/user/richard> ;
         dcterms:created      "2020-07-07T06:38:11.827Z"^^xsd:dateTime ;
         dcterms:creator      <http://editor.vocabs.ands.org.au/user/richard> ;
-        dcterms:description  "This is the dcterms description for OrderedCollection1 de"@de ;
-        dcterms:description  "This is the dcterms description for OrderedCollection1 fr"@fr ;
-        dcterms:description  "This is the dcterms description for OrderedCollection1 es (last)"@es ;
+        dcterms:description  "This is the description for OrderedCollection1"@en ;
         dcterms:modified     "2020-07-07T06:40:51.468Z"^^xsd:dateTime ;
-        dcterms:title        "OrderedCollection1 dctermsTitle";
-        skos:prefLabel        "OrderedCollection1 prefLabel en"@en ;
-        skos:prefLabel        "OrderedCollection1 prefLabel de"@de ;
-        rdfs:label             "OrderedCollection1 rdfsLabel"; 
+        dcterms:title        "OrderedCollection1"@en ;
         skos:memberList      [ a          rdf:List ;
                                rdf:first  <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C1.2.1.1> ;
                                rdf:rest   [ a          rdf:List ;
@@ -211,13 +213,9 @@
         dcterms:contributor  <http://editor.vocabs.ands.org.au/user/richard> ;
         dcterms:created      "2020-07-07T06:38:11.827Z"^^xsd:dateTime ;
         dcterms:creator      <http://editor.vocabs.ands.org.au/user/richard> ;
-        dcterms:description  "This is the dcterms description for OrderedCollection1 @en"@en ;
-        skos:definition      "This is the skos definition for OrderedCollection1 ch"@ch ;
-        skos:definition      "This is the skos definition for OrderedCollection1 en"@en ;
-        skos:definition      "This is the skos definition for OrderedCollection1 no Lang" ;
+        dcterms:description  "This is the description for OrderedCollection1"@en ;
         dcterms:modified     "2020-07-07T06:40:51.468Z"^^xsd:dateTime ;
-        dcterms:title        "OrderedCollection3 dctermsTitle en"@en ;
-        dcterms:title        "OrderedCollection3 dctermsTitle de"@de ;
+        dcterms:title        "OrderedCollection3"@en ;
         skos:memberList      [ a          rdf:List ;
                                rdf:first  <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C1.1.1> ;
                                rdf:rest   [  a          rdf:List ;
@@ -263,9 +261,7 @@
         a                    skos:Collection ;
         dcterms:created      "2020-07-07T06:39:12.099Z"^^xsd:dateTime ;
         dcterms:creator      <http://editor.vocabs.ands.org.au/user/richard> ;
-        dcterms:description  "This is the description for UnorderedCollection3"@en ;
-        rdfs:label        "UnorderedCollection3 rdfs label en"@en ;
-        rdfs:label        "UnorderedCollection3 rdfs label no lang" ;
+        dcterms:title        "UnorderedCollection3"@en ;
         skos:member <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/UnorderedCollection2> .
 
 <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/TC3.1>
@@ -296,11 +292,9 @@
         dcterms:contributor  <http://editor.vocabs.ands.org.au/user/richard> ;
         dcterms:created      "2020-07-07T06:38:59.194Z"^^xsd:dateTime ;
         dcterms:creator      <http://editor.vocabs.ands.org.au/user/richard> ;
-        dcterms:description  "This is the description for UnorderedCollection2"@en ;
+        dcterms:description  "This is the description for UnorderedCollection2 it contains a few special chars ®†¥¨. Its also much longer that the descirptions for all other collections in this file. This is the description for UnorderedCollection2 it contains a few special chars ®†¥¨. Its also much longer that the descirptions for all other collections in this file."@en ;
         dcterms:modified     "2020-07-07T06:54:37.778Z"^^xsd:dateTime ;
-        dcterms:title        "UnorderedCollection2 dcTitle no lang" ;
-        dcterms:title        "UnorderedCollection2 dcTitle zh"@zh;
-        dcterms:title        "UnorderedCollection2 dcTitle en"@en;
+        dcterms:title        "UnorderedCollection2"@en ;
         skos:member          <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C1.2.2> , <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C2.1.1> .
 
 <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/TC1.2>
@@ -319,12 +313,9 @@
         a                    skos:ConceptScheme ;
         dcterms:created      "2020-08-17T04:14:00.368Z"^^xsd:dateTime ;
         dcterms:creator      <http://editor.vocabs.ands.org.au/user/richard> ;
-        dcterms:description  "CS4 dcterms:description @de"@de ;
-        dcterms:description  "CS4 dcterms:description @fr"@fr ;
-        dcterms:description  "CS4 dcterms:description @es"@es ;
+        dcterms:description  "CS4 test data for new browse visualization"@en ;
         dcterms:modified     "2020-08-17T04:21:53.004Z"^^xsd:dateTime ;
-        dcterms:title        "CS4 dcterms:title No Lang" ;
-        dcterms:title        "CS4 dcterms:title @en"@en ;
+        dcterms:title        "CS4"@en ;
         skos:hasTopConcept   <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/TC4.2> , <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/TC4.1> .
 
 <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/TC2.1>
@@ -342,15 +333,7 @@
         a                    skos:ConceptScheme ;
         dcterms:created      "2020-08-14T06:03:45.380Z"^^xsd:dateTime ;
         dcterms:creator      <http://editor.vocabs.ands.org.au/user/richard> ;
-        skos:definition      "CS3 skos:definition zh"@zh ;
-        skos:definition      "CS3 skos:definition en"@en ;
-        skos:definition      "CS3 skos:definition no Lang";
-        dcterms:description  "CS3 dcterms:description es"@es ;
-        dcterms:description  "CS3 dcterms:description zh"@zh ;
-        dcterms:description  "CS3 dcterms:description de"@de ;
-        dcterms:description  "CS3 dcterms:description en"@en ;
+        dcterms:description  "This concept scheme includes concepts from other schemes"@en ;
         dcterms:modified     "2020-08-17T04:21:53.131Z"^^xsd:dateTime ;
-        rdfs:label        "CS3 rdfs:label  no lang" ;
-        dcterms:title        "CS3 dcTitle no lang";
-        skos:prefLabel        "CS3 skos:prefLabel en"@en;
+        dcterms:title        "CS3"@en ;
         skos:hasTopConcept   <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/C1.1.3> , <https://editor.vocabs.ands.org.au/ANDSRWtestforbrowse1/TC3.1> .

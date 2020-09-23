@@ -1,0 +1,71 @@
+# Test of depth-first search yielding concept_refs,
+
+# and the front-end unpacking of them.
+
+ 
+
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+
+@prefix my:      <http://test/> .
+
+ 
+
+my:C1 a skos:Concept ;
+
+  skos:prefLabel "C1" .
+
+ 
+
+my:UC1 skos:prefLabel "UC1" ;
+
+  skos:narrower my:UCcommon .
+
+my:UC2 skos:prefLabel "UC2" ;
+
+  skos:narrower my:UCcommon .
+
+my:UC3 skos:prefLabel "UC3" ;
+
+  skos:narrower my:UCcommon .
+
+my:UCcommon skos:prefLabel "UCcommon" ;
+
+  skos:narrower my:C1, my:UC5 .
+
+ 
+
+my:OC1 skos:prefLabel "OC1" ;
+
+  skos:narrower my:OCcommon .
+
+my:OC2 skos:prefLabel "OC2" ;
+
+  skos:narrower my:OCcommon .
+
+my:OC3 skos:prefLabel "OC3" ;
+
+  skos:narrower my:OCcommon .
+
+my:OCcommon skos:prefLabel "OCcommon" ;
+
+  skos:narrower my:C1 .
+
+ 
+
+my:UC4 skos:prefLabel "UC4" ;
+
+  skos:narrower my:OC1 .
+
+my:UC5 skos:prefLabel "UC5" ;
+
+  skos:narrower my:OC1 .
+
+ 
+
+my:OC4 skos:prefLabel "OC4" ;
+
+  skos:narrower my:UC1 .
+
+my:OC5 skos:prefLabel "OC5" ;
+
+  skos:narrower my:UC1 .
