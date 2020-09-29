@@ -35,7 +35,8 @@ skos:inScheme my:CS1;
 skos:notation "UC3" ;
   skos:narrower my:UCcommon .
 
-my:UCcommon skos:prefLabel "UCcommon" ;
+my:UCcommon a skos:Concept ;
+skos:prefLabel "UCcommon" ;
 skos:inScheme my:CS1; 
 skos:notation "UC" .
   
@@ -46,9 +47,10 @@ my:OC1 skos:prefLabel "OC1" ;
 skos:inScheme my:CS1; 
 skos:notation "OC2" .
 
-my:OC2 skos:prefLabel "OC2" ;
+my:OC2 a skos:Concept ;
+skos:prefLabel "OC2" ;
 skos:inScheme my:CS1; 
-skos:notation "OC1" .
+skos:notation "OC3" .
 
 my:OC3 skos:prefLabel "OC3" ;
 skos:inScheme my:CS1; 
@@ -57,27 +59,34 @@ skos:notation "OC1" .
 my:OCcommon skos:prefLabel "OCcommon" ;
 skos:inScheme my:CS1; 
 skos:notation "OC" ;
-  skos:narrower my:UC1 .
+  skos:narrower my:UC1,my:UC2,my:UC4 .
 
  
 
-my:UC4 skos:prefLabel "UC4" ;
+my:UC4 a skos:Concept ;
+skos:prefLabel "UC4" ;
 skos:inScheme my:CS1; 
 skos:notation "UC2" ;
   skos:narrower my:UC1 .
 
 my:UC5 skos:prefLabel "UC5" ;
 skos:notation "A1" ;
-skos:inScheme my:CS1; 
-  skos:narrower my:OC1 .
+skos:inScheme my:CS1.
 
- 
-
-my:OC4 skos:prefLabel "OC4" ;
+my:OC4 a skos:Concept ;
+skos:prefLabel "OC4" ;
 skos:inScheme my:CS1; 
 skos:notation "OC5" ;
-  skos:narrower my:UC1 .
+  skos:narrower my:UC4,my:UC2,my:UC3.
 
-my:OC5 skos:prefLabel "OC5" ;
+my:OC5 a skos:Concept ;
+skos:prefLabel "OC5" ;
 skos:inScheme my:CS1; 
 skos:notation "OC4" .
+
+
+
+my:Collection1 a  skos:Collection ;
+dcterms:title        "UnorderedCollection1" ;
+skos:member my:OC4,my:UC4,my:OC2,my:OC5,my:UCcommon.
+
