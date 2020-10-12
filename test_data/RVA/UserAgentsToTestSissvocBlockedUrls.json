@@ -45,6 +45,9 @@
     "agent": "Grapeshot"
   },
   {
+    "agent": "Googlebot",
+  },
+  {
     "agent": "heritrix"
   },
   {
