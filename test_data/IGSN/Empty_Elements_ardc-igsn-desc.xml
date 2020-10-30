@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns="https://identifiers.ardc.edu.au/schemas/ardc-igsn-desc">
+    <resource registeredObjectType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/PhysicalSample">
+        <resourceIdentifier>20.500.11812/XXZT1TestJB6</resourceIdentifier>
+        <landingPage>https://test.identifiers.ardc.edu.au/igsn-portal/view/20.500.11812/XXZT1TestJB6</landingPage>
+        <isPublic>true</isPublic>
+        <resourceTitle>Test IGSN Metdata Containing 1 of every element and attribute</resourceTitle>
+        <alternateIdentifiers>
+            <alternateIdentifier alternateIdentifierType="local">AltID21346</alternateIdentifier>
+        </alternateIdentifiers>
+        <resourceTypes>
+            <resourceType>http://vocabulary.odm2.org/specimentype/core</resourceType>
+        </resourceTypes>
+        <materialTypes>
+            <materialType>http://vocabulary.odm2.org/medium/liquidOrganic</materialType>
+        </materialTypes>
+        <classifications>
+            <classification classificationURI=""></classification>
+        </classifications>
+        <purpose>Purpose</purpose>
+        <sampledFeatures>
+            <sampledFeature sampledFeatureURI=""></sampledFeature>
+        </sampledFeatures>
+        <location>
+            <locality localityURI=""></locality>
+            <geometry srid="https://epsg.io/4326" verticalDatum="https://epsg.io/4326" geometryURI="https://Geo.url"></geometry>
+        </location>
+        <date>
+        </date>
+        <method methodURI=""></method>
+        <campaign>Project West A - 2144</campaign>
+        <curationDetails>
+            <curation>
+                <curator>
+                    <curatorName>Jay Bee</curatorName>
+                    <curatorIdentifier curatorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/DOI">10.523546</curatorIdentifier>
+                </curator>
+                <curationLocation></curationLocation>
+                <curatingInstitution institutionURI=""></curatingInstitution>
+            </curation>
+        </curationDetails>
+        <contributors>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/ORCID">0000-1111-2222-9999</contributorIdentifier>
+            </contributor>
+        </contributors>
+        <relatedResources>
+            <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/HasReferenceResource">
+                <relatedResourceTitle></relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/EISSN">eissn-188-7</relatedResourceIdentifier>
+            </relatedResource>
+        </relatedResources>
+        <comments></comments>
+        <logDate eventType="registered">2020</logDate>
+    </resource>
+</resources>

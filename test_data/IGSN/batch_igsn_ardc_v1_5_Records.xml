@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns="https://identifiers.ardc.edu.au/schemas/ardc-igsn-desc"   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://identifiers.ardc.edu.au/schemas/ardc-igsn-desc https://identifiers.ardc.edu.au/igsn-schema/descriptive/1.0/resource.xsd">
+<resource registeredObjectType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/PhysicalSample">
+      <resourceIdentifier>20.500.11812/XXZT1J355C88D6ww</resourceIdentifier>
+      <landingPage>https://test.identifiers.ardc.edu.au/igsn/#/meta/XXAB000SW</landingPage>
+      <isPublic>true</isPublic>
+      <resourceTitle>zircon sample (Sample JRDC 8044 / IGSN XXAB000SW) from the Neal McNaughton Legacy Collection SHRIMP mount B-49 (IGSN XXAB000SV) : new Identifier 20.500.11812/XXZT1J355C88D6</resourceTitle>
+      <resourceTypes>
+         <resourceType>http://vocabulary.odm2.org/specimentype/other</resourceType>
+      </resourceTypes>
+      <materialTypes>
+         <materialType>http://vocabulary.odm2.org/medium/mineral</materialType>
+      </materialTypes>
+      <classifications>
+         <classification>igneous granitic (porphyry)</classification>
+      </classifications>
+      <location>
+         <locality>Jundee-Nimary, Deakin South Pit</locality>
+         <geometry srid="https://epsg.io/4326">POINT (120.59639 -26.36844)</geometry>
+      </location>
+      <curationDetails>
+         <curation>
+            <curator>
+               <curatorName>Geological Survey of Western Australia</curatorName>
+            </curator>
+            <curationDate>2019-07-01</curationDate>
+            <curationLocation>Bentley</curationLocation>
+            <curatingInstitution institutionURI="http://www.curtin.edu.au">Curtin University</curatingInstitution>
+         </curation>
+      </curationDetails>
+      <contributors>
+         <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+            <contributorName>Neal McNaughton</contributorName>
+         </contributor>
+      </contributors>
+      <comments>Data has been provided by the Neal McNaughton Legacy Collection.</comments>
+      <logDate eventType="registered">2001</logDate>
+   </resource>
+<resource registeredObjectType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/PhysicalSample">
+      <resourceIdentifier>20.500.11812/XXZT1JC5261E7Bww</resourceIdentifier>
+      <landingPage>https://test.identifiers.ardc.edu.au/igsn/#/meta/XXAB001U0</landingPage>
+      <isPublic>true</isPublic>
+      <resourceTitle>monazite? sample (Sample JG-02 / IGSN XXAB001U0) from the Neal McNaughton Legacy Collection SHRIMP mount 18-16 (IGSN XXAB001TZ) : new Identifier 20.500.11812/XXZT1JC5261E7B</resourceTitle>
+      <resourceTypes>
+         <resourceType>http://vocabulary.odm2.org/specimentype/other</resourceType>
+      </resourceTypes>
+      <materialTypes>
+         <materialType>http://vocabulary.odm2.org/medium/mineral</materialType>
+      </materialTypes>
+      <classifications>
+         <classification>igneous granitic (granite)</classification>
+      </classifications>
+      <location>
+         <locality/>
+         <geometry srid="https://epsg.io/4326">POINT (121.08 -28.26)</geometry>
+      </location>
+      <curationDetails>
+         <curation>
+            <curator>
+               <curatorName>Geological Survey of Western Australia</curatorName>
+            </curator>
+            <curationDate>2019-09-05</curationDate>
+            <curationLocation>Bentley</curationLocation>
+            <curatingInstitution institutionURI="http://www.curtin.edu.au">Curtin University</curatingInstitution>
+         </curation>
+      </curationDetails>
+      <contributors>
+         <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+            <contributorName>Neal McNaughton</contributorName>
+         </contributor>
+      </contributors>
+      <comments>Data has been provided by the Neal McNaughton Legacy Collection.</comments>
+      <logDate eventType="registered">2018</logDate>
+   </resource>
+<resource registeredObjectType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/PhysicalSample">
+      <resourceIdentifier>20.500.11812/XXZT1J7416B104ww</resourceIdentifier>
+      <landingPage>https://test.identifiers.ardc.edu.au/igsn/#/meta/XXAB0027Y</landingPage>
+      <isPublic>true</isPublic>
+      <resourceTitle>sample (Sample BR03-30 / IGSN XXAB0027Y) from the Neal McNaughton Legacy Collection SHRIMP mount 03-101 (IGSN XXAB0027T) : new Identifier 20.500.11812/XXZT1J7416B104</resourceTitle>
+      <resourceTypes>
+         <resourceType>http://vocabulary.odm2.org/specimentype/other</resourceType>
+      </resourceTypes>
+      <materialTypes>
+         <materialType>http://vocabulary.odm2.org/medium/mineral</materialType>
+      </materialTypes>
+      <classifications>
+         <classification>sedimentary siliciclastic (shale)</classification>
+      </classifications>
+      <sampledFeatures>
+         <sampledFeature>Pilbara Craton</sampledFeature>
+      </sampledFeatures>
+      <location>
+         <locality>Drillhole FVG-1 (776.72m)</locality>
+         <geometry srid="https://epsg.io/4326">POINT (119.51 -22.59)</geometry>
+      </location>
+      <curationDetails>
+         <curation>
+            <curator>
+               <curatorName>Geological Survey of Western Australia</curatorName>
+            </curator>
+            <curationDate>2019-09-11</curationDate>
+            <curationLocation>Bentley</curationLocation>
+            <curatingInstitution institutionURI="http://www.curtin.edu.au">Curtin University</curatingInstitution>
+         </curation>
+      </curationDetails>
+      <contributors>
+         <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+            <contributorName>Neal McNaughton</contributorName>
+         </contributor>
+      </contributors>
+      <comments>Data has been provided by the Neal McNaughton Legacy Collection.</comments>
+      <logDate eventType="registered">2003</logDate>
+   </resource>
+<resource registeredObjectType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/PhysicalSample">
+      <resourceIdentifier>20.500.11812/XXZT1JF8939708ww</resourceIdentifier>
+      <landingPage>https://test.identifiers.ardc.edu.au/igsn/#/meta/XXAB000IH</landingPage>
+      <isPublic>true</isPublic>
+      <resourceTitle>zircon sample (Sample 9996 7082C / IGSN XXAB000IH) from the Neal McNaughton Legacy Collection SHRIMP mount 99-28 (IGSN XXAB000IF) : new Identifier 20.500.11812/XXZT1JF8939708</resourceTitle>
+      <resourceTypes>
+         <resourceType>http://vocabulary.odm2.org/specimentype/other</resourceType>
+      </resourceTypes>
+      <materialTypes>
+         <materialType>http://vocabulary.odm2.org/medium/mineral</materialType>
+      </materialTypes>
+      <classifications>
+         <classification>meta-igneous felsic intrusive (biotite augen gneiss xenolith)</classification>
+      </classifications>
+      <sampledFeatures>
+         <sampledFeature>Yilgarn Craton Granites</sampledFeature>
+      </sampledFeatures>
+      <location>
+         <locality>Dookaling</locality>
+         <geometry srid="https://epsg.io/4326">POINT (116.4613 -30.4665)</geometry>
+      </location>
+      <curationDetails>
+         <curation>
+            <curator>
+               <curatorName>Geological Survey of Western Australia</curatorName>
+            </curator>
+            <curationDate>2019-06-24</curationDate>
+            <curationLocation>Bentley</curationLocation>
+            <curatingInstitution institutionURI="http://www.curtin.edu.au">Curtin University</curatingInstitution>
+         </curation>
+      </curationDetails>
+      <contributors>
+         <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+            <contributorName>Neal McNaughton</contributorName>
+         </contributor>
+      </contributors>
+      <comments>Data has been provided by the Neal McNaughton Legacy Collection.</comments>
+      <logDate eventType="registered">1999</logDate>
+   </resource>
+<resource registeredObjectType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/PhysicalSample">
+      <resourceIdentifier>20.500.11812/XXZT1JBB079C44ww</resourceIdentifier>
+      <landingPage>https://test.identifiers.ardc.edu.au/igsn/#/meta/XXAB00097</landingPage>
+      <isPublic>true</isPublic>
+      <resourceTitle>zircon sample (Sample YWG-01 / IGSN XXAB00097) from the Neal McNaughton Legacy Collection SHRIMP mount 96-78 (IGSN XXAB00094) : new Identifier 20.500.11812/XXZT1JBB079C44</resourceTitle>
+      <resourceTypes>
+         <resourceType>http://vocabulary.odm2.org/specimentype/other</resourceType>
+      </resourceTypes>
+      <materialTypes>
+         <materialType>http://vocabulary.odm2.org/medium/mineral</materialType>
+      </materialTypes>
+      <classifications>
+         <classification>igneous granitic (granite)</classification>
+      </classifications>
+      <sampledFeatures>
+         <sampledFeature>Mount Isa Inlier</sampledFeature>
+      </sampledFeatures>
+      <location>
+         <locality>453278 7590776</locality>
+         <geometry srid="https://epsg.io/4326">POINT (140.548 -21.7861)</geometry>
+      </location>
+      <curationDetails>
+         <curation>
+            <curator>
+               <curatorName>Geological Survey of Western Australia</curatorName>
+            </curator>
+            <curationDate>2019-06-21</curationDate>
+            <curationLocation>Bentley</curationLocation>
+            <curatingInstitution institutionURI="http://www.curtin.edu.au">Curtin University</curatingInstitution>
+         </curation>
+      </curationDetails>
+      <contributors>
+         <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+            <contributorName>Neal McNaughton</contributorName>
+         </contributor>
+      </contributors>
+      <comments>Data has been provided by the Neal McNaughton Legacy Collection.</comments>
+      <logDate eventType="registered">1996</logDate>
+   </resource>
+</resources>

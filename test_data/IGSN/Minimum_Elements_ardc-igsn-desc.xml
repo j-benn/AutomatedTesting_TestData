@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns="https://identifiers.ardc.edu.au/schemas/ardc-igsn-desc">
+    <resource registeredObjectType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/PhysicalSample">
+        <resourceIdentifier>20.500.11812/XXZT1TestJB2</resourceIdentifier>
+        <landingPage>https://test.identifiers.ardc.edu.au/igsn-portal/view/20.500.11812/XXZT1TestJB1</landingPage>
+        <isPublic>true</isPublic>
+        <resourceTitle>Test IGSN Metdata Containing the minimum requred elements</resourceTitle>
+           <resourceTypes>
+            <resourceType>http://vocabulary.odm2.org/specimentype/core</resourceType>
+        </resourceTypes>
+        <materialTypes>
+            <materialType>http://vocabulary.odm2.org/medium/liquidOrganic</materialType>
+        </materialTypes>
+        <curationDetails>
+            <curation>
+                <curator>
+                    <curatorName>Jay Bee</curatorName>
+                    <curatorIdentifier curatorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/DOI">10.523546</curatorIdentifier>
+                </curator>
+                <curatingInstitution institutionURI="https://institution.url">Research Lab 123</curatingInstitution>
+            </curation>
+        </curationDetails>
+        <logDate eventType="registered">2020</logDate>
+    </resource>
+</resources>
