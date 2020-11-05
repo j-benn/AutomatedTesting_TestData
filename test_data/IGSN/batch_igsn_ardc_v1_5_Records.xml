@@ -2,7 +2,7 @@
 <resources xmlns="https://identifiers.ardc.edu.au/schemas/ardc-igsn-desc"   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="https://identifiers.ardc.edu.au/schemas/ardc-igsn-desc https://identifiers.ardc.edu.au/igsn-schema/descriptive/1.0/resource.xsd">
 <resource registeredObjectType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/PhysicalSample">
-      <resourceIdentifier>20.500.11812/XXZT1J355C88D6ww</resourceIdentifier>
+      <resourceIdentifier>20.500.11812/XXZT1J355C88D6oi</resourceIdentifier>
       <landingPage>https://test.identifiers.ardc.edu.au/igsn/#/meta/XXAB000SW</landingPage>
       <isPublic>true</isPublic>
       <resourceTitle>zircon sample (Sample JRDC 8044 / IGSN XXAB000SW) from the Neal McNaughton Legacy Collection SHRIMP mount B-49 (IGSN XXAB000SV) : new Identifier 20.500.11812/XXZT1J355C88D6</resourceTitle>
@@ -38,9 +38,9 @@
       <logDate eventType="registered">2001</logDate>
    </resource>
 <resource registeredObjectType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/PhysicalSample">
-      <resourceIdentifier>20.500.11812/XXZT1JC5261E7Bww</resourceIdentifier>
+      <resourceIdentifier>20.500.11812/XXZT1JC5261E7Boi</resourceIdentifier>
       <landingPage>https://test.identifiers.ardc.edu.au/igsn/#/meta/XXAB001U0</landingPage>
-      <isPublic>true</isPublic>
+      <isPublic embargoEnd="2021-11-05">false</isPublic>
       <resourceTitle>monazite? sample (Sample JG-02 / IGSN XXAB001U0) from the Neal McNaughton Legacy Collection SHRIMP mount 18-16 (IGSN XXAB001TZ) : new Identifier 20.500.11812/XXZT1JC5261E7B</resourceTitle>
       <resourceTypes>
          <resourceType>http://vocabulary.odm2.org/specimentype/other</resourceType>
@@ -74,7 +74,7 @@
       <logDate eventType="registered">2018</logDate>
    </resource>
 <resource registeredObjectType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/PhysicalSample">
-      <resourceIdentifier>20.500.11812/XXZT1J7416B104ww</resourceIdentifier>
+      <resourceIdentifier>20.500.11812/XXZT1J7416B104oi</resourceIdentifier>
       <landingPage>https://test.identifiers.ardc.edu.au/igsn/#/meta/XXAB0027Y</landingPage>
       <isPublic>true</isPublic>
       <resourceTitle>sample (Sample BR03-30 / IGSN XXAB0027Y) from the Neal McNaughton Legacy Collection SHRIMP mount 03-101 (IGSN XXAB0027T) : new Identifier 20.500.11812/XXZT1J7416B104</resourceTitle>
@@ -113,7 +113,7 @@
       <logDate eventType="registered">2003</logDate>
    </resource>
 <resource registeredObjectType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/PhysicalSample">
-      <resourceIdentifier>20.500.11812/XXZT1JF8939708ww</resourceIdentifier>
+      <resourceIdentifier>20.500.11812/XXZT1JF8939708oi</resourceIdentifier>
       <landingPage>https://test.identifiers.ardc.edu.au/igsn/#/meta/XXAB000IH</landingPage>
       <isPublic>true</isPublic>
       <resourceTitle>zircon sample (Sample 9996 7082C / IGSN XXAB000IH) from the Neal McNaughton Legacy Collection SHRIMP mount 99-28 (IGSN XXAB000IF) : new Identifier 20.500.11812/XXZT1JF8939708</resourceTitle>
@@ -152,9 +152,9 @@
       <logDate eventType="registered">1999</logDate>
    </resource>
 <resource registeredObjectType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/PhysicalSample">
-      <resourceIdentifier>20.500.11812/XXZT1JBB079C44ww</resourceIdentifier>
+      <resourceIdentifier>20.500.11812/XXZT1JBB079C44oi</resourceIdentifier>
       <landingPage>https://test.identifiers.ardc.edu.au/igsn/#/meta/XXAB00097</landingPage>
-      <isPublic>true</isPublic>
+      <isPublic embargoEnd="2020-05-05">false</isPublic>
       <resourceTitle>zircon sample (Sample YWG-01 / IGSN XXAB00097) from the Neal McNaughton Legacy Collection SHRIMP mount 96-78 (IGSN XXAB00094) : new Identifier 20.500.11812/XXZT1JBB079C44</resourceTitle>
       <resourceTypes>
          <resourceType>http://vocabulary.odm2.org/specimentype/other</resourceType>
