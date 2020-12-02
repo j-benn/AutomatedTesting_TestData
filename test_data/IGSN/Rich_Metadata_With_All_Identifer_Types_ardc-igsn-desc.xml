@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns="https://identifiers.ardc.edu.au/schemas/ardc-igsn-desc">
+    <resource registeredObjectType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/PhysicalSample">
+        <resourceIdentifier>20.500.11812/XXZT1TestJB4.12</resourceIdentifier>
+        <landingPage>https://test.identifiers.ardc.edu.au/igsn-portal/view/20.500.11812/XXZT1TestJB1</landingPage>
+        <isPublic>true</isPublic>
+        <resourceTitle>Test IGSN Metdata Containing 3 repeated complex types</resourceTitle>
+        <alternateIdentifiers>
+            <alternateIdentifier alternateIdentifierType="local">AltID21343</alternateIdentifier>
+            <alternateIdentifier alternateIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/Handle">103.124.25/2322s</alternateIdentifier>
+            <alternateIdentifier alternateIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/URN">urn:sample-AltID21343</alternateIdentifier>
+        </alternateIdentifiers>
+        <resourceTypes>
+            <resourceType>http://vocabulary.odm2.org/specimentype/core</resourceType>
+            <resourceType>http://vocabulary.odm2.org/specimentype/coreHalfRound</resourceType>
+            <resourceType>http://vocabulary.odm2.org/specimentype/foliageDigestion</resourceType>
+        </resourceTypes>
+        <materialTypes>
+            <materialType>http://vocabulary.odm2.org/medium/liquidOrganic</materialType>
+            <materialType>http://vocabulary.odm2.org/medium/mineral</materialType>
+            <materialType>http://vocabulary.odm2.org/medium/ice</materialType>
+        </materialTypes>
+        <classifications>
+            <classification classificationURI="https://en.wikipedia.org/wiki/Granite">Granite</classification>
+            <classification classificationURI="https://en.wikipedia.org/wiki/Diorite">Diorite</classification>
+            <classification>Gabbro</classification>
+            <classification>Peridotite</classification>
+        </classifications>
+        <purpose>Purpose</purpose>
+        <sampledFeatures>
+            <sampledFeature sampledFeatureURI="SampledFeatureURL">Sampled Feature</sampledFeature>
+        </sampledFeatures>
+        <location>
+            <locality localityURI="http://locality.url">Western Australia</locality>
+            <geometry srid="https://epsg.io/4326" verticalDatum="https://epsg.io/4326" geometryURI="https://Geo.url">POLYGON ((10.689 -25.092, 34.595 -20.17, 38.814 -35.639, 13.502 -39.155, 10.689 -25.092))</geometry>
+        </location>
+        <date>
+            <timePeriod>
+                <start>2020-07-30</start>
+                <end>2020-07-30</end>
+            </timePeriod>
+        </date>
+        <method methodURI="http://Method.url">Block sampling</method>
+        <campaign>Project West A - 2144</campaign>
+        <curationDetails>
+            <curation>
+                <curator>
+                    <curatorName>Jay Bee</curatorName>
+                    <curatorIdentifier curatorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/DOI">10.523546</curatorIdentifier>
+                </curator>
+                <curationDate>2020-08-05</curationDate>
+                <curationLocation>Curation Location</curationLocation>
+                <curatingInstitution institutionURI="https://institution.url">Research Lab 123</curatingInstitution>
+            </curation>
+            <curation>
+                <curator>
+                    <curatorName>Prof. Jay R</curatorName>
+                    <curatorIdentifier curatorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/DOI">10.523546</curatorIdentifier>
+                </curator>
+                <curationDate>2020-08-05</curationDate>
+                <curationLocation>Second Curation Location</curationLocation>
+                <curatingInstitution institutionURI="https://institution2.url">Research Lab 2004</curatingInstitution>
+            </curation>
+        </curationDetails>
+        <contributors>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor1</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/ARK">ark:12025/654xz321/s3/f8.05v.tiff</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor1a</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/ARK">http://example.org/ark:12025/654xz321/s3/f8.05v.tiff</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor2</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/DOI">10.1109/5.771073</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor2a</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/DOI">http://dx.doi.org/10.1109/5.771073</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor3</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/Handle">101.109/5.771d073</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor3a</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/Handle">hdl:101.109/5.771d073</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor3b</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/Handle">http://hdl.handle.net/101.109/5.771d073</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor4</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IGSN">XXT1AABDFIFE</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor4a</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IGSN">20.500.11812/XXT1AABDFIFE</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor4b</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IGSN">http://hdl.handle.net/20.500.11812/XXT1AABDFIFE</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor4c</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IGSN">http://igsn.org/BGRB5054RX05201</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor5</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/ISBN">XXT1AABDFIFE</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor6</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/ISNI">000000012146438X</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor7</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/ISSN">00378-5955</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor8</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/LSID">urn:lsid:pdb.org:1AFT:1</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor9</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/ORCID">0000-1111-2222-9999</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor9a</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/ORCID">https://orcid.org/0000-0002-6711-9044</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor10</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/PURL">http://purl.org/my-identifier</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor10a</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/PURL">my-identifier</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor11</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/URL">https://exampleURL.com</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor12</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/URN">urn:oid:2.16.840</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor13</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/VIAF">123456789</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor13a</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/VIAF">https://viaf.org/viaf/94200188/</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor14</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/arXiv">arXiv:1501.00001</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor15</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/bibcode">1992ApJ…400L…1W</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor16</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/EAN13">978–014102662</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor17</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/EISSN">1562-6865</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor18</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/ISTC">0A9200912B4A1057</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor19</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/PMID">PMC3531190</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor20</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/LISSN">1748-7188</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor21</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/UPC">978–014102662</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor22</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/ROR">https://ror.org/038sjwq14</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor22a</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/ROR">038sjwq14</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/pointOfContact">
+                <contributorName>Sarah Contributor23</contributorName>
+                <contributorIdentifier contributorIdentifierType="local">localID</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/principalInvestigator">
+                <contributorName>Sam Smith</contributorName>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/collaborator">
+                <contributorName>Greg Chalms</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/ORCID">0000-1111-2222-9998</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/stakeholder">
+                <contributorName>Peter Mards</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/ORCID">0000-1111-2222-9997</contributorIdentifier>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/sponsor">
+                <contributorName>Craig A</contributorName>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/funder">
+                <contributorName>Shelly M</contributorName>
+            </contributor>
+            <contributor contributorType="http://registry.it.csiro.au/def/isotc211/CI_RoleCode/processor">
+                <contributorName>Ron</contributorName>
+                <contributorIdentifier contributorIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/Handle">102.123/387554</contributorIdentifier>
+            </contributor>
+        </contributors>
+        <relatedResources>
+                   <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IsDerivedFrom">
+                <relatedResourceTitle>Example Related Resource1</relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/ARK">ark:12025/654xz321/s3/f8.05v.tiff</relatedResourceIdentifier>
+            </relatedResource>
+            <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IsDerivedFrom">
+                <relatedResourceTitle>Example Related Resource1a</relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/ARK">http://example.org/ark:12025/654xz321/s3/f8.05v.tiff</relatedResourceIdentifier>
+            </relatedResource>
+            <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IsDerivedFrom">
+                <relatedResourceTitle>Example Related Resource2</relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/DOI">10.1109/5.771073</relatedResourceIdentifier>
+            </relatedResource>
+                        <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IsDerivedFrom">
+                <relatedResourceTitle>Example Related Resource2a</relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/DOI">http://dx.doi.org/10.1109/5.771073</relatedResourceIdentifier>
+            </relatedResource>
+            <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IsDerivedFrom">
+                <relatedResourceTitle>Example Related Resource3</relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/Handle">101.109/5.771d073</relatedResourceIdentifier>
+            </relatedResource>
+             <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IsDerivedFrom">
+                <relatedResourceTitle>Example Related Resource3a</relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/Handle">hdl:101.109/5.771d073</relatedResourceIdentifier>
+            </relatedResource>
+             <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IsDerivedFrom">
+                <relatedResourceTitle>Example Related Resource3b</relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/Handle">http://hdl.handle.net/101.109/5.771d073</relatedResourceIdentifier>
+            </relatedResource>
+            <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IsDerivedFrom">
+                <relatedResourceTitle>Example Related Resource4</relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IGSN">XXT1AABDFIFE</relatedResourceIdentifier>
+            </relatedResource>
+                        <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IsDerivedFrom">
+                <relatedResourceTitle>Example Related Resource4a</relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IGSN">20.500.11812/XXT1AABDFIFE</relatedResourceIdentifier>
+            </relatedResource>
+                        <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IsDerivedFrom">
+                <relatedResourceTitle>Example Related Resource4b</relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IGSN">http://hdl.handle.net/20.500.11812/XXT1AABDFIFE</relatedResourceIdentifier>
+            </relatedResource>
+                        <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IsDerivedFrom">
+                <relatedResourceTitle>Example Related Resource4c</relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IGSN">http://igsn.org/BGRB5054RX05201</relatedResourceIdentifier>
+            </relatedResource>
+            <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IsDerivedFrom">
+                <relatedResourceTitle>Example Related Resource5</relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/ISBN">XXT1AABDFIFE</relatedResourceIdentifier>
+            </relatedResource>
+            <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IsDerivedFrom">
+                <relatedResourceTitle>Example Related Resource6</relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/ISNI">000000012146438X</relatedResourceIdentifier>
+            </relatedResource>
+            <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IsDerivedFrom">
+                <relatedResourceTitle>Example Related Resource7</relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/ISSN">00378-5955</relatedResourceIdentifier>
+            </relatedResource>
+            <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IsDerivedFrom">
+                <relatedResourceTitle>Example Related Resource8</relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/LSID">urn:lsid:pdb.org:1AFT:1</relatedResourceIdentifier>
+            </relatedResource>
+            <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IsDerivedFrom">
+                <relatedResourceTitle>Example Related Resource9</relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/ORCID">0000-1111-2222-9999</relatedResourceIdentifier>
+            </relatedResource>
+                        <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IsDerivedFrom">
+                <relatedResourceTitle>Example Related Resource9a</relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/ORCID">https://orcid.org/0000-0002-6711-9044</relatedResourceIdentifier>
+            </relatedResource>
+            <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IsDerivedFrom">
+                <relatedResourceTitle>Example Related Resource10</relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/PURL">http://purl.org/my-identifier</relatedResourceIdentifier>
+            </relatedResource>
+                        <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IsDerivedFrom">
+                <relatedResourceTitle>Example Related Resource10a</relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/PURL">my-identifier</relatedResourceIdentifier>
+            </relatedResource>
+            <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IsDerivedFrom">
+                <relatedResourceTitle>Example Related Resource11</relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/URL">https://exampleURL.com</relatedResourceIdentifier>
+            </relatedResource>
+            <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IsDerivedFrom">
+                <relatedResourceTitle>Example Related Resource12</relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/URN">urn:oid:2.16.840</relatedResourceIdentifier>
+            </relatedResource>
+            <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IsDerivedFrom">
+                <relatedResourceTitle>Example Related Resource13</relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/VIAF">123456789</relatedResourceIdentifier>
+            </relatedResource>
+            <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IsDerivedFrom">
+                <relatedResourceTitle>Example Related Resource13a</relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/VIAF">https://viaf.org/viaf/94200188/</relatedResourceIdentifier>
+            </relatedResource>
+            <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IsDerivedFrom">
+                <relatedResourceTitle>Example Related Resource14</relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/arXiv">arXiv:1501.00001</relatedResourceIdentifier>
+            </relatedResource>
+            <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IsDerivedFrom">
+                <relatedResourceTitle>Example Related Resource15</relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/bibcode">1992ApJ…400L…1W</relatedResourceIdentifier>
+            </relatedResource>
+            <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IsDerivedFrom">
+                <relatedResourceTitle>Example Related Resource16</relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/EAN13">978–014102662</relatedResourceIdentifier>
+            </relatedResource>
+            <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IsDerivedFrom">
+                <relatedResourceTitle>Example Related Resource17</relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/EISSN">1562-6865</relatedResourceIdentifier>
+            </relatedResource>
+            <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IsDerivedFrom">
+                <relatedResourceTitle>Example Related Resource18</relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/ISTC">0A9200912B4A1057</relatedResourceIdentifier>
+            </relatedResource>
+            <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IsDerivedFrom">
+                <relatedResourceTitle>Example Related Resource19</relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/PMID">PMC3531190</relatedResourceIdentifier>
+            </relatedResource>
+            <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IsDerivedFrom">
+                <relatedResourceTitle>Example Related Resource20</relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/LISSN">1748-7188</relatedResourceIdentifier>
+            </relatedResource>
+            <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IsDerivedFrom">
+                <relatedResourceTitle>Example Related Resource21</relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/UPC">978–014102662</relatedResourceIdentifier>
+            </relatedResource>
+            <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IsDerivedFrom">
+                <relatedResourceTitle>Example Related Resource22</relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/ROR">https://ror.org/038sjwq14</relatedResourceIdentifier>
+            </relatedResource>
+            <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IsDerivedFrom">
+                <relatedResourceTitle>Example Related Resource22a</relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/ROR">038sjwq14</relatedResourceIdentifier>
+            </relatedResource>
+            <relatedResource relationType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/IsDerivedFrom">
+                <relatedResourceTitle>Example Related Resource23</relatedResourceTitle>
+                <relatedResourceIdentifier relatedResourceIdentifierType="local">localID</relatedResourceIdentifier>
+            </relatedResource>
+        </relatedResources>
+        <comments>Relevant comments to the sample and the sampling technique</comments>
+        <logDate eventType="registered">2020</logDate>
+    </resource>
+</resources>

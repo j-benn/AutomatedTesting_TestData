@@ -1385,7 +1385,7 @@
          </contributor>
       </contributors>
       <comments>Data has been provided by the Neal McNaughton Legacy Collection.</comments>
-      <logDate eventType="registered">1998</logDate>
+    <logDate eventType="destroyed">2001-12-01T11:10</logDate>
    </resource>
 <resource registeredObjectType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/SampleCollection">
       <resourceIdentifier>20.500.11812/XXZT1J309C9939oio</resourceIdentifier>
@@ -2221,7 +2221,7 @@
          </contributor>
       </contributors>
       <comments>Data has been provided by the Neal McNaughton Legacy Collection.</comments>
-      <logDate eventType="registered">1994</logDate>
+      <logDate eventType="deprecated">2001</logDate>
    </resource>
 <resource registeredObjectType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/PhysicalSample">
       <resourceIdentifier>20.500.11812/XXZT1JAFAD791Doio</resourceIdentifier>
@@ -2695,7 +2695,7 @@
          </contributor>
       </contributors>
       <comments>Data has been provided by the Neal McNaughton Legacy Collection.</comments>
-      <logDate eventType="registered">1999</logDate>
+   <logDate eventType="updated">2001-12-01T11:10</logDate>
    </resource>
 <resource registeredObjectType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/PhysicalSample">
       <resourceIdentifier>20.500.11812/XXZT1J0EF88908oio</resourceIdentifier>
@@ -3374,7 +3374,7 @@
          </contributor>
       </contributors>
       <comments>Data has been provided by the Neal McNaughton Legacy Collection.</comments>
-      <logDate eventType="registered">2001</logDate>
+      <logDate eventType="destroyed">2001-12-01T08:10</logDate>
    </resource>
 <resource registeredObjectType="http://pid.geoscience.gov.au/def/voc/ga/igsncode/PhysicalSample">
       <resourceIdentifier>20.500.11812/XXZT1JA022AFC9oio</resourceIdentifier>
