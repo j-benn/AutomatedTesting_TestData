@@ -194,7 +194,7 @@
                     <date type="dateTo" dateFormat="W3CDTF">2011-08-18T00:00:00Z</date>
                 </temporal>
                 <spatial type="kmlPolyCoords">145.690417,-37.735972</spatial>
-            </coverage>
+            </coverage>AUTestingRecords2AltmetricsRecords12b
             <relatedObject>
                 <key>AUTestingRecordsNestedlateralplains.com/gfong</key>
                 <relation type="hasAssociationWith"/>
@@ -1522,7 +1522,6 @@
                 <accessRights>Summary available online. Qualitatitve data may be available by contacting CeCC</accessRights>
             </rights>
             <identifier type="uri">http://researchonline.federation.edu.au:8080/vital/access/HandleResolver/1959.17/420AUTba3c</identifier>
-            <identifier type="handle">104.6464/2343c</identifier>
             <dates type="dc.created">
                 <date type="dateFrom" dateFormat="W3CDTF">2011-04-22T00:00:00Z</date>
             </dates>
@@ -1597,13 +1596,9 @@
                 <rightsStatement>Except as set out otherwise in these terms and conditions, you are provided with accessto this application only for your personal use and you may not without our written permissionon-sell or rebadge information obtained from this web site, or in any way represent that theinformation is from any source other than Federation University Australia.</rightsStatement>
                 <accessRights>Summary available online. Qualitatitve data may be available by contacting CeCC</accessRights>
             </rights>
-            <identifier type="uri">http://researchonline.federation.edu.au:8080/vital/access/HandleResolver/1959.17/420AUTba3D</identifier>
             <identifier type="handle">104.6464/2343D</identifier>
             <dates type="dc.created">
                 <date type="dateFrom" dateFormat="W3CDTF">2011-04-22T00:00:00Z</date>
-            </dates>
-            <dates type="dc.issued">
-                <date type="dateFrom" dateFormat="W3CDTF">2020-12-11T00:03:03Z</date>
             </dates>
             <dates type="dc.available">
                 <date type="dateFrom" dateFormat="W3CDTF">2020-07-29T01:03:38Z</date>
@@ -1731,6 +1726,7 @@
             </rights>
             <identifier type="uri">http://researchonline.federation.edu.au:8080/vital/access/HandleResolver/1959.17/420AUTba3F</identifier>
             <identifier type="handle">104.6464/2343F</identifier>
+            <identifier type="local">localFEF</identifier>
             <dates type="dc.created">
                 <date type="dateFrom" dateFormat="W3CDTF">2011-04-22T00:00:00Z</date>
             </dates>
@@ -1930,7 +1926,6 @@
                 <accessRights>Summary available online. Qualitatitve data may be available by contacting CeCC</accessRights>
             </rights>
             <identifier type="uri">http://researchonline.federation.edu.au:8080/vital/access/HandleResolver/1959.17/420AUTba5</identifier>
-            <identifier type="handle">104.6464/23435</identifier>
             <dates type="dc.created">
                 <date type="dateFrom" dateFormat="W3CDTF">2011-04-22T00:00:00Z</date>
             </dates>
@@ -1997,18 +1992,7 @@
                 <rightsStatement>Except as set out otherwise in these terms and conditions, you are provided with accessto this application only for your personal use and you may not without our written permissionon-sell or rebadge information obtained from this web site, or in any way represent that theinformation is from any source other than Federation University Australia.</rightsStatement>
                 <accessRights>Summary available online. Qualitatitve data may be available by contacting CeCC</accessRights>
             </rights>
-            <identifier type="uri">http://researchonline.federation.edu.au:8080/vital/access/HandleResolver/1959.17/420AUTba5a</identifier>
             <identifier type="handle">104.6464/23435a</identifier>
-            <dates type="dc.created">
-                <date type="dateFrom" dateFormat="W3CDTF">2011-04-22T00:00:00Z</date>
-            </dates>
-            <dates type="dc.issued">
-                <date type="dateFrom" dateFormat="W3CDTF">2020-12-11T00:03:03Z</date>
-            </dates>
-            <dates type="dc.available">
-                <date type="dateFrom" dateFormat="W3CDTF">2020-07-29T01:03:38Z</date>
-            </dates>
-
             <dates type="dc.valid">
                 <date type="dateFrom" dateFormat="W3CDTF">2011</date>
             </dates>
@@ -2053,7 +2037,7 @@
     <registryObject group="AUTestingRecords">
         <key>AUTestingRecords2AltRecords5c</key>
         <originatingSource type="">http://researchdata.ands.org.au/registry/orca/register_my_data</originatingSource>
-        <collection type="collection" dateModified="2013-02-04T01:52:49Z" dateAccessioned="2013-01-17T00:00:00Z">
+        <collection type="collection" dateAccessioned="2013-01-17T00:00:00Z">
             <name type="primary">
                 <namePart>(AUTestingRecords)Altmetrics Collection(collection) with NO Citation Metadata Related Objects (reverse isCollectorOf)</namePart>
             </name>
@@ -2065,21 +2049,7 @@
                 <rightsStatement>Except as set out otherwise in these terms and conditions, you are provided with accessto this application only for your personal use and you may not without our written permissionon-sell or rebadge information obtained from this web site, or in any way represent that theinformation is from any source other than Federation University Australia.</rightsStatement>
                 <accessRights>Summary available online. Qualitatitve data may be available by contacting CeCC</accessRights>
             </rights>
-            <identifier type="uri">http://researchonline.federation.edu.au:8080/vital/access/HandleResolver/1959.17/420AUTba5C</identifier>
             <identifier type="handle">104.6464/23435C</identifier>
-            <dates type="dc.created">
-                <date type="dateFrom" dateFormat="W3CDTF">2011-04-22T00:00:00Z</date>
-            </dates>
-            <dates type="dc.issued">
-                <date type="dateFrom" dateFormat="W3CDTF">2020-12-11T00:03:03Z</date>
-            </dates>
-            <dates type="dc.available">
-                <date type="dateFrom" dateFormat="W3CDTF">2020-07-29T01:03:38Z</date>
-            </dates>
-
-            <dates type="dc.valid">
-                <date type="dateFrom" dateFormat="W3CDTF">2011</date>
-            </dates>
             <location>
                 <address>
           <electronic type="url">
@@ -2183,7 +2153,7 @@
         <originatingSource type="">http://researchdata.ands.org.au/registry/orca/register_my_data</originatingSource>
         <collection type="collection" dateModified="2013-02-04T01:52:49Z" dateAccessioned="2013-01-17T00:00:00Z">
             <name type="primary">
-                <namePart>(AUTestingRecords)Altmetrics Collection(collection) with NO Citation Metadata Related Info (reverse isOwnerOf)</namePart>
+                <namePart>(AUTestingRecords)Altmetrics Collection(collection) with NO Citation Metadata Related Info (reverse isOwnerOf x2)</namePart>
             </name>
             <name type="alternative">
                 <namePart>(AUTestingRecords)Yarra Range Information Communication Technology survey, 2011</namePart>
@@ -2255,6 +2225,10 @@
                 <key>AUTestingRecords2AltRecords5a</key>
                 <relation type="coInvestigator"/>
             </relatedObject>
+            <relatedObject>
+                <key>AUTestingRecords2AltRecords5</key>
+                <relation type="isOwnerOf"/>
+            </relatedObject>
         </party>
     </registryObject>
 
@@ -2277,6 +2251,10 @@
                 <key>AUTestingRecords2AltRecords5c</key>
                 <relation type="isCollectorOf"/>
             </relatedObject>
+                        <relatedObject>
+                <key>AUTestingRecords2AltRecords5a</key>
+                <relation type="isCollectorOf"/>
+            </relatedObject>
         </party>
     </registryObject>
 
@@ -2291,7 +2269,10 @@
                 <key>IMOS/CSIROOceans&amp;Atmosphere-Hobart</key>
                 <relation type="isMemberOf"/>
             </relatedObject>
-
+            <relatedObject>
+                <key>AUTestingRecords2AltRecords5c</key>
+                <relation type="isCollectorOf"/>
+            </relatedObject>
             <relatedInfo type="collection">
                 <title>(AUTestingRecords)Altmetrics Collection</title>
                 <identifier type="handle">104.6464/23436</identifier>
@@ -2345,6 +2326,42 @@
           </electronic>
         </address>
             </location>
+        </party>
+    </registryObject>
+
+       <registryObject group="Australian Institute of Marine Science">
+        <key>AUTestingRecordsPartyWithNameParts</key>
+        <originatingSource>http://eatlas.org.au</originatingSource>
+        <party type="person">
+            <identifier type="global">Williamson,Davidsdf,Dr.a</identifier>
+            <name type="primary">
+                <namePart type="family">FamilyName</namePart>
+                <namePart type="family">GivenName</namePart>
+                <namePart type="title">Mrs</namePart>
+            </name>
+            <relatedObject>
+                <key>AIMS/ARCCoECoralReefStudies,JamesCookUniversity(JCU)</key>
+                <relation type="isMemberOf"/>
+            </relatedObject>
+            <location>
+                <address>
+          <physical type="streetAddress">
+            <addressPart type="telephoneNumber">+61 7 4781 6825</addressPart>
+          </physical>
+        </address>
+            </location>
+            <location>
+                <address>
+          <electronic type="email">
+            <value>david.williamson@jcu.edu.au</value>
+          </electronic>
+        </address>
+            </location>
+                        <relatedInfo type="collection">
+                <title>(AUTestingRecords)Altmetrics Collection</title>
+                <identifier type="handle">104.6464/23436a</identifier>
+                <relation type="isOwnerOf"/>
+            </relatedInfo>
         </party>
     </registryObject>
 </registryObjects>
