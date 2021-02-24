@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.2/metadata.xsd">
+		<identifier identifierType="DOI">10.80298/TEST_DOI_6029ba31efed8</identifier>
+		<publisher>https://ror.org/038sjwq14</publisher>
+		<publicationYear>2001</publicationYear>
+		<resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+		<titles>
+			<title>DRVS Test DOI 3 - Pass - Multiple creators one with ROR</title>
+		</titles>
+		<subjects>
+			<subject subjectScheme="anzsrc">06</subject>
+		</subjects>
+		<alternateIdentifiers>
+			<alternateIdentifier alternateIdentifierType="local id">llapax</alternateIdentifier>
+		</alternateIdentifiers>
+		<sizes>
+			<size>4.25TB</size>
+		</sizes>
+		<descriptions>
+			<description descriptionType="Other">Other description</description>
+		</descriptions>
+		<rightsList>
+			<rights rightsIdentifier="234345Rights" rightsURI="http://rightsUri.com">Some example rights</rights>
+		</rightsList>
+		<creators>
+			<creator>
+				<creatorName>Test User 1</creatorName>
+			</creator>
+			<creator>
+				<creatorName>Test User 2</creatorName>
+				<givenName>Test</givenName>
+				<familyName>User</familyName>
+			</creator>
+			<creator>
+				<creatorName>Organisation 1</creatorName>
+				<nameIdentifier nameIdentifierScheme="ror">https://ror.org/038sjwq14</nameIdentifier>
+			</creator>
+		</creators>
+		<fundingReferences>
+			<fundingReference>
+				<funderName>Funder 1</funderName>
+				<awardNumber>123T3</awardNumber>
+			</fundingReference>
+		</fundingReferences>
+	</resource>
+	<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.2/metadata.xsd">
+		<identifier identifierType="DOI">10.80298/TEST_DOI_6029c37f49fb7</identifier>
+		<publisher>https://ror.org/038sjwq14</publisher>
+		<publicationYear>2001</publicationYear>
+		<resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+		<titles>
+			<title>DRVS Test DOI 4 - Pass - Only rights value. No attributes</title>
+		</titles>
+		<subjects>
+			<subject subjectScheme="anzsrc">04</subject>
+		</subjects>
+		<alternateIdentifiers>
+			<alternateIdentifier alternateIdentifierType="local_id">liquids</alternateIdentifier>
+		</alternateIdentifiers>
+		<sizes>
+			<size>4.25TB</size>
+		</sizes>
+		<descriptions>
+			<description descriptionType="Other">Other description</description>
+		</descriptions>
+		<rightsList>
+			<rights>Some example rights</rights>
+		</rightsList>
+		<creators>
+			<creator>
+				<creatorName>Organisation 1</creatorName>
+				<nameIdentifier nameIdentifierScheme="ROR">https://ror.org/038sjwq14</nameIdentifier>
+			</creator>
+		</creators>
+		<fundingReferences>
+			<fundingReference>
+				<funderName>Funder 1</funderName>
+				<awardNumber>123T3</awardNumber>
+			</fundingReference>
+		</fundingReferences>
+	</resource>
+	<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.2/metadata.xsd">
+		<identifier identifierType="DOI">10.80298/TEST_DOI_6029c411a8b73</identifier>
+		<publisher>https://ror.org/01nfmeg22</publisher>
+		<publicationYear>2001</publicationYear>
+		<resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+		<titles>
+			<title>DRVS Test DOI 19 - FAIL - E02, E06, V03</title>
+		</titles>
+		<subjects>
+			<subject subjectScheme="anzsrc">04</subject>
+		</subjects>
+		<alternateIdentifiers>
+			<alternateIdentifier alternateIdentifierType="local_id">liquids</alternateIdentifier>
+		</alternateIdentifiers>
+		<sizes>
+			<size>4.25TB</size>
+		</sizes>
+		<descriptions>
+			<description descriptionType="Other">Other description</description>
+		</descriptions>
+		<rightsList>
+			<rights rightsIdentifier="Rights ID" rightsURI="http://rightsURI.com">Some example rights goes in here</rights>
+		</rightsList>
+		<creators>
+			<creator>
+				<creatorName>Organisation 1</creatorName>
+				<nameIdentifier nameIdentifierScheme="orcid">https://ror.org/01nfmeg22</nameIdentifier>
+			</creator>
+		</creators>
+		<fundingReferences>
+			<fundingReference>
+				<funderName>Funder 1</funderName>
+				<awardNumber>123T3</awardNumber>
+			</fundingReference>
+		</fundingReferences>
+	</resource>
+	<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.2/metadata.xsd">
+		<identifier identifierType="DOI">10.80298/TEST_DOI_6029c6da74155</identifier>
+		<publisher>https://ror.org/038sjwq14</publisher>
+		<publicationYear>2001</publicationYear>
+		<resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+		<titles>
+			<title>DRVS Test DOI 5 - Pass - Multiple Subjects &amp; Related Parper IsCitedBy</title>
+		</titles>
+		<subjects>
+			<subject subjectScheme="local">local subject</subject>
+			<subject subjectScheme="keyword">keyword1</subject>
+			<subject subjectScheme="anzsrc">04</subject>
+		</subjects>
+		<alternateIdentifiers>
+			<alternateIdentifier alternateIdentifierType="local_id">cap</alternateIdentifier>
+		</alternateIdentifiers>
+		<relatedIdentifiers>
+			<relatedIdentifier relatedIdentifierType="ISSN" relationType="IsCitedBy" resourceTypeGeneral="DataPaper">issn1233</relatedIdentifier>
+		</relatedIdentifiers>
+		<sizes>
+			<size>4.25TB</size>
+		</sizes>
+		<descriptions>
+			<description descriptionType="Other">Other description</description>
+		</descriptions>
+		<rightsList>
+			<rights>Some example rights</rights>
+		</rightsList>
+		<creators>
+			<creator>
+				<creatorName>Organisation 1</creatorName>
+				<nameIdentifier nameIdentifierScheme="ror">https://ror.org/038sjwq14</nameIdentifier>
+			</creator>
+		</creators>
+	</resource>
+	<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.2/metadata.xsd">
+		<identifier identifierType="DOI">10.80298/TEST_DOI_6029e05198c36</identifier>
+		<publisher>https://ror.org/038sjwq14</publisher>
+		<publicationYear>2001</publicationYear>
+		<resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+		<titles>
+			<title>DRVS Test DOI 6 - Fail - E02 Local ID Doesnt match</title>
+		</titles>
+		<subjects>
+			<subject subjectScheme="local">local subject</subject>
+			<subject subjectScheme="keyword">keyword1</subject>
+			<subject subjectScheme="anzsrc">120302</subject>
+		</subjects>
+		<alternateIdentifiers>
+			<alternateIdentifier alternateIdentifierType="local_id">localID</alternateIdentifier>
+		</alternateIdentifiers>
+		<relatedIdentifiers>
+			<relatedIdentifier relatedIdentifierType="ISSN" relationType="IsCitedBy" resourceTypeGeneral="DataPaper">issn1233</relatedIdentifier>
+		</relatedIdentifiers>
+		<sizes>
+			<size>5 TB</size>
+		</sizes>
+		<descriptions>
+			<description descriptionType="Other">Other description</description>
+		</descriptions>
+		<rightsList>
+			<rights>Some example rights</rights>
+		</rightsList>
+		<creators>
+			<creator>
+				<creatorName>Organisation 1</creatorName>
+				<nameIdentifier nameIdentifierScheme="orcid">0000-3333-5645-7811</nameIdentifier>
+			</creator>
+		</creators>
+	</resource>
+	<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.2/metadata.xsd">
+		<identifier identifierType="DOI">10.80298/TEST_DOI_6029e655c8474</identifier>
+		<publisher>https://ror.org/038sjwq14</publisher>
+		<publicationYear>2001</publicationYear>
+		<resourceType resourceTypeGeneral="Text">Report</resourceType>
+		<titles>
+			<title titleType="AlternativeTitle" xml:lang="en">DRVS Test DOI 15 - Pass - Multiple creators</title>
+		</titles>
+		<subjects>
+			<subject subjectScheme="for">0601</subject>
+		</subjects>
+		<dates>
+			<date dateType="Created">2020-11-10</date>
+			<date dateType="Updated">2021-02-15</date>
+		</dates>
+		<alternateIdentifiers>
+			<alternateIdentifier alternateIdentifierType="local ID">gres</alternateIdentifier>
+		</alternateIdentifiers>
+		<sizes>
+			<size>1612477 TB</size>
+		</sizes>
+		<descriptions>
+			<description descriptionType="Other">Other description</description>
+		</descriptions>
+		<rightsList>
+			<rights rightsURI="http://rightsURL.com">Rights here</rights>
+		</rightsList>
+		<creators>
+			<creator>
+				<creatorName>Test User 1</creatorName>
+			</creator>
+			<creator>
+				<creatorName>Test User 2</creatorName>
+				<givenName>Test</givenName>
+				<familyName>User</familyName>
+			</creator>
+			<creator>
+				<creatorName>Organisation 1</creatorName>
+				<nameIdentifier nameIdentifierScheme="orcid">0000-2323-2356-5654</nameIdentifier>
+			</creator>
+			<creator>
+				<creatorName nameType="Personal">Hendry, Natalie</creatorName>
+				<givenName>Natalie</givenName>
+				<familyName>Hendry</familyName>
+				<nameIdentifier nameIdentifierScheme="orcid">0000-2443-2356-5654</nameIdentifier>
+			</creator>
+			<creator>
+				<creatorName nameType="Personal">Flore, Jacinthe</creatorName>
+				<givenName>Jacinthe</givenName>
+				<familyName>Flore</familyName>
+			</creator>
+			<creator>
+				<creatorName>Averyl Gaylor</creatorName>
+			</creator>
+			<creator>
+				<creatorName>Thomas Shafee</creatorName>
+				<nameIdentifier nameIdentifierScheme="ORCID" schemeURI="http://orcid.org">0000-0002-2298-7593</nameIdentifier>
+			</creator>
+			<creator>
+				<creatorName>BK Kerenga</creatorName>
+			</creator>
+			<creator>
+				<creatorName>Tatiana Soares-da-Costa</creatorName>
+			</creator>
+			<creator>
+				<creatorName>DJ Craik</creatorName>
+			</creator>
+		</creators>
+		<fundingReferences>
+			<fundingReference>
+				<funderName>Funder 1</funderName>
+				<awardNumber>123T3</awardNumber>
+			</fundingReference>
+		</fundingReferences>
+	</resource>
+	<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.2/metadata.xsd">
+		<identifier identifierType="DOI">10.80298/TEST_DOI_6029e695382ce</identifier>
+		<publisher>https://ror.org/01nfmeg22</publisher>
+		<publicationYear>2001</publicationYear>
+		<resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+		<titles>
+			<title>DRVS Test DOI 14 - Fail - Missing All except DataCite Schema required</title>
+		</titles>
+		<subjects>
+			<subject subjectScheme="local">T06</subject>
+		</subjects>
+		<alternateIdentifiers>
+			<alternateIdentifier alternateIdentifierType="local id">llapax</alternateIdentifier>
+		</alternateIdentifiers>
+		<sizes>
+			<size>4.25</size>
+		</sizes>
+		<creators>
+			<creator>
+				<creatorName>Test User 1</creatorName>
+			</creator>
+			<creator>
+				<creatorName>Test User 2</creatorName>
+				<givenName>Test</givenName>
+				<familyName>User</familyName>
+			</creator>
+		</creators>
+	</resource>
+	<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.2/metadata.xsd">
+		<identifier identifierType="DOI">10.80298/TEST_DOI_6029f56c1aaea</identifier>
+		<publisher>https://ror.org/038sjwq14</publisher>
+		<publicationYear>2001</publicationYear>
+		<resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+		<titles>
+			<title>DRVS Test DOI 13 - Fail - V03 &amp; V05 Missing Rights and Creator with ROR/ORCID</title>
+		</titles>
+		<subjects>
+			<subject subjectScheme="local">local subject</subject>
+			<subject subjectScheme="keyword">keyword1</subject>
+			<subject subjectScheme="anzsrc">04</subject>
+		</subjects>
+		<alternateIdentifiers>
+			<alternateIdentifier alternateIdentifierType="local_id">sams</alternateIdentifier>
+		</alternateIdentifiers>
+		<relatedIdentifiers>
+			<relatedIdentifier relatedIdentifierType="ISSN" relationType="IsCitedBy" resourceTypeGeneral="DataPaper">issn1233</relatedIdentifier>
+		</relatedIdentifiers>
+		<sizes>
+			<size>4.25TB</size>
+		</sizes>
+		<descriptions>
+			<description descriptionType="Other">Other description</description>
+		</descriptions>
+		<creators>
+			<creator>
+				<creatorName>Organisation 2</creatorName>
+				<nameIdentifier nameIdentifierScheme="doi">10.234/038sjwq14</nameIdentifier>
+			</creator>
+		</creators>
+	</resource>
+	<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.2/metadata.xsd">
+		<identifier identifierType="DOI">10.80298/TEST_DOI_6029f5a977429</identifier>
+		<publisher>https://ror.org/038sjwq14</publisher>
+		<publicationYear>2001</publicationYear>
+		<resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+		<titles>
+			<title>DRVS Test DOI 12 - Fail - V05 Missing Rights</title>
+		</titles>
+		<subjects>
+			<subject subjectScheme="local">local subject</subject>
+			<subject subjectScheme="keyword">keyword1</subject>
+			<subject subjectScheme="anzsrc">04</subject>
+		</subjects>
+		<alternateIdentifiers>
+			<alternateIdentifier alternateIdentifierType="local_id">aae</alternateIdentifier>
+		</alternateIdentifiers>
+		<relatedIdentifiers>
+			<relatedIdentifier relatedIdentifierType="ISSN" relationType="IsCitedBy" resourceTypeGeneral="DataPaper">issn1233</relatedIdentifier>
+		</relatedIdentifiers>
+		<sizes>
+			<size>4.25TB</size>
+		</sizes>
+		<descriptions>
+			<description descriptionType="Other">Other description</description>
+		</descriptions>
+		<creators>
+			<creator>
+				<creatorName>Organisation 1</creatorName>
+				<nameIdentifier nameIdentifierScheme="ror">https://ror.org/038sjwq14</nameIdentifier>
+			</creator>
+		</creators>
+	</resource>
+	<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.2/metadata.xsd">
+		<identifier identifierType="DOI">10.80298/TEST_DOI_6029f5cf5ccc2</identifier>
+		<publisher>https://ror.org/038sjwq14</publisher>
+		<publicationYear>2001</publicationYear>
+		<resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+		<titles>
+			<title>DRVS Test DOI 11 - Fail - V04 Missing Funding Ref or RelatedIdentifier</title>
+		</titles>
+		<subjects>
+			<subject subjectScheme="local">local subject</subject>
+			<subject subjectScheme="keyword">keyword1</subject>
+			<subject subjectScheme="anzsrc">04</subject>
+		</subjects>
+		<alternateIdentifiers>
+			<alternateIdentifier alternateIdentifierType="local_id">test/AA-LOD</alternateIdentifier>
+		</alternateIdentifiers>
+		<sizes>
+			<size>4.25TB</size>
+		</sizes>
+		<descriptions>
+			<description descriptionType="Other">Other description</description>
+		</descriptions>
+		<rightsList>
+			<rights>Some example rights</rights>
+		</rightsList>
+		<creators>
+			<creator>
+				<creatorName>Organisation 1</creatorName>
+				<nameIdentifier nameIdentifierScheme="ROR">https://ror.org/038sjwq14</nameIdentifier>
+			</creator>
+		</creators>
+	</resource>
+	<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.2/metadata.xsd">
+		<identifier identifierType="DOI">10.80298/TEST_DOI_6029f5f1a7617</identifier>
+		<publisher>https://ror.org/038sjwq14</publisher>
+		<publicationYear>2001</publicationYear>
+		<resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+		<titles>
+			<title>DRVS Test DOI 10 - Fail - V03 Missing Creator with valid ROR / ORCID</title>
+		</titles>
+		<subjects>
+			<subject subjectScheme="local">local subject</subject>
+			<subject subjectScheme="keyword">keyword1</subject>
+			<subject subjectScheme="anzsrc">04</subject>
+		</subjects>
+		<alternateIdentifiers>
+			<alternateIdentifier alternateIdentifierType="local_id">rets</alternateIdentifier>
+		</alternateIdentifiers>
+		<relatedIdentifiers>
+			<relatedIdentifier relatedIdentifierType="ISSN" relationType="IsCitedBy" resourceTypeGeneral="DataPaper">issn1233</relatedIdentifier>
+		</relatedIdentifiers>
+		<sizes>
+			<size>4.25TB</size>
+		</sizes>
+		<descriptions>
+			<description descriptionType="Other">Other description</description>
+		</descriptions>
+		<rightsList>
+			<rights>Some example rights</rights>
+		</rightsList>
+		<creators>
+			<creator>
+				<creatorName>Organisation 1</creatorName>
+			</creator>
+		</creators>
+	</resource>
+	<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.2/metadata.xsd">
+		<identifier identifierType="DOI">10.80298/TEST_DOI_6029f614d3677</identifier>
+		<publisher>ARDC 038sjwq14</publisher>
+		<publicationYear>2001</publicationYear>
+		<resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+		<titles>
+			<title>DRVS Test DOI 9 - Fail - E06 Publisher not a ROR</title>
+		</titles>
+		<subjects>
+			<subject subjectScheme="local">local subject</subject>
+			<subject subjectScheme="keyword">keyword1</subject>
+			<subject subjectScheme="anzsrc">04</subject>
+		</subjects>
+		<alternateIdentifiers>
+			<alternateIdentifier alternateIdentifierType="local_id">tcf</alternateIdentifier>
+		</alternateIdentifiers>
+		<relatedIdentifiers>
+			<relatedIdentifier relatedIdentifierType="ISSN" relationType="IsCitedBy" resourceTypeGeneral="DataPaper">issn1233</relatedIdentifier>
+		</relatedIdentifiers>
+		<sizes>
+			<size>4.25TB</size>
+		</sizes>
+		<descriptions>
+			<description descriptionType="Other">Other description</description>
+		</descriptions>
+		<rightsList>
+			<rights>Some example rights</rights>
+		</rightsList>
+		<creators>
+			<creator>
+				<creatorName>Organisation 1</creatorName>
+				<nameIdentifier nameIdentifierScheme="ROR">https://ror.org/038sjwq14</nameIdentifier>
+			</creator>
+		</creators>
+	</resource>
+	<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.2/metadata.xsd">
+		<identifier identifierType="DOI">10.80298/TEST_DOI_6029f78bec728</identifier>
+		<publisher>https://ror.org/038sjwq14</publisher>
+		<publicationYear>2001</publicationYear>
+		<resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+		<titles>
+			<title>DRVS Test DOI 8 - Fail - E05 Missing Description</title>
+		</titles>
+		<subjects>
+			<subject subjectScheme="local">local subject</subject>
+			<subject subjectScheme="keyword">keyword1</subject>
+			<subject subjectScheme="anzsrc">04</subject>
+		</subjects>
+		<alternateIdentifiers>
+			<alternateIdentifier alternateIdentifierType="local_id">aussie</alternateIdentifier>
+		</alternateIdentifiers>
+		<relatedIdentifiers>
+			<relatedIdentifier relatedIdentifierType="ISSN" relationType="IsCitedBy" resourceTypeGeneral="DataPaper">issn1233</relatedIdentifier>
+		</relatedIdentifiers>
+		<sizes>
+			<size>4.25TB</size>
+		</sizes>
+		<rightsList>
+			<rights>Some example rights</rights>
+		</rightsList>
+		<creators>
+			<creator>
+				<creatorName>Organisation 1</creatorName>
+				<nameIdentifier nameIdentifierScheme="ROR">https://ror.org/038sjwq14</nameIdentifier>
+			</creator>
+		</creators>
+	</resource>
+	<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.2/metadata.xsd">
+		<identifier identifierType="DOI">10.80298/TEST_DOI_6029f7b67246b</identifier>
+		<publisher>https://ror.org/038sjwq14</publisher>
+		<publicationYear>2001</publicationYear>
+		<resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+		<titles>
+			<title>DRVS Test DOI 7 - Fail - E03 Missing Subject</title>
+		</titles>
+		<subjects>
+			<subject subjectScheme="local">local subject</subject>
+			<subject subjectScheme="keyword">keyword1</subject>
+		</subjects>
+		<alternateIdentifiers>
+			<alternateIdentifier alternateIdentifierType="local_id">gfat</alternateIdentifier>
+		</alternateIdentifiers>
+		<relatedIdentifiers>
+			<relatedIdentifier relatedIdentifierType="ISSN" relationType="IsCitedBy" resourceTypeGeneral="DataPaper">issn1233</relatedIdentifier>
+		</relatedIdentifiers>
+		<sizes>
+			<size>4.25TB</size>
+		</sizes>
+		<descriptions>
+			<description descriptionType="Other">Other description</description>
+		</descriptions>
+		<rightsList>
+			<rights>Some example rights</rights>
+		</rightsList>
+		<creators>
+			<creator>
+				<creatorName>Organisation 1</creatorName>
+				<nameIdentifier nameIdentifierScheme="ROR">https://ror.org/038sjwq14</nameIdentifier>
+			</creator>
+		</creators>
+	</resource>
+	<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.2/metadata.xsd">
+		<identifier identifierType="DOI">10.80298/TEST_DOI_602b5ddc98821</identifier>
+		<publisher>https://ror.org/038sjwq14</publisher>
+		<publicationYear>2001</publicationYear>
+		<resourceType resourceTypeGeneral="Text">Report</resourceType>
+		<titles>
+			<title titleType="AlternativeTitle" xml:lang="en">DRVS Test DOI 16 - Pass - Multiple creators</title>
+		</titles>
+		<subjects>
+			<subject subjectScheme="for">0601</subject>
+		</subjects>
+		<dates>
+			<date dateType="Created">2020-11-10</date>
+			<date dateType="Updated">2021-02-15</date>
+		</dates>
+		<alternateIdentifiers>
+			<alternateIdentifier alternateIdentifierType="local ID">gres</alternateIdentifier>
+		</alternateIdentifiers>
+		<sizes>
+			<size>1612477 TB</size>
+		</sizes>
+		<descriptions>
+			<description descriptionType="Other">Other description</description>
+		</descriptions>
+		<creators>
+			<creator>
+				<creatorName>Test User 1</creatorName>
+			</creator>
+			<creator>
+				<creatorName>Test User 2</creatorName>
+				<givenName>Test</givenName>
+				<familyName>User</familyName>
+			</creator>
+			<creator>
+				<creatorName>Organisation 1</creatorName>
+				<nameIdentifier nameIdentifierScheme="orcid">0000-2323-2356-5654</nameIdentifier>
+			</creator>
+			<creator>
+				<creatorName nameType="Personal">Hendry, Natalie</creatorName>
+				<givenName>Natalie</givenName>
+				<familyName>Hendry</familyName>
+				<nameIdentifier nameIdentifierScheme="orcid">0000-2443-2356-5654</nameIdentifier>
+			</creator>
+			<creator>
+				<creatorName nameType="Personal">Flore, Jacinthe</creatorName>
+				<givenName>Jacinthe</givenName>
+				<familyName>Flore</familyName>
+			</creator>
+			<creator>
+				<creatorName>Averyl Gaylor</creatorName>
+			</creator>
+			<creator>
+				<creatorName>Thomas Shafee</creatorName>
+				<nameIdentifier nameIdentifierScheme="ORCID" schemeURI="http://orcid.org">0000-0002-2298-7593</nameIdentifier>
+			</creator>
+			<creator>
+				<creatorName>BK Kerenga</creatorName>
+			</creator>
+			<creator>
+				<creatorName>Tatiana Soares-da-Costa</creatorName>
+			</creator>
+			<creator>
+				<creatorName>DJ Craik</creatorName>
+			</creator>
+		</creators>
+		<fundingReferences>
+			<fundingReference>
+				<funderName>Funder 1</funderName>
+				<awardNumber>123T3</awardNumber>
+			</fundingReference>
+		</fundingReferences>
+	</resource>
+	<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.2/metadata.xsd">
+		<identifier identifierType="DOI">10.80298/TEST_DOI_602b5ebdb2fa4</identifier>
+		<publisher>https://ror.org/038sjwq14</publisher>
+		<publicationYear>2009</publicationYear>
+		<resourceType resourceTypeGeneral="Text">Report</resourceType>
+		<titles>
+			<title titleType="AlternativeTitle" xml:lang="en">DRVS Test DOI 17 - Pass .?* - Only Rights identifier and scheme Test IGSN Metdata 4 Containing 2 Byte chars 田中さんにあげて下さい</title>
+		</titles>
+		<subjects>
+			<subject subjectScheme="for">0601</subject>
+			<subject>.?*</subject>
+		</subjects>
+		<dates>
+			<date dateType="Created">2020-11-10</date>
+			<date dateType="Updated">2021-02-15</date>
+		</dates>
+		<alternateIdentifiers>
+			<alternateIdentifier alternateIdentifierType="local ID">gres</alternateIdentifier>
+		</alternateIdentifiers>
+		<sizes>
+			<size>1612477 TB</size>
+		</sizes>
+		<descriptions>
+			<description descriptionType="Other">Other description</description>
+		</descriptions>
+		<creators>
+			<creator>
+				<creatorName>Test User 1 , 34A {}.?*</creatorName>
+			</creator>
+			<creator>
+				<creatorName>Test User 2</creatorName>
+				<givenName>Test</givenName>
+				<familyName>User</familyName>
+			</creator>
+			<creator>
+				<creatorName>Organisation 1</creatorName>
+				<nameIdentifier nameIdentifierScheme="orcid">0000-2323-2356-5654</nameIdentifier>
+			</creator>
+			<creator>
+				<creatorName nameType="Personal">Hendry, Natalie</creatorName>
+				<givenName>Natalie</givenName>
+				<familyName>Hendry</familyName>
+				<nameIdentifier nameIdentifierScheme="orcid">0000-2443-2356-5654</nameIdentifier>
+			</creator>
+			<creator>
+				<creatorName nameType="Personal">Flore, Jacinthe</creatorName>
+				<givenName>Jacinthe</givenName>
+				<familyName>Flore</familyName>
+			</creator>
+			<creator>
+				<creatorName>Averyl Gaylor</creatorName>
+			</creator>
+			<creator>
+				<creatorName>Thomas Shafee</creatorName>
+				<nameIdentifier nameIdentifierScheme="ORCID" schemeURI="http://orcid.org">0000-0002-2298-7593</nameIdentifier>
+			</creator>
+			<creator>
+				<creatorName>BK Kerenga</creatorName>
+			</creator>
+			<creator>
+				<creatorName>Tatiana Soares-da-Costa</creatorName>
+			</creator>
+			<creator>
+				<creatorName>DJ Craik</creatorName>
+			</creator>
+		</creators>
+		<fundingReferences>
+			<fundingReference>
+				<funderName>ARDC</funderName>
+				<funderIdentifier funderIdentifierType="ISNI">34553</funderIdentifier>
+			</fundingReference>
+		</fundingReferences>
+	</resource>
+</resources>
