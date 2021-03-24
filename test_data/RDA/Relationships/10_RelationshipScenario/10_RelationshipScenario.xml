@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xmlns:extRif="http://ands.org.au/standards/rif-cs/extendedRegistryObjects" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
     <registryObject group="AUTestingRecordsRelationships">
-        <key>AUTCollection1R2</key>
+<!-- KEY -->
+<key>AUTCollection1R_10</key>
+
         <originatingSource type="">http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
         <collection dateModified="2013-04-10T23:51:55Z" type="collection">
-            <name type="abbreviated">
-                <namePart>abbreviatedName</namePart>
-            </name>
-            <name type="alternative">
-                <namePart>alternativeName</namePart>
-            </name>
-            <name type="primary">
-                <namePart>Relationship scenaio 2</namePart>
-            </name>
+
+<!-- TITLE -->
+<name type="primary">
+    <namePart>Relationship scenario _10</namePart>
+</name>
             <description type="local">&amp;lt;p&amp;gt;This is a local statement for the colleciton&amp;lt;/p&amp;gt;</description>
             <rights>
                 <rightsStatement rightsUri="http://www.rightsuri.com">Rights Statement Rights Statement</rightsStatement>
                 <licence rightsUri="http://www.rightsuri.com" type="AusGOALRestrictive">LicenceLicenceLicence</licence>
                 <accessRights rightsUri="http://www.rightsuri.com">Access Rights</accessRights>
             </rights>
-            <identifier type="AU-ANL:PEAU">nla.AUTCollection1R2</identifier>
+<!-- IDENTIFIERS -->
+<identifier type="local">nla.AUTCollection1R_10</identifier>
+
             <dates type="dc.available">
                 <date dateFormat="W3CDTF" type="dateFrom">2013-02-07T00:00:00Z</date>
             </dates>
@@ -55,10 +55,24 @@
             <coverage>
                 <spatial type="text">Some place in Australia</spatial>
             </coverage>
-            <relatedObject>
-                <key>http://nla.gov.au/nla.party-AUTR12</key>
-                <relation type="hasCollector"/>
-            </relatedObject>
+
+<!-- RELATIONSHIPS -->
+
+<relatedObject>
+    <key>http://nla.gov.au/nla.party-AUTR_10</key>
+    <relation type="hasAssociationWith"/>
+</relatedObject>
+<!--
+<relatedInfo type="party">
+    <title>Example party 9</title>
+<identifier type="local">http://nla.gov.au/nla.party-AUT_10</identifier>
+    <relation type="isManagedBy"/>
+</relatedInfo>
+<relatedInfo type="party">
+    <title>Example party 9</title>
+<identifier type="local">http://nla.gov.au/nla.party-AUT9</identifier>
+    <relation type="isOwnedBy"/>
+</relatedInfo>-->
             <subject type="local">localSubject</subject>
             <subject type="anzsrc-seo">830201</subject>
             <subject type="anzsrc-for">0303</subject>
@@ -79,19 +93,32 @@
             </citationInfo>
         </collection>
     </registryObject>
-    <registryObject group="AUTestingRecordsRelationships">
-        <key>http://nla.gov.au/nla.party-AUTR12</key>
+
+<registryObject group="AUTestingRecordsRelationships">
+<!-- KEY -->
+<key>http://nla.gov.au/nla.party-AUTR_10</key>
+
         <originatingSource type="">nla.gov.au</originatingSource>
         <party type="group">
-            <name type="primary">
-                <namePart>(AUTestingRecords) Example related party 2</namePart>
-            </name>
+<!-- TITLE -->
+<name type="primary">
+    <namePart>(AUTestingRecords) Example related party _10</namePart>
+</name>
+
             <description type="brief">&amp;lt;p&amp;gt;A party for all&amp;lt;/p&amp;gt;</description>
-            <identifier type="AU-ANL:PEAU">http://nla.gov.au/nla.party-AUT2</identifier>
-            <relatedObject>
-                <key>AUTCollection1R2</key>
-                <relation type="isCollectorOf"/>
-            </relatedObject>
+
+<identifier type="local">http://nla.gov.au/nla.party-AUT_10</identifier>
+
+<relatedObject>
+    <key>AUTCollection1R_10</key>
+    <relation type="isOwnerof"/>
+</relatedObject>
+<!--<relatedInfo type="party">
+    <title>Collection 4</title>
+    <identifier type="local">nla.AUTCollection1R4</identifier>
+    <relation type="isCollectorOf"/>
+</relatedInfo>-->
+
             <location>
                 <address>
                     <electronic type="url">
