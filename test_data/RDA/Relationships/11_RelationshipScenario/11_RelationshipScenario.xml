@@ -2,14 +2,14 @@
 <registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xmlns:extRif="http://ands.org.au/standards/rif-cs/extendedRegistryObjects" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
     <registryObject group="AUTestingRecordsRelationships">
 <!-- KEY -->
-<key>AUTCollection1R_10</key>
+<key>AUTCollection1R_11</key>
 
         <originatingSource type="">http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
         <collection dateModified="2013-04-10T23:51:55Z" type="collection">
 
 <!-- TITLE -->
 <name type="primary">
-    <namePart>Relationship scenario _10</namePart>
+    <namePart>Relationship scenario _11</namePart>
 </name>
             <description type="local">&amp;lt;p&amp;gt;This is a local statement for the colleciton&amp;lt;/p&amp;gt;</description>
             <rights>
@@ -18,7 +18,7 @@
                 <accessRights rightsUri="http://www.rightsuri.com">Access Rights</accessRights>
             </rights>
 <!-- IDENTIFIERS -->
-<identifier type="local">nla.AUTCollection1R_10</identifier>
+<identifier type="local">nla.AUTCollection1R_11</identifier>
 
             <dates type="dc.available">
                 <date dateFormat="W3CDTF" type="dateFrom">2013-02-07T00:00:00Z</date>
@@ -59,13 +59,13 @@
 <!-- RELATIONSHIPS -->
 
 <relatedObject>
-    <key>http://nla.gov.au/nla.party-AUTR_10</key>
-    <relation type="hasAssociationWith"/>
+    <key>http://nla.gov.au/nla.party-AUTR_11</key>
+    <relation type="isEnrichedBy"/>
 </relatedObject>
 <!--
 <relatedInfo type="party">
     <title>Example party 9</title>
-<identifier type="local">http://nla.gov.au/nla.party-AUT_10</identifier>
+<identifier type="local">http://nla.gov.au/nla.party-AUT_11</identifier>
     <relation type="isManagedBy"/>
 </relatedInfo>
 <relatedInfo type="party">
@@ -96,28 +96,28 @@
 
 <registryObject group="AUTestingRecordsRelationships">
 <!-- KEY -->
-<key>http://nla.gov.au/nla.party-AUTR_10</key>
+<key>http://nla.gov.au/nla.party-AUTR_11</key>
 
         <originatingSource type="">nla.gov.au</originatingSource>
         <party type="group">
 <!-- TITLE -->
 <name type="primary">
-    <namePart>(AUTestingRecords) Example related party _10</namePart>
+    <namePart>(AUTestingRecords) Example related party _11</namePart>
 </name>
 
             <description type="brief">&amp;lt;p&amp;gt;A party for all&amp;lt;/p&amp;gt;</description>
 
-<identifier type="local">http://nla.gov.au/nla.party-AUT_10</identifier>
+<identifier type="local">http://nla.gov.au/nla.party-AUT_11</identifier>
 
-<relatedObject>
-    <key>AUTCollection1R_10</key>
+<!--<relatedObject>
+    <key>AUTCollection1R_11</key>
     <relation type="isOwnerOf"/>
-</relatedObject>
-<!--<relatedInfo type="party">
+</relatedObject>-->
+<relatedInfo type="party">
     <title>Collection 4</title>
-    <identifier type="local">nla.AUTCollection1R4</identifier>
-    <relation type="isCollectorOf"/>
-</relatedInfo>-->
+    <identifier type="local">nla.AUTCollection1R_11</identifier>
+    <relation type="isOwnerOf"/>
+</relatedInfo>
 
             <location>
                 <address>
