@@ -111,7 +111,7 @@
         <key>C2_15</key>
         <originatingSource> Indian National Centre for Ocean Information Services (INCOIS) </originatingSource>
         <collection type="dataset">
-            <identifier type="uri"> http://imosmest.aodn.org.au:80/geonetwork/srv/en/metadata.show?uuid=86ec0cee-0620-3724-963a-d0432495584d AUTbx12_15</identifier>
+            <identifier type="uri">C2_ID1_15</identifier>
             <name type="primary">
                 <namePart>(AUTestingRecords) Example Collection 2 _15</namePart>
             </name>
@@ -368,8 +368,8 @@
 </name>
 
 <!-- IDENTIFIER -->
-<identifier type="purl">purl.org./23454fdgsfdsdf_15</identifier>
-<identifier type="arc">23454fdgsfdsdf_15</identifier>
+<identifier type="purl">A1__ID1_15</identifier>
+<identifier type="arc">A1__ID2_15</identifier>
 
 <!--<relatedObject>
     <key>C1_15</key>
