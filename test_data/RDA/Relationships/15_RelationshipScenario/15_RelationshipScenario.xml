@@ -5,7 +5,7 @@
 
     <registryObject group="AUTestingRecordsRelationships">
 <!-- KEY -->
-<key>AUTCollection1R_15</key>
+<key>C1_15</key>
 
         <originatingSource type="">http://demo.ands.org.au/registry/orca/register_my_data</originatingSource>
         <collection dateModified="2013-04-10T23:51:55Z" type="collection">
@@ -21,7 +21,7 @@
                 <accessRights rightsUri="http://www.rightsuri.com">Access Rights</accessRights>
             </rights>
 <!-- IDENTIFIERS -->
-<identifier type="local">nla.AUTCollection1R_15</identifier>
+<identifier type="local">CI_ID1_15</identifier>
 
             <dates type="dc.available">
                 <date dateFormat="W3CDTF" type="dateFrom">2013-02-07T00:00:00Z</date>
@@ -62,21 +62,21 @@
 <!-- RELATIONSHIPS -->
 
 <relatedObject>
-    <key>AUTestingRecordsRelations_15</key>
+    <key>A1_15</key>
     <relation type="isOutputof"/>
 </relatedObject>
 <relatedObject>
-    <key>AUTestingRecordssdfsdf43434d_15</key>
+    <key>S1_15</key>
     <relation type="isProducedBy"/>
 </relatedObject>
 <relatedObject>
-    <key>http://nla.gov.au/nla.party-AUTR_15</key>
+    <key>P1_15</key>
     <relation type="isEnrichedBy"/>
 </relatedObject>
 <!--
 <relatedInfo type="party">
     <title>Example party 9</title>
-<identifier type="local">http://nla.gov.au/nla.party-AUT_15</identifier>
+<identifier type="local">P1_ID1_15</identifier>
     <relation type="isManagedBy"/>
 </relatedInfo>
 <relatedInfo type="party">
@@ -108,7 +108,7 @@
 
 
 <registryObject group="AUTestingRecordsRelationships">
-        <key>AUTestingRecordsNestedx100IMOS/86ec0cee-0620-3724-963a-d0432495584d2-_15</key>
+        <key>C2_15</key>
         <originatingSource> Indian National Centre for Ocean Information Services (INCOIS) </originatingSource>
         <collection type="dataset">
             <identifier type="uri"> http://imosmest.aodn.org.au:80/geonetwork/srv/en/metadata.show?uuid=86ec0cee-0620-3724-963a-d0432495584d AUTbx12_15</identifier>
@@ -120,7 +120,7 @@
             </dates>
 <!-- RELATED OBJECTS -->
 <relatedObject>
-    <key>AUTCollection1R_15</key>
+    <key>C1_15</key>
     <relation type="isDescribedBy"/>
 </relatedObject>
 
@@ -165,14 +165,14 @@
     </registryObject>
 
     <registryObject group="AUTestingRecords">
-        <key>AUTestingRecordsTestRelatedActivityNoTitle1_15</key>
+        <key>C3_15</key>
         <originatingSource>http://catalogue.aodn.org.au/geonetwork/srv/en</originatingSource>
         <collection type="dataset">
 
             <name type="primary">
                 <namePart type="full">(AUTestingRecords)Example Collection 3 _15</namePart>
             </name>
-            <identifier type="local">nla.AUTCollection1R_15</identifier>
+            <identifier type="local">CI_ID1_15</identifier>
             <location>
                 <address>
           <electronic type="url">
@@ -189,11 +189,11 @@
             </coverage>
 
 <relatedObject>
-    <key>AUTestingRecordsRelatedGroup213sd3_15</key>
+    <key>P2_15</key>
     <relation type="isEnrichedBy"/>
 </relatedObject>
 <relatedObject>
-    <key>AUTestingRecordsRelatedServiceReportRelObj2_15</key>
+    <key>S2_15</key>
     <relation type="isProducedBy"/>
 </relatedObject>
 
@@ -225,7 +225,7 @@
 
 <registryObject group="AUTestingRecordsRelationships">
 <!-- KEY -->
-<key>http://nla.gov.au/nla.party-AUTR_15</key>
+<key>P1_15</key>
 
         <originatingSource type="">nla.gov.au</originatingSource>
         <party type="group">
@@ -236,15 +236,15 @@
 
             <description type="brief">&amp;lt;p&amp;gt;A party for all&amp;lt;/p&amp;gt;</description>
 <!-- IDENTIFIER -->
-<identifier type="local">http://nla.gov.au/nla.party-AUT_15</identifier>
+<identifier type="local">P1_ID1_15</identifier>
 
 <!--<relatedObject>
-    <key>AUTCollection1R_15</key>
+    <key>C1_15</key>
     <relation type="isOwnerOf"/>
 </relatedObject>-->
 <!--<relatedInfo type="party">
     <title>Collection 4</title>
-    <identifier type="local">nla.AUTCollection1R_15</identifier>
+    <identifier type="local">CI_ID1_15</identifier>
     <relation type="isOwnerOf"/>
 </relatedInfo>-->
 
@@ -260,13 +260,13 @@
 
 
     <registryObject group="AUTestingRecords">
-        <key>AUTestingRecordsRelatedGroup213sd3_15</key>
+        <key>P2_15</key>
         <originatingSource>http://www.proteomebrowser.org</originatingSource>
         <party type="group">
             <name type="primary">
                 <namePart type="">(AUTestingRecords)Example party 2 _15.</namePart>
             </name>
-            <identifier type="local">asdfkddjasdlkfdls_15</identifier>
+            <identifier type="local">P2_ID1_15</identifier>
             <location>
                 <address>
           <electronic type="url">
@@ -288,11 +288,11 @@
 
 <registryObject group="AUTestingRecordsRelationships">
 <!-- KEY -->
-<key>AUTestingRecordssdfsdf43434d_15</key>
+<key>S1_15</key>
     <originatingSource>http://www.ga.gov.au</originatingSource>
     <service type="software">
 <!-- IDENTIFIER -->
-<identifier type="local">asfsdfw345345436gg_15</identifier>
+<identifier type="local">S1_ID1_15</identifier>
         
 <!-- TITLE -->
 <name type="primary">
@@ -325,7 +325,7 @@
 </registryObject>
 
 <registryObject group="AUTestingRecords">
-        <key>AUTestingRecordsRelatedServiceReportRelObj2_15</key>
+        <key>S2_15</key>
         <originatingSource>http://services.ands.org.au/home/orca/register_my_data</originatingSource>
         <service type="search-http">
             <name type="primary">
@@ -359,7 +359,7 @@
 <!-- ### ACTIVITIES ### -->
 <registryObject group="AUTestingRecordsRelationships">
 <!-- KEY -->
-<key>AUTestingRecordsRelations_15</key>
+<key>A1_15</key>
         <originatingSource>arc.gov.au/general/searchable_data.htm</originatingSource>
         <activity type="grant">
 <!-- TITLE -->
@@ -372,12 +372,12 @@
 <identifier type="arc">23454fdgsfdsdf_15</identifier>
 
 <!--<relatedObject>
-    <key>AUTCollection1R_15</key>
+    <key>C1_15</key>
     <relation type="isOwnerOf"/>
 </relatedObject>-->
 <!--<relatedInfo type="party">
     <title>Collection 4</title>
-    <identifier type="local">nla.AUTCollection1R_15</identifier>
+    <identifier type="local">CI_ID1_15</identifier>
     <relation type="isOwnerOf"/>
 </relatedInfo>-->
 
