@@ -21,10 +21,6 @@ key = C5_16 has child collection (key = C3_16) and should NOT inherit grants net
                 <date type="dateFrom" dateFormat="W3CDTF">2014-09-09T06:06:15</date>
             </dates>
             <relatedObject>
-                <key>AUTestingRecordsNestedx3IMOS/8cc13f98-9897-4193-8ba6-d1f05356d3f2</key>
-                <relation type="isPartOf"/>
-            </relatedObject>
-            <relatedObject>
                 <key>A7_16</key>
                 <relation type="isOutputOf"/>
             </relatedObject>
@@ -69,12 +65,7 @@ key = C5_16 has child collection (key = C3_16) and should NOT inherit grants net
                     <date type="dateTo" dateFormat="W3CDTF">2014-08-28T14:37:01</date>
                 </temporal>
             </coverage>
-            <relatedInfo type="website">
-                <identifier type="uri">http://thredds.aodn.org.au/thredds/catalog/IMOS/Argo/dac/aoml/1900812/catalog.htmlAUTbx1</identifier>
-                <relation type="hasAssociationWith"/>
-                <title>Data available via the IMOS OPeNDAP server</title>
-            </relatedInfo>
-            <rights>
+             <rights>
                 <rightsStatement>
                     Argo Data (Temperature and Salinity profiles) are freely available without any restriction, via the
                     internet Global Data Centres (GDACs) and the GTS of WMO. Please support Argo by acknowledging your
@@ -158,11 +149,6 @@ key = C5_16 has child collection (key = C3_16) and should NOT inherit grants net
                     <date type="dateTo" dateFormat="W3CDTF">2014-08-28T14:37:01</date>
                 </temporal>
             </coverage>
-            <relatedInfo type="website">
-                <identifier type="uri">http://thredds.aodn.org.au/thredds/catalog/IMOS/Argo/dac/aoml/1900812/catalog.htmlAUTbx1</identifier>
-                <relation type="hasAssociationWith"/>
-                <title>Data available via the IMOS OPeNDAP server</title>
-            </relatedInfo>
             <rights>
                 <rightsStatement>
                     Argo Data (Temperature and Salinity profiles) are freely available without any restriction, via the
@@ -220,7 +206,7 @@ key = C5_16 has child collection (key = C3_16) and should NOT inherit grants net
                 </address>
             </location>
             <relatedInfo type="website">
-                <identifier type="uri">http://collections.ala.org.au/public/show/dr968</identifier>
+                <identifier type="uri">w_ID3_16</identifier>
             </relatedInfo>
             <relatedObject>
                 <key>C3_16</key>
@@ -255,13 +241,6 @@ key = C5_16 has child collection (key = C3_16) and should NOT inherit grants net
                     </electronic>
                 </address>
             </location>
-            <relatedInfo type="website">
-                <identifier type="uri">http://naturemap.dec.wa.gov.au/default.aspx</identifier>
-                <title>See this Collection on the website of NatureMap</title>
-            </relatedInfo>
-            <relatedInfo type="website">
-                <identifier type="uri">http://collections.ala.org.au/public/show/dr931</identifier>
-            </relatedInfo>
             <relatedObject>
                 <key>C3_16</key>
                 <relation type="hasPart"/>
@@ -337,14 +316,15 @@ key = C5_16 has child collection (key = C3_16) and should NOT inherit grants net
             </coverage>
         </collection>
     </registryObject>
+
     <registryObject group="AUTestingRecords2">
-        <key>http://nla.gov.au/nla.party-AUT2</key>
+        <key>P2_16</key>
         <originatingSource type="">nla.gov.au</originatingSource>
         <party type="group">
             <name type="primary">
                 <namePart>(AUTestingRecords2) University of AUTestingRecords2</namePart>
             </name>
-            <identifier type="AU-ANL:PEAU">http://nla.gov.au/nla.party-AUT2</identifier>
+            <identifier type="AU-ANL:PEAU">P2_16</identifier>
             <location>
                 <address>
                     <electronic type="url">
@@ -355,10 +335,10 @@ key = C5_16 has child collection (key = C3_16) and should NOT inherit grants net
         </party>
     </registryObject>
     <registryObject group="AUTestingRecords2">
-        <key>http://nla.gov.au/nla.party-AUT2.1</key>
+        <key>P3_16</key>
         <originatingSource>nla.gov.au</originatingSource>
         <party type="group">
-            <identifier type="AU-ANL:PEAU">http://nla.gov.au/nla.party-AUT2</identifier>
+            <identifier type="AU-ANL:PEAU">P2_ID1_16</identifier>
             <name type="primary">
                 <namePart>(AUTestingRecords2) University of AUTestingRecords2 DUPLICATE ONE</namePart>
             </name>
@@ -372,10 +352,10 @@ key = C5_16 has child collection (key = C3_16) and should NOT inherit grants net
         </party>
     </registryObject>
     <registryObject group="AUTestingRecords2">
-        <key>http://nla.gov.au/nla.party-AUT2.2</key>
+        <key>P4_16</key>
         <originatingSource>nla.gov.au</originatingSource>
         <party type="group">
-            <identifier type="AU-ANL:PEAU">http://nla.gov.au/nla.party-AUT2</identifier>
+            <identifier type="AU-ANL:PEAU">P2_ID1_16</identifier>
             <identifier type="orcid">orcid-123932993kd</identifier>
             <name type="primary">
                 <namePart>(AUTestingRecords2) University of AUTestingRecords2 DUPLICATE TWO</namePart>
